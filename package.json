@@ -1,6 +1,5 @@
 {
   "name": "bankpro",
-  "homepage": "https://esuba.github.io/bankpro-landingpage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
