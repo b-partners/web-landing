@@ -1,10 +1,10 @@
-import Home from "./Home.js";
+import Home from './Home.js';
 function App() {
-  return (
-    <div>
-      <Home />
-    </div>
-  );
+	return (
+		<div>
+			<Home />
+		</div>
+	);
 }
 
 export default App;
