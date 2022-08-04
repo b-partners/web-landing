@@ -47,11 +47,7 @@ export function Home() {
                   </a>
                 </li>
                 <li className="nav__item" id="ouvrir-compte">
-                  <a
-                    href="inscription.html"
-                    className="nav__link"
-                    style={{ color: 'white' }}
-                  >
+                  <a href="inscription.html" className="nav__link" style={{ color: 'white' }}>
                     Ouvrir un compte
                   </a>
                 </li>
@@ -71,9 +67,7 @@ export function Home() {
               </div>
 
               <div className="home__data">
-                <h1 className="home__title">
-                  Le compte pro optimisé pour votre business.
-                </h1>
+                <h1 className="home__title">Le compte pro optimisé pour votre business.</h1>
                 <p className="home__description">
                   <span id="img" className="valign">
                     <Check />
@@ -106,22 +100,13 @@ export function Home() {
                   sans frais cachés.
                 </h2>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" />
-                  {' '}
-                  Compte pro avec
-                  IBAN EE
+                  <i className="fa fa-check" aria-hidden="true" /> Compte pro avec IBAN EE
                 </p>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" />
-                  {' '}
-                  Virements SEPA
-                  entrants et sortants illimités
+                  <i className="fa fa-check" aria-hidden="true" /> Virements SEPA entrants et sortants illimités
                 </p>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" />
-                  {' '}
-                  Virements
-                  instantanés jusqu'a 100 000€
+                  <i className="fa fa-check" aria-hidden="true" /> Virements instantanés jusqu'a 100 000€
                 </p>
               </div>
               <div className="share__img">
@@ -132,28 +117,18 @@ export function Home() {
             <div className="share__container bd-grid">
               <div className="share__data" id="deux">
                 <h2 className="section-title-center">
-                  Gérez vos cartes
-                  {' '}
-                  <br />
+                  Gérez vos cartes <br />
                   facilement.
                 </h2>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" />
-                  {' '}
-                  Émettez des
-                  cartes physiques et virtuelles
+                  <i className="fa fa-check" aria-hidden="true" /> Émettez des cartes physiques et virtuelles
                 </p>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" />
-                  {' '}
-                  Suivez les
-                  dépenses en temps réel pour toute votre équipe
+                  <i className="fa fa-check" aria-hidden="true" /> Suivez les dépenses en temps réel pour toute votre
+                  équipe
                 </p>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" />
-                  {' '}
-                  Bloquez et
-                  débloquez votre carte en un seul clic
+                  <i className="fa fa-check" aria-hidden="true" /> Bloquez et débloquez votre carte en un seul clic
                 </p>
               </div>
               <div className="share__img">
@@ -169,16 +144,10 @@ export function Home() {
                   simplifiée.
                 </h2>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" />
-                  {' '}
-                  Consacrez moins
-                  de temps aux tâches administratives
+                  <i className="fa fa-check" aria-hidden="true" /> Consacrez moins de temps aux tâches administratives
                 </p>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" />
-                  {' '}
-                  Téléchargez
-                  votre RIB et vos reçus en un clic
+                  <i className="fa fa-check" aria-hidden="true" /> Téléchargez votre RIB et vos reçus en un clic
                 </p>
               </div>
               <div className="share__img">
@@ -205,64 +174,36 @@ export function Home() {
                   <ul className="pricing-features">
                     <li className="pricing-features-item">
                       <span style={{ fontSize: 12 }}>
-                        <strong>
-                          Les services essentiels pour gérer votre activité
-                          d'indépendant.
-                        </strong>
+                        <strong>Les services essentiels pour gérer votre activité d'indépendant.</strong>
                       </span>
                     </li>
+                    <li className="pricing-features-item">Service de banque en ligne</li>
                     <li className="pricing-features-item">
-                      Service de banque en ligne
+                      <strong>30</strong> jours gratuits et sans engagement.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>30</strong>
-                      {' '}
-                      jours gratuits et sans engagement.
+                      <strong>60k€/an</strong> de commissions de mouvements de compte incluses à hauteur puis 0,15%
                     </li>
                     <li className="pricing-features-item">
-                      <strong>60k€/an</strong>
-                      {' '}
-                      de commissions de mouvements de
-                      compte incluses à hauteur puis 0,15%
+                      <strong>1</strong> seul utilisateur (1 carte Mastercard Business)
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1</strong>
-                      {' '}
-                      seul utilisateur (1 carte Mastercard
-                      Business)
+                      Cartes virtuelles à <strong>2€/mois</strong>, par carte.
                     </li>
                     <li className="pricing-features-item">
-                      Cartes virtuelles à
-                      {' '}
-                      <strong>2€/mois</strong>
-                      , par carte.
+                      <strong>200€</strong> de retraits gratuits par mois, puis 1% du montant.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>200€</strong>
-                      {' '}
-                      de retraits gratuits par mois, puis
-                      1% du montant.
+                      <strong>1500€</strong> de plafond pour vos retraits.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1500€</strong>
-                      {' '}
-                      de plafond pour vos retraits.
+                      <strong>2%</strong> pour les paiements hors zone euro.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>2%</strong>
-                      {' '}
-                      pour les paiements hors zone euro.
+                      <strong>30</strong> virements et prélèvements puis 0,50€ au delà.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>30</strong>
-                      {' '}
-                      virements et prélèvements puis 0,50€
-                      au delà.
-                    </li>
-                    <li className="pricing-features-item">
-                      Support
-                      {' '}
-                      <strong>7 jours sur 7</strong>
+                      Support <strong>7 jours sur 7</strong>
                     </li>
                   </ul>
                 </div>
@@ -283,72 +224,42 @@ export function Home() {
                   <ul className="pricing-features">
                     <li className="pricing-features-item">
                       <span style={{ fontSize: 12 }}>
-                        <strong>
-                          Le forfait qui inclut toutes nos Fonctionnalités et un
-                          support prioritaire.
-                        </strong>
+                        <strong>Le forfait qui inclut toutes nos Fonctionnalités et un support prioritaire.</strong>
                       </span>
                     </li>
+                    <li className="pricing-features-item">Service de banque en ligne</li>
                     <li className="pricing-features-item">
-                      Service de banque en ligne
+                      <strong>30</strong> jours gratuits et sans engagement.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>30</strong>
-                      {' '}
-                      jours gratuits et sans engagement.
+                      <strong>1000k€/an</strong> de commissions de mouvements de compte incluses à hauteur puis 0,15%.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1000k€/an</strong>
-                      {' '}
-                      de commissions de mouvements de
-                      compte incluses à hauteur puis 0,15%.
+                      <strong>1</strong> seul utilisateur (1 carte Mastercard Business) et accès comptable.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1</strong>
-                      {' '}
-                      seul utilisateur (1 carte Mastercard
-                      Business) et accès comptable.
+                      Cartes virtuelles à <strong>2€/mois</strong>, par carte.
                     </li>
                     <li className="pricing-features-item">
-                      Cartes virtuelles à
-                      {' '}
-                      <strong>2€/mois</strong>
-                      , par carte.
+                      <strong>200€</strong> de retraits gratuits par mois, puis 1% du montant.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>200€</strong>
-                      {' '}
-                      de retraits gratuits par mois, puis
-                      1% du montant.
+                      <strong>2500€</strong> de plafond pour vos retraits.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>2500€</strong>
-                      {' '}
-                      de plafond pour vos retraits.
+                      <strong>1,7%</strong> pour les paiements hors zone euro.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1,7%</strong>
-                      {' '}
-                      pour les paiements hors zone euro.
+                      <strong>100</strong> virements et prélèvements puis 0,20€ au delà.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>100</strong>
-                      {' '}
-                      virements et prélèvements puis 0,20€
-                      au delà.
+                      Fonctionnalités avancées (multi-comptes, virements groupés)
                     </li>
                     <li className="pricing-features-item">
-                      Fonctionnalités avancées (multi-comptes, virements
-                      groupés)
+                      Pack comptabilité (reçus digitalisés, auto-détection de la TVA, labels)
                     </li>
                     <li className="pricing-features-item">
-                      Pack comptabilité (reçus digitalisés, auto-détection de la
-                      TVA, labels)
-                    </li>
-                    <li className="pricing-features-item">
-                      Support
-                      {' '}
-                      <strong> prioritaire 7 jours sur 7</strong>
+                      Support <strong> prioritaire 7 jours sur 7</strong>
                     </li>
                   </ul>
                 </div>
@@ -366,67 +277,39 @@ export function Home() {
                   <ul className="pricing-features">
                     <li className="pricing-features-item">
                       <span style={{ fontSize: 12 }}>
-                        <strong>
-                          Le compte complet pour faciliter votre gestion
-                          bancaire et comptable.
-                        </strong>
+                        <strong>Le compte complet pour faciliter votre gestion bancaire et comptable.</strong>
                       </span>
                     </li>
+                    <li className="pricing-features-item">Service de banque en ligne</li>
                     <li className="pricing-features-item">
-                      Service de banque en ligne
+                      <strong>30</strong> jours gratuits et sans engagement.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>30</strong>
-                      {' '}
-                      jours gratuits et sans engagement.
+                      <strong>150k€/an</strong> de commissions de mouvements de compte incluses à hauteur puis 0,15%.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>150k€/an</strong>
-                      {' '}
-                      de commissions de mouvements de
-                      compte incluses à hauteur puis 0,15%.
+                      <strong>1</strong> seul utilisateur (1 carte Mastercard Business) et accès comptable.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1</strong>
-                      {' '}
-                      seul utilisateur (1 carte Mastercard
-                      Business) et accès comptable.
+                      Cartes virtuelles à <strong>2€/mois</strong>, par carte.
                     </li>
                     <li className="pricing-features-item">
-                      Cartes virtuelles à
-                      {' '}
-                      <strong>2€/mois</strong>
-                      , par carte.
+                      <strong>200€</strong> de retraits gratuits par mois, puis 1% du montant.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>200€</strong>
-                      {' '}
-                      de retraits gratuits par mois, puis
-                      1% du montant.
+                      <strong>1.9%</strong> pour les paiements hors zone euro.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1.9%</strong>
-                      {' '}
-                      pour les paiements hors zone euro.
+                      <strong>60</strong> virements et prélèvements puis 0,30€ au delà.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>60</strong>
-                      {' '}
-                      virements et prélèvements puis 0,30€
-                      au delà.
+                      Fonctionnalités avancées (multi-comptes, virements groupés)
                     </li>
                     <li className="pricing-features-item">
-                      Fonctionnalités avancées (multi-comptes, virements
-                      groupés)
+                      Pack comptabilité (reçus digitalisés, auto-détection de la TVA, labels)
                     </li>
                     <li className="pricing-features-item">
-                      Pack comptabilité (reçus digitalisés, auto-détection de la
-                      TVA, labels)
-                    </li>
-                    <li className="pricing-features-item">
-                      Support
-                      {' '}
-                      <strong>7 jours sur 7</strong>
+                      Support <strong>7 jours sur 7</strong>
                     </li>
                   </ul>
                 </div>
@@ -439,25 +322,18 @@ export function Home() {
             <div className="decoration__container bd-grid">
               <div className="decoration__data">
                 <img src={connexion} alt="" className="step-image" />
-                <h4 className="step-text">
-                  Ouvrez votre compte en moins de 5 minutes sans paperasse
-                </h4>
+                <h4 className="step-text">Ouvrez votre compte en moins de 5 minutes sans paperasse</h4>
               </div>
 
               <div className="decoration__data">
                 <img src={confirmer} alt="" className="step-image2" />
-                <h4 className="step-text">
-                  Confirmez votre identité avec un selfie et une pièce
-                  d’identité
-                </h4>
+                <h4 className="step-text">Confirmez votre identité avec un selfie et une pièce d’identité</h4>
               </div>
 
               <div className="decoration__data">
                 <img src={valider} alt="" className="step-image2" />
                 <h4 className="step-text">
-                  Votre compte est validé
-                  {' '}
-                  <br />
+                  Votre compte est validé <br />
                   et votre IBAN prêt
                 </h4>
               </div>
@@ -465,9 +341,7 @@ export function Home() {
           </section>
           <section className="send section">
             <h2 className="section-title">Ouvrir un compte dès maintenant</h2>
-            <div className="texte">
-              30 jours gratuits et sans engagement, à partir de 9€ par mois.
-            </div>
+            <div className="texte">30 jours gratuits et sans engagement, à partir de 9€ par mois.</div>
             <div className="compte">
               <Apple alt="" class="dl" />
               <Google alt="" class="dl" />
@@ -494,8 +368,7 @@ export function Home() {
               <ul>
                 <li>
                   <a href="src/pages/Home/Home#" className="footer__link">
-                    Presse
-                    {' '}
+                    Presse{' '}
                   </a>
                 </li>
                 <li>
