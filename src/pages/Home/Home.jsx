@@ -100,13 +100,16 @@ export function Home() {
                   sans frais cachés.
                 </h2>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" /> Compte pro avec IBAN EE
+                  <i className="fa fa-check" aria-hidden="true" />
+                  &nbsp; Compte pro avec IBAN EE
                 </p>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" /> Virements SEPA entrants et sortants illimités
+                  <i className="fa fa-check" aria-hidden="true" />
+                  &nbsp; Virements SEPA entrants et sortants illimités
                 </p>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" /> Virements instantanés jusqu'a 100 000€
+                  <i className="fa fa-check" aria-hidden="true" />
+                  &nbsp; Virements instantanés jusqu'a 100 000€
                 </p>
               </div>
               <div className="share__img">
@@ -117,18 +120,21 @@ export function Home() {
             <div className="share__container bd-grid">
               <div className="share__data" id="deux">
                 <h2 className="section-title-center">
-                  Gérez vos cartes <br />
+                  Gérez vos cartes &nbsp;
+                  <br />
                   facilement.
                 </h2>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" /> Émettez des cartes physiques et virtuelles
+                  <i className="fa fa-check" aria-hidden="true" />
+                  &nbsp; Émettez des cartes physiques et virtuelles
                 </p>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" /> Suivez les dépenses en temps réel pour toute votre
-                  équipe
+                  <i className="fa fa-check" aria-hidden="true" />
+                  &nbsp; Suivez les dépenses en temps réel pour toute votre équipe
                 </p>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" /> Bloquez et débloquez votre carte en un seul clic
+                  <i className="fa fa-check" aria-hidden="true" />
+                  &nbsp; Bloquez et débloquez votre carte en un seul clic
                 </p>
               </div>
               <div className="share__img">
@@ -144,10 +150,12 @@ export function Home() {
                   simplifiée.
                 </h2>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" /> Consacrez moins de temps aux tâches administratives
+                  <i className="fa fa-check" aria-hidden="true" />
+                  &nbsp; Consacrez moins de temps aux tâches administratives
                 </p>
                 <p className="share__description">
-                  <i className="fa fa-check" aria-hidden="true" /> Téléchargez votre RIB et vos reçus en un clic
+                  <i className="fa fa-check" aria-hidden="true" />
+                  &nbsp; Téléchargez votre RIB et vos reçus en un clic
                 </p>
               </div>
               <div className="share__img">
@@ -179,31 +187,41 @@ export function Home() {
                     </li>
                     <li className="pricing-features-item">Service de banque en ligne</li>
                     <li className="pricing-features-item">
-                      <strong>30</strong> jours gratuits et sans engagement.
+                      <strong>30</strong>
+                      &nbsp; jours gratuits et sans engagement.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>60k€/an</strong> de commissions de mouvements de compte incluses à hauteur puis 0,15%
+                      <strong>60k€/an</strong>
+                      &nbsp; de commissions de mouvements de compte incluses à hauteur puis 0,15%
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1</strong> seul utilisateur (1 carte Mastercard Business)
+                      <strong>1</strong>
+                      &nbsp; seul utilisateur (1 carte Mastercard Business)
                     </li>
                     <li className="pricing-features-item">
-                      Cartes virtuelles à <strong>2€/mois</strong>, par carte.
+                      Cartes virtuelles à &nbsp;
+                      <strong>2€/mois</strong>
+                      , par carte.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>200€</strong> de retraits gratuits par mois, puis 1% du montant.
+                      <strong>200€</strong>
+                      &nbsp; de retraits gratuits par mois, puis 1% du montant.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1500€</strong> de plafond pour vos retraits.
+                      <strong>1500€</strong>
+                      &nbsp; de plafond pour vos retraits.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>2%</strong> pour les paiements hors zone euro.
+                      <strong>2%</strong>
+                      &nbsp; pour les paiements hors zone euro.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>30</strong> virements et prélèvements puis 0,50€ au delà.
+                      <strong>30</strong>
+                      &nbsp; virements et prélèvements puis 0,50€ au delà.
                     </li>
                     <li className="pricing-features-item">
-                      Support <strong>7 jours sur 7</strong>
+                      Support &nbsp;
+                      <strong>7 jours sur 7</strong>
                     </li>
                   </ul>
                 </div>
@@ -229,28 +247,37 @@ export function Home() {
                     </li>
                     <li className="pricing-features-item">Service de banque en ligne</li>
                     <li className="pricing-features-item">
-                      <strong>30</strong> jours gratuits et sans engagement.
+                      <strong>30</strong>
+                      &nbsp; jours gratuits et sans engagement.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1000k€/an</strong> de commissions de mouvements de compte incluses à hauteur puis 0,15%.
+                      <strong>1000k€/an</strong>
+                      &nbsp; de commissions de mouvements de compte incluses à hauteur puis 0,15%.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1</strong> seul utilisateur (1 carte Mastercard Business) et accès comptable.
+                      <strong>1</strong>
+                      &nbsp; seul utilisateur (1 carte Mastercard Business) et accès comptable.
                     </li>
                     <li className="pricing-features-item">
-                      Cartes virtuelles à <strong>2€/mois</strong>, par carte.
+                      Cartes virtuelles à &nbsp;
+                      <strong>2€/mois</strong>
+                      , par carte.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>200€</strong> de retraits gratuits par mois, puis 1% du montant.
+                      <strong>200€</strong>
+                      &nbsp; de retraits gratuits par mois, puis 1% du montant.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>2500€</strong> de plafond pour vos retraits.
+                      <strong>2500€</strong>
+                      &nbsp; de plafond pour vos retraits.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1,7%</strong> pour les paiements hors zone euro.
+                      <strong>1,7%</strong>
+                      &nbsp; pour les paiements hors zone euro.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>100</strong> virements et prélèvements puis 0,20€ au delà.
+                      <strong>100</strong>
+                      &nbsp; virements et prélèvements puis 0,20€ au delà.
                     </li>
                     <li className="pricing-features-item">
                       Fonctionnalités avancées (multi-comptes, virements groupés)
@@ -259,7 +286,8 @@ export function Home() {
                       Pack comptabilité (reçus digitalisés, auto-détection de la TVA, labels)
                     </li>
                     <li className="pricing-features-item">
-                      Support <strong> prioritaire 7 jours sur 7</strong>
+                      Support &nbsp;
+                      <strong> prioritaire 7 jours sur 7</strong>
                     </li>
                   </ul>
                 </div>
@@ -282,25 +310,33 @@ export function Home() {
                     </li>
                     <li className="pricing-features-item">Service de banque en ligne</li>
                     <li className="pricing-features-item">
-                      <strong>30</strong> jours gratuits et sans engagement.
+                      <strong>30</strong>
+                      &nbsp; jours gratuits et sans engagement.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>150k€/an</strong> de commissions de mouvements de compte incluses à hauteur puis 0,15%.
+                      <strong>150k€/an</strong>
+                      &nbsp; de commissions de mouvements de compte incluses à hauteur puis 0,15%.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1</strong> seul utilisateur (1 carte Mastercard Business) et accès comptable.
+                      <strong>1</strong>
+                      &nbsp; seul utilisateur (1 carte Mastercard Business) et accès comptable.
                     </li>
                     <li className="pricing-features-item">
-                      Cartes virtuelles à <strong>2€/mois</strong>, par carte.
+                      Cartes virtuelles à &nbsp;
+                      <strong>2€/mois</strong>
+                      , par carte.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>200€</strong> de retraits gratuits par mois, puis 1% du montant.
+                      <strong>200€</strong>
+                      &nbsp; de retraits gratuits par mois, puis 1% du montant.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>1.9%</strong> pour les paiements hors zone euro.
+                      <strong>1.9%</strong>
+                      &nbsp; pour les paiements hors zone euro.
                     </li>
                     <li className="pricing-features-item">
-                      <strong>60</strong> virements et prélèvements puis 0,30€ au delà.
+                      <strong>60</strong>
+                      &nbsp; virements et prélèvements puis 0,30€ au delà.
                     </li>
                     <li className="pricing-features-item">
                       Fonctionnalités avancées (multi-comptes, virements groupés)
@@ -309,7 +345,8 @@ export function Home() {
                       Pack comptabilité (reçus digitalisés, auto-détection de la TVA, labels)
                     </li>
                     <li className="pricing-features-item">
-                      Support <strong>7 jours sur 7</strong>
+                      Support &nbsp;
+                      <strong>7 jours sur 7</strong>
                     </li>
                   </ul>
                 </div>
@@ -333,7 +370,8 @@ export function Home() {
               <div className="decoration__data">
                 <img src={valider} alt="" className="step-image2" />
                 <h4 className="step-text">
-                  Votre compte est validé <br />
+                  Votre compte est validé &nbsp;
+                  <br />
                   et votre IBAN prêt
                 </h4>
               </div>
@@ -368,7 +406,7 @@ export function Home() {
               <ul>
                 <li>
                   <a href="src/pages/Home/Home#" className="footer__link">
-                    Presse{' '}
+                    Presse &nbsp;
                   </a>
                 </li>
                 <li>
