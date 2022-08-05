@@ -1,5 +1,4 @@
 import React from 'react';
-
 import myVideo from './assets/img/video.gif';
 
 export function Feature() {
