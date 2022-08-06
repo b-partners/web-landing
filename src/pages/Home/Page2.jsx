@@ -1,5 +1,4 @@
 import React from 'react';
-
 import myVideo from './assets/img/video.gif';
 
 export function Page2() {
@@ -7,14 +6,14 @@ export function Page2() {
     <section className="share section bd-container" id="share">
       <div className="share__container bd-grid">
         <div className="share__data">
-          <h3 className="section-title-center">
+          <h2 className="section-title-center">
             Bénéficiez de tous les outils d’une banque
             <br />
             traditionnelle adaptés à vos besoins
-          </h3>
+          </h2>
           <p className="share__description">
             <i className="fa fa-check" aria-hidden="true" />
-            &nbsp; Obtenez votre compte professionnel avec un IBAN/RIB FR en 60 secondes.
+            &nbsp; Compte pro avec IBAN EE
           </p>
           <p className="share__description">
             <i className="fa fa-check" aria-hidden="true" />
@@ -23,10 +22,6 @@ export function Page2() {
           <p className="share__description">
             <i className="fa fa-check" aria-hidden="true" />
             &nbsp; Virements instantanés jusqu'a 100 000€
-          </p>
-          <p className="share__description">
-            <i className="fa fa-check" aria-hidden="true" />
-            &nbsp; Une carte bancaire physique ou virtuelle selon vos besoins.
           </p>
         </div>
         <div className="share__img">
