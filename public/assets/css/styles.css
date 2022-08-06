@@ -131,7 +131,7 @@ video {
 
 .section-title,
 .section-title-center {
-	font-weight: var(--font-bold);
+	font-size: var(--h2-font-size);
 	color: var(--title-color);
 	text-align: center;
 	margin-bottom: var(--mb-3);
@@ -352,9 +352,7 @@ video {
 }
 
 .share__description {
-	margin-bottom: var(--mb-1);
-	font-weight: var(--font-semi-bold);
-	font-size: var(--small-font-size);
+	margin-bottom: var(--mb-2);
 }
 
 .share__img {
