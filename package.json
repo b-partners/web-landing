@@ -22,7 +22,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "lint": "eslint --fix src/**/*.js src/**/*.jsx"
+    "lint": "eslint --fix src/**/*.js src/**/*.jsx",
+    "prepare": "node ./prepare.js"
   },
   "eslintConfig": {
     "extends": [
@@ -56,6 +57,7 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "gh-pages": "^3.1.0",
+    "husky": "^8.0.1",
     "prettier": "2.7.1"
   }
 }
