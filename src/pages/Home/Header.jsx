@@ -26,14 +26,14 @@ export function Header() {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#" className="nav__link">
+              <button type="button" className="nav__link">
                 Se connecter
-              </a>
+              </button>
             </li>
             <li className="nav__item" id="ouvrir-compte">
-              <a href="#" className="nav__link" style={{ color: 'white' }}>
+              <button type="button" className="nav__link" style={{ color: 'white' }}>
                 Ouvrir un compte
-              </a>
+              </button>
             </li>
           </ul>
         </div>
