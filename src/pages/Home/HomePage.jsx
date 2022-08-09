@@ -3,7 +3,7 @@ import React from 'react';
 import artisans from './assets/img/artisans.jpg';
 import assistant from './assets/img/home-overview.png';
 
-export function Page1() {
+export function HomePage() {
   return (
     <section className="home" id="home">
       <div className="home__container bd-container bd-grid">
