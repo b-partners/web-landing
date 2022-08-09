@@ -1,6 +1,6 @@
 import React from 'react';
 
-import header from './assets/img/header.png';
+import { HomePage } from './HomePage';
 import myVideo from './assets/img/video.gif';
 import transactions from './assets/img/transactions.png';
 import moto from './assets/img/motorbiking.png';
@@ -12,7 +12,6 @@ import confirmer from './assets/img/identity.png';
 import valider from './assets/img/valider.png';
 import logo from './assets/img/logo.png';
 
-import { ReactComponent as Check } from './assets/img/check.svg';
 import { ReactComponent as Apple } from './assets/img/apple-store.svg';
 import { ReactComponent as Google } from './assets/img/google-store.svg';
 
@@ -60,37 +59,7 @@ export function Home() {
           </nav>
         </header>
         <main className="l-main">
-          <section className="home" id="home">
-            <div className="home__container bd-container bd-grid">
-              <div className="home__img">
-                <img alt="ok" src={header} />
-              </div>
-
-              <div className="home__data">
-                <h1 className="home__title">Le compte pro optimisé pour votre business.</h1>
-                <p className="home__description">
-                  <span id="img" className="valign">
-                    <Check />
-                  </span>
-                  Automatisez la gestion de vos finances
-                  <br />
-                  <span id="img" className="valign">
-                    <Check />
-                  </span>
-                  Mettez fin aux notes de frais
-                  <br />
-                  <span id="img" className="valign">
-                    <Check />
-                  </span>
-                  Simplifiez vraiment votre comptabilité
-                </p>
-                <a href="src/pages/Home/Home#" className="button">
-                  Inscrivez vous dès maintenant
-                </a>
-              </div>
-            </div>
-          </section>
-
+          <HomePage />
           <section className="share section bd-container" id="share">
             <div className="share__container bd-grid">
               <div className="share__data">
