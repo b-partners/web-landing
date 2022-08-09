@@ -9,21 +9,18 @@ export function HomePage() {
       <div className="home__container bd-container bd-grid">
         <div className="home__data">
           <h1 className="home__title">
-            L'assistant bancaire qui accélère le développent des artisans
-            et indépendants.
+            L'assistant bancaire qui accélère le développent des artisans et indépendants.
           </h1>
           <div className="home__image">
             <img alt="logo" src={artisans} style={{ width: '270px' }} />
           </div>
           <p className="home__description">
-            Artisans, indépendants français, en plus des services
-            bancaires classiques (obtention d’un RIB FR, virement,
-            tenu de compte, cartes) offrez-vous l’assistant de votre
-            réussite grâce à votre mobile
+            Artisans, indépendants français, en plus des services bancaires classiques (obtention d’un RIB FR, virement,
+            tenu de compte, cartes) offrez-vous l’assistant de votre réussite grâce à votre mobile
           </p>
           <a href="src/pages/Home/Home#" className="button">
-            Lancement de l’application mobile et web le 1 Novembre 2022 – Inscrivez-vous
-            ici pour devenir les premiers utilisateurs
+            Lancement de l’application mobile et web le 1 Novembre 2022 – Inscrivez-vous ici pour devenir les premiers
+            utilisateurs
           </a>
         </div>
 
