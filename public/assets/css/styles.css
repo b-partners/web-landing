@@ -141,6 +141,7 @@ video {
 .fa-check {
 	color: #582d37;
 }
+
 /*========== LAYOUT ==========*/
 .l-main {
 	overflow: hidden;
@@ -157,9 +158,11 @@ video {
 	display: grid;
 	gap: 1.2rem;
 }
+
 #deux {
 	grid-row: 1;
 }
+
 .l-header {
 	width: 100%;
 	top: 0;
@@ -409,6 +412,7 @@ video {
 	width: 80%;
 	margin-top: 35px;
 }
+
 .step-image2 {
 	margin-top: 20px;
 	width: 40%;
@@ -516,17 +520,20 @@ video {
 	justify-content: center;
 	margin-bottom: 20px;
 }
+
 .texte2 {
 	display: flex;
 	justify-content: center;
 	margin-top: 15px;
 	font-weight: bold;
 }
+
 .texte3 {
 	display: flex;
 	justify-content: center;
 	font-size: 12px;
 }
+
 .dl {
 	width: 7%;
 	margin-right: 20px;
@@ -740,6 +747,9 @@ video {
 	}
 }
 @media screen and (min-width: 968px) {
+	.home__img__overview {
+		transform: scale(1.66)
+	}
 	.bd-container {
 		margin-left: auto;
 		margin-right: auto;
@@ -800,11 +810,13 @@ video {
 	margin-bottom: 25px;
 	max-width: 30%;
 }
+
 #fusee {
 	margin-top: 10px;
 	margin-bottom: 35px;
 	max-width: 20%;
 }
+
 .pricing-header {
 	font-weight: 600;
 	text-align: center;
@@ -869,9 +881,4 @@ video {
 	font-size: 15px;
 	text-align: center;
 	color: var(--first-color);
-}
-@media screen and (min-width: 1200px) {
-	.home__img__overview{
-		transform: scale(1.3)
-	}
 }
