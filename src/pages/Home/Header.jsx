@@ -6,6 +6,7 @@ import { useToggle } from '../../utils/hooks';
 
 export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
+  const buttonStyle = { backgroundColor: 'transparent', border: 'none' };
 
   return (
     <header className="l-header" id="header">
@@ -26,12 +27,12 @@ export function Header() {
               </a>
             </li>
             <li className="nav__item">
-              <button type="button" className="nav__link">
+              <button type="button" className="nav__link" style={buttonStyle}>
                 Se connecter
               </button>
             </li>
             <li className="nav__item" id="ouvrir-compte">
-              <button type="button" className="nav__link" style={{ color: 'white' }}>
+              <button type="button" className="nav__link" style={{ color: 'white', ...buttonStyle }}>
                 Ouvrir un compte
               </button>
             </li>
