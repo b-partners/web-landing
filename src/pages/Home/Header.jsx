@@ -10,28 +10,28 @@ export function Header() {
   return (
     <header className="l-header" id="header">
       <nav className="nav bd-container">
-        <a href="Home#Home" className="nav__logo">
+        <a href="#home" className="nav__logo">
           <img src={logo} alt="logo" style={{ width: '170px' }} />
         </a>
-        <div className={`nav__menu ${menuActive ? 'show-menu' : undefined}`} iiidid="nav-menu">
+        <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} iiidid="nav-menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="Home#home" className="nav__link active-link">
+              <a href="#home" className="nav__link active-link">
                 Accueil
               </a>
             </li>
             <li className="nav__item">
-              <a href="Home#share" className="nav__link">
+              <a href="#share" className="nav__link">
                 Fonctionnalités
               </a>
             </li>
             <li className="nav__item">
-              <a href="Home" className="nav__link">
+              <a href="#" className="nav__link">
                 Se connecter
               </a>
             </li>
             <li className="nav__item" id="ouvrir-compte">
-              <a href="inscription.html" className="nav__link" style={{ color: 'white' }}>
+              <a href="#" className="nav__link" style={{ color: 'white' }}>
                 Ouvrir un compte
               </a>
             </li>
