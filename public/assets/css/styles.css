@@ -12,7 +12,7 @@
 	--title-color: #161212;
 	--text-color: black;
 	--text-color-light: black;
-	--body-color: ##fff;
+	--body-color: #fff;
 	--container-color: #fff;
 
 	/*========== Font and typography ==========*/
@@ -131,10 +131,11 @@ video {
 
 .section-title,
 .section-title-center {
-	font-size: var(--h2-font-size);
+	font-size: var(--h3-font-size);
+	font-weight: var(--font-bold);
 	color: var(--title-color);
 	text-align: center;
-	margin-bottom: var(--mb-3);
+	margin-bottom: var(--mb-2);
 }
 
 .fa-check {
@@ -154,7 +155,7 @@ video {
 
 .bd-grid {
 	display: grid;
-	gap: 1.5rem;
+	gap: 1.2rem;
 }
 #deux {
 	grid-row: 1;
@@ -235,6 +236,16 @@ video {
 /* Show menu */
 .show-menu {
 	top: calc(var(--header-height) + 1rem);
+}
+
+.toggle-wrapper {
+	height: 25px;
+	width: 25px;
+
+	display: flex;
+	justify-content: center;
+	border: 0;
+	background-color: #fff;
 }
 
 /* Active menu link */
@@ -357,7 +368,9 @@ video {
 }
 
 .share__description {
-	margin-bottom: var(--mb-2);
+	font-weight: var(--font-semi-bold);
+	font-size: var(--small-font-size);
+	margin-bottom: var(--mb-1);
 }
 
 .share__img {
@@ -636,6 +649,7 @@ video {
 
 	.share__img {
 		order: -1;
+		justify-self: left;
 	}
 }
 
@@ -734,7 +748,7 @@ video {
 	.home__img,
 	.share__img,
 	.send__img {
-		width: 469px;
+		width: 320px;
 	}
 }
 
