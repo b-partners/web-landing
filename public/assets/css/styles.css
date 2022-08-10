@@ -750,6 +750,9 @@ video {
 		display: flex;
 		flex-direction: column;
 	}
+	.pricing-table {
+		flex-direction: row;
+	}
 	.pricing-plan {
 		border-bottom: none;
 		flex-basis: 100%;
