@@ -1,8 +1,7 @@
 import React from 'react';
-
 import myVideo from './assets/img/video.gif';
 
-export function Page2() {
+export function Feature() {
   return (
     <section className="share section bd-container" id="share">
       <div className="share__container bd-grid">
