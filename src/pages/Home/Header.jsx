@@ -6,34 +6,35 @@ import { useToggle } from '../../utils/hooks';
 
 export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
+  const buttonStyle = { backgroundColor: 'transparent', border: 'none' };
 
   return (
     <header className="l-header" id="header">
       <nav className="nav bd-container">
-        <a href="src/pages/Home/Home#" className="nav__logo">
+        <a href="#home" className="nav__logo">
           <img src={logo} alt="logo" style={{ width: '170px' }} />
         </a>
-        <div className={`nav__menu ${menuActive ? 'show-menu' : undefined}`} iiidid="nav-menu">
+        <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} iiidid="nav-menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="src/pages/Home/Home#home" className="nav__link active-link">
+              <a href="#home" className="nav__link active-link">
                 Accueil
               </a>
             </li>
             <li className="nav__item">
-              <a href="src/pages/Home/Home#share" className="nav__link">
+              <a href="#share" className="nav__link">
                 Fonctionnalités
               </a>
             </li>
             <li className="nav__item">
-              <a href="src/pages/Home/Home" className="nav__link">
+              <button type="button" className="nav__link" style={buttonStyle}>
                 Se connecter
-              </a>
+              </button>
             </li>
             <li className="nav__item" id="ouvrir-compte">
-              <a href="inscription.html" className="nav__link" style={{ color: 'white' }}>
+              <button type="button" className="nav__link" style={{ color: 'white', ...buttonStyle }}>
                 Ouvrir un compte
-              </a>
+              </button>
             </li>
           </ul>
         </div>
