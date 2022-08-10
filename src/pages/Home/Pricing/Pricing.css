@@ -64,6 +64,8 @@
 }
 .send {
     font-size: var(--xsmall-font-size);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -86,7 +88,7 @@
     .pricing__section {
         width: 80%;
         height: fit-content;
-        margin: auto;
+        margin: 1rem auto;
     }
 
     .decoration__container {
@@ -117,6 +119,7 @@
         font-size: var(--small-font-size);
         text-align: center;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 

@@ -1,15 +1,15 @@
 import React from 'react';
-import './assets/styles/Pricing.css';
+import './Pricing.css';
 
-import moto from './assets/img/motorbiking.png';
-import voiture from './assets/img/sports-car.png';
-import fusee from './assets/img/start-up.png';
-import connexion from './assets/img/connexion.png';
-import confirmer from './assets/img/identity.png';
-import valider from './assets/img/valider.png';
+import moto from '../assets/img/motorbiking.png';
+import voiture from '../assets/img/sports-car.png';
+import fusee from '../assets/img/start-up.png';
+import connexion from '../assets/img/connexion.png';
+import confirmer from '../assets/img/identity.png';
+import valider from '../assets/img/valider.png';
 
-import { ReactComponent as Apple } from './assets/img/apple-store.svg';
-import { ReactComponent as Google } from './assets/img/google-store.svg';
+import { ReactComponent as Apple } from '../assets/img/apple-store.svg';
+import { ReactComponent as Google } from '../assets/img/google-store.svg';
 
 export function Pricing() {
   return (
