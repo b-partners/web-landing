@@ -217,6 +217,7 @@ video {
 .nav__toggle {
 	color: var(--title-color);
 	font-weight: var(--font-semi-bold);
+	cursor: pointer;
 }
 
 .nav__logo:hover {
