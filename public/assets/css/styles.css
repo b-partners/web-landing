@@ -9,6 +9,7 @@
 	--first-color: #582d37;
 	--first-color-alt: #582d37;
 	--first-color-send: #582d37;
+	--first-color-logo: #660033;
 	--title-color: #161212;
 	--text-color: black;
 	--text-color-light: black;
@@ -123,7 +124,10 @@ video {
 	max-width: 100%;
 	height: auto;
 }
-
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #ffff;
+	opacity: 1; /* Firefox */
+  }
 /*========== CLASS CSS ==========*/
 .section {
 	padding: 4rem 0 2rem;
@@ -307,7 +311,17 @@ video {
 .home__container {
 	row-gap: 0.5rem;
 }
-
+.button__inscription{
+	display: inline-block;
+	background-color: var(--first-color-logo);
+	color: #fff;
+	padding: 1rem 1.5rem;
+	border-radius: 0.5rem;
+	font-weight: var(--font-semi-bold);
+	transition: 0.3s;
+	text-align: center;
+	font-size: 0.72rem;
+}
 .home__img {
 	display: flex;
 	flex-direction: column;
@@ -322,7 +336,7 @@ video {
 	font-size: 2rem;
 }
 .home__title {
-	border: 1px solid var(--first-color);
+	border: 1px solid var(--first-color-logo);
 	padding: 0.5rem 1rem;
 	border-radius: 20px;
 	font-size: 2.2rem;
@@ -336,7 +350,22 @@ video {
 .home__description {
 	margin-bottom: var(--mb-3);
 }
-
+.home__email{
+	margin-top: 0.3rem;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.home__email__input{
+	background-color: #D0CECE;
+	border: 1px solid #D0CECE;
+	color: #fff;
+	width: 96%;
+	height: 2.35rem;
+	text-align: center;
+	border-radius: 6px;
+	outline: none;
+}
 /*========== BUTTONS ==========*/
 .button {
 	display: inline-block;
