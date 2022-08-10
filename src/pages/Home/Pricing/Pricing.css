@@ -26,8 +26,8 @@
 
 .decoration__data {
 	text-align: center;
-	vertical-align: center;
-    padding: 0.1;
+	vertical-align: top;
+    padding: 0.1rem;
 	background-color: var(--container-color);
 	box-shadow: 0 2px 6px rgba(65, 11, 16, 0.15);
 	border-radius: 1rem;
@@ -51,8 +51,7 @@
 }
 .decoration__data {
     max-width: 33%;
-    margin: auto;
-    vertical-align: top;
+    margin: 10px auto;
 }
 .step-image {
     width: 100%;
@@ -104,8 +103,7 @@
     }
     .decoration__data {
         max-width: 33%;
-        margin: auto;
-        vertical-align: top;
+        margin: 10px auto;
     }
     .step-image {
         width: 100%;
@@ -145,8 +143,6 @@
         width: 80%;
         max-width: 80%;
         margin: 10px auto;
-
-        vertical-align: top;
     }
 }
 

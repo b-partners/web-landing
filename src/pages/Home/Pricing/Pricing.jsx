@@ -21,7 +21,7 @@ export function Pricing() {
         </a>
         <div className="background">
           <div className="container">
-            <div className=" pricing-table">
+            <div className="pricing-table">
               <div className="pricing-plan">
                 <img src={moto} alt="" className="pricing-img" />
                 <h2 className="pricing-header">BASIC</h2>
