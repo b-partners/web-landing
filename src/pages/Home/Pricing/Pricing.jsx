@@ -1,9 +1,9 @@
 import React from 'react';
 import './Pricing.css';
 
-import moto from '../assets/img/motorbiking.png';
-import voiture from '../assets/img/sports-car.png';
-import fusee from '../assets/img/start-up.png';
+import essentiel from '../assets/img/essentiel.jpg';
+import ambitieux from '../assets/img/ambitieux.jpeg';
+import developpement from '../assets/img/developpement.jpeg';
 import connexion from '../assets/img/connexion.png';
 import confirmer from '../assets/img/identity.png';
 import valider from '../assets/img/valider.png';
@@ -23,38 +23,46 @@ export function Pricing() {
           <div className="container">
             <div className="pricing-table">
               <div className="pricing-plan">
-                <img src={moto} alt="" className="pricing-img" />
-                <h2 className="pricing-header">BASIC</h2>
+                <h2 className="pricing-header">L'ESSENTIEL</h2>
                 <span className="pricing-price">
                   9€
                   <span style={{ fontSize: 15 }}>/mois</span>
                 </span>
+                <div className="pricing-img-container">
+                  <img src={essentiel} alt="" className="pricing-img" />
+                </div>
                 <a href="src/pages/Home/Home#/" className="pricing-button">
-                  Ouvrir un compte
+                  C'est ça qu'il me faut
                 </a>
                 <ul className="pricing-features">
                   <li className="pricing-features-item">
                     <span style={{ fontSize: 12 }}>
-                      <strong>Les services essentiels pour gérer votre activité d'indépendant.</strong>
+                      <strong>
+                        Tous les services essentiels pour gérer votre activité d'artisan ou d'indépendant.
+                      </strong>
                     </span>
                   </li>
-                  <li className="pricing-features-item">Service de banque en ligne</li>
                   <li className="pricing-features-item">
-                    <strong>30</strong>
-                    &nbsp; jours gratuits et sans engagement.
+                    <strong>
+                      Activation de la version standard de notre assistant virtuelle pour faire grossir votre activité.
+                    </strong>
+                  </li>
+                  <li className="pricing-features-item">
+                    <strong>Service de banque en ligne (RIB/Virement/carte à partir de 2€/mois).</strong>
+                  </li>
+                  <li className="pricing-features-item">
+                    <strong>
+                      Bénéficiez de notre outil de devis, facturation, comptabilité automatisée (1 utilisateur).
+                    </strong>
+                  </li>
+                  <li className="pricing-features-item">
+                    <strong>
+                      Collectez vos paiment par QR code, SMS et mails (2% de frais pour accélérer la collecte).
+                    </strong>
                   </li>
                   <li className="pricing-features-item">
                     <strong>60k€/an</strong>
-                    &nbsp; de commissions de mouvements de compte incluses à hauteur puis 0,15%
-                  </li>
-                  <li className="pricing-features-item">
-                    <strong>1</strong>
-                    &nbsp; seul utilisateur (1 carte Mastercard Business)
-                  </li>
-                  <li className="pricing-features-item">
-                    Cartes virtuelles à &nbsp;
-                    <strong>2€/mois</strong>
-                    , par carte.
+                    &nbsp; de commissions de mouvements de compte incluses puis 0.15%.
                   </li>
                   <li className="pricing-features-item">
                     <strong>200€</strong>
@@ -80,49 +88,113 @@ export function Pricing() {
               </div>
 
               <div className="pricing-plan" id="popular">
-                <div className="pined">
-                  <div className="popular-label">Populaire</div>
-                </div>
-                <img src={fusee} alt="" className="pricing-img" id="fusee" />
-                <h2 className="pricing-header">PREMIUM</h2>
+                <h2 className="pricing-header">DEVELOPPEMENT</h2>
                 <span className="pricing-price">
-                  39€
+                  19€
                   <span style={{ fontSize: 15 }}>/mois</span>
                 </span>
+                <div className="pricing-img-container">
+                  <img src={developpement} alt="" className="pricing-img" id="fusee" />
+                </div>
                 <a href="src/pages/Home/Home#/" className="pricing-button is-featured">
-                  Ouvrir un compte
+                  C'est plutôt ça qu'il me faut
                 </a>
                 <ul className="pricing-features">
                   <li className="pricing-features-item">
                     <span style={{ fontSize: 12 }}>
-                      <strong>Le forfait qui inclut toutes nos Fonctionnalités et un support prioritaire.</strong>
+                      <strong>
+                        Tous les services pour développer et gérer votre activité d'artisan ou d'indépendant.
+                      </strong>
                     </span>
                   </li>
-                  <li className="pricing-features-item">Service de banque en ligne</li>
                   <li className="pricing-features-item">
-                    <strong>30</strong>
-                    &nbsp; jours gratuits et sans engagement.
+                    <strong>
+                      Activation de la version standard de l'assistant virtuelle pour faire grossir votre activité.
+                    </strong>
                   </li>
                   <li className="pricing-features-item">
-                    <strong>1000k€/an</strong>
-                    &nbsp; de commissions de mouvements de compte incluses à hauteur puis 0,15%.
+                    <strong>Service de banque en ligne (RIB/Virement/carte à partir de 2€/mois).</strong>
                   </li>
                   <li className="pricing-features-item">
-                    <strong>1</strong>
-                    &nbsp; seul utilisateur (1 carte Mastercard Business) et accès comptable.
+                    <strong>
+                      Bénéficiez de notre outil de devis, facturation, comptabilité automatisée (1 utilisateur).
+                    </strong>
                   </li>
                   <li className="pricing-features-item">
-                    Cartes virtuelles à &nbsp;
-                    <strong>2€/mois</strong>
-                    , par carte.
+                    <strong>
+                      Collectez vos paiment par QR code, SMS et mails (1,5% de frais pour accélérer la collecte).
+                    </strong>
+                  </li>
+                  <li className="pricing-features-item">
+                    <strong>150k€/an</strong>
+                    &nbsp; de commissions de mouvements de compte incluses puis 0,15%.
                   </li>
                   <li className="pricing-features-item">
                     <strong>200€</strong>
                     &nbsp; de retraits gratuits par mois, puis 1% du montant.
                   </li>
                   <li className="pricing-features-item">
-                    <strong>2500€</strong>
-                    &nbsp; de plafond pour vos retraits.
+                    <strong>1,9%</strong>
+                    &nbsp; pour les paiements hors zone euro.
+                  </li>
+                  <li className="pricing-features-item">
+                    <strong>60</strong>
+                    &nbsp; virements et prélèvements puis 0,30€ au delà.
+                  </li>
+                  <li className="pricing-features-item">
+                    Support &nbsp;
+                    <strong>7 jours sur 7</strong>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="pricing-plan">
+                <h2 className="pricing-header">L'AMBITIEUX</h2>
+                <span className="pricing-price">
+                  39€
+                  <span style={{ fontSize: 15 }}>/mois</span>
+                </span>
+                <div className="pricing-img-container">
+                  <img src={ambitieux} alt="" className="pricing-img" />
+                </div>
+                <a href="src/pages/Home/Home#/" className="pricing-button">
+                  C'est exactement ça qu'il me faut
+                </a>
+                <ul className="pricing-features">
+                  <li className="pricing-features-item">
+                    <span style={{ fontSize: 12 }}>
+                      <strong>
+                        Tous les services pour franchir un pallier dans votre creoissance et automatiser votre forte
+                        activité d'artisan & d'indépendant.
+                      </strong>
+                    </span>
+                  </li>
+                  <li className="pricing-features-item">
+                    <strong>
+                      Activation de la version personnalisée de notre assistant virtuelle pour faire grossir votre
+                      activité.
+                    </strong>
+                  </li>
+                  <li className="pricing-features-item">
+                    <strong>Service de banque en ligne (RIB/Virement/carte à partir de 2€/mois).</strong>
+                  </li>
+                  <li className="pricing-features-item">
+                    <strong>
+                      Bénéficiez de notre outil de devis, facturation, comptabilité automatisée (multi utilisateur).
+                    </strong>
+                  </li>
+                  <li className="pricing-features-item">
+                    <strong>
+                      Collectez vos paiment par QR code, SMS et mails (0,99% de frais pour accélérer la collecte).
+                    </strong>
+                  </li>
+                  <li className="pricing-features-item">
+                    <strong>1000k€/an</strong>
+                    &nbsp; de commissions de mouvements de compte incluses puis 0,15%.
+                  </li>
+                  <li className="pricing-features-item">
+                    <strong>200€</strong>
+                    &nbsp; de retraits gratuits par mois, puis 1% du montant.
                   </li>
                   <li className="pricing-features-item">
                     <strong>1,7%</strong>
@@ -131,71 +203,6 @@ export function Pricing() {
                   <li className="pricing-features-item">
                     <strong>100</strong>
                     &nbsp; virements et prélèvements puis 0,20€ au delà.
-                  </li>
-                  <li className="pricing-features-item">Fonctionnalités avancées (multi-comptes, virements groupés)</li>
-                  <li className="pricing-features-item">
-                    Pack comptabilité (reçus digitalisés, auto-détection de la TVA, labels)
-                  </li>
-                  <li className="pricing-features-item">
-                    Support &nbsp;
-                    <strong> prioritaire 7 jours sur 7</strong>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="pricing-plan">
-                <img src={voiture} alt="" className="pricing-img" />
-                <h2 className="pricing-header">STANDARD</h2>
-                <span className="pricing-price">
-                  19€
-                  <span style={{ fontSize: 15 }}>/mois</span>
-                </span>
-                <a href="src/pages/Home/Home#/" className="pricing-button">
-                  Ouvrir un compte
-                </a>
-                <ul className="pricing-features">
-                  <li className="pricing-features-item">
-                    <span style={{ fontSize: 12 }}>
-                      <strong>Le compte complet pour faciliter votre gestion bancaire et comptable.</strong>
-                    </span>
-                  </li>
-                  <li className="pricing-features-item">Service de banque en ligne</li>
-                  <li className="pricing-features-item">
-                    <strong>30</strong>
-                    &nbsp; jours gratuits et sans engagement.
-                  </li>
-                  <li className="pricing-features-item">
-                    <strong>150k€/an</strong>
-                    &nbsp; de commissions de mouvements de compte incluses à hauteur puis 0,15%.
-                  </li>
-                  <li className="pricing-features-item">
-                    <strong>1</strong>
-                    &nbsp; seul utilisateur (1 carte Mastercard Business) et accès comptable.
-                  </li>
-                  <li className="pricing-features-item">
-                    Cartes virtuelles à &nbsp;
-                    <strong>2€/mois</strong>
-                    , par carte.
-                  </li>
-                  <li className="pricing-features-item">
-                    <strong>200€</strong>
-                    &nbsp; de retraits gratuits par mois, puis 1% du montant.
-                  </li>
-                  <li className="pricing-features-item">
-                    <strong>1.9%</strong>
-                    &nbsp; pour les paiements hors zone euro.
-                  </li>
-                  <li className="pricing-features-item">
-                    <strong>60</strong>
-                    &nbsp; virements et prélèvements puis 0,30€ au delà.
-                  </li>
-                  <li className="pricing-features-item">Fonctionnalités avancées (multi-comptes, virements groupés)</li>
-                  <li className="pricing-features-item">
-                    Pack comptabilité (reçus digitalisés, auto-détection de la TVA, labels)
-                  </li>
-                  <li className="pricing-features-item">
-                    Support &nbsp;
-                    <strong>7 jours sur 7</strong>
                   </li>
                 </ul>
               </div>
