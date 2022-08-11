@@ -1,3 +1,4 @@
 import axios from 'axios';
+import environment from './environment';
 
-export default axios.create({ baseURL: process.env.REACT_APP_API_BASE_URL || '' });
+export default axios.create({ baseURL: environment.apiBaseURL });
