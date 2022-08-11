@@ -2,18 +2,19 @@ import React, { useState } from 'react';
 
 import artisans from '../../assets/img/artisans.jpg';
 import assistant from '../../assets/img/home-overview.jpg';
-import '../../assets/css/modal.css';
+import '../../../../common/components/Modal/Modal.css';
 import '../../assets/css/input.css';
 import '../../assets/css/spinner.css';
-import { useToggle } from '../../../../utils/hooks';
 import httpClient from '../../../../config/axios';
+import { Modal } from '../../../../common/components/Modal';
+import { useToggle } from '../../../../utils/hooks';
 
 export function Welcome() {
-  const [showModal, setToggleShowModal] = useToggle(false);
   const [isLoading, setIsLoading] = useState(false);
   const [preregistrationPayload, setPreregistrationPayload] = useState({
     first_name: '', last_name: '', society: '', email: '', phone_number: '',
   });
+  const [showModal, setToggleShowModal] = useToggle(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -72,63 +73,49 @@ export function Welcome() {
             />
           </form>
         </div>
-        <div
-          className={`home__modal ${showModal ? '' : 'modal-hide'}`}
-          onClick={setToggleShowModal}
-          onKeyDown={setToggleShowModal}
-          role='button'
-          tabIndex={0}
-        >
-          <div
-            className='modal__wrapper'
-            onClick={(e) => e.stopPropagation()}
-            onKeyDown={(e) => e.stopPropagation()}
-            role='button'
-            tabIndex={0}
-          >
-            <form onSubmit={handleModalSubmit}>
-              <div className='floating-form'>
-                <div className='floating-label'>
-                  <input
-                    className='floating-input'
-                    type='text'
-                    placeholder=' '
-                    name='last_name'
-                    onChange={handleChange}
-                  />
-                  <span>Nom</span>
-                </div>
-                <div className='floating-label'>
-                  <input
-                    className='floating-input'
-                    type='text'
-                    placeholder=' '
-                    name='first_name'
-                    onChange={handleChange}
-                  />
-                  <span>Prénom</span>
-                </div>
-                <div className='floating-label'>
-                  <input
-                    className='floating-input'
-                    type='text'
-                    placeholder=''
-                    name='phone_number'
-                    onChange={handleChange}
-                    required
-                  />
-                  <span>Téléphone</span>
-                </div>
-                <button type='submit' className='form__validate'>
-                  {isLoading ? (<>
-                    <i className='fa fa-spinner fa-spin' />
-                    Loading
-                  </>) : 'Valider'}
-                </button>
+        <Modal className='modal' showModal={showModal} setToggleShowModal={setToggleShowModal}>
+          <form onSubmit={handleModalSubmit}>
+            <div className='floating-form'>
+              <div className='floating-label'>
+                <input
+                  className='floating-input'
+                  type='text'
+                  placeholder=' '
+                  name='last_name'
+                  onChange={handleChange}
+                />
+                <span>Nom</span>
               </div>
-            </form>
-          </div>
-        </div>
+              <div className='floating-label'>
+                <input
+                  className='floating-input'
+                  type='text'
+                  placeholder=' '
+                  name='first_name'
+                  onChange={handleChange}
+                />
+                <span>Prénom</span>
+              </div>
+              <div className='floating-label'>
+                <input
+                  className='floating-input'
+                  type='text'
+                  placeholder=''
+                  name='phone_number'
+                  onChange={handleChange}
+                  required
+                />
+                <span>Téléphone</span>
+              </div>
+              <button type='submit' className='form__validate'>
+                {isLoading ? (<>
+                  <i className='fa fa-spinner fa-spin' />
+                  Loading
+                </>) : 'Valider'}
+              </button>
+            </div>
+          </form>
+        </Modal>
       </div>
       <div className='home__img'>
         <img className='home__img__overview' alt='assistant' src={assistant} style={{ width: '36.25rem' }} />
