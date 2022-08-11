@@ -8,7 +8,7 @@ import './assets/css/spinner.css';
 import { useToggle } from '../../utils/hooks';
 import httpClient from '../../config/axios';
 
-export function HomePage() {
+export function Welcome() {
   const [showModal, setToggleShowModal] = useToggle(false);
   const [isLoading, setIsLoading] = useState(false);
   const [preregistrationPayload, setPreregistrationPayload] = useState({

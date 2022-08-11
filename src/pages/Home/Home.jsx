@@ -2,14 +2,14 @@ import React from 'react';
 
 import { Header } from './Header';
 import { Feature } from './Feature';
-import { HomePage } from './HomePage';
+import { Welcome } from './Welcome';
 import { Pricing } from './Pricing';
 
 export function Home() {
   return (
     <div>
       <Header />
-      <HomePage />
+      <Welcome />
       <Feature />
       <Pricing />
     </div>
