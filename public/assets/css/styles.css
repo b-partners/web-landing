@@ -768,6 +768,7 @@ video {
 }
 
 .pricing-img {
+	margin-top: 25px;
 	margin-bottom: 25px;
 	max-width: 100%;
 	border-radius: 5px;
@@ -802,6 +803,8 @@ video {
 }
 
 .pricing-button {
+	height: 4.375rem;
+	width: 100%;
 	border-radius: 5px;
 	background-color: var(--first-color);
 	display: inline-block;
@@ -810,7 +813,7 @@ video {
 	font-size: var(--small-font-size);
 	text-align: center;
 	margin-top: 25px;
-	padding: 10px 16px;
+	padding: 10px 10px;
 	text-decoration: none;
 	transition: all 150ms ease-in-out;
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import './Pricing.css';
 
-import essentiel from '../assets/img/essentiel.jpg';
-import ambitieux from '../assets/img/ambitieux.jpeg';
-import developpement from '../assets/img/developpement.jpeg';
+import essentiel from '../assets/img/essentiel.png';
+import ambitieux from '../assets/img/ambitieux.png';
+import developpement from '../assets/img/developpement.png';
 import connexion from '../assets/img/connexion.png';
 import confirmer from '../assets/img/identity.png';
 import valider from '../assets/img/valider.png';
@@ -94,9 +94,9 @@ export function Pricing() {
                   <span style={{ fontSize: 15 }}>/mois</span>
                 </span>
                 <div className="pricing-img-container">
-                  <img src={developpement} alt="" className="pricing-img" id="fusee" />
+                  <img src={developpement} alt="" className="pricing-img" />
                 </div>
-                <a href="src/pages/Home/Home#/" className="pricing-button is-featured">
+                <a href="src/pages/Home/Home#/" className="pricing-button">
                   C'est plutôt ça qu'il me faut
                 </a>
                 <ul className="pricing-features">

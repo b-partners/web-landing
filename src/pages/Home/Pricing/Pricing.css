@@ -77,8 +77,7 @@
     margin-bottom: 20px;
 }
 
-
-@media (max-width: 1060px) {
+@media (max-width: 1080px) {
     .pricing__container {
         flex-direction: column;
         font-size: var(--normal-font-size);
@@ -128,6 +127,9 @@
         text-align: center;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .pricing-button {
+        line-height: 3.125rem;
     }
 }
 
