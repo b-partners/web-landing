@@ -311,7 +311,7 @@ video {
 .home__container {
 	row-gap: 0.5rem;
 }
-.button__inscription{
+.button__registration{
 	display: inline-block;
 	background-color: var(--first-color-logo);
 	color: #fff;
