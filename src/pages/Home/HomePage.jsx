@@ -1,7 +1,7 @@
 import React from 'react';
 
 import artisans from './assets/img/artisans.jpg';
-import assistant from './assets/img/home-overview.png';
+import assistant from './assets/img/home-overview.jpg';
 
 export function HomePage() {
   return (
