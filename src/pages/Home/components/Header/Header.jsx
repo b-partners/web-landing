@@ -1,32 +1,47 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import logo from '../../assets/img/logo.png';
 import '../../assets/css/input.css';
 
 import { useToggle } from '../../../../utils/hooks';
 import { Modal } from '../../../../common/components/Modal';
+import httpClient from '../../../../config/axios';
 
 export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
   const buttonStyle = { backgroundColor: 'transparent', border: 'none' };
   const [showModal, setToggleShowModal] = useToggle(false);
-  const handleChange = () => {
+  const [phoneNumber, setPhoneNumber] = useState('');
+
+  const handlePhoneNumberChange = event => {
+    const { value } = event;
+    setPhoneNumber(value);
+  };
+
+  const handleSubmit = async event => {
+    event.preventDefault();
+    try {
+      const response = await httpClient.post(`auth`, { phoneNumber });
+      const { code } = await httpClient.post(`token`, { code });
+    } catch (e) {
+      throw new Error(e);
+    }
   };
 
   return (<header className='l-header' id='header'>
       <nav className='nav bd-container'>
-        <a href='src/pages/Home/components/Header/Header#home' className='nav__logo'>
+        <a href='#home' className='nav__logo'>
           <img src={logo} alt='logo' style={{ width: '10.625rem' }} />
         </a>
         <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} id='nav-menu'>
           <ul className='nav__list'>
             <li className='nav__item'>
-              <a href='src/pages/Home/components/Header/Header#home' className='nav__link active-link'>
+              <a href='#home' className='nav__link active-link'>
                 Accueil
               </a>
             </li>
             <li className='nav__item'>
-              <a href='src/pages/Home/components/Header/Header#share' className='nav__link'>
+              <a href='#share' className='nav__link'>
                 Fonctionnalités
               </a>
             </li>
@@ -46,9 +61,8 @@ export function Header() {
           <i className='bx bx-grid-alt' />
         </button>
       </nav>
-      <Modal showModal={showModal} setToggleShowModal={setToggleShowModal}>
-        <form onSubmit={() => {
-        }}>
+      <Modal showModal={showModal} toggle={setToggleShowModal}>
+        <form onSubmit={handleSubmit}>
           <div className='floating-form'>
             <div className='floating-label'>
               <input
@@ -56,7 +70,7 @@ export function Header() {
                 type='text'
                 placeholder=''
                 name='phone_number'
-                onChange={handleChange}
+                onChange={handlePhoneNumberChange}
               />
               <span>Téléphone</span>
             </div>
