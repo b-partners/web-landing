@@ -16,6 +16,6 @@ module.exports = {
   rules: {
     'import/prefer-default-export': 'off',
     'react/no-unescaped-entities': 'off',
-    'max-len': ['error', { 'code': 120 }],
+    'max-len': ['error', { code: 120 }],
   },
 };
