@@ -769,13 +769,14 @@ video {
 
 .pricing-img {
 	margin-bottom: 25px;
-	max-width: 30%;
+	max-width: 100%;
+	border-radius: 5px;
 }
 
 #fusee {
 	margin-top: 10px;
 	margin-bottom: 35px;
-	max-width: 20%;
+	max-width: 100%;
 }
 
 .pricing-header {
@@ -806,6 +807,8 @@ video {
 	display: inline-block;
 	color: white;
 	font-weight: 600;
+	font-size: var(--small-font-size);
+	text-align: center;
 	margin-top: 25px;
 	padding: 10px 16px;
 	text-decoration: none;

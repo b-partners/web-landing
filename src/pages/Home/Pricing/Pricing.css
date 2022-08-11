@@ -24,6 +24,16 @@
     margin-top: auto;
 }
 
+.pricing-img-container {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing-plan {
+    padding: 20px;
+}
+
 .decoration__data {
 	text-align: center;
 	vertical-align: top;
@@ -126,6 +136,10 @@
     .pricing__section {
         width: 80%;
         margin: auto;
+    }
+
+    .pricing-plan {
+        padding: 20px;
     }
     
     .pricing__button {
