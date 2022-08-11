@@ -3,6 +3,7 @@ import React from 'react';
 import { Header } from './Header';
 import { Feature } from './Feature';
 import { HomePage } from './HomePage';
+import { Pricing } from './Pricing';
 
 export function Home() {
   return (
@@ -10,6 +11,7 @@ export function Home() {
       <Header />
       <HomePage />
       <Feature />
+      <Pricing />
     </div>
   );
 }
