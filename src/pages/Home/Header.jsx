@@ -12,7 +12,7 @@ export function Header() {
     <header className="l-header" id="header">
       <nav className="nav bd-container">
         <a href="#home" className="nav__logo">
-          <img src={logo} alt="logo" style={{ width: '170px' }} />
+          <img src={logo} alt="logo" style={{ width: '10.625rem' }} />
         </a>
         <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} iiidid="nav-menu">
           <ul className="nav__list">
