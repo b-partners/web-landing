@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export function Modal({ children, showModal, setToggleShowModal }) {
+export function Modal({ children, showModal, toggle }) {
 
   return (
     <div
       className={`modal ${showModal ? '' : 'modal-hide'}`}
-      onClick={setToggleShowModal}
-      onKeyDown={setToggleShowModal}
+      onClick={toggle}
+      onKeyDown={toggle}
       role='button'
       tabIndex={0}
     >
@@ -30,5 +30,5 @@ Modal.propTypes = {
     PropTypes.node,
   ]).isRequired,
   showModal: PropTypes.bool.isRequired,
-  setToggleShowModal: PropTypes.func.isRequired,
+  toggle: PropTypes.func.isRequired,
 };

@@ -14,11 +14,11 @@ export function Welcome() {
   const [preregistrationPayload, setPreregistrationPayload] = useState({
     first_name: '', last_name: '', society: '', email: '', phone_number: '',
   });
-  const [showModal, setToggleShowModal] = useToggle(false);
+  const [showModal, toggle] = useToggle(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setToggleShowModal(!showModal);
+    toggle();
   };
 
   const sendData = async (payload) => {
@@ -29,6 +29,7 @@ export function Welcome() {
       throw new Error(e);
     } finally {
       setIsLoading(false);
+      toggle();
     }
   };
 
@@ -73,7 +74,7 @@ export function Welcome() {
             />
           </form>
         </div>
-        <Modal className='modal' showModal={showModal} setToggleShowModal={setToggleShowModal}>
+        <Modal className='modal' showModal={showModal} toggle={toggle}>
           <form onSubmit={handleModalSubmit}>
             <div className='floating-form'>
               <div className='floating-label'>
