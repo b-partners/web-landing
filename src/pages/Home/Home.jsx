@@ -1,15 +1,15 @@
 import React from 'react';
 
-import { Header } from './Header';
-import { Feature } from './Feature';
-import { HomePage } from './HomePage';
-import { Pricing } from './Pricing';
+import { Header } from './components/Header';
+import { Feature } from './components/Feature';
+import { Welcome } from './components/Welcome';
+import { Pricing } from './components/Pricing';
 
 export function Home() {
   return (
     <div>
       <Header />
-      <HomePage />
+      <Welcome />
       <Feature />
       <Pricing />
     </div>

@@ -1,15 +1,15 @@
 import React from 'react';
 import './Pricing.css';
 
-import essentiel from '../assets/img/essentiel.png';
-import ambitieux from '../assets/img/ambitieux.png';
-import developpement from '../assets/img/developpement.png';
-import connexion from '../assets/img/connexion.png';
-import confirmer from '../assets/img/identity.png';
-import valider from '../assets/img/valider.png';
+import essentiel from '../../assets/img/essentiel.png';
+import ambitieux from '../../assets/img/ambitieux.png';
+import developpement from '../../assets/img/developpement.png';
+import connexion from '../../assets/img/connexion.png';
+import confirmer from '../../assets/img/identity.png';
+import valider from '../../assets/img/valider.png';
 
-import { ReactComponent as Apple } from '../assets/img/apple-store.svg';
-import { ReactComponent as Google } from '../assets/img/google-store.svg';
+import { ReactComponent as Apple } from '../../assets/img/apple-store.svg';
+import { ReactComponent as Google } from '../../assets/img/google-store.svg';
 
 export function Pricing() {
   return (

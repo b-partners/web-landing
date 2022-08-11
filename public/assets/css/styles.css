@@ -357,10 +357,14 @@ video {
 	justify-content: center;
 	width: 100%;
 }
+.home__email__form{
+	width: 100%;
+	text-align: center;
+}
 .home__email__input{
 	background-color: #D0CECE;
 	border: 1px solid #D0CECE;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	width: 96%;
 	height: 2.35rem;
 	text-align: center;
