@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { Header } from './Header';
-import { Feature } from './Feature';
-import { Welcome } from './Welcome';
-import { Pricing } from './Pricing';
+import { Header } from './components/Header';
+import { Feature } from './components/Feature';
+import { Welcome } from './components/Welcome';
+import { Pricing } from './components/Pricing';
 
 export function Home() {
   return (

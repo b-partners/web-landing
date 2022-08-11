@@ -1,8 +1,8 @@
 import React from 'react';
 
-import logo from './assets/img/logo.png';
+import logo from '../../assets/img/logo.png';
 
-import { useToggle } from '../../utils/hooks';
+import { useToggle } from '../../../../utils/hooks';
 
 export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
@@ -11,18 +11,18 @@ export function Header() {
   return (
     <header className="l-header" id="header">
       <nav className="nav bd-container">
-        <a href="#home" className="nav__logo">
+        <a href="src/pages/Home/components/Header/Header#home" className="nav__logo">
           <img src={logo} alt="logo" style={{ width: '10.625rem' }} />
         </a>
         <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} iiidid="nav-menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="#home" className="nav__link active-link">
+              <a href="src/pages/Home/components/Header/Header#home" className="nav__link active-link">
                 Accueil
               </a>
             </li>
             <li className="nav__item">
-              <a href="#share" className="nav__link">
+              <a href="src/pages/Home/components/Header/Header#share" className="nav__link">
                 Fonctionnalités
               </a>
             </li>

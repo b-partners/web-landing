@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
-import artisans from './assets/img/artisans.jpg';
-import assistant from './assets/img/home-overview.jpg';
-import './assets/css/modal.css';
-import './assets/css/input.css';
-import './assets/css/spinner.css';
-import { useToggle } from '../../utils/hooks';
-import httpClient from '../../config/axios';
+import artisans from '../../assets/img/artisans.jpg';
+import assistant from '../../assets/img/home-overview.jpg';
+import '../../assets/css/modal.css';
+import '../../assets/css/input.css';
+import '../../assets/css/spinner.css';
+import { useToggle } from '../../../../utils/hooks';
+import httpClient from '../../../../config/axios';
 
 export function Welcome() {
   const [showModal, setToggleShowModal] = useToggle(false);
@@ -55,7 +55,7 @@ export function Welcome() {
           FR, virement,
           tenu de compte, cartes) offrez-vous l’assistant de votre réussite grâce à votre mobile
         </p>
-        <a href='/' className='button__register'>
+        <a href='/src/pages' className='button__register'>
           Lancement de l’application mobile et web le 1 Novembre 2022 – Inscrivez-vous ici pour devenir
           les premiers
           utilisateurs
