@@ -17,16 +17,17 @@ export function Header() {
 
   const handlePhoneNumberChange = event => {
     const { name, value } = event.target;
-    setAuthPayload(prevState => ({ ...prevState, [name]: value }));
+    setAuthPayload(prevState => ({ ...prevState, [name]: value.replace('+', '%2B') }));
   };
 
   const handleSubmit = async event => {
     event.preventDefault();
     setIsLoading(true);
     try {
-      const { code } = await httpClient.post(`auth`, authPayload);
-      const response = await httpClient.post(`token`, { code });
-      console.log(response, code);
+      const { data: url } = await httpClient.post(`auth`, authPayload);
+      console.log(url.replace('+', '%2B'));
+      /* eslint-disable-next-line no-restricted-globals */
+      location.assign(url);
     } catch (e) {
       throw new Error(e);
     } finally {
