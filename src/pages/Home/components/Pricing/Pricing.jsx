@@ -20,7 +20,7 @@ export function Pricing() {
     <div className="pricing__container">
       <div className="pricing__main">
         <a href="src/pages/Home/Home#" className="button pricing__button">
-          Préinscrivez-vous et bénéficiez de la formule de votre choix gratuite pendant 1 an (offre limité au 500
+          Préinscrivez-vous et bénéficiez de la formule de votre choix gratuite pendant 1 an (offre limitée au 500
           premiers clients)
         </a>
         <Preregistration onSubmitEmail={handleEmailSubmit} onChange={handleChange} showModal={showModal} toggle={toggle}
