@@ -351,17 +351,17 @@ video {
 .home__description {
 	margin-bottom: var(--mb-3);
 }
-.home__email{
+.preregistration__container{
 	margin-top: 0.3rem;
 	display: flex;
 	justify-content: center;
 	width: 100%;
 }
-.home__email__form{
+.preregistration__container__form{
 	width: 100%;
 	text-align: center;
 }
-.home__email__input{
+.preregistration__container__input{
 	background-color: #D0CECE;
 	border: 1px solid #D0CECE;
 	color: rgb(0, 0, 0);

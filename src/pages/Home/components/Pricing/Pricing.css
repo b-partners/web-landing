@@ -13,7 +13,7 @@
     margin-left: auto;
 }
 
-.pricing__button {
+.button--pricing {
     width: 100%;
     margin: auto;
 }
@@ -83,7 +83,7 @@
         font-size: var(--normal-font-size);
     }
 
-    .pricing__button {
+    .button--pricing {
         width: 100%;
         margin: auto;
     }
@@ -92,7 +92,7 @@
         width: 80%;
         margin: auto;
     }
-    
+
     .pricing__section {
         width: 80%;
         height: fit-content;
@@ -143,8 +143,8 @@
     .pricing-plan {
         padding: 20px;
     }
-    
-    .pricing__button {
+
+    .button--pricing {
         width: 100%;
         margin: auto;
         font-size: var(--small-font-size);
@@ -161,7 +161,7 @@
         max-width: 80%;
         margin: 10px auto;
     }
-    
+
 }
 
 .decoration__container {

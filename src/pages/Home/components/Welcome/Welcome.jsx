@@ -6,7 +6,7 @@ import { Preregistration } from '../Preregistration';
 import artisans from '../../assets/img/artisans.jpg';
 import assistant from '../../assets/img/home-overview.jpg';
 import '../../../../common/components/Modal/Modal.css';
-import '../../assets/css/input.css';
+import '../../assets/css/forms.css';
 import '../../assets/css/spinner.css';
 
 export function Welcome() {
@@ -26,11 +26,11 @@ export function Welcome() {
           FR, virement,
           tenu de compte, cartes) offrez-vous l’assistant de votre réussite grâce à votre mobile
         </p>
-        <a href='#welcome' className='button__register'>
+        <button type='button' className='button button--pricing'>
           Lancement de l’application mobile et web le 1 Novembre 2022 – Inscrivez-vous ici pour devenir
           les premiers
           utilisateurs
-        </a>
+        </button>
         <Preregistration onSubmitEmail={handleEmailSubmit} onChange={handleChange} showModal={showModal} toggle={toggle}
                          onSubmitModal={handleModalSubmit} loading={isLoading} />
       </div>

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 import logo from '../../assets/img/logo.png';
-import '../../assets/css/input.css';
+import '../../assets/css/forms.css';
 
 import { useToggle } from '../../../../utils/hooks';
 import { Modal } from '../../../../common/components/Modal';

@@ -8,13 +8,13 @@ export function Preregistration(props) {
   const { onSubmitEmail, onSubmitModal, onChange, showModal, toggle, loading } = props;
   return (
     <>
-      <div className='home__email'>
-        <form className='home__email__form' onSubmit={onSubmitEmail}>
+      <div className='preregistration__container'>
+        <form className='preregistration__container__form' onSubmit={onSubmitEmail}>
           <input
             type='email'
             name='email'
             placeholder='Votre email @'
-            className='home__email__input'
+            className='preregistration__container__input'
             onChange={onChange}
             required
           />
