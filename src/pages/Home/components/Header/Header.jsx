@@ -11,18 +11,19 @@ export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
   const buttonStyle = { backgroundColor: 'transparent', border: 'none' };
   const [showModal, setToggleShowModal] = useToggle(false);
-  const [phoneNumber, setPhoneNumber] = useState('');
+  const [authPayload, setAuthPayload] = useState({ phoneNumber: '' });
 
   const handlePhoneNumberChange = event => {
-    const { value } = event;
-    setPhoneNumber(value);
+    const { name, value } = event.target;
+    setAuthPayload(prevState => ({ ...prevState, [name]: value }));
   };
 
   const handleSubmit = async event => {
     event.preventDefault();
     try {
-      const response = await httpClient.post(`auth`, { phoneNumber });
-      const { code } = await httpClient.post(`token`, { code });
+      const { code } = await httpClient.post(`auth`, authPayload);
+      const response  = await httpClient.post(`token`, { code });
+      console.log(response, code);
     } catch (e) {
       throw new Error(e);
     }
@@ -69,8 +70,9 @@ export function Header() {
                 className='floating-input'
                 type='text'
                 placeholder=''
-                name='phone_number'
+                name='phoneNumber'
                 onChange={handlePhoneNumberChange}
+                required
               />
               <span>Téléphone</span>
             </div>
