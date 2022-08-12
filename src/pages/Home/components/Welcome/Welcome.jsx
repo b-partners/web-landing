@@ -109,7 +109,7 @@ export function Welcome() {
                 />
                 <span>Téléphone</span>
               </div>
-              <Button type='submit' label='Se préinscrire' loading={isLoading}></Button>
+              <Button type='submit' label='Se préinscrire' loading={isLoading}/>
             </div>
           </form>
         </Modal>
