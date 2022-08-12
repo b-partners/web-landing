@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 import React, { useState } from 'react';
 
 import logo from '../../assets/img/logo.png';
@@ -25,7 +26,6 @@ export function Header() {
     setIsLoading(true);
     try {
       const { data: url } = await httpClient.post(`auth`, authPayload);
-      /* eslint-disable-next-line no-restricted-globals */
       location.assign(url);
     } catch (e) {
       throw new Error(e);
@@ -34,6 +34,18 @@ export function Header() {
     }
   };
 
+  const handleCreateAccount = async event => {
+    const { value } = event.target;
+    if (!value) {
+      return;
+    }
+    try {
+      const { data: url } = await httpClient.get('onboarding', { params: { type: value }});
+      location.assign(url);
+    } catch (e) {
+      throw new Error(e);
+    }
+  };
   return (<header className='l-header' id='header'>
     <nav className='nav bd-container'>
       <a href='#home' className='nav__logo'>
@@ -57,9 +69,12 @@ export function Header() {
             </button>
           </li>
           <li className='nav__item' id='ouvrir-compte'>
-            <button type='button' className='nav__link' style={{ color: 'white', ...buttonStyle }}>
+            <select className='nav__link' style={{ color: 'white', ...buttonStyle }} onChange={handleCreateAccount}>
               Ouvrir un compte
-            </button>
+              <option value='' selected>Ouvrir un compte</option>
+              <option value='INDIVIDUAL'>Particulier</option>
+              <option value='COMPANY'>Entreprise</option>
+            </select>
           </li>
         </ul>
       </div>
