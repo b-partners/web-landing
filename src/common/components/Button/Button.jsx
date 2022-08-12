@@ -8,7 +8,7 @@ export function Button({ loading , type , preset , label  }) {
     <button type={type} className={`btn ${preset}`}>
       {loading ? (<>
         <i className='fa fa-spinner fa-spin' />
-        Loading
+        {label}
       </>) : label}
     </button>
   );
