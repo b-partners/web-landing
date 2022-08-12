@@ -1,5 +1,5 @@
 import React from 'react';
-import myVideo from '../../assets/img/video.gif';
+import feature from '../../assets/img/transactions.gif';
 
 export function Feature() {
   return (
@@ -29,7 +29,7 @@ export function Feature() {
           </p>
         </div>
         <div className="share__img">
-          <img alt="ok" src={myVideo} />
+          <img alt="ok" src={feature} />
         </div>
       </div>
     </section>
