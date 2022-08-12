@@ -8,6 +8,7 @@ import '../../assets/css/spinner.css';
 import httpClient from '../../../../config/axios';
 import { Modal } from '../../../../common/components/Modal';
 import { useToggle } from '../../../../utils/hooks';
+import { Button } from '../../../../common/components/Button';
 
 export function Welcome() {
   const [isLoading, setIsLoading] = useState(false);
@@ -108,12 +109,7 @@ export function Welcome() {
                 />
                 <span>Téléphone</span>
               </div>
-              <button type='submit' className='form__validate'>
-                {isLoading ? (<>
-                  <i className='fa fa-spinner fa-spin' />
-                  Loading
-                </>) : 'Valider'}
-              </button>
+              <Button type='submit' label='Se préinscrire' loading={isLoading}></Button>
             </div>
           </form>
         </Modal>
