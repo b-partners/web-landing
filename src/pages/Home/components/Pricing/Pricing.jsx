@@ -10,8 +10,12 @@ import valider from '../../assets/img/valider.png';
 
 import { ReactComponent as Apple } from '../../assets/img/apple-store.svg';
 import { ReactComponent as Google } from '../../assets/img/google-store.svg';
+import { Preregistration } from '../Preregistration';
+import { usePreregistration } from '../../../../utils/hooks';
 
 export function Pricing() {
+  const { isLoading, showModal, toggle, handleEmailSubmit, handleModalSubmit, handleChange } = usePreregistration();
+
   return (
     <div className="pricing__container">
       <div className="pricing__main">
@@ -19,6 +23,8 @@ export function Pricing() {
           Préinscrivez-vous et bénéficiez de la formule de votre choix gratuite pendant 1 an (offre limité au 500
           premiers clients)
         </a>
+        <Preregistration onSubmitEmail={handleEmailSubmit} onChange={handleChange} showModal={showModal} toggle={toggle}
+                         onSubmitModal={handleModalSubmit} loading={isLoading} />
         <div className="background">
           <div className="container">
             <div className="pricing-table">
