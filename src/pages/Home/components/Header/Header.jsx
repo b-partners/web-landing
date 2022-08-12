@@ -25,7 +25,6 @@ export function Header() {
     setIsLoading(true);
     try {
       const { data: url } = await httpClient.post(`auth`, authPayload);
-      console.log(url.replace('+', '%2B'));
       /* eslint-disable-next-line no-restricted-globals */
       location.assign(url);
     } catch (e) {
