@@ -1,48 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
+
+import { usePreregistration } from '../../../../utils/hooks';
+import { Preregistration } from '../Preregistration';
 
 import artisans from '../../assets/img/artisans.jpg';
 import assistant from '../../assets/img/home-overview.jpg';
 import '../../../../common/components/Modal/Modal.css';
 import '../../assets/css/input.css';
 import '../../assets/css/spinner.css';
-import httpClient from '../../../../config/axios';
-import { Modal } from '../../../../common/components/Modal';
-import { useToggle } from '../../../../utils/hooks';
-import { Button } from '../../../../common/components/Button';
 
 export function Welcome() {
-  const [isLoading, setIsLoading] = useState(false);
-  const [preregistrationPayload, setPreregistrationPayload] = useState({
-    first_name: '', last_name: '', society: '', email: '', phone_number: '',
-  });
-  const [showModal, toggle] = useToggle(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    toggle();
-  };
-
-  const sendData = async (payload) => {
-    setIsLoading(true);
-    try {
-      await httpClient.post('/pre-registration', payload);
-    } catch (e) {
-      throw new Error(e);
-    } finally {
-      setIsLoading(false);
-      toggle();
-    }
-  };
-
-  const handleModalSubmit = async (e) => {
-    e.preventDefault();
-    await sendData({ ...preregistrationPayload });
-  };
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setPreregistrationPayload((state) => ({ ...state, [name]: value }));
-  };
+  const { isLoading, showModal, toggle, handleEmailSubmit, handleModalSubmit, handleChange } = usePreregistration();
 
   return (<section className='home' id='home'>
     <div className='home__container bd-container bd-grid'>
@@ -63,56 +31,8 @@ export function Welcome() {
           les premiers
           utilisateurs
         </a>
-        <div className='home__email'>
-          <form className='home__email__form' onSubmit={handleSubmit}>
-            <input
-              type='email'
-              name='email'
-              placeholder='Votre email @'
-              className='home__email__input'
-              onChange={handleChange}
-              required
-            />
-          </form>
-        </div>
-        <Modal className='modal' showModal={showModal} toggle={toggle}>
-          <form onSubmit={handleModalSubmit}>
-            <div className='floating-form'>
-              <div className='floating-label'>
-                <input
-                  className='floating-input'
-                  type='text'
-                  placeholder=' '
-                  name='last_name'
-                  onChange={handleChange}
-                />
-                <span>Nom</span>
-              </div>
-              <div className='floating-label'>
-                <input
-                  className='floating-input'
-                  type='text'
-                  placeholder=' '
-                  name='first_name'
-                  onChange={handleChange}
-                />
-                <span>Prénom</span>
-              </div>
-              <div className='floating-label'>
-                <input
-                  className='floating-input'
-                  type='text'
-                  placeholder=''
-                  name='phone_number'
-                  onChange={handleChange}
-                  required
-                />
-                <span>Téléphone</span>
-              </div>
-              <Button type='submit' label='Se préinscrire' loading={isLoading}/>
-            </div>
-          </form>
-        </Modal>
+        <Preregistration onSubmitEmail={handleEmailSubmit} onChange={handleChange} showModal={showModal} toggle={toggle}
+                         onSubmitModal={handleModalSubmit} loading={isLoading} />
       </div>
       <div className='home__img'>
         <img className='home__img__overview' alt='assistant' src={assistant} style={{ width: '36.25rem' }} />
