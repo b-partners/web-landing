@@ -50,11 +50,11 @@ export function Pricing() {
                   </li>
                   <li className="pricing-features-item">
                     <strong>
-                      Activation de la version standard de notre assistant virtuelle pour faire grossir votre activité.
+                      Activation de la version standard de notre assistant virtuel pour faire grossir votre activité.
                     </strong>
                   </li>
                   <li className="pricing-features-item">
-                    <strong>Service de banque en ligne (RIB/Virement/carte à partir de 2€/mois).</strong>
+                    <strong>Service de banque en ligne (RIB/Virements/cartes à partir de 2€/mois).</strong>
                   </li>
                   <li className="pricing-features-item">
                     <strong>
@@ -88,7 +88,7 @@ export function Pricing() {
                   </li>
                   <li className="pricing-features-item">
                     Support &nbsp;
-                    <strong>7 jours sur 7</strong>
+                    <strong>7 jours sur 7.</strong>
                   </li>
                 </ul>
               </div>
@@ -115,11 +115,11 @@ export function Pricing() {
                   </li>
                   <li className="pricing-features-item">
                     <strong>
-                      Activation de la version standard de l'assistant virtuelle pour faire grossir votre activité.
+                      Activation de la version standard de l'assistant virtuel pour faire grossir votre activité.
                     </strong>
                   </li>
                   <li className="pricing-features-item">
-                    <strong>Service de banque en ligne (RIB/Virement/carte à partir de 2€/mois).</strong>
+                    <strong>Service de banque en ligne (RIB/Virements/cartes à partir de 2€/mois).</strong>
                   </li>
                   <li className="pricing-features-item">
                     <strong>
@@ -149,7 +149,7 @@ export function Pricing() {
                   </li>
                   <li className="pricing-features-item">
                     Support &nbsp;
-                    <strong>7 jours sur 7</strong>
+                    <strong>7 jours sur 7.</strong>
                   </li>
                 </ul>
               </div>
@@ -177,16 +177,16 @@ export function Pricing() {
                   </li>
                   <li className="pricing-features-item">
                     <strong>
-                      Activation de la version personnalisée de notre assistant virtuelle pour faire grossir votre
+                      Activation de la version personnalisée de notre assistant virtuel pour faire grossir votre
                       activité.
                     </strong>
                   </li>
                   <li className="pricing-features-item">
-                    <strong>Service de banque en ligne (RIB/Virement/carte à partir de 2€/mois).</strong>
+                    <strong>Service de banque en ligne (RIB/Virements/cartes à partir de 2€/mois).</strong>
                   </li>
                   <li className="pricing-features-item">
                     <strong>
-                      Bénéficiez de notre outil de devis, facturation, comptabilité automatisée (multi utilisateur).
+                      Bénéficiez de notre outil de devis, facturation, comptabilité automatisée (multi utilisateurs).
                     </strong>
                   </li>
                   <li className="pricing-features-item">
@@ -209,6 +209,10 @@ export function Pricing() {
                   <li className="pricing-features-item">
                     <strong>100</strong>
                     &nbsp; virements et prélèvements puis 0,20€ au delà.
+                  </li>
+                  <li className="pricing-features-item">
+                    Support &nbsp;
+                    <strong>7 jours sur 7.</strong>
                   </li>
                 </ul>
               </div>
