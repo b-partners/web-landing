@@ -47,7 +47,7 @@ export function Preregistration(props) {
               <input
                 className='floating-input'
                 type='text'
-                placeholder=''
+                placeholder=' '
                 name='phone_number'
                 onChange={onChange}
                 required
