@@ -10,7 +10,15 @@ import '../../assets/css/forms.css';
 import '../../assets/css/spinner.css';
 
 export function Welcome() {
-  const { isLoading, showModal, toggle, handleEmailSubmit, handleModalSubmit, handleChange } = usePreregistration();
+  const {
+    preRegistration,
+    isLoading,
+    showModal,
+    toggle,
+    handleEmailSubmit,
+    handleModalSubmit,
+    handleChange
+  } = usePreregistration();
 
   return (<section className='home' id='home'>
     <div className='home__container bd-container bd-grid'>
@@ -31,8 +39,14 @@ export function Welcome() {
           les premiers
           utilisateurs.
         </button>
-        <Preregistration onSubmitEmail={handleEmailSubmit} onChange={handleChange} showModal={showModal} toggle={toggle}
-                         onSubmitModal={handleModalSubmit} loading={isLoading} />
+        <Preregistration
+          onSubmitEmail={handleEmailSubmit}
+          onChange={handleChange}
+          showModal={showModal}
+          toggle={toggle}
+          onSubmitModal={handleModalSubmit}
+          loading={isLoading}
+          preRegistration={preRegistration} />
       </div>
       <div className='home__img'>
         <img className='home__img__overview' alt='assistant' src={assistant} style={{ width: '36.25rem' }} />
