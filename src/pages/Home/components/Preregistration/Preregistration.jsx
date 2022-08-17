@@ -28,16 +28,6 @@ export function Preregistration(props) {
                 className='floating-input'
                 type='text'
                 placeholder=' '
-                name='last_name'
-                onChange={onChange}
-              />
-              <span>Nom</span>
-            </div>
-            <div className='floating-label'>
-              <input
-                className='floating-input'
-                type='text'
-                placeholder=' '
                 name='first_name'
                 onChange={onChange}
               />
@@ -48,9 +38,28 @@ export function Preregistration(props) {
                 className='floating-input'
                 type='text'
                 placeholder=' '
+                name='last_name'
+                onChange={onChange}
+              />
+              <span>Nom</span>
+            </div>
+            <div className='floating-label'>
+              <input
+                className='floating-input'
+                type='text'
+                placeholder=' '
+                name='society'
+                onChange={onChange}
+              />
+              <span>Société</span>
+            </div>
+            <div className='floating-label'>
+              <input
+                className='floating-input'
+                type='text'
+                placeholder=' '
                 name='phone_number'
                 onChange={onChange}
-                required
               />
               <span>Téléphone</span>
             </div>
