@@ -4,6 +4,7 @@ import httpClient from '../../config/axios';
 
 export function usePreregistration() {
   const [isLoading, setIsLoading] = useState(false);
+  const [preRegistration, setPreRegistration] = useState(false);
   const [preregistrationPayload, setPreregistrationPayload] = useState({
     first_name: '', last_name: '', society: '', email: '', phone_number: '',
   });
@@ -22,7 +23,7 @@ export function usePreregistration() {
       throw new Error(e);
     } finally {
       setIsLoading(false);
-      toggle();
+      setPreRegistration(true);
     }
   };
 
@@ -36,5 +37,13 @@ export function usePreregistration() {
     setPreregistrationPayload((state) => ({ ...state, [name]: value }));
   };
 
-  return { isLoading, showModal, toggle, handleEmailSubmit: handleSubmit, handleModalSubmit, handleChange };
+  return {
+    preRegistration,
+    isLoading,
+    showModal,
+    toggle,
+    handleEmailSubmit: handleSubmit,
+    handleModalSubmit,
+    handleChange
+  };
 }

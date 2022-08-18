@@ -5,7 +5,7 @@ import { Modal } from '../../../../common/components/Modal';
 import { Button } from '../../../../common/components/Button';
 
 export function Preregistration(props) {
-  const { onSubmitEmail, onSubmitModal, onChange, showModal, toggle, loading } = props;
+  const { preRegistration, onSubmitEmail, onSubmitModal, onChange, showModal, toggle, loading } = props;
   return (
     <>
       <div className='preregistration__container'>
@@ -20,9 +20,19 @@ export function Preregistration(props) {
           />
         </form>
       </div>
-      <Modal className='modal' showModal={showModal} toggle={toggle}>
+      {!preRegistration ? <Modal className='modal' showModal={showModal} toggle={toggle}>
         <form onSubmit={onSubmitModal}>
           <div className='floating-form'>
+            <div className='floating-label'>
+              <input
+                className='floating-input'
+                type='text'
+                placeholder=' '
+                name='first_name'
+                onChange={onChange}
+              />
+              <span>Prénom</span>
+            </div>
             <div className='floating-label'>
               <input
                 className='floating-input'
@@ -38,26 +48,32 @@ export function Preregistration(props) {
                 className='floating-input'
                 type='text'
                 placeholder=' '
-                name='first_name'
+                name='society'
                 onChange={onChange}
               />
-              <span>Prénom</span>
+              <span>Société</span>
             </div>
             <div className='floating-label'>
               <input
                 className='floating-input'
                 type='text'
-                placeholder=''
+                placeholder=' '
                 name='phone_number'
                 onChange={onChange}
-                required
               />
               <span>Téléphone</span>
             </div>
             <Button type='submit' label='Se préinscrire' loading={loading} />
           </div>
         </form>
-      </Modal>
+      </Modal> : <Modal className='modal' showModal={showModal} toggle={toggle}>
+        <div className='modal__content__container'>
+          <button type='button' className='exit__button' onClick={toggle}>&times;</button>
+          <p className='modal__content__container__text'>
+            Merci, votre préinscription a bien été prise en compte et nous vous tiendrons informé du lancement.
+          </p>
+        </div>
+      </Modal>}
     </>
   );
 }
@@ -65,6 +81,7 @@ export function Preregistration(props) {
 Preregistration.propTypes = {
   showModal: PropTypes.bool.isRequired,
   loading: PropTypes.bool.isRequired,
+  preRegistration: PropTypes.bool.isRequired,
   toggle: PropTypes.func.isRequired,
   onSubmitEmail: PropTypes.func.isRequired,
   onSubmitModal: PropTypes.func.isRequired,
