@@ -32,7 +32,7 @@ export function Welcome() {
         <p className='home__description'>
           Artisans, indépendants français, en plus des services bancaires classiques (obtention d’un RIB
           FR, virement,
-          tenu de compte(s), cartes), offrez-vous l’assistant de votre réussite grâce à votre mobile.
+          tenu de comptes, cartes), offrez-vous l’assistant de votre réussite grâce à votre mobile.
         </p>
         <button type='button' className='button button--pricing'>
           Lancement de l’application mobile et web le 1er Novembre 2022 – Inscrivez-vous ici pour devenir

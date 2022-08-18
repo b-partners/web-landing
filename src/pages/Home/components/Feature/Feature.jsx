@@ -21,7 +21,7 @@ export function Feature() {
           </p>
           <p className="share__description">
             <i className="fa fa-check" aria-hidden="true" />
-            &nbsp; Virements instantanés jusqu'a 100 000€.
+            &nbsp; Virements instantanés jusqu'à 100 000€.
           </p>
           <p className="share__description">
             <i className="fa fa-check" aria-hidden="true" />

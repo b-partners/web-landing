@@ -56,7 +56,7 @@ export function Pricing() {
                   </li>
                   <li className='pricing-features-item'>
                     <strong>
-                      Activation de la version standard de notre assistant virtuel pour faire grossir votre activité.
+                      Activation de la version standard de notre assistant virtuel pour développer votre activité.
                     </strong>
                   </li>
                   <li className='pricing-features-item'>
