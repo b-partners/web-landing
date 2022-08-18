@@ -4,13 +4,16 @@
 
 .pricing__container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-size: var(--small-font-size);
+    padding-top: 4rem;
 }
 
-.pricing__main {
-    width: 50%;
+.pricing__main,
+.decoration {
+    width: 70%;
     margin-left: auto;
+    margin-right: auto;
 }
 
 .button--pricing {
@@ -51,7 +54,6 @@
 .decoration__container {
     display: flex;
     flex-direction: row;
-    font-size: var(--xsmall-font-size);
 }
 .decoration{
     text-align: center;
@@ -71,18 +73,8 @@
     width: 20%;
     margin-right: 20px;
 }
-.send {
-    font-size: var(--xsmall-font-size);
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 @media (max-width: 1080px) {
-    .pricing__container {
-        flex-direction: column;
-        font-size: var(--normal-font-size);
-    }
-
     .button--pricing {
         width: 100%;
         margin: auto;
@@ -121,12 +113,6 @@
     .dl {
         width: 20%;
         margin-right: 20px;
-    }
-    .send {
-        font-size: var(--small-font-size);
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
     .pricing-button {
         line-height: 3.125rem;
