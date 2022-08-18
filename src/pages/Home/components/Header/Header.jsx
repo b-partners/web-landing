@@ -15,6 +15,7 @@ export function Header() {
   const [showModal, setToggleShowModal] = useToggle(false);
   const [authPayload, setAuthPayload] = useState({ phoneNumber: '' });
   const [isLoading, setIsLoading] = useState(false);
+  const [isCreatingAccount, setIsCreatingAccount] = useState(false);
 
   const handlePhoneNumberChange = event => {
     const { name, value } = event.target;
@@ -34,16 +35,15 @@ export function Header() {
     }
   };
 
-  const handleCreateAccount = async event => {
-    const { value } = event.target;
-    if (!value) {
-      return;
-    }
+  const handleCreateAccount = async () => {
+    setIsCreatingAccount(true);
     try {
-      const { data: url } = await httpClient.get('onboarding', { params: { type: value }});
+      const { data: url } = await httpClient.get('onboarding', { params: { type: 'COMPANY' } });
       location.assign(url);
     } catch (e) {
       throw new Error(e);
+    } finally {
+      setIsCreatingAccount(false);
     }
   };
   return (<header className='l-header' id='header'>
@@ -69,12 +69,7 @@ export function Header() {
             </button>
           </li>
           <li className='nav__item' id='ouvrir-compte'>
-            <select className='nav__link' style={{ color: 'white', ...buttonStyle }} onChange={handleCreateAccount}>
-              Ouvrir un compte
-              <option value='' selected>Ouvrir un compte</option>
-              <option value='INDIVIDUAL'>Particulier</option>
-              <option value='COMPANY'>Entreprise</option>
-            </select>
+            <Button type='submit' loading={isCreatingAccount} label='Ouvrir un compte' onClick={handleCreateAccount}/>
           </li>
         </ul>
       </div>
