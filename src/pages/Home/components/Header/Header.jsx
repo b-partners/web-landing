@@ -13,6 +13,7 @@ export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
   const buttonStyle = { backgroundColor: 'transparent', border: 'none' };
   const [showModal, setToggleShowModal] = useToggle(false);
+  const [preventAccountCreationModal, togglePreventAccountCreationModal] = useToggle(false);
   const [authPayload, setAuthPayload] = useState({ phoneNumber: '' });
   const [isLoading, setIsLoading] = useState(false);
   const [isCreatingAccount, setIsCreatingAccount] = useState(false);
@@ -36,6 +37,10 @@ export function Header() {
   };
 
   const handleCreateAccount = async () => {
+    if (process.env.REACT_APP_ENV === 'production') {
+        togglePreventAccountCreationModal();
+        return;
+    }
     setIsCreatingAccount(true);
     try {
       const { data: url } = await httpClient.get('onboarding', { params: { type: 'COMPANY' } });
@@ -94,6 +99,9 @@ export function Header() {
           <Button type='submit' loading={isLoading} label='Se connecter' />
         </div>
       </form>
+    </Modal>
+    <Modal showModal={preventAccountCreationModal} toggle={togglePreventAccountCreationModal}>
+      <p>Un peu de patience l'application sera disponible le 01 Novembre 2022.</p>
     </Modal>
   </header>);
 }
