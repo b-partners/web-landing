@@ -13,7 +13,11 @@ export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
   const buttonStyle = { backgroundColor: 'transparent', border: 'none' };
   const [showModal, setToggleShowModal] = useToggle(false);
-  const [authPayload, setAuthPayload] = useState({ phoneNumber: '' });
+  const [authPayload, setAuthPayload] = useState({
+    phoneNumber: '',
+    successUrl: process.env.REACT_APP_SUCCESS_URL,
+    failureUrl: process.env.REACT_APP_FAILURE_URL,
+  });
   const [isLoading, setIsLoading] = useState(false);
   const [isCreatingAccount, setIsCreatingAccount] = useState(false);
 
@@ -26,8 +30,9 @@ export function Header() {
     event.preventDefault();
     setIsLoading(true);
     try {
-      const { data: url } = await httpClient.post(`auth`, authPayload);
-      location.assign(url);
+      let { data: { redirectionUrl } } = await httpClient.post(`auth`, authPayload);
+      redirectionUrl = redirectionUrl.replace('+', '%2B');
+      location.assign(redirectionUrl);
     } catch (e) {
       throw new Error(e);
     } finally {
@@ -38,7 +43,12 @@ export function Header() {
   const handleCreateAccount = async () => {
     setIsCreatingAccount(true);
     try {
-      const { data: url } = await httpClient.get('onboarding', { params: { type: 'COMPANY' } });
+      const { data: url } = await httpClient.post('onboarding', {
+        params: {
+          successUrl: process.env.REACT_APP_SUCCESS_URL,
+          failureUrl: process.env.REACT_APP_FAILURE_URL,
+        },
+      });
       location.assign(url);
     } catch (e) {
       throw new Error(e);
@@ -69,7 +79,7 @@ export function Header() {
             </button>
           </li>
           <li className='nav__item' id='ouvrir-compte'>
-            <Button type='submit' loading={isCreatingAccount} label='Ouvrir un compte' onClick={handleCreateAccount}/>
+            <Button type='submit' loading={isCreatingAccount} label='Ouvrir un compte' onClick={handleCreateAccount} />
           </li>
         </ul>
       </div>
