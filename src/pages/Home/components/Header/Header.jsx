@@ -44,10 +44,8 @@ export function Header() {
     setIsCreatingAccount(true);
     try {
       const { data: url } = await httpClient.post('onboarding', {
-        params: {
-          successUrl: process.env.REACT_APP_SUCCESS_URL,
-          failureUrl: process.env.REACT_APP_FAILURE_URL,
-        },
+        successUrl: process.env.REACT_APP_SUCCESS_URL,
+        failureUrl: process.env.REACT_APP_FAILURE_URL,
       });
       location.assign(url);
     } catch (e) {
