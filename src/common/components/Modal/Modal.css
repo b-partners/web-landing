@@ -144,7 +144,5 @@
   }
   .modal__content{
     width: 93%;
-    margin: auto;
-    word-break: break-all;
   }
 }

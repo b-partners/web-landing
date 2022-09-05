@@ -24,3 +24,8 @@ yarn-debug.log*
 yarn-error.log*
 
 .idea
+
+.env
+
+key.pem
+cert.pem
