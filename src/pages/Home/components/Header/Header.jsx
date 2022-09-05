@@ -1,6 +1,11 @@
 /* eslint-disable no-restricted-globals */
 import React, { useState } from 'react';
 
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+
 import logo from '../../assets/img/logo.png';
 import '../../assets/css/forms.css';
 
@@ -13,15 +18,24 @@ export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
   const buttonStyle = { backgroundColor: 'transparent', border: 'none' };
   const [showModal, setToggleShowModal] = useToggle(false);
-  const [preventAccountCreationModal, togglePreventAccountCreationModal] = useToggle(false);
   const [authPayload, setAuthPayload] = useState({ phoneNumber: '' });
   const [isLoading, setIsLoading] = useState(false);
   const [isCreatingAccount, setIsCreatingAccount] = useState(false);
+  const [open, setOpen] = React.useState(false);
 
   const handlePhoneNumberChange = event => {
     const { name, value } = event.target;
     setAuthPayload(prevState => ({ ...prevState, [name]: value.replace('+', '%2B') }));
   };
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
 
   const handleSubmit = async event => {
     event.preventDefault();
@@ -38,8 +52,8 @@ export function Header() {
 
   const handleCreateAccount = async () => {
     if (process.env.REACT_APP_ENV === 'production') {
-        togglePreventAccountCreationModal();
-        return;
+      handleClickOpen();
+      return;
     }
     setIsCreatingAccount(true);
     try {
@@ -51,6 +65,7 @@ export function Header() {
       setIsCreatingAccount(false);
     }
   };
+
   return (<header className='l-header' id='header'>
     <nav className='nav bd-container'>
       <a href='#home' className='nav__logo'>
@@ -69,12 +84,13 @@ export function Header() {
             </a>
           </li>
           <li className='nav__item'>
-            <button type='button' className='nav__link' style={buttonStyle} onClick={() => setToggleShowModal(true)}>
+            <a className='nav__link' style={buttonStyle}
+              href="https://dashboard.bpartners.app/#/login">
               Se connecter
-            </button>
+            </a>
           </li>
           <li className='nav__item' id='ouvrir-compte'>
-            <Button type='submit' loading={isCreatingAccount} label='Ouvrir un compte' onClick={handleCreateAccount}/>
+            <Button type='submit' loading={isCreatingAccount} label='Ouvrir un compte' onClick={handleCreateAccount} />
           </li>
         </ul>
       </div>
@@ -100,8 +116,22 @@ export function Header() {
         </div>
       </form>
     </Modal>
-    <Modal showModal={preventAccountCreationModal} toggle={togglePreventAccountCreationModal}>
-      <p>Un peu de patience l'application sera disponible le 1er Novembre 2022.</p>
-    </Modal>
+    <div>
+      <Dialog
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+      >
+        <DialogContent>
+          <DialogContentText id="alert-dialog-description">
+          Un peu de patience l'application sera disponible le 1er Novembre 2022.
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={handleClose} label='Ok' />
+        </DialogActions>
+      </Dialog>
+    </div>
   </header>);
 }

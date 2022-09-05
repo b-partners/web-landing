@@ -8,19 +8,7 @@ import connexion from '../../assets/img/connexion.png';
 import confirmer from '../../assets/img/identity.png';
 import valider from '../../assets/img/valider.png';
 
-import { Preregistration } from '../Preregistration';
-import { usePreregistration } from '../../../../utils/hooks';
-
 export function Pricing() {
-  const {
-    isLoading,
-    showModal,
-    toggle,
-    handleEmailSubmit,
-    handleModalSubmit,
-    handleChange,
-    preRegistration,
-  } = usePreregistration();
 
   return (
     <div className='pricing__container'>
@@ -29,8 +17,7 @@ export function Pricing() {
           Préinscrivez-vous et bénéficiez de la formule de votre choix gratuite pendant 1 an (offre limitée au 500
           premiers clients)
         </button>
-        <Preregistration onSubmitEmail={handleEmailSubmit} onChange={handleChange} showModal={showModal} toggle={toggle}
-                         onSubmitModal={handleModalSubmit} loading={isLoading} preRegistration={preRegistration} />
+        
         <div className='background'>
           <div className='container'>
             <div className='pricing-table'>

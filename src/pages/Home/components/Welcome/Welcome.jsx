@@ -4,7 +4,7 @@ import { usePreregistration } from '../../../../utils/hooks';
 import { Preregistration } from '../Preregistration';
 
 import artisans from '../../assets/img/artisans.jpg';
-import assistant from '../../assets/img/home-overview.jpg';
+import assistant from '../../assets/img/home-overview.png';
 import '../../../../common/components/Modal/Modal.css';
 import '../../assets/css/forms.css';
 import '../../assets/css/spinner.css';
@@ -24,7 +24,8 @@ export function Welcome() {
     <div className='home__container bd-container bd-grid'>
       <div className='home__data'>
         <h1 className='home__title'>
-          L'assistant bancaire qui accélère le développement des artisans et indépendants.
+          L'assistant bancaire qui accélère le développement
+          des artisans et indépendants.
         </h1>
         <div className='home__image'>
           <img alt='logo' src={artisans} style={{ width: '16.875rem' }} />

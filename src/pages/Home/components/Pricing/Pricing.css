@@ -60,6 +60,7 @@
 }
 .decoration-title {
     font-size: 1rem;
+    margin-bottom: 2rem;
 }
 .decoration__data {
     max-width: 33%;
