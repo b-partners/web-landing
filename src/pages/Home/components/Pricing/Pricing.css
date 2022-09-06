@@ -2,6 +2,10 @@
     --xsmall-font-size: 0.5rem;
 }
 
+.pricing__title {
+    text-align: center;
+}
+
 .pricing__container {
     display: flex;
     flex-direction: column;
@@ -55,11 +59,38 @@
     display: flex;
     flex-direction: row;
 }
+.connexion-button {
+    cursor: pointer;
+    margin-bottom: 1.2rem;
+    width: 75%;
+    margin-inline: auto;
+    height: 2.87rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: white;
+}
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.button-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
 .decoration{
     text-align: center;
 }
 .decoration-title {
-    font-size: 1rem;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
 }
 .decoration__data {
     max-width: 33%;
@@ -116,6 +147,11 @@
     }
     .pricing-button {
         line-height: 3.125rem;
+    }
+    .connexion-button {
+        font-size: .8rem;
+        width: 90%;
+        height: 3rem;
     }
 }
 

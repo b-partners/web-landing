@@ -125,7 +125,7 @@ video {
 	height: auto;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-	color: #ffff;
+	color: var(--first-color-logo);
 	opacity: 1; /* Firefox */
   }
 /*========== CLASS CSS ==========*/
@@ -336,20 +336,22 @@ video {
 	font-weight: bold;
 	font-size: 2rem;
 }
-.home__title {
-	border: 1px solid var(--first-color-logo);
+h1.home__title {
 	padding: 0.5rem 1rem;
 	border-radius: 20px;
-	font-size: 2.2rem;
+	font-size: var(--h3-font-size);
 	font-weight: var(--font-bold);
-	margin-bottom: var(--mb-2);
 }
 .home__image{
 	display: flex;
 	justify-content: center;
+	transform: scale(110%);
+	margin-block: 1.6rem;
 }
 .home__description {
 	margin-bottom: var(--mb-3);
+	text-align: justify;
+	width: 97%;
 }
 .preregistration__container{
 	margin-top: 0.3rem;
@@ -362,10 +364,10 @@ video {
 	text-align: center;
 }
 .preregistration__container__input{
-	background-color: #D0CECE;
-	border: 1px solid #D0CECE;
+	margin-top: .5rem;
+	border: 1px solid var(--first-color-logo);
 	color: rgb(0, 0, 0);
-	width: 96%;
+	width: 100%;
 	height: 2.35rem;
 	text-align: center;
 	border-radius: 6px;
@@ -613,6 +615,9 @@ video {
 		display: flex;
 		flex-direction: column;
 	}
+	h1.home__title {
+		text-align: center;
+	}
 }
 @media screen and (min-width: 576px) {
 	.home__title{
@@ -740,7 +745,7 @@ video {
 }
 @media screen and (min-width: 968px) {
 	.home__img__overview {
-		transform: scale(1.66)
+		transform: scale(1.5)
 	}
 	.bd-container {
 		margin-left: auto;
@@ -837,7 +842,6 @@ video {
 }
 
 .pricing-button {
-	height: 4.375rem;
 	width: 100%;
 	border-radius: 5px;
 	background-color: var(--first-color);

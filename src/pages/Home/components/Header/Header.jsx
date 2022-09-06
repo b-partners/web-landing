@@ -1,5 +1,5 @@
 /* eslint-disable no-restricted-globals */
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 
 import logo from '../../assets/img/logo.png';
 import '../../assets/css/forms.css';
@@ -20,6 +20,7 @@ export function Header() {
   });
   const [isLoading, setIsLoading] = useState(false);
   const [isCreatingAccount, setIsCreatingAccount] = useState(false);
+  const [activeLink, setActiveLink] = useState('link-1');
 
   const handlePhoneNumberChange = event => {
     const { name, value } = event.target;
@@ -54,6 +55,14 @@ export function Header() {
       setIsCreatingAccount(false);
     }
   };
+
+  const handleClickLink = (e) =>
+    setActiveLink(e.target.name);
+
+  const getActiveClassName = useCallback((link) =>
+    activeLink === link ? 'active-link' : ''
+  , [activeLink]);
+
   return (<header className='l-header' id='header'>
     <nav className='nav bd-container'>
       <a href='#home' className='nav__logo'>
@@ -61,13 +70,13 @@ export function Header() {
       </a>
       <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} id='nav-menu'>
         <ul className='nav__list'>
-          <li className='nav__item'>
-            <a href='#home' className='nav__link active-link'>
+        <li className='nav__item'>
+            <a name="link-1" href='#home' onClick={handleClickLink} className={`${getActiveClassName('link-1')}`}>
               Accueil
             </a>
           </li>
           <li className='nav__item'>
-            <a href='#share' className='nav__link'>
+            <a name="link-2" href='#share' onClick={handleClickLink} className={`${getActiveClassName('link-2')}`}>
               Fonctionnalités
             </a>
           </li>
