@@ -11,7 +11,6 @@ import { Button } from '../../../../common/components/Button';
 
 export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
-  const buttonStyle = { backgroundColor: 'transparent', border: 'none' };
   const [showModal, setToggleShowModal] = useToggle(false);
   const [authPayload, setAuthPayload] = useState({
     phoneNumber: '',
@@ -79,11 +78,6 @@ export function Header() {
             <a name="link-2" href='#share' onClick={handleClickLink} className={`${getActiveClassName('link-2')}`}>
               Fonctionnalités
             </a>
-          </li>
-          <li className='nav__item'>
-            <button type='button' className='nav__link' style={buttonStyle} onClick={() => setToggleShowModal(true)}>
-              Se connecter
-            </button>
           </li>
           <li className='nav__item' id='ouvrir-compte'>
             <Button type='submit' loading={isCreatingAccount} label='Ouvrir un compte' onClick={handleCreateAccount} />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 import './Pricing.css';
 
 import essentiel from '../../assets/img/essentiel.png';
@@ -8,7 +9,7 @@ import confirmer from '../../assets/img/identity.png';
 import valider from '../../assets/img/valider.png';
 
 export function Pricing() {
-
+  const [open, setOpen] = React.useState(false);
   return (
     <div className='pricing__container'>
       <div className='pricing__main'>
@@ -217,7 +218,7 @@ export function Pricing() {
         <div className='decoration__container'>
           <div className='decoration__data'>
             <div className='button-container'>
-              <button type='button' className='connexion-button'>
+              <button type='button' className='connexion-button' onClick={() => setOpen(true)}>
                 <i className="fab fa-apple fa-2x" style={{ marginRight: '.8rem' }} />
                 Connexion avec Apple
               </button>
@@ -243,6 +244,26 @@ export function Pricing() {
             </h4>
           </div>
         </div>
+        <Dialog
+          open={open}
+          onClose={() => setOpen(false)}
+          aria-labelledby="alert-dialog-title"
+          aria-describedby="alert-dialog-description"
+        >
+          <DialogTitle id="alert-dialog-title">
+            Envie de vous inscrire ?
+          </DialogTitle>
+          <DialogContent>
+            <DialogContentText id="alert-dialog-description">
+              Une application mobile sera bientôt téléchargeable.
+            </DialogContentText>
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={() => setOpen(false)} autoFocus>
+              D'accord
+            </Button>
+          </DialogActions>
+        </Dialog>
       </section>
     </div>
   );

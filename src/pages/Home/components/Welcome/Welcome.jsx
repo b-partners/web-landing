@@ -3,7 +3,7 @@ import React from 'react';
 import { usePreregistration } from '../../../../utils/hooks';
 import { Preregistration } from '../Preregistration';
 
-import artisans from '../../assets/img/artisans.jpg';
+import artisans from '../../assets/img/artisans.png';
 import assistant from '../../assets/img/home-overview.png';
 import '../../../../common/components/Modal/Modal.css';
 import '../../assets/css/forms.css';
