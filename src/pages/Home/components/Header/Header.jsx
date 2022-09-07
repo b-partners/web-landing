@@ -1,5 +1,6 @@
 /* eslint-disable no-restricted-globals */
 import React, { useState, useCallback } from 'react';
+import { Button as Buttons, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 
 import logo from '../../assets/img/logo.png';
 import '../../assets/css/forms.css';
@@ -12,6 +13,7 @@ import { Button } from '../../../../common/components/Button';
 export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
   const [showModal, setToggleShowModal] = useToggle(false);
+  const [open, setOpen] = useState(false);
   const [authPayload, setAuthPayload] = useState({
     phoneNumber: '',
     successUrl: process.env.REACT_APP_SUCCESS_URL,
@@ -41,6 +43,10 @@ export function Header() {
   };
 
   const handleCreateAccount = async () => {
+    if (process.env.REACT_APP_ENV === 'production') {
+      setOpen(true);
+      return;
+    }
     setIsCreatingAccount(true);
     try {
       const { data: url } = await httpClient.post('onboarding', {
@@ -60,7 +66,7 @@ export function Header() {
 
   const getActiveClassName = useCallback((link) =>
     activeLink === link ? 'active-link' : ''
-  , [activeLink]);
+    , [activeLink]);
 
   return (<header className='l-header' id='header'>
     <nav className='nav bd-container'>
@@ -69,7 +75,7 @@ export function Header() {
       </a>
       <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} id='nav-menu'>
         <ul className='nav__list'>
-        <li className='nav__item'>
+          <li className='nav__item'>
             <a name="link-1" href='#home' onClick={handleClickLink} className={`${getActiveClassName('link-1')}`}>
               Accueil
             </a>
@@ -106,5 +112,25 @@ export function Header() {
         </div>
       </form>
     </Modal>
+    <Dialog
+      open={open}
+      onClose={() => setOpen(false)}
+      aria-labelledby="alert-dialog-title"
+      aria-describedby="alert-dialog-description"
+    >
+      <DialogTitle id="alert-dialog-title">
+        Envie de vous inscrire ?
+      </DialogTitle>
+      <DialogContent>
+        <DialogContentText id="alert-dialog-description">
+          Un peu de patience l'application sera disponible le 1er Novembre 2022.
+        </DialogContentText>
+      </DialogContent>
+      <DialogActions>
+        <Buttons onClick={() => setOpen(false)} autoFocus>
+          D'accord
+        </Buttons>
+      </DialogActions>
+    </Dialog>
   </header>);
 }
