@@ -1,10 +1,10 @@
 import React from 'react';
+import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 import './Pricing.css';
 
 import essentiel from '../../assets/img/essentiel.png';
 import ambitieux from '../../assets/img/ambitieux.png';
 import developpement from '../../assets/img/developpement.png';
-import connexion from '../../assets/img/connexion.png';
 import confirmer from '../../assets/img/identity.png';
 import valider from '../../assets/img/valider.png';
 
@@ -12,6 +12,7 @@ import { Preregistration } from '../Preregistration';
 import { usePreregistration } from '../../../../utils/hooks';
 
 export function Pricing() {
+  const [open, setOpen] = React.useState(false);
   const {
     isLoading,
     showModal,
@@ -21,16 +22,18 @@ export function Pricing() {
     handleChange,
     preRegistration,
   } = usePreregistration();
-
   return (
     <div className='pricing__container'>
       <div className='pricing__main'>
-        <button type='button' className='button button--pricing'>
-          Préinscrivez-vous et bénéficiez de la formule de votre choix gratuite pendant 1 an (offre limitée au 500
+        <h3 className='pricing__title'>
+          Préinscrivez-vous et bénéficiez de la formule de votre <br />
+          choix gratuite pendant 1 an (offre limitée au 500
           premiers clients)
-        </button>
-        <Preregistration onSubmitEmail={handleEmailSubmit} onChange={handleChange} showModal={showModal} toggle={toggle}
-                         onSubmitModal={handleModalSubmit} loading={isLoading} preRegistration={preRegistration} />
+        </h3>
+        <div className='pricing__preregistration'>
+          <Preregistration onSubmitEmail={handleEmailSubmit} onChange={handleChange} showModal={showModal}
+            toggle={toggle} onSubmitModal={handleModalSubmit} loading={isLoading} preRegistration={preRegistration} />
+        </div>
         <div className='background'>
           <div className='container'>
             <div className='pricing-table'>
@@ -46,55 +49,78 @@ export function Pricing() {
                 <a href='src/pages/Home/Home#/' className='pricing-button'>
                   C'est ça qu'il me faut
                 </a>
+                <h4 className='pricing-subtitle'>
+                  Tous les<mark className='highlighted-text'> services essentiels </mark>
+                  pour gérer votre activité d’artisan ou d'indépendant
+                </h4>
                 <ul className='pricing-features'>
                   <li className='pricing-features-item'>
-                    <span style={{ fontSize: 12 }}>
-                      <strong>
-                        Tous les services essentiels pour gérer votre activité d'artisan ou d'indépendant.
-                      </strong>
-                    </span>
-                  </li>
-                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
                     <strong>
-                      Activation de la version standard de notre assistant virtuel pour développer votre activité.
+                      Activation de la version standard de notre assistant virtuel pour générer de
+                      nouvelles opportunités commerciales.
                     </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>Service de banque en ligne (RIB/Virements/cartes à partir de 2€/mois).</strong>
-                  </li>
-                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
                     <strong>
-                      Bénéficiez de notre outil de devis, facturation, comptabilité automatisée (1 utilisateur).
+                      Collectez vos paiement par QR code, mails et SMS (accélérez la collecte de vos
+                      revenus avec votre mobile, 1 000€ inclus puis 2% du montant par QR code/mail et 2%+0,40€ par SMS).
                     </strong>
                   </li>
                   <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
                     <strong>
-                      Collectez vos paiment par QR code, SMS et mails (2% de frais pour accélérer la collecte).
+                      Bénéficiez de notre outil de devis, facturation, relance & comptabilité automatisée gratuitement
+                      (1 utilisateur).
                     </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>60k€/an</strong>
-                    &nbsp; de commissions de mouvements de compte incluses puis 0.15%.
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      Inclus service de banque en ligne (1 compte pro, 1 RIB FR/ 1 accès mobile et internet).
+                    </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>200€</strong>
-                    &nbsp; de retraits gratuits par mois, puis 1% du montant.
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      1 carte mastercard physique incluse (puis 5€ HT/carte/mois).
+                    </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>1500€</strong>
-                    &nbsp; de plafond pour vos retraits.
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      Carte virtuelle permanente 2€ HT/mois
+                    </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>2%</strong>
-                    &nbsp; pour les paiements hors zone euro.
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      Carte virtuelle à utilisation unique 1€ HT par carte générée..
+                    </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>30</strong>
-                    &nbsp; virements et prélèvements puis 0,50€ au delà.
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      20  virements et prélèvements inclus puis 0,40€ au-delà.
+                    </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    Support &nbsp;
-                    <strong>7 jours sur 7.</strong>
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      60k€/an  de commissions de mouvements de compte incluses puis 0.15%.
+                    </strong>
+                  </li>
+                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      Pour les retraits en France ou à l’étranger, plafonds de cartes, voir tarification
+                      CGU signé avec notre partenaire swan.io.
+                    </strong>
+                  </li>
+                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong> Support 7 jours sur 7.</strong>
                   </li>
                 </ul>
               </div>
@@ -111,51 +137,81 @@ export function Pricing() {
                 <a href='src/pages/Home/Home#/' className='pricing-button'>
                   C'est plutôt ça qu'il me faut
                 </a>
+                <h4 className='pricing-subtitle'>
+                  Tous les
+                  <mark className='highlighted-text'>  services pour développer et gérer </mark>
+                  votre activité d’artisan ou d'indépendant
+                </h4>
                 <ul className='pricing-features'>
                   <li className='pricing-features-item'>
-                    <span style={{ fontSize: 12 }}>
-                      <strong>
-                        Tous les services pour développer et gérer votre activité d'artisan ou d'indépendant.
-                      </strong>
-                    </span>
-                  </li>
-                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
                     <strong>
-                      Activation de la version standard de l'assistant virtuel pour faire grossir votre activité.
+                      Activation de la version standard de l'assistant virtuel pour générer de nouvelles
+                      opportunités commerciales et poursuivre votre développement.
                     </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>Service de banque en ligne (RIB/Virements/cartes à partir de 2€/mois).</strong>
-                  </li>
-                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
                     <strong>
-                      Bénéficiez de notre outil de devis, facturation, comptabilité automatisée (1 utilisateur).
+                      Collectez vos paiement par QR code, mails et SMS (accélérez la collecte de vos revenus avec
+                      votre mobile, 1 000€ inclus puis 1,50% du montant par QR code/mail et 1,5%+0,30€ par SMS).
                     </strong>
                   </li>
                   <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
                     <strong>
-                      Collectez vos paiment par QR code, SMS et mails (1,5% de frais pour accélérer la collecte).
+                      Bénéficiez de notre outil de devis, facturation, comptabilité automatisée gratuitement
+                      (1 utilisateur).
                     </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>150k€/an</strong>
-                    &nbsp; de commissions de mouvements de compte incluses puis 0,15%.
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      Inclus service de banque en ligne (1 compte pro, 1 RIB FR/ 1 accès mobile et internet).
+                    </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>200€</strong>
-                    &nbsp; de retraits gratuits par mois, puis 1% du montant.
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      1 carte mastercard physique incluse (puis 5€ HT/carte/mois).
+                    </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>1,9%</strong>
-                    &nbsp; pour les paiements hors zone euro.
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      1 Carte virtuelle permanente incluse puis 2€ HT/mois
+                    </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>60</strong>
-                    &nbsp; virements et prélèvements puis 0,30€ au delà.
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      2 Cartes virtuelles à utilisation unique incluses puis 1€ HT par carte générée.
+                    </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    Support &nbsp;
-                    <strong>7 jours sur 7.</strong>
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      50  virements et prélèvements inclus puis 0,40€ au-delà.
+                    </strong>
+                  </li>
+                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      150k€/an  de commissions de mouvements de compte incluses puis 0.15%.
+                    </strong>
+                  </li>
+                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      Pour les retrait en France ou à l’étranger, plafonds de cartes,
+                      voir tarification CGU signé avec notre partenaire swan.io
+                    </strong>
+                  </li>
+                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      Support  7 jours sur 7.
+                    </strong>
                   </li>
                 </ul>
               </div>
@@ -172,52 +228,77 @@ export function Pricing() {
                 <a href='src/pages/Home/Home#/' className='pricing-button'>
                   C'est exactement ça qu'il me faut
                 </a>
+                <h4 className='pricing-subtitle'>Tous les services
+                  <mark className='highlighted-text'> franchir un pallier dans votre croissance
+                    et automatiser votre forte activité </mark>
+                  d’artisan & d'indépendant
+                </h4>
                 <ul className='pricing-features'>
                   <li className='pricing-features-item'>
-                    <span style={{ fontSize: 12 }}>
-                      <strong>
-                        Tous les services pour franchir un pallier dans votre creoissance et automatiser votre forte
-                        activité d'artisan & d'indépendant.
-                      </strong>
-                    </span>
-                  </li>
-                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
                     <strong>
-                      Activation de la version personnalisée de notre assistant virtuel pour faire grossir votre
-                      activité.
+                      Activation de la version personnalisée de notre assistant virtuel
+                      pour faire franchir un cap à votre activité.
                     </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>Service de banque en ligne (RIB/Virements/cartes à partir de 2€/mois).</strong>
-                  </li>
-                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
                     <strong>
-                      Bénéficiez de notre outil de devis, facturation, comptabilité automatisée (multi utilisateurs).
+                      Collectez vos paiement par QR code, mails et SMS (accélérez la collecte
+                      de vos revenus avec votre mobile, 1 000€ inclus puis 0,99% du montant
+                      par QR code/mail et 0,99%+0,20€ par SMS).
                     </strong>
                   </li>
                   <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
                     <strong>
-                      Collectez vos paiment par QR code, SMS et mails (0,99% de frais pour accélérer la collecte).
+                      Bénéficiez de notre outil de devis, facturation, comptabilité automatisée
+                      gratuitement (4 utilisateurs).
                     </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>1000k€/an</strong>
-                    &nbsp; de commissions de mouvements de compte incluses puis 0,15%.
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      Inclus service de banque en ligne (1 compte pro, 1 RIB FR/ 4  accès mobile et internet).
+                    </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>200€</strong>
-                    &nbsp; de retraits gratuits par mois, puis 1% du montant.
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      2 cartes mastercard physiques incluses (puis 5€ HT/carte/mois).
+                    </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>1,7%</strong>
-                    &nbsp; pour les paiements hors zone euro.
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>3 Cartes virtuelles permanentes incluses puis 2€ HT/mois.</strong>
                   </li>
                   <li className='pricing-features-item'>
-                    <strong>100</strong>
-                    &nbsp; virements et prélèvements puis 0,20€ au delà.
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      10 Cartes virtuelles à utilisation unique incluses puis 1€ HT par carte générée.
+                    </strong>
                   </li>
                   <li className='pricing-features-item'>
-                    Support &nbsp;
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      100  virements et prélèvements inclus puis 0,40€ au-delà.
+                    </strong>
+                  </li>
+                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      1M€/an  de commissions de mouvements de compte incluses puis 0.15%.
+                    </strong>
+                  </li>
+                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
+                    <strong>
+                      Pour les retrait en France ou à l’étranger, plafonds de cartes,
+                      voir tarification CGU signé avec notre partenaire swan.io
+                    </strong>
+                  </li>
+                  <li className='pricing-features-item'>
+                    <i className="fa fa-check" aria-hidden="true" />
                     <strong>7 jours sur 7.</strong>
                   </li>
                 </ul>
@@ -231,7 +312,16 @@ export function Pricing() {
         <h3 className='decoration-title'>Comment ouvrir un compte ?</h3>
         <div className='decoration__container'>
           <div className='decoration__data'>
-            <img src={connexion} alt='' className='step-image' />
+            <div className='button-container'>
+              <button type='button' className='connexion-button' onClick={() => setOpen(true)}>
+                <i className="fab fa-apple fa-2x" style={{ marginRight: '.8rem' }} />
+                Connexion avec Apple
+              </button>
+              <button type='button' className='connexion-button'>
+                <i className="fab fa-google fa-2x" style={{ marginRight: '.8rem' }} />
+                Connexion avec Google
+              </button>
+            </div>
             <h4 className='step-text'>Ouvrez votre compte en moins de 5 minutes sans paperasse</h4>
           </div>
 
@@ -249,6 +339,26 @@ export function Pricing() {
             </h4>
           </div>
         </div>
+        <Dialog
+          open={open}
+          onClose={() => setOpen(false)}
+          aria-labelledby="alert-dialog-title"
+          aria-describedby="alert-dialog-description"
+        >
+          <DialogTitle id="alert-dialog-title">
+            Envie de vous inscrire ?
+          </DialogTitle>
+          <DialogContent>
+            <DialogContentText id="alert-dialog-description">
+              Une application mobile sera bientôt téléchargeable.
+            </DialogContentText>
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={() => setOpen(false)} autoFocus>
+              D'accord
+            </Button>
+          </DialogActions>
+        </Dialog>
       </section>
     </div>
   );

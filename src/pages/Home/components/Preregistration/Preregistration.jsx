@@ -13,7 +13,7 @@ export function Preregistration(props) {
           <input
             type='email'
             name='email'
-            placeholder='Votre email @'
+            placeholder='Renseignez votre email @'
             className='preregistration__container__input'
             onChange={onChange}
             required
@@ -31,7 +31,7 @@ export function Preregistration(props) {
                 name='first_name'
                 onChange={onChange}
               />
-              <span>Prénom</span>
+              <span className='label'>Prénom</span>
             </div>
             <div className='floating-label'>
               <input
@@ -41,7 +41,7 @@ export function Preregistration(props) {
                 name='last_name'
                 onChange={onChange}
               />
-              <span>Nom</span>
+              <span className='label'>Nom</span>
             </div>
             <div className='floating-label'>
               <input
@@ -51,7 +51,7 @@ export function Preregistration(props) {
                 name='society'
                 onChange={onChange}
               />
-              <span>Société</span>
+              <span className='label'>Société</span>
             </div>
             <div className='floating-label'>
               <input
@@ -61,7 +61,7 @@ export function Preregistration(props) {
                 name='phone_number'
                 onChange={onChange}
               />
-              <span>Téléphone</span>
+              <span className='label'>Téléphone</span>
             </div>
             <Button type='submit' label='Se préinscrire' loading={loading} />
           </div>

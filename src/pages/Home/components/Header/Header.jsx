@@ -1,5 +1,6 @@
 /* eslint-disable no-restricted-globals */
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
+import { Button as Buttons, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 
 import logo from '../../assets/img/logo.png';
 import '../../assets/css/forms.css';
@@ -11,12 +12,15 @@ import { Button } from '../../../../common/components/Button';
 
 export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
-  const buttonStyle = { backgroundColor: 'transparent', border: 'none' };
   const [showModal, setToggleShowModal] = useToggle(false);
-  const [preventAccountCreationModal, togglePreventAccountCreationModal] = useToggle(false);
-  const [authPayload, setAuthPayload] = useState({ phoneNumber: '' });
+  const [open, setOpen] = useState(false);
+  const [authPayload, setAuthPayload] = useState({
+    phoneNumber: '',
+    successUrl: process.env.REACT_APP_SUCCESS_URL,
+    failureUrl: process.env.REACT_APP_FAILURE_URL,
+  });
   const [isLoading, setIsLoading] = useState(false);
-  const [isCreatingAccount, setIsCreatingAccount] = useState(false);
+  const [activeLink, setActiveLink] = useState('link-1');
 
   const handlePhoneNumberChange = event => {
     const { name, value } = event.target;
@@ -27,8 +31,9 @@ export function Header() {
     event.preventDefault();
     setIsLoading(true);
     try {
-      const { data: url } = await httpClient.post(`auth`, authPayload);
-      location.assign(url);
+      let { data: { redirectionUrl } } = await httpClient.post(`auth`, authPayload);
+      redirectionUrl = redirectionUrl.replace('+', '%2B');
+      location.assign(redirectionUrl);
     } catch (e) {
       throw new Error(e);
     } finally {
@@ -36,21 +41,13 @@ export function Header() {
     }
   };
 
-  const handleCreateAccount = async () => {
-    if (process.env.REACT_APP_ENV === 'production') {
-        togglePreventAccountCreationModal();
-        return;
-    }
-    setIsCreatingAccount(true);
-    try {
-      const { data: url } = await httpClient.get('onboarding', { params: { type: 'COMPANY' } });
-      location.assign(url);
-    } catch (e) {
-      throw new Error(e);
-    } finally {
-      setIsCreatingAccount(false);
-    }
-  };
+  const handleClickLink = (e) =>
+    setActiveLink(e.target.name);
+
+  const getActiveClassName = useCallback((link) =>
+    activeLink === link ? 'active-link' : ''
+    , [activeLink]);
+
   return (<header className='l-header' id='header'>
     <nav className='nav bd-container'>
       <a href='#home' className='nav__logo'>
@@ -59,22 +56,17 @@ export function Header() {
       <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} id='nav-menu'>
         <ul className='nav__list'>
           <li className='nav__item'>
-            <a href='#home' className='nav__link active-link'>
+            <a name="link-1" href='#home' onClick={handleClickLink} className={`${getActiveClassName('link-1')}`}>
               Accueil
             </a>
           </li>
           <li className='nav__item'>
-            <a href='#share' className='nav__link'>
+            <a name="link-2" href='#share' onClick={handleClickLink} className={`${getActiveClassName('link-2')}`}>
               Fonctionnalités
             </a>
           </li>
-          <li className='nav__item'>
-            <button type='button' className='nav__link' style={buttonStyle} onClick={() => setToggleShowModal(true)}>
-              Se connecter
-            </button>
-          </li>
           <li className='nav__item' id='ouvrir-compte'>
-            <Button type='submit' loading={isCreatingAccount} label='Ouvrir un compte' onClick={handleCreateAccount}/>
+            <Button type='submit' label='Ouvrir un compte' onClick={() => setOpen(true)} />
           </li>
         </ul>
       </div>
@@ -100,8 +92,25 @@ export function Header() {
         </div>
       </form>
     </Modal>
-    <Modal showModal={preventAccountCreationModal} toggle={togglePreventAccountCreationModal}>
-      <p>Un peu de patience l'application sera disponible le 1er Novembre 2022.</p>
-    </Modal>
+    <Dialog
+      open={open}
+      onClose={() => setOpen(false)}
+      aria-labelledby="alert-dialog-title"
+      aria-describedby="alert-dialog-description"
+    >
+      <DialogTitle id="alert-dialog-title">
+        Envie de vous inscrire ?
+      </DialogTitle>
+      <DialogContent>
+        <DialogContentText id="alert-dialog-description">
+          Un peu de patience l'application sera disponible le 1er Novembre 2022.
+        </DialogContentText>
+      </DialogContent>
+      <DialogActions>
+        <Buttons onClick={() => setOpen(false)} autoFocus>
+          D'accord
+        </Buttons>
+      </DialogActions>
+    </Dialog>
   </header>);
 }
