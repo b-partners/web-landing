@@ -2,6 +2,10 @@
     --xsmall-font-size: 0.5rem;
 }
 
+b {
+    display: contents;
+}
+
 h3.pricing__title {
     text-align: center;
     font-size: 1.2rem;
@@ -11,6 +15,7 @@ h4.pricing-subtitle {
     margin-top: 1rem;
     font-size: .8rem;
     text-align: center;
+    min-height: 3.9rem;
 }
 
 .highlighted-text {
@@ -66,6 +71,8 @@ h4.pricing-subtitle {
 	background-color: var(--container-color);
 	box-shadow: 0 2px 6px rgba(65, 11, 16, 0.15);
 	border-radius: 1rem;
+    max-width: 33%;
+    margin: 10px auto;
 }
 
 .decoration__data:hover {
@@ -73,10 +80,6 @@ h4.pricing-subtitle {
 }
 
 /*========== DECORATION ==========*/
-.decoration__container {
-    display: flex;
-    flex-direction: row;
-}
 .connexion-button {
     border: 1px solid gray;
     cursor: pointer;
@@ -111,10 +114,7 @@ h4.pricing-subtitle {
     font-size: 1.7rem;
     margin-bottom: 2rem;
 }
-.decoration__data {
-    max-width: 33%;
-    margin: 10px auto;
-}
+
 .step-image {
     width: 100%;
     margin-top: 35px;
@@ -182,6 +182,9 @@ h4.pricing-subtitle {
     .pricing__preregistration{
         width: 86%;
     }
+    .connexion-button, .step-text {
+        font-size: .65rem;
+    }
 }
 
 @media (max-width: 520px) {
@@ -217,6 +220,8 @@ h4.pricing-subtitle {
 
 .decoration__container {
 	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    display: flex;
+    flex-direction: row;
 }
 
 .decoration__img {
@@ -228,10 +233,6 @@ h4.pricing-subtitle {
 	margin-bottom: var(--mb-1);
 }
 
-.step-image {
-	width: 80%;
-	margin-top: 35px;
-}
 .step-image2 {
 	margin-top: 20px;
 	width: 40%;

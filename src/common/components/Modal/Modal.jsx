@@ -22,7 +22,7 @@ export function Modal({ children, showModal, toggle }) {
       </div>
     </div>
   );
-};
+}
 
 Modal.propTypes = {
   children: PropTypes.oneOfType([

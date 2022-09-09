@@ -56,71 +56,52 @@ export function Pricing() {
                 <ul className='pricing-features'>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Activation de la version standard de notre assistant virtuel pour générer de
-                      nouvelles opportunités commerciales.
-                    </strong>
+                    Activation de la <b>version standard</b> de notre assistant virtuel pour <b>générer de
+                    nouvelles opportunités commerciales.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Collectez vos paiement par QR code, mails et SMS (accélérez la collecte de vos
-                      revenus avec votre mobile, 1 000€ inclus puis 2% du montant par QR code/mail et 2%+0,40€ par SMS).
-                    </strong>
+                    Collectez vos paiement par <b>QR code, mails et SMS</b> (accélérez la collecte de vos
+                    revenus avec votre mobile, <b>1 000€ inclus puis 2% du montant par QR code/mail et 2%+0,40€ par SMS
+                    </b>).
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Bénéficiez de notre outil de devis, facturation, relance & comptabilité automatisée gratuitement
-                      (1 utilisateur).
-                    </strong>
+                    <b>Bénéficiez de notre outil de devis, facturation, relance & comptabilité automatisée gratuitement
+                      (1 utilisateur).</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Inclus service de banque en ligne (1 compte pro, 1 RIB FR/ 1 accès mobile et internet).
-                    </strong>
+                    Inclus service de banque en ligne (<b>1 compte pro, 1 RIB FR/ 1 accès mobile et internet</b>).
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      1 carte mastercard physique incluse (puis 5€ HT/carte/mois).
-                    </strong>
+                    <b>1 carte mastercard</b> physique incluse (puis <b>5€ HT/carte/mois</b>).
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Carte virtuelle permanente 2€ HT/mois
-                    </strong>
+                    <b>Carte virtuelle permanente 2€ HT/mois.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Carte virtuelle à utilisation unique 1€ HT par carte générée..
-                    </strong>
+                    <b>Carte virtuelle à utilisation unique 1€ HT par carte générée.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      20  virements et prélèvements inclus puis 0,40€ au-delà.
-                    </strong>
+                    <b>20  virements et prélèvements inclus puis 0,40€ au-delà.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      60k€/an  de commissions de mouvements de compte incluses puis 0.15%.
-                    </strong>
+                    <b>60k€/an  de commissions de mouvements de compte incluses puis 0.15%.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Pour les retraits en France ou à l’étranger, plafonds de cartes, voir tarification
-                      CGU signé avec notre partenaire swan.io.
-                    </strong>
+                    Pour les retraits en <b>France ou à l’étranger</b>, plafonds de cartes, voir tarification
+                    CGU signé avec notre partenaire <b>swan.io.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong> Support 7 jours sur 7.</strong>
+                    <b>Support 7 jours sur 7.</b>
                   </li>
                 </ul>
               </div>
@@ -145,73 +126,51 @@ export function Pricing() {
                 <ul className='pricing-features'>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Activation de la version standard de l'assistant virtuel pour générer de nouvelles
-                      opportunités commerciales et poursuivre votre développement.
-                    </strong>
+                    Activation de la <b>version standard</b> de l'assistant virtuel pour <b>générer de nouvelles
+                      opportunités commerciales et poursuivre votre développement.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Collectez vos paiement par QR code, mails et SMS (accélérez la collecte de vos revenus avec
-                      votre mobile, 1 000€ inclus puis 1,50% du montant par QR code/mail et 1,5%+0,30€ par SMS).
-                    </strong>
+                    Collectez vos paiement par <b>QR code, mails et SMS</b> (accélérez la collecte de vos revenus avec
+                    votre mobile, <b>1 000€ inclus puis 1,50% du montant par QR code/mail et 1,5%+0,30€ par SMS</b>).
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Bénéficiez de notre outil de devis, facturation, comptabilité automatisée gratuitement
-                      (1 utilisateur).
-                    </strong>
+                    <b>Bénéficiez de notre outil de devis, facturation, comptabilité automatisée gratuitement</b>
+                    (<b>1 utilisateur</b>).
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Inclus service de banque en ligne (1 compte pro, 1 RIB FR/ 1 accès mobile et internet).
-                    </strong>
+                    Inclus service de banque en ligne (<b>1 compte pro, 1 RIB FR/ 1 accès mobile et internet</b>).
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      1 carte mastercard physique incluse (puis 5€ HT/carte/mois).
-                    </strong>
+                    <b>1 carte mastercard</b> physique incluse (puis <b>5€ HT/carte/mois</b>).
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      1 Carte virtuelle permanente incluse puis 2€ HT/mois
-                    </strong>
+                    <b>1 Carte virtuelle permanente incluse puis 2€ HT/mois.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      2 Cartes virtuelles à utilisation unique incluses puis 1€ HT par carte générée.
-                    </strong>
+                    <b>2 Cartes virtuelles à utilisation unique incluses puis 1€ HT par carte générée.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      50  virements et prélèvements inclus puis 0,40€ au-delà.
-                    </strong>
+                    <b>50  virements et prélèvements inclus puis 0,40€ au-delà.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      150k€/an  de commissions de mouvements de compte incluses puis 0.15%.
-                    </strong>
+                    <b>150k€/an  de commissions de mouvements de compte incluses puis 0.15%.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Pour les retrait en France ou à l’étranger, plafonds de cartes,
-                      voir tarification CGU signé avec notre partenaire swan.io
-                    </strong>
+                    Pour les retrait en <b>France ou à l’étranger</b>, plafonds de cartes,
+                    voir tarification CGU signé avec notre partenaire <b>swan.io</b>.
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Support  7 jours sur 7.
-                    </strong>
+                    <b>Support 7 jours sur 7.</b>
                   </li>
                 </ul>
               </div>
@@ -236,70 +195,52 @@ export function Pricing() {
                 <ul className='pricing-features'>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Activation de la version personnalisée de notre assistant virtuel
-                      pour faire franchir un cap à votre activité.
-                    </strong>
+                    Activation de la <b>version personnalisée</b> de notre assistant virtuel
+                    pour <b>faire franchir un cap à votre activité.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Collectez vos paiement par QR code, mails et SMS (accélérez la collecte
-                      de vos revenus avec votre mobile, 1 000€ inclus puis 0,99% du montant
-                      par QR code/mail et 0,99%+0,20€ par SMS).
-                    </strong>
+                    Collectez vos paiement par <b>QR code, mails et SMS</b> (accélérez la collecte
+                    de vos revenus avec votre mobile,<b> 1 000€</b> inclus puis <b> 0,99%</b> du montant
+                    <b> par QR code/mail et 0,99%+0,20€ par SMS</b>).
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Bénéficiez de notre outil de devis, facturation, comptabilité automatisée
-                      gratuitement (4 utilisateurs).
-                    </strong>
+                    Bénéficiez de notre outil de <b> devis, facturation, comptabilité automatisée
+                      gratuitement </b>(4 utilisateurs).
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Inclus service de banque en ligne (1 compte pro, 1 RIB FR/ 4  accès mobile et internet).
-                    </strong>
+                    Inclus service de banque en ligne (<b>1 compte pro, 1 RIB FR/ 4  accès mobile et internet</b>).
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      2 cartes mastercard physiques incluses (puis 5€ HT/carte/mois).
-                    </strong>
+                    <b>2 cartes mastercard</b> physiques incluses (puis<b> 5€ HT/carte/mois</b>).
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>3 Cartes virtuelles permanentes incluses puis 2€ HT/mois.</strong>
+                    <b>3 Cartes virtuelles permanentes incluses puis 2€ HT/mois.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      10 Cartes virtuelles à utilisation unique incluses puis 1€ HT par carte générée.
-                    </strong>
+                    <b>10 Cartes virtuelles</b> à utilisation unique incluses puis <b>1€ HT par carte générée.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      100  virements et prélèvements inclus puis 0,40€ au-delà.
-                    </strong>
+                    <b>100  virements et prélèvements inclus puis 0,40€ au-delà.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      1M€/an  de commissions de mouvements de compte incluses puis 0.15%.
-                    </strong>
+                    <b>1M€/an  de commissions de mouvements de compte incluses puis 0.15%.</b>
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>
-                      Pour les retrait en France ou à l’étranger, plafonds de cartes,
-                      voir tarification CGU signé avec notre partenaire swan.io
-                    </strong>
+                    Pour les retrait en <b>France ou à l’étranger</b>, plafonds de cartes,
+                    voir tarification CGU signé avec notre partenaire <b>swan.io</b>.
                   </li>
                   <li className='pricing-features-item'>
                     <i className="fa fa-check" aria-hidden="true" />
-                    <strong>7 jours sur 7.</strong>
+                    <b>7 jours sur 7.</b>
                   </li>
                 </ul>
               </div>
