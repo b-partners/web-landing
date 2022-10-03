@@ -135,15 +135,6 @@ video {
 	padding: 4rem 0 2rem;
 }
 
-.section-title,
-.section-title-center {
-	font-size: var(--h3-font-size);
-	font-weight: var(--font-bold);
-	color: var(--title-color);
-	text-align: center;
-	margin-bottom: var(--mb-2);
-}
-
 .fa-check {
 	color: #01b239;
 }
@@ -261,6 +252,7 @@ video {
 }
 
 /* Active menu link */
+
 .active-link {
 	position: relative;
 }
@@ -268,12 +260,10 @@ video {
 .active-link::before {
 	content: '';
 	position: absolute;
-	bottom: -0.75rem;
-	left: 45%;
-	width: 5px;
-	height: 5px;
-	background-color: var(--title-color);
-	border-radius: 50%;
+	bottom: -0.3rem;
+	width: 100%;
+	height: 1px;
+	background-color: var(--first-color);
 }
 
 /* Change background header */
@@ -341,21 +331,56 @@ video {
 	font-size: 2rem;
 }
 h1.home__title {
-	padding: 0.5rem 1rem;
 	border-radius: 20px;
-	font-size: var(--h3-font-size);
-	font-weight: var(--font-bold);
+	font-size: var(--h2-font-size);
+	font-weight: 300;
 }
-.home__image{
+.home__list{
 	display: flex;
-	justify-content: center;
-	transform: scale(110%);
-	margin-block: 1.6rem;
+	margin-block: 2rem;
 }
-.home__description {
-	margin-bottom: var(--mb-3);
-	text-align: justify;
-	width: 97%;
+.home-list-item {
+	display: flex;
+	font-size: .75rem;
+	line-height: 1.5;
+	padding: 10px 2px;
+}
+.home-list-icon {
+	background-color: rgb(228, 228, 228);
+	display: flex;
+	align-items: center;
+	height: 22px;
+	margin: 5px 11px;
+	border-radius: 2rem;
+}
+.home-list-1 {
+	width: 100%;
+}
+.home-list-2 {
+	width: 100%;
+}
+.fa-money {
+	transform: translate(26%);
+}
+.registration-title {
+	font-size: 1rem;
+	margin-bottom: .5rem;
+	font-weight: 600;
+}
+.home-registration-form {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	padding: 3.5% 5%;
+}
+.registration-button {
+	width: 45%;
+	height: 2.3rem;
+	background-color: var(--first-color);
+	color: white;
+	border: 1px solid var(--first-color);
+	margin-bottom: .7rem;
+	cursor: pointer;
 }
 .preregistration__container{
 	margin-top: 0.3rem;
@@ -376,6 +401,19 @@ h1.home__title {
 	text-align: center;
 	border-radius: 6px;
 	outline: none;
+}
+.play-video {
+	border: 1px solid rgb(184, 183, 183);
+    cursor: pointer;
+	width: 65%;
+	padding: 17px 5px;
+    font-size: 1rem;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: white;
 }
 /*========== BUTTONS ==========*/
 .button {
@@ -405,22 +443,36 @@ h1.home__title {
 	color: var(--first-color-alt);
 }
 
-/*========== SHARE ==========*/
-.share__data {
+/*========== FEATURE ==========*/
+.share__container {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.share__element {
+	width: 23%;
+}
+/*========== MOBILE ==========*/
+.mobile__title{
+	text-align: center;
+	font-weight: 400;
+}
+.mobile__task__container {
+	margin-top: 4rem;
+	display: flex;
+}
+.mobile__task__info {
+	width: 50%;
+}
+.task__info-title {
+	font-size: 1.4rem;
+	margin-bottom: 1rem;
+}
+.mobile__task__image {
+	width: 50%;
 	text-align: center;
 }
-
-.share__description {
-	font-weight: var(--font-semi-bold);
-	font-size: var(--small-font-size);
-	margin-bottom: var(--mb-1);
-}
-
-.share__img {
-	width: 280px;
-	justify-self: center;
-}
-
 /*========== ACCESSORIES ==========*/
 .accessory__container {
 	grid-template-columns: repeat(2, 1fr);
@@ -591,7 +643,6 @@ h1.home__title {
 		flex-direction: column;
 	}
 	.home__img,
-	.share__img,
 	.send__img {
 		width: 100%;
 	}
@@ -628,7 +679,6 @@ h1.home__title {
 		font-size: var(--h2-font-size);
 	}
 	.home__container,
-	.share__container,
 	.send__container {
 		grid-template-columns: repeat(2, 1fr);
 		align-items: center;
@@ -643,21 +693,13 @@ h1.home__title {
 		display: flex;
 		flex-direction: column;
 	}
-	.section-title-center,
-	.share__data,
 	.send__description {
 		text-align: initial;
 	}
 
 	.home__img,
-	.share__img,
 	.send__img {
 		width: 100%;
-	}
-
-	.share__img {
-		order: -1;
-		justify-self: left;
 	}
 }
 
@@ -736,8 +778,7 @@ h1.home__title {
 
 #ouvrir-compte {
 	background: #582d37;
-	border-radius: 10px;
-	padding: 10px 16px;
+	padding: 5px 10px;
 	text-transform: none;
 }
 @media screen and (min-width: 768px) and (max-width: 968px){
@@ -748,16 +789,12 @@ h1.home__title {
 	}
 }
 @media screen and (min-width: 968px) {
-	.home__img__overview {
-		transform: scale(1.5)
-	}
 	.bd-container {
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	.home__img,
-	.share__img,
 	.send__img {
 		width: 320px;
 	}

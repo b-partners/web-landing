@@ -1,56 +1,104 @@
 import React from 'react';
 
-import { usePreregistration } from '../../../../utils/hooks';
-import { Preregistration } from '../Preregistration';
+import Paper from '@mui/material/Paper';
+import TextField from '@mui/material/TextField';
+import { makeStyles } from "@mui/styles";
 
-import artisans from '../../assets/img/artisans.png';
-import assistant from '../../assets/img/home-overview.png';
 import '../../../../common/components/Modal/Modal.css';
 import '../../assets/css/forms.css';
 import '../../assets/css/spinner.css';
 
 export function Welcome() {
-  const {
-    preRegistration,
-    isLoading,
-    showModal,
-    toggle,
-    handleEmailSubmit,
-    handleModalSubmit,
-    handleChange
-  } = usePreregistration();
 
+  const useStyles = makeStyles({
+    field: {
+      marginBottom: ".8rem",
+      width: "100%"
+    }
+  });
+  const classes = useStyles();
+    
   return (<section className='home' id='home'>
     <div className='home__container bd-container bd-grid'>
       <div className='home__data'>
         <h1 className='home__title'>
-          L'assistant bancaire qui accélère le développement
-          des artisans et indépendants.
+          L'assistant virtuel intelligent qui <br />
+          <span style={{fontWeight: "600"}}> accélère la croissance et les encaissements des artisants
+            français.</span>
+          <i className="fa fa-screwdriver-wrench" />
         </h1>
-        <div className='home__image'>
-          <img alt='logo' src={artisans} style={{ width: '16.875rem' }} />
+        <div className='home__list'>
+          <div className='home-list-1'>
+            <ul>
+              <li
+                className='home-list-item'
+                style={{ marginBottom: '1rem' }}>
+                <div className=' home-list-icon'>
+                  <i className='fa fa-money' />
+                </div>
+                <span
+                >
+                  Suivre l'ensemble de votre trésorerie et vos objectifs.
+                </span>
+              </li>
+              <li className='home-list-item'>
+                <div className=' home-list-icon'>
+                  <i className='fa fa-money' />
+                </div>
+                Un outil de devils, facturation et relance automatisée.
+              </li>
+            </ul>
+          </div>
+          <div className='home-list-2'>
+            <ul>
+              <li
+                className='home-list-item'
+              >
+                <div className=' home-list-icon' >
+                  <i className='fa fa-money' />
+                </div>
+                Encaissement de vos factures sur votre mobile.
+              </li>
+              <li className='home-list-item'>
+                <div className=' home-list-icon'>
+                  <i className='fa fa-money' />
+                </div>
+                Un assistant virtuel intelligent qui vous informe des chantiers,
+                marché ou dépannages disponible.
+              </li>
+            </ul>
+          </div>
         </div>
-        <p className='home__description'>
-          Artisans, indépendants français, en plus des services bancaires classiques (obtention d’un RIB
-          FR, virement,
-          tenu de comptes, cartes), offrez-vous l’assistant de votre réussite grâce à votre mobile.
-        </p>
-        <button type='button' className='button button--pricing'>
-          Lancement de l’application mobile et web le 1er Novembre 2022 – Inscrivez-vous ici pour devenir
-          les premiers
-          utilisateurs.
-        </button>
-        <Preregistration
-          onSubmitEmail={handleEmailSubmit}
-          onChange={handleChange}
-          showModal={showModal}
-          toggle={toggle}
-          onSubmitModal={handleModalSubmit}
-          loading={isLoading}
-          preRegistration={preRegistration} />
+        <Paper elevation={5} className="home-registration-form">
+          <h2 className='registration-title'>ALORS, TENTÉ ?</h2>
+          <TextField
+            className={classes.field}
+            id="filled-phone-input"
+            label="Telephone"
+            type="phone"
+            variant="filled"
+          />
+          <TextField
+            className={classes.field}
+            id="filled-mail-input"
+            label="Email"
+            type="mail"
+            variant="filled"
+          />
+          <button
+            type='button'
+            className='registration-button'
+          >
+            Ça m'interesse
+          </button>
+        </Paper>
+
       </div>
       <div className='home__img'>
-        <img className='home__img__overview' alt='assistant' src={assistant} style={{ width: '36.25rem' }} />
+        <button type='button' className='play-video'>
+          VOIR LA VIDEO EXPLICATIVE
+          <i className="fa fa-play fa-2x" />
+        </button>
       </div>
     </div>
   </section>);

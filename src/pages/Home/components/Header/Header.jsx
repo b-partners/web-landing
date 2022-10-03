@@ -62,11 +62,22 @@ export function Header() {
           </li>
           <li className='nav__item'>
             <a name="link-2" href='#share' onClick={handleClickLink} className={`${getActiveClassName('link-2')}`}>
-              Fonctionnalités
+              À propos
+            </a>
+          </li>
+          <li className='nav__item'>
+            <a name="link-3" href='#contact' onClick={handleClickLink} className={`${getActiveClassName('link-3')}`}>
+              Contact
+            </a>
+          </li>
+          <li className='nav__item'>
+            <a name="link-4" href='#connect' onClick={handleClickLink} className={`${getActiveClassName('link-4')}`}>
+              Se connecter
+              <i className="fa fa-user" style={{marginLeft: ".6rem"}}/>
             </a>
           </li>
           <li className='nav__item' id='ouvrir-compte'>
-            <Button type='submit' label='Ouvrir un compte' onClick={() => setOpen(true)} />
+            <Button type='submit' label="Je m'inscris" onClick={() => setOpen(true)} />
           </li>
         </ul>
       </div>
