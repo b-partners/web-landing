@@ -61,12 +61,17 @@ export function Header() {
             </a>
           </li>
           <li className='nav__item'>
-            <a name="link-2" href='#share' onClick={handleClickLink} className={`${getActiveClassName('link-2')}`}>
-              Fonctionnalités
+            <a
+              name="link-2"
+              href={process.env.REACT_APP_BPARTNERS_API_URL}
+              onClick={handleClickLink}
+              className={`${getActiveClassName('link-4')}`}>
+              Se connecter
+              <i className="fa fa-user" style={{ marginLeft: ".6rem" }} />
             </a>
           </li>
           <li className='nav__item' id='ouvrir-compte'>
-            <Button type='submit' label='Ouvrir un compte' onClick={() => setOpen(true)} />
+            <Button type='submit' label="Je m'inscris" onClick={() => setOpen(true)} />
           </li>
         </ul>
       </div>

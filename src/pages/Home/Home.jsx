@@ -3,7 +3,10 @@ import React from 'react';
 import { Header } from './components/Header';
 import { Feature } from './components/Feature';
 import { Welcome } from './components/Welcome';
-import { Pricing } from './components/Pricing';
+import { Offer } from './components/Offer';
+import { Authenticity } from './components/Authenticity';
+import { Solution } from './components/Solution';
+import { Distinction } from './components/Distinction';
 
 export function Home() {
   return (
@@ -11,7 +14,10 @@ export function Home() {
       <Header />
       <Welcome />
       <Feature />
-      <Pricing />
+      <Authenticity />
+      <Solution />
+      <Distinction />
+      <Offer />
     </div>
   );
 }

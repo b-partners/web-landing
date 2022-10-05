@@ -135,15 +135,6 @@ video {
 	padding: 4rem 0 2rem;
 }
 
-.section-title,
-.section-title-center {
-	font-size: var(--h3-font-size);
-	font-weight: var(--font-bold);
-	color: var(--title-color);
-	text-align: center;
-	margin-bottom: var(--mb-2);
-}
-
 .fa-check {
 	color: #01b239;
 }
@@ -261,6 +252,7 @@ video {
 }
 
 /* Active menu link */
+
 .active-link {
 	position: relative;
 }
@@ -268,12 +260,10 @@ video {
 .active-link::before {
 	content: '';
 	position: absolute;
-	bottom: -0.75rem;
-	left: 45%;
-	width: 5px;
-	height: 5px;
-	background-color: var(--title-color);
-	border-radius: 50%;
+	bottom: -0.3rem;
+	width: 100%;
+	height: 1px;
+	background-color: var(--first-color);
 }
 
 /* Change background header */
@@ -341,21 +331,55 @@ video {
 	font-size: 2rem;
 }
 h1.home__title {
-	padding: 0.5rem 1rem;
 	border-radius: 20px;
-	font-size: var(--h3-font-size);
-	font-weight: var(--font-bold);
+	font-size: var(--h2-font-size);
+	font-weight: 300;
 }
-.home__image{
+.home__list{
+	display: flex;
+	margin-block: 2rem;
+}
+.home-list-item {
+	display: flex;
+	font-size: .75rem;
+	line-height: 1.5;
+	padding: 10px 2px;
+}
+.home-list-1 {
+	width: 100%;
+	margin-right: 2rem;
+}
+.home-list-2 {
+	width: 100%;
+}
+.fa-dollar {
+	background-color: #e4dee0;
 	display: flex;
 	justify-content: center;
-	transform: scale(110%);
-	margin-block: 1.6rem;
+	width: 30px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 30px;
 }
-.home__description {
-	margin-bottom: var(--mb-3);
-	text-align: justify;
-	width: 97%;
+.registration-title {
+	font-size: 1rem;
+	margin-bottom: .5rem;
+	font-weight: 600;
+}
+.home-registration-form {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	padding: 3.5% 5%;
+}
+.registration-button {
+	width: 8rem;
+	height: 2.3rem;
+	background-color: var(--first-color);
+	color: white;
+	border: 1px solid var(--first-color);
+	margin-bottom: .7rem;
+	cursor: pointer;
 }
 .preregistration__container{
 	margin-top: 0.3rem;
@@ -376,6 +400,19 @@ h1.home__title {
 	text-align: center;
 	border-radius: 6px;
 	outline: none;
+}
+.play-video {
+	border: 1px solid rgb(184, 183, 183);
+    cursor: pointer;
+	width: 65%;
+	padding: 17px 5px;
+    font-size: 1rem;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: white;
 }
 /*========== BUTTONS ==========*/
 .button {
@@ -405,22 +442,130 @@ h1.home__title {
 	color: var(--first-color-alt);
 }
 
-/*========== SHARE ==========*/
-.share__data {
+/*========== FEATURE ==========*/
+.share__container {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.share__element {
+	width: 23%;
+}
+/*========== MOBILE ==========*/
+.mobile__title{
+	text-align: center;
+	font-weight: 400;
+}
+.mobile__task__container {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.mobile__task__info {
+	width: 47%;
+}
+.task__info-title {
+	font-size: 1.4rem;
+	margin-bottom: 1rem;
+}
+.mobile__task__image {
+	width: 40%;
 	text-align: center;
 }
-
-.share__description {
-	font-weight: var(--font-semi-bold);
-	font-size: var(--small-font-size);
-	margin-bottom: var(--mb-1);
+/*========== SOLUTION ==========*/
+.solution {
+	text-align: center;
+}
+.solution__title {
+	margin-bottom: 1rem;
+}
+.solution__data {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 5rem;
+}
+.solution__data__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 24%;
+}
+.icon-wrapper {
+	height: 3rem;
+	line-height: 3.6rem;
+	align-items: center;
+	margin-bottom: 2.5rem;
+}
+.fa-bell-o, .fa-money, .fa-bullseye {
+	background-color: #e4dee0;
+	width: 70px;
+	line-height: 70px;
+	height: 70px;
+	border-radius: 70px;
+}
+/*========== DISTINCTION ==========*/
+.distinction {
+	text-align: center;
+}
+.distinction__title {
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+.distinction__container {
+	display: flex;
+	justify-content: space-between;
+	margin-block: 3rem;
+}
+.distinction__item {
+	width: 18%;
+}
+/*========== OFFER ==========*/
+.offer {
+	display: flex;
+	justify-content: center;
+}
+table {
+	border-collapse: collapse !important;
+}
+th {
+	border-bottom: 1.78px solid rgb(153, 152, 152);
+	height: 4rem;
+}
+.table__offer__title {
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+thead th:nth-child(1), tbody td:nth-child(1) {
+	text-align: left;
+	width: 40%;
+}
+thead th:nth-child(2), tbody td:nth-child(2), tfoot td:nth-child(2) {
+	width: 20%;
+	background-color: rgb(213, 212, 212);
 }
 
-.share__img {
-	width: 280px;
-	justify-self: center;
+thead th:nth-child(3), tbody td:nth-child(3), tfoot td:nth-child(3) {
+	width: 20%;
+	background-color: #f3f1f1;
 }
 
+thead th:nth-child(4), tbody td:nth-child(4), tfoot td:nth-child(4) {
+	width: 20%;
+	background-color: rgb(213, 212, 212);
+}
+
+tbody td {
+	text-align: center;
+	border-bottom: .5px solid rgb(153, 152, 152);
+	padding-block: .5rem;
+}
+
+tfoot td {
+	padding-top: .8rem;
+	text-align: center;
+}
 /*========== ACCESSORIES ==========*/
 .accessory__container {
 	grid-template-columns: repeat(2, 1fr);
@@ -591,7 +736,6 @@ h1.home__title {
 		flex-direction: column;
 	}
 	.home__img,
-	.share__img,
 	.send__img {
 		width: 100%;
 	}
@@ -628,7 +772,6 @@ h1.home__title {
 		font-size: var(--h2-font-size);
 	}
 	.home__container,
-	.share__container,
 	.send__container {
 		grid-template-columns: repeat(2, 1fr);
 		align-items: center;
@@ -643,21 +786,13 @@ h1.home__title {
 		display: flex;
 		flex-direction: column;
 	}
-	.section-title-center,
-	.share__data,
 	.send__description {
 		text-align: initial;
 	}
 
 	.home__img,
-	.share__img,
 	.send__img {
 		width: 100%;
-	}
-
-	.share__img {
-		order: -1;
-		justify-self: left;
 	}
 }
 
@@ -736,8 +871,7 @@ h1.home__title {
 
 #ouvrir-compte {
 	background: #582d37;
-	border-radius: 10px;
-	padding: 10px 16px;
+	padding: 5px 10px;
 	text-transform: none;
 }
 @media screen and (min-width: 768px) and (max-width: 968px){
@@ -748,16 +882,12 @@ h1.home__title {
 	}
 }
 @media screen and (min-width: 968px) {
-	.home__img__overview {
-		transform: scale(1.5)
-	}
 	.bd-container {
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	.home__img,
-	.share__img,
 	.send__img {
 		width: 320px;
 	}
