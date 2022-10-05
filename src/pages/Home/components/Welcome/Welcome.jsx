@@ -3,10 +3,12 @@ import React from 'react';
 import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
 import { makeStyles } from "@mui/styles";
+import { Button } from '../../../../common/components/Button/Button';
 
 import '../../../../common/components/Modal/Modal.css';
 import '../../assets/css/forms.css';
 import '../../assets/css/spinner.css';
+
 
 export function Welcome() {
 
@@ -17,15 +19,14 @@ export function Welcome() {
     }
   });
   const classes = useStyles();
-    
+
   return (<section className='home' id='home'>
     <div className='home__container bd-container bd-grid'>
       <div className='home__data'>
         <h1 className='home__title'>
           L'assistant virtuel intelligent qui <br />
-          <span style={{fontWeight: "600"}}> accélère la croissance et les encaissements des artisants
+          <span style={{ fontWeight: "600" }}> accélère la croissance et les encaissements des artisants
             français.</span>
-          <i className="fa fa-screwdriver-wrench" />
         </h1>
         <div className='home__list'>
           <div className='home-list-1'>
@@ -33,8 +34,8 @@ export function Welcome() {
               <li
                 className='home-list-item'
                 style={{ marginBottom: '1rem' }}>
-                <div className=' home-list-icon'>
-                  <i className='fa fa-money' />
+                <div className='home-list-icon'>
+                <i className="fa fa-dollar" />
                 </div>
                 <span
                 >
@@ -42,8 +43,8 @@ export function Welcome() {
                 </span>
               </li>
               <li className='home-list-item'>
-                <div className=' home-list-icon'>
-                  <i className='fa fa-money' />
+                <div className='home-list-icon'>
+                  <i className='fa fa-dollar' />
                 </div>
                 Un outil de devils, facturation et relance automatisée.
               </li>
@@ -54,14 +55,14 @@ export function Welcome() {
               <li
                 className='home-list-item'
               >
-                <div className=' home-list-icon' >
-                  <i className='fa fa-money' />
+                <div className='home-list-icon' >
+                  <i className='fa fa-dollar' />
                 </div>
                 Encaissement de vos factures sur votre mobile.
               </li>
               <li className='home-list-item'>
-                <div className=' home-list-icon'>
-                  <i className='fa fa-money' />
+                <div className='home-list-icon'>
+                  <i className='fa fa-dollar' />
                 </div>
                 Un assistant virtuel intelligent qui vous informe des chantiers,
                 marché ou dépannages disponible.
@@ -85,18 +86,15 @@ export function Welcome() {
             type="mail"
             variant="filled"
           />
-          <button
-            type='button'
-            className='registration-button'
-          >
-            Ça m'interesse
-          </button>
+          <Button type='submit' label="Ça m'interesse" preset="registration-button" />
         </Paper>
 
       </div>
       <div className='home__img'>
         <button type='button' className='play-video'>
-          VOIR LA VIDEO EXPLICATIVE
+          <a href="https://www.youtube.com/watch?v=Ti408gCrlGM">
+            VOIR LA VIDEO EXPLICATIVE
+          </a>
           <i className="fa fa-play fa-2x" />
         </button>
       </div>

@@ -345,22 +345,21 @@ h1.home__title {
 	line-height: 1.5;
 	padding: 10px 2px;
 }
-.home-list-icon {
-	background-color: rgb(228, 228, 228);
-	display: flex;
-	align-items: center;
-	height: 22px;
-	margin: 5px 11px;
-	border-radius: 2rem;
-}
 .home-list-1 {
 	width: 100%;
+	margin-right: 2rem;
 }
 .home-list-2 {
 	width: 100%;
 }
-.fa-money {
-	transform: translate(26%);
+.fa-dollar {
+	background-color: #e4dee0;
+	display: flex;
+	justify-content: center;
+	width: 30px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 30px;
 }
 .registration-title {
 	font-size: 1rem;
@@ -374,7 +373,7 @@ h1.home__title {
 	padding: 3.5% 5%;
 }
 .registration-button {
-	width: 45%;
+	width: 8rem;
 	height: 2.3rem;
 	background-color: var(--first-color);
 	color: white;
@@ -459,18 +458,112 @@ h1.home__title {
 	font-weight: 400;
 }
 .mobile__task__container {
-	margin-top: 4rem;
+	margin-top: 5rem;
 	display: flex;
+	justify-content: space-between;
 }
 .mobile__task__info {
-	width: 50%;
+	width: 47%;
 }
 .task__info-title {
 	font-size: 1.4rem;
 	margin-bottom: 1rem;
 }
 .mobile__task__image {
-	width: 50%;
+	width: 40%;
+	text-align: center;
+}
+/*========== SOLUTION ==========*/
+.solution {
+	text-align: center;
+}
+.solution__title {
+	margin-bottom: 1rem;
+}
+.solution__data {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 5rem;
+}
+.solution__data__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 24%;
+}
+.icon-wrapper {
+	height: 3rem;
+	line-height: 3.6rem;
+	align-items: center;
+	margin-bottom: 2.5rem;
+}
+.fa-bell-o, .fa-money, .fa-bullseye {
+	background-color: #e4dee0;
+	width: 70px;
+	line-height: 70px;
+	height: 70px;
+	border-radius: 70px;
+}
+/*========== DISTINCTION ==========*/
+.distinction {
+	text-align: center;
+}
+.distinction__title {
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+.distinction__container {
+	display: flex;
+	justify-content: space-between;
+	margin-block: 3rem;
+}
+.distinction__item {
+	width: 18%;
+}
+/*========== OFFER ==========*/
+.offer {
+	display: flex;
+	justify-content: center;
+}
+table {
+	border-collapse: collapse !important;
+}
+th {
+	border-bottom: 1.78px solid rgb(153, 152, 152);
+	height: 4rem;
+}
+.table__offer__title {
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+thead th:nth-child(1), tbody td:nth-child(1) {
+	text-align: left;
+	width: 40%;
+}
+thead th:nth-child(2), tbody td:nth-child(2), tfoot td:nth-child(2) {
+	width: 20%;
+	background-color: rgb(213, 212, 212);
+}
+
+thead th:nth-child(3), tbody td:nth-child(3), tfoot td:nth-child(3) {
+	width: 20%;
+	background-color: #f3f1f1;
+}
+
+thead th:nth-child(4), tbody td:nth-child(4), tfoot td:nth-child(4) {
+	width: 20%;
+	background-color: rgb(213, 212, 212);
+}
+
+tbody td {
+	text-align: center;
+	border-bottom: .5px solid rgb(153, 152, 152);
+	padding-block: .5rem;
+}
+
+tfoot td {
+	padding-top: .8rem;
 	text-align: center;
 }
 /*========== ACCESSORIES ==========*/
