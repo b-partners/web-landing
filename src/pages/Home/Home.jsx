@@ -7,9 +7,9 @@ import { Offer } from './components/Home/Offer';
 import { Authenticity } from './components/Home/Authenticity';
 import { Solution } from './components/Home/Solution';
 import { Distinction } from './components/Home/Distinction';
-// import { Testimonial } from './components/Testimonial';
-import { GetInTouch } from './components/Home/GetInTouch/GetInTouch';
-import { Footer } from './components/Home/Footer/Footer';
+import { Testimonial } from './components/Home/Testimonial';
+import { GetInTouch } from './components/Home/GetInTouch';
+import { Footer } from './components/Home/Footer';
 
 export function Home() {
   return (
@@ -21,7 +21,7 @@ export function Home() {
       <Solution />
       <Distinction />
       <Offer />
-      {/* <Testimonial /> */}
+      <Testimonial />
       <GetInTouch />
       <Footer />
     </div>

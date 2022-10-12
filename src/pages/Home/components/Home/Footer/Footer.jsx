@@ -17,7 +17,7 @@ export function Footer() {
       <div className="footer__container">
         <div className='footer__column'>
           <img src={logo} alt='logo' style={{ width: '10.625rem' }} />
-          <p style={{fontWeight: "100"}}>Copyright &copy; B.Partners 2022</p>
+          <p style={{ fontWeight: "100" }}>Copyright &copy; B.Partners 2022</p>
         </div>
         <div className='navigation_link'>
           <h4 className='footer_subtitle'>LIENS IMPORTANTS</h4>
@@ -28,19 +28,17 @@ export function Footer() {
             <li><a href="#share">Mon compte</a></li>
           </ul>
         </div>
-        <div style={{ width: '35%' }}>
-          <div className='footer_registration'>
-            <h4 className='footer_subtitle'>RESTER INFORMÉ</h4>
-            <TextField
-              className={classes.field}
-              InputProps={{ classes }}
-              id="filled-mail-input"
-              label="Tapez votre email ici"
-              type="mail"
-              variant="filled"
-            />
-            <Button type='submit' label="Je m'inscris" preset="footer_registration__button" />
-          </div>
+        <div className='footer_registration'>
+          <h4 className='footer_subtitle'>RESTER INFORMÉ</h4>
+          <TextField
+            className={classes.field}
+            InputProps={{ classes }}
+            id="filled-mail-input"
+            label="Tapez votre email ici"
+            type="mail"
+            variant="filled"
+          />
+          <Button type='submit' label="Je m'inscris" preset="footer_registration__button" />
         </div>
       </div>
     </section>

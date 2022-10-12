@@ -21,7 +21,6 @@ export function Header() {
     failureUrl: process.env.REACT_APP_FAILURE_URL,
   });
   const [isLoading, setIsLoading] = useState(false);
-  // const [activeLink, setActiveLink] = useState('link-1');
 
   const handlePhoneNumberChange = event => {
     const { name, value } = event.target;
@@ -41,18 +40,6 @@ export function Header() {
       setIsLoading(false);
     }
   };
-
-  // const navigate = useNavigate();
-
-  // const test = (e, route) => {
-  //   console.log(e.target.name);
-  //   setActiveLink(e.target.name);
-  //   navigate(route);
-  // }
-
-  // const getActiveClassName = useCallback((link) =>
-  //   activeLink === link ? 'active-link' : ''
-  //   , [activeLink]);
 
   return (<header className='l-header' id='header'>
     <nav className='nav bd-container'>
@@ -75,11 +62,18 @@ export function Header() {
               À propos
             </NavLink>
           </li>
-          <li className='nav__item'>
+          <li>
+            <NavLink
+              className="nav-bar-link"
+              to="/contact"
+            >
+              Contact
+            </NavLink>
+          </li>
+          <li style={{marginLeft: ".7rem"}}>
             <a
               name="link-4"
               href={process.env.REACT_APP_BPARTNERS_API_URL}
-            // onClick={handleClickLink}
             >
               Se connecter
               <i className="fa fa-user" style={{ marginLeft: ".6rem" }} />

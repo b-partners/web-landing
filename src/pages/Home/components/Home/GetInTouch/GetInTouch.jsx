@@ -6,7 +6,7 @@ import { Button } from '../../../../../common/components/Button/Button';
 export function GetInTouch() {
     const useStyles = makeStyles({
         field: {
-            width: "70%"
+            width: "38%"
         },
         underline: {
             "&&&:before": {
@@ -21,14 +21,13 @@ export function GetInTouch() {
     return (
         <section className='get_in_touch section bd-container'>
             <h2 className='get_in_touch__title'>Rester informé</h2>
-            <p>Aujourd'hui les artisans perdent entre 30% à 40% de leur temps sur des tâches administratives</p>
+            <p>Aujourd'hui les artisans perdent entre 30% et 40% de leur temps sur des tâches administratives</p>
             <div className='get_in_touch__form'>
                 <TextField
                     className={classes.field}
                     InputProps={{ classes }}
                     id="filled-mail-input"
-                    label="Email"
-                    placeholder="Tapez votre email ici"
+                    label="Tapez votre email ici"
                     type="mail"
                     variant="filled"
                 />

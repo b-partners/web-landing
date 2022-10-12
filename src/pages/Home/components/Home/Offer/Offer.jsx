@@ -6,33 +6,24 @@ export function Offer() {
       <table className='table__offer'>
         <thead className='table__offer__header'>
           <tr>
-            <th className='table__offer__title'>Nos Offres</th>
-            <th>
+            <th className='table__offer__title' rowSpan="2">Nos Offres</th>
+            <th style={{ width: "20% !important" }}>
               L'ESSENTIEL <br />
               7€/mois
-            </th>
-            <th>
-              DEVELOPPEMENT <br />
-              19€/mois
-            </th>
-            <th>
-              L'AMBITIEUX <br />
-              39€/mois
-            </th>
-          </tr>
-          <tr>
-            <th> </th>
-            <th>
               <p className='offer__description'>
                 Tous les services essentiels pour gérer votre activité d'artisan ou d'indépendant
               </p>
             </th>
             <th>
+              DEVELOPPEMENT <br />
+              19€/mois
               <p className='offer__description'>
                 Tous les services pour développer et gérer votre activité d'artisan ou d'indépendant
               </p>
             </th>
             <th>
+              L'AMBITIEUX <br />
+              39€/mois
               <p className='offer__description'>
                 Tous les services pour franchir un pallier dans votre croissance et automatiser
                 votre activité d'artisan ou d'indépendant
@@ -42,76 +33,149 @@ export function Offer() {
         </thead>
         <tbody>
           <tr>
-            <td><b>Activation de la version standard de notre
-              assistant virtuel pour développer votre activité.</b>
+            <td>
+              <b>
+                Activation de l'assistant virtuel pour développer votre activité, relance client,
+                identification prospect et nouveaux chantiers
+              </b>
+            </td>
+            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
+            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
+            <td><i className="fa fa-check fa-2x" aria-hidden="true" /><br />Avec personnalisation</td>
+          </tr>
+          <tr>
+            <td><b>Collectez plus rapidement vos encaissements par QR code, Mails ou SMS</b>
+            </td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              Mail / QR code: 1000€ inclus puis 2%
+              SMS: 2% et 0,40€ par SMS
+            </td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              Mail / QR code: 1000€ inclus puis 2%
+              SMS: 1,5% et 0,30€ par SMS
+            </td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              Mail / QR code: 1000€ inclus puis 2%
+              SMS: 0,99% et 0,20€ par SMS
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                Bénéficier de notre outil de devis, facturation, comptabilité automatisée
+              </b>
+            </td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              1 Utilisateur
+            </td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              1 Utilisateur
+            </td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              4 Utilisateurs
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                Inclus services banques en ligne (1 compte pro, 1 RIB FR/ Accès mobile et Internet
+              </b>
+            </td>
+            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
+            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              4 Utilisateurs
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Supports 7 jours sur 7
             </td>
             <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
             <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
             <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
           </tr>
           <tr>
-            <td><b>Service de banque en ligne (RIB/Virements/cartes
-              à partir de 2€/mois).</b>
-            </td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-          </tr>
-          <tr>
-            <td><b>Bénéficiez de notre outil de devis, facturation,
-              comptabilité automatisée (1 utilisateur).</b>
-            </td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-          </tr>
-          <tr>
-            <td><b>Collectez vos paiment par QR code, SMS et mails
-              (2% de frais pour accélérer la collecte).</b>
-            </td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-          </tr>
-          <tr>
-            <td><b>60k€/an</b> de commissions de mouvements de
-              compte incluses puis 0.15%.
-            </td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-          </tr>
-          <tr>
-            <td><b>200€</b> de retraits gratuits par moi, puis 1% du<br />
-              montant.
+            <td>
+              Carte masterclass physique incluse (puis 5€HT/carte/mois)
             </td>
             <td> </td>
             <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              4 cartes offertes
+            </td>
           </tr>
           <tr>
-            <td>1500€ de plafond pour vos retraits.</td>
+            <td>Cartes virtuelles permanente incluses (puis 2€HT/carte/mois)</td>
             <td> </td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              1 carte offerte
+            </td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              2 cartes offertes
+            </td>
           </tr>
           <tr>
-            <td>2% pour les paiments hors zone euro.</td>
+            <td>Cartes virtuelles à utilisation unique incluses</td>
             <td> </td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              2 cartes offertes <br />
+              puis 1€HT/carte
+            </td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              3 cartes offertes <br />
+              puis 2€HT/carte
+            </td>
           </tr>
           <tr>
-            <td>30 virements et prélèvements puis 0.50€ ou delà.</td>
-            <td> </td>
-            <td> </td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
+            <td>Virements et prélévements inclus (puis 0,40€ au-delà)</td>
+            <td><br />20 offerts</td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              50 offerts
+            </td>
+            <td>
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              100 offerts
+            </td>
           </tr>
           <tr>
-            <td>Support 7 jours sur 7.</td>
-            <td> </td>
-            <td> </td>
-            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
+            <td>Commissions de mouvements de comptes</td>
+            <td><br />60K€/an offerts <br />
+              puis 0,15%
+            </td>
+            <td><br />150K€/an offerts <br />
+              puis 0,15%
+            </td>
+            <td><i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+            1M€/an offerts <br />
+              puis 0,15%
+            </td>
+          </tr>
+          <tr>
+            <td>Paiements hors zone euro (en devise)</td>
+            <td><br />
+            1 € HT + 1,9 %
+            </td>
+            <td><br />
+            1,9 %
+            </td>
+            <td>
+            <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              5 inclus puis 1.9%
+            </td>
           </tr>
         </tbody>
       </table>

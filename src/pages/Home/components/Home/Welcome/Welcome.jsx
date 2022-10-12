@@ -9,6 +9,7 @@ import { Button } from '../../../../../common/components/Button/Button';
 import '../../../../../common/components/Modal/Modal.css';
 import '../../../assets/css/forms.css';
 import '../../../assets/css/spinner.css';
+import { IconList } from '../../../../../common/components/IconList';
 
 
 export function Welcome() {
@@ -30,56 +31,27 @@ export function Welcome() {
             français.</span>
         </h1>
         <div className='home__list'>
-          <div className='home-list-1'>
+          <div className='home__list__col'>
             <ul>
-              <li
-                className='home-list-item'
-                style={{ marginBottom: '1rem' }}>
-                <div className='home-list-icon'>
-                  <i className="fa fa-dollar" />
-                </div>
-                <span
-                >
-                  Suivre l'ensemble de votre trésorerie et vos objectifs.
-                </span>
-              </li>
-              <li className='home-list-item'>
-                <div className='home-list-icon'>
-                  <i className='fa fa-dollar' />
-                </div>
-                Un outil de devils, facturation et relance automatisée.
-              </li>
+              <IconList icon='fa fa-dollar' listText="Suivi de votre trésorerie et de vos objectifs" />
+              <IconList icon='fa fa-dollar' listText="Edition de devis, facture et relance automatisée des impayés" />
             </ul>
           </div>
-          <div className='home-list-2'>
+          <div className='home__list__col'>
             <ul>
-              <li
-                className='home-list-item'
-              >
-                <div className='home-list-icon' >
-                  <i className='fa fa-dollar' />
-                </div>
-                Encaissement de vos factures sur votre mobile.
-              </li>
-              <li className='home-list-item'>
-                <div className='home-list-icon'>
-                  <i className='fa fa-dollar' />
-                </div>
-                Un assistant virtuel intelligent qui vous informe des chantiers,
-                marché ou dépannages disponible.
-              </li>
+              <IconList icon='fa fa-dollar' listText="Encaissement de vos prestations sur mobile et à distance" />
+              <IconList
+                icon='fa fa-dollar'
+                listText="Être informé en temps réel des chantiers, et des demandes de dépannages autour de chez vous"
+              />
             </ul>
           </div>
         </div>
         <Paper elevation={5} className="home-registration-form">
-          <h2 className='registration-title'>ALORS, TENTÉ ?</h2>
-          <TextField
-            className={classes.field}
-            id="filled-phone-input"
-            label="Telephone"
-            type="phone"
-            variant="filled"
-          />
+          <h2 className='registration-title'>
+            Renseignez votre mail et <br />
+            rejoignez les artisans de demain.
+          </h2>
           <TextField
             className={classes.field}
             id="test"
@@ -91,13 +63,10 @@ export function Welcome() {
         </Paper>
 
       </div>
-      <div className='home__img'>
-        <video
-          controls
-          width="460"
-          height="240"
-          src={process.env.REACT_APP_BPARTNERS_VIDEO_URL}
-        />
+      <div>
+        <iframe width="450" height="270" src="https://www.youtube.com/embed/a38imldPQYc?autoplay=1"
+          title='Bpart'
+          frameBorder="0" allowFullScreen />
       </div>
     </div>
   </section>);
