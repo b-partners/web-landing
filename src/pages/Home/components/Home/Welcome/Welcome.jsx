@@ -1,13 +1,14 @@
+/* eslint-disable jsx-a11y/media-has-caption */
 import React from 'react';
 
 import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
 import { makeStyles } from "@mui/styles";
-import { Button } from '../../../../common/components/Button/Button';
+import { Button } from '../../../../../common/components/Button/Button';
 
-import '../../../../common/components/Modal/Modal.css';
-import '../../assets/css/forms.css';
-import '../../assets/css/spinner.css';
+import '../../../../../common/components/Modal/Modal.css';
+import '../../../assets/css/forms.css';
+import '../../../assets/css/spinner.css';
 
 
 export function Welcome() {
@@ -35,7 +36,7 @@ export function Welcome() {
                 className='home-list-item'
                 style={{ marginBottom: '1rem' }}>
                 <div className='home-list-icon'>
-                <i className="fa fa-dollar" />
+                  <i className="fa fa-dollar" />
                 </div>
                 <span
                 >
@@ -81,7 +82,7 @@ export function Welcome() {
           />
           <TextField
             className={classes.field}
-            id="filled-mail-input"
+            id="test"
             label="Email"
             type="mail"
             variant="filled"
@@ -91,12 +92,12 @@ export function Welcome() {
 
       </div>
       <div className='home__img'>
-        <button type='button' className='play-video'>
-          <a href="https://www.youtube.com/watch?v=Ti408gCrlGM">
-            VOIR LA VIDEO EXPLICATIVE
-          </a>
-          <i className="fa fa-play fa-2x" />
-        </button>
+        <video
+          controls
+          width="460"
+          height="240"
+          src={process.env.REACT_APP_BPARTNERS_VIDEO_URL}
+        />
       </div>
     </div>
   </section>);

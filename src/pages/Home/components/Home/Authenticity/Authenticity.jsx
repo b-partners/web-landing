@@ -1,5 +1,5 @@
 import React from 'react'
-import mobile from '../../assets/img/transactions.gif';
+import mobile from '../../../assets/img/transactions.gif';
 
 export function Authenticity() {
   return (

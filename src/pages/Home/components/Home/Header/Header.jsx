@@ -1,14 +1,15 @@
 /* eslint-disable no-restricted-globals */
-import React, { useState, useCallback } from 'react';
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import { Button as Buttons, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 
-import logo from '../../assets/img/logo.png';
-import '../../assets/css/forms.css';
+import logo from '../../../assets/img/logo.png';
+import '../../../assets/css/forms.css';
 
-import { useToggle } from '../../../../utils/hooks';
-import { Modal } from '../../../../common/components/Modal';
-import httpClient from '../../../../config/axios';
-import { Button } from '../../../../common/components/Button';
+import { useToggle } from '../../../../../utils/hooks';
+import { Modal } from '../../../../../common/components/Modal';
+import httpClient from '../../../../../config/axios';
+import { Button } from '../../../../../common/components/Button';
 
 export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
@@ -20,7 +21,7 @@ export function Header() {
     failureUrl: process.env.REACT_APP_FAILURE_URL,
   });
   const [isLoading, setIsLoading] = useState(false);
-  const [activeLink, setActiveLink] = useState('link-1');
+  // const [activeLink, setActiveLink] = useState('link-1');
 
   const handlePhoneNumberChange = event => {
     const { name, value } = event.target;
@@ -41,12 +42,17 @@ export function Header() {
     }
   };
 
-  const handleClickLink = (e) =>
-    setActiveLink(e.target.name);
+  // const navigate = useNavigate();
 
-  const getActiveClassName = useCallback((link) =>
-    activeLink === link ? 'active-link' : ''
-    , [activeLink]);
+  // const test = (e, route) => {
+  //   console.log(e.target.name);
+  //   setActiveLink(e.target.name);
+  //   navigate(route);
+  // }
+
+  // const getActiveClassName = useCallback((link) =>
+  //   activeLink === link ? 'active-link' : ''
+  //   , [activeLink]);
 
   return (<header className='l-header' id='header'>
     <nav className='nav bd-container'>
@@ -55,17 +61,26 @@ export function Header() {
       </a>
       <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} id='nav-menu'>
         <ul className='nav__list'>
-          <li className='nav__item'>
-            <a name="link-1" href='#home' onClick={handleClickLink} className={`${getActiveClassName('link-1')}`}>
-              Accueil
-            </a>
+          <li>
+            <NavLink
+              className="nav-bar-link"
+              to="/home"
+            >Accueil</NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="nav-bar-link"
+              to="/about"
+            >
+              À propos
+            </NavLink>
           </li>
           <li className='nav__item'>
             <a
-              name="link-2"
+              name="link-4"
               href={process.env.REACT_APP_BPARTNERS_API_URL}
-              onClick={handleClickLink}
-              className={`${getActiveClassName('link-4')}`}>
+            // onClick={handleClickLink}
+            >
               Se connecter
               <i className="fa fa-user" style={{ marginLeft: ".6rem" }} />
             </a>

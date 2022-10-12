@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '../../../../common/components/Button';
 
 export function Offer() {
   return (
@@ -8,9 +7,37 @@ export function Offer() {
         <thead className='table__offer__header'>
           <tr>
             <th className='table__offer__title'>Nos Offres</th>
-            <th>L'ESSENTIEL</th>
-            <th>DEVELOPPEMENT</th>
-            <th>L'AMBITIEUX</th>
+            <th>
+              L'ESSENTIEL <br />
+              7€/mois
+            </th>
+            <th>
+              DEVELOPPEMENT <br />
+              19€/mois
+            </th>
+            <th>
+              L'AMBITIEUX <br />
+              39€/mois
+            </th>
+          </tr>
+          <tr>
+            <th> </th>
+            <th>
+              <p className='offer__description'>
+                Tous les services essentiels pour gérer votre activité d'artisan ou d'indépendant
+              </p>
+            </th>
+            <th>
+              <p className='offer__description'>
+                Tous les services pour développer et gérer votre activité d'artisan ou d'indépendant
+              </p>
+            </th>
+            <th>
+              <p className='offer__description'>
+                Tous les services pour franchir un pallier dans votre croissance et automatiser
+                votre activité d'artisan ou d'indépendant
+              </p>
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -87,14 +114,6 @@ export function Offer() {
             <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
           </tr>
         </tbody>
-        <tfoot style={{paddingTop: '2rem'}}>
-          <tr style={{paddingTop: '2rem'}}>
-            <td> </td>
-            <td><Button type='submit' label="Je veux ça" preset="registration-button" /></td>
-            <td><Button type='submit' label="Je veux ça" preset="registration-button" /></td>
-            <td><Button type='submit' label="Je veux ça" preset="registration-button" /></td>
-          </tr>
-        </tfoot>
       </table>
     </section>
   );

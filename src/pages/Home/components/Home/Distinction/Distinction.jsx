@@ -1,7 +1,7 @@
 import React from 'react'
-import LogoFrenchTech from '../../assets/img/Logo_French_Tech.png';
-import EiffelTower from '../../assets/img/eiffel-tower.png';
-import Ovalie from '../../assets/img/ovalie.png';
+import LogoFrenchTech from '../../../assets/img/Logo_French_Tech.png';
+import EiffelTower from '../../../assets/img/eiffel-tower.png';
+import Ovalie from '../../../assets/img/ovalie.png';
 
 export function Distinction() {
     return (

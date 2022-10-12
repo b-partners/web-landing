@@ -1,2 +1,2 @@
 export * from './Home';
-export { Preregistration } from './components/Preregistration/Preregistration';
+export { Preregistration } from './components/Home/Preregistration';
