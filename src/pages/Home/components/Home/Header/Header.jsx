@@ -91,7 +91,7 @@ export function Header() {
           <li style={{ marginLeft: '.7rem' }}>
             <a
               name='link-4'
-              href={process.env.REACT_APP_BPARTNERS_API_URL}
+              href='https://dashboard-dev.bpartners.app/login'
             >
               Se connecter
               <i className='fa fa-user' style={{ marginLeft: '.6rem' }} />
