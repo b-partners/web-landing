@@ -1,0 +1,6 @@
+.home-list-item {
+	display: flex;
+	font-size: .75rem;
+	line-height: 1.5;
+	padding: 10px 2px;
+}

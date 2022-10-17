@@ -1,0 +1,19 @@
+.solution__data__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 24%;
+}
+.icon-wrapper {
+	height: 3rem;
+	line-height: 3.6rem;
+	align-items: center;
+	margin-bottom: 2.5rem;
+}
+.fa-bell-o, .fa-money, .fa-bullseye {
+	background-color: #e4dee0;
+	width: 70px;
+	line-height: 70px;
+	height: 70px;
+	border-radius: 70px;
+}
