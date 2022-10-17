@@ -41,6 +41,24 @@ export function Header() {
     }
   };
 
+  const handlePreRegistration = async event => {
+    event.preventDefault();
+    setIsLoading(true);
+    try {
+      const { data: { redirectionUrl } } = await httpClient.post('onboardingInitiation', {
+        redirectionStatusUrls: {
+          successUrl: process.env.REACT_APP_SUCCESS_URL,
+          failureUrl: process.env.REACT_APP_SUCCESS_URL,
+        },
+      });
+      location.assign(redirectionUrl);
+    } catch (e) {
+      throw new Error(e);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   return (<header className='l-header' id='header'>
     <nav className='nav bd-container'>
       <a href='#home' className='nav__logo'>
@@ -50,37 +68,37 @@ export function Header() {
         <ul className='nav__list'>
           <li>
             <NavLink
-              className="nav-bar-link"
-              to="/home"
+              className='nav-bar-link'
+              to='/home'
             >Accueil</NavLink>
           </li>
           <li>
             <NavLink
-              className="nav-bar-link"
-              to="/about"
+              className='nav-bar-link'
+              to='/about'
             >
               À propos
             </NavLink>
           </li>
           <li>
             <NavLink
-              className="nav-bar-link"
-              to="/contact"
+              className='nav-bar-link'
+              to='/contact'
             >
               Contact
             </NavLink>
           </li>
-          <li style={{marginLeft: ".7rem"}}>
+          <li style={{ marginLeft: '.7rem' }}>
             <a
-              name="link-4"
+              name='link-4'
               href={process.env.REACT_APP_BPARTNERS_API_URL}
             >
               Se connecter
-              <i className="fa fa-user" style={{ marginLeft: ".6rem" }} />
+              <i className='fa fa-user' style={{ marginLeft: '.6rem' }} />
             </a>
           </li>
           <li className='nav__item' id='ouvrir-compte'>
-            <Button type='submit' label="Je m'inscris" onClick={() => setOpen(true)} />
+            <Button type='submit' label="Je m'inscris" onClick={handlePreRegistration} loading={isLoading} />
           </li>
         </ul>
       </div>
@@ -109,14 +127,14 @@ export function Header() {
     <Dialog
       open={open}
       onClose={() => setOpen(false)}
-      aria-labelledby="alert-dialog-title"
-      aria-describedby="alert-dialog-description"
+      aria-labelledby='alert-dialog-title'
+      aria-describedby='alert-dialog-description'
     >
-      <DialogTitle id="alert-dialog-title">
+      <DialogTitle id='alert-dialog-title'>
         Envie de vous inscrire ?
       </DialogTitle>
       <DialogContent>
-        <DialogContentText id="alert-dialog-description">
+        <DialogContentText id='alert-dialog-description'>
           Un peu de patience l'application sera disponible le 1er Novembre 2022.
         </DialogContentText>
       </DialogContent>
