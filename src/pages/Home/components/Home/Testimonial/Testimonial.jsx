@@ -9,7 +9,7 @@ import { CarouselItem } from '../../../../../common/components/CarouselItem';
 
 export function Testimonial() {
     return (
-        <section className='testimonial section bd-container'>
+        <section className='testimonial section'>
             <h2 className='testimonial__title'>Ils nous ont fait confiance</h2>
             <Carousel
                 showArrows

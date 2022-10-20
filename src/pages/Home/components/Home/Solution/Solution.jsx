@@ -1,6 +1,9 @@
 import React from 'react'
 import { IconCard } from '../../../../../common/components/IconCard'
 
+import CashRegisterEuro from '../../../assets/img/cash-register-euro.png';
+import PaidBill from '../../../assets/img/paid-bill.png';
+import VirtualBot from '../../../assets/img/virtual-bot.png';
 
 export function Solution() {
     return (
@@ -15,23 +18,23 @@ export function Solution() {
             </h2>
             <p>
                 On a discuté avec les artisans, les CMAs et, BPartners a simplifié les outils
-                existants pour les rendre programmatique,<br /> en gardant que les fonctionnalités utiles,
-                simple à utiliser depuis un mobile et qui surtout allège l'artisan dans:
+                existants en les rendant pragmatiques.<br /> Des fonctionnalités utiles,
+                simples à utiliser qui viennent alléger les artisans dans:
             </p>
             <div className='solution__data'>
                 <IconCard
-                    icon="fa fa-bullseye fa-2x"
-                    paragraph="Sa comptabilité & l’informe sur l’évolution
-                     de sa trésorerie et ses objectifs commerciaux"
+                    imageSrc={CashRegisterEuro}
+                    paragraph="Sa comptabilité, l’informe sur l’évolution
+                    de sa trésorerie et ses objectifs commerciaux."
                 />
                 <IconCard
-                    icon="fa fa-money fa-2x"
+                    imageSrc={PaidBill}
                     paragraph="Sa relance automatisée des devis et factures impayées."
                 />
                 <IconCard
-                    icon="fa fa-bell-o fa-2x"
+                    imageSrc={VirtualBot}
                     paragraph="Son développement commercial en identifiant les annonces pertinentes et les demandes de
-                     dépannages sur lesquelles vous pouvez intervenir."
+                     dépannages sur lesquelles il peut intervenir."
                 />
             </div>
         </section>

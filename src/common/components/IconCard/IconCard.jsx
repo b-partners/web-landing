@@ -2,11 +2,16 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import './IconCard.css';
 
-export function IconCard({ icon, paragraph }) {
+export function IconCard({ imageSrc, paragraph }) {
     return (
         <div className='solution__data__item'>
             <div className='icon-wrapper'>
-                <i className={icon} />
+                <div className='image-wrapper'>
+                    <img src={imageSrc}
+                        alt=""
+                        className='card-image'
+                    />
+                </div>
             </div>
             <p>
                 {paragraph}
@@ -16,11 +21,11 @@ export function IconCard({ icon, paragraph }) {
 }
 
 IconCard.propTypes = {
-    icon: PropTypes.string,
+    imageSrc: PropTypes.string,
     paragraph: PropTypes.string
 };
 
 IconCard.defaultProps = {
-    icon: 'fa fa-bullseye fa-2x',
+    imageSrc: 'fa fa-bullseye fa-2x',
     paragraph: 'Icon card paragraph'
-  };
+};

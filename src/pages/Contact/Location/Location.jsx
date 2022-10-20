@@ -1,5 +1,4 @@
 import React from 'react'
-import Map from '../../Home/assets/img/Rectangle107.png'
 
 export function Location() {
     return (
@@ -11,14 +10,18 @@ export function Location() {
                         BPartners est une société enregistrée à l'Orias
                         avec son siège social à Paris dans le 18ième arrondissement. <br />
                     </p>
-                   <b>N'hésitez pas à nous écrire pour toute question.</b>
+                    <b>N'hésitez pas à nous écrire pour toute question.</b>
                 </div>
                 <div className='location__col2'>
-                    <img
-                        src={Map}
-                        alt="carte"
-                        width="380"
-                    />
+                    <iframe
+                        title='map'
+                        src={process.env.REACT_APP_BPARTNERS_LOCATION_URL}
+                        width="480"
+                        height="300"
+                        style={{ border: '0' }}
+                        allowFullScreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" />
                 </div>
             </div>
         </section>

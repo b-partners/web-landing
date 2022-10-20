@@ -1,8 +1,5 @@
 import React from 'react'
 import TextField from '@mui/material/TextField';
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
-import InputLabel from '@mui/material/InputLabel';
 import { makeStyles } from "@mui/styles";
 import { Button } from '../../../common/components/Button';
 
@@ -34,7 +31,7 @@ export function ContactForm() {
                         </li>
                         <li>
                             <i className='fa fa-envelope' />
-                            <a href="mail"><u>contact@bpartners.app</u></a>
+                            <a href="mailto:contact@bpartners.app"><u>contact@bpartners.app</u></a>
                         </li>
                     </ul>
                     <p style={{ marginTop: '1rem' }}>
@@ -63,20 +60,12 @@ export function ContactForm() {
                         type="mail"
                         variant="filled"
                     />
-                    <InputLabel
-                        disableAnimation={false}
-                        htmlFor="searchCriteria"
-                    >
-                        Sujet
-                    </InputLabel>
-                    <Select
-                        id="searchCriteria"
+                    <TextField
                         className={classes.full}
                         label="Sujet"
+                        type="textarea"
                         variant="filled"
-                    >
-                        <MenuItem value="Candidature spontanée">Candidature spontanée</MenuItem>
-                    </Select>
+                    />
                     <TextField
                         className={classes.full}
                         label="Commentaire"

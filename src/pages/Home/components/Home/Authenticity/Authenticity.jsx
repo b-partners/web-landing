@@ -15,12 +15,12 @@ export function Authenticity() {
               <span style={{ fontWeight: "700" }}>Notre authenticité</span><br />
               <span style={{ fontWeight: "200" }}>Votre force</span>
             </h3>
-            <p>
-              Aujourd’hui les artisans perdent entre 30% et 40% de leur temps sur des tâches administratives,
+            <p style={{ textAlign: 'justify' }}>
+              Aujourd'hui les artisans perdent entre 30% à 40% de leur temps sur des tâches administratives,
               financières ou de prospection laborieuse qui les éloignent de leur vrai métier.
-              BPartners est une application tout-en-un construite avec les artisans pour les artisans avec un
-              but unique,<b> laisser votre téléphone générer les tâches administratives, financières et commerciales
-                pénibles et pendant que vous reconcentrez sur la satisfaction de vos clients.</b>
+              BPartners une application tout-en-un construite avec les artisans pour les artisans
+              avec un but unique: <b>laisser votre téléphone générer ces tâches ardues pendant que vous
+              reconcentrez sur la satisfaction de vos clients.</b>
             </p>
           </div>
           <div className='mobile__task__image'>

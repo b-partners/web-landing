@@ -12,10 +12,10 @@ export function Description() {
             la croissance et les encaissements des artisans et indépendants français.
             Nous avons développé une solution de gestion d’entreprise unifiée pensée avec
             les artisans pour les artisans. <br />
-            Notre ambition c'est de permettre à tous  tous les artisans :
+            Notre ambition est de permettre à tous les artisans :
             <ul style={{ listStyle: 'disc', marginLeft: '1.7rem' }}>
               <li>d'ouvrir un compte bancaire traditionnel</li>
-              <li>d'automatiser leur édition de devis/facturation</li>
+              <li>d'automatiser leur édition de devis/factures</li>
               <li>d'avoir un outil pour encaisser leurs clients sur mobile via
                 QR code/Lien/sms de paiement
               </li>
@@ -37,10 +37,11 @@ export function Description() {
             Concrètement nous démarrons la commercialisation en proposons un compte bancaire aux artisans,
             autour duquel nous allons faire graviter toute la vie de l’entreprise avec des outils d’automatisation
             couvrant :
-            L’édition et la relance des devis et factures.
-            Les encaissements sur mobile ou à distance.
-            La comptabilité par auto catégorisation et agrégation des comptes.
-            Tout ce qui est nécessaire à l’artisan pour faire grandir son entreprise se trouve dans BPartners.
+            <ul style={{ listStyle: 'disc', marginLeft: '1.7rem' }}>
+              <li>L’édition, la relance des devis et factures impayées.</li>
+              <li>Les encaissements sur mobile ou à distance.</li>
+              <li>La comptabilité par auto catégorisation et agrégation des comptes.</li>
+            </ul>
           </p>
         </div>
         <div className='description__col2'>

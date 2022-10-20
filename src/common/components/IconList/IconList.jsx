@@ -2,26 +2,29 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import './IconList.css'
 
-export function IconList({ icon, listText }) {
+export function IconList({ imageSrc, listText }) {
     return (
         <li className='home-list-item'>
             <div className='home-list-icon'>
-                <i className={ icon } />
+                <img src={imageSrc}
+                    alt=" "
+                    className='icon-list' />
             </div>
             <span
+            style={{width: '12.5rem'}}
             >
-                { listText }
+                {listText}
             </span>
         </li>
     )
 }
 
 IconList.propTypes = {
-    icon: PropTypes.string,
+    imageSrc: PropTypes.string,
     listText: PropTypes.string
 };
 
 IconList.defaultProps = {
-    icon: 'fa fa-bullseye fa-2x',
+    imageSrc: 'fa fa-bullseye fa-2x',
     listText: 'Icon text'
-  };
+};

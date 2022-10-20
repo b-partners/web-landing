@@ -5,12 +5,19 @@ import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
 import { makeStyles } from '@mui/styles';
 import { Dialog, DialogActions, DialogContent, Snackbar } from '@mui/material';
+
 import { Button } from '../../../../../common/components/Button/Button';
+import { IconList } from '../../../../../common/components/IconList';
 
 import '../../../../../common/components/Modal/Modal.css';
 import '../../../assets/css/forms.css';
 import '../../../assets/css/spinner.css';
-import { IconList } from '../../../../../common/components/IconList';
+
+import CashRegisterEuro from '../../../assets/img/cash-register-euro.png';
+import QrCode from '../../../assets/img/qr-code-ext.png';
+import PaidBill from '../../../assets/img/paid-bill.png';
+import VirtualBot from '../../../assets/img/virtual-bot.png';
+
 import axios from '../../../../../config/axios';
 
 
@@ -77,23 +84,25 @@ export function Welcome() {
       <div className='home__container bd-container bd-grid'>
         <div className='home__data'>
           <h1 className='home__title'>
-            L'assistant virtuel intelligent qui <br />
+            L'assistant bancaire intelligent qui <br />
             <span style={{ fontWeight: '600' }}> accélère la croissance et les encaissements des artisants
-            français.</span>
+              français.</span>
           </h1>
           <div className='home__list'>
             <div className='home__list__col'>
               <ul>
-                <IconList icon='fa fa-dollar' listText='Suivi de votre trésorerie et de vos objectifs' />
-                <IconList icon='fa fa-dollar' listText='Edition de devis, facture et relance automatisée des impayés' />
+                <IconList imageSrc={CashRegisterEuro} listText='Suivi de votre trésorerie et de vos objectifs.' />
+                <IconList imageSrc={PaidBill} listText='Edition de devis, facture et relance automatisée des impayés.'
+                />
               </ul>
             </div>
             <div className='home__list__col'>
               <ul>
-                <IconList icon='fa fa-dollar' listText='Encaissement de vos prestations sur mobile et à distance' />
+                <IconList imageSrc={QrCode} listText='Encaissement de vos prestations sur mobile et à distance.' />
                 <IconList
-                  icon='fa fa-dollar'
-                  listText='Être informé en temps réel des chantiers, et des demandes de dépannages autour de chez vous'
+                  imageSrc={VirtualBot}
+                  listText='Être informé en temps réel des chantiers,
+                   et des demandes de dépannages autour de chez vous.'
                 />
               </ul>
             </div>
@@ -118,22 +127,22 @@ export function Welcome() {
               required
             />
             <Button type='button' label="Ça m'interesse" preset='registration-button'
-                    onClick={() => {
-                      const regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-                      if (!regex.test(user.email)) {
-                        setMessage(`S'il vous plaît, mettez une adresse email valide`);
-                        setToastOpen(true);
-                        return;
-                      }
-                      setModalOpen(true);
-                    }} />
+              onClick={() => {
+                const regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+                if (!regex.test(user.email)) {
+                  setMessage(`S'il vous plaît, mettez une adresse email valide`);
+                  setToastOpen(true);
+                  return;
+                }
+                setModalOpen(true);
+              }} />
           </Paper>
 
         </div>
         <div>
           <iframe width='450' height='270' src='https://www.youtube.com/embed/a38imldPQYc?autoplay=1'
-                  title='Bpart'
-                  frameBorder='0' allowFullScreen />
+            title='Bpart'
+            frameBorder='0' allowFullScreen />
         </div>
       </div>
       <Dialog open={modalOpen} onClose={() => setModalOpen(false)}>
