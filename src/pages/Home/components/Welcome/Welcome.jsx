@@ -4,9 +4,9 @@ import React, { useState } from 'react';
 import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
 import { makeStyles } from '@mui/styles';
-import { Dialog, DialogActions, DialogContent, Snackbar } from '@mui/material';
+import { Snackbar } from '@mui/material';
 
-import { Button } from '../../../../common/components/Button/Button';
+import { Button } from '../../../../common/components/Button';
 import { IconList } from '../../../../common/components/IconList';
 
 import '../../../../common/components/Modal/Modal.css';
@@ -17,9 +17,7 @@ import CashRegisterEuro from '../../assets/img/cash-register-euro.png';
 import QrCode from '../../assets/img/qr-code-ext.png';
 import PaidBill from '../../assets/img/paid-bill.png';
 import VirtualBot from '../../assets/img/virtual-bot.png';
-
-import axios from '../../../../config/axios';
-
+import { PreRegistrationModal, usePreRegistration } from '../PreRegistrationModal/PreRegistrationModal';
 
 export function Welcome() {
 
@@ -33,16 +31,6 @@ export function Welcome() {
   const classes = useStyles();
 
   const [toastOpen, setToastOpen] = useState(false);
-  const [modalOpen, setModalOpen] = useState(false);
-  const [message, setMessage] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [user, setUser] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    society: '',
-    phone: '',
-  });
 
   const handleToastClose = (_, reason) => {
     if (reason === 'clickaway') {
@@ -51,28 +39,15 @@ export function Welcome() {
     setToastOpen(false);
   };
 
-  const handlePreUsersSubmit = async event => {
-    event.preventDefault();
-    const isFormValid = Object.entries(user).every(value =>
-      !!(value[1].trim()),
-    );
-    if (!isFormValid) {
-      setMessage('Veuillez remplir tous les champs obligatoires.');
-      setToastOpen(true);
-      return;
-    }
-    try {
-      setLoading(true);
-      await axios.post('preUsers', [user]);
-    } catch (e) {
-      setToastOpen(true);
-      setMessage('Quelque chose c\'est mal passé. Merci d\'essayer plus tard');
-      throw new Error(e);
-    } finally {
-      setLoading(false);
-      setModalOpen(false);
-    }
-  };
+  const [message, setMessage] = useState(null);
+  const {
+    modalOpen,
+    setModalOpen,
+    loading,
+    user,
+    setUser,
+    handlePreUsersSubmit,
+  } = usePreRegistration(setMessage, setToastOpen);
 
   const onValueChange = event => {
     const { name, value } = event.target;
@@ -127,89 +102,37 @@ export function Welcome() {
               required
             />
             <Button type='button' label="Ça m'interesse" preset='registration-button'
-              onClick={() => {
-                const regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-                if (!regex.test(user.email)) {
-                  setMessage(`S'il vous plaît, mettez une adresse email valide`);
-                  setToastOpen(true);
-                  return;
-                }
-                setModalOpen(true);
-              }} />
+                    onClick={() => {
+                      const regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+                      if (!regex.test(user.email)) {
+                        setMessage(`S'il vous plaît, mettez une adresse email valide`);
+                        setToastOpen(true);
+                        return;
+                      }
+                      setModalOpen(true);
+                    }} />
           </Paper>
 
         </div>
         <div>
           <iframe width='450' height='270' src='https://www.youtube.com/embed/a38imldPQYc?autoplay=1'
-            title='Bpart'
-            frameBorder='0' allowFullScreen />
+                  title='Bpart'
+                  frameBorder='0' allowFullScreen />
         </div>
       </div>
-      <Dialog open={modalOpen} onClose={() => setModalOpen(false)}>
-        <form onSubmit={handlePreUsersSubmit}>
-          <DialogContent>
-            <TextField
-              className={classes.field}
-              id='firstName'
-              name='firstName'
-              label='Prénom *'
-              type='text'
-              variant='filled'
-              onChange={onValueChange}
-              value={user.firstName}
-            />
-            <TextField
-              className={classes.field}
-              id='lastName'
-              name='lastName'
-              label='Nom *'
-              type='text'
-              variant='filled'
-              onChange={onValueChange}
-              value={user.lastName}
-            />
-            <TextField
-              className={classes.field}
-              id='email'
-              name='email'
-              label='Adresse e-mail *'
-              type='email'
-              variant='filled'
-              onChange={onValueChange}
-              value={user.email}
-            />
-            <TextField
-              className={classes.field}
-              id='phone'
-              name='phone'
-              label='Téléphone *'
-              type='text'
-              variant='filled'
-              onChange={onValueChange}
-              value={user.phone}
-            />
-            <TextField
-              className={classes.field}
-              id='society'
-              name='society'
-              label='Société *'
-              type='text'
-              variant='filled'
-              onChange={onValueChange}
-              value={user.society}
-            />
-          </DialogContent>
-          <DialogActions>
-            <Button onClick={handlePreUsersSubmit} autoFocus loading={loading}>
-              Se préinscrire
-            </Button>
-            <Button onClick={() => {
-              setUser({ firstName: '', lastName: '', society: '', email: '', phone: '' });
-              setModalOpen(false);
-            }} label='Annuler' preset='btn-secondary' />
-          </DialogActions>
-        </form>
-      </Dialog>
+      <PreRegistrationModal
+        open={modalOpen}
+        onClose={() => setModalOpen(false)}
+        onSubmit={handlePreUsersSubmit}
+        classes={classes}
+        onChange={onValueChange}
+        user={user}
+        loading={loading}
+        onClick={() => {
+          setUser({ firstName: '', lastName: '', society: '', email: '', phone: '' });
+          setModalOpen(false);
+        }}
+      />
       <Snackbar autoHideDuration={5000} open={toastOpen} onClose={handleToastClose} message={message} />
     </section>
   );
