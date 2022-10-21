@@ -8,6 +8,7 @@ import { Snackbar } from '@mui/material';
 
 import { Button } from '../../../../common/components/Button';
 import { IconList } from '../../../../common/components/IconList';
+import { PreRegistrationModal, usePreRegistration } from '../PreRegistrationModal/PreRegistrationModal';
 
 import '../../../../common/components/Modal/Modal.css';
 import '../../assets/css/forms.css';
@@ -17,7 +18,6 @@ import CashRegisterEuro from '../../assets/img/cash-register-euro.png';
 import QrCode from '../../assets/img/qr-code-ext.png';
 import PaidBill from '../../assets/img/paid-bill.png';
 import VirtualBot from '../../assets/img/virtual-bot.png';
-import { PreRegistrationModal, usePreRegistration } from '../PreRegistrationModal/PreRegistrationModal';
 
 export function Welcome() {
 
@@ -40,6 +40,7 @@ export function Welcome() {
   };
 
   const [message, setMessage] = useState(null);
+
   const {
     modalOpen,
     setModalOpen,
@@ -47,12 +48,8 @@ export function Welcome() {
     user,
     setUser,
     handlePreUsersSubmit,
+    onValueChange,
   } = usePreRegistration(setMessage, setToastOpen);
-
-  const onValueChange = event => {
-    const { name, value } = event.target;
-    setUser(prevState => ({ ...prevState, [name]: value }));
-  };
 
   return (
     <section className='home' id='home'>
@@ -110,7 +107,8 @@ export function Welcome() {
                         return;
                       }
                       setModalOpen(true);
-                    }} />
+                    }}
+            />
           </Paper>
 
         </div>

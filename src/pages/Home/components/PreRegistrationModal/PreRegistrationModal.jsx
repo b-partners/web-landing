@@ -123,5 +123,11 @@ export function usePreRegistration(setMessage, setToastOpen) {
       setModalOpen(false);
     }
   };
-  return { modalOpen, setModalOpen, loading, user, setUser, handlePreUsersSubmit };
+
+  const onValueChange = event => {
+    const { name, value } = event.target;
+    setUser(prevState => ({ ...prevState, [name]: value }));
+  };
+
+  return { modalOpen, setModalOpen, loading, user, setUser, handlePreUsersSubmit, onValueChange };
 }
