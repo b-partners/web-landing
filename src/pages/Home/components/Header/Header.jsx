@@ -7,39 +7,11 @@ import logo from '../../assets/img/logo.png';
 import '../../assets/css/forms.css';
 
 import { useToggle } from '../../../../utils/hooks';
-import { Modal } from '../../../../common/components/Modal';
-import httpClient from '../../../../config/axios';
 import { Button } from '../../../../common/components/Button';
 
 export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
-  const [showModal, setToggleShowModal] = useToggle(false);
   const [open, setOpen] = useState(false);
-  const [authPayload, setAuthPayload] = useState({
-    phoneNumber: '',
-    successUrl: process.env.REACT_APP_SUCCESS_URL,
-    failureUrl: process.env.REACT_APP_FAILURE_URL,
-  });
-  const [isLoading, setIsLoading] = useState(false);
-
-  const handlePhoneNumberChange = event => {
-    const { name, value } = event.target;
-    setAuthPayload(prevState => ({ ...prevState, [name]: value.replace('+', '%2B') }));
-  };
-
-  const handleSubmit = async event => {
-    event.preventDefault();
-    setIsLoading(true);
-    try {
-      let { data: { redirectionUrl } } = await httpClient.post(`auth`, authPayload);
-      redirectionUrl = redirectionUrl.replace('+', '%2B');
-      location.assign(redirectionUrl);
-    } catch (e) {
-      throw new Error(e);
-    } finally {
-      setIsLoading(false);
-    }
-  };
 
   return (<header className='l-header' id='header'>
     <nav className='nav bd-container'>
@@ -50,33 +22,33 @@ export function Header() {
         <ul className='nav__list'>
           <li>
             <NavLink
-              className="nav-bar-link"
-              to="/home"
+              className='nav-bar-link'
+              to='/home'
             >Accueil</NavLink>
           </li>
           <li>
             <NavLink
-              className="nav-bar-link"
-              to="/about"
+              className='nav-bar-link'
+              to='/about'
             >
               À propos
             </NavLink>
           </li>
           <li>
             <NavLink
-              className="nav-bar-link"
-              to="/contact"
+              className='nav-bar-link'
+              to='/contact'
             >
               Contact
             </NavLink>
           </li>
-          <li style={{marginLeft: ".7rem"}}>
+          <li style={{ marginLeft: '.7rem' }}>
             <a
-              name="link-4"
+              name='link-4'
               href='https://dashboard-dev.bpartners.app/login'
             >
               Se connecter
-              <i className="fa fa-user" style={{ marginLeft: ".6rem" }} />
+              <i className='fa fa-user' style={{ marginLeft: '.6rem' }} />
             </a>
           </li>
           <li className='nav__item' id='ouvrir-compte'>
@@ -88,35 +60,17 @@ export function Header() {
         <i className='bx bx-grid-alt' />
       </button>
     </nav>
-    <Modal showModal={showModal} toggle={setToggleShowModal}>
-      <form onSubmit={handleSubmit}>
-        <div className='floating-form'>
-          <div className='floating-label'>
-            <input
-              className='floating-input'
-              type='text'
-              placeholder=''
-              name='phoneNumber'
-              onChange={handlePhoneNumberChange}
-              required
-            />
-            <span>Téléphone</span>
-          </div>
-          <Button type='submit' loading={isLoading} label='Se connecter' />
-        </div>
-      </form>
-    </Modal>
     <Dialog
       open={open}
       onClose={() => setOpen(false)}
-      aria-labelledby="alert-dialog-title"
-      aria-describedby="alert-dialog-description"
+      aria-labelledby='alert-dialog-title'
+      aria-describedby='alert-dialog-description'
     >
-      <DialogTitle id="alert-dialog-title">
+      <DialogTitle id='alert-dialog-title'>
         Envie de vous inscrire ?
       </DialogTitle>
       <DialogContent>
-        <DialogContentText id="alert-dialog-description">
+        <DialogContentText id='alert-dialog-description'>
           Un peu de patience l'application sera disponible le 1er Novembre 2022.
         </DialogContentText>
       </DialogContent>
