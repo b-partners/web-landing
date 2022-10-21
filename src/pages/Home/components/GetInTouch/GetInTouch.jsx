@@ -1,7 +1,7 @@
 import React from 'react'
 import TextField from '@mui/material/TextField';
 import { makeStyles } from "@mui/styles";
-import { Button } from '../../../../../common/components/Button/Button';
+import { Button } from '../../../../common/components/Button/Button';
 
 export function GetInTouch() {
     const useStyles = makeStyles({

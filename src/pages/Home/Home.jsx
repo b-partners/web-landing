@@ -1,15 +1,15 @@
 import React from 'react';
 
-import { Header } from './components/Home/Header';
-import { Feature } from './components/Home/Feature';
-import { Welcome } from './components/Home/Welcome';
-import { Offer } from './components/Home/Offer';
-import { Authenticity } from './components/Home/Authenticity';
-import { Solution } from './components/Home/Solution';
-import { Distinction } from './components/Home/Distinction';
-import { Testimonial } from './components/Home/Testimonial';
-import { GetInTouch } from './components/Home/GetInTouch';
-import { Footer } from './components/Home/Footer';
+import { Header } from './components/Header';
+import { Feature } from './components/Feature';
+import { Welcome } from './components/Welcome';
+import { Offer } from './components/Offer';
+import { Authenticity } from './components/Authenticity';
+import { Solution } from './components/Solution';
+import { Distinction } from './components/Distinction';
+import { Testimonial } from './components/Testimonial';
+import { GetInTouch } from './components/GetInTouch';
+import { Footer } from './components/Footer';
 
 export function Home() {
   return (

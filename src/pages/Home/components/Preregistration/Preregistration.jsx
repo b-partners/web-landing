@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Modal } from '../../../../../common/components/Modal';
-import { Button } from '../../../../../common/components/Button';
+import { Modal } from '../../../../common/components/Modal';
+import { Button } from '../../../../common/components/Button';
 
 export function Preregistration(props) {
   const { preRegistration, onSubmitEmail, onSubmitModal, onChange, showModal, toggle, loading } = props;

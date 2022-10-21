@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Button as Buttons, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 
-import logo from '../../../assets/img/logo.png';
-import '../../../assets/css/forms.css';
+import logo from '../../assets/img/logo.png';
+import '../../assets/css/forms.css';
 
-import { useToggle } from '../../../../../utils/hooks';
-import { Modal } from '../../../../../common/components/Modal';
-import httpClient from '../../../../../config/axios';
-import { Button } from '../../../../../common/components/Button';
+import { useToggle } from '../../../../utils/hooks';
+import { Modal } from '../../../../common/components/Modal';
+import httpClient from '../../../../config/axios';
+import { Button } from '../../../../common/components/Button';
 
 export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
@@ -43,7 +43,7 @@ export function Header() {
 
   return (<header className='l-header' id='header'>
     <nav className='nav bd-container'>
-      <a href='#home' className='nav__logo'>
+      <a href='src/pages/Home/components/Header/Header#home' className='nav__logo'>
         <img src={logo} alt='logo' style={{ width: '10.625rem' }} />
       </a>
       <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} id='nav-menu'>

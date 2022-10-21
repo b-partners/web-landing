@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShareCard } from '../../../../../common/components/ShareCard';
+import { ShareCard } from '../../../../common/components/ShareCard';
 
 
 export function Feature() {

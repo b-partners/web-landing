@@ -5,10 +5,10 @@ import TextField from '@mui/material/TextField';
 import { makeStyles } from "@mui/styles";
 import { Dialog, DialogActions, DialogContent, Snackbar } from '@mui/material';
 
-import logo from '../../../assets/img/logoFullWhite.png';
-import { Button } from '../../../../../common/components/Button/Button';
+import logo from '../../assets/img/logoFullWhite.png';
+import { Button } from '../../../../common/components/Button/Button';
 
-import axios from '../../../../../config/axios';
+import axios from '../../../../config/axios';
 
 export function Footer() {
   const [toastOpen, setToastOpen] = useState(false);
@@ -75,10 +75,10 @@ export function Footer() {
         <div className='navigation_link'>
           <h4 className='footer_subtitle'>LIENS IMPORTANTS</h4>
           <ul className='navigation_link_list'>
-            <li><a href="#share">Présentation</a></li>
-            <li><a href="#share">À propos de nous</a></li>
-            <li><a href="#share">Nous contacter</a></li>
-            <li><a href="#share">Mon compte</a></li>
+            <li><a href="src/pages/Home/components/Footer/Footer#share">Présentation</a></li>
+            <li><a href="src/pages/Home/components/Footer/Footer#share">À propos de nous</a></li>
+            <li><a href="src/pages/Home/components/Footer/Footer#share">Nous contacter</a></li>
+            <li><a href="src/pages/Home/components/Footer/Footer#share">Mon compte</a></li>
           </ul>
         </div>
         <div className='footer_registration'>

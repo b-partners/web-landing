@@ -1,11 +1,11 @@
 import React from 'react'
-import LogoFrenchTech from '../../../assets/img/Logo_French_Tech.png';
-import EiffelTower from '../../../assets/img/eiffel-tower.png';
-import Auvalie from '../../../assets/img/auvalie.jpg';
-import Swan from '../../../assets/img/swan.png';
-import Bridge from '../../../assets/img/bridge.png';
-import Fintecture from '../../../assets/img/fintecture.png';
-import { ImageCard } from '../../../../../common/components/ImageCard/ImageCard';
+import LogoFrenchTech from '../../assets/img/Logo_French_Tech.png';
+import EiffelTower from '../../assets/img/eiffel-tower.png';
+import Auvalie from '../../assets/img/auvalie.jpg';
+import Swan from '../../assets/img/swan.png';
+import Bridge from '../../assets/img/bridge.png';
+import Fintecture from '../../assets/img/fintecture.png';
+import { ImageCard } from '../../../../common/components/ImageCard/ImageCard';
 
 export function Distinction() {
     return (

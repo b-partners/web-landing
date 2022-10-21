@@ -6,19 +6,19 @@ import TextField from '@mui/material/TextField';
 import { makeStyles } from '@mui/styles';
 import { Dialog, DialogActions, DialogContent, Snackbar } from '@mui/material';
 
-import { Button } from '../../../../../common/components/Button/Button';
-import { IconList } from '../../../../../common/components/IconList';
+import { Button } from '../../../../common/components/Button/Button';
+import { IconList } from '../../../../common/components/IconList';
 
-import '../../../../../common/components/Modal/Modal.css';
-import '../../../assets/css/forms.css';
-import '../../../assets/css/spinner.css';
+import '../../../../common/components/Modal/Modal.css';
+import '../../assets/css/forms.css';
+import '../../assets/css/spinner.css';
 
-import CashRegisterEuro from '../../../assets/img/cash-register-euro.png';
-import QrCode from '../../../assets/img/qr-code-ext.png';
-import PaidBill from '../../../assets/img/paid-bill.png';
-import VirtualBot from '../../../assets/img/virtual-bot.png';
+import CashRegisterEuro from '../../assets/img/cash-register-euro.png';
+import QrCode from '../../assets/img/qr-code-ext.png';
+import PaidBill from '../../assets/img/paid-bill.png';
+import VirtualBot from '../../assets/img/virtual-bot.png';
 
-import axios from '../../../../../config/axios';
+import axios from '../../../../config/axios';
 
 
 export function Welcome() {

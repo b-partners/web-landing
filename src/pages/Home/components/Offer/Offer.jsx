@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button } from '../../../../../common/components/Button';
-import Essentiel from '../../../assets/img/essentiel.png';
-import Developpement from '../../../assets/img/developpement.png';
-import Ambitieux from '../../../assets/img/ambitieux.png';
+import { Button } from '../../../../common/components/Button';
+import Essentiel from '../../assets/img/essentiel.png';
+import Developpement from '../../assets/img/developpement.png';
+import Ambitieux from '../../assets/img/ambitieux.png';
 
 export function Offer() {
   return (
