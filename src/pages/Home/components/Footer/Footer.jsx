@@ -41,7 +41,7 @@ export function Footer(props) {
             type="mail"
             variant="filled"
             onChange={onEmailChange}
-            value={user.email}
+            value={user && user.email}
           />
           <Button
             type="button"

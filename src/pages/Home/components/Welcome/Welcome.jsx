@@ -64,7 +64,7 @@ export function Welcome(props) {
               type="mail"
               variant="filled"
               onChange={onEmailChange}
-              value={user.email}
+              value={user && user.email}
               required
             />
             <Button type="button" label="Ça m'interesse" preset="registration-button" onClick={onEmailRegistration} />

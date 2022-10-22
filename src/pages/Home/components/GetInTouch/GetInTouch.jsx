@@ -18,7 +18,7 @@ export function GetInTouch(props) {
           variant="filled"
           name="email"
           onChange={onEmailChange}
-          value={user.email}
+          value={user && user.email}
         />
         <Button type="submit" label="Je m'inscris" preset="get_in_touch__button" onClick={onEmailRegistration} />
       </div>
