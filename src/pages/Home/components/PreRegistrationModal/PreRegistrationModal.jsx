@@ -116,6 +116,8 @@ export function usePreRegistration(setMessage, setToastOpen) {
     try {
       setLoading(true);
       await axios.post('preUsers', [user]);
+      setToastOpen(true);
+      setMessage('Vous avez été ajouté avec succès à la liste de diffusion');
     } catch (e) {
       const {
         response: {
@@ -135,6 +137,7 @@ export function usePreRegistration(setMessage, setToastOpen) {
     } finally {
       setLoading(false);
       setModalOpen(false);
+      setUser({ email: null, firstName: null, lastName: null, phone: null, society: null });
     }
   };
 
