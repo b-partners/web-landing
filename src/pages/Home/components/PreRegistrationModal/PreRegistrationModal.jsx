@@ -5,72 +5,75 @@ import TextField from '@mui/material/TextField';
 import * as PropTypes from 'prop-types';
 import axios from '../../../../config/axios';
 import { Button } from '../../../../common/components/Button';
+import isValidEmail from '../../../../utils/is-valid-email';
 
 export function PreRegistrationModal(props) {
   const { user, loading, classes, open, onChange, onSubmit, onClick, onClose } = props;
 
-  return <Dialog open={open} onClose={onClose}>
-    <form onSubmit={onSubmit}>
-      <DialogContent>
-        <TextField
-          className={classes.field}
-          id='firstName'
-          name='firstName'
-          label='Prénom *'
-          type='text'
-          variant='filled'
-          onChange={onChange}
-          value={user.firstName}
-        />
-        <TextField
-          className={classes.field}
-          id='lastName'
-          name='lastName'
-          label='Nom *'
-          type='text'
-          variant='filled'
-          onChange={onChange}
-          value={user.lastName}
-        />
-        <TextField
-          className={classes.field}
-          id='email'
-          name='email'
-          label='Adresse e-mail *'
-          type='email'
-          variant='filled'
-          onChange={onChange}
-          value={user.email}
-        />
-        <TextField
-          className={classes.field}
-          id='phone'
-          name='phone'
-          label='Téléphone *'
-          type='text'
-          variant='filled'
-          onChange={onChange}
-          value={user.phone}
-        />
-        <TextField
-          className={classes.field}
-          id='society'
-          name='society'
-          label='Société *'
-          type='text'
-          variant='filled'
-          onChange={onChange}
-          value={user.society}
-        />
-      </DialogContent>
-      <DialogActions>
-        <Button onClick={onSubmit} autoFocus loading={loading}>
-          Se préinscrire
-        </Button>
-        <Button onClick={onClick} label='Annuler' preset='btn-secondary' />
-      </DialogActions>
-    </form>
-  </Dialog>;
+  return (
+    <Dialog open={open} onClose={onClose}>
+      <form onSubmit={onSubmit}>
+        <DialogContent>
+          <TextField
+            className={classes.field}
+            id="firstName"
+            name="firstName"
+            label="Prénom"
+            type="text"
+            variant="filled"
+            onChange={onChange}
+            value={user.firstName}
+          />
+          <TextField
+            className={classes.field}
+            id="lastName"
+            name="lastName"
+            label="Nom"
+            type="text"
+            variant="filled"
+            onChange={onChange}
+            value={user.lastName}
+          />
+          <TextField
+            className={classes.field}
+            id="email"
+            name="email"
+            label="Adresse e-mail"
+            type="email"
+            variant="filled"
+            onChange={onChange}
+            value={user.email}
+          />
+          <TextField
+            className={classes.field}
+            id="phone"
+            name="phone"
+            label="Téléphone"
+            type="text"
+            variant="filled"
+            onChange={onChange}
+            value={user.phone}
+          />
+          <TextField
+            className={classes.field}
+            id="society"
+            name="society"
+            label="Société"
+            type="text"
+            variant="filled"
+            onChange={onChange}
+            value={user.society}
+          />
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={onSubmit} autoFocus loading={loading}>
+            Se préinscrire
+          </Button>
+          <Button onClick={onClick} label="Annuler" preset="btn-secondary" />
+        </DialogActions>
+      </form>
+    </Dialog>
+  );
 }
 
 PreRegistrationModal.propTypes = {
@@ -101,11 +104,9 @@ export function usePreRegistration(setMessage, setToastOpen) {
     phone: '',
   });
 
-  const handlePreUsersSubmit = async event => {
+  const handlePreUsersSubmit = async (event) => {
     event.preventDefault();
-    const isFormValid = Object.entries(user).every(value =>
-      !!(value[1].trim()),
-    );
+    const isFormValid = isValidEmail(user.email);
     if (!isFormValid) {
       setMessage('Veuillez remplir tous les champs obligatoires.');
       setToastOpen(true);
@@ -116,7 +117,7 @@ export function usePreRegistration(setMessage, setToastOpen) {
       await axios.post('preUsers', [user]);
     } catch (e) {
       setToastOpen(true);
-      setMessage('Quelque chose c\'est mal passé. Merci d\'essayer plus tard');
+      setMessage("Quelque chose c'est mal passé. Merci d'essayer plus tard");
       throw new Error(e);
     } finally {
       setLoading(false);
@@ -124,9 +125,9 @@ export function usePreRegistration(setMessage, setToastOpen) {
     }
   };
 
-  const onValueChange = event => {
+  const onValueChange = (event) => {
     const { name, value } = event.target;
-    setUser(prevState => ({ ...prevState, [name]: value }));
+    setUser((prevState) => ({ ...prevState, [name]: value }));
   };
 
   return { modalOpen, setModalOpen, loading, user, setUser, handlePreUsersSubmit, onValueChange };
