@@ -107,6 +107,7 @@ export function usePreRegistration(setMessage, setToastOpen) {
   const handlePreUsersSubmit = async (event) => {
     event.preventDefault();
     const isFormValid = isValidEmail(user.email);
+
     if (!isFormValid) {
       setMessage('Veuillez remplir tous les champs obligatoires.');
       setToastOpen(true);
@@ -116,8 +117,20 @@ export function usePreRegistration(setMessage, setToastOpen) {
       setLoading(true);
       await axios.post('preUsers', [user]);
     } catch (e) {
+      const {
+        response: {
+          status,
+          data: { message: apiMessage },
+        },
+      } = e;
       setToastOpen(true);
-      setMessage("Quelque chose c'est mal passé. Merci d'essayer plus tard");
+      if (status === 400) {
+        const { message } = JSON.parse(apiMessage);
+        setMessage(message);
+      }
+      if (status === 500) {
+        setMessage("Quelque chose c'est mal passé. Merci d'essayer plus tard");
+      }
       throw new Error(e);
     } finally {
       setLoading(false);
