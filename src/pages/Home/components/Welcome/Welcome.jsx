@@ -20,7 +20,6 @@ import PaidBill from '../../assets/img/paid-bill.png';
 import VirtualBot from '../../assets/img/virtual-bot.png';
 
 export function Welcome() {
-
   const useStyles = makeStyles({
     field: {
       marginBottom: '.8rem',
@@ -41,81 +40,72 @@ export function Welcome() {
 
   const [message, setMessage] = useState(null);
 
-  const {
-    modalOpen,
-    setModalOpen,
-    loading,
-    user,
-    setUser,
-    handlePreUsersSubmit,
-    onValueChange,
-  } = usePreRegistration(setMessage, setToastOpen);
+  const { modalOpen, setModalOpen, loading, user, setUser, handlePreUsersSubmit, onValueChange, onEmailRegistration } =
+    usePreRegistration(setMessage, setToastOpen);
 
   return (
-    <section className='home' id='home'>
-      <div className='home__container bd-container bd-grid'>
-        <div className='home__data'>
-          <h1 className='home__title'>
+    <section className="home" id="home">
+      <div className="home__container bd-container bd-grid">
+        <div className="home__data">
+          <h1 className="home__title">
             L'assistant bancaire intelligent qui <br />
-            <span style={{ fontWeight: '600' }}> accélère la croissance et les encaissements des artisants
-              français.</span>
+            <span style={{ fontWeight: '600' }}>
+              {' '}
+              accélère la croissance et les encaissements des artisants français.
+            </span>
           </h1>
-          <div className='home__list'>
-            <div className='home__list__col'>
+          <div className="home__list">
+            <div className="home__list__col">
               <ul>
-                <IconList imageSrc={CashRegisterEuro} listText='Suivi de votre trésorerie et de vos objectifs.' />
-                <IconList imageSrc={PaidBill} listText='Edition de devis, facture et relance automatisée des impayés.'
+                <IconList imageSrc={CashRegisterEuro} listText="Suivi de votre trésorerie et de vos objectifs." />
+                <IconList
+                  imageSrc={PaidBill}
+                  listText="Edition de devis, facture et relance automatisée des impayés."
                 />
               </ul>
             </div>
-            <div className='home__list__col'>
+            <div className="home__list__col">
               <ul>
-                <IconList imageSrc={QrCode} listText='Encaissement de vos prestations sur mobile et à distance.' />
+                <IconList imageSrc={QrCode} listText="Encaissement de vos prestations sur mobile et à distance." />
                 <IconList
                   imageSrc={VirtualBot}
-                  listText='Être informé en temps réel des chantiers,
-                   et des demandes de dépannages autour de chez vous.'
+                  listText="Être informé en temps réel des chantiers,
+                   et des demandes de dépannages autour de chez vous."
                 />
               </ul>
             </div>
           </div>
-          <Paper elevation={5} className='home-registration-form'>
-            <h2 className='registration-title'>
+          <Paper elevation={5} className="home-registration-form">
+            <h2 className="registration-title">
               Renseignez votre mail et <br />
               rejoignez les artisans de demain.
             </h2>
             <TextField
               className={classes.field}
-              id='email'
-              name='email'
-              label='Email'
-              type='mail'
-              variant='filled'
-              onChange={event => {
+              id="email"
+              name="email"
+              label="Email"
+              type="mail"
+              variant="filled"
+              onChange={(event) => {
                 const { name, value } = event.target;
-                setUser(prevState => ({ ...prevState, [name]: value }));
+                setUser((prevState) => ({ ...prevState, [name]: value }));
               }}
               value={user.email}
               required
             />
-            <Button type='button' label="Ça m'interesse" preset='registration-button'
-                    onClick={() => {
-                      const regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-                      if (!regex.test(user.email)) {
-                        setMessage(`S'il vous plaît, mettez une adresse email valide`);
-                        setToastOpen(true);
-                        return;
-                      }
-                      setModalOpen(true);
-                    }}
-            />
+            <Button type="button" label="Ça m'interesse" preset="registration-button" onClick={onEmailRegistration} />
           </Paper>
-
         </div>
         <div>
-          <iframe width='450' height='270' src='https://www.youtube.com/embed/a38imldPQYc?autoplay=1'
-                  title='Bpart'
-                  frameBorder='0' allowFullScreen />
+          <iframe
+            width="450"
+            height="270"
+            src="https://www.youtube.com/embed/a38imldPQYc?autoplay=1"
+            title="Bpart"
+            frameBorder="0"
+            allowFullScreen
+          />
         </div>
       </div>
       <PreRegistrationModal

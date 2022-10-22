@@ -31,48 +31,28 @@ export function GetInTouch() {
     setToastOpen(false);
   };
 
-  const {
-    modalOpen,
-    setModalOpen,
-    loading,
-    user,
-    setUser,
-    handlePreUsersSubmit,
-    onValueChange,
-  } = usePreRegistration(setMessage, setToastOpen);
+  const { modalOpen, setModalOpen, loading, user, setUser, handlePreUsersSubmit, onValueChange, onEmailRegistration } =
+    usePreRegistration(setMessage, setToastOpen);
 
   return (
-    <section className='get_in_touch section bd-container'>
-      <h2 className='get_in_touch__title'>Rester informé</h2>
+    <section className="get_in_touch section bd-container">
+      <h2 className="get_in_touch__title">Rester informé</h2>
       <p>Aujourd'hui les artisans perdent entre 30% et 40% de leur temps sur des tâches administratives</p>
-      <div className='get_in_touch__form'>
+      <div className="get_in_touch__form">
         <TextField
           className={classes.field}
           InputProps={{ classes }}
-          id='filled-mail-input'
-          label='Tapez votre email ici'
-          type='mail'
-          variant='filled'
-          name='email'
-          onChange={event => {
+          id="filled-mail-input"
+          label="Tapez votre email ici"
+          type="mail"
+          variant="filled"
+          name="email"
+          onChange={(event) => {
             const { name, value } = event.target;
-            setUser(prevState => ({ ...prevState, [name]: value }));
+            setUser((prevState) => ({ ...prevState, [name]: value }));
           }}
         />
-        <Button
-          type='submit'
-          label="Je m'inscris"
-          preset='get_in_touch__button'
-          onClick={() => {
-            const regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-            if (!regex.test(user.email)) {
-              setMessage(`S'il vous plaît, mettez une adresse email valide`);
-              setToastOpen(true);
-              return;
-            }
-            setModalOpen(true);
-          }}
-        />
+        <Button type="submit" label="Je m'inscris" preset="get_in_touch__button" onClick={onEmailRegistration} />
       </div>
       <PreRegistrationModal
         open={modalOpen}

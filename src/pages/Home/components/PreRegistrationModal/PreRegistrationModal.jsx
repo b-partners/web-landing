@@ -104,6 +104,15 @@ export function usePreRegistration(setMessage, setToastOpen) {
     phone: '',
   });
 
+  const onEmailRegistration = () => {
+    if (!isValidEmail(user.email)) {
+      setToastOpen(true);
+      setMessage(`S'il vous plaît, mettez une adresse email valide`);
+      return;
+    }
+    setModalOpen(true);
+  };
+
   const handlePreUsersSubmit = async (event) => {
     event.preventDefault();
     const isFormValid = isValidEmail(user.email);
@@ -146,5 +155,5 @@ export function usePreRegistration(setMessage, setToastOpen) {
     setUser((prevState) => ({ ...prevState, [name]: value }));
   };
 
-  return { modalOpen, setModalOpen, loading, user, setUser, handlePreUsersSubmit, onValueChange };
+  return { modalOpen, setModalOpen, loading, user, setUser, handlePreUsersSubmit, onValueChange, onEmailRegistration };
 }
