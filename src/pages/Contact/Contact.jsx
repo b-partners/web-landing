@@ -1,6 +1,6 @@
 import React from 'react';
-import { Header } from '../Home/components/Home/Header';
-import { Footer } from '../Home/components/Home/Footer';
+import { Header } from '../Home/components/Header';
+import { Footer } from '../Home/components/Footer';
 import { Location } from './Location';
 import { ContactForm } from './ContactForm';
 

@@ -1,0 +1,84 @@
+/* eslint-disable no-restricted-globals */
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { Button as Buttons, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
+
+import logo from '../../assets/img/logo.png';
+import '../../assets/css/forms.css';
+
+import { useToggle } from '../../../../utils/hooks';
+import { Button } from '../../../../common/components/Button';
+
+export function Header() {
+  const [menuActive, toggleMenuActive] = useToggle(false);
+  const [open, setOpen] = useState(false);
+
+  return (<header className='l-header' id='header'>
+    <nav className='nav bd-container'>
+      <a href='src/pages/Home/components/Header/Header#home' className='nav__logo'>
+        <img src={logo} alt='logo' style={{ width: '10.625rem' }} />
+      </a>
+      <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} id='nav-menu'>
+        <ul className='nav__list'>
+          <li>
+            <NavLink
+              className='nav-bar-link'
+              to='/home'
+            >Accueil</NavLink>
+          </li>
+          <li>
+            <NavLink
+              className='nav-bar-link'
+              to='/about'
+            >
+              À propos
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className='nav-bar-link'
+              to='/contact'
+            >
+              Contact
+            </NavLink>
+          </li>
+          <li style={{ marginLeft: '.7rem' }}>
+            <a
+              name='link-4'
+              href='https://dashboard-dev.bpartners.app/login'
+            >
+              Se connecter
+              <i className='fa fa-user' style={{ marginLeft: '.6rem' }} />
+            </a>
+          </li>
+          <li className='nav__item' id='ouvrir-compte'>
+            <Button type='submit' label="Je m'inscris" onClick={() => setOpen(true)} />
+          </li>
+        </ul>
+      </div>
+      <button className='nav__toggle toggle-wrapper' id='nav-toggle' onClick={toggleMenuActive} type='button'>
+        <i className='bx bx-grid-alt' />
+      </button>
+    </nav>
+    <Dialog
+      open={open}
+      onClose={() => setOpen(false)}
+      aria-labelledby='alert-dialog-title'
+      aria-describedby='alert-dialog-description'
+    >
+      <DialogTitle id='alert-dialog-title'>
+        Envie de vous inscrire ?
+      </DialogTitle>
+      <DialogContent>
+        <DialogContentText id='alert-dialog-description'>
+          Un peu de patience l'application sera disponible le 1er Novembre 2022.
+        </DialogContentText>
+      </DialogContent>
+      <DialogActions>
+        <Buttons onClick={() => setOpen(false)} autoFocus>
+          D'accord
+        </Buttons>
+      </DialogActions>
+    </Dialog>
+  </header>);
+}

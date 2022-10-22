@@ -2,14 +2,14 @@ import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-import Testimonial1 from '../../../assets/img/testimonial-1.jpg'
-import Testimonial2 from '../../../assets/img/testimonial-2.jpg'
-import Testimonial3 from '../../../assets/img/testimonial-3.jpg'
-import { CarouselItem } from '../../../../../common/components/CarouselItem';
+import Testimonial1 from '../../assets/img/testimonial-1.jpg'
+import Testimonial2 from '../../assets/img/testimonial-2.jpg'
+import Testimonial3 from '../../assets/img/testimonial-3.jpg'
+import { CarouselItem } from '../../../../common/components/CarouselItem';
 
 export function Testimonial() {
     return (
-        <section className='testimonial section bd-container'>
+        <section className='testimonial section'>
             <h2 className='testimonial__title'>Ils nous ont fait confiance</h2>
             <Carousel
                 showArrows

@@ -1,4 +1,8 @@
 import React from 'react';
+import { Button } from '../../../../common/components/Button';
+import Essentiel from '../../assets/img/essentiel.png';
+import Developpement from '../../assets/img/developpement.png';
+import Ambitieux from '../../assets/img/ambitieux.png';
 
 export function Offer() {
   return (
@@ -7,23 +11,32 @@ export function Offer() {
         <thead className='table__offer__header'>
           <tr>
             <th className='table__offer__title' rowSpan="2">Nos Offres</th>
-            <th style={{ width: "20% !important" }}>
-              L'ESSENTIEL <br />
-              7€/mois
+            <th className='th__offer'>
+              <img src={Essentiel} alt="essentiel" className='offer-image' />
+              <p >
+                L'ESSENTIEL <br />
+                <span style={{fontSize:'1.5rem'}}>7€</span>/mois
+              </p>
               <p className='offer__description'>
                 Tous les services essentiels pour gérer votre activité d'artisan ou d'indépendant
               </p>
             </th>
             <th>
-              DEVELOPPEMENT <br />
-              19€/mois
+              <img src={Developpement} alt="essentiel" className='offer-image' />
+              <p>
+                DEVELOPPEMENT <br />
+               <span style={{fontSize:'1.5rem'}}>19€</span>/mois
+              </p>
               <p className='offer__description'>
                 Tous les services pour développer et gérer votre activité d'artisan ou d'indépendant
               </p>
             </th>
             <th>
-              L'AMBITIEUX <br />
-              39€/mois
+              <img src={Ambitieux} alt="essentiel" className='offer-image' />
+              <p>
+                L'AMBITIEUX <br />
+                <span style={{fontSize:'1.5rem'}}>39€</span>/mois
+              </p>
               <p className='offer__description'>
                 Tous les services pour franchir un pallier dans votre croissance et automatiser
                 votre activité d'artisan ou d'indépendant
@@ -36,7 +49,7 @@ export function Offer() {
             <td>
               <b>
                 Activation de l'assistant virtuel pour développer votre activité, relance client,
-                identification prospect et nouveaux chantiers
+                identification prospect et nouveaux chantiers.
               </b>
             </td>
             <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
@@ -44,7 +57,7 @@ export function Offer() {
             <td><i className="fa fa-check fa-2x" aria-hidden="true" /><br />Avec personnalisation</td>
           </tr>
           <tr>
-            <td><b>Collectez plus rapidement vos encaissements par QR code, Mails ou SMS</b>
+            <td><b>Collectez plus rapidement vos encaissements par QR code, Mails ou SMS.</b>
             </td>
             <td>
               <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
@@ -65,7 +78,7 @@ export function Offer() {
           <tr>
             <td>
               <b>
-                Bénéficier de notre outil de devis, facturation, comptabilité automatisée
+                Bénéficier de notre outil de devis, facturation, comptabilité automatisée.
               </b>
             </td>
             <td>
@@ -84,7 +97,7 @@ export function Offer() {
           <tr>
             <td>
               <b>
-                Inclus services banques en ligne (1 compte pro, 1 RIB FR/ Accès mobile et Internet
+                Inclus services banques en ligne (1 compte pro, 1 RIB FR/ Accès mobile et Internet).
               </b>
             </td>
             <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
@@ -96,7 +109,7 @@ export function Offer() {
           </tr>
           <tr>
             <td>
-              Supports 7 jours sur 7
+              Supports 7 jours sur 7.
             </td>
             <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
             <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
@@ -104,9 +117,9 @@ export function Offer() {
           </tr>
           <tr>
             <td>
-              Carte masterclass physique incluse (puis 5€HT/carte/mois)
+              Carte masterclass physique incluse (puis 5€HT/carte/mois).
             </td>
-            <td> </td>
+            <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
             <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
             <td>
               <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
@@ -114,7 +127,7 @@ export function Offer() {
             </td>
           </tr>
           <tr>
-            <td>Cartes virtuelles permanente incluses (puis 2€HT/carte/mois)</td>
+            <td>Cartes virtuelles permanente incluses (puis 2€HT/carte/mois).</td>
             <td> </td>
             <td>
               <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
@@ -126,7 +139,7 @@ export function Offer() {
             </td>
           </tr>
           <tr>
-            <td>Cartes virtuelles à utilisation unique incluses</td>
+            <td>Cartes virtuelles à utilisation unique incluses.</td>
             <td> </td>
             <td>
               <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
@@ -140,8 +153,9 @@ export function Offer() {
             </td>
           </tr>
           <tr>
-            <td>Virements et prélévements inclus (puis 0,40€ au-delà)</td>
-            <td><br />20 offerts</td>
+            <td>Virements et prélévements inclus (puis 0,40€ au-delà).</td>
+            <td><i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              20 offerts</td>
             <td>
               <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
               50 offerts
@@ -152,32 +166,42 @@ export function Offer() {
             </td>
           </tr>
           <tr>
-            <td>Commissions de mouvements de comptes</td>
-            <td><br />60K€/an offerts <br />
-              puis 0,15%
-            </td>
-            <td><br />150K€/an offerts <br />
+            <td>Commissions de mouvements de comptes.</td>
+            <td><i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              60K€/an offerts <br />
               puis 0,15%
             </td>
             <td><i className="fa fa-check fa-2x" aria-hidden="true" /><br />
-            1M€/an offerts <br />
+              150K€/an offerts <br />
+              puis 0,15%
+            </td>
+            <td><i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              1M€/an offerts <br />
               puis 0,15%
             </td>
           </tr>
           <tr>
-            <td>Paiements hors zone euro (en devise)</td>
-            <td><br />
-            1 € HT + 1,9 %
+            <td>Paiements hors zone euro (en devise).</td>
+            <td><i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              1 € HT + 1,9 %
             </td>
-            <td><br />
-            1,9 %
+            <td><i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              1,9 %
             </td>
             <td>
-            <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
+              <i className="fa fa-check fa-2x" aria-hidden="true" /><br />
               5 inclus puis 1.9%
             </td>
           </tr>
         </tbody>
+        <tfoot style={{ paddingTop: '2rem' }}>
+          <tr style={{ paddingTop: '2rem' }}>
+            <td> </td>
+            <td><Button type='submit' label="C'est ça qu'il me faut" preset="registration-button" /></td>
+            <td><Button type='submit' label="C'est plutôt ça qu'il me faut" preset="registration-button" /></td>
+            <td><Button type='submit' label="C'est exactement cela qu'il me faut" preset="registration-button" /></td>
+          </tr>
+        </tfoot>
       </table>
     </section>
   );

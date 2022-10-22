@@ -178,7 +178,19 @@ video {
 	margin-bottom: 6px;
 	margin-right: 10px;
 }
-
+.flex-inline-container {
+	display: flex;
+	margin-block: 1rem;
+}
+.company-logo {
+	width: 6.25rem;
+	height: 1.25rem;
+	margin-inline: .5rem
+}
+.company-main-logo {
+	width: 5.625rem;
+	margin: auto;
+}
 /*========== NAV ==========*/
 .nav {
 	height: var(--header-height);
@@ -331,7 +343,21 @@ h1.home__title {
 }
 .home__list__col {
 	width: 100%;
-	margin-inline: .2rem;
+}
+.icon-list {
+	width: 15px;
+	height: 15px;
+}
+.home-list-icon {
+	background-color: #e4dee0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 30px;
+	margin-right: .7rem;
 }
 .fa-dollar {
 	background-color: #e4dee0;
@@ -355,8 +381,8 @@ h1.home__title {
 	padding: 3.5% 5%;
 }
 .registration-button {
-	width: 8rem;
-	height: 2.3rem;
+	width: 9rem;
+	height: auto;
 	background-color: var(--first-color);
 	color: white;
 	border: 1px solid var(--first-color);
@@ -456,15 +482,12 @@ h1.home__title {
 /*========== SOLUTION ==========*/
 .solution {
 	text-align: center;
+	background-image: url('../images/Rectangle111.png');
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
 }
 .solution__title {
 	margin-bottom: 1rem;
-}
-.solution__data {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	margin-top: 5rem;
 }
 /*========== DISTINCTION ==========*/
 .distinction {
@@ -479,6 +502,12 @@ h1.home__title {
 	justify-content: space-between;
 	margin-block: 3rem;
 }
+.company__logo__container {
+	height: 7.75rem;
+	display: flex;
+	flex-direction: column;
+}
+/*========== MEDIA QUERIES DISTINCTION & SOLUTION ==========*/
 
 /*========== OFFER ==========*/
 .offer {
@@ -499,8 +528,16 @@ th {
 
 th.table__offer__title {
 	font-size: 1.8rem;
-	text-align: center !important;
 	font-weight: 700;
+}
+.th__offer {
+	text-align: center;
+}
+.offer-image {
+	width: 35%;
+	border-radius: 10px;
+	position: relative;
+	top: -1.5rem;
 }
 thead th:nth-child(1), tbody td:nth-child(1) {
 	text-align: left;
@@ -688,10 +725,17 @@ tbody td {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
+	background-image: url('../images/Rectangle106.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.carousel__item {
+	/* background-color: rgb(235, 235, 235); */
 }
 .testimonial__title {
 	font-weight: 800;
 	font-size: 1.7rem;
+	margin-top: 4rem;
 }
 .testimonial__text {
 	margin-block: 1.2rem !important;
@@ -778,7 +822,10 @@ tbody td {
 /*========== FOOTER ==========*/
 .footer {
 	margin-top: 3rem;
-	background-color: var(--first-color);
+	background-image: url('../images/Rectangle107.png');
+	height: 300px;
+	background-size: cover;
+	padding-top: 3rem !important;
 }
 .footer__container {
 	color: white;
@@ -786,7 +833,6 @@ tbody td {
 	justify-content: space-around;
 	padding-block: 3rem;
 }
-
 .footer_subtitle {
 	color: white;
 	font-weight: 600;
@@ -818,6 +864,7 @@ tbody td {
 	}
 	.footer__container {
 		flex-direction: column;
+		background-color: rgb(131, 131, 131);
 	}
 	.footer_registration {
 		margin: auto;
@@ -878,7 +925,7 @@ tbody td {
 }
 .location__col2 {
 	display: flex;
-	justify-content: center;
+	justify-content: end;
 }
 .location__title {
 	font-weight: 400;
@@ -951,6 +998,21 @@ tbody td {
 
 	.send__img {
 		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.distinction__container, .solution__data, .mobile__task__container, .share__container {
+		flex-direction: column;	
+		margin-block: 0 !important;
+	}
+	.distinction__item, .solution__data__item, .mobile__task__container > div, .share__element {
+		margin: auto;
+		margin-bottom: 2rem;
+		width: 80% !important;
+	}
+	.solution > p {
+		margin-bottom: 2rem;
 	}
 }
 
