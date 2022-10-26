@@ -178,18 +178,8 @@ video {
 	margin-bottom: 6px;
 	margin-right: 10px;
 }
-.flex-inline-container {
-	display: flex;
-	margin-block: 1rem;
-}
-.company-logo {
-	width: 6.25rem;
-	height: 1.25rem;
-	margin-inline: .5rem
-}
-.company-main-logo {
-	width: 5.625rem;
-	margin: auto;
+img[alt="companyLogo"] {
+	transform: scale(1.4);
 }
 /*========== NAV ==========*/
 .nav {
@@ -501,11 +491,6 @@ h1.home__title {
 	display: flex;
 	justify-content: space-between;
 	margin-block: 3rem;
-}
-.company__logo__container {
-	height: 7.75rem;
-	display: flex;
-	flex-direction: column;
 }
 /*========== MEDIA QUERIES DISTINCTION & SOLUTION ==========*/
 
@@ -907,13 +892,23 @@ tbody td {
 }
 /*========== HISTORY ==========*/
 .history {
-	text-align: center;
 	margin-top: 2rem;
 }
 .history__title {
+	text-align: center;
 	font-size: 1.8rem;
 	font-weight: 700;
 	margin-bottom: 2rem;
+}
+.actual-year {
+	margin-left: 2rem;
+	font-size: 3rem;
+	font-weight: 200;
+}
+@media only screen and (max-width: 1200px) {
+	.history {
+		min-height: 900px;
+	}
 }
 /*========== LOCATION ==========*/
 .location__container {
@@ -1002,7 +997,8 @@ tbody td {
 }
 
 @media only screen and (max-width: 768px) {
-	.distinction__container, .solution__data, .mobile__task__container, .share__container {
+	.distinction__container, .solution__data, .mobile__task__container, .share__container, 
+	.description__container, .location__container, .contact-form__container {
 		flex-direction: column;	
 		margin-block: 0 !important;
 	}
@@ -1011,8 +1007,16 @@ tbody td {
 		margin-bottom: 2rem;
 		width: 80% !important;
 	}
+	.description__col2, .location__col1, .location__col2, .contact-form__col1, .contact-form__col2 {
+		width: 90%;
+		margin-bottom: 1.5rem;
+	}
 	.solution > p {
 		margin-bottom: 2rem;
+	}
+	.description__col1, .contact-form__col2 {
+		width: 100%;
+		margin-left: 0;
 	}
 }
 

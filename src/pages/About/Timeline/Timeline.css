@@ -1,0 +1,65 @@
+/*========== TIMELINE ==========*/
+.timeline {
+	display: flex;
+	justify-content: center;
+  }
+  .timeline__container {
+	width: 100%;
+	border-left: 1px solid black;
+  }
+  .timeline__element {
+	height: 4rem;
+  }
+  .line {
+	border-top: 1px solid #000;
+  }
+  .horizontal {
+	display: flex;
+	justify-content: space-around;
+  }
+  .timeline__elt {
+	position: relative;
+	width: 20%;
+	padding-inline: 2.4rem;
+	text-align: center;
+  }
+  .sub__timeline__elt {
+	position: absolute;
+	top: -.7rem;
+  }
+  .timeline__text {
+	padding-top: .6rem;
+	margin-bottom: 4rem;
+  }
+  .round { 
+	background-color: #000;
+	border: 1px solid black;
+	height: 20px;
+	width: 20px;
+	margin: auto;
+	border-radius: 20px;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+	.timeline {
+	   transform: rotate(90deg);
+	}
+	.timeline__container {
+	  min-width: 800px;
+	  margin-left: 43rem;
+	  width: 90%;
+	}
+	.timeline__text {
+	  transform: rotate(-90deg);
+	  width: 10rem;
+	  position: absolute;
+	  left: -.5rem;
+	  bottom: 2rem;
+	}
+	.sub__timeline__elt {
+	 position: relative;
+	}
+	.timeline__elt {
+	  padding-inline: 0;
+	}
+  }
