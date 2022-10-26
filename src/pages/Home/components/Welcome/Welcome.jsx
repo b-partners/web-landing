@@ -23,15 +23,14 @@ export function Welcome(props) {
 
   return (
     <section className="home" id="home">
+        <h1 className="home__title bd-container">
+          L'assistant bancaire intelligent qui <br />
+          <span style={{ fontWeight: '600' }}>
+            accélère la croissance et les <br /> encaissements des artisants français.
+          </span>
+        </h1>
       <div className="home__container bd-container bd-grid">
         <div className="home__data">
-          <h1 className="home__title">
-            L'assistant bancaire intelligent qui <br />
-            <span style={{ fontWeight: '600' }}>
-              {' '}
-              accélère la croissance et les encaissements des artisants français.
-            </span>
-          </h1>
           <div className="home__list">
             <div className="home__list__col">
               <ul>
@@ -75,7 +74,7 @@ export function Welcome(props) {
             width="450"
             height="270"
             src="https://www.youtube.com/embed/a38imldPQYc?autoplay=1"
-            title="Bpart"
+            title="Bpartvideo"
             frameBorder="0"
             allowFullScreen
           />

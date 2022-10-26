@@ -11,7 +11,7 @@ export function IconList({ imageSrc, listText }) {
                     className='icon-list' />
             </div>
             <span
-            style={{width: '12.5rem'}}
+            className='list-icon__text'
             >
                 {listText}
             </span>

@@ -303,9 +303,8 @@ img[alt="companyLogo"] {
 }
 
 /*========== HOME ==========*/
-
 .home__container {
-	row-gap: 0.5rem;
+	display: flex;
 }
 .button__registration{
 	display: inline-block;
@@ -323,8 +322,7 @@ img[alt="companyLogo"] {
 	font-size: 2rem;
 }
 h1.home__title {
-	border-radius: 20px;
-	font-size: var(--h2-font-size);
+	padding-top: 5rem;
 	font-weight: 300;
 }
 .home__list{
@@ -714,9 +712,6 @@ tbody td {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-.carousel__item {
-	/* background-color: rgb(235, 235, 235); */
-}
 .testimonial__title {
 	font-weight: 800;
 	font-size: 1.7rem;
@@ -766,7 +761,7 @@ tbody td {
   }
   
   .carousel.carousel-slider .control-arrow {
-	background: #000 !important;
+	/* background: #000 !important; */
 	border-radius: 20px;
 	height: 40px;
 	width: 40px;
@@ -862,6 +857,9 @@ tbody td {
 	.footer_registration__button {
 		width: 70%;
 	}
+	iframe[title="Bpartvideo"] {
+		width: 100%;
+	}
 }
 /*========== DESCRIPTION ==========*/
 .description {
@@ -950,43 +948,23 @@ tbody td {
 	.send__img {
 		width: 100%;
 	}
-	.home__container{
-		width: 90%;
-		margin-top: 3rem;
-		text-align: center;
-		margin-left: auto;
-		margin-right: auto;
-	}
 	.home__title{
 		font-size: var(--normal-font-size);
 	}
 }
 @media screen and (min-width: 359px) and (max-width: 576px) {
-	.home__container{
-		width: 90%;
-		margin-top: 5rem;
-	}
 	.home__title{
 		font-size: var(--h3-font-size);
-	}
-	h1.home__title {
-		text-align: center;
 	}
 }
 @media screen and (min-width: 576px) {
 	.home__title{
 		font-size: var(--h2-font-size);
 	}
-	.home__container,
 	.send__container {
 		grid-template-columns: repeat(2, 1fr);
 		align-items: center;
 	}
-
-	.home__container {
-		padding: 5rem 0 0;
-	}
-
 	.send__description {
 		text-align: initial;
 	}
@@ -997,8 +975,16 @@ tbody td {
 }
 
 @media only screen and (max-width: 768px) {
+	.home__container {
+		flex-direction: column-reverse;
+		margin-block: 2rem;
+	}
+	.home-registration-form {
+		width: 100%;
+		margin-top: 1rem;
+	}
 	.distinction__container, .solution__data, .mobile__task__container, .share__container, 
-	.description__container, .location__container, .contact-form__container {
+	.description__container, .location__container, .contact-form__container, .home__list {
 		flex-direction: column;	
 		margin-block: 0 !important;
 	}
@@ -1014,9 +1000,21 @@ tbody td {
 	.solution > p {
 		margin-bottom: 2rem;
 	}
-	.description__col1, .contact-form__col2 {
+	.description__col1, .contact-form__col2, .home__list__col {
 		width: 100%;
 		margin-left: 0;
+	}
+	.home__list__col > ul {
+		margin: auto;
+	}
+	h1.home__title {
+		text-align: center;
+	}
+	.list-icon__text {
+		width: 100% !important;
+	}
+	iframe[title="Bpartvideo"] {
+		width: 100%;
 	}
 }
 
@@ -1049,10 +1047,6 @@ tbody td {
 	.change-theme {
 		position: initial;
 		margin-left: var(--mb-4);
-	}
-
-	.home__container {
-		padding: 7rem 2rem 0;
 	}
 
 	.share__container {
@@ -1134,7 +1128,9 @@ tbody td {
 	box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08),
 		0px 8px 20px 7px rgba(0, 0, 0, 0.02);
 }
-
+.list-icon__text {
+	width: 12.5rem;
+}
 @media (min-width: 900px) {
 	.pricing-table {
 		flex-direction: row;
@@ -1235,3 +1231,18 @@ tbody td {
 	text-align: center;
 	color: var(--first-color);
 }
+.swiper-container {
+	width: 480px;
+  }
+  
+  @media screen and (min-width: 640px) {
+	.swiper-container {
+	  width: 640px;
+	}
+  }
+  
+  @media screen and (min-width: 768px) {
+	.swiper-container {
+	  width: 768px;
+	}
+  }
