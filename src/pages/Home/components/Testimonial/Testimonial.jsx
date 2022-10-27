@@ -21,27 +21,28 @@ export function Testimonial() {
             >
                 <CarouselItem
                     title=" '' Application super EFFICACE '' "
-                    paragraph="Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Dolorem, quidem. Nihil iusto, voluptatem saepe ducimus corporis magni.
-                    Doloremque."
+                    paragraph="Je fais beaucoup de devis pour les mariages et l’édition,
+                    l’envoie et le suivi sont très simples sur BPartners.
+                    L’outil de prospection intelligent est prometteur."
                     imageSrc={Testimonial1}
                     name="Anna M."
                     company="Fleuriste"
                 />
                 <CarouselItem
                     title=" '' Application facile à UTILISER '' "
-                    paragraph="Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Dolorem, quidem. Nihil iusto, voluptatem saepe ducimus corporis magni.
-                    Doloremque."
+                    paragraph="J’ai aidé BPartners  à construire cette application pour répondre
+                    à mes besoins, je trouve un client, je fais la prestation et je l’encaisse
+                    directement sur mon mobile avant de partir. Mon cycle de vente est plus
+                    clair avec BPartners."
                     imageSrc={Testimonial2}
                     name="Paul G."
                     company="Plombier"
                 />
                 <CarouselItem
-                    title=" '' Application AUTHENTIQUE '' "
-                    paragraph="Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Dolorem, quidem. Nihil iusto, voluptatem saepe ducimus corporis magni.
-                    Doloremque."
+                    title=" '' Démarche AUTHENTIQUE '' "
+                    paragraph="On a discuté pour comprendre mon besoin de coiffeur itinérante et BPartners
+                    m’a proposé une application tout en un. Il me dit quel client relancer, et le client
+                    règle sa prestation directement sur son mobile, plus de machine TPE pour moi."
                     imageSrc={Testimonial3}
                     name="Marie D."
                     company="Coiffeur"

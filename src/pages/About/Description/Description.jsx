@@ -3,12 +3,12 @@ import logo from '../../Home/assets/img/logo.png';
 
 export function Description() {
   return (
-    <section className='description section bd-container'>
+    <section className='description section bd-container' id='description'>
       <div className='description__container'>
         <div className='description__col1'>
           <h2 className='description__title'>À propos</h2>
           <p className='description__paragraph'>
-            Nous sommes BPartners SAS, l'assistant bancaire qui va accélérer
+            Nous sommes BPartners SAS, l'assistant bancaire qui accélère
             la croissance et les encaissements des artisans et indépendants français.
             Nous avons développé une solution de gestion d’entreprise unifiée pensée avec
             les artisans pour les artisans. <br />
@@ -28,13 +28,13 @@ export function Description() {
             autour de chez eux à un instant T.
             Pour le lancement, nous avons réalisé des dizaines d’interviews métiers et pris contact
             avec les Chambres des Métiers et de l’Artisanat (« CMA ») françaises afin de mettre au
-            point l'outil de gestion bancaire et d'activité dont avait besoin les artisans français.
+            point l'outil de gestion bancaire et d'activité dont avaient besoin les artisans français.
             En s’appuyant sur les données collectées, l’expertise des CMAs et une collaboration (partage de PI)
             avec un laboratoire de recherche spécialisé en IA , BPartners offrira une expérience unique aux artisans,
-            avec un accès aux dernières possibilités technologiques disponible.
+            avec un accès aux dernières possibilités technologiques disponibles.
           </p>
           <p className='description__paragraph'>
-            Concrètement nous démarrons la commercialisation en proposons un compte bancaire aux artisans,
+            Concrètement nous démarrons la commercialisation en proposant un compte bancaire aux artisans,
             autour duquel nous allons faire graviter toute la vie de l’entreprise avec des outils d’automatisation
             couvrant :
             <ul style={{ listStyle: 'disc', marginLeft: '1.7rem' }}>

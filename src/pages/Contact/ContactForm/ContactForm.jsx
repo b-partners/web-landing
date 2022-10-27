@@ -1,23 +1,8 @@
 import React from 'react'
 import TextField from '@mui/material/TextField';
-import { makeStyles } from "@mui/styles";
 import { Button } from '../../../common/components/Button';
 
 export function ContactForm() {
-    const useStyles = makeStyles({
-        half: {
-            marginBottom: ".8rem",
-            marginRight: "2%",
-            width: "46%",
-            fontSize: ".8rem"
-        },
-        full: {
-            marginBottom: ".8rem",
-            width: "94%",
-            fontSize: ".8rem"
-        }
-    });
-    const classes = useStyles();
     return (
         <section className='contact-form section bd-container'>
             <div className='contact-form__container'>
@@ -42,32 +27,63 @@ export function ContactForm() {
                 <div className='contact-form__col2'>
                     <div style={{ display: 'flex' }}>
                         <TextField
-                            className={classes.half}
+                            sx={
+                                {
+                                    width: '50%',
+                                    marginRight: '1%',
+                                    marginBottom: '.5rem',
+                                    fontSize: '.8rem'
+                                }
+                            }
                             label="Nom"
                             type="text"
                             variant="filled"
                         />
                         <TextField
-                            className={classes.half}
+                            sx={
+                                {
+                                    width: '50%',
+                                    marginBottom: '.5rem',
+                                    fontSize: '.8rem'
+                                }
+                            }
                             label="Prénom"
                             type="text"
                             variant="filled"
                         />
                     </div>
                     <TextField
-                        className={classes.full}
+                        sx={
+                            {
+                                width: '100%',
+                                marginBottom: '.5rem',
+                                fontSize: '.8rem'
+                            }
+                        }
                         label="Email"
                         type="mail"
                         variant="filled"
                     />
                     <TextField
-                        className={classes.full}
+                        sx={
+                            {
+                                width: '100%',
+                                marginBottom: '.5rem',
+                                fontSize: '.8rem'
+                            }
+                        }
                         label="Sujet"
                         type="textarea"
                         variant="filled"
                     />
                     <TextField
-                        className={classes.full}
+                        sx={
+                            {
+                                width: '100%',
+                                marginBottom: '.5rem',
+                                fontSize: '.8rem'
+                            }
+                        }
                         label="Commentaire"
                         type="textarea"
                         variant="filled"

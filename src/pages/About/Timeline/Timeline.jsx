@@ -1,6 +1,6 @@
 import React from 'react';
 import './Timeline.css';
- 
+
 export function Timeline() {
     return (
         <section className="timeline">
@@ -20,7 +20,7 @@ export function Timeline() {
                         <div className="sub__timeline__elt">
                             <p className="round" />
                             <p className="timeline__text">
-                                Création de la société en Juillet 2022, lancement des Développement IT.
+                                Création de la société en Juillet 2022, lancement des développements IT.
                             </p>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ export function Timeline() {
                         <div className="sub__timeline__elt">
                             <p className="round" />
                             <p className="timeline__text">
-                                Novembre 2022 commercialisation.
+                                Novembre 2022: Commercialisation.
                             </p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ export function Timeline() {
                         <div className="sub__timeline__elt">
                             <p className="round" />
                             <p className="timeline__text">
-                                Décembre 2022 lancement d'un programme de R&D.
+                                Décembre 2022: Lancement d’un programme de R&D.
                             </p>
                         </div>
                     </div>

@@ -232,6 +232,8 @@ img[alt="companyLogo"] {
 .nav__toggle {
 	color: var(--title-color);
 	font-weight: var(--font-semi-bold);
+	background-color: transparent;
+	border: none;
 	cursor: pointer;
 }
 
@@ -260,7 +262,7 @@ img[alt="companyLogo"] {
 .toggle-wrapper {
 	height: 25px;
 	width: 25px;
-
+	border: 1px solid black;
 	display: flex;
 	justify-content: center;
 	border: 0;
@@ -303,6 +305,12 @@ img[alt="companyLogo"] {
 }
 
 /*========== HOME ==========*/
+.home {
+	position: relative;
+}
+.home__data {
+	height: 500px;
+}
 .home__container {
 	display: flex;
 }
@@ -439,7 +447,17 @@ h1.home__title {
 }
 
 /*========== FEATURE ==========*/
+.share {
+	background-color: rgb(235, 235, 235);
+	display: flex;
+	justify-content: center;
+	position: relative;
+	height: 180px;
+}
 .share__container {
+	position: absolute;
+	top: 0;
+	bottom: 0rem;
 	display: flex;
 	justify-content: space-evenly;
 	width: 100%;
@@ -470,9 +488,7 @@ h1.home__title {
 /*========== SOLUTION ==========*/
 .solution {
 	text-align: center;
-	background-image: url('../images/Rectangle111.png');
-  	background-repeat: no-repeat; /* Do not repeat the image */
-  	background-size: cover; /* Resize the background image to cover the entire container */
+	position: relative;
 }
 .solution__title {
 	margin-bottom: 1rem;
@@ -490,12 +506,12 @@ h1.home__title {
 	justify-content: space-between;
 	margin-block: 3rem;
 }
-/*========== MEDIA QUERIES DISTINCTION & SOLUTION ==========*/
 
 /*========== OFFER ==========*/
 .offer {
 	display: flex;
 	justify-content: center;
+	position: relative;
 }
 .offer__description {
 	border-top: 1px solid #000;
@@ -517,10 +533,8 @@ th.table__offer__title {
 	text-align: center;
 }
 .offer-image {
-	width: 35%;
+	width: 25%;
 	border-radius: 10px;
-	position: relative;
-	top: -1.5rem;
 }
 thead th:nth-child(1), tbody td:nth-child(1) {
 	text-align: left;
@@ -673,6 +687,9 @@ th {
 	border-bottom: 1.78px solid rgb(153, 152, 152);
 	height: 4rem;
 }
+.table__offer {
+	position: relative;
+}
 .table__offer__title {
 	font-size: 1.8rem;
 	font-weight: 700;
@@ -708,9 +725,6 @@ tbody td {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	background-image: url('../images/Rectangle106.png');
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .testimonial__title {
 	font-weight: 800;
@@ -761,7 +775,7 @@ tbody td {
   }
   
   .carousel.carousel-slider .control-arrow {
-	/* background: #000 !important; */
+	background: #000 !important;
 	border-radius: 20px;
 	height: 40px;
 	width: 40px;
@@ -785,9 +799,8 @@ tbody td {
 }
 .get_in_touch__form {
 	margin-top: 1.5rem;
-	display: flex;
-	justify-content: center;
-	width: 100%;
+	width: 50%;
+	margin-inline: auto;
 }
 .get_in_touch__title {
 	font-weight: 800;
@@ -797,7 +810,8 @@ tbody td {
 	background-color: var(--first-color-logo);
 	color: white;
 	border: 1px solid white;
-	width: 15%;
+	width: 20%;
+	height: 3.5rem;
 }
 /*========== FOOTER ==========*/
 .footer {
@@ -821,7 +835,15 @@ tbody td {
 .navigation_link_list > li a{
 	color: white;
 	font-size: 1rem;
-	font-weight: 100;
+	font-weight: 400;
+}
+.footer-navigation {
+	background-color: transparent;
+	color: white;
+	border: none;
+	font-size: 1rem;
+	font-weight: lighter;
+	cursor: pointer;
 }
 .footer_registration {
 	width: 35%;
@@ -857,7 +879,7 @@ tbody td {
 	.footer_registration__button {
 		width: 70%;
 	}
-	iframe[title="Bpartvideo"] {
+	iframe[title="bpartners_video"] {
 		width: 100%;
 	}
 }
@@ -875,6 +897,7 @@ tbody td {
 .description__paragraph {
 	margin-top: 1rem;
 	font-size: .81rem;
+	text-align: justify;
 }
 .description__col1, .description__col2 {
 	width: 50%;
@@ -891,6 +914,7 @@ tbody td {
 /*========== HISTORY ==========*/
 .history {
 	margin-top: 2rem;
+	margin-bottom: 6rem;
 }
 .history__title {
 	text-align: center;
@@ -906,6 +930,9 @@ tbody td {
 @media only screen and (max-width: 1200px) {
 	.history {
 		min-height: 900px;
+	}
+	.mobile {
+		margin-top: 0;
 	}
 }
 /*========== LOCATION ==========*/
@@ -950,6 +977,9 @@ tbody td {
 	}
 	.home__title{
 		font-size: var(--normal-font-size);
+	}
+	.get_in_touch__form, .get_in_touch__button {
+		width: 80%;
 	}
 }
 @media screen and (min-width: 359px) and (max-width: 576px) {
@@ -1013,8 +1043,19 @@ tbody td {
 	.list-icon__text {
 		width: 100% !important;
 	}
-	iframe[title="Bpartvideo"] {
+	iframe[title="bpartners_video"] {
 		width: 100%;
+	}
+	.get_in_touch__form {
+		flex-direction: column;
+		margin-inline: auto;
+		margin: auto;
+	}
+	.get_in_touch__button {
+		width: 80%;
+	}
+	.form-wrapper {
+		margin: auto;
 	}
 }
 
@@ -1231,18 +1272,3 @@ tbody td {
 	text-align: center;
 	color: var(--first-color);
 }
-.swiper-container {
-	width: 480px;
-  }
-  
-  @media screen and (min-width: 640px) {
-	.swiper-container {
-	  width: 640px;
-	}
-  }
-  
-  @media screen and (min-width: 768px) {
-	.swiper-container {
-	  width: 768px;
-	}
-  }
