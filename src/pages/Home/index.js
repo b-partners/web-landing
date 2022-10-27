@@ -1,3 +1,3 @@
 export * from './Home';
-export { PreRegistrationModal } from './components/PreRegistrationModal/PreRegistrationModal';
-export { usePreRegistration } from './components/PreRegistrationModal/PreRegistrationModal';
+export { PreRegistrationModal } from '../../common/components/PreRegistrationModal/PreRegistrationModal';
+export { usePreRegistration } from '../../common/components/PreRegistrationModal/PreRegistrationModal';

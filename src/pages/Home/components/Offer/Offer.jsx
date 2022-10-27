@@ -235,7 +235,7 @@ export function Offer() {
           <SwiperSlide style={{ textAlign: 'center' }}>
             <OfferCard
               imageSrc={Essentiel}
-              offer="Essentiel"
+              offer="L'Essentiel"
               price="7"
               cardText="Tous les services essentiels pour gérer votre activité d’artisan ou d'indépendant."
               buttonLabel="C'est ça qu'il me faut"
@@ -244,19 +244,20 @@ export function Offer() {
           <SwiperSlide>
             <OfferCard
               imageSrc={Developpement}
-              offer="Essentiel"
-              price="7"
-              cardText="Tous les services essentiels pour gérer votre activité d’artisan ou d'indépendant."
-              buttonLabel="C'est ça qu'il me faut"
+              offer="Developpement"
+              price="19"
+              cardText="Tous les services pour développer et gérer votre activité d’artisan ou d'indépendant."
+              buttonLabel="C'est plutôt ça qu'il me faut"
             />
           </SwiperSlide>
           <SwiperSlide>
             <OfferCard
               imageSrc={Ambitieux}
-              offer="Essentiel"
-              price="7"
-              cardText="Tous les services essentiels pour gérer votre activité d’artisan ou d'indépendant."
-              buttonLabel="C'est ça qu'il me faut"
+              offer="L'Ambitieux"
+              price="39"
+              cardText="Tous les services franchir un pallier dans votre croissance
+               et automatiser votre forte activité d’artisan & d'indépendant."
+              buttonLabel="C'est exactement ça qu'il NOUS faut"
             />
           </SwiperSlide>
         </Swiper>

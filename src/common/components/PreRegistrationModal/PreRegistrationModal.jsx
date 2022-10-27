@@ -1,15 +1,23 @@
 /* eslint-disable react/forbid-prop-types */
 import React, { useState } from 'react';
+import { makeStyles } from '@mui/styles';
 import { Dialog, DialogActions, DialogContent } from '@mui/material';
 import TextField from '@mui/material/TextField';
 import * as PropTypes from 'prop-types';
-import axios from '../../../../config/axios';
-import { Button } from '../../../../common/components/Button';
-import isValidEmail from '../../../../utils/is-valid-email';
+import axios from '../../../config/axios';
+import { Button } from '../Button';
+import isValidEmail from '../../../utils/is-valid-email';
 
 export function PreRegistrationModal(props) {
-  const { user, loading, classes, open, onChange, onSubmit, onClick, onClose } = props;
+  const { user, loading, open, onChange, onSubmit, onClick, onClose } = props;
 
+  const useStyles = makeStyles({
+    field: {
+      width: '100%',
+    },
+  });
+
+  const classes = useStyles();
   return (
     <Dialog open={open} onClose={onClose}>
       <form onSubmit={onSubmit}>
@@ -80,7 +88,6 @@ PreRegistrationModal.propTypes = {
   open: PropTypes.bool.isRequired,
   onClose: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
-  classes: PropTypes.any.isRequired,
   onChange: PropTypes.func.isRequired,
   user: PropTypes.shape({
     firstName: PropTypes.string,

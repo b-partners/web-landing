@@ -1,12 +1,21 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import React from 'react';
 import * as PropTypes from 'prop-types';
+import { makeStyles } from '@mui/styles';
 import TextField from '@mui/material/TextField';
 
 import logo from '../../assets/img/logoFullWhite.png';
 import { Button } from '../../../../common/components/Button';
 
 export function Footer(props) {
+  const useStyles = makeStyles({
+    field: {
+      width: '70%',
+    },
+  });
+
+  const classes = useStyles();
+
   const { onEmailChange, onEmailRegistration, user } = props;
 
   return (
@@ -36,6 +45,7 @@ export function Footer(props) {
         <div className="footer_registration">
           <h4 className="footer_subtitle">RESTER INFORMÉ</h4>
           <TextField
+            className={classes.field}
             name="email"
             label="Email"
             type="mail"

@@ -260,7 +260,7 @@ img[alt="companyLogo"] {
 .toggle-wrapper {
 	height: 25px;
 	width: 25px;
-
+	border: 1px solid black;
 	display: flex;
 	justify-content: center;
 	border: 0;
@@ -470,9 +470,7 @@ h1.home__title {
 /*========== SOLUTION ==========*/
 .solution {
 	text-align: center;
-	background-image: url('../images/Rectangle111.png');
-  	background-repeat: no-repeat; /* Do not repeat the image */
-  	background-size: cover; /* Resize the background image to cover the entire container */
+	position: relative;
 }
 .solution__title {
 	margin-bottom: 1rem;
@@ -517,10 +515,8 @@ th.table__offer__title {
 	text-align: center;
 }
 .offer-image {
-	width: 35%;
+	width: 25%;
 	border-radius: 10px;
-	position: relative;
-	top: -1.5rem;
 }
 thead th:nth-child(1), tbody td:nth-child(1) {
 	text-align: left;
@@ -609,6 +605,9 @@ tfoot td {
 	width: 23%;
 }
 /*========== MOBILE ==========*/
+.mobile {
+	margin-top: 15rem;
+}
 .mobile__title{
 	text-align: center;
 	font-weight: 400;
@@ -761,7 +760,7 @@ tbody td {
   }
   
   .carousel.carousel-slider .control-arrow {
-	/* background: #000 !important; */
+	background: #000 !important;
 	border-radius: 20px;
 	height: 40px;
 	width: 40px;
@@ -785,9 +784,8 @@ tbody td {
 }
 .get_in_touch__form {
 	margin-top: 1.5rem;
-	display: flex;
-	justify-content: center;
-	width: 100%;
+	width: 50%;
+	margin-inline: auto;
 }
 .get_in_touch__title {
 	font-weight: 800;
@@ -797,7 +795,8 @@ tbody td {
 	background-color: var(--first-color-logo);
 	color: white;
 	border: 1px solid white;
-	width: 15%;
+	width: 20%;
+	height: 3.5rem;
 }
 /*========== FOOTER ==========*/
 .footer {
@@ -891,6 +890,7 @@ tbody td {
 /*========== HISTORY ==========*/
 .history {
 	margin-top: 2rem;
+	margin-bottom: 6rem;
 }
 .history__title {
 	text-align: center;
@@ -950,6 +950,9 @@ tbody td {
 	}
 	.home__title{
 		font-size: var(--normal-font-size);
+	}
+	.get_in_touch__form, .get_in_touch__button {
+		width: 80%;
 	}
 }
 @media screen and (min-width: 359px) and (max-width: 576px) {
@@ -1015,6 +1018,17 @@ tbody td {
 	}
 	iframe[title="Bpartvideo"] {
 		width: 100%;
+	}
+	.get_in_touch__form {
+		flex-direction: column;
+		margin-inline: auto;
+		margin: auto;
+	}
+	.get_in_touch__button {
+		width: 80%;
+	}
+	.form-wrapper {
+		margin: auto;
 	}
 }
 

@@ -18,69 +18,78 @@ import QrCode from '../../assets/img/qr-code-ext.png';
 import PaidBill from '../../assets/img/paid-bill.png';
 import VirtualBot from '../../assets/img/virtual-bot.png';
 
+import WelcomeSectionBg from '../../assets/img/welcome-section-bg.png';
+
 export function Welcome(props) {
   const { onEmailChange, onEmailRegistration, user } = props;
 
   return (
-    <section className="home" id="home">
+    <>
+      <img src={WelcomeSectionBg} alt=" " style={{
+        position: 'absolute',
+        zIndex: '-1',
+        top: '25rem'
+      }} />
+      <section className="home" id="home">
         <h1 className="home__title bd-container">
           L'assistant bancaire intelligent qui <br />
           <span style={{ fontWeight: '600' }}>
             accélère la croissance et les <br /> encaissements des artisants français.
           </span>
         </h1>
-      <div className="home__container bd-container bd-grid">
-        <div className="home__data">
-          <div className="home__list">
-            <div className="home__list__col">
-              <ul>
-                <IconList imageSrc={CashRegisterEuro} listText="Suivi de votre trésorerie et de vos objectifs." />
-                <IconList
-                  imageSrc={PaidBill}
-                  listText="Edition de devis, facture et relance automatisée des impayés."
-                />
-              </ul>
-            </div>
-            <div className="home__list__col">
-              <ul>
-                <IconList imageSrc={QrCode} listText="Encaissement de vos prestations sur mobile et à distance." />
-                <IconList
-                  imageSrc={VirtualBot}
-                  listText="Être informé en temps réel des chantiers,
+        <div className="home__container bd-container bd-grid">
+          <div className="home__data">
+            <div className="home__list">
+              <div className="home__list__col">
+                <ul>
+                  <IconList imageSrc={CashRegisterEuro} listText="Suivi de votre trésorerie et de vos objectifs." />
+                  <IconList
+                    imageSrc={PaidBill}
+                    listText="Edition de devis, facture et relance automatisée des impayés."
+                  />
+                </ul>
+              </div>
+              <div className="home__list__col">
+                <ul>
+                  <IconList imageSrc={QrCode} listText="Encaissement de vos prestations sur mobile et à distance." />
+                  <IconList
+                    imageSrc={VirtualBot}
+                    listText="Être informé en temps réel des chantiers,
                    et des demandes de dépannages autour de chez vous."
-                />
-              </ul>
+                  />
+                </ul>
+              </div>
             </div>
+            <Paper elevation={5} className="home-registration-form">
+              <h2 className="registration-title">
+                Renseignez votre mail et <br />
+                rejoignez les artisans de demain.
+              </h2>
+              <TextField
+                name="email"
+                label="Email"
+                type="mail"
+                variant="filled"
+                onChange={onEmailChange}
+                value={user && user.email}
+                required
+              />
+              <Button type="button" label="Ça m'interesse" preset="registration-button" onClick={onEmailRegistration} />
+            </Paper>
           </div>
-          <Paper elevation={5} className="home-registration-form">
-            <h2 className="registration-title">
-              Renseignez votre mail et <br />
-              rejoignez les artisans de demain.
-            </h2>
-            <TextField
-              name="email"
-              label="Email"
-              type="mail"
-              variant="filled"
-              onChange={onEmailChange}
-              value={user && user.email}
-              required
+          <div>
+            <iframe
+              width="450"
+              height="270"
+              src="https://www.youtube.com/embed/a38imldPQYc?autoplay=1"
+              title="Bpartvideo"
+              frameBorder="0"
+              allowFullScreen
             />
-            <Button type="button" label="Ça m'interesse" preset="registration-button" onClick={onEmailRegistration} />
-          </Paper>
+          </div>
         </div>
-        <div>
-          <iframe
-            width="450"
-            height="270"
-            src="https://www.youtube.com/embed/a38imldPQYc?autoplay=1"
-            title="Bpartvideo"
-            frameBorder="0"
-            allowFullScreen
-          />
-        </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 
