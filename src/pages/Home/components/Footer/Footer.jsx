@@ -1,41 +1,91 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import * as PropTypes from 'prop-types';
+import { makeStyles } from '@mui/styles';
 import TextField from '@mui/material/TextField';
 
 import logo from '../../assets/img/logoFullWhite.png';
 import { Button } from '../../../../common/components/Button';
 
 export function Footer(props) {
+
+  const navigate = useNavigate();
+
+  const useStyles = makeStyles({
+    field: {
+      width: '70%',
+      backgroundColor: 'white'
+    },
+  });
+
+  const classes = useStyles();
+
   const { onEmailChange, onEmailRegistration, user } = props;
 
   return (
     <section className="footer">
       <div className="footer__container">
         <div className="footer__column">
-          <img src={logo} alt="logo" style={{ width: '10.625rem' }} />
-          <p style={{ fontWeight: '100' }}>Copyright &copy; B.Partners 2022</p>
+          <button
+            type='button'
+            className='nav__logo'
+            onClick={() => navigate("/home")}
+          >
+            <a href="#home">
+              <img src={logo} alt="logo" style={{ width: '10.625rem' }} />
+              <p style={{ fontWeight: '100', color:'white' }}>Copyright &copy; B.Partners 2022</p>
+            </a>
+          </button>
         </div>
         <div className="navigation_link">
           <h4 className="footer_subtitle">LIENS IMPORTANTS</h4>
           <ul className="navigation_link_list">
             <li>
-              <a href="src/pages/Home/components/Footer/Footer#share">Présentation</a>
+              <button
+                className='footer-navigation'
+                type='button'
+                onClick={() => navigate("/home")}
+              >
+                <a href="#home">Présentation</a>
+              </button>
             </li>
             <li>
-              <a href="src/pages/Home/components/Footer/Footer#share">À propos de nous</a>
+              <button
+                className='footer-navigation'
+                type='button'
+                onClick={() => navigate("/about")}
+              >
+                <a href="#description">À propos de nous</a>
+              </button>
             </li>
             <li>
-              <a href="src/pages/Home/components/Footer/Footer#share">Nous contacter</a>
+              <button
+                className='footer-navigation'
+                type='button'
+                onClick={() => navigate("/contact")}
+              >
+                <a href="#location">Nous contacter</a>
+              </button>
             </li>
             <li>
-              <a href="src/pages/Home/components/Footer/Footer#share">Mon compte</a>
+              <button
+                className='footer-navigation'
+                type='button'
+              >
+                <a
+                  href='https://dashboard-dev.bpartners.app/login'
+                >
+                  Mon compte
+                </a>
+              </button>
             </li>
           </ul>
         </div>
         <div className="footer_registration">
           <h4 className="footer_subtitle">RESTER INFORMÉ</h4>
           <TextField
+            className={classes.field}
             name="email"
             label="Email"
             type="mail"

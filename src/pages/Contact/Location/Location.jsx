@@ -2,13 +2,13 @@ import React from 'react'
 
 export function Location() {
     return (
-        <section className='location section bd-container'>
+        <section className='location section bd-container' id='location'>
             <div className='location__container'>
                 <div className='location__col1'>
                     <h2 className='location__title'>Contact</h2>
                     <p style={{ fontSize: '.91rem', marginBottom: '1rem' }}>
                         BPartners est une société enregistrée à l'Orias
-                        avec son siège social à Paris dans le 18ième arrondissement. <br />
+                        avec son siège social à Paris dans le 18ème arrondissement. <br />
                     </p>
                     <b>N'hésitez pas à nous écrire pour toute question.</b>
                 </div>

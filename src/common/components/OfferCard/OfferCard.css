@@ -1,0 +1,27 @@
+.offer-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid rgb(217, 217, 217);
+    background-color: rgb(217, 217, 217);
+    width: auto;
+}
+.offer__card__button {
+    background-color: black;
+    color: white;
+    margin-bottom: .7rem;
+    width: 93%;
+    margin-inline: auto;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+.more-info__button {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    margin-bottom: .7rem;
+    width: 93%;
+    margin-inline: auto;
+    font-weight: 600;
+    font-size: 1.3rem;
+}

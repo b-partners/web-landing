@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { makeStyles } from '@mui/styles';
-import { Snackbar } from '@mui/material';
+import React from 'react';
+import * as PropTypes from 'prop-types';
 
 import { Header } from './components/Header';
 import { Feature } from './components/Feature';
@@ -12,68 +11,38 @@ import { Distinction } from './components/Distinction';
 import { Testimonial } from './components/Testimonial';
 import { GetInTouch } from './components/GetInTouch';
 import { Footer } from './components/Footer';
-import { PreRegistrationModal, usePreRegistration } from './components/PreRegistrationModal/PreRegistrationModal';
 
-export function Home() {
-  const useStyles = makeStyles({
-    field: {
-      marginBottom: '.8rem',
-      width: '100%',
-    },
-  });
-
-  const classes = useStyles();
-
-  const [toastOpen, setToastOpen] = useState(false);
-
-  const handleToastClose = (_, reason) => {
-    if (reason === 'clickaway') {
-      return;
-    }
-    setToastOpen(false);
-  };
-
-  const [message, setMessage] = useState(null);
-
-  const { modalOpen, setModalOpen, loading, user, setUser, handlePreUsersSubmit, onValueChange, onEmailRegistration } =
-    usePreRegistration(setMessage, setToastOpen);
-
-  const onEmailChange = (event) => {
-    const { name, value } = event.target;
-    setUser((prevState) => ({ ...prevState, [name]: value }));
-  };
-
+export function Home(props) {
+  const { setModalOpen, onEmailChange, onEmailRegistration, user } = props;
   return (
     <div>
       <Header />
-      <Welcome classes={classes} onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
+      <Welcome onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
       <Feature />
       <Authenticity />
       <Solution />
       <Distinction />
-      <Offer />
+      <Offer setModalOpen={setModalOpen} />
       <Testimonial />
       <GetInTouch
-        classes={classes}
         onEmailChange={onEmailChange}
         onEmailRegistration={onEmailRegistration}
         user={user}
       />
-      <Footer classes={classes} onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
-      <PreRegistrationModal
-        open={modalOpen}
-        onClose={() => setModalOpen(false)}
-        onSubmit={handlePreUsersSubmit}
-        classes={classes}
-        onChange={onValueChange}
-        user={user}
-        loading={loading}
-        onClick={() => {
-          setUser({ firstName: '', lastName: '', society: '', email: '', phone: '' });
-          setModalOpen(false);
-        }}
-      />
-      <Snackbar autoHideDuration={5000} open={toastOpen} onClose={handleToastClose} message={message} />
+      <Footer onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
     </div>
   );
 }
+
+Home.propTypes = {
+  setModalOpen: PropTypes.func.isRequired,
+  user: PropTypes.shape({
+    firstName: PropTypes.string,
+    lastName: PropTypes.string,
+    society: PropTypes.string,
+    phone: PropTypes.string,
+    email: PropTypes.string,
+  }).isRequired,
+  onEmailChange: PropTypes.bool.isRequired,
+  onEmailRegistration: PropTypes.bool.isRequired,
+};

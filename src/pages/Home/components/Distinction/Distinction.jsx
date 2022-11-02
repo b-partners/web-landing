@@ -1,10 +1,7 @@
 import React from 'react'
 import LogoFrenchTech from '../../assets/img/Logo_French_Tech.png';
 import EiffelTower from '../../assets/img/eiffel-tower.png';
-import Auvalie from '../../assets/img/auvalie.jpg';
-import Swan from '../../assets/img/swan.png';
-import Bridge from '../../assets/img/bridge.png';
-import Fintecture from '../../assets/img/fintecture.png';
+import CompanyLogo from '../../assets/img/company-logo.png';
 import { ImageCard } from '../../../../common/components/ImageCard/ImageCard';
 
 export function Distinction() {
@@ -27,20 +24,19 @@ export function Distinction() {
                     imageSrc={EiffelTower}
                     alt="EiffelTower"
                     cardText="Enregistrée à l'Orias et basée Paris." />
+                {/* <ImageCard
+                    imageSrc={CompanyLogo}
+                    alt="companyLogo"
+                    cardText="Nos partenaires." /> */}
                 <div className='distinction__item'>
-                    <div className='company__logo__container'>
-                        <img src={Auvalie} alt="auvalie-logo" className='company-main-logo' />
-                        <div className='flex-inline-container'>
-                            <img src={Swan} alt="swan-logo" className='company-logo' />
-                            <img src={Bridge} alt="bridge-logo" className='company-logo' />
-                        </div>
-                        <img src={Fintecture} alt="fintecture-logo" className='company-main-logo' />
-                    </div>
-                    <p>
-                        Nos partenaires
+                    <img alt="companyLogo" src={CompanyLogo} style={{ height: "120px" }} />
+                    <p style={{
+                        marginTop: '2rem'
+                    }}>
+                        Nos partenaires.
                     </p>
                 </div>
-            </div>
+            </div>  
         </section>
     )
 }

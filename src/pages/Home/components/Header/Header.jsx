@@ -1,6 +1,6 @@
 /* eslint-disable no-restricted-globals */
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { Button as Buttons, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 
 import logo from '../../assets/img/logo.png';
@@ -13,11 +13,19 @@ export function Header() {
   const [menuActive, toggleMenuActive] = useToggle(false);
   const [open, setOpen] = useState(false);
 
+  const navigate = useNavigate();
+
   return (<header className='l-header' id='header'>
     <nav className='nav bd-container'>
-      <a href='src/pages/Home/components/Header/Header#home' className='nav__logo'>
-        <img src={logo} alt='logo' style={{ width: '10.625rem' }} />
-      </a>
+      <button
+        type='button'
+        className='nav__logo'
+        onClick={() => navigate("/home")}
+      >
+        <a href="#home">
+          <img src={logo} alt='logo' style={{ width: '10.625rem' }} />
+        </a>
+      </button>
       <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} id='nav-menu'>
         <ul className='nav__list'>
           <li>

@@ -18,20 +18,26 @@ import QrCode from '../../assets/img/qr-code-ext.png';
 import PaidBill from '../../assets/img/paid-bill.png';
 import VirtualBot from '../../assets/img/virtual-bot.png';
 
+import WelcomeSectionBg from '../../assets/img/welcome-bg.png';
+
 export function Welcome(props) {
   const { onEmailChange, onEmailRegistration, user } = props;
 
   return (
     <section className="home" id="home">
+      <img src={WelcomeSectionBg} alt=" " style={{
+        position: 'absolute',
+        zIndex: '-1',
+        bottom: '-.1rem'
+      }} />
+      <h1 className="home__title bd-container">
+        L'assistant bancaire intelligent qui <br />
+        <span style={{ fontWeight: '600' }}>
+          accélère la croissance et les <br /> encaissements des artisants français.
+        </span>
+      </h1>
       <div className="home__container bd-container bd-grid">
         <div className="home__data">
-          <h1 className="home__title">
-            L'assistant bancaire intelligent qui <br />
-            <span style={{ fontWeight: '600' }}>
-              {' '}
-              accélère la croissance et les encaissements des artisants français.
-            </span>
-          </h1>
           <div className="home__list">
             <div className="home__list__col">
               <ul>
@@ -48,7 +54,7 @@ export function Welcome(props) {
                 <IconList
                   imageSrc={VirtualBot}
                   listText="Être informé en temps réel des chantiers,
-                   et des demandes de dépannages autour de chez vous."
+               et des demandes de dépannages autour de chez vous."
                 />
               </ul>
             </div>
@@ -75,7 +81,7 @@ export function Welcome(props) {
             width="450"
             height="270"
             src="https://www.youtube.com/embed/a38imldPQYc?autoplay=1"
-            title="Bpart"
+            title="bpartners_video"
             frameBorder="0"
             allowFullScreen
           />
