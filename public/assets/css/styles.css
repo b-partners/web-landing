@@ -313,6 +313,7 @@ img[alt="companyLogo"] {
 }
 .home__container {
 	display: flex;
+	justify-content: space-between;
 }
 .button__registration{
 	display: inline-block;
@@ -451,13 +452,9 @@ h1.home__title {
 	background-color: rgb(235, 235, 235);
 	display: flex;
 	justify-content: center;
-	position: relative;
-	height: 180px;
+	padding-block: 2rem;
 }
 .share__container {
-	position: absolute;
-	top: 0;
-	bottom: 0rem;
 	display: flex;
 	justify-content: space-evenly;
 	width: 100%;
@@ -465,9 +462,15 @@ h1.home__title {
 }
 
 /*========== MOBILE ==========*/
+.mobile {
+	position: relative;
+}
 .mobile__title{
 	text-align: center;
 	font-weight: 400;
+}
+.mobile__task {
+	padding-block: 5rem;
 }
 .mobile__task__container {
 	margin-top: 5rem;
@@ -489,6 +492,7 @@ h1.home__title {
 .solution {
 	text-align: center;
 	position: relative;
+	background-color: rgb(235, 235, 235);
 }
 .solution__title {
 	margin-bottom: 1rem;
@@ -496,6 +500,8 @@ h1.home__title {
 /*========== DISTINCTION ==========*/
 .distinction {
 	text-align: center;
+	position: relative;
+	padding-top: 5rem;
 }
 .distinction__title {
 	font-size: 1.8rem;
@@ -517,6 +523,12 @@ h1.home__title {
 	border-top: 1px solid #000;
 	padding-top: .5rem;
 	min-height: 9rem;
+}
+.offer-registration-button {
+	background-color: var(--first-color);
+	color: white;
+	border: 1px solid var(--first-color);
+	cursor: pointer;
 }
 table {
 	border-collapse: collapse !important;
@@ -689,6 +701,7 @@ th {
 }
 .table__offer {
 	position: relative;
+	margin-bottom: 10rem;
 }
 .table__offer__title {
 	font-size: 1.8rem;
@@ -725,11 +738,11 @@ tbody td {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
+	background-color: rgb(235, 235, 235);
 }
 .testimonial__title {
 	font-weight: 800;
 	font-size: 1.7rem;
-	margin-top: 4rem;
 }
 .testimonial__text {
 	margin-block: 1.2rem !important;
@@ -749,6 +762,11 @@ tbody td {
 	height: 100%;
   }
   
+  .carousel__item {
+	background-color: rgb(235, 235, 235);
+	height: 280px;
+  }
+
   .carousel__item__image {
 	display: flex;
 	height: 5rem;
@@ -796,6 +814,7 @@ tbody td {
 /*========== GET IN TOUCH ==========*/
 .get_in_touch {
 	text-align: center;
+	position: relative;
 }
 .get_in_touch__form {
 	margin-top: 1.5rem;
@@ -870,6 +889,7 @@ tbody td {
 	}
 	.footer_registration {
 		margin: auto;
+		width: 55%;
 	}
 	.footer_registration__button {
 		width: 70%;
@@ -1007,7 +1027,7 @@ tbody td {
 @media only screen and (max-width: 768px) {
 	.home__container {
 		flex-direction: column-reverse;
-		margin-block: 2rem;
+		margin-top: 2rem;
 	}
 	.home-registration-form {
 		width: 100%;

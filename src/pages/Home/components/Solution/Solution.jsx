@@ -5,13 +5,11 @@ import CashRegisterEuro from '../../assets/img/cash-register-euro.png';
 import PaidBill from '../../assets/img/paid-bill.png';
 import VirtualBot from '../../assets/img/virtual-bot.png';
 
-import SolutionSectionBg from '../../assets/img/solution-section-bg.png';
 
 export function Solution() {
     return (
-        <>
-            <img src={SolutionSectionBg} alt=" " style={{ position: 'absolute' }} />
-            <section className='solution section bd-container'>
+        <section className='solution section'>
+            <div className='bd-container'>
                 <h2 className='solution__title'>
                     <span style={{ fontWeight: "200" }}>
                         Nous vous proposons
@@ -41,7 +39,7 @@ export function Solution() {
                          et les demandes de dépannages sur lesquelles vous pouvez intervenir."
                     />
                 </div>
-            </section>
-        </>
+            </div>
+        </section>
     )
 }

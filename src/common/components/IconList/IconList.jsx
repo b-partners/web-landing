@@ -5,13 +5,16 @@ import './IconList.css'
 export function IconList({ imageSrc, listText }) {
     return (
         <li className='home-list-item'>
-            <div className='home-list-icon'>
-                <img src={imageSrc}
-                    alt=" "
-                    className='icon-list' />
-            </div>
+            {imageSrc === "" ?
+                <i className="fa fa-check fa-2x" aria-hidden="true" /> :
+                <div className='home-list-icon'>
+                    <img src={imageSrc}
+                        alt=" "
+                        className='icon-list' />
+                </div>
+            }
             <span
-            className='list-icon__text'
+                className='list-icon__text'
             >
                 {listText}
             </span>
@@ -21,7 +24,7 @@ export function IconList({ imageSrc, listText }) {
 
 IconList.propTypes = {
     imageSrc: PropTypes.string,
-    listText: PropTypes.string
+    listText: PropTypes.string,
 };
 
 IconList.defaultProps = {

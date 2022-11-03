@@ -28,7 +28,7 @@ export function Welcome(props) {
       <img src={WelcomeSectionBg} alt=" " style={{
         position: 'absolute',
         zIndex: '-1',
-        bottom: '-.1rem'
+        bottom: '-.05rem'
       }} />
       <h1 className="home__title bd-container">
         L'assistant bancaire intelligent qui <br />
@@ -71,6 +71,9 @@ export function Welcome(props) {
               variant="filled"
               onChange={onEmailChange}
               value={user && user.email}
+              sx={{
+                marginBottom: '1rem'
+              }}
               required
             />
             <Button type="button" label="Ça m'interesse" preset="registration-button" onClick={onEmailRegistration} />

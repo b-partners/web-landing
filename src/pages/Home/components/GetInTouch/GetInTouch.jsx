@@ -3,6 +3,7 @@ import { makeStyles } from '@mui/styles';
 import TextField from '@mui/material/TextField';
 import * as PropTypes from 'prop-types';
 
+import WavesBottomBg from '../../assets/img/waves-bottom-bg.png';
 import { Button } from '../../../../common/components/Button/Button';
 
 export function GetInTouch(props) {
@@ -16,21 +17,30 @@ export function GetInTouch(props) {
   const { onEmailChange, onEmailRegistration, user } = props;
 
   return (
-    <section className="get_in_touch section bd-container">
-      <h2 className="get_in_touch__title">Rester informé</h2>
-      <p>Aujourd'hui les artisans perdent entre 30% et 40% de leur temps sur des tâches administratives</p>
-      <div className="get_in_touch__form">
-        <div className='form-wrapper'>
-          <TextField
-            className={classes.field}
-            label="Tapez votre email ici"
-            type="mail"
-            variant="filled"
-            name="email"
-            onChange={onEmailChange}
-            value={user && user.email}
-          />
-          <Button type="submit" label="Je m'inscris" preset="get_in_touch__button" onClick={onEmailRegistration} />
+    <section className="get_in_touch section">
+      <img src={WavesBottomBg} alt=" " style={{
+        position: 'absolute',
+        zIndex: '-1',
+        left: '0',
+        top: '-.05rem'
+      }}
+      />
+      <div className='bd-container section'>
+        <h2 className="get_in_touch__title">Rester informé</h2>
+        <p>Aujourd'hui les artisans perdent entre 30% et 40% de leur temps sur des tâches administratives.</p>
+        <div className="get_in_touch__form">
+          <div className='form-wrapper'>
+            <TextField
+              className={classes.field}
+              label="Email"
+              type="mail"
+              variant="filled"
+              name="email"
+              onChange={onEmailChange}
+              value={user && user.email}
+            />
+            <Button type="submit" label="Je m'inscris" preset="get_in_touch__button" onClick={onEmailRegistration} />
+          </div>
         </div>
       </div>
     </section>
