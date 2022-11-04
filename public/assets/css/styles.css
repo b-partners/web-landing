@@ -492,6 +492,9 @@ h1.home__title {
 .solution {
 	text-align: center;
 	position: relative;
+	padding-block: 5rem;
+}
+.gray {
 	background-color: rgb(235, 235, 235);
 }
 .solution__title {
@@ -764,7 +767,7 @@ tbody td {
   
   .carousel__item {
 	background-color: rgb(235, 235, 235);
-	height: 280px;
+	height: 17.5rem;
   }
 
   .carousel__item__image {
@@ -836,7 +839,7 @@ tbody td {
 .footer {
 	margin-top: 3rem;
 	background-image: url('../images/Rectangle107.png');
-	height: 300px;
+	height: 18.75rem;
 	background-size: cover;
 	padding-top: 3rem !important;
 }
@@ -906,6 +909,8 @@ tbody td {
 /*========== DESCRIPTION ==========*/
 .description {
 	margin-top: 2rem;
+	position: relative;
+	padding-block: 7rem;
 }
 .description__container {
 	display: flex;
@@ -929,12 +934,15 @@ tbody td {
 }
 .description__logo {
 	width: 50%;
-	height: auto;
 }
 /*========== HISTORY ==========*/
 .history {
-	margin-top: 2rem;
-	margin-bottom: 6rem;
+	position: relative;
+	background-color: rgb(235, 235, 235);
+	min-height: 400px;
+}
+.divider {
+	position: relative;
 }
 .history__title {
 	text-align: center;
@@ -949,13 +957,16 @@ tbody td {
 }
 @media only screen and (max-width: 1200px) {
 	.history {
-		min-height: 900px;
+		min-height: 1000px;
 	}
 	.mobile {
 		margin-top: 0;
 	}
 }
 /*========== LOCATION ==========*/
+.location {
+	position: relative;
+}
 .location__container {
 	display: flex;
 	margin-top: 2rem;
@@ -973,6 +984,9 @@ tbody td {
 	margin-bottom: 1rem;
 }
 /*========== CONTACT FORM ==========*/
+.contact-form {
+	background-color: rgb(235, 235, 235);
+}
 .contact-form__container {
 	display: flex;
 }
@@ -1043,9 +1057,13 @@ tbody td {
 		margin-bottom: 2rem;
 		width: 80% !important;
 	}
-	.description__col2, .location__col1, .location__col2, .contact-form__col1, .contact-form__col2 {
+	.location__col1, .location__col2, .contact-form__col1, .contact-form__col2 {
 		width: 90%;
 		margin-bottom: 1.5rem;
+	}
+	.description__col2 {
+		margin-block: 3rem;
+		width: 100%;
 	}
 	.solution > p {
 		margin-bottom: 2rem;

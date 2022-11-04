@@ -32,7 +32,9 @@ export function Header() {
             <NavLink
               className='nav-bar-link'
               to='/home'
-            >Accueil</NavLink>
+            >
+              <a href="#home">Accueil</a>
+            </NavLink>
           </li>
           <li>
             <NavLink
