@@ -1,9 +1,16 @@
 import React from 'react'
+import WavesTopBg from '../../Home/assets/img/waves-top2-bg.png';
 
 export function Location() {
     return (
-        <section className='location section bd-container' id='location'>
-            <div className='location__container'>
+        <section className='location section' id='location'>
+            <img src={WavesTopBg} alt=" " style={{
+                position: 'absolute',
+                zIndex: '-1',
+                bottom: '-.5rem',
+                left: '0'
+            }} />
+            <div className='location__container bd-container'>
                 <div className='location__col1'>
                     <h2 className='location__title'>Contact</h2>
                     <p style={{ fontSize: '.91rem', marginBottom: '1rem' }}>

@@ -1,13 +1,24 @@
 import React from 'react';
 import FeatureSectionBg from '../../assets/img/feature-bg.png';
+import WavesTopBg from '../../assets/img/waves-top-bg.png';
 import mobile from '../../assets/img/transactions.gif';
 
 export function Authenticity() {
   return (
-    <>
-      <img src={FeatureSectionBg} alt=" " />
-      <section className='mobile section bd-container'>
-        <div className='mobile__task'>
+      <section className='mobile section'>
+        <img src={FeatureSectionBg} alt=" " style={{
+          position: 'absolute',
+          zIndex: '-1',
+          top: '-.05rem'
+        }}
+        />
+        <img src={WavesTopBg} alt=" " style={{
+          position: 'absolute',
+          zIndex: '-1',
+          bottom: '-.05rem'
+        }}
+        />
+        <div className='mobile__task bd-container'>
           <h2 className='mobile__title'>
             <b>Votre mobile s'occupe de gérer les tâches administratives,<br /> financières et commerciales  </b>
             pendant que vous faites votre métier d'artisan.
@@ -32,6 +43,5 @@ export function Authenticity() {
           </div>
         </div>
       </section>
-    </>
   )
 }

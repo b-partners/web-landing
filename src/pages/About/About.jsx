@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import * as PropTypes from 'prop-types';
+import { useLocation } from 'react-router-dom';
+
 import { Header } from '../Home/components/Header';
 import { Description } from './Description';
 import { History } from './History';
@@ -8,6 +10,12 @@ import { Footer } from '../Home/components/Footer';
 
 export function About(props) {
     const { onEmailChange, onEmailRegistration, user } = props;
+    const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
     return (
         <div>
             <Header />

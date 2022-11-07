@@ -3,7 +3,7 @@ import { ShareCard } from '../../../../common/components/ShareCard';
 
 export function Feature() {
   return (
-    <section className="share section" id="share">
+    <section className="share" id="share">
       <div className="share__container bd-container">
         <ShareCard cardText="Obtenez votre compte bancaire professionnel avec un IBAN/RIB FR en quelques secondes." />
         <ShareCard cardText="Virements et encaissements instantanés." />

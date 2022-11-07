@@ -313,6 +313,7 @@ img[alt="companyLogo"] {
 }
 .home__container {
 	display: flex;
+	justify-content: space-between;
 }
 .button__registration{
 	display: inline-block;
@@ -451,13 +452,9 @@ h1.home__title {
 	background-color: rgb(235, 235, 235);
 	display: flex;
 	justify-content: center;
-	position: relative;
-	height: 180px;
+	padding-block: 2rem;
 }
 .share__container {
-	position: absolute;
-	top: 0;
-	bottom: 0rem;
 	display: flex;
 	justify-content: space-evenly;
 	width: 100%;
@@ -465,9 +462,15 @@ h1.home__title {
 }
 
 /*========== MOBILE ==========*/
+.mobile {
+	position: relative;
+}
 .mobile__title{
 	text-align: center;
 	font-weight: 400;
+}
+.mobile__task {
+	padding-block: 5rem;
 }
 .mobile__task__container {
 	margin-top: 5rem;
@@ -489,6 +492,10 @@ h1.home__title {
 .solution {
 	text-align: center;
 	position: relative;
+	padding-block: 5rem;
+}
+.gray {
+	background-color: rgb(235, 235, 235);
 }
 .solution__title {
 	margin-bottom: 1rem;
@@ -496,6 +503,8 @@ h1.home__title {
 /*========== DISTINCTION ==========*/
 .distinction {
 	text-align: center;
+	position: relative;
+	padding-top: 5rem;
 }
 .distinction__title {
 	font-size: 1.8rem;
@@ -517,6 +526,12 @@ h1.home__title {
 	border-top: 1px solid #000;
 	padding-top: .5rem;
 	min-height: 9rem;
+}
+.offer-registration-button {
+	background-color: var(--first-color);
+	color: white;
+	border: 1px solid var(--first-color);
+	cursor: pointer;
 }
 table {
 	border-collapse: collapse !important;
@@ -689,6 +704,7 @@ th {
 }
 .table__offer {
 	position: relative;
+	margin-bottom: 10rem;
 }
 .table__offer__title {
 	font-size: 1.8rem;
@@ -725,11 +741,11 @@ tbody td {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
+	background-color: rgb(235, 235, 235);
 }
 .testimonial__title {
 	font-weight: 800;
 	font-size: 1.7rem;
-	margin-top: 4rem;
 }
 .testimonial__text {
 	margin-block: 1.2rem !important;
@@ -749,6 +765,11 @@ tbody td {
 	height: 100%;
   }
   
+  .carousel__item {
+	background-color: rgb(235, 235, 235);
+	height: 17.5rem;
+  }
+
   .carousel__item__image {
 	display: flex;
 	height: 5rem;
@@ -796,6 +817,7 @@ tbody td {
 /*========== GET IN TOUCH ==========*/
 .get_in_touch {
 	text-align: center;
+	position: relative;
 }
 .get_in_touch__form {
 	margin-top: 1.5rem;
@@ -817,7 +839,7 @@ tbody td {
 .footer {
 	margin-top: 3rem;
 	background-image: url('../images/Rectangle107.png');
-	height: 300px;
+	height: 18.75rem;
 	background-size: cover;
 	padding-top: 3rem !important;
 }
@@ -870,6 +892,7 @@ tbody td {
 	}
 	.footer_registration {
 		margin: auto;
+		width: 55%;
 	}
 	.footer_registration__button {
 		width: 70%;
@@ -886,6 +909,8 @@ tbody td {
 /*========== DESCRIPTION ==========*/
 .description {
 	margin-top: 2rem;
+	position: relative;
+	padding-block: 7rem;
 }
 .description__container {
 	display: flex;
@@ -909,12 +934,15 @@ tbody td {
 }
 .description__logo {
 	width: 50%;
-	height: auto;
 }
 /*========== HISTORY ==========*/
 .history {
-	margin-top: 2rem;
-	margin-bottom: 6rem;
+	position: relative;
+	background-color: rgb(235, 235, 235);
+	min-height: 400px;
+}
+.divider {
+	position: relative;
 }
 .history__title {
 	text-align: center;
@@ -929,13 +957,16 @@ tbody td {
 }
 @media only screen and (max-width: 1200px) {
 	.history {
-		min-height: 900px;
+		min-height: 1000px;
 	}
 	.mobile {
 		margin-top: 0;
 	}
 }
 /*========== LOCATION ==========*/
+.location {
+	position: relative;
+}
 .location__container {
 	display: flex;
 	margin-top: 2rem;
@@ -953,6 +984,9 @@ tbody td {
 	margin-bottom: 1rem;
 }
 /*========== CONTACT FORM ==========*/
+.contact-form {
+	background-color: rgb(235, 235, 235);
+}
 .contact-form__container {
 	display: flex;
 }
@@ -1007,7 +1041,7 @@ tbody td {
 @media only screen and (max-width: 768px) {
 	.home__container {
 		flex-direction: column-reverse;
-		margin-block: 2rem;
+		margin-top: 2rem;
 	}
 	.home-registration-form {
 		width: 100%;
@@ -1023,9 +1057,13 @@ tbody td {
 		margin-bottom: 2rem;
 		width: 80% !important;
 	}
-	.description__col2, .location__col1, .location__col2, .contact-form__col1, .contact-form__col2 {
+	.location__col1, .location__col2, .contact-form__col1, .contact-form__col2 {
 		width: 90%;
 		margin-bottom: 1.5rem;
+	}
+	.description__col2 {
+		margin-block: 3rem;
+		width: 100%;
 	}
 	.solution > p {
 		margin-bottom: 2rem;

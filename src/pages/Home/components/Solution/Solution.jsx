@@ -1,17 +1,25 @@
-import React from 'react'
-import { IconCard } from '../../../../common/components/IconCard'
+import React from 'react';
+import * as PropTypes from 'prop-types';
+import { IconCard } from '../../../../common/components/IconCard';
 
 import CashRegisterEuro from '../../assets/img/cash-register-euro.png';
 import PaidBill from '../../assets/img/paid-bill.png';
 import VirtualBot from '../../assets/img/virtual-bot.png';
+import WavesBottomBg from '../../assets/img/waves-bottom-bg.png';
 
-import SolutionSectionBg from '../../assets/img/solution-section-bg.png';
 
-export function Solution() {
+export function Solution(props) {
+    const {backgroundColor} = props;
     return (
-        <>
-            <img src={SolutionSectionBg} alt=" " style={{ position: 'absolute' }} />
-            <section className='solution section bd-container'>
+        <section className={`solution  ${backgroundColor}`}>
+            <img src={WavesBottomBg} alt=" " style={{
+                position: 'absolute',
+                zIndex: '-1',
+                top: '-0.05rem',
+                left: '0'
+            }}
+            />
+            <div className='bd-container'>
                 <h2 className='solution__title'>
                     <span style={{ fontWeight: "200" }}>
                         Nous vous proposons
@@ -41,7 +49,10 @@ export function Solution() {
                          et les demandes de dépannages sur lesquelles vous pouvez intervenir."
                     />
                 </div>
-            </section>
-        </>
+            </div>
+        </section>
     )
+}
+Solution.propTypes = {
+    backgroundColor: PropTypes.string.isRequired,
 }
