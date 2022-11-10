@@ -1,15 +1,17 @@
 /* eslint-disable react/forbid-prop-types */
 import React, { useState } from 'react';
 import { makeStyles } from '@mui/styles';
+import MuiPhoneNumber from 'material-ui-phone-number';
 import { Dialog, DialogActions, DialogContent } from '@mui/material';
 import TextField from '@mui/material/TextField';
 import * as PropTypes from 'prop-types';
 import axios from '../../../config/axios';
 import { Button } from '../Button';
 import isValidEmail from '../../../utils/is-valid-email';
+import { useTranslation } from '../../../utils/hooks/use-translate';
 
 export function PreRegistrationModal(props) {
-  const { user, loading, open, onChange, onSubmit, onClick, onClose } = props;
+  const { user, loading, open, onChange, onSubmit, onClick, onClose, onPhoneChange } = props;
 
   const useStyles = makeStyles({
     field: {
@@ -25,7 +27,7 @@ export function PreRegistrationModal(props) {
         Merci, votre pré-inscription est bien prise en compte.
       </p>
       <form onSubmit={onSubmit}>
-        <span style={{marginLeft: '1.6rem'}}>Dites-nous en plus sur vous:</span>
+        <span style={{ marginLeft: '1.6rem' }}>Dites-nous en plus sur vous:</span>
         <DialogContent>
           <TextField
             className={classes.field}
@@ -56,15 +58,17 @@ export function PreRegistrationModal(props) {
             variant="filled"
             onChange={onChange}
             value={user.email}
+            required
           />
-          <TextField
+          <MuiPhoneNumber
+            defaultCountry='fr'
             className={classes.field}
             id="phone"
             name="phone"
             label="Téléphone"
-            type="text"
+            type="phone"
             variant="filled"
-            onChange={onChange}
+            onChange={onPhoneChange}
             value={user.phone}
           />
           <TextField
@@ -78,7 +82,7 @@ export function PreRegistrationModal(props) {
             value={user.society}
           />
         </DialogContent>
-        <DialogActions>
+        <DialogActions style={{ marginRight: '1rem' }}>
           <Button onClick={onSubmit} autoFocus loading={loading}>
             Se préinscrire
           </Button>
@@ -94,6 +98,7 @@ PreRegistrationModal.propTypes = {
   onClose: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
   onChange: PropTypes.func.isRequired,
+  onPhoneChange: PropTypes.func.isRequired,
   user: PropTypes.shape({
     firstName: PropTypes.string,
     lastName: PropTypes.string,
@@ -119,11 +124,13 @@ export function usePreRegistration(setMessage, setToastOpen) {
   const onEmailRegistration = () => {
     if (!isValidEmail(user.email)) {
       setToastOpen(true);
-      setMessage(`S'il vous plaît, mettez une adresse email valide`);
+      setMessage('Veuillez mettre une adresse email valide');
       return;
     }
     setModalOpen(true);
   };
+
+  const toTranslate = useTranslation();
 
   const handlePreUsersSubmit = async (event) => {
     event.preventDefault();
@@ -137,8 +144,8 @@ export function usePreRegistration(setMessage, setToastOpen) {
     try {
       setLoading(true);
       await axios.post('preUsers', [user]);
-      setToastOpen(true);
       setMessage('Vous avez été ajouté avec succès à la liste de diffusion');
+      setToastOpen(true);
     } catch (e) {
       const {
         response: {
@@ -149,10 +156,10 @@ export function usePreRegistration(setMessage, setToastOpen) {
       setToastOpen(true);
       if (status === 400) {
         const { message } = JSON.parse(apiMessage);
-        setMessage(message);
+        setMessage(toTranslate(message));
       }
       if (status === 500) {
-        setMessage("Quelque chose c'est mal passé. Merci d'essayer plus tard");
+        setMessage("Quelque chose s'est mal passé. Merci d'essayer plus tard");
       }
       throw new Error(e);
     } finally {
@@ -167,5 +174,10 @@ export function usePreRegistration(setMessage, setToastOpen) {
     setUser((prevState) => ({ ...prevState, [name]: value }));
   };
 
-  return { modalOpen, setModalOpen, loading, user, setUser, handlePreUsersSubmit, onValueChange, onEmailRegistration };
+  const onPhoneChange = (phoneValue) => {
+    setUser((prevState) => ({ ...prevState, phone: phoneValue.replace(/\s+/g, '') }));
+  };
+
+  return { modalOpen, setModalOpen, loading, user, setUser, handlePreUsersSubmit,
+    onValueChange, onEmailRegistration, onPhoneChange };
 }
