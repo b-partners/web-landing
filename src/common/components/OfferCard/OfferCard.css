@@ -5,12 +5,14 @@
     border: 1px solid rgb(217, 217, 217);
     background-color: rgb(217, 217, 217);
     width: auto;
+    min-height: 29.5rem;
 }
 .offer__card__button {
     background-color: black;
     color: white;
     margin-bottom: .7rem;
     width: 93%;
+    min-height: 4.6rem;
     margin-inline: auto;
     font-weight: 300;
     font-size: 1.3rem;

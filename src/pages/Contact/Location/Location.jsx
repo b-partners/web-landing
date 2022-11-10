@@ -8,7 +8,7 @@ export function Location() {
                 position: 'absolute',
                 zIndex: '-1',
                 bottom: '-.5rem',
-                left: '0'
+                right: '0'
             }} />
             <div className='location__container bd-container'>
                 <div className='location__col1'>

@@ -8,6 +8,7 @@ export function Description() {
       <img src={WavesTopBg} alt=" " style={{
         position: 'absolute',
         zIndex: '-1',
+        right: '0',
         bottom: '-0.05rem'
       }} />
       <div className='description__container bd-container'>

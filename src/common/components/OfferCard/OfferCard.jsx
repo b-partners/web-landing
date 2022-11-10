@@ -18,7 +18,13 @@ export function OfferCard({ imageSrc, offer, price, cardText, buttonLabel, setMo
                     {offer} <br />
                     <span style={{ fontSize: '1.5rem' }}>{price}€</span>/mois
                 </h2>
-                <p style={{ marginBlock: '1.7rem', fontWeight: '700', padding: '0rem 1.5rem' }}>
+                <p
+                    style={{
+                        marginBlock: '1.7rem',
+                        fontWeight: '700',
+                        padding: '0rem 1.5rem',
+                        minHeight: '95.05px'
+                    }}>
                     {cardText}
                 </p>
                 <Button
