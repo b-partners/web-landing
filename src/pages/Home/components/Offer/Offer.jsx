@@ -16,6 +16,7 @@ export function Offer(props) {
       <img src={WavesTopBg} alt=" " style={{
         position: 'absolute',
         zIndex: '-1',
+        right: '0',
         bottom: '-.08rem'
       }}
       />

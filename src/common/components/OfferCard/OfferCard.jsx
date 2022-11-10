@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { useSwiper } from 'swiper/react';
 import { Dialog, DialogActions, DialogContent } from '@mui/material';
 import './OfferCard.css';
 import { Button } from '../Button';
 
 export function OfferCard({ imageSrc, offer, price, cardText, buttonLabel, setModalOpen, children }) {
     const [openModalInfo, setOpenModalInfo] = useState(false);
+    const swiper = useSwiper();
     return (
         <>
             <div className='offer-card'>
@@ -46,11 +48,15 @@ export function OfferCard({ imageSrc, offer, price, cardText, buttonLabel, setMo
                         preset="offer-registration-button"
                         onClick={() => setModalOpen(true)}
                     />
-                    <Button
-                        onClick={() => setOpenModalInfo(false)}
-                        label="Annuler"
+                    {!swiper.isEnd && <Button
+                        onClick={() => {
+                            setOpenModalInfo(false);
+                            swiper.slideNext();
+                        }
+                        }
+                        label="Voir l’offre supplémentaire"
                         preset="btn-secondary"
-                    />
+                    />}
                 </DialogActions>
             </Dialog>
         </>
