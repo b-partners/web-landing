@@ -28,7 +28,7 @@ export function Solution(props) {
                         <span style={{ fontWeight: "700" }}> grandir votre entreprise.</span>
                     </span>
                 </h2>
-                <p>
+                <p style={{marginBottom: '2rem'}}>
                     On a discuté avec des artisans comme vous, les CMAs, et nous avons simplifié les outils
                     existants en les rendant pragmatiques.<br /> Des fonctionnalités utiles, simples à utiliser
                     qui viennent alléger votre quotidien d’artisan sur:

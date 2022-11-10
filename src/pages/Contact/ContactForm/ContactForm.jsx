@@ -33,24 +33,26 @@ export function ContactForm() {
                                         width: '50%',
                                         marginRight: '1%',
                                         marginBottom: '.5rem',
-                                        fontSize: '.8rem'
+                                        fontSize: '.8rem',
+                                        backgroundColor: 'white'
                                     }
                                 }
                                 label="Nom"
                                 type="text"
-                                variant="filled"
+                                variant="outlined"
                             />
                             <TextField
                                 sx={
                                     {
                                         width: '50%',
                                         marginBottom: '.5rem',
-                                        fontSize: '.8rem'
+                                        fontSize: '.8rem',
+                                        backgroundColor: 'white'
                                     }
                                 }
                                 label="Prénom"
                                 type="text"
-                                variant="filled"
+                                variant="outlined"
                             />
                         </div>
                         <TextField
@@ -58,36 +60,39 @@ export function ContactForm() {
                                 {
                                     width: '100%',
                                     marginBottom: '.5rem',
-                                    fontSize: '.8rem'
+                                    fontSize: '.8rem',
+                                    backgroundColor: 'white'
                                 }
                             }
                             label="Email"
                             type="mail"
-                            variant="filled"
+                            variant="outlined"
                         />
                         <TextField
                             sx={
                                 {
                                     width: '100%',
                                     marginBottom: '.5rem',
-                                    fontSize: '.8rem'
+                                    fontSize: '.8rem',
+                                    backgroundColor: 'white'
                                 }
                             }
                             label="Sujet"
                             type="textarea"
-                            variant="filled"
+                            variant="outlined"
                         />
                         <TextField
                             sx={
                                 {
                                     width: '100%',
                                     marginBottom: '.5rem',
-                                    fontSize: '.8rem'
+                                    fontSize: '.8rem',
+                                    backgroundColor: 'white'
                                 }
                             }
                             label="Commentaire"
                             type="textarea"
-                            variant="filled"
+                            variant="outlined"
                             multiline
                             rows={4}
                         />

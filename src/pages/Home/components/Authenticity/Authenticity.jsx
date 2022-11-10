@@ -9,12 +9,14 @@ export function Authenticity() {
         <img src={FeatureSectionBg} alt=" " style={{
           position: 'absolute',
           zIndex: '-1',
+          right: '0',
           top: '-.05rem'
         }}
         />
         <img src={WavesTopBg} alt=" " style={{
           position: 'absolute',
           zIndex: '-1',
+          right: '0',
           bottom: '-.05rem'
         }}
         />

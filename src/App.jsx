@@ -23,7 +23,10 @@ function App() {
 
   const [message, setMessage] = useState(null);
 
-  const { modalOpen, setModalOpen, loading, user, setUser, handlePreUsersSubmit, onValueChange, onEmailRegistration } =
+  const { 
+    modalOpen,
+    setModalOpen,
+    loading, user, setUser, handlePreUsersSubmit, onValueChange, onPhoneChange, onEmailRegistration } =
     usePreRegistration(setMessage, setToastOpen);
 
   const onEmailChange = (event) => {
@@ -65,6 +68,7 @@ function App() {
         onClose={() => setModalOpen(false)}
         onSubmit={handlePreUsersSubmit}
         onChange={onValueChange}
+        onPhoneChange={onPhoneChange}
         user={user}
         loading={loading}
         onClick={() => {
