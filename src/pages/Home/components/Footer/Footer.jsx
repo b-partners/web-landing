@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import React from 'react';
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 import * as PropTypes from 'prop-types';
 import { makeStyles } from '@mui/styles';
 import TextField from '@mui/material/TextField';
@@ -9,13 +9,12 @@ import logo from '../../assets/img/logoFullWhite.png';
 import { Button } from '../../../../common/components/Button';
 
 export function Footer(props) {
-
   const navigate = useNavigate();
 
   const useStyles = makeStyles({
     field: {
       width: '70%',
-      backgroundColor: 'white'
+      backgroundColor: 'white',
     },
   });
 
@@ -27,14 +26,10 @@ export function Footer(props) {
     <section className="footer">
       <div className="footer__container">
         <div className="footer__column">
-          <button
-            type='button'
-            className='nav__logo'
-            onClick={() => navigate("/home")}
-          >
+          <button type="button" className="nav__logo" onClick={() => navigate('/home')}>
             <a href="#home">
               <img src={logo} alt="logo" style={{ width: '10.625rem' }} />
-              <p style={{ fontWeight: '100', color:'white' }}>Copyright &copy; B.Partners 2022</p>
+              <p style={{ fontWeight: '100', color: 'white' }}>Copyright &copy; B.Partners 2022</p>
             </a>
           </button>
         </div>
@@ -42,42 +37,23 @@ export function Footer(props) {
           <h4 className="footer_subtitle">LIENS IMPORTANTS</h4>
           <ul className="navigation_link_list">
             <li>
-              <button
-                className='footer-navigation'
-                type='button'
-                onClick={() => navigate("/home")}
-              >
+              <button className="footer-navigation" type="button" onClick={() => navigate('/home')}>
                 <a href="#home">Présentation</a>
               </button>
             </li>
             <li>
-              <button
-                className='footer-navigation'
-                type='button'
-                onClick={() => navigate("/about")}
-              >
+              <button className="footer-navigation" type="button" onClick={() => navigate('/about')}>
                 <a href="#description">À propos de nous</a>
               </button>
             </li>
             <li>
-              <button
-                className='footer-navigation'
-                type='button'
-                onClick={() => navigate("/contact")}
-              >
+              <button className="footer-navigation" type="button" onClick={() => navigate('/contact')}>
                 <a href="#location">Nous contacter</a>
               </button>
             </li>
             <li>
-              <button
-                className='footer-navigation'
-                type='button'
-              >
-                <a
-                  href='https://dashboard-dev.bpartners.app/login'
-                >
-                  Mon compte
-                </a>
+              <button className="footer-navigation" type="button">
+                <a href="https://dashboard-dev.bpartners.app/login">Mon compte</a>
               </button>
             </li>
           </ul>
@@ -113,6 +89,6 @@ Footer.propTypes = {
     phone: PropTypes.string,
     email: PropTypes.string,
   }).isRequired,
-  onEmailChange: PropTypes.bool.isRequired,
-  onEmailRegistration: PropTypes.bool.isRequired,
+  onEmailChange: PropTypes.func.isRequired,
+  onEmailRegistration: PropTypes.func.isRequired,
 };

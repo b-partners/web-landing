@@ -8,32 +8,31 @@ import { Location } from './Location';
 import { ContactForm } from './ContactForm';
 
 export function Contact(props) {
-    const { onEmailChange, onEmailRegistration, user } = props;
-    const { pathname } = useLocation();
+  const { onEmailChange, onEmailRegistration, user } = props;
+  const { pathname } = useLocation();
 
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [pathname]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
-
-    return (
-        <div className='contact'>
-            <Header />
-            <Location />
-            <ContactForm />
-            <Footer onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
-        </div>
-    )
+  return (
+    <div className="contact">
+      <Header />
+      <Location />
+      <ContactForm />
+      <Footer onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
+    </div>
+  );
 }
 
 Contact.propTypes = {
-    user: PropTypes.shape({
-        firstName: PropTypes.string,
-        lastName: PropTypes.string,
-        society: PropTypes.string,
-        phone: PropTypes.string,
-        email: PropTypes.string,
-    }).isRequired,
-    onEmailChange: PropTypes.bool.isRequired,
-    onEmailRegistration: PropTypes.bool.isRequired,
+  user: PropTypes.shape({
+    firstName: PropTypes.string,
+    lastName: PropTypes.string,
+    society: PropTypes.string,
+    phone: PropTypes.string,
+    email: PropTypes.string,
+  }).isRequired,
+  onEmailChange: PropTypes.func.isRequired,
+  onEmailRegistration: PropTypes.func.isRequired,
 };

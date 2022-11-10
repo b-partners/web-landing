@@ -25,11 +25,15 @@ export function Welcome(props) {
 
   return (
     <section className="home" id="home">
-      <img src={WelcomeSectionBg} alt=" " style={{
-        position: 'absolute',
-        zIndex: '-1',
-        bottom: '-.05rem'
-      }} />
+      <img
+        src={WelcomeSectionBg}
+        alt=" "
+        style={{
+          position: 'absolute',
+          zIndex: '-1',
+          bottom: '-.05rem',
+        }}
+      />
       <h1 className="home__title bd-container">
         L'assistant bancaire intelligent qui <br />
         <span style={{ fontWeight: '600' }}>
@@ -72,7 +76,7 @@ export function Welcome(props) {
               onChange={onEmailChange}
               value={user && user.email}
               sx={{
-                marginBottom: '1rem'
+                marginBottom: '1rem',
               }}
               required
             />
@@ -102,6 +106,6 @@ Welcome.propTypes = {
     phone: PropTypes.string,
     email: PropTypes.string,
   }).isRequired,
-  onEmailChange: PropTypes.bool.isRequired,
-  onEmailRegistration: PropTypes.bool.isRequired,
+  onEmailChange: PropTypes.func.isRequired,
+  onEmailRegistration: PropTypes.func.isRequired,
 };
