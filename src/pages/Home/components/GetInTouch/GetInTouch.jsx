@@ -18,18 +18,21 @@ export function GetInTouch(props) {
 
   return (
     <section className="get_in_touch section">
-      <img src={WavesBottomBg} alt=" " style={{
-        position: 'absolute',
-        zIndex: '-1',
-        left: '0',
-        top: '-.05rem'
-      }}
+      <img
+        src={WavesBottomBg}
+        alt=" "
+        style={{
+          position: 'absolute',
+          zIndex: '-1',
+          left: '0',
+          top: '-.05rem',
+        }}
       />
-      <div className='bd-container section'>
+      <div className="bd-container section">
         <h2 className="get_in_touch__title">Rester informé</h2>
         <p>Aujourd'hui les artisans perdent entre 30% et 40% de leur temps sur des tâches administratives.</p>
         <div className="get_in_touch__form">
-          <div className='form-wrapper'>
+          <div className="form-wrapper">
             <TextField
               className={classes.field}
               label="Email"
@@ -55,6 +58,6 @@ GetInTouch.propTypes = {
     phone: PropTypes.string,
     email: PropTypes.string,
   }).isRequired,
-  onEmailChange: PropTypes.bool.isRequired,
-  onEmailRegistration: PropTypes.bool.isRequired,
+  onEmailChange: PropTypes.func.isRequired,
+  onEmailRegistration: PropTypes.func.isRequired,
 };

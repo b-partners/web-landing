@@ -18,7 +18,8 @@ export function Home(props) {
   const [backgroundColor, setBackgroundColor] = useState('');
   const { pathname } = useLocation();
 
-  const handleChangeBackground = () => backgroundColor === 'gray' ? setBackgroundColor('') : setBackgroundColor('gray');
+  const handleChangeBackground = () =>
+    backgroundColor === 'gray' ? setBackgroundColor('') : setBackgroundColor('gray');
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -35,11 +36,7 @@ export function Home(props) {
       <Distinction />
       <Offer setModalOpen={setModalOpen} />
       <Testimonial />
-      <GetInTouch
-        onEmailChange={onEmailChange}
-        onEmailRegistration={onEmailRegistration}
-        user={user}
-      />
+      <GetInTouch onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
       <Footer onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
     </div>
   );
@@ -54,6 +51,6 @@ Home.propTypes = {
     phone: PropTypes.string,
     email: PropTypes.string,
   }).isRequired,
-  onEmailChange: PropTypes.bool.isRequired,
-  onEmailRegistration: PropTypes.bool.isRequired,
+  onEmailChange: PropTypes.func.isRequired,
+  onEmailRegistration: PropTypes.func.isRequired,
 };
