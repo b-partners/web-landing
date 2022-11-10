@@ -34,6 +34,7 @@ function App() {
     handlePreUsersSubmit,
     onValueChange,
     onEmailRegistration,
+    onPhoneChange,
   } = usePreRegistration(setMessage, setToastOpen);
 
   const onEmailChange = (event) => {
@@ -46,7 +47,7 @@ function App() {
       <Routes>
         <Route
           exact
-          path='/home'
+          path="/home"
           element={
             <Home
               setModalOpen={setModalOpen}
@@ -58,21 +59,22 @@ function App() {
         />
         <Route
           exact
-          path='/about'
+          path="/about"
           element={<About onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />}
         />
         <Route
           exact
-          path='/contact'
+          path="/contact"
           element={<Contact onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />}
         />
-        <Route path='/' element={<Navigate to='/home' replace />} />
+        <Route path="/" element={<Navigate to="/home" replace />} />
       </Routes>
       <PreRegistrationModal
         open={modalOpen}
         onClose={() => setModalOpen(false)}
         onSubmit={handlePreUsersSubmit}
         onChange={onValueChange}
+        onPhoneChange={onPhoneChange}
         user={user}
         loading={loading}
         onClick={() => {

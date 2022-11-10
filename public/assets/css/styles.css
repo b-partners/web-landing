@@ -465,10 +465,6 @@ h1.home__title {
 .mobile {
 	position: relative;
 }
-.mobile__title{
-	text-align: center;
-	font-weight: 400;
-}
 .mobile__task {
 	padding-block: 5rem;
 }
@@ -493,6 +489,9 @@ h1.home__title {
 	text-align: center;
 	position: relative;
 	padding-block: 5rem;
+}
+.solution__paragraph {
+	margin-bottom: 2rem;
 }
 .gray {
 	background-color: rgb(235, 235, 235);
@@ -550,6 +549,7 @@ th.table__offer__title {
 .offer-image {
 	width: 25%;
 	border-radius: 10px;
+	margin-top: 1rem;
 }
 thead th:nth-child(1), tbody td:nth-child(1) {
 	text-align: left;
@@ -580,63 +580,7 @@ tfoot td {
 	padding-top: .8rem;
 	text-align: center;
 }
-/*========== ACCESSORIES ==========*/
-.accessory__container {
-	grid-template-columns: repeat(2, 1fr);
-	padding-bottom: 2rem;
-}
 
-.accessory__content {
-	position: relative;
-	display: grid;
-	padding: 0.25rem 0.75rem 0.75rem;
-	background-color: var(--container-color);
-	box-shadow: 0 2px 6px rgba(65, 11, 16, 0.15);
-	border-radius: 1rem;
-}
-
-.accessory__content:hover {
-	box-shadow: 0 3px 12px rgba(65, 11, 16, 0.15);
-}
-
-.accessory__img {
-	width: 110px;
-	justify-self: center;
-	margin-bottom: 0.25rem;
-}
-
-.accessory__title,
-.accessory__category {
-	text-align: center;
-}
-
-.accessory__title {
-	font-size: var(--normal-font-size);
-}
-
-.accessory__category {
-	font-size: var(--small-font-size);
-	margin-bottom: var(--mb-1);
-	color: var(--text-color-light);
-}
-
-.accessory__preci {
-	font-weight: var(--font-semi-bold);
-	color: var(--title-color);
-}
-
-.accessory__button {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	display: flex;
-	justify-content: space-evenly;
-	width: 100%;
-	flex-wrap: wrap;
-}
-.share__element {
-	width: 23%;
-}
 /*========== MOBILE ==========*/
 .mobile__title{
 	text-align: center;
@@ -1045,6 +989,14 @@ tbody td {
 	.home-registration-form {
 		width: 100%;
 		margin-top: 1rem;
+	}
+	.swiper {
+		margin-block: 5rem;
+	}
+	.mobile__title {
+		margin-bottom: 3rem;
+		padding: 0 5%;
+		text-align: center;
 	}
 	.distinction__container, .solution__data, .mobile__task__container, .share__container,
 	.description__container, .location__container, .contact-form__container, .home__list {

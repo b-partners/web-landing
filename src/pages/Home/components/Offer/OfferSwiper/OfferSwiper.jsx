@@ -162,6 +162,7 @@ export function OfferSwiper(props) {
                 <OfferCard
                     imageSrc={Ambitieux}
                     offer="L'Ambitieux"
+                    id="ambitieux"
                     price="39"
                     cardText="Tous les services franchir un pallier dans votre croissance
                     et automatiser votre forte activité d’artisan & d'indépendant."
