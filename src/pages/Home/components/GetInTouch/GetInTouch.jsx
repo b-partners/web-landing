@@ -1,11 +1,10 @@
 import React from 'react';
-
-import TextField from '@mui/material/TextField';
 import { makeStyles } from '@mui/styles';
+import TextField from '@mui/material/TextField';
 import * as PropTypes from 'prop-types';
 
-import { Button } from '../../../../common/components/Button/Button';
 import WavesBottomBg from '../../assets/img/waves-bottom-bg.png';
+import { Button } from '../../../../common/components/Button/Button';
 
 export function GetInTouch(props) {
   const useStyles = makeStyles({
@@ -31,8 +30,8 @@ export function GetInTouch(props) {
       />
       <div className="bd-container section">
         <h2 className="get_in_touch__title">Rester informé</h2>
-        <p style={{ marginBlock: '1.3rem' }}>
-          Aujourd'hui les artisans perdent entre 30% et 40% de leur temps sur des tâches administratives.
+        <p style={{marginBlock: '1.3rem'}}>
+          Aujourd'hui les artisans perdent entre 30 % et 40 % de leur temps sur des tâches administratives.
         </p>
         <div className="get_in_touch__form">
           <div className="form-wrapper">

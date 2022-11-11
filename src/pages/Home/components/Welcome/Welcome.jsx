@@ -44,7 +44,7 @@ export function Welcome(props) {
                 <IconList imageSrc={CashRegisterEuro} listText="Suivi de votre trésorerie et de vos objectifs." />
                 <IconList
                   imageSrc={PaidBill}
-                  listText="Edition de devis, facture et relance automatisée des impayés."
+                  listText="Édition de devis, facture et relance automatisée des impayés."
                 />
               </ul>
             </div>
@@ -54,7 +54,7 @@ export function Welcome(props) {
                 <IconList
                   imageSrc={VirtualBot}
                   listText="Être informé en temps réel des chantiers,
-               et des demandes de dépannages autour de chez vous."
+               et des demande de dépannages autour de chez vous."
                 />
               </ul>
             </div>

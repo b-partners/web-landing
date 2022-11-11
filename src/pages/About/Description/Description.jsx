@@ -31,21 +31,23 @@ export function Description() {
               <li>de les soulager dans la relance clients ou la recherche de nouveaux clients. </li>
             </ul>
           </p>
-          <p className="description__paragraph">
-            En parallèle, nous poursuivrons nos recherches pour améliorer notre assistant commercial doté d’une
-            Intelligence Artificielle pour identifier les opportunités business disponible autour de chez eux à un
-            instant T. Pour le lancement, nous avons réalisé des dizaines d’interviews métiers et pris contact avec les
-            Chambres des Métiers et de l’Artisanat (« CMA ») françaises afin de mettre au point l'outil de gestion
-            bancaire et d'activité dont avaient besoin les artisans français. En s’appuyant sur les données collectées,
-            l’expertise des CMAs et une collaboration (partage de PI) avec un laboratoire de recherche spécialisé en IA
-            , BPartners offrira une expérience unique aux artisans, avec un accès aux dernières possibilités
-            technologiques disponibles.
+          <p className='description__paragraph'>
+            En parallèle, nous poursuivrons nos recherches  pour améliorer notre assistant commercial
+            doté d’une Intelligence Artificielle pour identifier les opportunités business disponibles
+            autour de chez eux à un instant T.
+            Pour le lancement, nous avons réalisé des dizaines d’interviews métiers et pris contact
+            avec les Chambres des Métiers et de l’Artisanat (« CMA ») françaises afin de mettre au
+            point l'outil de gestion bancaire et d'activité dont avaient besoin les artisans français.
+            En s’appuyant sur les données collectées, l’expertise des CMAs et une collaboration (partage de PI)
+            avec un laboratoire de recherche spécialisé en IA, BPartners offrira une expérience unique aux artisans,
+            avec un accès aux dernières possibilités technologiques disponibles.
           </p>
-          <p className="description__paragraph">
-            Concrètement nous démarrons la commercialisation en proposant un compte bancaire aux artisans, autour duquel
-            nous allons faire graviter toute la vie de l’entreprise avec des outils d’automatisation couvrant :
+          <p className='description__paragraph'>
+            Concrètement, nous démarrons la commercialisation en proposant un compte bancaire aux artisans,
+            autour duquel nous allons faire graviter toute la vie de l’entreprise avec des outils d’automatisation
+            couvrant :
             <ul style={{ listStyle: 'disc', marginLeft: '1.7rem' }}>
-              <li>L’édition, la relance des devis et factures impayées.</li>
+              <li>L’édition, la relance des devis et des factures impayées.</li>  
               <li>Les encaissements sur mobile ou à distance.</li>
               <li>La comptabilité par auto catégorisation et agrégation des comptes.</li>
             </ul>
