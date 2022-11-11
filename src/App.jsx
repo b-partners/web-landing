@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import { Snackbar } from '@mui/material';
-
 import { Navigate, Route, Routes } from 'react-router-dom';
-import { Home } from './pages/Home';
-import { About } from './pages/About';
-import { Contact } from './pages/Contact';
+
+import { Snackbar } from '@mui/material';
 
 import {
   PreRegistrationModal,
   usePreRegistration,
 } from './common/components/PreRegistrationModal/PreRegistrationModal';
+import { About } from './pages/About';
+import { Contact } from './pages/Contact';
+import { Home } from './pages/Home';
 
 function App() {
   const [toastOpen, setToastOpen] = useState(false);

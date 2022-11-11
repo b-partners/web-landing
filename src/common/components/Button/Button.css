@@ -1,15 +1,15 @@
 .btn {
-    padding: 10px 16px;
-    text-transform: none;
+  padding: 10px 16px;
+  text-transform: none;
 }
 
 .btn-primary {
-    background: #582d37;
-    color: #fff;
-    border: none;
-    font-weight: bold;
+  background: #582d37;
+  color: #fff;
+  border: none;
+  font-weight: bold;
 }
 
 .btn-secondary {
-    border: none;
+  border: none;
 }

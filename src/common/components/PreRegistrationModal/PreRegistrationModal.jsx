@@ -1,14 +1,15 @@
-/* eslint-disable react/forbid-prop-types */
 import React, { useState } from 'react';
-import { makeStyles } from '@mui/styles';
-import MuiPhoneNumber from 'material-ui-phone-number';
+
 import { Dialog, DialogActions, DialogContent } from '@mui/material';
 import TextField from '@mui/material/TextField';
+import { makeStyles } from '@mui/styles';
+import MuiPhoneNumber from 'material-ui-phone-number';
 import * as PropTypes from 'prop-types';
+
 import axios from '../../../config/axios';
-import { Button } from '../Button';
-import isValidEmail from '../../../utils/is-valid-email';
 import { useTranslation } from '../../../utils/hooks/use-translate';
+import isValidEmail from '../../../utils/is-valid-email';
+import { Button } from '../Button';
 
 export function PreRegistrationModal(props) {
   const {
@@ -30,98 +31,96 @@ export function PreRegistrationModal(props) {
   });
 
   const classes = useStyles();
-  return (
-    <>
-      <Dialog open={open} onClose={onClose}>
-        <p style={{ textAlign: 'center', marginBlock: '1rem' }}>
-          <i className="fa fa-check fa-2x" aria-hidden="true" />
-          Merci, votre pré-inscription est bien prise en compte.
-        </p>
-        <form onSubmit={onSubmit}>
-          <span style={{ marginLeft: '1.6rem' }}>Dites-nous en plus sur vous:</span>
-          <DialogContent>
-            <TextField
-              className={classes.field}
-              id="firstName"
-              name="firstName"
-              label="Prénom"
-              type="text"
-              variant="filled"
-              onChange={onChange}
-              value={user.firstName}
-            />
-            <TextField
-              className={classes.field}
-              id="lastName"
-              name="lastName"
-              label="Nom"
-              type="text"
-              variant="filled"
-              onChange={onChange}
-              value={user.lastName}
-            />
-            <TextField
-              className={classes.field}
-              id="email"
-              name="email"
-              label="Adresse e-mail"
-              type="email"
-              variant="filled"
-              onChange={onChange}
-              value={user.email}
-              required
-            />
-            <MuiPhoneNumber
-              defaultCountry="fr"
-              className={classes.field}
-              id="phone"
-              name="phone"
-              label="Téléphone"
-              type="phone"
-              variant="filled"
-              onChange={onPhoneChange}
-              value={user.phone}
-            />
-            <TextField
-              className={classes.field}
-              id="society"
-              name="society"
-              label="Société"
-              type="text"
-              variant="filled"
-              onChange={onChange}
-              value={user.society}
-            />
-          </DialogContent>
-          <DialogActions style={{ marginRight: '1rem' }}>
-            <Button onClick={onSubmit} autoFocus loading={loading}>
-              Se préinscrire
-            </Button>
-            <Button onClick={onClick} label="Annuler" preset="btn-secondary" />
-          </DialogActions>
-        </form>
-      </Dialog>
-
-      <Dialog open={preregistrationIsComplete} onClose={() => setPreregistrationIsComplete(false)}>
+  return (<>
+    <Dialog open={open} onClose={onClose}>
+      <p style={{ textAlign: 'center', marginBlock: '1rem' }}>
+        <i className='fa fa-check fa-2x' aria-hidden='true' />
+        Merci, votre pré-inscription est bien prise en compte.
+      </p>
+      <form onSubmit={onSubmit}>
+        <span style={{ marginLeft: '1.6rem' }}>Dites-nous en plus sur vous:</span>
         <DialogContent>
-          <p>
-            Pour finaliser votre inscription, télécharger l’application BPartners sur <b>Android</b> ou <b>Appstore </b>
-            pour utiliser les services de partout.
-          </p>
+          <TextField
+            className={classes.field}
+            id='firstName'
+            name='firstName'
+            label='Prénom'
+            type='text'
+            variant='filled'
+            onChange={onChange}
+            value={user.firstName}
+          />
+          <TextField
+            className={classes.field}
+            id='lastName'
+            name='lastName'
+            label='Nom'
+            type='text'
+            variant='filled'
+            onChange={onChange}
+            value={user.lastName}
+          />
+          <TextField
+            className={classes.field}
+            id='email'
+            name='email'
+            label='Adresse e-mail'
+            type='email'
+            variant='filled'
+            onChange={onChange}
+            value={user.email}
+            required
+          />
+          <MuiPhoneNumber
+            defaultCountry='fr'
+            className={classes.field}
+            id='phone'
+            name='phone'
+            label='Téléphone'
+            type='phone'
+            variant='filled'
+            onChange={onPhoneChange}
+            value={user.phone}
+          />
+          <TextField
+            className={classes.field}
+            id='society'
+            name='society'
+            label='Société'
+            type='text'
+            variant='filled'
+            onChange={onChange}
+            value={user.society}
+          />
         </DialogContent>
-
-        <DialogActions
-          sx={{
-            '& > button': {
-              width: '100%',
-            },
-          }}
-        >
-          <Button onClick={() => setPreregistrationIsComplete(false)} label="Ok, Merci" />
+        <DialogActions style={{ marginRight: '1rem' }}>
+          <Button onClick={onSubmit} autoFocus loading={loading}>
+            Se préinscrire
+          </Button>
+          <Button onClick={onClick} label='Annuler' preset='btn-secondary' />
         </DialogActions>
-      </Dialog>
-    </>
-  );
+      </form>
+    </Dialog>
+
+    <Dialog open={preregistrationIsComplete} onClose={() => setPreregistrationIsComplete(false)}>
+      <DialogContent>
+        <p>
+          Pour finaliser votre inscription, télécharger l’application BPartners sur <b>Android</b> ou <b>Appstore </b>
+          pour utiliser les services de partout.
+        </p>
+      </DialogContent>
+
+      <DialogActions
+        sx={{
+          '& > button': {
+            width: '100%',
+          },
+        }}
+      >
+        <Button onClick={() => setPreregistrationIsComplete(false)} label='Ok, Merci' />
+      </DialogActions>
+    </Dialog>
+  </>);
 }
 
 PreRegistrationModal.propTypes = {
@@ -130,8 +129,7 @@ PreRegistrationModal.propTypes = {
   onSubmit: PropTypes.func.isRequired,
   onChange: PropTypes.func.isRequired,
   preregistrationState: PropTypes.shape({
-    setPreregistrationIsComplete: PropTypes.func.isRequired,
-    preregistrationIsComplete: PropTypes.bool.isRequired,
+    setPreregistrationIsComplete: PropTypes.func.isRequired, preregistrationIsComplete: PropTypes.bool.isRequired,
   }).isRequired,
   onPhoneChange: PropTypes.func.isRequired,
   user: PropTypes.shape({
@@ -150,11 +148,7 @@ export function usePreRegistration(setMessage, setToastOpen) {
   const [loading, setLoading] = useState(false);
   const [preregistrationIsComplete, setPreregistrationIsComplete] = useState(false);
   const [user, setUser] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    society: '',
-    phone: '',
+    firstName: '', lastName: '', email: '', society: '', phone: '',
   });
 
   const onEmailRegistration = () => {
@@ -187,8 +181,7 @@ export function usePreRegistration(setMessage, setToastOpen) {
     } catch (e) {
       const {
         response: {
-          status,
-          data: { message: apiMessage },
+          status, data: { message: apiMessage },
         },
       } = e;
 
@@ -198,7 +191,7 @@ export function usePreRegistration(setMessage, setToastOpen) {
         setMessage(toTranslate(message));
       }
       if (status === 500) {
-        setMessage("Quelque chose s'est mal passé. Merci d'essayer plus tard");
+        setMessage('Quelque chose s\'est mal passé. Merci d\'essayer plus tard');
       }
 
       throw new Error(e);

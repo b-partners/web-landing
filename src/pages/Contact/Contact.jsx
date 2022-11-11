@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
-import * as PropTypes from 'prop-types';
 import { useLocation } from 'react-router-dom';
 
-import { Header } from '../Home/components/Header';
+import * as PropTypes from 'prop-types';
+
 import { Footer } from '../Home/components/Footer';
-import { Location } from './Location';
+import { Header } from '../Home/components/Header';
 import { ContactForm } from './ContactForm';
+import { Location } from './Location';
 
 export function Contact(props) {
   const { onEmailChange, onEmailRegistration, user } = props;

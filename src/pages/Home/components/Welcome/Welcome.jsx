@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/media-has-caption */
-
 import React from 'react';
 
 import Paper from '@mui/material/Paper';
@@ -8,16 +7,13 @@ import * as PropTypes from 'prop-types';
 
 import { Button } from '../../../../common/components/Button';
 import { IconList } from '../../../../common/components/IconList';
-
 import '../../../../common/components/Modal/Modal.css';
 import '../../assets/css/forms.css';
 import '../../assets/css/spinner.css';
-
 import CashRegisterEuro from '../../assets/img/cash-register-euro.png';
-import QrCode from '../../assets/img/qr-code-ext.png';
 import PaidBill from '../../assets/img/paid-bill.png';
+import QrCode from '../../assets/img/qr-code-ext.png';
 import VirtualBot from '../../assets/img/virtual-bot.png';
-
 import WelcomeSectionBg from '../../assets/img/welcome-bg.png';
 
 export function Welcome(props) {

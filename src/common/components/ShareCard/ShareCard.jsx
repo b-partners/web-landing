@@ -1,20 +1,22 @@
 import React from 'react';
+
 import PropTypes from 'prop-types';
+
 import './ShareCard.css';
 
 export function ShareCard({ cardText }) {
-    return (
-        <div className="share__element">
-            <i className="fa fa-check fa-2x" aria-hidden="true" /> <br />
-            {cardText}
-        </div>
-    );
+  return (
+    <div className="share__element">
+      <i className="fa fa-check fa-2x" aria-hidden="true" /> <br />
+      {cardText}
+    </div>
+  );
 }
 
 ShareCard.propTypes = {
-    cardText: PropTypes.string
+  cardText: PropTypes.string,
 };
 
 ShareCard.defaultProps = {
-    cardText: 'card text'
+  cardText: 'card text',
 };

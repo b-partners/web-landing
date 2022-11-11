@@ -4,5 +4,15 @@
   "singleQuote": true,
   "useTabs": false,
   "tabWidth": 2,
-  "printWidth": 120
+  "printWidth": 120,
+  "importOrder": [
+    "react",
+    "^@core/(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^@server/(.*)$",
+    "^@ui/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }
