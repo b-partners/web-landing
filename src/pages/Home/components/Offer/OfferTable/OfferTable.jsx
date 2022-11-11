@@ -111,7 +111,7 @@ export function OfferTable(props) {
                 </tr>
                 <tr>
                     <td>
-                        Supports 7 jours sur 7.
+                        Support 7 jours sur 7.
                     </td>
                     <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
                     <td><i className="fa fa-check fa-2x" aria-hidden="true" /></td>
@@ -129,7 +129,7 @@ export function OfferTable(props) {
                     </td>
                 </tr>
                 <tr>
-                    <td>Cartes virtuelles permanente incluses (puis 2€HT/carte/mois).</td>
+                    <td>Cartes virtuelles permanentes incluses (puis 2€HT/carte/mois).</td>
                     <td> </td>
                     <td>
                         <i className="fa fa-check fa-2x" aria-hidden="true" /><br />

@@ -32,7 +32,7 @@ export function Distinction() {
                     <ImageCard
                         imageSrc={EiffelTower}
                         alt="EiffelTower"
-                        cardText="Enregistrée à l'Orias et basée Paris." />
+                        cardText="Enregistrée à l'Orias et basée à Paris." />
                     {/* <ImageCard
                     imageSrc={CompanyLogo}
                     alt="companyLogo"

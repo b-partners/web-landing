@@ -36,7 +36,7 @@ export function Timeline() {
                         <div className="sub__timeline__elt">
                             <p className="round" />
                             <p className="timeline__text">
-                                Novembre 2022: Commercialisation.
+                                Novembre 2022 : Commercialisation.
                             </p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ export function Timeline() {
                         <div className="sub__timeline__elt">
                             <p className="round" />
                             <p className="timeline__text">
-                                Décembre 2022: Lancement d’un programme de R&D.
+                                Décembre 2022 : Lancement d’un programme de R&D.
                             </p>
                         </div>
                     </div>

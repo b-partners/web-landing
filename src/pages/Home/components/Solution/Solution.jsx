@@ -31,17 +31,17 @@ export function Solution(props) {
                 <p style={{marginBottom: '2rem'}}>
                     On a discuté avec des artisans comme vous, les CMAs, et nous avons simplifié les outils
                     existants en les rendant pragmatiques.<br /> Des fonctionnalités utiles, simples à utiliser
-                    qui viennent alléger votre quotidien d’artisan sur:
+                    qui viennent alléger votre quotidien d’artisan sur :
                 </p>
                 <div className='solution__data'>
                     <IconCard
                         imageSrc={CashRegisterEuro}
-                        paragraph="Votre comptabilité et vous informe de l’évolution de
+                        paragraph="Votre comptabilité et vous informent de l’évolution de
                          votre trésorerie et de vos objectifs commerciaux."
                     />
                     <IconCard
                         imageSrc={PaidBill}
-                        paragraph="Votre édition et relances automatisées des devis et factures impayées."
+                        paragraph="Votre édition et relances automatisées des devis et des factures impayées."
                     />
                     <IconCard
                         imageSrc={VirtualBot}

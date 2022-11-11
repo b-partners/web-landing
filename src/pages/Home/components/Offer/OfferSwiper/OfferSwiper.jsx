@@ -68,7 +68,7 @@ export function OfferSwiper(props) {
                         />
                         <IconList
                             imageSrc=""
-                            listText="Supports 7 jours sur 7."
+                            listText="Support 7 jours sur 7."
                         />
                         <IconList
                             imageSrc=""
@@ -124,7 +124,7 @@ export function OfferSwiper(props) {
                         />
                         <IconList
                             imageSrc=""
-                            listText="Supports 7 jours sur 7."
+                            listText="Support 7 jours sur 7."
                         />
                         <IconList
                             imageSrc=""
@@ -192,7 +192,7 @@ export function OfferSwiper(props) {
                         />
                         <IconList
                             imageSrc=""
-                            listText="Supports 7 jours sur 7."
+                            listText="Support 7 jours sur 7."
                         />
                         <IconList
                             imageSrc=""
