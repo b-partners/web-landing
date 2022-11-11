@@ -1,1 +1,1 @@
-export * from './OfferSwiper'
+export * from './OfferSwiper';

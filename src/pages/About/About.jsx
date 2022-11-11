@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react';
-import * as PropTypes from 'prop-types';
 import { useLocation } from 'react-router-dom';
 
+import * as PropTypes from 'prop-types';
+
+import { Footer } from '../Home/components/Footer';
 import { Header } from '../Home/components/Header';
+import { Solution } from '../Home/components/Solution';
 import { Description } from './Description';
 import { History } from './History';
-import { Solution } from '../Home/components/Solution';
-import { Footer } from '../Home/components/Footer';
 
 export function About(props) {
   const { onEmailChange, onEmailRegistration, user } = props;

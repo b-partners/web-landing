@@ -55,12 +55,12 @@
   text-align: center;
 }
 
-.modal__content__container{
+.modal__content__container {
   position: relative;
   height: 100%;
 }
 
-.modal__content__container__text{
+.modal__content__container__text {
   height: 100%;
   display: flex;
   justify-content: center;
@@ -68,7 +68,7 @@
   padding-inline: 1.5rem;
 }
 
-.exit__button{
+.exit__button {
   position: absolute;
   top: 0;
   right: 0;
@@ -87,7 +87,7 @@
   background-color: #ffffff;
 }
 
-.exit__button:hover{
+.exit__button:hover {
   position: absolute;
   top: 0;
   right: 0;
@@ -142,7 +142,7 @@
     border-radius: 0.25rem;
     font-size: 0.9rem;
   }
-  .modal__content{
+  .modal__content {
     width: 93%;
     margin: auto;
     word-break: break-all;

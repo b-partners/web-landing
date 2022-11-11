@@ -1,12 +1,13 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import * as PropTypes from 'prop-types';
-import { makeStyles } from '@mui/styles';
-import TextField from '@mui/material/TextField';
 
-import logo from '../../assets/img/logoFullWhite.png';
+import TextField from '@mui/material/TextField';
+import { makeStyles } from '@mui/styles';
+import * as PropTypes from 'prop-types';
+
 import { Button } from '../../../../common/components/Button';
+import logo from '../../assets/img/logoFullWhite.png';
 
 export function Footer(props) {
   const navigate = useNavigate();

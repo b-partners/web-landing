@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from 'react';
-import * as PropTypes from 'prop-types';
 import { useLocation } from 'react-router-dom';
 
-import { Header } from './components/Header';
-import { Feature } from './components/Feature';
-import { Welcome } from './components/Welcome';
-import { Offer } from './components/Offer';
+import * as PropTypes from 'prop-types';
+
 import { Authenticity } from './components/Authenticity';
-import { Solution } from './components/Solution';
 import { Distinction } from './components/Distinction';
-import { Testimonial } from './components/Testimonial';
-import { GetInTouch } from './components/GetInTouch';
+import { Feature } from './components/Feature';
 import { Footer } from './components/Footer';
+import { GetInTouch } from './components/GetInTouch';
+import { Header } from './components/Header';
+import { Offer } from './components/Offer';
+import { Solution } from './components/Solution';
+import { Testimonial } from './components/Testimonial';
+import { Welcome } from './components/Welcome';
 
 export function Home(props) {
   const { setModalOpen, onEmailChange, onEmailRegistration, user } = props;
