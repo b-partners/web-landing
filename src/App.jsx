@@ -47,7 +47,7 @@ function App() {
       <Routes>
         <Route
           exact
-          path="/home"
+          path='/home'
           element={
             <Home
               setModalOpen={setModalOpen}
@@ -59,15 +59,15 @@ function App() {
         />
         <Route
           exact
-          path="/about"
+          path='/about'
           element={<About onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />}
         />
         <Route
           exact
-          path="/contact"
+          path='/contact'
           element={<Contact onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />}
         />
-        <Route path="/" element={<Navigate to="/home" replace />} />
+        <Route path='/' element={<Navigate to='/home' replace />} />
       </Routes>
       <PreRegistrationModal
         open={modalOpen}
@@ -78,7 +78,7 @@ function App() {
         user={user}
         loading={loading}
         onClick={() => {
-          setUser({ firstName: '', lastName: '', society: '', email: '', phone: '' });
+          setUser({ firstName: null, lastName: null, society: null, email: null, phone: null });
           setModalOpen(false);
         }}
         preregistrationState={{ preregistrationIsComplete, setPreregistrationIsComplete }}
