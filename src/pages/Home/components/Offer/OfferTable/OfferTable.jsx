@@ -59,7 +59,7 @@ export function OfferTable(props) {
                     <td><i className="fa fa-check fa-2x" aria-hidden="true" /><br />Avec personnalisation</td>
                 </tr>
                 <tr>
-                    <td><b>Collectez plus rapidement vos encaissements par QR code, Mails ou SMS.</b>
+                    <td><b>Collecter plus rapidement vos encaissements par QR code, Mails ou SMS.</b>
                     </td>
                     <td>
                         <i className="fa fa-check fa-2x" aria-hidden="true" /><br />

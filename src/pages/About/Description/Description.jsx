@@ -28,7 +28,7 @@ export function Description() {
               <li>d'ouvrir un compte bancaire traditionnel</li>
               <li>d'automatiser leur édition de devis/factures</li>
               <li>d'avoir un outil pour encaisser leurs clients sur mobile via QR code/Lien/sms de paiement</li>
-              <li>de les soulager dans la relance clients ou la recherche de nouveaux clients. </li>
+              <li>de les soulager de la relance client ou la recherche de nouveaux clients.</li>
             </ul>
           </p>
           <p className='description__paragraph'>

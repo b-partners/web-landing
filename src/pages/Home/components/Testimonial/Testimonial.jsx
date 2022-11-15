@@ -15,7 +15,7 @@ export function Testimonial() {
         <CarouselItem
           title=" '' Application super EFFICACE '' "
           paragraph="Je fais beaucoup de devis pour les mariages et l’édition,
-                    l’envoie et le suivi sont très simples sur BPartners.
+                    l’envoi et le suivi sont très simples sur BPartners.
                     L’outil de prospection intelligent est prometteur."
           imageSrc={Testimonial1}
           name="Anna M."
