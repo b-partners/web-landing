@@ -315,6 +315,9 @@ img[alt="companyLogo"] {
 	display: flex;
 	justify-content: space-between;
 }
+.btn-primary {
+	background-color: var(--first-color-logo) !important;
+}
 .button__registration{
 	display: inline-block;
 	background-color: var(--first-color-logo);
@@ -380,9 +383,9 @@ h1.home__title {
 .registration-button {
 	width: 9rem;
 	height: auto;
-	background-color: var(--first-color);
+	background-color: var(--first-color-logo);
 	color: white;
-	border: 1px solid var(--first-color);
+	border: 1px solid var(--first-color-logo);
 	margin-bottom: .7rem;
 	cursor: pointer;
 }
@@ -527,9 +530,9 @@ h1.home__title {
 	min-height: 9rem;
 }
 .offer-registration-button {
-	background-color: var(--first-color);
+	background-color: var(--first-color-logo);
 	color: white;
-	border: 1px solid var(--first-color);
+	border: 1px solid var(--first-color-logo);
 	cursor: pointer;
 }
 table {
@@ -790,7 +793,8 @@ tbody td {
 	color: white;
 	display: flex;
 	justify-content: space-around;
-	padding-block: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 1.5rem;
 }
 .footer_subtitle {
 	color: white;
@@ -801,6 +805,9 @@ tbody td {
 	color: white;
 	font-size: 1rem;
 	font-weight: 400;
+}
+.navigation_link_list > li :hover{
+	color: var(--first-color-logo);
 }
 .footer-navigation {
 	background-color: transparent;
@@ -818,8 +825,9 @@ tbody td {
 }
 .footer_registration__button {
 	color: white;
-	background-color: #161212;
+	background-color: var(--first-color-logo);
 	height: 3.55rem;
+	border: 1px solid var(--first-color-logo);
 }
 @media only screen and (max-width: 768px) {
 	.footer {
@@ -1117,8 +1125,8 @@ tbody td {
 	}
 }
 
-#ouvrir-compte {
-	background: #582d37;
+#open-account {
+	background: var(--first-color-logo);
 	padding: 5px 10px;
 	text-transform: none;
 }

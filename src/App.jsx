@@ -10,6 +10,7 @@ import {
 import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { Home } from './pages/Home';
+import { GeneralConditionOfUse } from './pages/GCU/GeneralConditionOfUse';
 
 function App() {
   const [toastOpen, setToastOpen] = useState(false);
@@ -66,6 +67,17 @@ function App() {
           exact
           path='/contact'
           element={<Contact onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />}
+        />
+        <Route
+          exact
+          path='/general-conditions-of-use'
+          element={
+            <GeneralConditionOfUse
+              onEmailChange={onEmailChange}
+              onEmailRegistration={onEmailRegistration}
+              user={user}
+            />
+          }
         />
         <Route path='/' element={<Navigate to='/home' replace />} />
       </Routes>

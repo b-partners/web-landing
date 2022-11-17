@@ -46,7 +46,7 @@ export function Header() {
                 <i className="fa fa-user" style={{ marginLeft: '.6rem' }} />
               </a>
             </li>
-            <li className="nav__item" id="ouvrir-compte">
+            <li className="nav__item" id="open-account">
               <Button type="submit" label="Je m'inscris" onClick={() => setOpen(true)} />
             </li>
           </ul>
@@ -64,7 +64,7 @@ export function Header() {
         <DialogTitle id="alert-dialog-title">Envie de vous inscrire ?</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Un peu de patience l'application sera disponible le 1er Novembre 2022.
+            Un peu de patience l'application sera disponible le 12 Décembre 2022.
           </DialogContentText>
         </DialogContent>
         <DialogActions>
