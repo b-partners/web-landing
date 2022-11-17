@@ -1,0 +1,47 @@
+.cgu-document {
+    margin-inline: auto;
+    margin-top: 2.5rem;
+    height: 600px;
+    overflow-y: scroll;
+}
+.react-pdf__message {
+    padding-top: 10rem;
+    text-align: center;
+}
+.react-pdf__Page {
+    width: 100%;
+}
+.react-pdf__Page__canvas {
+    margin: auto;
+    border: 1px dotted black;
+    transform: scale(90%);
+}
+.pager {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+.annotationLayer, .textLayer {
+    display: none;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
