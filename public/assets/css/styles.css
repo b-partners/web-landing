@@ -9,7 +9,7 @@
 	--first-color: #582d37;
 	--first-color-alt: #582d37;
 	--first-color-send: #582d37;
-	--first-color-logo: #660033;
+	--first-color-logo: rgba(156, 37, 90, 1);
 	--title-color: #161212;
 	--text-color: black;
 	--text-color-light: black;
@@ -52,6 +52,9 @@
 }
 
 /*========== BASE ==========*/
+* {
+	font-family: 'Geometria', sans-serif;
+}
 *,
 ::before,
 ::after {
@@ -61,7 +64,6 @@
 html {
 	scroll-behavior: smooth;
 }
-
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
 	--first-color-send: #161212;
@@ -129,14 +131,21 @@ video {
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 	color: var(--first-color-logo);
 	opacity: 1; /* Firefox */
-  }
+}
+.text-center {
+	text-align: center;
+}
 /*========== CLASS CSS ==========*/
 .section {
 	padding: 4rem 0 2rem;
 }
 
 .fa-check {
-	color: #01b239;
+	color: var(--first-color-logo);
+	border: 2px solid var(--first-color-logo);
+	border-radius: 21.4px;
+	padding: .2rem;
+	margin-bottom: 1rem;
 }
 
 /*========== LAYOUT ==========*/
@@ -180,6 +189,14 @@ video {
 }
 img[alt="companyLogo"] {
 	transform: scale(1.4);
+}
+
+.text__highlight {
+	font-weight: 800;
+}
+
+.logo-color {
+	color: var(--first-color-logo);
 }
 /*========== NAV ==========*/
 .nav {
@@ -370,15 +387,30 @@ h1.home__title {
 }
 .registration-title {
 	font-size: 1rem;
+	color: var(--first-color-logo);
 	margin-bottom: .5rem;
-	font-weight: 600;
+	font-weight: 800;
 	text-transform: uppercase;
 }
 .home-registration-form {
-	width: 80%;
 	display: flex;
 	flex-direction: column;
-	padding: 3.5% 5%;
+	padding: 5% 5%;
+	border-radius: 0px 30px !important;
+}
+.home-registration-button {
+	width: 30%;
+	border-radius: 0px 30px 30px 0px;
+	height: inherit;
+	background-color: var(--first-color-logo);
+	color: white;
+	border: 1px solid var(--first-color-logo);
+	margin-bottom: .7rem;
+	cursor: pointer;
+}
+.home-registration-mail {
+	width: 100%;
+	height: 2.7rem
 }
 .registration-button {
 	width: 9rem;
@@ -487,6 +519,9 @@ h1.home__title {
 	width: 40%;
 	text-align: center;
 }
+img[alt="mobile_image"] {
+	max-height: 21.875rem;
+}
 /*========== SOLUTION ==========*/
 .solution {
 	text-align: center;
@@ -523,71 +558,95 @@ h1.home__title {
 	display: flex;
 	justify-content: center;
 	position: relative;
-}
-.offer__description {
-	border-top: 1px solid #000;
-	padding-top: .5rem;
-	min-height: 9rem;
-}
-.offer-registration-button {
-	background-color: var(--first-color-logo);
-	color: white;
-	border: 1px solid var(--first-color-logo);
-	cursor: pointer;
-}
-table {
-	border-collapse: collapse !important;
-}
-th {
-	border-bottom: 1.78px solid rgb(153, 152, 152);
-}
-
-th.table__offer__title {
-	font-size: 1.8rem;
-	font-weight: 700;
-}
-.th__offer {
-	text-align: center;
+	padding-top: 2rem;
 }
 .offer-image {
-	width: 25%;
+	position: absolute;
+	top: -35px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 2.875rem;
 	border-radius: 10px;
+}
+.offer__table-row {
+	display: flex;
+}
+.offer__table-header {
+	min-height: 14rem;
+	text-align: center;
+	position: relative;
+	border-bottom: 1px dashed var(--first-color-logo);
+}
+.table__title {
+	font-size: xx-large;
+	position: absolute;
+	bottom: 1.75rem;
+	left: 0;
+}
+.table-body-cell {
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+	font-size: small;
+	min-height: 7rem;
+	margin-block: 1rem;
+	border-bottom: 1px dashed var(--first-color-logo);
+}
+.offer-description {
+	color: black;
+	font-size: small;
+	min-height: 5.4rem;
 	margin-top: 1rem;
 }
-thead th:nth-child(1), tbody td:nth-child(1) {
-	text-align: left;
-	width: 40%;
+.offer__table-first__column, .offer__table-column {
+	display: flex;
+	flex-direction: column;
+	padding-inline: 1rem;	
+	padding-top: 2rem;
 }
-thead th:nth-child(2), tbody td:nth-child(2), tfoot td:nth-child(2) {
-	width: 20%;
-	background-color: rgb(213, 212, 212);
+.offer__table-first__column {
+	width: 30%;
 }
-
-thead th:nth-child(3), tbody td:nth-child(3), tfoot td:nth-child(3) {
-	width: 20%;
-	background-color: #f3f1f1;
+.offer__table-column {
+	color: var(--first-color-logo);
+	background-color: white;
+	position: relative;
+	width: 25%;
+	border: 1px solid gainsboro;
+	border-radius: 12px;
+	padding-inline: 1rem;
+	align-items: center;
+	max-height: 1938px;
 }
-
-thead th:nth-child(4), tbody td:nth-child(4), tfoot td:nth-child(4) {
-	width: 20%;
-	background-color: rgb(213, 212, 212);
+.offer__table-column .table-body-cell {
+	width: 100%;
 }
-
-tbody td {
-	text-align: center;
-	border-bottom: .5px solid rgb(153, 152, 152);
-	padding-block: .5rem;
+.offer-price {
+	font-size: 2.5rem;
+	font-weight: 800;
 }
-
-tfoot td {
-	padding-top: .8rem;
-	text-align: center;
+.offer-important-info {
+	font-size: 1.4rem;
+	font-weight: 900;
+}
+.third-column {
+	border: 1.8px solid rgb(203, 38, 112);
+	z-index: 1;
+	box-shadow:
+	0 2.8px 2.2px rgba(156, 37, 90, 0.034),
+	0 6.7px 5.3px rgba(156, 37, 90, 0.048),
+	0 12.5px 10px rgba(156, 37, 90, 0.06),
+	0 22.3px 17.9px rgba(156, 37, 90, 0.072),
+	0 21.8px 33.4px rgba(224, 224, 224, 0.86),
+	0px 30px 40px rgba(156, 37, 90, 0.12);
 }
 
 /*========== MOBILE ==========*/
 .mobile__title{
 	text-align: center;
-	font-weight: 400;
+	color: var(--first-color-logo);
+	font-weight: 200;
+	font-size: 1.6rem;
 }
 .mobile__task__container {
 	margin-top: 5rem;
@@ -633,53 +692,6 @@ tfoot td {
 }
 .distinction__item {
 	width: 18%;
-}
-/*========== OFFER ==========*/
-.offer {
-	display: flex;
-	justify-content: center;
-}
-.offer__description {
-	margin-top: 1.5rem;
-}
-table {
-	border-collapse: collapse !important;
-}
-th {
-	border-bottom: 1.78px solid rgb(153, 152, 152);
-	height: 4rem;
-}
-.table__offer {
-	position: relative;
-	margin-bottom: 10rem;
-}
-.table__offer__title {
-	font-size: 1.8rem;
-	font-weight: 700;
-}
-thead th:nth-child(1), tbody td:nth-child(1) {
-	text-align: left;
-	width: 40%;
-}
-thead th:nth-child(2), tbody td:nth-child(2) {
-	width: 20%;
-	background-color: rgb(213, 212, 212);
-}
-
-thead th:nth-child(3), tbody td:nth-child(3) {
-	width: 20%;
-	background-color: #f3f1f1;
-}
-
-thead th:nth-child(4), tbody td:nth-child(4) {
-	width: 20%;
-	background-color: rgb(213, 212, 212);
-}
-
-tbody td {
-	text-align: center;
-	border-bottom: .5px solid rgb(153, 152, 152);
-	padding-block: .5rem;
 }
 
 /*========== TESTIMONIAL ==========*/
@@ -748,6 +760,7 @@ tbody td {
 	width: 40px;
 	position: absolute;
 	top: 50% !important;
+	padding: 0 !important;
   }
   @media only screen and (max-width: 934px) {
 	.carousel-root {
@@ -778,6 +791,7 @@ tbody td {
 	background-color: var(--first-color-logo);
 	color: white;
 	border: 1px solid white;
+	border-radius: 0px 25px 25px 0px;
 	width: 20%;
 	height: 3.5rem;
 }
@@ -828,6 +842,7 @@ tbody td {
 	background-color: var(--first-color-logo);
 	height: 3.55rem;
 	border: 1px solid var(--first-color-logo);
+	border-radius: 0px 25px 25px 0px;
 }
 @media only screen and (max-width: 768px) {
 	.footer {
@@ -847,6 +862,8 @@ tbody td {
 	}
 	.footer_registration__button {
 		width: 70%;
+		margin-top: .5rem;
+		border-radius: 25px;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 1002px) {
@@ -869,11 +886,28 @@ tbody td {
 .description__title {
 	font-size: 1.8rem;
 	font-weight: 400;
+	color: var(--first-color-logo);
+}
+.description__first-paragraph, .description__second-paragraph {
+	margin-top: 1rem;
+	text-align: justify;
 }
 .description__paragraph {
 	margin-top: 1rem;
-	font-size: .81rem;
-	text-align: justify;
+}
+.description__first-paragraph {
+	color: var(--first-color-logo);
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+.description__second-paragraph {
+	font-size: 1rem;
+	margin-bottom: .7rem;
+}
+.description__list {
+	list-style: disc;
+	margin-left: 1.7rem;
+	font-weight: 600;
 }
 .description__col1, .description__col2 {
 	width: 50%;
@@ -932,7 +966,15 @@ tbody td {
 .location__title {
 	font-weight: 400;
 	font-size: 1.8rem;
+	color: var(--first-color-logo);
 	margin-bottom: 1rem;
+}
+.location__description {
+	font-size: .91rem;
+	margin-bottom: 1rem;
+}
+.location__description-bold {
+	color: var(--first-color-logo);
 }
 /*========== CONTACT FORM ==========*/
 .contact-form {
@@ -965,6 +1007,7 @@ tbody td {
 	}
 	.get_in_touch__form, .get_in_touch__button {
 		width: 80%;
+		border: 25px;
 	}
 }
 @media screen and (min-width: 359px) and (max-width: 576px) {
@@ -1123,9 +1166,12 @@ tbody td {
 		padding: 2rem;
 		border-radius: 1.5rem;
 	}
+	.offer {
+		min-height: 2100px;
+	}
 }
 
-#open-account {
+#ouvrir-compte {
 	background: var(--first-color-logo);
 	padding: 5px 10px;
 	text-transform: none;

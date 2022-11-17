@@ -16,6 +16,8 @@ export function Footer(props) {
     field: {
       width: '70%',
       backgroundColor: 'white',
+      overflow: 'hidden',
+      borderRadius: '25px 0px 0px 25px'
     },
   });
 
@@ -58,10 +60,7 @@ export function Footer(props) {
               </button>
             </li>
             <li>
-              <button
-                className="footer-navigation"
-                type="button"
-                onClick={() => navigate('/general-conditions-of-use')}>
+              <button className="footer-navigation" type="button" onClick={() => navigate('/general-condition-of-use')}>
                 <a href="#CGU">Conditions générales d'utilisation</a>
               </button>
             </li>
