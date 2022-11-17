@@ -57,6 +57,11 @@ export function Footer(props) {
                 <a href="https://dashboard-dev.bpartners.app/login">Mon compte</a>
               </button>
             </li>
+            <li>
+              <button className="footer-navigation" type="button" onClick={() => navigate('/general-condition-of-use')}>
+                <a href="#CGU">Conditions générales d'utilisation</a>
+              </button>
+            </li>
           </ul>
         </div>
         <div className="footer_registration">
