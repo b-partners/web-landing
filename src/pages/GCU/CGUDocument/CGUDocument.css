@@ -1,0 +1,21 @@
+.cgu-document {
+    font-family: sans-serif;
+    margin-inline: auto;
+    min-height: 80vh;
+}
+.react-pdf__Page {
+    width: 100%;
+}
+.react-pdf__Page__canvas {
+    margin: auto;
+    height: 80vh;
+}
+.pager {
+    display: flex;
+    width: 14vw;
+    gap: 5vw;
+    margin: auto;
+}
+.annotationLayer, .textLayer {
+    display: none;
+}
