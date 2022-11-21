@@ -35,10 +35,9 @@ export function Description() {
             En parallèle, nous poursuivrons nos recherches  pour améliorer notre assistant commercial
             doté d’une Intelligence Artificielle pour identifier les opportunités business disponibles
             autour de chez eux à un instant T.
-            Pour le lancement, nous avons réalisé des dizaines d’interviews métiers et pris contact
-            avec les Chambres des Métiers et de l’Artisanat (« CMA ») françaises afin de mettre au
+            Pour le lancement, nous avons réalisé des dizaines d’interviews métiers afin de mettre au
             point l'outil de gestion bancaire et d'activité dont avaient besoin les artisans français.
-            En s’appuyant sur les données collectées, l’expertise des CMAs et une collaboration (partage de PI)
+            En s’appuyant sur les données collectées et une collaboration (partage de PI)
             avec un laboratoire de recherche spécialisé en IA, BPartners offrira une expérience unique aux artisans,
             avec un accès aux dernières possibilités technologiques disponibles.
           </p>
