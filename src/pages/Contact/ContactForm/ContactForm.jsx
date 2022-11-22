@@ -14,13 +14,13 @@ export function ContactForm() {
             CONTACT ACCUEIL
             <ul style={{ marginBlock: '1rem' }}>
               <li>
-                <i className="fa fa-phone" />
+                <i className="fa fa-phone logo-color" />
                 <u>01 82 07 72 28</u>
               </li>
               <li>
-                <i className="fa fa-envelope" />
+                <i className="fa fa-envelope logo-color" />
                 <a href="mailto:contact@bpartners.app">
-                  <u>contact@bpartners.app</u>
+                  <u className='logo-color'>contact@bpartners.app</u>
                 </a>
               </li>
             </ul>
