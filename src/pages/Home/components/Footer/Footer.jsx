@@ -16,6 +16,8 @@ export function Footer(props) {
     field: {
       width: '70%',
       backgroundColor: 'white',
+      overflow: 'hidden',
+      borderRadius: '25px 0px 0px 25px'
     },
   });
 

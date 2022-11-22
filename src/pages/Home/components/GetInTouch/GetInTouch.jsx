@@ -10,6 +10,9 @@ export function GetInTouch(props) {
   const useStyles = makeStyles({
     field: {
       width: '80%',
+      overflow: 'hidden',
+      border: '1px solid white',
+      borderRadius: '25px 0px 0px 25px'
     },
   });
 
@@ -43,6 +46,9 @@ export function GetInTouch(props) {
               name="email"
               onChange={onEmailChange}
               value={user && user.email}
+              sx={
+                {borderBottom: "none"}
+              }
             />
             <Button type="submit" label="Je m'inscris" preset="get_in_touch__button" onClick={onEmailRegistration} />
           </div>
