@@ -46,7 +46,7 @@ export function Header() {
                 <i className="fa fa-user" style={{ marginLeft: '.6rem' }} />
               </a>
             </li>
-            <li className="nav__item" id="ouvrir-compte">
+            <li className="nav__item" id="open-account">
               <Button type="submit" label="Je m'inscris" onClick={() => setOpen(true)} />
             </li>
           </ul>

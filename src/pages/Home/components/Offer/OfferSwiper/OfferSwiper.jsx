@@ -53,7 +53,7 @@ export function OfferSwiper(props) {
                         />
                         <IconList
                             imageSrc=""
-                            listText="Collectez plus rapidement vos encaissements par QR code, Mails ou SMS.
+                            listText="Collecter plus rapidement vos encaissements par QR code, Mails ou SMS.
                             (Mail / QR code: 1000€ inclus puis 2% SMS: 2% et 0,40€ par SMS)"
                         />
                         <IconList
@@ -109,7 +109,7 @@ export function OfferSwiper(props) {
                         />
                         <IconList
                             imageSrc=""
-                            listText="Collectez plus rapidement vos encaissements par QR code, Mails ou SMS.
+                            listText="Collecter plus rapidement vos encaissements par QR code, Mails ou SMS.
                             Mail / QR code: 1000€ inclus puis 2% SMS: 1,5% et 0,30€ par SMS"
                         />
                         <IconList
@@ -177,7 +177,7 @@ export function OfferSwiper(props) {
                         />
                         <IconList
                             imageSrc=""
-                            listText="Collectez plus rapidement vos encaissements par QR code, Mails ou SMS.
+                            listText="Collecter plus rapidement vos encaissements par QR code, Mails ou SMS.
                             Mail / QR code: 1000€ inclus puis 2% SMS: 0,99% et 0,20€ par SMS"
                         />
                         <IconList
