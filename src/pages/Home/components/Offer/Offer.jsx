@@ -5,7 +5,7 @@ import * as PropTypes from 'prop-types';
 
 import WavesTopBg from '../../assets/img/waves-top-bg.png';
 import { OfferSwiper } from './OfferSwiper';
-import { OfferTable } from './OfferTable';
+import { TableOffer } from './TableOffer';
 
 export function Offer(props) {
   const { setModalOpen } = props;
@@ -17,12 +17,12 @@ export function Offer(props) {
         alt=" "
         style={{
           position: 'absolute',
-          zIndex: '-1',
+          zIndex: '1',
           right: '0',
           bottom: '-.08rem',
         }}
       />
-      {matches ? <OfferTable setModalOpen={setModalOpen} /> : <OfferSwiper setModalOpen={setModalOpen} />}
+      {matches ? <TableOffer setModalOpen={setModalOpen} /> : <OfferSwiper setModalOpen={setModalOpen} />}
     </section>
   );
 }

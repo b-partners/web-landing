@@ -8,7 +8,9 @@ export function IconList({ imageSrc, listText }) {
   return (
     <li className="home-list-item">
       {imageSrc === '' ? (
-        <i className="fa fa-check fa-2x" aria-hidden="true" />
+        <div>
+          <i className="fa fa-check" aria-hidden="true" />
+        </div>
       ) : (
         <div className="home-list-icon">
           <img src={imageSrc} alt=" " className="icon-list" />

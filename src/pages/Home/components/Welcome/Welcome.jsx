@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import React from 'react';
+import { makeStyles } from '@mui/styles';
 
 import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
@@ -18,6 +19,17 @@ import WelcomeSectionBg from '../../assets/img/welcome-bg.png';
 
 export function Welcome(props) {
   const { onEmailChange, onEmailRegistration, user } = props;
+
+  const useStyles = makeStyles({
+    field: {
+      width: '70%',
+      height: 'inherit',
+      overflow: 'hidden',
+      borderRadius: '25px 0px 0px 25px'
+    },
+  });
+
+  const classes = useStyles();
 
   return (
     <section className="home" id="home">
@@ -64,19 +76,24 @@ export function Welcome(props) {
               Renseignez votre mail et <br />
               rejoignez les artisans de demain.
             </h2>
-            <TextField
-              name="email"
-              label="Email"
-              type="mail"
-              variant="filled"
-              onChange={onEmailChange}
-              value={user && user.email}
-              sx={{
-                marginBottom: '1rem',
-              }}
-              required
-            />
-            <Button type="button" label="Ça m'interesse" preset="registration-button" onClick={onEmailRegistration} />
+            <div className='home-registration-mail'>
+              <TextField
+                className={classes.field}
+                name="email"
+                label="Email"
+                type="mail"
+                variant="filled"
+                onChange={onEmailChange}
+                value={user && user.email}
+                required
+              />
+              <Button
+                type="button"
+                label="Ça m'interesse"
+                preset="home-registration-button"
+                onClick={onEmailRegistration}
+              />
+            </div>
           </Paper>
         </div>
         <div>

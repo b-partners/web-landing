@@ -14,7 +14,7 @@ export function OfferCard({ imageSrc, offer, price, cardText, buttonLabel, setMo
     <>
       <div className="offer-card">
         <div>
-          <img src={imageSrc} alt={imageSrc} className="offer-image" />
+          <img src={imageSrc} alt={imageSrc} className="card-offer-image" />
         </div>
         <h2>
           {offer} <br />

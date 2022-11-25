@@ -7,6 +7,11 @@
   width: auto;
   min-height: 29.5rem;
 }
+.card-offer-image {
+  width: 25%;
+  border-radius: .625rem;
+  margin-top: 1rem;
+}
 .offer__card__button {
   background-color: black;
   color: white;
@@ -17,10 +22,16 @@
   font-weight: 300;
   font-size: 1.3rem;
 }
+.offer-registration-button {
+  background-color: var(--first-color-logo);
+  color: white;
+  border: 1px solid var(--first-color-logo);
+  cursor: pointer;
+}
 .more-info__button {
   background-color: white;
-  border: 1px solid white;
-  color: black;
+  border: 1px solid var(--first-color-logo);
+  color: var(--first-color-logo);
   margin-bottom: 0.7rem;
   width: 93%;
   margin-inline: auto;
