@@ -7,7 +7,7 @@ import './ShareCard.css';
 export function ShareCard({ cardText }) {
   return (
     <div className="share__element">
-      <i className="fa fa-check fa-2x" aria-hidden="true" /> <br />
+      <i className="fa fa-check" aria-hidden="true" /> <br />
       {cardText}
     </div>
   );
