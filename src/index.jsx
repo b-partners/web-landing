@@ -13,6 +13,7 @@ Sentry.init({
     dsn: environment.sentryDSN,
     integrations: [new BrowserTracing()],
     tracesSampleRate: 1.0,
+    environment: environment.sentryENV,
 });
 
 ReactDOM.render(
