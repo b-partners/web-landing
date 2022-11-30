@@ -1,6 +1,7 @@
 .cgu-document {
   margin-inline: auto;
   position: relative;
+  min-height: 37.5rem;
 }
 .react-pdf__message {
   padding-top: 10rem;

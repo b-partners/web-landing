@@ -60,7 +60,10 @@ export function Footer(props) {
               </button>
             </li>
             <li>
-              <button className="footer-navigation" type="button" onClick={() => navigate('/general-condition-of-use')}>
+              <button
+                className="footer-navigation"
+                type="button"
+                onClick={() => navigate('/general-conditions-of-use')}>
                 <a href="#CGU">Conditions générales d'utilisation</a>
               </button>
             </li>

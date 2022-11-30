@@ -5,6 +5,7 @@ import { Button } from '../../../../../common/components/Button';
 import Essentiel from '../../../assets/img/essentiel.png';
 import Developpement from '../../../assets/img/developpement.png';
 import Ambitieux from '../../../assets/img/ambitieux.png';
+import { RedundantTableLine } from './RedundantTableLine/RedundantTableLine';
 
 export function TableOffer(props) {
     const { setModalOpen } = props;
@@ -91,26 +92,7 @@ export function TableOffer(props) {
                         Mail / QR code: 1000€ inclus puis 2% SMS: 2% et 0,40€ par SMS
                     </p>
                 </div>
-                <div className='table-body-cell'>
-                    <p className='text-center'>
-                        <b className='offer-important-info'>1 Utilisateur</b>
-                    </p>
-                </div>
-                <div className='table-body-cell'>
-                    <p className='text-center'>
-                        <i className="fa fa-check" aria-hidden="true" />
-                    </p>
-                </div>
-                <div className='table-body-cell'>
-                    <p className='text-center'>
-                        <i className="fa fa-check" aria-hidden="true" />
-                    </p>
-                </div>
-                <div className='table-body-cell'>
-                    <p className='text-center'>
-                        <i className="fa fa-check" aria-hidden="true" />
-                    </p>
-                </div>
+                <RedundantTableLine />
                 <div className='table-body-cell'>
                     { }
                 </div>
@@ -162,26 +144,7 @@ export function TableOffer(props) {
                         Mail / QR code: 1000€ inclus puis 2% SMS: 1,5% et 0,30€ par SMS
                     </p>
                 </div>
-                <div className='table-body-cell'>
-                    <p className='text-center'>
-                        <b className='offer-important-info'>1 Utilisateur</b>
-                    </p>
-                </div>
-                <div className='table-body-cell'>
-                    <p className='text-center'>
-                        <i className="fa fa-check" aria-hidden="true" />
-                    </p>
-                </div>
-                <div className='table-body-cell'>
-                    <p className='text-center'>
-                        <i className="fa fa-check" aria-hidden="true" />
-                    </p>
-                </div>
-                <div className='table-body-cell'>
-                    <p className='text-center'>
-                        <i className="fa fa-check" aria-hidden="true" />
-                    </p>
-                </div>
+                <RedundantTableLine />
                 <div className='table-body-cell'>
                     <p className='text-center'>
                         <b className='offer-important-info'>1 carte offerte</b>
