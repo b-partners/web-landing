@@ -25,7 +25,7 @@ export function Description() {
             artisans pour les artisans. <br />
             Notre ambition est de permettre à tous les artisans :
             <ul style={{ listStyle: 'disc', marginLeft: '1.7rem' }}>
-              <li>d'ouvrir un compte bancaire traditionnel</li>
+              <li>d'ouvrir un compte traditionnel</li>
               <li>d'automatiser leur édition de devis/factures</li>
               <li>d'avoir un outil pour encaisser leurs clients sur mobile via QR code/Lien/sms de paiement</li>
               <li>de les soulager de la relance client ou la recherche de nouveaux clients.</li>
@@ -42,7 +42,7 @@ export function Description() {
             avec un accès aux dernières possibilités technologiques disponibles.
           </p>
           <p className='description__paragraph'>
-            Concrètement, nous démarrons la commercialisation en proposant un compte bancaire aux artisans,
+            Concrètement, nous démarrons la commercialisation en proposant un compte aux artisans,
             autour duquel nous allons faire graviter toute la vie de l’entreprise avec des outils d’automatisation
             couvrant :
             <ul style={{ listStyle: 'disc', marginLeft: '1.7rem' }}>
