@@ -27,7 +27,7 @@ export function Description() {
               artisans pour les artisans.</b> Notre ambition est de permettre à tous les artisans :
           </p>
           <ul className='description__list'>
-            <li>d'ouvrir un compte bancaire traditionnel</li>
+            <li>d'ouvrir un compte traditionnel</li>
             <li>d'automatiser leur édition de devis/factures</li>
             <li>d'avoir un outil pour encaisser leurs clients sur mobile via QR code/Lien/sms de paiement</li>
             <li>de les soulager de la relance client ou la recherche de nouveaux clients.</li>

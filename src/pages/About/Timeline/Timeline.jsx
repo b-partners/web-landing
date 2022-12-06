@@ -1,56 +1,33 @@
 import React from 'react';
+import { Polygone } from './Polygone';
 import './Timeline.css';
 
 export function Timeline() {
     return (
-        <section className="timeline">
-            <div className="timeline__container">
-                <div className="timeline__element" />
-                <div className="timeline__element line horizontal">
-
-                    <div className="timeline__elt">
-                        <div className="sub__timeline__elt">
-                            <p className="round" />
-                            <p className="timeline__text">
-                                Lancement des rencontres avec les artisans en S2 2022.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="timeline__elt">
-                        <div className="sub__timeline__elt">
-                            <p className="round" />
-                            <p className="timeline__text">
-                                Création de la société en Juillet 2022, lancement des développements IT.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="timeline__elt">
-                        <div className="sub__timeline__elt">
-                            <p className="round" />
-                            <p className="timeline__text">
-                                Interviews des artisans testeurs.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="timeline__elt">
-                        <div className="sub__timeline__elt">
-                            <p className="round" />
-                            <p className="timeline__text">
-                                Novembre 2022 : Commercialisation.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="timeline__elt">
-                        <div className="sub__timeline__elt">
-                            <p className="round" />
-                            <p className="timeline__text">
-                                Décembre 2022 : Lancement d’un programme de R&D.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
+        <div className="timeline">
+            <Polygone
+                description='Lancement des rencontres avec les artisans en S2 2022.'
+                color='rgba(156, 37, 90, 1)'
+                position='polygone-up'
+                borderLeft='polygone-border-left' 
+                />
+            <Polygone
+                description='Création de la société en Juillet 2022, lancement des développements IT.'
+                color='rgba(165, 58, 106, 1)'
+                position='polygone-down' /> 
+            <Polygone
+                description='Interviews des artisans testeurs.'
+                color='rgba(175, 79, 122, 1)'
+                position='polygone-up' />
+            <Polygone
+                description='Novembre 2022 : Commercialisation.'
+                color='rgba(197, 129, 161, 1)'
+                position='polygone-down' />
+            <Polygone
+                description='Décembre 2022 : Lancement d’un programme de R&D.'
+                color='rgba(213, 164, 188, 1)'
+                position='polygone-up'
+                borderLeft='polygone-border-right' />
+        </div>
     )
 }

@@ -1,14 +1,15 @@
 import React from 'react';
-
+import { useMediaQuery } from '@mui/material';
 import { Timeline } from '../Timeline';
+import { ResponsiveTimeline } from '../ResponsiveTimeline';
 
 export function History() {
+  const matches = useMediaQuery('(min-width: 768px)');
   return (
     <section className="history">
       <div className="bd-container">
         <h2 className="history__title">Notre histoire</h2>
-        <h3 className="actual-year">2022</h3>
-        <Timeline />
+        {matches ? <Timeline /> : <ResponsiveTimeline />}
       </div>
     </section>
   );

@@ -1,15 +1,18 @@
 import React from 'react';
 import { makeStyles } from '@mui/styles';
 import TextField from '@mui/material/TextField';
+import { useMediaQuery } from '@mui/material';
 import * as PropTypes from 'prop-types';
 
 import WavesBottomBg from '../../assets/img/waves-bottom-bg.png';
 import { Button } from '../../../../common/components/Button/Button';
 
 export function GetInTouch(props) {
+  const matches = useMediaQuery('(max-width: 1021px)');
+
   const useStyles = makeStyles({
     field: {
-      width: '80%',
+      width: '70%',
       overflow: 'hidden',
       border: '1px solid white',
       borderRadius: '25px 0px 0px 25px'
@@ -32,7 +35,7 @@ export function GetInTouch(props) {
         }}
       />
       <div className="bd-container section">
-        <h2 className="get_in_touch__title">Rester informé</h2>
+        <h2 className="get_in_touch__title">Restez informé</h2>
         <p style={{ marginBlock: '1.3rem' }}>
           Aujourd'hui les artisans consacrent entre 30 % et 40 % de
           leur temps sur des tâches administratives et financières.
@@ -41,15 +44,18 @@ export function GetInTouch(props) {
           <div className="form-wrapper">
             <TextField
               className={classes.field}
+              sx={matches ? {
+                borderRadius: '25px !important',
+                marginBottom: '.5rem'
+              } : {
+                borderRadius: '25px 0px 0px 25px'
+              }}
               label="Email"
               type="mail"
               variant="filled"
               name="email"
               onChange={onEmailChange}
               value={user && user.email}
-              sx={
-                {borderBottom: "none"}
-              }
             />
             <Button type="submit" label="Je m'inscris" preset="get_in_touch__button" onClick={onEmailRegistration} />
           </div>

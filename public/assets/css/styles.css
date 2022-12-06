@@ -413,11 +413,13 @@ h1.home__title {
 	height: 2.7rem
 }
 .registration-button {
-	width: 9rem;
-	height: auto;
+	bottom: -33px;
+	width: 20%;
+	height: 3rem;
 	background-color: var(--first-color-logo);
 	color: white;
 	border: 1px solid var(--first-color-logo);
+	border-radius: 12px;
 	margin-bottom: .7rem;
 	cursor: pointer;
 }
@@ -488,6 +490,14 @@ h1.home__title {
 	display: flex;
 	justify-content: center;
 	padding-block: 2rem;
+}
+.share-img-container {
+	height: 38px;
+	display: flex;
+}
+.share-description {
+	margin-top: 1rem;
+	font-size: var(--small-font-size);
 }
 .share__container {
 	display: flex;
@@ -608,15 +618,15 @@ img[alt="mobile_image"] {
 	width: 30%;
 }
 .offer__table-column {
+	position: relative;
 	color: var(--first-color-logo);
 	background-color: white;
-	position: relative;
 	width: 25%;
 	border: 1px solid gainsboro;
 	border-radius: 12px;
 	padding-inline: 1rem;
 	align-items: center;
-	max-height: 1938px;
+	max-height: 1888px;
 }
 .offer__table-column .table-body-cell {
 	width: 100%;
@@ -792,7 +802,7 @@ img[alt="mobile_image"] {
 	color: white;
 	border: 1px solid white;
 	border-radius: 0px 25px 25px 0px;
-	width: 20%;
+	width: 30%;
 	height: 3.5rem;
 }
 /*========== FOOTER ==========*/
@@ -862,13 +872,13 @@ img[alt="mobile_image"] {
 	}
 	.footer_registration__button {
 		width: 70%;
-		margin-top: .5rem;
 		border-radius: 25px;
 	}
 }
-@media only screen and (min-width: 768px) and (max-width: 1002px) {
+@media only screen and (min-width: 768px) and (max-width: 1021px) {
 	.footer_registration__button {
 		width: 70%;
+		border-radius: 25px;
 	}
 	iframe[title="bpartners_video"] {
 		width: 100%;
@@ -922,24 +932,26 @@ img[alt="mobile_image"] {
 }
 /*========== HISTORY ==========*/
 .history {
-	position: relative;
 	background-color: rgb(235, 235, 235);
-	min-height: 400px;
 }
-.divider {
-	position: relative;
+.timeline {
+	min-height: 350px;
+	display: flex;
+	align-items: center;
+}
+.responsive-timeline {
+	display: flex;
+	flex-direction: column;
+	min-height: 1000px;
+	justify-content: center;
+	gap: 10rem;
 }
 .history__title {
 	text-align: center;
 	font-size: 1.8rem;
 	font-weight: 700;
-	margin-bottom: 2rem;
 }
-.actual-year {
-	margin-left: 2rem;
-	font-size: 3rem;
-	font-weight: 200;
-}
+
 @media only screen and (max-width: 1200px) {
 	.history {
 		min-height: 1000px;
@@ -1092,7 +1104,8 @@ img[alt="mobile_image"] {
 		margin: auto;
 	}
 	.get_in_touch__button {
-		width: 80%;
+		width: 70%;
+		border-radius: 25px;
 	}
 	.form-wrapper {
 		margin: auto;
