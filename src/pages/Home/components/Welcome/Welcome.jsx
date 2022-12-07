@@ -53,7 +53,7 @@ export function Welcome(props) {
                 <IconList imageSrc={QrCode} listText="Encaissement de vos prestations sur mobile et à distance." />
                 <IconList
                   imageSrc={VirtualBot}
-                  listText="Être informé en temps réel des chantiers,
+                  listText="Identification en temps réel des chantiers,
                et des demande de dépannages autour de chez vous."
                 />
               </ul>
