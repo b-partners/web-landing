@@ -15,7 +15,7 @@ export function ContactForm() {
             <ul style={{ marginBlock: '1rem' }}>
               <li>
                 <i className="fa fa-phone" />
-                <u>01 82 07 72 28</u>
+                <u>01 84 80 31 69</u>
               </li>
               <li>
                 <i className="fa fa-envelope" />
