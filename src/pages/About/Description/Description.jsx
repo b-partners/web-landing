@@ -1,21 +1,10 @@
 import React from 'react';
 
 import logo from '../../Home/assets/img/logo.png';
-import WavesTopBg from '../../Home/assets/img/waves-top-bg.png';
 
 export function Description() {
   return (
     <section className="description" id="description">
-      <img
-        src={WavesTopBg}
-        alt=" "
-        style={{
-          position: 'absolute',
-          zIndex: '-1',
-          right: '0',
-          bottom: '-0.05rem',
-        }}
-      />
       <div className="description__container bd-container">
         <div className="description__col1">
           <h2 className="description__title">À propos</h2>

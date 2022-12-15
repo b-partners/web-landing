@@ -89,7 +89,7 @@ export function ContactForm() {
               multiline
               rows={4}
             />
-            <Button type="submit" label="Envoyer" preset="registration-button" />
+            <Button type="submit" label="Envoyer" preset="contact-registration-button" />
           </div>
         </div>
       </section>

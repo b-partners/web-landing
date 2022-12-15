@@ -15,14 +15,14 @@ import CashRegisterEuro from '../../assets/img/cash-register-euro.png';
 import PaidBill from '../../assets/img/paid-bill.png';
 import QrCode from '../../assets/img/qr-code-ext.png';
 import VirtualBot from '../../assets/img/virtual-bot.png';
-import WelcomeSectionBg from '../../assets/img/welcome-bg.png';
+import WelcomeSectionBg from '../../assets/img/welcome-waves.png';
 
 export function Welcome(props) {
   const { onEmailChange, onEmailRegistration, user } = props;
 
   const useStyles = makeStyles({
     field: {
-      width: '70%',
+      width: '60%',
       height: 'inherit',
       overflow: 'hidden',
       borderRadius: '25px 0px 0px 25px'
@@ -38,7 +38,6 @@ export function Welcome(props) {
         alt=" "
         style={{
           position: 'absolute',
-          zIndex: '-1',
           bottom: '-.05rem',
         }}
       />
@@ -71,7 +70,11 @@ export function Welcome(props) {
               </ul>
             </div>
           </div>
-          <Paper elevation={5} className="home-registration-form">
+          <Paper elevation={5} className="home-registration-form" 
+          sx={{
+            padding: '20px'
+          }}
+          >
             <h2 className="registration-title">
               Renseignez votre mail et <br />
               rejoignez les artisans de demain.
