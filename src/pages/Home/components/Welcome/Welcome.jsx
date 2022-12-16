@@ -42,9 +42,9 @@ export function Welcome(props) {
         }}
       />
       <h1 className="home__title bd-container">
-        L'assistant bancaire intelligent qui <br />
+        L'assistant intelligent qui <br />
         <span style={{ fontWeight: '600' }}>
-          accélère la croissance et les <br /> encaissements des artisans français.
+          accélère la croissance<br /> des artisans français.
         </span>
       </h1>
       <div className="home__container bd-container bd-grid">
