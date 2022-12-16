@@ -42,9 +42,9 @@ export function Welcome(props) {
         }}
       />
       <h1 className="home__title bd-container">
-        L'assistant intelligent qui <br />
+        L'assistant intelligent qui accélère<br />
         <span style={{ fontWeight: '600' }}>
-          accélère la croissance<br /> des artisans français.
+          la croissance des artisans français.
         </span>
       </h1>
       <div className="home__container bd-container bd-grid">
@@ -70,10 +70,10 @@ export function Welcome(props) {
               </ul>
             </div>
           </div>
-          <Paper elevation={5} className="home-registration-form" 
-          sx={{
-            padding: '20px'
-          }}
+          <Paper elevation={5} className="home-registration-form"
+            sx={{
+              padding: '20px'
+            }}
           >
             <h2 className="registration-title">
               Renseignez votre mail et <br />
