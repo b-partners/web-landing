@@ -1,59 +1,59 @@
 .cgu-document {
-    margin-inline: auto;
-    overflow-y: scroll;
-    position: relative;
+  margin-inline: auto;
+  position: relative;
+  min-height: 37.5rem;
 }
 .react-pdf__message {
-    padding-top: 10rem;
-    text-align: center;
+  padding-top: 10rem;
+  text-align: center;
 }
 .react-pdf__Page {
-    width: 100%;
+  width: 100%;
 }
 .react-pdf__Page__canvas {
-    box-shadow:
-    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 21.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 50px 40px rgba(0, 0, 0, 0.12);
-    border: 1px solid rgb(228, 223, 223);
-    margin: auto;
-    transform: scale(80%);
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 21.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 50px 40px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgb(228, 223, 223);
+  margin: auto;
+  margin-top: 5rem;
 }
 .pager {
-    position: absolute;
-    bottom: 35px;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    justify-content: center;
-    gap: 1vw;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
 }
 .pagination__button {
-  border: none;
-  background-color: transparent;
+border: none;
+background-color: transparent;
 }
 .annotationLayer, .textLayer {
-    display: none;
+  display: none;
 }
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

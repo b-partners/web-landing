@@ -18,12 +18,12 @@ export function Location() {
       <div className='location__container bd-container'>
         <div className='location__col1'>
           <h2 className='location__title'>Contact</h2>
-          <p style={{ fontSize: '.91rem', marginBottom: '1rem' }}>
+          <p className='location__description'>
             BPartners est une société enregistrée à l'Orias avec son
             siège social basé à Paris dans le 18ème arrondissement.
             <br />
           </p>
-          <b>N'hésitez pas à nous écrire pour toute question.</b>
+          <b className='location__description-bold'>N'hésitez pas à nous écrire pour toute question.</b>
         </div>
         <div className='location__col2'>
           <iframe

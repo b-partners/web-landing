@@ -1,24 +1,13 @@
 import React from 'react';
-import * as PropTypes from 'prop-types';
 import { IconCard } from '../../../../common/components/IconCard';
 
 import CashRegisterEuro from '../../assets/img/cash-register-euro.png';
 import PaidBill from '../../assets/img/paid-bill.png';
 import VirtualBot from '../../assets/img/virtual-bot.png';
-import WavesBottomBg from '../../assets/img/waves-bottom-bg.png';
 
-
-export function Solution(props) {
-    const {backgroundColor} = props;
+export function Solution() {
     return (
-        <section className={`solution  ${backgroundColor}`}>
-            <img src={WavesBottomBg} alt=" " style={{
-                position: 'absolute',
-                zIndex: '-1',
-                top: '-0.05rem',
-                left: '0'
-            }}
-            />
+        <section className='solution'>
             <div className='bd-container'>
                 <h2 className='solution__title'>
                     <span style={{ fontWeight: "200" }}>
@@ -28,7 +17,7 @@ export function Solution(props) {
                         <span style={{ fontWeight: "700" }}> grandir votre entreprise.</span>
                     </span>
                 </h2>
-                <p style={{marginBottom: '2rem'}}>
+                <p style={{ marginBottom: '2rem' }}>
                     On a discuté avec des artisans comme vous et nous avons simplifié les outils
                     existants en les rendant pragmatiques.<br /> Des fonctionnalités utiles, simples à utiliser
                     qui viennent alléger votre quotidien d’artisan sur :
@@ -52,7 +41,4 @@ export function Solution(props) {
             </div>
         </section>
     )
-}
-Solution.propTypes = {
-    backgroundColor: PropTypes.string.isRequired,
 }

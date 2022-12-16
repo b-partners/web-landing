@@ -1,0 +1,34 @@
+.polygone__container {
+    position: relative;
+    width: 18.4%;
+    margin-inline: .7%;
+    height: 2rem;
+}
+.responsive-width {
+    width: 11rem;
+}
+.timeline-element {
+    text-align: center;
+    margin-top: 6rem;
+}
+.polygone {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+.polygone-border-right {
+    border-radius: 25px 0 0 25px;
+}
+.polygone-border-left {
+    border-radius: 0 25px 25px 0;
+}
+.polygone-up {
+    transform: rotate(180deg);
+}
+.polygone-down {
+    transform: none;
+}
+.polygone-right {
+    transform: rotate(-90deg);
+}

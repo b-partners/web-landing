@@ -16,24 +16,23 @@ import { Welcome } from './components/Welcome';
 
 export function Home(props) {
   const { setModalOpen, onEmailChange, onEmailRegistration, user } = props;
-  const [backgroundColor, setBackgroundColor] = useState('');
+  const [pathName, setPathName] = useState('');
   const { pathname } = useLocation();
-
-  const handleChangeBackground = () =>
-    backgroundColor === 'gray' ? setBackgroundColor('') : setBackgroundColor('gray');
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    handleChangeBackground();
+    setPathName(pathname);
   }, [pathname]);
 
   return (
     <div>
-      <Header />
-      <Welcome onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
+      <section className='test__header'>
+        <Header pathName={pathName} />
+        <Welcome onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
+      </section>
       <Feature />
       <Authenticity />
-      <Solution backgroundColor={backgroundColor} />
+      <Solution />
       <Distinction />
       <Offer setModalOpen={setModalOpen} />
       <Testimonial />

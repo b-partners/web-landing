@@ -4,17 +4,26 @@ import PropTypes from 'prop-types';
 
 import './ShareCard.css';
 
-export function ShareCard({ cardText }) {
+export function ShareCard({ cardText, imgSrc }) {
   return (
     <div className="share__element">
-      <i className="fa fa-check fa-2x" aria-hidden="true" /> <br />
-      {cardText}
+      <div className='share-img-container'>
+        <img
+          src={imgSrc}
+          alt={imgSrc}
+          className='share-img'
+        />
+      </div>
+      <p className='share-description'>
+        {cardText}
+      </p>
     </div>
   );
 }
 
 ShareCard.propTypes = {
   cardText: PropTypes.string,
+  imgSrc: PropTypes.string.isRequired
 };
 
 ShareCard.defaultProps = {

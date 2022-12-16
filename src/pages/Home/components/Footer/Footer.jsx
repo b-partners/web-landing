@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useMediaQuery } from '@mui/material';
 
 import TextField from '@mui/material/TextField';
 import { makeStyles } from '@mui/styles';
@@ -11,11 +12,14 @@ import logo from '../../assets/img/logoFullWhite.png';
 
 export function Footer(props) {
   const navigate = useNavigate();
+  const matches = useMediaQuery('(max-width: 1021px)');
 
   const useStyles = makeStyles({
     field: {
+      border: '1px solid white',
       width: '70%',
       backgroundColor: 'white',
+      overflow: 'hidden',
     },
   });
 
@@ -71,6 +75,12 @@ export function Footer(props) {
           <h4 className="footer_subtitle">RESTER INFORMÉ</h4>
           <TextField
             className={classes.field}
+            sx={matches ? {
+              borderRadius: '25px',
+              marginBottom: '.5rem'
+            } : {
+              borderRadius: '25px 0px 0px 25px'
+            }}
             name="email"
             label="Email"
             type="mail"

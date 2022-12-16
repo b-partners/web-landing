@@ -34,7 +34,7 @@ export function PreRegistrationModal(props) {
   return (<>
     <Dialog open={open} onClose={onClose}>
       <p style={{ textAlign: 'center', marginBlock: '1rem' }}>
-        <i className='fa fa-check fa-2x' aria-hidden='true' />
+        <i className='fa fa-check' aria-hidden='true' />
         Merci, votre pré-inscription est bien prise en compte.
       </p>
       <form onSubmit={onSubmit}>

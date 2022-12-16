@@ -18,9 +18,9 @@ export function ContactForm() {
                 <u>01 84 80 31 69</u>
               </li>
               <li>
-                <i className="fa fa-envelope" />
+                <i className="fa fa-envelope logo-color" />
                 <a href="mailto:contact@bpartners.app">
-                  <u>contact@bpartners.app</u>
+                  <u className='logo-color'>contact@bpartners.app</u>
                 </a>
               </li>
             </ul>
@@ -89,7 +89,7 @@ export function ContactForm() {
               multiline
               rows={4}
             />
-            <Button type="submit" label="Envoyer" preset="registration-button" />
+            <Button type="submit" label="Envoyer" preset="contact-registration-button" />
           </div>
         </div>
       </section>
