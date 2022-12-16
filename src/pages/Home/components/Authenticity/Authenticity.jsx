@@ -3,6 +3,12 @@ import CraftingTools from '../../assets/img/crafting-tools.png';
 import WavesTopBg from '../../assets/img/auth-top-waves.png';
 import WavesBottomBg from '../../assets/img/auth-bottom-waves.png';
 
+import { ShareCard } from '../../../../common/components/ShareCard';
+import Bank from '../../assets/img/bank.png';
+import Euro from '../../assets/img/euro.png';
+import Wallet from '../../assets/img/wallet.png';
+import Trade from '../../assets/img/trade.png';
+
 export function Authenticity() {
   return (
     <>
@@ -21,12 +27,23 @@ export function Authenticity() {
           right: '0'
         }}
         />
-        <div>
-          <h2 className='mobile__title'>
-            <b className='text__highlight'>Votre mobile s'occupe de gérer les <br />tâches administratives,
-              financières et <br />commerciales  </b>
-            pendant que vous faites <br />votre métier d'artisan.
-          </h2>
+        <div className="share__container  bd-container">
+          <ShareCard
+            cardText="Obtenez votre compte professionnel avec un IBAN/RIB FR en quelques secondes."
+            imgSrc={Bank}
+          />
+          <ShareCard
+            cardText="Initiez vos virements et vos encaissements en 1 clic."
+            imgSrc={Euro}
+          />
+          <ShareCard
+            cardText="Obtenez votre carte physique ou virtuelle selon vos besoins."
+            imgSrc={Wallet}
+          />
+          <ShareCard
+            cardText="Agrégez vos comptes pour analyser vos performances."
+            imgSrc={Trade}
+          />
         </div>
       </section>
       <section className='mobile'>
