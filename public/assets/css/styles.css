@@ -180,7 +180,6 @@ video {
 	left: 0;
 	position: fixed;
 	z-index: var(--z-fixed);
-	/* background-image: url('../images/VAGUE.png'); */
 	height: fit-content;
 	background-size: cover;
 }
@@ -302,7 +301,6 @@ img[alt="companyLogo"] {
 	border: 1px solid black;
 	display: flex;
 	justify-content: center;
-	border: 0;
 	background-color: transparent;
 }
 
@@ -373,7 +371,7 @@ img[alt="companyLogo"] {
 }
 h1.home__title {
 	color: white;
-	padding-top: 5rem;
+	padding-top: 7rem;
 	font-weight: 300;
 }
 .home__list{
