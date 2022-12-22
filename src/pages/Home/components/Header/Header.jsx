@@ -1,24 +1,37 @@
 /* eslint-disable no-restricted-globals */
-import React, { useState } from 'react';
+import React from 'react';
 import * as PropTypes from 'prop-types';
 import { NavLink, useNavigate } from 'react-router-dom';
-
-import { Button as Buttons, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
-
+import axios from '../../../../config/axios';
 import { Button } from '../../../../common/components/Button';
 import { useToggle } from '../../../../utils/hooks';
 import '../../assets/css/forms.css';
 import logo from '../../assets/img/logoFullWhite.png';
 import useScrollPosition from '../../../../utils/hooks/useScrollPosition';
+import { redirect } from '../../../../utils/redirect';
 
 export function Header(props) {
   const { pathName } = props;
   const [menuActive, toggleMenuActive] = useToggle(false);
-  const [open, setOpen] = useState(false);
 
   const navigate = useNavigate();
 
   const scrollPosition = useScrollPosition();
+
+  const onRegistration = () => {
+    const initiateOnboarding = async () => {
+      const {
+        data: { redirectionUrl },
+      } = await axios.post('onboardingInitiation', {
+        "redirectionStatusUrls": {
+          "successUrl": process.env.REACT_APP_SUCCESS_URL,
+          "failureUrl": process.env.REACT_APP_FAILURE_URL
+        }
+      });
+      redirect(redirectionUrl);
+    };
+    initiateOnboarding();
+  }
 
   const makeStyle = () => {
     if (scrollPosition !== 0) {
@@ -63,7 +76,7 @@ export function Header(props) {
               </NavLink>
             </li>
             <li style={{ marginLeft: '.7rem' }}>
-              <a name="link-4" href="https://dashboard-dev.bpartners.app/login">
+              <a name="link-4" href={process.env.REACT_APP_DASHBOARD_LOGIN_URL}>
                 Se connecter
                 <i className="fa fa-user" style={{ marginLeft: '.6rem' }} />
               </a>
@@ -72,34 +85,16 @@ export function Header(props) {
               <Button
                 type="submit"
                 label="Je m'inscris"
-                onClick={() => setOpen(true)}
+                onClick={onRegistration}
                 preset="onboarding-button"
               />
             </li>
           </ul>
         </div>
         <button className="nav__toggle toggle-wrapper" id="nav-toggle" onClick={toggleMenuActive} type="button">
-          <i className="bx bx-grid-alt" style={{color: "white"}}/>
+          <i className="bx bx-grid-alt" style={{ color: "white" }} />
         </button>
       </nav>
-      <Dialog
-        open={open}
-        onClose={() => setOpen(false)}
-        aria-labelledby="alert-dialog-title"
-        aria-describedby="alert-dialog-description"
-      >
-        <DialogTitle id="alert-dialog-title">Envie de vous inscrire ?</DialogTitle>
-        <DialogContent>
-          <DialogContentText id="alert-dialog-description">
-            Un peu de patience l'application sera disponible le 12 Décembre 2022.
-          </DialogContentText>
-        </DialogContent>
-        <DialogActions>
-          <Buttons onClick={() => setOpen(false)} autoFocus>
-            D'accord
-          </Buttons>
-        </DialogActions>
-      </Dialog>
     </header>
   );
 }
