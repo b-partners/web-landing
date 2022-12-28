@@ -670,7 +670,7 @@ img[alt="mobile_image"] {
 	border-radius: 12px;
 	padding-inline: 1rem;
 	align-items: center;
-	max-height: 1888px;
+	max-height: 2040px;
 }
 .offer__table-column .table-body-cell {
 	width: 100%;
@@ -1223,7 +1223,7 @@ img[alt="mobile_image"] {
 		border-radius: 1.5rem;
 	}
 	.offer {
-		min-height: 2100px;
+		min-height: 2200px;
 	}
 }
 
