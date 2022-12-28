@@ -44,7 +44,7 @@ export function Welcome(props) {
       <h1 className="home__title bd-container">
         L'assistant intelligent qui accélère<br />
         <span style={{ fontWeight: '600' }}>
-          la croissance des artisans français.
+          la croissance des artisans et <br /> indépendants français.
         </span>
       </h1>
       <div className="home__container bd-container bd-grid">
@@ -52,20 +52,21 @@ export function Welcome(props) {
           <div className="home__list">
             <div className="home__list__col">
               <ul>
-                <IconList imageSrc={CashRegisterEuro} listText="Suivi de votre trésorerie et de vos objectifs." />
-                <IconList
-                  imageSrc={PaidBill}
-                  listText="Édition de devis, facture et relance automatisée des impayés."
-                />
+                <IconList imageSrc={VirtualBot}
+                  listText="Générez de nouveaux clients grâce à notre assistant commercial intelligent." />
+                <IconList imageSrc={QrCode}
+                  listText="Encaissez vos clients partout sur mobile ou à distance en 1 clic." />
               </ul>
             </div>
             <div className="home__list__col">
               <ul>
-                <IconList imageSrc={QrCode} listText="Encaissement de vos prestations sur mobile et à distance." />
                 <IconList
-                  imageSrc={VirtualBot}
-                  listText="Identification en temps réel des chantiers,
-               et des demande de dépannages autour de chez vous."
+                  imageSrc={PaidBill}
+                  listText="Editez vos devis et facture facilement."
+                />
+                <IconList
+                  imageSrc={CashRegisterEuro}
+                  listText="Initiez des virements depuis votre compte pro de paiement FR."
                 />
               </ul>
             </div>
