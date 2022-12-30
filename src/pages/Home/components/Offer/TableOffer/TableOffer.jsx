@@ -23,17 +23,17 @@ export function TableOffer(props) {
                 </div>
                 <div className='table-body-cell'>
                     <p>
-                        Collecter plus rapidement vos encaissements par QR code, Mails ou SMS.
+                        Initiez la collecte de vos encaissements par QR code, Mails ou SMS en 1 clic.
                     </p>
                 </div>
                 <div className='table-body-cell'>
                     <p>
-                        Bénéficier de notre outil de devis, facturation, comptabilité automatisée.
+                        Bénéficiez de notre outil de devis, facturation, comptabilité automatisée.
                     </p>
                 </div>
                 <div className='table-body-cell'>
                     <p>
-                        Inclus services banques en ligne (1 compte pro, 1 RIB FR/ Accès mobile et Internet).
+                        Inclus services compte en ligne (1 compte pro, 1 RIB FR/ Accès mobile et Internet).
                     </p>
                 </div>
                 <div className='table-body-cell'>
@@ -58,12 +58,18 @@ export function TableOffer(props) {
                 </div>
                 <div className='table-body-cell'>
                     <p>
-                        Virements et prélévements inclus (puis 0,40€ au-delà).
+                        Initiation de virements et de prélévements inclus (puis 0,40€ au-delà).
                     </p>
                 </div>
                 <div className='table-body-cell'>
                     <p>
-                        Commissions de mouvements de comptes.
+                        Commissions de mouvements sur montants initiés depuis BPartners,
+                        exécuté par notre partenaire Swan.io.
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p>
+                        Retraits en France ou à l’étranger par Carte.
                     </p>
                 </div>
                 <div className='table-body-cell'>
@@ -89,7 +95,9 @@ export function TableOffer(props) {
                 <div className='table-body-cell'>
                     <p className='text-center'>
                         <i className="fa fa-check" aria-hidden="true" /><br />
-                        Mail / QR code: 1000€ inclus puis 2% SMS: 2% et 0,40€ par SMS
+                        Mail / QR code: 1000€ inclus puis 1,5%
+                        SMS: 1,5% et 0,40€ par SMS <br />
+                         .
                     </p>
                 </div>
                 <RedundantTableLine />
@@ -113,8 +121,12 @@ export function TableOffer(props) {
                 </div>
                 <div className='table-body-cell'>
                     <p className='text-center'>
-                        <i className="fa fa-check" aria-hidden="true" /><br />
-                        1 € HT + 1,9 %
+                        Voir CGU de notre partenaire Swan
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p className='text-center'>
+                        Voir CGU de notre partenaire Swan
                     </p>
                 </div>
                 <Button
@@ -141,7 +153,8 @@ export function TableOffer(props) {
                 <div className='table-body-cell'>
                     <p className='text-center'>
                         <i className="fa fa-check" aria-hidden="true" /><br />
-                        Mail / QR code: 1000€ inclus puis 2% SMS: 1,5% et 0,30€ par SMS
+                        Mail / QR code: 1000€ inclus puis 0,99%
+                        SMS: 0,99% et 0,30€ par SMS
                     </p>
                 </div>
                 <RedundantTableLine />
@@ -170,8 +183,12 @@ export function TableOffer(props) {
                 </div>
                 <div className='table-body-cell'>
                     <p className='text-center'>
-                        <i className="fa fa-check" aria-hidden="true" /><br />
-                        1,9 %
+                        Voir CGU de notre partenaire Swan
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p className='text-center'>
+                        Voir CGU de notre partenaire Swan
                     </p>
                 </div>
                 <Button
@@ -200,7 +217,8 @@ export function TableOffer(props) {
                 <div className='table-body-cell'>
                     <p className='text-center'>
                         <i className="fa fa-check" aria-hidden="true" /><br />
-                        Mail / QR code: 1000€ inclus puis 2% SMS: 0,99% et 0,20€ par SMS
+                        Mail / QR code: 1000€ inclus puis 0,70%
+                        SMS: 0,70% et 0,20€ par SMS
                     </p>
                 </div>
                 <div className='table-body-cell'>
@@ -248,8 +266,12 @@ export function TableOffer(props) {
                 </div>
                 <div className='table-body-cell'>
                     <p className='text-center'>
-                        <i className="fa fa-check" aria-hidden="true" /><br />
-                        5 inclus puis 1.9%
+                        Voir CGU de notre partenaire Swan
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p className='text-center'>
+                        Voir CGU de notre partenaire Swan
                     </p>
                 </div>
                 <Button

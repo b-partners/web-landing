@@ -9,8 +9,9 @@ export function Description() {
         <div className="description__col1">
           <h2 className="description__title">À propos</h2>
           <p className="description__first-paragraph">
-            Nous sommes BPartners SAS, l'assistant bancaire qui accélère la croissance et les encaissements des artisans
-            et indépendants français.</p>
+            Nous sommes BPartners SAS, l'assistant intelligent qui accélère la croissance et les encaissements
+            des artisans et indépendants français.
+          </p>
           <p className="description__second-paragraph">
             Nous avons développé une <b>solution de gestion d’entreprise unifiée pensée</b> avec <b>les
               artisans pour les artisans.</b> Notre ambition est de permettre à tous les artisans :

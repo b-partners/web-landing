@@ -25,7 +25,7 @@ export function ContactForm() {
               </li>
             </ul>
             <p style={{ marginTop: '1rem' }}>
-              ADRESSE <br />8 rue Puget 75018 à 27 rue du chemin vert, 75011, Paris.
+              ADRESSE <br />27 rue du chemin vert, 75011, Paris.
             </p>
           </div>
           <div className="contact-form__col2">
