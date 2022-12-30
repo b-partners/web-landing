@@ -53,8 +53,8 @@ export function OfferSwiper(props) {
                         />
                         <IconList
                             imageSrc=""
-                            listText="Collecter plus rapidement vos encaissements par QR code, Mails ou SMS.
-                            (Mail / QR code: 1000€ inclus puis 2% SMS: 2% et 0,40€ par SMS)"
+                            listText="Initiez la collecte de vos encaissements par QR code, Mails ou SMS en 1 clic.
+                            (Mail / QR code: 1000€ inclus puis 1,5% SMS: 1,5% et 0,40€ par SMS)"
                         />
                         <IconList
                             imageSrc=""
@@ -76,18 +76,22 @@ export function OfferSwiper(props) {
                         />
                         <IconList
                             imageSrc=""
-                            listText="Virements et prélévements inclus (puis 0,40€ au-delà).
+                            listText="Initiation de virements et de prélévements inclus (puis 0,40€ au-delà).
                             (20 offerts)"
                         />
                         <IconList
                             imageSrc=""
-                            listText="Commissions de mouvements de comptes.
+                            listText="Commissions de mouvements sur montants initiés depuis BPartners, 
+                            exécuté par notre partenaire Swan.io.
                             (60K€/an offerts puis 0,15%)"
                         />
                         <IconList
                             imageSrc=""
-                            listText="Paiements hors zone euro (en devise).
-                            1 € HT + 1,9 %"
+                            listText="Retraits en France ou à l’étranger par Carte."
+                        />
+                        <IconList
+                            imageSrc=""
+                            listText="Paiements hors zone euro (en devise)."
                         />
                     </ul>
                 </OfferCard>
@@ -109,8 +113,8 @@ export function OfferSwiper(props) {
                         />
                         <IconList
                             imageSrc=""
-                            listText="Collecter plus rapidement vos encaissements par QR code, Mails ou SMS.
-                            Mail / QR code: 1000€ inclus puis 2% SMS: 1,5% et 0,30€ par SMS"
+                            listText="Initiez la collecte de vos encaissements par QR code, Mails ou SMS en 1 clic.
+                            Mail / QR code: 1000€ inclus puis 0,99% SMS: 0,99% et 0,30€ par SMS"
                         />
                         <IconList
                             imageSrc=""
@@ -142,18 +146,22 @@ export function OfferSwiper(props) {
                         />
                         <IconList
                             imageSrc=""
-                            listText="Virements et prélévements inclus (puis 0,40€ au-delà).
+                            listText="Initiation de virements et de prélévements inclus (puis 0,40€ au-delà).
                             (50 offerts)"
                         />
                         <IconList
                             imageSrc=""
-                            listText="Commissions de mouvements de comptes.
+                            listText="Commissions de mouvements sur montants initiés depuis BPartners, 
+                            exécuté par notre partenaire Swan.io.
                             (150K€/an offerts puis 0,15%)"
                         />
                         <IconList
                             imageSrc=""
-                            listText="Paiements hors zone euro (en devise).
-                            1,9 %"
+                            listText="Retraits en France ou à l’étranger par Carte."
+                        />
+                        <IconList
+                            imageSrc=""
+                            listText="Paiements hors zone euro (en devise)."
                         />
                     </ul>
                 </OfferCard>
@@ -177,8 +185,8 @@ export function OfferSwiper(props) {
                         />
                         <IconList
                             imageSrc=""
-                            listText="Collecter plus rapidement vos encaissements par QR code, Mails ou SMS.
-                            Mail / QR code: 1000€ inclus puis 2% SMS: 0,99% et 0,20€ par SMS"
+                            listText="Initiez la collecte de vos encaissements par QR code, Mails ou SMS en 1 clic.
+                            Mail / QR code: 1000€ inclus puis 0,70% SMS: 0,70% et 0,20€ par SMS"
                         />
                         <IconList
                             imageSrc=""
@@ -210,18 +218,22 @@ export function OfferSwiper(props) {
                         />
                         <IconList
                             imageSrc=""
-                            listText="Virements et prélévements inclus (puis 0,40€ au-delà).
+                            listText="Initiation de virements et de prélévements inclus (puis 0,40€ au-delà).
                             (100 offerts)"
                         />
                         <IconList
                             imageSrc=""
-                            listText="Commissions de mouvements de comptes.
+                            listText="Commissions de mouvements sur montants initiés depuis BPartners, 
+                            exécuté par notre partenaire Swan.io.
                             (1M€/an offerts puis 0,15%)"
                         />
                         <IconList
                             imageSrc=""
-                            listText="Paiements hors zone euro (en devise).
-                            5 inclus puis 1.9%"
+                            listText="Retraits en France ou à l’étranger par Carte."
+                        />
+                        <IconList
+                            imageSrc=""
+                            listText="Paiements hors zone euro (en devise)."
                         />
                     </ul>
                 </OfferCard>

@@ -17,7 +17,7 @@
   width: 4.375rem;
   height: 4.375rem;
   line-height: 4.375rem;
-  background-color: rgb(217, 217, 217);
+  border: 2px solid rgb(182, 37, 102);
   border-radius: 4.375rem;
 }
 .card-image {

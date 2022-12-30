@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import * as PropTypes from 'prop-types';
 
 import { Button } from '../../../../../common/components/Button';
@@ -9,6 +10,7 @@ import { RedundantTableLine } from './RedundantTableLine/RedundantTableLine';
 
 export function TableOffer(props) {
     const { setModalOpen } = props;
+    const navigate = useNavigate();
     return (
         <div className='offer__table-row bd-container'>
             <div className='offer__table-first__column'>
@@ -97,7 +99,7 @@ export function TableOffer(props) {
                         <i className="fa fa-check" aria-hidden="true" /><br />
                         Mail / QR code: 1000€ inclus puis 1,5%
                         SMS: 1,5% et 0,40€ par SMS <br />
-                         .
+                        .
                     </p>
                 </div>
                 <RedundantTableLine />
@@ -120,14 +122,20 @@ export function TableOffer(props) {
                     </p>
                 </div>
                 <div className='table-body-cell'>
-                    <p className='text-center'>
+                    <button
+                        className="cgu-navigation"
+                        type="button"
+                        onClick={() => navigate('/general-conditions-of-use')}>
                         Voir CGU de notre partenaire Swan
-                    </p>
+                    </button>
                 </div>
                 <div className='table-body-cell'>
-                    <p className='text-center'>
+                    <button
+                        className="cgu-navigation"
+                        type="button"
+                        onClick={() => navigate('/general-conditions-of-use')}>
                         Voir CGU de notre partenaire Swan
-                    </p>
+                    </button>
                 </div>
                 <Button
                     type='submit'
@@ -182,14 +190,20 @@ export function TableOffer(props) {
                     </p>
                 </div>
                 <div className='table-body-cell'>
-                    <p className='text-center'>
+                    <button
+                        className="cgu-navigation"
+                        type="button"
+                        onClick={() => navigate('/general-conditions-of-use')}>
                         Voir CGU de notre partenaire Swan
-                    </p>
+                    </button>
                 </div>
                 <div className='table-body-cell'>
-                    <p className='text-center'>
+                    <button
+                        className="cgu-navigation"
+                        type="button"
+                        onClick={() => navigate('/general-conditions-of-use')}>
                         Voir CGU de notre partenaire Swan
-                    </p>
+                    </button>
                 </div>
                 <Button
                     type='submit'
@@ -265,14 +279,20 @@ export function TableOffer(props) {
                     </p>
                 </div>
                 <div className='table-body-cell'>
-                    <p className='text-center'>
+                    <button
+                        className="cgu-navigation"
+                        type="button"
+                        onClick={() => navigate('/general-conditions-of-use')}>
                         Voir CGU de notre partenaire Swan
-                    </p>
+                    </button>
                 </div>
                 <div className='table-body-cell'>
-                    <p className='text-center'>
+                    <button
+                        className="cgu-navigation"
+                        type="button"
+                        onClick={() => navigate('/general-conditions-of-use')}>
                         Voir CGU de notre partenaire Swan
-                    </p>
+                    </button>
                 </div>
                 <Button
                     type='submit'
