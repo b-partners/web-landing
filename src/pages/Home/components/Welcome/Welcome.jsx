@@ -41,6 +41,7 @@ export function Welcome(props) {
           bottom: '-.05rem',
         }}
       />
+        <p className='welcoming'>Bienvenue sur BPartners</p>
       <h1 className="home__title bd-container">
         L'assistant intelligent qui accélère<br />
         <span style={{ fontWeight: '600' }}>

@@ -1,9 +1,9 @@
 import React from 'react';
 import { IconCard } from '../../../../common/components/IconCard';
 
-import CashRegisterEuro from '../../assets/img/cash-register-euro.png';
-import PaidBill from '../../assets/img/paid-bill.png';
-import VirtualBot from '../../assets/img/virtual-bot.png';
+import CashRegisterEuro from '../../assets/img/evolution.png';
+import PaidBill from '../../assets/img/invoice.png';
+import VirtualBot from '../../assets/img/stat.png';
 
 export function Solution() {
     return (
