@@ -75,8 +75,13 @@ export function Header(props) {
                 Contact
               </NavLink>
             </li>
-            <li style={{ marginLeft: '.7rem' }}>
-              <a name="link-4" href={process.env.REACT_APP_DASHBOARD_LOGIN_URL}>
+            <li className="nav-bar-link">
+              <a name="link-4" href={process.env.REACT_APP_BLOG_URL}>
+                Blog
+              </a>
+            </li>
+            <li className="nav-bar-link">
+              <a name="link-5" href={process.env.REACT_APP_DASHBOARD_LOGIN_URL}>
                 Se connecter
                 <i className="fa fa-user" style={{ marginLeft: '.6rem' }} />
               </a>

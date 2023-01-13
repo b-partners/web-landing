@@ -212,8 +212,9 @@ img[alt="companyLogo"] {
 	align-items: center;
 }
 .nav-bar-link {
-	margin-inline: 1.1rem;
+	margin-inline: .8rem;
 	color: white;
+	cursor: pointer;
 }
 .nav__list > li a {
 	color: white;
@@ -256,10 +257,6 @@ img[alt="companyLogo"] {
 		border-radius: 2rem;
 		z-index: var(--z-fixed);
 	}
-}
-
-.nav__item {
-	margin-bottom: var(--mb-3);
 }
 
 .nav__link,
@@ -1179,7 +1176,7 @@ img[alt="mobile_image"] {
 	}
 
 	.nav__item {
-		margin-left: var(--mb-5);
+		margin-left: .8rem;
 		margin-bottom: 0;
 	}
 
