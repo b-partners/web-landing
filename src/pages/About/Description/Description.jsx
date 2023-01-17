@@ -37,12 +37,12 @@ export function Description() {
             Concrètement, nous démarrons la commercialisation en proposant un compte aux artisans,
             autour duquel nous allons faire graviter toute la vie de l’entreprise avec des outils d’automatisation
             couvrant :
-            <ul style={{ listStyle: 'disc', marginLeft: '1.7rem' }}>
-              <li>L’édition, la relance des devis et des factures impayées.</li>
-              <li>Les encaissements sur mobile ou à distance.</li>
-              <li>La comptabilité par auto catégorisation et agrégation des comptes.</li>
-            </ul>
           </p>
+          <ul style={{ listStyle: 'disc', marginLeft: '1.7rem' }}>
+            <li>L’édition, la relance des devis et des factures impayées.</li>
+            <li>Les encaissements sur mobile ou à distance.</li>
+            <li>La comptabilité par auto catégorisation et agrégation des comptes.</li>
+          </ul>
         </div>
         <div className="description__col2">
           <img src={logo} alt="logo" className="description__logo" />
