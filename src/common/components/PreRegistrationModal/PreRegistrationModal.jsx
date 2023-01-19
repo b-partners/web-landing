@@ -148,7 +148,7 @@ export function usePreRegistration(setMessage, setToastOpen) {
   const [loading, setLoading] = useState(false);
   const [preregistrationIsComplete, setPreregistrationIsComplete] = useState(false);
   const [user, setUser] = useState({
-    firstName: null, lastName: null, email: null, society: null, phone: null,
+    firstName: '', lastName: '', email: '', society: '', phone: '',
   });
 
   const onEmailRegistration = () => {
@@ -194,11 +194,10 @@ export function usePreRegistration(setMessage, setToastOpen) {
         setMessage('Quelque chose s\'est mal passé. Merci d\'essayer plus tard');
       }
 
-      throw new Error(e);
     } finally {
       setLoading(false);
       setModalOpen(false);
-      setUser({ email: null, firstName: null, lastName: null, phone: null, society: null });
+      setUser({ email: '', firstName: '', lastName: '', phone: '', society: '' });
     }
   };
 

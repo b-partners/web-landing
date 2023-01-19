@@ -62,7 +62,7 @@ export function Header(props) {
           <ul className="nav__list">
             <li>
               <NavLink className="nav-bar-link" to="/home">
-                <a href="#home">Accueil</a>
+                Accueil
               </NavLink>
             </li>
             <li>
@@ -104,5 +104,8 @@ export function Header(props) {
   );
 }
 Header.propTypes = {
-  pathName: PropTypes.string.isRequired,
+  pathName: PropTypes.string,
 }
+Header.defaultProps = {
+  pathName: '',
+};
