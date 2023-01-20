@@ -1,13 +1,13 @@
 import React from 'react';
-import CraftingTools from '../../assets/img/crafting-tools.png';
+import CraftingTools from '../../assets/img/crafting-tools.webp';
 import WavesTopBg from '../../assets/img/auth-top-waves.png';
 import WavesBottomBg from '../../assets/img/auth-bottom-waves.png';
 
 import { ShareCard } from '../../../../common/components/ShareCard';
-import Bank from '../../assets/img/bank.png';
-import Euro from '../../assets/img/euro.png';
-import Wallet from '../../assets/img/wallet.png';
-import Trade from '../../assets/img/trade.png';
+import Bank from '../../assets/img/bank.webp';
+import Euro from '../../assets/img/euro.webp';
+import Wallet from '../../assets/img/wallet.webp';
+import Trade from '../../assets/img/trade.webp';
 
 export function Authenticity() {
   return (
@@ -70,7 +70,13 @@ export function Authenticity() {
               </p>
             </div>
             <div className='mobile__task__image'>
-              <img alt="mobile_image" src={CraftingTools} />
+              <img
+                alt="mobile_image"
+                src={CraftingTools}
+                height='350'
+                width='358'
+                loading="lazy"
+              />
             </div>
           </div>
         </div>

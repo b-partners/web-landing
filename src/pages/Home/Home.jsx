@@ -26,7 +26,7 @@ export function Home(props) {
 
   return (
     <div>
-      <section className='test__header'>
+      <section className='banner__section'>
         <Header pathName={pathName} />
         <Welcome onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
       </section>

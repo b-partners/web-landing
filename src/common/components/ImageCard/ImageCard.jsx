@@ -7,7 +7,13 @@ import './ImageCard.css';
 export function ImageCard({ imageSrc, alt, cardText }) {
   return (
     <div className="distinction__item">
-      <img alt={alt} src={imageSrc} style={{ height: '120px' }} />
+      <img
+        alt={alt}
+        src={imageSrc}
+        height='120'
+        style={{ height: '120px' }}
+        loading="lazy"
+      />
       <p>{cardText}</p>
     </div>
   );

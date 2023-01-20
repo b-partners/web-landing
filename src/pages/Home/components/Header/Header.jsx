@@ -6,7 +6,7 @@ import axios from '../../../../config/axios';
 import { Button } from '../../../../common/components/Button';
 import { useToggle } from '../../../../utils/hooks';
 import '../../assets/css/forms.css';
-import logo from '../../assets/img/logoFullWhite.png';
+import logo from '../../assets/img/logoFullWhite.webp';
 import useScrollPosition from '../../../../utils/hooks/useScrollPosition';
 import { redirect } from '../../../../utils/redirect';
 
@@ -48,6 +48,7 @@ export function Header(props) {
       background: "rgba(156, 37, 90, 1)"
     }
   }
+  
   return (
     <header className="l-header" id="header"
       style={makeStyle()}
@@ -55,7 +56,7 @@ export function Header(props) {
       <nav className="nav bd-container" style={{ backgroundImage: "url('../../assets/img/VAGUE.jpg')" }}>
         <button type="button" className="nav__logo" onClick={() => navigate('/home')}>
           <a href="#home">
-            <img src={logo} alt="logo" style={{ width: '10.625rem' }} />
+            <img src={logo} alt="logo" width='170' height='55.01'/>
           </a>
         </button>
         <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} id="nav-menu">

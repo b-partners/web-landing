@@ -11,11 +11,11 @@ import { IconList } from '../../../../common/components/IconList';
 import '../../../../common/components/Modal/Modal.css';
 import '../../assets/css/forms.css';
 import '../../assets/css/spinner.css';
-import CashRegisterEuro from '../../assets/img/cash-register-euro.png';
-import PaidBill from '../../assets/img/paid-bill.png';
-import QrCode from '../../assets/img/qr-code-ext.png';
-import VirtualBot from '../../assets/img/virtual-bot.png';
-import WelcomeSectionBg from '../../assets/img/welcome-waves.png';
+import CashRegisterEuro from '../../assets/img/cash-register-euro.webp';
+import PaidBill from '../../assets/img/paid-bill.webp';
+import QrCode from '../../assets/img/qr-code-ext.webp';
+import VirtualBot from '../../assets/img/virtual-bot.webp';
+import WelcomeSectionBg from '../../assets/img/welcome-waves.webp';
 
 export function Welcome(props) {
   const { onEmailChange, onEmailRegistration, user } = props;
@@ -38,7 +38,7 @@ export function Welcome(props) {
         alt=" "
         style={{
           position: 'absolute',
-          bottom: '-.05rem',
+          bottom: '-.18rem'
         }}
       />
         <p className='welcoming'>Bienvenue sur BPartners</p>
@@ -94,7 +94,7 @@ export function Welcome(props) {
               />
               <Button
                 type="button"
-                label="Ça m'interesse"
+                label="Ça m'intéresse"
                 preset="home-registration-button"
                 onClick={onEmailRegistration}
               />
@@ -105,7 +105,7 @@ export function Welcome(props) {
           <iframe
             width="450"
             height="270"
-            src="https://www.youtube.com/embed/a38imldPQYc?autoplay=1"
+            src="https://www.youtube.com/embed/a38imldPQYc?autoplay=0"
             title="bpartners_video"
             frameBorder="0"
             allowFullScreen
