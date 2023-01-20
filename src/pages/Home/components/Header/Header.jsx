@@ -98,7 +98,7 @@ export function Header(props) {
           </ul>
         </div>
         <button className="nav__toggle toggle-wrapper" id="nav-toggle" onClick={toggleMenuActive} type="button">
-          <i className="bx bx-grid-alt" style={{ color: "white" }} />
+          <i className="fa fa-bars" style={{ color: "white" }} />
         </button>
       </nav>
     </header>
