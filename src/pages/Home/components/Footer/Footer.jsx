@@ -8,7 +8,7 @@ import { makeStyles } from '@mui/styles';
 import * as PropTypes from 'prop-types';
 
 import { Button } from '../../../../common/components/Button';
-import logo from '../../assets/img/logoFullWhite.png';
+import logo from '../../assets/img/logoFullWhite.webp';
 
 export function Footer(props) {
   const navigate = useNavigate();

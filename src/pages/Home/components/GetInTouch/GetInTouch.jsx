@@ -15,6 +15,7 @@ export function GetInTouch(props) {
       width: '70%',
       overflow: 'hidden',
       border: '1px solid white',
+      borderBottom: 'none !important',
       borderRadius: '25px 0px 0px 25px'
     },
   });
@@ -27,6 +28,7 @@ export function GetInTouch(props) {
       <img
         src={WavesBottomBg}
         alt=" "
+        loading="lazy"
         style={{
           position: 'absolute',
           zIndex: '-1',

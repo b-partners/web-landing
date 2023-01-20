@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../../Home/assets/img/logo.png';
+import BpPhone from '../../Home/assets/img/bp-phone.png';
 
 export function Description() {
   return (
@@ -45,7 +45,12 @@ export function Description() {
           </ul>
         </div>
         <div className="description__col2">
-          <img src={logo} alt="logo" className="description__logo" />
+          <img
+            src={BpPhone}
+            alt="BpPhone"
+            height='200'
+            loading='lazy'
+            className="description__logo" />
         </div>
       </div>
     </section >
