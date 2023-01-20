@@ -9,7 +9,12 @@ export function IconCard({ imageSrc, paragraph }) {
     <div className="solution__data__item">
       <div className="icon-wrapper">
         <div className="image-wrapper">
-          <img src={imageSrc} alt="" className="card-image" />
+          <img
+            src={imageSrc}
+            alt={imageSrc}
+            height='38'
+            width='38'
+            className="card-image" />
         </div>
       </div>
       <p>{paragraph}</p>

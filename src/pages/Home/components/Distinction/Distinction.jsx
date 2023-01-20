@@ -7,7 +7,7 @@ import { ImageCard } from '../../../../common/components/ImageCard/ImageCard';
 export function Distinction() {
     return (
         <section className='distinction'>
-            <div style={{paddingBlock: '4rem'}}>
+            <div style={{ paddingBlock: '4rem' }}>
                 <h2 className='distinction__title'>Nos distinctions</h2>
                 <div className='distinction__container bd-container'>
                     <div className='distinction__item'>
@@ -26,7 +26,13 @@ export function Distinction() {
                         alt="EiffelTower"
                         cardText="Enregistrée à l'Orias et basée à Paris." />
                     <div className='distinction__item'>
-                        <img alt="companyLogo" src={CompanyLogo} style={{ height: "120px" }} />
+                        <img
+                            alt="companyLogo"
+                            src={CompanyLogo}
+                            height='110'
+                            style={{ height: "110px" }}
+                            loading="lazy"
+                        />
                         <p style={{
                             marginTop: '2rem'
                         }}>

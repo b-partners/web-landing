@@ -11,6 +11,8 @@ export function ShareCard({ cardText, imgSrc }) {
         <img
           src={imgSrc}
           alt={imgSrc}
+          height='38'
+          width='auto'
           className='share-img'
         />
       </div>

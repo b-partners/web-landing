@@ -168,8 +168,8 @@ video {
 #deux {
 	grid-row: 1;
 }
-.test__header {
-	background: url('../images/welcome-background.png');
+.banner__section {
+	background: url('../images/welcome-background.webp');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -534,7 +534,6 @@ h1.home__title {
 	padding-block: 2rem;
 }
 .share-img-container {
-	height: 38px;
 	display: flex;
 }
 .share-description {
@@ -868,7 +867,7 @@ img[alt="mobile_image"] {
 /*========== FOOTER ==========*/
 .footer {
 	margin-top: 3rem;
-	background-image: url('../images/footer-bg.png');
+	background-image: url('../images/footer-bg.webp');
 	height: 18.75rem;
 	background-size: cover;
 	padding-top: 3rem !important;
@@ -984,11 +983,13 @@ img[alt="mobile_image"] {
 }
 .description__col2 {
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 }
 .description__logo {
-	width: 50%;
+	height: 500px;
+	width: auto;
+	margin: auto;
 }
 /*========== HISTORY ==========*/
 .timeline {

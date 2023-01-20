@@ -15,6 +15,7 @@ export function Offer(props) {
       <img
         src={WavesTopBg}
         alt=" "
+        loading="lazy"
         style={{
           position: 'absolute',
           zIndex: '1',
