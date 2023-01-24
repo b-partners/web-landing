@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import BpPhone from '../../Home/assets/img/bp-phone.png';
 
 export function Description() {
@@ -45,12 +45,14 @@ export function Description() {
           </ul>
         </div>
         <div className="description__col2">
-          <img
-            src={BpPhone}
-            alt="BpPhone"
-            height='200'
-            loading='lazy'
-            className="description__logo" />
+          <div>
+            <LazyLoadImage
+              alt="BpPhone"
+              src={BpPhone}
+              height={200}
+              effect="blur"
+            />
+          </div>
         </div>
       </div>
     </section >

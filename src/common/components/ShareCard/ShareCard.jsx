@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import PropTypes from 'prop-types';
 
 import './ShareCard.css';
@@ -8,12 +8,12 @@ export function ShareCard({ cardText, imgSrc }) {
   return (
     <div className="share__element">
       <div className='share-img-container'>
-        <img
+        <LazyLoadImage
           src={imgSrc}
-          alt={imgSrc}
-          height='38'
-          width='auto'
-          className='share-img'
+          height="38"
+          width="auto"
+          PlaceholderSrc={imgSrc}
+          effect="blur"
         />
       </div>
       <p className='share-description'>
