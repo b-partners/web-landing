@@ -203,6 +203,11 @@ img[alt="companyLogo"] {
 	color: var(--first-color-logo);
 	font-weight: 800;
 }
+.onboarding-button:hover {
+	background-color: rgb(180,82,96);
+	color: white;
+	transition: .3s;
+}
 
 @media screen and (max-width: 768px) {
 	.nav__menu {
@@ -212,13 +217,18 @@ img[alt="companyLogo"] {
 		right: 0;
 		width: 90%;
 		margin: 0 auto;
-		padding: 2.5rem 0 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		text-align: center;
 		background-color: var(--body-color);
 		transition: 0.4s;
 		box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 		border-radius: 2rem;
 		z-index: var(--z-fixed);
+	}
+	.nav__list > li{
+		margin-block: 1rem;
 	}
 }
 
@@ -250,9 +260,28 @@ img[alt="companyLogo"] {
 }
 
 /* Show menu */
+.show-menu-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 100%;
+	width: 100%;
+}
 .show-menu {
-	top: calc(var(--header-height) + 1rem);
+	top: 30%;
+	height: 40%;
 	background-image: linear-gradient(to right, rgba(71,24,70), rgba(188,83,96));
+}
+
+/*========== BUTTON HOVER ==========*/
+.get_in_touch__button:hover,
+.registration-button:hover,
+.footer_registration__button:hover,
+.contact-registration-button:hover,
+.home-registration-button:hover {
+	background-color: rgb(102,36,77);
+	transition: .3s;
 }
 
 /*========== HOME ==========*/
@@ -357,9 +386,9 @@ h1.home__title {
 }
 .registration-button {
 	position: absolute;
-	bottom: -33px;
+	bottom: -43px;
 	width: 80%;
-	height: 3rem;
+	height: 4rem;
 	background-color: var(--first-color-logo);
 	color: white;
 	border: 1px solid var(--first-color-logo);
@@ -489,7 +518,6 @@ img[alt="mobile_image"] {
 .distinction {
 	text-align: center;
 	position: relative;
-	padding-top: 5rem;
 }
 .distinction__title {
 	font-size: 1.8rem;
@@ -1022,7 +1050,7 @@ img[alt="BpPhone"] {
 	}
 
 	.offer {
-		min-height: 2200px;
+		min-height: 2300px;
 	}
 	h1.home__title {
 		padding-top: 7rem;

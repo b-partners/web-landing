@@ -48,7 +48,7 @@ export function Header(props) {
       background: "rgba(156, 37, 90, 1)"
     }
   }
-  
+
   return (
     <header className="l-header" id="header"
       style={makeStyle()}
@@ -56,46 +56,61 @@ export function Header(props) {
       <nav className="nav bd-container" style={{ backgroundImage: "url('../../assets/img/VAGUE.jpg')" }}>
         <button type="button" className="nav__logo" onClick={() => navigate('/home')}>
           <a href="#home">
-            <img src={logo} alt="logo" width='170' height='55.01'/>
+            <img src={logo} alt="logo" width='170' height='55.01' />
           </a>
         </button>
-        <div className={`nav__menu ${menuActive ? 'show-menu' : ''}`} id="nav-menu">
-          <ul className="nav__list">
-            <li>
-              <NavLink className="nav-bar-link" to="/home">
-                Accueil
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="nav-bar-link" to="/about">
-                À propos
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="nav-bar-link" to="/contact">
-                Contact
-              </NavLink>
-            </li>
-            <li className="nav-bar-link">
-              <a name="link-4" href={process.env.REACT_APP_BLOG_URL}>
-                Blog
-              </a>
-            </li>
-            <li className="nav-bar-link">
-              <a name="link-5" href={process.env.REACT_APP_DASHBOARD_LOGIN_URL}>
-                Se connecter
-                <i className="fa fa-user" style={{ marginLeft: '.6rem' }} />
-              </a>
-            </li>
-            <li className="nav__item" id="open-account">
-              <Button
-                type="submit"
-                label="Je m'inscris"
-                onClick={onRegistration}
-                preset="onboarding-button"
-              />
-            </li>
-          </ul>
+        <div
+          className={`nav__menu ${menuActive ? 'show-menu-container' : ''}`}
+          onClick={toggleMenuActive}
+          onKeyDown={toggleMenuActive}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className={`nav__menu ${menuActive ? 'show-menu' : ''}`}
+            onClick={(e) => e.stopPropagation()}
+            onKeyDown={(e) => e.stopPropagation()}
+            role="button"
+            tabIndex={0}
+            id="nav-menu"
+          >
+            <ul className="nav__list">
+              <li>
+                <NavLink className="nav-bar-link" to="/home">
+                  Accueil
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="nav-bar-link" to="/about">
+                  À propos
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="nav-bar-link" to="/contact">
+                  Contact
+                </NavLink>
+              </li>
+              <li className="nav-bar-link">
+                <a name="link-4" href={process.env.REACT_APP_BLOG_URL}>
+                  Blog
+                </a>
+              </li>
+              <li className="nav-bar-link">
+                <a name="link-5" href={process.env.REACT_APP_DASHBOARD_LOGIN_URL}>
+                  Se connecter
+                  <i className="fa fa-user" style={{ marginLeft: '.6rem' }} />
+                </a>
+              </li>
+              <li className="nav__item" id="open-account">
+                <Button
+                  type="submit"
+                  label="Je m'inscris"
+                  onClick={onRegistration}
+                  preset="onboarding-button"
+                />
+              </li>
+            </ul>
+          </div>
         </div>
         <button className="nav__toggle toggle-wrapper" id="nav-toggle" onClick={toggleMenuActive} type="button">
           <i className="fa fa-bars" style={{ color: "white" }} />
