@@ -20,7 +20,8 @@
   border: 2px solid rgb(182, 37, 102);
   border-radius: 4.375rem;
 }
-.card-image {
+img[alt="cardImage"] {
+  margin-top: 1.85rem;
   width: 2.313rem;
   height: 2.313rem;
 }

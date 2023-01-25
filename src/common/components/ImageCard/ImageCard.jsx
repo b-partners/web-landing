@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import PropTypes from 'prop-types';
 
 import './ImageCard.css';
@@ -7,12 +7,11 @@ import './ImageCard.css';
 export function ImageCard({ imageSrc, alt, cardText }) {
   return (
     <div className="distinction__item">
-      <img
-        alt={alt}
+      <LazyLoadImage
         src={imageSrc}
-        height='120'
-        style={{ height: '120px' }}
-        loading="lazy"
+        height={120}
+        PlaceholderSrc={alt}
+        effect="blur"
       />
       <p>{cardText}</p>
     </div>
