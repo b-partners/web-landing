@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/media-has-caption */
+/* eslint-disable max-len */
 import React from 'react';
 import { makeStyles } from '@mui/styles';
 
@@ -38,10 +39,11 @@ export function Welcome(props) {
         alt=" "
         style={{
           position: 'absolute',
-          bottom: '-.18rem'
+          bottom: '-.18rem',
+          zIndex: '0'
         }}
       />
-        <p className='welcoming'>Bienvenue sur BPartners</p>
+      <p className='welcoming'>Bienvenue sur BPartners</p>
       <h1 className="home__title bd-container">
         L'assistant intelligent qui accélère<br />
         <span style={{ fontWeight: '600' }}>
@@ -101,7 +103,7 @@ export function Welcome(props) {
             </div>
           </Paper>
         </div>
-        <div>
+        <div className='bpartners__video'>
           <iframe
             width="450"
             height="270"
@@ -110,6 +112,13 @@ export function Welcome(props) {
             frameBorder="0"
             allowFullScreen
           />
+          <br />
+          <a href='https://play.google.com/store/apps/details?id=com.bpartnersmobile&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+            <img
+              alt='Disponible sur Google Play'
+              src='https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png'
+            />
+          </a>
         </div>
       </div>
     </section>

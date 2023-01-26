@@ -296,6 +296,16 @@ img[alt="companyLogo"] {
 	display: flex;
 	justify-content: space-between;
 }
+.bpartners__video {
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+}
+img[alt="Disponible sur Google Play"] {
+	width: 150px;
+}
 .btn-primary {
 	background-color: var(--first-color-logo) !important;
 }
