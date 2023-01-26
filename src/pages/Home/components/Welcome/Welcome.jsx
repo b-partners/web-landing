@@ -65,7 +65,7 @@ export function Welcome(props) {
               <ul>
                 <IconList
                   imageSrc={PaidBill}
-                  listText="Editez vos devis et facture facilement."
+                  listText="Editez vos devis et factures facilement."
                 />
                 <IconList
                   imageSrc={CashRegisterEuro}

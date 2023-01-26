@@ -7,8 +7,8 @@ import WavesBottomBg from '../../assets/img/auth-bottom-waves.png';
 import { ShareCard } from '../../../../common/components/ShareCard';
 import Bank from '../../assets/img/bank.webp';
 import Euro from '../../assets/img/euro.webp';
-import Wallet from '../../assets/img/wallet.webp';
-import Trade from '../../assets/img/trade.webp';
+import Bot from '../../assets/img/bot.png';
+import Bill from '../../assets/img/bill.png';
 
 export function Authenticity() {
   return (
@@ -30,20 +30,20 @@ export function Authenticity() {
         />
         <div className="share__container  bd-container">
           <ShareCard
-            cardText="Obtenez votre compte professionnel avec un IBAN/RIB FR en quelques secondes."
-            imgSrc={Bank}
+            cardText="Agrégez vos comptes pour analyser vos performances."
+            imgSrc={Bot}
           />
           <ShareCard
-            cardText="Initiez vos virements et vos encaissements en 1 clic."
+            cardText="Editez vos devis et factures facilement."
+            imgSrc={Bill}
+          />
+          <ShareCard
+            cardText="Encaissez vos clients partout sur mobile ou à distance en 1 clic."
             imgSrc={Euro}
           />
           <ShareCard
-            cardText="Obtenez votre carte physique ou virtuelle selon vos besoins."
-            imgSrc={Wallet}
-          />
-          <ShareCard
-            cardText="Agrégez vos comptes pour analyser vos performances."
-            imgSrc={Trade}
+            cardText="Initiez des virements depuis votre compte pro de paiement FR."
+            imgSrc={Bank}
           />
         </div>
       </section>

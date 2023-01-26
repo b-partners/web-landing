@@ -497,6 +497,7 @@ h1.home__title {
 .task__info-title {
 	font-size: 1.4rem;
 	margin-bottom: 1rem;
+	color: var(--first-color-logo);
 }
 .mobile__task__image {
 	width: 40%;
@@ -517,6 +518,7 @@ img[alt="mobile_image"] {
 }
 .solution__title {
 	margin-bottom: 1rem;
+	color: var(--first-color-logo);
 }
 .solution__data {
 	display: flex;
@@ -532,6 +534,7 @@ img[alt="mobile_image"] {
 .distinction__title {
 	font-size: 1.8rem;
 	font-weight: 700;
+	color: var(--first-color-logo);
 }
 .distinction__container {
 	display: flex;
