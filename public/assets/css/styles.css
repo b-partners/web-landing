@@ -864,6 +864,7 @@ img[alt="BpPhone"] {
 	flex-direction: column;
 	min-height: 1000px;
 	justify-content: center;
+	align-items: center;
 	gap: 10rem;
 }
 .history__title {

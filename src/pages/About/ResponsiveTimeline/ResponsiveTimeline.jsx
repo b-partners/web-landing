@@ -14,7 +14,7 @@ export function ResponsiveTimeline() {
             <Polygone
                 description='Création de la société en Juillet 2022, lancement des développements IT.'
                 color='rgba(165, 58, 106, 1)'
-                position='polygone-right'
+                position='polygone-left'
                 preset='responsive-width'
             />
             <Polygone
@@ -26,7 +26,7 @@ export function ResponsiveTimeline() {
             <Polygone
                 description='Novembre 2022 : Commercialisation.'
                 color='rgba(197, 129, 161, 1)'
-                position='polygone-right'
+                position='polygone-left'
                 preset='responsive-width'
             />
             <Polygone

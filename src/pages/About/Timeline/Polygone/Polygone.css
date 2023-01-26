@@ -33,3 +33,15 @@
 .polygone-right {
     transform: rotate(-90deg);
 }
+.polygone-left {
+    transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 768px) {
+    .polygone__container {
+        height: 1.4rem;
+    }
+    .timeline-element {
+        font-size: .8rem;
+    }
+}
