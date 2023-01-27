@@ -10,7 +10,7 @@ export function ShareCard({ cardText, imgSrc }) {
       <div className='share-img-container'>
         <LazyLoadImage
           src={imgSrc}
-          height="38"
+          height="50"
           width="auto"
           PlaceholderSrc={imgSrc}
           effect="blur"
