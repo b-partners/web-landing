@@ -39,7 +39,7 @@ export function GetInTouch(props) {
       <div className="bd-container section">
         <h2 className="get_in_touch__title">Restez informé</h2>
         <p style={{ marginBlock: '1.3rem' }}>
-          Aujourd'hui les artisans consacrent entre 30 % et 40 % de
+          Aujourd'hui les artisans consacrent entre 20 % à 30 % de
           leur temps sur des tâches administratives et financières.
         </p>
         <div className="get_in_touch__form">
