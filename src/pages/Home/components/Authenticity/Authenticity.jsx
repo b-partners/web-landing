@@ -30,7 +30,7 @@ export function Authenticity() {
         />
         <div className="share__container  bd-container">
           <ShareCard
-            cardText="Agrégez vos comptes pour analyser vos performances."
+            cardText="Générez de nouveaux clients grâce à notre assistant commercial intelligent."
             imgSrc={Bot}
           />
           <ShareCard
@@ -42,7 +42,7 @@ export function Authenticity() {
             imgSrc={Euro}
           />
           <ShareCard
-            cardText="Initiez des virements depuis votre compte pro de paiement FR."
+            cardText="Agrégez vos comptes et suivez finement votre trésorerie."
             imgSrc={Bank}
           />
         </div>
@@ -63,7 +63,7 @@ export function Authenticity() {
                 <span style={{ fontWeight: "200" }}>Votre force</span>
               </h3>
               <p style={{ textAlign: 'justify' }}>
-                Aujourd'hui, les artisans consacrent entre 30 % à 40 % de leur temps sur des tâches administratives,
+                Aujourd'hui, les artisans consacrent entre 20 % à 30 % de leur temps sur des tâches administratives,
                 financières ou de la prospection laborieuse qui les éloignent de leur vrai métier.
                 BPartners est une application tout-en-un construite avec les artisans pour les artisans
                 avec un but unique : <b>laisser votre téléphone gérer ces tâches ardues pendant que vous vous
