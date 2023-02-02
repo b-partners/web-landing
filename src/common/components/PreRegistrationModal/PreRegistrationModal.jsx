@@ -7,9 +7,11 @@ import MuiPhoneNumber from 'material-ui-phone-number';
 import * as PropTypes from 'prop-types';
 
 import axios from '../../../config/axios';
-import { useTranslation } from '../../../utils/hooks/use-translate';
+import { useTranslation, useHandleError } from '../../../utils/hooks';
 import isValidEmail from '../../../utils/is-valid-email';
 import { Button } from '../Button';
+import { blankToNull } from '../../../utils/blankToNull';
+import { INITIAL_USER } from './utils';
 
 export function PreRegistrationModal(props) {
   const {
@@ -147,9 +149,7 @@ export function usePreRegistration(setMessage, setToastOpen) {
   const [modalOpen, setModalOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [preregistrationIsComplete, setPreregistrationIsComplete] = useState(false);
-  const [user, setUser] = useState({
-    firstName: '', lastName: '', email: '', society: '', phone: '',
-  });
+  const [user, setUser] = useState(INITIAL_USER);
 
   const onEmailRegistration = () => {
     if (!isValidEmail(user.email)) {
@@ -161,6 +161,7 @@ export function usePreRegistration(setMessage, setToastOpen) {
   };
 
   const toTranslate = useTranslation();
+  const toHandleError = useHandleError();
 
   const handlePreUsersSubmit = async (event) => {
     event.preventDefault();
@@ -174,7 +175,7 @@ export function usePreRegistration(setMessage, setToastOpen) {
     }
     try {
       setLoading(true);
-      await axios.post('preUsers', [user]);
+      await axios.post('preUsers', [blankToNull(user)]);
       setMessage('Vous avez été ajouté avec succès à la liste de diffusion');
       setPreregistrationIsComplete(true);
       setToastOpen(true);
@@ -184,10 +185,9 @@ export function usePreRegistration(setMessage, setToastOpen) {
           status, data: { message: apiMessage },
         },
       } = e;
-
       setToastOpen(true);
       if (status === 400) {
-        const { message } = JSON.parse(apiMessage.toString());
+        const message = toHandleError(apiMessage);
         setMessage(toTranslate(message));
       }
       if (status === 500) {
@@ -197,7 +197,7 @@ export function usePreRegistration(setMessage, setToastOpen) {
     } finally {
       setLoading(false);
       setModalOpen(false);
-      setUser({ email: '', firstName: '', lastName: '', phone: '', society: '' });
+      setUser(INITIAL_USER);
     }
   };
 
