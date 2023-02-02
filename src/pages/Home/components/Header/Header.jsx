@@ -4,10 +4,10 @@ import * as PropTypes from 'prop-types';
 import { NavLink, useNavigate } from 'react-router-dom';
 import axios from '../../../../config/axios';
 import { Button } from '../../../../common/components/Button';
-import { useToggle } from '../../../../utils/hooks';
+import { useScrollPosition, useToggle } from '../../../../utils/hooks';
 import '../../assets/css/forms.css';
 import logo from '../../assets/img/logoFullWhite.webp';
-import useScrollPosition from '../../../../utils/hooks/useScrollPosition';
+
 import { redirect } from '../../../../utils/redirect';
 
 export function Header(props) {
