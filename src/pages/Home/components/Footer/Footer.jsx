@@ -69,6 +69,14 @@ export function Footer(props) {
                 <a href="#CGU">Conditions générales d'utilisation</a>
               </button>
             </li>
+            <li>
+              <button
+                className="footer-navigation"
+                type="button"
+                onClick={() => navigate('https://landing-bpartners.s3.eu-west-3.amazonaws.com/Inge%CC%81nieur+IA+H_F.pdf')}>
+                <a href="#hrigin">Nous recrutons !</a>
+              </button>
+            </li>
           </ul>
         </div>
         <div className="footer_registration">
