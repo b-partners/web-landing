@@ -71,7 +71,9 @@ export function Footer(props) {
             </li>
             <li>
               <button className="footer-navigation" type="button">
-                <a href="https://landing-bpartners.s3.eu-west-3.amazonaws.com/Inge%CC%81nieur+IA+H_F.pdf">Nous recrutons !</a>
+                <a href="https://landing-bpartners.s3.eu-west-3.amazonaws.com/Inge%CC%81nieur+IA+H_F.pdf">
+                  Nous recrutons !
+                </a>
               </button>
             </li>
           </ul>
