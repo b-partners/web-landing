@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import Cookiebot from 'react-cookiebot';
 
 import * as PropTypes from 'prop-types';
 
@@ -38,6 +39,7 @@ export function Home(props) {
       <Testimonial />
       <GetInTouch onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
       <Footer onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
+      <Cookiebot data-cbid={process.env.REACT_APP_COOKIEBOT_ID} />
     </div>
   );
 }
