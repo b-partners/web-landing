@@ -2,13 +2,9 @@
 import React from 'react';
 import * as PropTypes from 'prop-types';
 import { NavLink, useNavigate } from 'react-router-dom';
-import axios from '../../../../config/axios';
-import { Button } from '../../../../common/components/Button';
 import { useScrollPosition, useToggle } from '../../../../utils/hooks';
 import '../../assets/css/forms.css';
 import logo from '../../assets/img/logoFullWhite.webp';
-
-import { redirect } from '../../../../utils/redirect';
 
 export function Header(props) {
   const { pathName } = props;
@@ -17,21 +13,6 @@ export function Header(props) {
   const navigate = useNavigate();
 
   const scrollPosition = useScrollPosition();
-
-  const onRegistration = () => {
-    const initiateOnboarding = async () => {
-      const {
-        data: { redirectionUrl },
-      } = await axios.post('onboardingInitiation', {
-        "redirectionStatusUrls": {
-          "successUrl": process.env.REACT_APP_SUCCESS_URL,
-          "failureUrl": process.env.REACT_APP_FAILURE_URL
-        }
-      });
-      redirect(redirectionUrl);
-    };
-    initiateOnboarding();
-  }
 
   const makeStyle = () => {
     if (scrollPosition !== 0) {
@@ -100,14 +81,6 @@ export function Header(props) {
                   Se connecter
                   <i className="fa fa-user" style={{ marginLeft: '.6rem' }} />
                 </a>
-              </li>
-              <li className="nav__item" id="open-account">
-                <Button
-                  type="submit"
-                  label="Je m'inscris"
-                  onClick={onRegistration}
-                  preset="onboarding-button"
-                />
               </li>
             </ul>
           </div>
