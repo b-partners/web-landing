@@ -5,16 +5,6 @@ export function RedundantTableLine() {
         <>
             <div className='table-body-cell'>
                 <p className='text-center'>
-                    <b className='offer-important-info'>1 Utilisateur</b>
-                </p>
-            </div>
-            <div className='table-body-cell'>
-                <p className='text-center'>
-                    <i className="fa fa-check" aria-hidden="true" />
-                </p>
-            </div>
-            <div className='table-body-cell'>
-                <p className='text-center'>
                     <i className="fa fa-check" aria-hidden="true" />
                 </p>
             </div>
