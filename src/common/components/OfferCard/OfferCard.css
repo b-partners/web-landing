@@ -12,6 +12,9 @@
   border-radius: .625rem;
   margin-top: 1rem;
 }
+.offer-card__info {
+  min-height: 7rem;
+}
 .offer__card__button {
   background-color: black;
   color: white;
