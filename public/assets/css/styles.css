@@ -563,10 +563,15 @@ img[alt="mobile_image"] {
 	display: flex;
 }
 .offer__table-header {
-	min-height: 14rem;
+	min-height: 18.5rem;
 	text-align: center;
 	position: relative;
 	border-bottom: 1px dashed var(--first-color-logo);
+}
+.offer__category {
+	min-height: 5.625rem;
+	display: flex;
+	align-items: center;
 }
 .table__title {
 	font-size: xx-large;
@@ -596,7 +601,7 @@ img[alt="mobile_image"] {
 	padding-top: 2rem;
 }
 .offer__table-first__column {
-	width: 30%;
+	width: 33.33%;
 }
 .offer__table-column {
 	position: relative;
@@ -607,7 +612,7 @@ img[alt="mobile_image"] {
 	border-radius: 12px;
 	padding-inline: 1rem;
 	align-items: center;
-	max-height: 2040px;
+	max-height: 1137px;
 }
 .offer__table-column .table-body-cell {
 	width: 100%;
@@ -752,7 +757,6 @@ img[alt="mobile_image"] {
 	display: flex;
 	justify-content: space-around;
 	padding-top: 3rem;
-	padding-bottom: 1.5rem;
 }
 .footer_subtitle {
 	color: white;
@@ -1064,7 +1068,7 @@ img[alt="BpPhone"] {
 	}
 
 	.offer {
-		min-height: 2300px;
+		min-height: 1400px;
 	}
 	h1.home__title {
 		padding-top: 7rem;
