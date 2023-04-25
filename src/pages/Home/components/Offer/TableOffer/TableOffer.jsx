@@ -1,4 +1,5 @@
 import React from 'react';
+import {useNavigate} from 'react-router-dom';
 import * as PropTypes from 'prop-types';
 
 import {Button} from '../../../../../common/components/Button';
@@ -8,6 +9,7 @@ import {RedundantTableLine} from './RedundantTableLine/RedundantTableLine';
 
 export function TableOffer(props) {
     const {setModalOpen} = props;
+    const navigate = useNavigate();
     return (
         <div className='offer__table-row bd-container'>
             <div className='offer__table-first__column'>
@@ -16,26 +18,23 @@ export function TableOffer(props) {
                 </div>
                 <div className='table-body-cell'>
                     <p>
-                        Activation de notre Intelligence artificielle qui génère des prospects en temps
-                        réel pour développer votre activité et obtenir de nouveaux clients.
+                        Activation de l'assistant virtuel pour développer votre activité, relance client,
+                        identification prospect et nouveaux chantiers.
                     </p>
                 </div>
                 <div className='table-body-cell'>
                     <p>
-                        Outil de devis/facturation personnalisé, gestion des acomptes,relance impayés CRM,
-                        gestion des produits.
+                        Initiez la collecte de vos encaissements par QR code, Mails ou SMS en 1 clic.
                     </p>
                 </div>
                 <div className='table-body-cell'>
                     <p>
-                        Initiez la collecte de vos encaissements instantannément par QR code,
-                        Mails ou SMS en 1 clic.
-                        Lien de paiement intégré à la facture.
+                        Bénéficiez de notre outil de devis, facturation, comptabilité automatisée.
                     </p>
                 </div>
                 <div className='table-body-cell'>
                     <p>
-                        Connectez votre compte bancaire pour visualiser votre trésorerie en continu.
+                        Inclus services compte en ligne (1 compte pro, 1 RIB FR/ Accès mobile et Internet).
                     </p>
                 </div>
                 <div className='table-body-cell'>
@@ -43,24 +42,51 @@ export function TableOffer(props) {
                         Support 7 jours sur 7.
                     </p>
                 </div>
+                <div className='table-body-cell'>
+                    <p>
+                        Carte Mastercard physique incluse (puis 5€HT/carte/mois).
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p>
+                        Cartes virtuelles permanentes incluses (puis 2€HT/carte/mois).
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p>
+                        Cartes virtuelles à utilisation unique incluses.
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p>
+                        Initiation de virements et de prélévements inclus (puis 0,40€ au-delà).
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p>
+                        Commissions de mouvements sur montants initiés depuis BPartners,
+                        exécuté par notre partenaire Swan.io.
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p>
+                        Retraits en France ou à l’étranger par Carte.
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p>
+                        Paiements hors zone euro (en devise).
+                    </p>
+                </div>
             </div>
             <div className='offer__table-column'>
                 <div className='offer__table-header'>
                     <img src={Essentiel} alt="essentiel" className='offer-image'/>
-                    <h2>L'Essentiel</h2>
-                    <div className="offer__category">
-                        <h3>Artisan & indépendant</h3>
-                    </div>
+                    <h2>L'ESSENTIEL</h2>
                     <p className='offer-description'>
                         Tous les services essentiels pour gérer votre activité d'artisan ou d'indépendant
                     </p>
                     <span className='offer-price'>7€</span>/mois
-                </div>
-                <div className='table-body-cell'>
-                    <p className='text-center'>
-                        <i className="fa fa-check" aria-hidden="true"/><br/>
-                        1 métier & 1 utilisateur
-                    </p>
                 </div>
                 <div className='table-body-cell'>
                     <p className='text-center'>
@@ -70,10 +96,46 @@ export function TableOffer(props) {
                 <div className='table-body-cell'>
                     <p className='text-center'>
                         <i className="fa fa-check" aria-hidden="true"/><br/>
-                        0,99%
+                        Mail / QR code: 1000€ inclus puis 1,5%
+                        SMS: 1,5% et 0,40€ par SMS <br/>
+                        .
                     </p>
                 </div>
                 <RedundantTableLine/>
+                <div className='table-body-cell'>
+                    {}
+                </div>
+                <div className='table-body-cell'>
+                    {}
+                </div>
+                <div className='table-body-cell'>
+                    <p className='text-center'>
+                        <i className="fa fa-check" aria-hidden="true"/><br/>
+                        20 offerts
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p className='text-center'>
+                        <b className='offer-important-info'>60K€/an offerts</b>
+                        <br/>puis 0,15%
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <button
+                        className="cgu-navigation"
+                        type="button"
+                        onClick={() => navigate('/general-conditions-of-use')}>
+                        Voir CGU de notre partenaire Swan
+                    </button>
+                </div>
+                <div className='table-body-cell'>
+                    <button
+                        className="cgu-navigation"
+                        type="button"
+                        onClick={() => navigate('/general-conditions-of-use')}>
+                        Voir CGU de notre partenaire Swan
+                    </button>
+                </div>
                 <Button
                     type='submit'
                     label="C'est ça qu'il me faut"
@@ -84,23 +146,11 @@ export function TableOffer(props) {
             <div className='offer__table-column third-column'>
                 <div className='offer__table-header'>
                     <img src={Developpement} alt="essentiel" className='offer-image'/>
-                    <h2>Le Sur-mesure</h2>
-                    <div className="offer__category">
-                        <h3>Grandes entreprises artisanales<br/>
-                            A la demande
-                        </h3>
-                    </div>
+                    <h2>DEVELOPPEMENT</h2>
                     <p className='offer-description'>
-                        Tous les services pour franchir un pallier dans votre croissance et automatiser votre forte
-                        activité
+                        Tous les services pour développer et gérer votre activité d'artisan ou d'indépendant
                     </p>
                     <span className='offer-price'>19€</span>/mois
-                </div>
-                <div className='table-body-cell'>
-                    <p className='text-center'>
-                        <i className="fa fa-check" aria-hidden="true"/><br/>
-                        Avec personnalisation & branchement, plusieurs métiers et utilisateurs
-                    </p>
                 </div>
                 <div className='table-body-cell'>
                     <p className='text-center'>
@@ -110,10 +160,50 @@ export function TableOffer(props) {
                 <div className='table-body-cell'>
                     <p className='text-center'>
                         <i className="fa fa-check" aria-hidden="true"/><br/>
-                        en fonction du volume
+                        Mail / QR code: 1000€ inclus puis 0,99%
+                        SMS: 0,99% et 0,30€ par SMS
                     </p>
                 </div>
                 <RedundantTableLine/>
+                <div className='table-body-cell'>
+                    <p className='text-center'>
+                        <b className='offer-important-info'>1 carte offerte</b>
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p className='text-center'>
+                        <b className='offer-important-info'>2 cartes offertes</b>
+                        <br/>puis 1€HT/carte
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p className='text-center'>
+                        <i className="fa fa-check" aria-hidden="true"/><br/>
+                        50 offerts
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <p className='text-center'>
+                        <b className='offer-important-info'>150K€/an offerts</b>
+                        <br/>puis 0,15%
+                    </p>
+                </div>
+                <div className='table-body-cell'>
+                    <button
+                        className="cgu-navigation"
+                        type="button"
+                        onClick={() => navigate('/general-conditions-of-use')}>
+                        Voir CGU de notre partenaire Swan
+                    </button>
+                </div>
+                <div className='table-body-cell'>
+                    <button
+                        className="cgu-navigation"
+                        type="button"
+                        onClick={() => navigate('/general-conditions-of-use')}>
+                        Voir CGU de notre partenaire Swan
+                    </button>
+                </div>
                 <Button
                     type='submit'
                     label="C'est plutôt ça qu'il me faut"
