@@ -1,21 +1,20 @@
 import React from 'react';
 import * as PropTypes from 'prop-types';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation } from 'swiper';
+import {Swiper, SwiperSlide} from 'swiper/react';
+import SwiperCore, {Navigation} from 'swiper';
 import 'swiper/swiper-bundle.css';
 
-import { OfferCard } from '../../../../../common/components/OfferCard';
-import { IconList } from '../../../../../common/components/IconList';
+import {OfferCard} from '../../../../../common/components/OfferCard';
+import {IconList} from '../../../../../common/components/IconList';
 
 import Essentiel from '../../../assets/img/essentiel.png';
 import Developpement from '../../../assets/img/developpement.png';
-import Ambitieux from '../../../assets/img/ambitieux.png';
 
 SwiperCore.use([Navigation]);
 
 export function OfferSwiper(props) {
-    const { setModalOpen } = props;
+    const {setModalOpen} = props;
     return (
         <Swiper
             breakpoints={{
@@ -36,10 +35,11 @@ export function OfferSwiper(props) {
             spaceBetween={5}
             slidesPerView={1}
         >
-            <SwiperSlide style={{ textAlign: 'center' }}>
+            <SwiperSlide style={{textAlign: 'center'}}>
                 <OfferCard
                     imageSrc={Essentiel}
                     offer="L'Essentiel"
+                    sectorActivity="Artisan & indépendant"
                     price="7"
                     cardText="Tous les services essentiels pour gérer votre activité d’artisan ou d'indépendant."
                     buttonLabel="C'est ça qu'il me faut"
@@ -48,50 +48,27 @@ export function OfferSwiper(props) {
                     <ul>
                         <IconList
                             imageSrc=""
-                            listText="Activation de l'assistant virtuel pour développer votre activité, relance client,
-                            identification prospect et nouveaux chantiers."
+                            listText="Activation de notre Intelligence artificielle qui génère des prospects en temps
+                             réel pour développer votre activité et obtenir de nouveaux clients.
+                             (1 métier & 1 utilisateur)"
                         />
                         <IconList
                             imageSrc=""
-                            listText="Initiez la collecte de vos encaissements par QR code, Mails ou SMS en 1 clic.
-                            (Mail / QR code: 1000€ inclus puis 1,5% SMS: 1,5% et 0,40€ par SMS)"
+                            listText="Outil de devis/facturation personnalisé, gestion des acomptes,relance impayés CRM,
+                             gestion des produits."
                         />
                         <IconList
                             imageSrc=""
-                            listText="Bénéficier de notre outil de devis, facturation, comptabilité automatisée.
-                            (1 Utilisateur)"
+                            listText="Initiez la collecte de vos encaissements instantannément par QR code,
+                             Mails ou SMS en 1 clic. Lien de paiement intégré à la facture. (0,99%)"
                         />
                         <IconList
                             imageSrc=""
-                            listText="Inclus services banques en ligne 
-                            (1 compte pro, 1 RIB FR/ Accès mobile et Internet)."
+                            listText="Connectez votre compte bancaire pour visualiser votre trésorerie en continu."
                         />
                         <IconList
                             imageSrc=""
                             listText="Support 7 jours sur 7."
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Carte Mastercard physique incluse (puis 5€HT/carte/mois)."
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Initiation de virements et de prélévements inclus (puis 0,40€ au-delà).
-                            (20 offerts)"
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Commissions de mouvements sur montants initiés depuis BPartners, 
-                            exécuté par notre partenaire Swan.io.
-                            (60K€/an offerts puis 0,15%)"
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Retraits en France ou à l’étranger par Carte."
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Paiements hors zone euro (en devise)."
                         />
                     </ul>
                 </OfferCard>
@@ -99,141 +76,37 @@ export function OfferSwiper(props) {
             <SwiperSlide>
                 <OfferCard
                     imageSrc={Developpement}
-                    offer="Developpement"
-                    price="19"
-                    cardText="Tous les services pour développer et gérer votre activité d’artisan ou d'indépendant."
+                    offer="Le Sur-mesure"
+                    sectorActivity="Grandes entreprises artisanales, franchises, collectivités"
+                    cardText="Tous les services pour franchir un pallier dans votre croissance et
+                     automatiser votre forte activité"
                     buttonLabel="C'est plutôt ça qu'il me faut"
                     setModalOpen={setModalOpen}
                 >
                     <ul>
                         <IconList
                             imageSrc=""
-                            listText="Activation de l'assistant virtuel pour développer votre activité, relance client,
-                            identification prospect et nouveaux chantiers."
+                            listText="Activation de notre Intelligence artificielle qui génère des prospects en temps
+                             réel pour développer votre activité et obtenir de nouveaux clients.
+                             (Avec personnalisation & branchement, plusieurs métiers et utilisateurs)"
                         />
                         <IconList
                             imageSrc=""
-                            listText="Initiez la collecte de vos encaissements par QR code, Mails ou SMS en 1 clic.
-                            Mail / QR code: 1000€ inclus puis 0,99% SMS: 0,99% et 0,30€ par SMS"
+                            listText="Outil de devis/facturation personnalisé, gestion des acomptes,relance impayés CRM,
+                             gestion des produits."
                         />
                         <IconList
                             imageSrc=""
-                            listText="Bénéficier de notre outil de devis, facturation, comptabilité automatisée.
-                            (1 Utilisateur)"
+                            listText="Initiez la collecte de vos encaissements instantannément par QR code,
+                             Mails ou SMS en 1 clic. Lien de paiement intégré à la facture. (En fonction du volume)"
                         />
                         <IconList
                             imageSrc=""
-                            listText="Inclus services banques en ligne 
-                            (1 compte pro, 1 RIB FR/ Accès mobile et Internet)."
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Support 7 jours sur 7."
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Carte Mastercard physique incluse (puis 5€HT/carte/mois)."
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Cartes virtuelles permanente incluses (puis 2€HT/carte/mois).
-                            1 carte offerte"
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Cartes virtuelles à utilisation unique incluses.
-                            2 cartes offertes puis 1€HT/carte"
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Initiation de virements et de prélévements inclus (puis 0,40€ au-delà).
-                            (50 offerts)"
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Commissions de mouvements sur montants initiés depuis BPartners, 
-                            exécuté par notre partenaire Swan.io.
-                            (150K€/an offerts puis 0,15%)"
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Retraits en France ou à l’étranger par Carte."
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Paiements hors zone euro (en devise)."
-                        />
-                    </ul>
-                </OfferCard>
-            </SwiperSlide>
-            <SwiperSlide>
-                <OfferCard
-                    imageSrc={Ambitieux}
-                    offer="L'Ambitieux"
-                    id="ambitieux"
-                    price="39"
-                    cardText="Tous les services franchir un pallier dans votre croissance
-                    et automatiser votre forte activité d’artisan & d'indépendant."
-                    buttonLabel="C'est exactement ça qu'il NOUS faut"
-                    setModalOpen={setModalOpen}
-                >
-                    <ul>
-                        <IconList
-                            imageSrc=""
-                            listText="Activation de l'assistant virtuel pour développer votre activité, relance client,
-                            identification prospect et nouveaux chantiers.(Avec personnalisation)"
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Initiez la collecte de vos encaissements par QR code, Mails ou SMS en 1 clic.
-                            Mail / QR code: 1000€ inclus puis 0,70% SMS: 0,70% et 0,20€ par SMS"
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Bénéficier de notre outil de devis, facturation, comptabilité automatisée.
-                            (4 Utilisateurs)"
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Inclus services banques en ligne 
-                            (1 compte pro, 1 RIB FR/ Accès mobile et Internet, 4 Utilisateurs)."
+                            listText="Connectez votre compte bancaire pour visualiser votre trésorerie en continu."
                         />
                         <IconList
                             imageSrc=""
                             listText="Support 7 jours sur 7."
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Carte Mastercard physique incluse (puis 5€HT/carte/mois, 4 cartes offertes)."
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Cartes virtuelles permanente incluses (puis 2€HT/carte/mois).
-                            2 cartes offertes"
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Cartes virtuelles à utilisation unique incluses.
-                            3 cartes offertes puis 1€HT/carte"
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Initiation de virements et de prélévements inclus (puis 0,40€ au-delà).
-                            (100 offerts)"
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Commissions de mouvements sur montants initiés depuis BPartners, 
-                            exécuté par notre partenaire Swan.io.
-                            (1M€/an offerts puis 0,15%)"
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Retraits en France ou à l’étranger par Carte."
-                        />
-                        <IconList
-                            imageSrc=""
-                            listText="Paiements hors zone euro (en devise)."
                         />
                     </ul>
                 </OfferCard>
@@ -241,6 +114,7 @@ export function OfferSwiper(props) {
         </Swiper>
     )
 }
+
 OfferSwiper.propTypes = {
     setModalOpen: PropTypes.func.isRequired
 }
