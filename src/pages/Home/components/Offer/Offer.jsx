@@ -1,32 +1,36 @@
 import React from 'react';
 
-import { useMediaQuery } from '@mui/material';
+import {useMediaQuery} from '@mui/material';
 import * as PropTypes from 'prop-types';
 
 import WavesTopBg from '../../assets/img/waves-top-bg.png';
-import { OfferSwiper } from './OfferSwiper';
-import { TableOffer } from './TableOffer';
+import {OfferSwiper} from './OfferSwiper';
+import {TableOffer} from './TableOffer';
 
 export function Offer(props) {
-  const { setModalOpen } = props;
-  const matches = useMediaQuery('(min-width: 768px)');
-  return (
-    <section className="offer">
-      <img
-        src={WavesTopBg}
-        alt=" "
-        loading="lazy"
-        style={{
-          position: 'absolute',
-          zIndex: '1',
-          right: '0',
-          bottom: '-.08rem',
-        }}
-      />
-      {matches ? <TableOffer setModalOpen={setModalOpen} /> : <OfferSwiper setModalOpen={setModalOpen} />}
-    </section>
-  );
+    const {setModalOpen} = props;
+    const matches = useMediaQuery('(min-width: 768px)');
+    return (
+        <>
+            <h2 className='section-title'>Nos tarifs</h2>
+            <section className="offer">
+                <img
+                    src={WavesTopBg}
+                    alt=" "
+                    loading="lazy"
+                    style={{
+                        position: 'absolute',
+                        zIndex: '1',
+                        right: '0',
+                        bottom: '-.08rem',
+                    }}
+                />
+                {matches ? <TableOffer setModalOpen={setModalOpen}/> : <OfferSwiper setModalOpen={setModalOpen}/>}
+            </section>
+        </>
+    );
 }
+
 Offer.propTypes = {
-  setModalOpen: PropTypes.func.isRequired,
+    setModalOpen: PropTypes.func.isRequired,
 };
