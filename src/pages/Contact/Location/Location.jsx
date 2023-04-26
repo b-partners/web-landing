@@ -19,8 +19,8 @@ export function Location() {
         <div className='location__col1'>
           <h2 className='location__title'>Contact</h2>
           <p className='location__description'>
-            BPartners est une société enregistrée à l'Orias avec son
-            siège social basé à Paris dans le 11ème arrondissement.
+              BPartners est une société enregistrée au RCS de Paris sous le numéro Siren 918072737
+              avec son siège social basé à Paris dans le 11ème arrondissement.
             <br />
           </p>
           <b className='location__description-bold'>N'hésitez pas à nous écrire pour toute question.</b>

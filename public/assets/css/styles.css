@@ -120,6 +120,12 @@ video {
 .section {
 	padding: 4rem 0 2rem;
 }
+.section-title {
+	text-align: center;
+	color: var(--first-color-logo);
+	margin-bottom: 2rem;
+	font-size: 1.8rem;
+}
 .fa-check {
 	color: var(--first-color-logo);
 	border: 2px solid var(--first-color-logo);
@@ -158,7 +164,7 @@ video {
 	background-size: cover;
 }
 img[alt="companyLogo"] {
-	transform: scale(1.4);
+	transform: scale(1.3);
 }
 .text__highlight {
 	font-weight: 800;
@@ -511,7 +517,6 @@ img[alt="mobile_image"] {
 	text-align: center;
 	position: relative;
 	padding-block: 5rem;
-	min-height: 700px;
 }
 .solution__paragraph {
 	margin-bottom: 2rem;
@@ -531,20 +536,26 @@ img[alt="mobile_image"] {
 	text-align: center;
 	position: relative;
 }
-.distinction__title {
-	font-size: 1.8rem;
-	font-weight: 700;
-	color: var(--first-color-logo);
-}
 .distinction__container {
 	display: flex;
 	justify-content: space-between;
 	margin-block: 3rem;
 }
 .distinction__item {
-	width: 18%;
+	width: calc(100% / 3);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
-/*========== OFFER ==========*/
+.partners {
+	margin-bottom: 4rem;
+}
+.partners__container {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+}
+	/*========== OFFER ==========*/
 .offer {
 	display: flex;
 	justify-content: center;
@@ -576,6 +587,7 @@ img[alt="mobile_image"] {
 }
 .table__title {
 	font-size: xx-large;
+	color: var(--first-color-logo);
 	position: absolute;
 	bottom: 1.75rem;
 	left: 0;
@@ -990,8 +1002,12 @@ img[alt="BpPhone"] {
 	.swiper {
 		margin-block: 5rem;
 	}
-	.mobile__title {
-		margin-bottom: 3rem;
+	.mobile__task, .solution{
+		padding-block: 1rem;
+	}
+	.mobile__title, .solution__title {
+		margin-bottom: 1rem;
+		font-size: 1.2rem;
 		padding: 0 5%;
 		text-align: center;
 	}
@@ -1004,6 +1020,18 @@ img[alt="BpPhone"] {
 		margin: auto;
 		margin-bottom: 2rem;
 		width: 80% !important;
+	}
+	.partners {
+		margin-bottom: 0;
+	}
+	.partners__container {
+		height: 6rem;
+	}
+	.partners__container > * {
+		scale: .8;
+	}
+	.offer {
+		padding-top: 0;
 	}
 	.location__col1, .location__col2, .contact-form__col1, .contact-form__col2 {
 		width: 90%;
