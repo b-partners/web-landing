@@ -42,35 +42,35 @@ export function Footer(props) {
           <h4 className="footer_subtitle">LIENS IMPORTANTS</h4>
           <ul className="navigation_link_list">
             <li>
-              <button className="footer-navigation" type="button" onClick={() => navigate('/home')}>
+              <button className="navigation-button" type="button" onClick={() => navigate('/home')}>
                 <a href="#home">Présentation</a>
               </button>
             </li>
             <li>
-              <button className="footer-navigation" type="button" onClick={() => navigate('/about')}>
+              <button className="navigation-button" type="button" onClick={() => navigate('/about')}>
                 <a href="#description">À propos de nous</a>
               </button>
             </li>
             <li>
-              <button className="footer-navigation" type="button" onClick={() => navigate('/contact')}>
+              <button className="navigation-button" type="button" onClick={() => navigate('/contact')}>
                 <a href="#location">Nous contacter</a>
               </button>
             </li>
             <li>
-              <button className="footer-navigation" type="button">
-                <a href="https://dashboard-dev.bpartners.app/login">Mon compte</a>
+              <button className="navigation-button" type="button">
+                <a href={process.env.REACT_APP_DASHBOARD_LOGIN_URL}>Mon compte</a>
               </button>
             </li>
             <li>
               <button
-                className="footer-navigation"
+                className="navigation-button"
                 type="button"
                 onClick={() => navigate('/general-conditions-of-use')}>
                 <a href="#CGU">Conditions générales d'utilisation</a>
               </button>
             </li>
             <li>
-              <button className="footer-navigation" type="button">
+              <button className="navigation-button" type="button">
                 <a href="https://landing-bpartners.s3.eu-west-3.amazonaws.com/Inge%CC%81nieur+IA+H_F.pdf">
                   Nous recrutons !
                 </a>
