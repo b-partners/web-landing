@@ -790,7 +790,7 @@ img[alt="mobile_image"] {
 .navigation_link_list > li :hover{
 	text-decoration: underline;
 }
-.footer-navigation {
+.navigation-button {
 	background-color: transparent;
 	color: white;
 	border: none;

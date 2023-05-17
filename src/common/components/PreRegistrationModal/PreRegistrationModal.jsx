@@ -152,6 +152,7 @@ export function usePreRegistration(setMessage, setToastOpen) {
   const [user, setUser] = useState(INITIAL_USER);
 
   const onEmailRegistration = () => {
+    window.dataLayer.push({ event: 'buttonClick', buttonName: 'preRegistrationButton' });
     if (!isValidEmail(user.email)) {
       setToastOpen(true);
       setMessage('Veuillez mettre une adresse email valide');
