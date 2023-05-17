@@ -2,15 +2,18 @@
 import React from 'react';
 import * as PropTypes from 'prop-types';
 import {NavLink, useNavigate} from 'react-router-dom';
-import {useScrollPosition, useToggle} from '../../../../utils/hooks';
+import {useScrollPosition, useTagManager, useToggle} from '../../../../utils/hooks';
 import '../../assets/css/forms.css';
 import logo from '../../assets/img/logoFullWhite.webp';
 
 export function Header(props) {
     const {pathName} = props;
+
     const [menuActive, toggleMenuActive] = useToggle(false);
 
     const navigate = useNavigate();
+
+    const handleTagManager = useTagManager();
 
     const scrollPosition = useScrollPosition();
 
@@ -72,14 +75,26 @@ export function Header(props) {
                                 </NavLink>
                             </li>
                             <li className="nav-bar-link">
-                                <button type="button" className="navigation-button" id="blog-navigation">
+                                <button
+                                    type="button"
+                                    className="navigation-button"
+                                    onClick={() => {
+                                        handleTagManager('blog-navigation');
+                                    }}
+                                    id="blog-navigation">
                                     <a name="link-4" href={process.env.REACT_APP_BLOG_URL}>
                                         Blog
                                     </a>
                                 </button>
                             </li>
                             <li className="nav-bar-link">
-                                <button type="button" className="navigation-button" id="dashboard-navigation">
+                                <button
+                                    type="button"
+                                    className="navigation-button"
+                                    onClick={() => {
+                                        handleTagManager('dashboard-navigation');
+                                    }}
+                                    id='dashboard-navigation'>
                                     <a name="link-5" href={process.env.REACT_APP_DASHBOARD_LOGIN_URL}>
                                         Se connecter
                                         <i className="fa fa-user" style={{marginLeft: '.6rem'}}/>

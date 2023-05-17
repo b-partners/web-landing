@@ -5,9 +5,18 @@ import {Button} from '../../../../../common/components/Button';
 import Essentiel from '../../../assets/img/essentiel.png';
 import Developpement from '../../../assets/img/developpement.png';
 import {RedundantTableLine} from './RedundantTableLine/RedundantTableLine';
+import {useTagManager} from "../../../../../utils/hooks";
 
 export function TableOffer(props) {
     const {setModalOpen} = props;
+
+    const handleTagManager = useTagManager();
+
+    const handleOpenModal = (targetElement) => {
+        setModalOpen(true);
+        handleTagManager(targetElement);
+    }
+
     return (
         <div className='offer__table-row bd-container'>
             <div className='offer__table-first__column'>
@@ -78,7 +87,7 @@ export function TableOffer(props) {
                     type='submit'
                     label="C'est ça qu'il me faut"
                     preset="registration-button"
-                    onClick={() => setModalOpen(true)}
+                    onClick={() => handleOpenModal('EssentialOfferButton')}
                 />
             </div>
             <div className='offer__table-column'>
@@ -96,7 +105,7 @@ export function TableOffer(props) {
                         className='contact-button'
                         role="button"
                         tabIndex="0"
-                        onClick={() => setModalOpen(true)}
+                        onClick={() => handleOpenModal('ContactUsButton')}
                         onKeyPress={() => {
                         }}
                     >
@@ -125,7 +134,7 @@ export function TableOffer(props) {
                     type='submit'
                     label="C'est plutôt ça qu'il me faut"
                     preset="registration-button"
-                    onClick={() => setModalOpen(true)}
+                    onClick={() => handleOpenModal('CustomizedOfferButton')}
                 />
             </div>
         </div>
