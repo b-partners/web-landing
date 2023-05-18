@@ -37,7 +37,9 @@ export function Header(props) {
         <header className="l-header" id="header"
                 style={makeStyle()}
         >
-            <nav className="nav bd-container" style={{backgroundImage: "url('../../assets/img/VAGUE.jpg')"}}>
+            <nav className="nav" style={{
+                backgroundImage: "url('../../assets/img/VAGUE.jpg')"
+            }}>
                 <button type="button" className="nav__logo" onClick={() => navigate('/home')}>
                     <a href="#home">
                         <img src={logo} alt="logo" width='170' height='55.01'/>
@@ -98,6 +100,19 @@ export function Header(props) {
                                     <a name="link-5" href={process.env.REACT_APP_DASHBOARD_LOGIN_URL}>
                                         Se connecter
                                         <i className="fa fa-user" style={{marginLeft: '.6rem'}}/>
+                                    </a>
+                                </button>
+                            </li>
+                            <li className="nav-bar-link">
+                                <button
+                                    type="button"
+                                    className="navigation-registration-button"
+                                    onClick={() => {
+                                        handleTagManager('dashboard-registration-navigation');
+                                    }}
+                                    id='dashboard-registration-navigation'>
+                                    <a name="link-6" href={process.env.REACT_APP_DASHBOARD_REGISTRATION_URL}>
+                                        Je m'inscris
                                     </a>
                                 </button>
                             </li>
