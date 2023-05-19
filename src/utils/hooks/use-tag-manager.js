@@ -1,8 +1,5 @@
-const tagManager = (eventName) => {
-    window.dataLayer.push({
-        'event': 'click',
-        'clickClass': eventName,
-    });
+const tagManager = () => {
+
 };
 
 export const useTagManager = () => tagManager;
