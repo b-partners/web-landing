@@ -85,6 +85,7 @@ export function TableOffer(props) {
                 <RedundantTableLine/>
                 <Button
                     type='submit'
+                    id="offer-button-1"
                     label="C'est ça qu'il me faut"
                     preset="registration-button"
                     onClick={() => handleOpenModal('EssentialOfferButton')}
@@ -103,6 +104,7 @@ export function TableOffer(props) {
                     </p>
                     <div
                         className='contact-button'
+                        id="contact-offer-1"
                         role="button"
                         tabIndex="0"
                         onClick={() => handleOpenModal('ContactUsButton')}
@@ -132,6 +134,7 @@ export function TableOffer(props) {
                 <RedundantTableLine/>
                 <Button
                     type='submit'
+                    id="offer-button-2"
                     label="C'est plutôt ça qu'il me faut"
                     preset="registration-button"
                     onClick={() => handleOpenModal('CustomizedOfferButton')}

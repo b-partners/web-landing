@@ -96,6 +96,7 @@ export function Welcome(props) {
                             />
                             <Button
                                 type="button"
+                                id="registration-button-1"
                                 label="Ça m'intéresse"
                                 preset="home-registration-button"
                                 onClick={onEmailRegistration}
@@ -107,6 +108,8 @@ export function Welcome(props) {
                     <iframe
                         width="450"
                         height="270"
+                        className="bp-description-video"
+                        id="bpvideo-1"
                         src="https://www.youtube.com/embed/a38imldPQYc?autoplay=0"
                         title="bpartners_video"
                         frameBorder="0"

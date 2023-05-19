@@ -97,6 +97,7 @@ export function Footer(props) {
           />
           <Button
             type="button"
+            id="registration-button-3"
             label="Je m'inscris"
             preset="footer_registration__button"
             onClick={onEmailRegistration}
