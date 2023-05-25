@@ -5,7 +5,7 @@ import './CGUDocument.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-export function CGUDocument() {
+export function PdfDocument({pdfUrl}) {
     const [page, setPage] = useState(1);
     const [numPages, setNumPages] = useState(1);
     return (
@@ -15,7 +15,7 @@ export function CGUDocument() {
                     error={<p>Impossible d'afficher le document.</p>}
                     loading={<p>Chargement du document...</p>}
                     onLoadSuccess={(props) => setNumPages(props.numPages)}
-                    file={process.env.REACT_APP_CGU_URL}
+                    file={pdfUrl}
                 >
                     <Page pageNumber={page} />
                     <nav>
@@ -55,6 +55,7 @@ export function CGUDocument() {
     )
 }
 
-CGUDocument.propTypes = {
-    numPages: PropTypes.number.isRequired
+PdfDocument.propTypes = {
+    numPages: PropTypes.number.isRequired,
+    pdfUrl: PropTypes.string.isRequired,
 };

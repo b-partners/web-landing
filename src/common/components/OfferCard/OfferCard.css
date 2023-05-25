@@ -3,9 +3,9 @@
   flex-direction: column;
   text-align: center;
   border: 1px solid rgb(217, 217, 217);
-  background-color: rgb(217, 217, 217);
+  background-color: rgb(249,247,252);
   width: auto;
-  min-height: 29.5rem;
+  min-height: 33rem;
 }
 .card-offer-image {
   width: 25%;
@@ -15,8 +15,15 @@
 .offer-card__info {
   min-height: 7rem;
 }
+.offer-card__info h2,
+.offer-card__info h4 {
+  color: var(--first-color-logo);
+}
+
 .offer__card__button {
-  background-color: black;
+  background-color: var(--first-color-logo);
+  border: 1px solid #ffffff;
+  border-radius: 50px;
   color: white;
   margin-bottom: 0.7rem;
   width: 93%;
@@ -34,6 +41,7 @@
 .more-info__button {
   background-color: white;
   border: 1px solid var(--first-color-logo);
+  border-radius: 50px;
   color: var(--first-color-logo);
   margin-bottom: 0.7rem;
   width: 93%;

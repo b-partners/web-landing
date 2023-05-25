@@ -1,1 +1,1 @@
-export * from './CGUDocument';
+export * from './PdfDocument';

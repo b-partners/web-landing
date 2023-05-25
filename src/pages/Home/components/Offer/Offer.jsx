@@ -11,8 +11,8 @@ export function Offer(props) {
     const {setModalOpen} = props;
     const matches = useMediaQuery('(min-width: 768px)');
     return (
-        <>
-            <h2 className='section-title'>Nos tarifs</h2>
+        <div className='pricing'>
+            <h2 className='section-title pricing-title'>Nos tarifs</h2>
             <section className="offer">
                 <img
                     src={WavesTopBg}
@@ -23,11 +23,12 @@ export function Offer(props) {
                         zIndex: '1',
                         right: '0',
                         bottom: '-.08rem',
+                        filter: 'brightness(1.05)',
                     }}
                 />
                 {matches ? <TableOffer setModalOpen={setModalOpen}/> : <OfferSwiper setModalOpen={setModalOpen}/>}
             </section>
-        </>
+        </div>
     );
 }
 

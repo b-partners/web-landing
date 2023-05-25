@@ -21,12 +21,17 @@ export function OfferCard({imageSrc, offer, sectorActivity, price, cardText, but
                         {offer}
                     </h2>
                     <h3>{sectorActivity}</h3>
-                    {price && < h4>< span style={{fontSize: '1.5rem'}}>{price}€</span>/mois</h4>}
+                    {price && <h4>
+                        <span
+                            style={{fontSize: '1.8rem', color: 'rgba(156, 37, 90, 1)'}}>
+                            {price}€
+                        </span>/mois
+                    </h4>}
                 </div>
                 <p
                     style={{
                         marginBlock: '1.7rem',
-                        fontWeight: '700',
+                        fontWeight: '400',
                         padding: '0rem 1.5rem',
                         minHeight: '95.05px',
                     }}
