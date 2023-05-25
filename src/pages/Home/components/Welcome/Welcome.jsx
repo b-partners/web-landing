@@ -106,12 +106,12 @@ export function Welcome(props) {
                 </div>
                 <div className='bpartners__video'>
                     <iframe
+                        title="bpartners_video"
                         width="450"
                         height="270"
                         className="bp-description-video"
                         id="bpvideo-1"
                         src="https://www.youtube.com/embed/a38imldPQYc?autoplay=0"
-                        title="bpartners_video"
                         frameBorder="0"
                         allowFullScreen
                     />

@@ -34,6 +34,7 @@ export function GetInTouch(props) {
                     zIndex: '-1',
                     left: '0',
                     top: '-.05rem',
+                    filter: 'brightness(1.05)',
                 }}
             />
             <div className="bd-container section">
