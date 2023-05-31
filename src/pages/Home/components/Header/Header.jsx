@@ -2,7 +2,7 @@
 import React from 'react';
 import * as PropTypes from 'prop-types';
 import {NavLink, useNavigate} from 'react-router-dom';
-import {useScrollPosition, useTagManager, useToggle} from '../../../../utils/hooks';
+import {useScrollPosition, useToggle} from '../../../../utils/hooks';
 import '../../assets/css/forms.css';
 import logo from '../../assets/img/logoFullWhite.webp';
 
@@ -12,8 +12,6 @@ export function Header(props) {
     const [menuActive, toggleMenuActive] = useToggle(false);
 
     const navigate = useNavigate();
-
-    const handleTagManager = useTagManager();
 
     const scrollPosition = useScrollPosition();
 
@@ -80,9 +78,6 @@ export function Header(props) {
                                 <button
                                     type="button"
                                     className="navigation-button"
-                                    onClick={() => {
-                                        handleTagManager('blog-navigation');
-                                    }}
                                     id="blog-navigation">
                                     <a name="link-4" href={process.env.REACT_APP_BLOG_URL}>
                                         Blog
@@ -93,9 +88,6 @@ export function Header(props) {
                                 <button
                                     type="button"
                                     className="navigation-button"
-                                    onClick={() => {
-                                        handleTagManager('dashboard-navigation');
-                                    }}
                                     id='dashboard-navigation'>
                                     <a name="link-5" href={process.env.REACT_APP_DASHBOARD_LOGIN_URL}>
                                         Se connecter
@@ -107,9 +99,6 @@ export function Header(props) {
                                 <button
                                     type="button"
                                     className="navigation-registration-button"
-                                    onClick={() => {
-                                        handleTagManager('dashboard-registration-navigation');
-                                    }}
                                     id='dashboard-registration-navigation'>
                                     <a name="link-6" href={process.env.REACT_APP_DASHBOARD_REGISTRATION_URL}>
                                         Je m'inscris

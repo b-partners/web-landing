@@ -7,7 +7,7 @@ import MuiPhoneNumber from 'material-ui-phone-number';
 import * as PropTypes from 'prop-types';
 
 import axios from '../../../config/axios';
-import {useTranslation, useHandleError, useTagManager} from '../../../utils/hooks';
+import {useTranslation, useHandleError} from '../../../utils/hooks';
 import isValidEmail from '../../../utils/is-valid-email';
 import { Button } from '../Button';
 import { blankToNull } from '../../../utils/blankToNull';
@@ -151,10 +151,7 @@ export function usePreRegistration(setMessage, setToastOpen) {
   const [preregistrationIsComplete, setPreregistrationIsComplete] = useState(false);
   const [user, setUser] = useState(INITIAL_USER);
 
-  const handleTagManager = useTagManager();
-
   const onEmailRegistration = () => {
-    handleTagManager('preRegistrationButton');
     if (!isValidEmail(user.email)) {
       setToastOpen(true);
       setMessage('Veuillez mettre une adresse email valide');
@@ -170,7 +167,6 @@ export function usePreRegistration(setMessage, setToastOpen) {
     event.preventDefault();
     const isFormValid = isValidEmail(user.email);
     setPreregistrationIsComplete(false);
-    handleTagManager('preRegistrationConfirmationButton');
 
     if (!isFormValid) {
       setMessage('Veuillez remplir tous les champs obligatoires.');
