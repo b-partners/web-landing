@@ -75,7 +75,7 @@ export function TableOffer(props) {
                 <div className='table-body-cell'>
                     <p className='text-center'>
                         <i className="fa fa-check" aria-hidden="true"/><br/>
-                        0,99%
+                        0,99% commission
                     </p>
                 </div>
                 <RedundantTableLine/>
