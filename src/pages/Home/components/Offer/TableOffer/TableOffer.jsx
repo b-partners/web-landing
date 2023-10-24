@@ -4,7 +4,7 @@ import * as PropTypes from 'prop-types';
 import {Button} from '../../../../../common/components/Button';
 import Essentiel from '../../../assets/img/essentiel.png';
 import Developpement from '../../../assets/img/developpement.png';
-import {RedundantTableLine} from './RedundantTableLine/RedundantTableLine';
+import {RedundantTableLine} from './RedundantTableLine';
 
 export function TableOffer(props) {
     const {setModalOpen} = props;

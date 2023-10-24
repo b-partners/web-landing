@@ -29,7 +29,7 @@ export function Home(props) {
         <div>
             <section className='banner__section'>
                 <Header pathName={pathName}/>
-                <Welcome onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user}/>
+                <Welcome />
             </section>
             <Feature/>
             <Authenticity/>
