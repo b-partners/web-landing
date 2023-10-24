@@ -421,19 +421,23 @@ h1.home__title {
     border: 1px solid transparent;
     display: flex;
     flex-direction: column;
-    padding: 5% 5%;
-    border-radius: 0px 30px !important;
+    padding-bottom: 1.7rem !important;
+    border-radius: 0 30px !important;
 }
 
 .home-registration-button {
-    width: 40%;
-    border-radius: 0px 30px 30px 0px;
+    width: 60%;
+    border-radius: 30px;
     height: inherit;
     background-color: var(--first-color-logo);
     color: white;
     border: 1px solid var(--first-color-logo);
-    margin-bottom: .7rem;
+    margin-block: .7rem;
     cursor: pointer;
+}
+
+.home-registration-button > a {
+    color: white;
 }
 
 .home-registration-mail {
@@ -748,7 +752,7 @@ img[alt="mobile_image"] {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: rgb(249,247,252);
+    background-color: rgb(249, 247, 252);
 }
 
 .testimonial__title {
@@ -837,14 +841,15 @@ img[alt="mobile_image"] {
     padding-block: .7rem;
     cursor: pointer;
 }
+
 .navigation-registration-button:hover {
     transform: scale(1.03);
 }
 
 .navigation-registration-button > a {
     color: var(--first-color-logo) !important;
-	font-size: 1rem;
-	font-weight: bolder;
+    font-size: 1rem;
+    font-weight: bolder;
 }
 
 .footer_registration {
@@ -1080,6 +1085,20 @@ img[alt="BpPhone"] {
 }
 
 @media only screen and (max-width: 768px) {
+    .nav {
+        margin-block: 1rem;
+    }
+
+    .nav__logo {
+        width: 65%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .home {
+        min-height: 1180px;
+    }
+
     .home__container {
         flex-direction: column-reverse;
         margin-top: 2rem;
@@ -1089,6 +1108,19 @@ img[alt="BpPhone"] {
         position: inherit;
         width: 100% !important;
         margin-top: 1rem;
+    }
+
+    .home-registration-mail {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-registration-button {
+        width: 100%;
+    }
+
+    img[alt="waves-home"] {
+        z-index: -1 !important;
     }
 
     .swiper {
@@ -1123,15 +1155,19 @@ img[alt="BpPhone"] {
     }
 
     .partners__container {
+        min-height: 400px;
+        flex-direction: column;
         height: 6rem;
     }
 
     .partners__container > * {
         scale: .8;
     }
+
     .pricing {
         position: relative;
     }
+
     .pricing-title {
         position: absolute;
         left: 33.5%;
@@ -1183,6 +1219,23 @@ img[alt="BpPhone"] {
     .get_in_touch__button {
         width: 70%;
         border-radius: 25px;
+    }
+
+    .footer {
+        margin-top: 0;
+    }
+
+    .footer_registration {
+        margin-block: 1rem;
+    }
+
+    .footer__column > button.nav__logo {
+        justify-content: center;
+    }
+
+    .footer__column {
+        display: flex;
+        justify-content: center;
     }
 }
 
