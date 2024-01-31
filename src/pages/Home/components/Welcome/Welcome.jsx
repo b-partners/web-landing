@@ -30,10 +30,10 @@ export function Welcome () {
             />
             <p className="welcoming">Bienvenue sur BPartners</p>
             <h1 className="home__title bd-container">
-                L'assistant intelligent qui accélère
+                L'assistant qui prend de la hauteur
                 <br/>
                 <span style={{fontWeight: '600'}}>
-          la croissance des artisans et <br/> indépendants français.
+          et analyse vos toitures <br/> sur image HD.
         </span>
             </h1>
             <div className="home__container bd-container bd-grid">
