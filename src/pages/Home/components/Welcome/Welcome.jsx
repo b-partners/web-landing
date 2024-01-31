@@ -43,20 +43,20 @@ export function Welcome () {
                             <ul>
                                 <IconList
                                     imageSrc={VirtualBot}
-                                    listText="Générez de nouveaux clients grâce à notre assistant commercial intelligent."
+                                    listText="Analysez les toits de vos prospects automatiquement sur image HD 5 cm."
                                 />
                                 <IconList
                                     imageSrc={QrCode}
-                                    listText="Encaissez vos clients partout sur mobile ou à distance en 1 clic."
+                                    listText="Gagnez en réactivité avec des devis précis et techniques."
                                 />
                             </ul>
                         </div>
                         <div className="home__list__col">
                             <ul>
-                                <IconList imageSrc={PaidBill} listText="Editez vos devis et factures facilement."/>
+                                <IconList imageSrc={PaidBill} listText="Détectez, mesurez et qualifiez vos chantiers en 1 clic."/>
                                 <IconList
                                     imageSrc={CashRegisterEuro}
-                                    listText="Initiez des virements depuis votre compte pro de paiement FR."
+                                    listText="Gagnez de nouveaux clients, facturez et encaissez."
                                 />
                             </ul>
                         </div>

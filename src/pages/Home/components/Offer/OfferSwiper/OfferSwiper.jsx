@@ -40,7 +40,7 @@ export function OfferSwiper(props) {
                     imageSrc={Essentiel}
                     offer="L'Essentiel"
                     sectorActivity="Artisan & indépendant"
-                    price="7"
+                    price="49"
                     cardText="Tous les services essentiels pour gérer votre activité d’artisan ou d'indépendant."
                     buttonLabel="C'est ça qu'il me faut"
                     setModalOpen={setModalOpen}
@@ -48,9 +48,8 @@ export function OfferSwiper(props) {
                     <ul>
                         <IconList
                             imageSrc=""
-                            listText="Activation de notre Intelligence artificielle qui génère des prospects en temps
-                             réel pour développer votre activité et obtenir de nouveaux clients.
-                             (1 métier & 1 utilisateur)"
+                            listText="Activation de notre intelligence artificielle qui analyse les toitures de vos
+                            prospects et organise le suivi des toitures de vos clients existants."
                         />
                         <IconList
                             imageSrc=""

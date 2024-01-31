@@ -21,8 +21,8 @@ export function TableOffer(props) {
                 </div>
                 <div className='table-body-cell'>
                     <p>
-                        Activation de notre Intelligence artificielle qui génère des prospects en temps
-                        réel pour développer votre activité et obtenir de nouveaux clients.
+                        Activation de notre intelligence artificielle qui analyse les toitures
+                        de vos prospects et organise le suivi des toitures de vos clients existants.
                     </p>
                 </div>
                 <div className='table-body-cell'>
@@ -59,7 +59,7 @@ export function TableOffer(props) {
                     <p className='offer-description'>
                         Tous les services essentiels pour gérer votre activité d'artisan ou d'indépendant
                     </p>
-                    <span className='offer-price'>7€</span>/mois
+                    <span className='offer-price'>49€</span>/mois
                 </div>
                 <div className='table-body-cell'>
                     <p className='text-center'>
