@@ -14,7 +14,7 @@ import PaidBill from '../../assets/img/paid-bill.webp';
 import QrCode from '../../assets/img/qr-code-ext.webp';
 import VirtualBot from '../../assets/img/virtual-bot.webp';
 import WelcomeSectionBg from '../../assets/img/welcome-waves.webp';
-import AnnotatorDevices from '../../assets/img/annotator-devices.webp';
+import AnnotatorDevices from '../../assets/img/annotator-devices.png';
 
 export function Welcome () {
 

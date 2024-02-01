@@ -1,6 +1,6 @@
 import React from 'react';
 import {LazyLoadImage} from "react-lazy-load-image-component";
-import CraftingTools from '../../assets/img/crafting-tools.webp';
+import AnnotatorDashboard from '../../assets/img/annotator-dashboard.webp';
 import WavesTopBg from '../../assets/img/auth-top-waves.png';
 import WavesBottomBg from '../../assets/img/auth-bottom-waves.png';
 
@@ -79,10 +79,9 @@ export function Authenticity() {
                         </div>
                         <div className='mobile__task__image'>
                             <LazyLoadImage
-                                src={CraftingTools}
-                                height='350'
+                                src={AnnotatorDashboard}
                                 width='358'
-                                PlaceholderSrc={CraftingTools}
+                                PlaceholderSrc={AnnotatorDashboard}
                                 effect="blur"
                             />
                         </div>
