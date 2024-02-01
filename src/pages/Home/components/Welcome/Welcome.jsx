@@ -14,6 +14,7 @@ import PaidBill from '../../assets/img/paid-bill.webp';
 import QrCode from '../../assets/img/qr-code-ext.webp';
 import VirtualBot from '../../assets/img/virtual-bot.webp';
 import WelcomeSectionBg from '../../assets/img/welcome-waves.webp';
+import AnnotatorDevices from '../../assets/img/annotator-devices.webp';
 
 export function Welcome () {
 
@@ -88,15 +89,11 @@ export function Welcome () {
                     </Paper>
                 </div>
                 <div className="bpartners__video">
-                    <iframe
-                        title="bpartners_video"
-                        width="450"
+                    <img
+                        src={AnnotatorDevices}
+                        alt="annotator-devices"
                         height="270"
-                        className="bp-description-video"
-                        id="bpvideo-1"
-                        src="https://www.youtube.com/embed/MTUPp2tqsL0?autoplay=0"
-                        frameBorder="0"
-                        allowFullScreen
+                        width="450"
                     />
                     <br/>
                     <div
