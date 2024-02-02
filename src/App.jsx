@@ -12,6 +12,7 @@ import {Contact} from './pages/Contact';
 import {Home} from './pages/Home';
 import {PdfReader} from './pages/GCU/PdfReader';
 import {Craftsman} from "./pages/Craftsman";
+import {Collectivity} from "./pages/Collectivity";
 
 function App() {
     const [toastOpen, setToastOpen] = useState(false);
@@ -70,6 +71,12 @@ function App() {
                             user={user}
                         />
                     }
+                />
+                <Route
+                    exact
+                    path='/collectivity'
+                    element={<Collectivity onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration}
+                                    user={user}/>}
                 />
                 <Route
                     exact

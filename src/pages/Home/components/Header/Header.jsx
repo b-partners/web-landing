@@ -74,6 +74,11 @@ export function Header() {
                                 </NavLink>
                             </li>
                             <li>
+                                <NavLink className="nav-bar-link" to="/collectivity">
+                                    Collectivité
+                                </NavLink>
+                            </li>
+                            <li>
                                 <NavLink className="nav-bar-link" to="/about">
                                     À propos
                                 </NavLink>
