@@ -1,15 +1,19 @@
 /* eslint-disable no-restricted-globals */
-import React from 'react';
-import * as PropTypes from 'prop-types';
-import {NavLink, useNavigate} from 'react-router-dom';
+import React, {useEffect, useState} from 'react';
+import {NavLink, useLocation, useNavigate} from 'react-router-dom';
 import {useScrollPosition, useToggle} from '../../../../utils/hooks';
 import '../../assets/css/forms.css';
 import logo from '../../assets/img/logoFullWhite.webp';
 
-export function Header(props) {
-    const {pathName} = props;
-
+export function Header() {
     const [menuActive, toggleMenuActive] = useToggle(false);
+    const [currentPath, setCurrentPath] = useState('');
+    const {pathname} = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        setCurrentPath(pathname);
+    }, [pathname]);
 
     const navigate = useNavigate();
 
@@ -21,7 +25,7 @@ export function Header(props) {
                 background: 'linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3))'
             }
         }
-        if (pathName === '/home') {
+        if (currentPath === '/craftsman' || currentPath === '/home') {
             return {
                 background: "transparent"
             }
@@ -62,6 +66,11 @@ export function Header(props) {
                             <li>
                                 <NavLink className="nav-bar-link" to="/home">
                                     Accueil
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink className="nav-bar-link" to="/craftsman">
+                                    Artisans
                                 </NavLink>
                             </li>
                             <li>
@@ -115,10 +124,3 @@ export function Header(props) {
         </header>
     );
 }
-
-Header.propTypes = {
-    pathName: PropTypes.string,
-}
-Header.defaultProps = {
-    pathName: '',
-};

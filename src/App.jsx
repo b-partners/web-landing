@@ -11,6 +11,7 @@ import {About} from './pages/About';
 import {Contact} from './pages/Contact';
 import {Home} from './pages/Home';
 import {PdfReader} from './pages/GCU/PdfReader';
+import {Craftsman} from "./pages/Craftsman";
 
 function App() {
     const [toastOpen, setToastOpen] = useState(false);
@@ -51,6 +52,18 @@ function App() {
                     path='/home'
                     element={
                         <Home
+                            setModalOpen={setModalOpen}
+                            onEmailChange={onEmailChange}
+                            onEmailRegistration={onEmailRegistration}
+                            user={user}
+                        />
+                    }
+                />
+                <Route
+                    exact
+                    path='/craftsman'
+                    element={
+                        <Craftsman
                             setModalOpen={setModalOpen}
                             onEmailChange={onEmailChange}
                             onEmailRegistration={onEmailRegistration}

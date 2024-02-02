@@ -6,14 +6,14 @@ import {Distinction} from './components/Distinction';
 import {Feature} from './components/Feature';
 import {Footer} from './components/Footer';
 import {GetInTouch} from './components/GetInTouch';
-import {Header} from './components/Header';
+import {Header} from '../Home/components/Header';
 import {Offer} from './components/Offer';
 import {Solution} from './components/Solution';
 import {Testimonial} from './components/Testimonial';
 import {Welcome} from './components/Welcome';
 import {Partners} from "./components/Partners";
 
-export function Home(props) {
+export function Craftsman(props) {
     const {setModalOpen, onEmailChange, onEmailRegistration, user} = props;
 
     return (
@@ -35,7 +35,7 @@ export function Home(props) {
     );
 }
 
-Home.propTypes = {
+Craftsman.propTypes = {
     setModalOpen: PropTypes.func.isRequired,
     user: PropTypes.shape({
         firstName: PropTypes.string,
