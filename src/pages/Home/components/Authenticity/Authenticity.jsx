@@ -1,6 +1,6 @@
 import React from 'react';
 import {LazyLoadImage} from "react-lazy-load-image-component";
-import AnnotatorDashboard from '../../assets/img/annotator-dashboard.webp';
+import AnnotatorDashboard from '../../assets/img/annotator-dashboard.png';
 import WavesTopBg from '../../assets/img/auth-top-waves.png';
 import WavesBottomBg from '../../assets/img/auth-bottom-waves.png';
 
