@@ -5,17 +5,17 @@ import React from 'react';
 
 import Paper from '@mui/material/Paper';
 
-import {IconList} from '../../../../common/components/IconList';
-import '../../../../common/components/Modal/Modal.css';
-import '../../assets/css/forms.css';
-import '../../assets/css/spinner.css';
-import CashRegisterEuro from '../../assets/img/cash-register-euro.webp';
-import PaidBill from '../../assets/img/paid-bill.webp';
-import QrCode from '../../assets/img/qr-code-ext.webp';
-import VirtualBot from '../../assets/img/virtual-bot.webp';
-import WelcomeSectionBg from '../../assets/img/welcome-waves.webp';
+import {IconList} from '../../../common/components/IconList';
+import '../../../common/components/Modal/Modal.css';
+import '../../Home/assets/css/forms.css';
+import '../../Home/assets/css/spinner.css';
+import CashRegisterEuro from '../../Home/assets/img/cash-register-euro.webp';
+import PaidBill from '../../Home/assets/img/paid-bill.webp';
+import QrCode from '../../Home/assets/img/qr-code-ext.webp';
+import VirtualBot from '../../Home/assets/img/virtual-bot.webp';
+import WelcomeSectionBg from '../../Home/assets/img/welcome-waves.webp';
 
-export function Welcome () {
+export function Hero () {
 
     return (
         <section className="home" id="home">
