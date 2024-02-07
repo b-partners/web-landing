@@ -5,6 +5,7 @@ import * as PropTypes from 'prop-types';
 
 import {Footer} from '../Home/components/Footer';
 import {Header} from '../Home/components/Header';
+import {Headline} from "./components/Headline";
 
 export function Collectivity(props) {
     const {onEmailChange, onEmailRegistration, user} = props;
@@ -18,7 +19,7 @@ export function Collectivity(props) {
         <div>
             <Header/>
             <div style={{minHeight: '400px'}}>
-                <h1 style={{marginTop: '5rem'}}>Page collectivité</h1>
+                <Headline/>
             </div>
             <Footer onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user}/>
         </div>
