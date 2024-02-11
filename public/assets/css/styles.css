@@ -907,6 +907,44 @@ img[alt="mobile_image"] {
     }
 }
 
+
+/*========== COLLECTIVITY ==========*/
+.headline {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.headline__title {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    color: var(--first-color-logo);
+}
+
+.headline__subtitle {
+    font-size: 1.2rem;
+    line-height: 3.5rem;
+    font-weight: 800;
+    color: var(--first-color-logo);
+}
+
+.headline__paragraph {
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.offer_collectivity__title {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    color: var(--first-color-logo);
+}
+
+.usecase__item {
+    width: 100%;
+    border: 1px solid black;
+}
+
 /*========== DESCRIPTION ==========*/
 .description {
     margin-top: 2rem;
