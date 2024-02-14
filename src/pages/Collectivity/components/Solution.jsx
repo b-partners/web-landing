@@ -5,8 +5,8 @@ import React from 'react';
 
 export function Solution() {
     return (
-        <section className="offer_collectivity bd-container" id="description">
-            <h2 className="offer_collectivity__title">Nos solutions: Nos cas d'usages</h2>
+        <section className="solution_collectivity bd-container" id="description">
+            <h2 className="solution_collectivity__title">Nos solutions: Nos cas d'usages</h2>
             <p className="headline__paragraph">
                 Que ce soit sur des images satellites ou orthophotographie, BPartners IA permet une détection
                 automatisée pour gagner

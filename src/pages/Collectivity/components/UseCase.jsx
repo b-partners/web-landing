@@ -1,19 +1,11 @@
 import React from 'react';
-import {Carousel} from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import {UseCaseItem} from "./UseCaseItem";
-import ImgCarousel1 from '../assets/img/Images-carrousselle-1.png';
-import ImgCarousel2 from '../assets/img/Images-carrousselle-2.png';
-import ImgCarousel3 from '../assets/img/Images-carrousselle-3.png';
 
 export function UseCase() {
     return (
-        <section className="offer_collectivity" id="description">
-            <Carousel showArrows infiniteLoop showThumbs={false} showStatus={false} autoPlay interval={5000}>
-                <UseCaseItem image={ImgCarousel1}/>
-                <UseCaseItem image={ImgCarousel2}/>
-                <UseCaseItem image={ImgCarousel3}/>
-            </Carousel>
+        <section className="usecase bd-container" id="description">
+            <UseCaseItem />
             <p className="headline__paragraph bd-container">
                 Détection et qualification du bâti dans les villes, les constructions, les toitûres, les espaces verts,
                 la végétation, la signalisation au sol. Que vous soyez Maire, Responsable SIG, Gestionnaire Immobiliers

@@ -8,6 +8,8 @@ import {Header} from '../Home/components/Header';
 import {Headline} from "./components/Headline";
 import {Solution} from "./components/Solution";
 import {UseCase} from "./components/UseCase";
+import {Offer} from "./components/Offer";
+import {Partners} from "./components/Partners";
 
 export function Collectivity(props) {
     const {onEmailChange, onEmailRegistration, user} = props;
@@ -23,6 +25,8 @@ export function Collectivity(props) {
             <Headline/>
             <Solution/>
             <UseCase/>
+            <Offer/>
+            <Partners/>
             <Footer onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user}/>
         </div>
     );

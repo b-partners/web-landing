@@ -22,11 +22,6 @@
     justify-content: center;
 }
 
-.carousel__img {
-    object-fit: contain !important;
-    transform: scale(.65);
-}
-
 .carousel__item h3 {
     color: var(--first-color-logo);
 }
