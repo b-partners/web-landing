@@ -1,84 +1,210 @@
 import React from 'react';
-import {IconList} from "../../../common/components/IconList";
-import Zan1 from "../assets/img/ZAN/zan1.jpg";
-import Zan2 from "../assets/img/ZAN/zan2.jpg";
-import Zan3 from "../assets/img/ZAN/zan3.jpg";
-import Zan4 from "../assets/img/ZAN/zan4.jpg";
-import Zan5 from "../assets/img/ZAN/zan5.jpg";
-import Zan6 from "../assets/img/ZAN/zan6.jpg";
+
+import TZan1 from "../assets/img/ZAN/Tableau-ZAN/zan1.jpg"
+import TZan2 from "../assets/img/ZAN/Tableau-ZAN/zan2.jpg";
+import TZan3 from "../assets/img/ZAN/Tableau-ZAN/zan3.jpg";
+import TZan4 from "../assets/img/ZAN/Tableau-ZAN/zan4.jpg";
+import TZan5 from "../assets/img/ZAN/Tableau-ZAN/zan5.jpg";
+import TZan6 from "../assets/img/ZAN/Tableau-ZAN/zan6.jpg";
+
+import Zan1 from "../assets/img/ZAN/ZAN_1.jpg"
+import Zan2 from "../assets/img/ZAN/ZAN_2.jpg"
+import Zan3 from "../assets/img/ZAN/ZAN_3.jpg"
+import Zan4 from "../assets/img/ZAN/ZAN_4.jpg"
+import Zan5 from "../assets/img/ZAN/ZAN_5.jpg"
+import Zan6 from "../assets/img/ZAN/ZAN_6.jpg"
 
 export function UseCaseItem() {
     return (
         <div className="usecase__item">
             <div className='usecase__item-section1'>
                 <article className='article'>
-                    <h2 className='usecase-title'>Artificialisation - ZAN</h2>
-                    <ul>
-                        <IconList
-                            imageSrc=''
-                            listText="Comptabilisation des arbres individualisés"
-                            textStyle='usecase_list-item'
-                        />
-                        <IconList
-                            imageSrc=''
-                            listText="Calcul de la surface de trottoirs imperméables"
-                            textStyle='usecase_list-item'
-                        />
-                        <IconList
-                            imageSrc=''
-                            listText="Mesure de l'artificialisation et déduction du potentiel
-                            de desimperméabilisation de la zone"
-                            textStyle='usecase_list-item'
-                        />
-                        <IconList
-                            imageSrc=''
-                            listText="Comparaison temporelle, évolution."
-                            textStyle='usecase_list-item'
-                        />
-                    </ul>
-                    <button
-                        type='button'
-                        className='usecase-button button_style'>
-                        Artificialisation - ZAN
-                    </button>
+                    <h3>Etape 1 : Détection automatique brute</h3>
                 </article>
                 <aside>
-                    <div className='box-img-col'>
-                        <div className='box-img-row'>
-                            <div className='usecase-box-img'>
-                                <img src={Zan1} alt='AwsStartups Logo'/>
-                                <span>Individualisation des arbres</span>
-                            </div>
+                    <div className='box-img-row'>
+                        <div className='usecase-box-img'>
+                            <img src={Zan1} alt='AwsStartups Logo'/>
                         </div>
-                        <div className='box-img-row'>
-                            <div className='usecase-box-img'>
-                                <img src={Zan2} alt='AwsStartups Logo'/>
-                                <span>Instantiation des élements de détection</span>
-                            </div>
-                            <div className='usecase-box-img'>
-                                <img src={Zan3} alt='AwsStartups Logo'/>
-                                <span>Détection des toits et des velux</span>
-                            </div>
+                        <div className='usecase-box-img'>
+                            <img src={Zan2} alt='AwsStartups Logo'/>
+                            <span>Sols imperméabilisés</span>
+                        </div>
+                        <div className='usecase-box-img'>
+                            <img src={Zan3} alt='AwsStartups Logo'/>
+                            <span>Sols perméables</span>
                         </div>
                     </div>
                 </aside>
             </div>
-            <div className='usecase__item-section2'>
-                <div className='usecase-box-img'>
-                    <span>   </span>
-                </div>
-                <div className='usecase-box-img'>
-                    <img src={Zan4} alt='AwsStartups Logo' />
-                    <span>Détection des toits, parkinkgs, trottoir</span>
-                </div>
-                <div className='usecase-box-img'>
-                    <img src={Zan5} alt='AwsStartups Logo' />
-                    <span>Instantiation des toits et des arbres</span>
-                </div>
-                <div className='usecase-box-img'>
-                    <img src={Zan6} alt='AwsStartups Logo' />
-                    <span>Instantiation des velux, toits et des arbres</span>
-                </div>
+            <div className='usecase__item-section1'>
+                <article className='article'>
+                    <h3>Etape 2 : Post-traitement Détection d'anomalie et Géométrisation</h3>
+                </article>
+                <aside>
+                    <div className='box-img-row'>
+                        <div className='usecase-box-img'>
+                            <img src={Zan4} alt='AwsStartups Logo'/>
+                        </div>
+                        <div className='usecase-box-img' style={{display: 'flex', justifyContent: 'center'}}>
+                            <img src={Zan5} alt='AwsStartups Logo'
+                                 style={{maxHeight: '250px'}}/>
+                        </div>
+                        <div className='usecase-box-img'>
+                            <img src={Zan6} alt='AwsStartups Logo'/>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            <div className='usecase__item-section1'>
+                <article className='article'>
+                    <h3>Etape 3 : Mesure de l'OCS, calcul du potentiel / la nécessité de désimperméabilisation</h3>
+                </article>
+                <aside>
+                    <div className='box-img-col'>
+                        <ol className="zan_order-list">
+                            <li>Comptabilisation des arbres individualisés.</li>
+                            <li>Calcul surface de trottoires imperméables.</li>
+                            <li>Mesure de l'artificialisation et déduction du potentiel de désimperméabilisation
+                                de la zone.
+                            </li>
+                            <li>Comparaison temporelle, évolution.</li>
+                        </ol>
+
+                        <div className='usecase-table'>
+                            <div className='offer__table-row bd-container'>
+                                <div className='offer__table-first__column usecase-table-column'>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            Post vérification et validation humaine
+                                        </p>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <img src={TZan5} alt='AwsStartups Logo'/>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <img src={TZan6} alt='AwsStartups Logo'/>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <img src={TZan2} alt='AwsStartups Logo'/>
+                                    </div>
+                                </div>
+                                <div className='offer__table-first__column usecase-table-column'>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            Aire (px) par instance
+                                        </p>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <ul>
+                                            <li><u>Instance 1:</u> Area_px 98685, area_m 61.68, Class: tree</li>
+                                            <li><u>Instance 2:</u> Area_px 50646.5, area_m 31.65, Class: tree</li>
+                                            <li><u>Instance 3:</u> Area_px 32936.0, area_m 20.59, Class: tree</li>
+                                        </ul>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <ul>
+                                            <li><u>Instance 4:</u> Area_px 15245.5, area_m 9.53, Class: tree</li>
+                                            <li><u>Instance 5:</u> Area_px 23411.0, area_m 14.63, Class: tree</li>
+                                            <li><u>Instance 6:</u> Area_px 9367.5, area_m 5.85, Class: tree</li>
+                                        </ul>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <ul>
+                                            <li><u>Instance 7:</u> Area_px 1580.5, area_m 0.99, Class: tree</li>
+                                            <li><u>Instance 8:</u> Area_px 3764.5, area_m 2.35, Class: tree</li>
+                                            <li><u>Instance 9:</u> Area_px 64765.5, area_m 40.48, Class: Sidewalk</li>
+                                            <li><u>Instance 10:</u> Area_px 211233.0, area_m 132.02, Class: Line</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className='offer__table-first__column usecase-table-column'>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            Geométrisation
+                                        </p>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <img src={TZan1} alt='AwsStartups Logo'/>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <img src={TZan3} alt='AwsStartups Logo'/>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <img src={TZan4} alt='AwsStartups Logo'/>
+                                    </div>
+                                </div>
+                                <div className='offer__table-first__column usecase-table-column'>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            Calcul du taux d'artificialisation de la dalle
+                                        </p>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            ==
+                                        </p>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            74%
+                                        </p>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            97%
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className='offer__table-first__column usecase-table-column'>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            Calcul du taux de perméabilité de la dalle
+                                        </p>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            14%
+                                        </p>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            25%
+                                        </p>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            3%
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className='offer__table-first__column usecase-table-column'>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            Potentiel / la nécessité de desimperméabilisation des trottoirs de la zone
+                                            (trottoirs sans arbres, ex: 20% des trottoirs à perméabiliser)
+                                        </p>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            4%
+                                        </p>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            5%
+                                        </p>
+                                    </div>
+                                    <div className='table-body-cell'>
+                                        <p>
+                                            14%
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
             </div>
         </div>
     );

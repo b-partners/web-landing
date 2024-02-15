@@ -956,19 +956,21 @@ img[alt="mobile_image"] {
 
 .usecase__item-section1, .usecase__item-section2 {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .usecase__item-section1 article {
-    width: 566px;
-    padding: 5rem;
+    width: 100%;
+    padding: 2rem;
     max-height: 32.8rem;
+    display: flex;
+    justify-content: center;
 }
 
 .usecase__item-section1 aside {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+   display: flex;
+    justify-content: center;
 }
 
 .box-img-col {
@@ -980,7 +982,9 @@ img[alt="mobile_image"] {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.5rem;
+    width: 80%;
 }
+
 
 .usecase-box-img {
     width: 250px;
@@ -1002,6 +1006,22 @@ img[alt="mobile_image"] {
     bottom: 10px;
     text-transform: capitalize;
     color: #ffffff;
+}
+
+.usecase-table-column {
+    padding-top: 0;
+    padding-inline: 0;
+}
+
+.usecase-table-column > .table-body-cell {
+    min-height: 260px;
+    margin-block: 0;
+    padding-inline: .3rem;
+    text-align: center;
+    border-bottom: 1px solid var(--first-color-logo);
+}
+.zan_order-list > li {
+    margin-bottom: 1.5rem;
 }
 
 #offer_collectivity {
@@ -1031,7 +1051,7 @@ img[alt="mobile_image"] {
 
 .offer_item-content {
     margin-top: 1rem;
-    min-height: 6.5rem;
+    min-height: 8rem;
 }
 
 .add-object {
@@ -1069,7 +1089,7 @@ img[alt="mobile_image"] {
 
 .partners_logo {
     display: flex;
-    margin-top: .8rem;
+    margin-top: 2rem;
 }
 
 .partners-item1, .partners-item2 {

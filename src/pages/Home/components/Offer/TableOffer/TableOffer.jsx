@@ -60,6 +60,7 @@ export function TableOffer(props) {
                         Tous les services essentiels pour gérer votre activité d'artisan ou d'indépendant
                     </p>
                     <span className='offer-price'>49€</span>/mois
+
                 </div>
                 <div className='table-body-cell'>
                     <p className='text-center'>
