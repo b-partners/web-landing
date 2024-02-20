@@ -1024,6 +1024,11 @@ img[alt="mobile_image"] {
     margin-bottom: 1.5rem;
 }
 
+#lom_result {
+    display: flex;
+    align-items: center;
+}
+
 #offer_collectivity {
     margin-block: 2rem;
 }

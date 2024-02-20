@@ -1,11 +1,11 @@
 import React from 'react';
 
-import TZan1 from "../assets/img/ZAN/Tableau-ZAN/zan1.jpg"
-import TZan2 from "../assets/img/ZAN/Tableau-ZAN/zan2.jpg";
-import TZan3 from "../assets/img/ZAN/Tableau-ZAN/zan3.jpg";
-import TZan4 from "../assets/img/ZAN/Tableau-ZAN/zan4.jpg";
-import TZan5 from "../assets/img/ZAN/Tableau-ZAN/zan5.jpg";
-import TZan6 from "../assets/img/ZAN/Tableau-ZAN/zan6.jpg";
+import TZan1 from "../assets/img/ZAN/Table-ZAN/zan1.jpg"
+import TZan2 from "../assets/img/ZAN/Table-ZAN/zan2.jpg";
+import TZan3 from "../assets/img/ZAN/Table-ZAN/zan3.jpg";
+import TZan4 from "../assets/img/ZAN/Table-ZAN/zan4.jpg";
+import TZan5 from "../assets/img/ZAN/Table-ZAN/zan5.jpg";
+import TZan6 from "../assets/img/ZAN/Table-ZAN/zan6.jpg";
 
 import Zan1 from "../assets/img/ZAN/ZAN_1.jpg"
 import Zan2 from "../assets/img/ZAN/ZAN_2.jpg"
@@ -14,7 +14,7 @@ import Zan4 from "../assets/img/ZAN/ZAN_4.jpg"
 import Zan5 from "../assets/img/ZAN/ZAN_5.jpg"
 import Zan6 from "../assets/img/ZAN/ZAN_6.jpg"
 
-export function UseCaseItem() {
+export function UseCaseItem1() {
     return (
         <div className="usecase__item">
             <div className='usecase__item-section1'>
@@ -70,14 +70,13 @@ export function UseCaseItem() {
                             </li>
                             <li>Comparaison temporelle, évolution.</li>
                         </ol>
-
                         <div className='usecase-table'>
                             <div className='offer__table-row bd-container'>
                                 <div className='offer__table-first__column usecase-table-column'>
                                     <div className='table-body-cell'>
-                                        <p>
+                                        <b className='logo-color'>
                                             Post vérification et validation humaine
-                                        </p>
+                                        </b>
                                     </div>
                                     <div className='table-body-cell'>
                                         <img src={TZan5} alt='AwsStartups Logo'/>
@@ -91,9 +90,9 @@ export function UseCaseItem() {
                                 </div>
                                 <div className='offer__table-first__column usecase-table-column'>
                                     <div className='table-body-cell'>
-                                        <p>
+                                        <b className='logo-color'>
                                             Aire (px) par instance
-                                        </p>
+                                        </b>
                                     </div>
                                     <div className='table-body-cell'>
                                         <ul>
@@ -120,9 +119,9 @@ export function UseCaseItem() {
                                 </div>
                                 <div className='offer__table-first__column usecase-table-column'>
                                     <div className='table-body-cell'>
-                                        <p>
+                                        <b className='logo-color'>
                                             Geométrisation
-                                        </p>
+                                        </b>
                                     </div>
                                     <div className='table-body-cell'>
                                         <img src={TZan1} alt='AwsStartups Logo'/>
@@ -136,9 +135,9 @@ export function UseCaseItem() {
                                 </div>
                                 <div className='offer__table-first__column usecase-table-column'>
                                     <div className='table-body-cell'>
-                                        <p>
+                                        <b className='logo-color'>
                                             Calcul du taux d'artificialisation de la dalle
-                                        </p>
+                                        </b>
                                     </div>
                                     <div className='table-body-cell'>
                                         <p>
@@ -158,9 +157,9 @@ export function UseCaseItem() {
                                 </div>
                                 <div className='offer__table-first__column usecase-table-column'>
                                     <div className='table-body-cell'>
-                                        <p>
+                                        <b className='logo-color'>
                                             Calcul du taux de perméabilité de la dalle
-                                        </p>
+                                        </b>
                                     </div>
                                     <div className='table-body-cell'>
                                         <p>
@@ -180,10 +179,10 @@ export function UseCaseItem() {
                                 </div>
                                 <div className='offer__table-first__column usecase-table-column'>
                                     <div className='table-body-cell'>
-                                        <p>
+                                        <b className='logo-color'>
                                             Potentiel / la nécessité de desimperméabilisation des trottoirs de la zone
                                             (trottoirs sans arbres, ex: 20% des trottoirs à perméabiliser)
-                                        </p>
+                                        </b>
                                     </div>
                                     <div className='table-body-cell'>
                                         <p>

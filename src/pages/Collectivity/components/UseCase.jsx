@@ -1,11 +1,13 @@
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import {UseCaseItem} from "./UseCaseItem";
+import {UseCaseItem1} from "./UseCaseItem1";
+import {UseCaseItem2} from "./UseCaseItem2";
 
 export function UseCase() {
     return (
         <section className="usecase bd-container" id="description">
-            <UseCaseItem />
+            <UseCaseItem1 />
+            <UseCaseItem2 />
             <p className="headline__paragraph bd-container">
                 Détection et qualification du bâti dans les villes, les constructions, les toitûres, les espaces verts,
                 la végétation, la signalisation au sol. Que vous soyez Maire, Responsable SIG, Gestionnaire Immobiliers
