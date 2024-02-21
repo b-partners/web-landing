@@ -17,6 +17,7 @@ import Zan6 from "../assets/img/ZAN/ZAN_6.jpg"
 export function UseCaseItem1() {
     return (
         <div className="usecase__item">
+            <h2 className='logo-color'>SUIVI ARTIFICIALISATION - ZAN</h2>
             <div className='usecase__item-section1'>
                 <article className='article'>
                     <h3>Etape 1 : Détection automatique brute</h3>
@@ -28,11 +29,9 @@ export function UseCaseItem1() {
                         </div>
                         <div className='usecase-box-img'>
                             <img src={Zan2} alt='AwsStartups Logo'/>
-                            <span>Sols imperméabilisés</span>
                         </div>
                         <div className='usecase-box-img'>
                             <img src={Zan3} alt='AwsStartups Logo'/>
-                            <span>Sols perméables</span>
                         </div>
                     </div>
                 </aside>

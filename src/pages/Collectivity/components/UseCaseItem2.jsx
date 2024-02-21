@@ -19,6 +19,7 @@ import TLOM_5 from "../assets/img/LOM/Table-LOM/lom5.jpg"
 export function UseCaseItem2() {
     return (
         <div className="usecase__item">
+            <h2 className='logo-color'>SUIVI VOIRIE - LOI LOM - PASSAGES PIETONS</h2>
             <div className='usecase__item-section1'>
                 <article className='article'>
                     <h3>Etape 1 : Détection automatique des passages piétons</h3>
@@ -30,11 +31,9 @@ export function UseCaseItem2() {
                         </div>
                         <div className='usecase-box-img'>
                             <img src={LOM_2} alt='AwsStartups Logo'/>
-                            <span>Sols imperméabilisés</span>
                         </div>
                         <div className='usecase-box-img'>
                             <img src={LOM_3} alt='AwsStartups Logo'/>
-                            <span>Sols perméables</span>
                         </div>
                     </div>
                 </aside>

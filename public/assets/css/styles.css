@@ -942,7 +942,12 @@ img[alt="mobile_image"] {
 
 .usecase__item {
     width: 100%;
-    margin-block: 3rem;
+    margin-top: 4rem;
+}
+
+.usecase__item > h2 {
+    text-align: center;
+    text-decoration: underline;
 }
 
 .usecase-title {
@@ -976,6 +981,7 @@ img[alt="mobile_image"] {
 .box-img-col {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .box-img-row {
@@ -1029,8 +1035,12 @@ img[alt="mobile_image"] {
     align-items: center;
 }
 
+.zan_order-list {
+    width: 80%;
+}
+
 #offer_collectivity {
-    margin-block: 2rem;
+    margin-block: 4rem;
 }
 
 .offer_collectivity {
