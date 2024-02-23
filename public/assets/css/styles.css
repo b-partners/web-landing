@@ -1164,7 +1164,7 @@ img[alt="mobile_image"] {
 .description__first-paragraph {
     color: var(--first-color-logo);
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .description__second-paragraph {

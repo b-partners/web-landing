@@ -90,35 +90,6 @@ export function UseCaseItem1() {
                                 <div className='offer__table-first__column usecase-table-column'>
                                     <div className='table-body-cell'>
                                         <b className='logo-color'>
-                                            Aire (px) par instance
-                                        </b>
-                                    </div>
-                                    <div className='table-body-cell'>
-                                        <ul>
-                                            <li><u>Instance 1:</u> Area_px 98685, area_m 61.68, Class: tree</li>
-                                            <li><u>Instance 2:</u> Area_px 50646.5, area_m 31.65, Class: tree</li>
-                                            <li><u>Instance 3:</u> Area_px 32936.0, area_m 20.59, Class: tree</li>
-                                        </ul>
-                                    </div>
-                                    <div className='table-body-cell'>
-                                        <ul>
-                                            <li><u>Instance 4:</u> Area_px 15245.5, area_m 9.53, Class: tree</li>
-                                            <li><u>Instance 5:</u> Area_px 23411.0, area_m 14.63, Class: tree</li>
-                                            <li><u>Instance 6:</u> Area_px 9367.5, area_m 5.85, Class: tree</li>
-                                        </ul>
-                                    </div>
-                                    <div className='table-body-cell'>
-                                        <ul>
-                                            <li><u>Instance 7:</u> Area_px 1580.5, area_m 0.99, Class: tree</li>
-                                            <li><u>Instance 8:</u> Area_px 3764.5, area_m 2.35, Class: tree</li>
-                                            <li><u>Instance 9:</u> Area_px 64765.5, area_m 40.48, Class: Sidewalk</li>
-                                            <li><u>Instance 10:</u> Area_px 211233.0, area_m 132.02, Class: Line</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div className='offer__table-first__column usecase-table-column'>
-                                    <div className='table-body-cell'>
-                                        <b className='logo-color'>
                                             Geométrisation
                                         </b>
                                     </div>
@@ -140,12 +111,12 @@ export function UseCaseItem1() {
                                     </div>
                                     <div className='table-body-cell'>
                                         <p>
-                                            ==
+                                            86%
                                         </p>
                                     </div>
                                     <div className='table-body-cell'>
                                         <p>
-                                            74%
+                                            75%
                                         </p>
                                     </div>
                                     <div className='table-body-cell'>

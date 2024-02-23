@@ -14,7 +14,7 @@ export function Solution() {
                 votre territoire
                 pour vous conformer à la réglementation (Loi ZAN, Loi LOM, Climet Resilence, ...). Nos modèles sont
                 souverains et
-                permettent de réaliser des détections massives avec un impact carbonne réduit.
+                permettent de réaliser des détections massives avec un impact carbone réduit.
             </p>
         </section>
     );

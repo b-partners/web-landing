@@ -11,7 +11,7 @@ export function UseCase() {
             <UseCaseItem2 />
             <UseCaseItem3 />
             <p className="headline__paragraph bd-container">
-                Détection et qualification du bâti dans les villes, les constructions, les toitûres, les espaces verts,
+                Détection et qualification du bâti dans les villes, les constructions, les toitures, les espaces verts,
                 la végétation, la signalisation au sol. Que vous soyez Maire, Responsable SIG, Gestionnaire Immobiliers
                 ou professionel du bâti, Bpartners IA analyse vos objets d'intérêts avec précision.
             </p>

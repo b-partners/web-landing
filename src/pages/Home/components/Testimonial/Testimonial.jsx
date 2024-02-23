@@ -29,7 +29,7 @@ export function Testimonial() {
                     paragraph="Après la tempête de Novembre, j'ai eu des centaines de demandes de devis,
                      que j'ai faite à distance en priorisant par urgence et rassuré tous mes prospects.
                      Top, je recommande."
-                    name="Jason H."
+                    name="Paul G."
                     company="Couvreur dans le 77"
                 />
             </Carousel>
