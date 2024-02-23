@@ -974,7 +974,7 @@ img[alt="mobile_image"] {
 }
 
 .usecase__item-section1 aside {
-   display: flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -1026,6 +1026,7 @@ img[alt="mobile_image"] {
     text-align: center;
     border-bottom: 1px solid var(--first-color-logo);
 }
+
 .zan_order-list > li {
     margin-bottom: 1.5rem;
 }
@@ -1037,6 +1038,10 @@ img[alt="mobile_image"] {
 
 .zan_order-list {
     width: 80%;
+}
+
+.species_mapping {
+    margin-right: 3.5rem;
 }
 
 #offer_collectivity {
@@ -1362,6 +1367,93 @@ img[alt="BpPhone"] {
         padding: 0 5%;
         text-align: center;
     }
+
+    /* CollectivityPage */
+
+    .usecase-table {
+        display: none;
+    }
+
+    .headline__title,
+    .solution_collectivity__title,
+    .usecase__item-title,
+    .offer_collectivity__title,
+    .trust-subtitle
+    {
+        font-size: 1.1rem;
+    }
+
+    .usecase__item {
+        margin-top: 1.5rem;
+    }
+
+    .usecase__item .article {
+        padding: 1rem;
+    }
+
+    .article > h3, .offer_collectivity__item > .subtitle {
+        font-size: 1rem;
+    }
+
+    .box-img-row,
+    .offer_collectivity,
+    .partners_logo,
+    .award_list,
+    .partners-item1 > .partners_img_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-img-row > .usecase-box-img {
+        margin-bottom: 1rem;
+    }
+
+    .article > h3 {
+        text-align: center;
+    }
+
+    .headline__subtitle {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .headline__paragraph, .award_list {
+        font-size: .9rem;
+        margin-block: .5rem;
+    }
+
+    #lom_result {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .species_mapping {
+        margin-right: 0;
+        height: 165px;
+    }
+
+    .offer_collectivity__item {
+        margin: 0;
+    }
+
+    .zan_order-list {
+        width: 100%;
+    }
+
+    .award_list > li {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    .partners-item1, .partners-item2 {
+        width: 100%;
+    }
+
+    .partners_img_container > img {
+        margin-bottom: 2rem;
+    }
+
+    /* EndOf CollectivityPage */
 
     .distinction__container, .solution__data, .mobile__task__container, .share__container,
     .description__container, .location__container, .contact-form__container, .home__list {

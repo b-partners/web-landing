@@ -4,8 +4,8 @@ import React from "react";
 export function Offer () {
     return (
         <section id='offer_collectivity' className='bd-container'>
-                <h1 className="offer_collectivity__title">Nos offres</h1>
-                <p>Des modèles prêts à l’emploi et des itérations sans limites... Réservez votre démo et obtenez un test sur 1km2 de votre territoire.</p>
+                <h2 className="offer_collectivity__title">Nos offres</h2>
+                <p className='headline__paragraph'>Des modèles prêts à l’emploi et des itérations sans limites... Réservez votre démo et obtenez un test sur 1km2 de votre territoire.</p>
                 <div className='offer_collectivity'>
                     <div className='offer_collectivity__item'>
                         <h2 className='text-center subtitle'>Vous disposez déjà des images de votre territoire:</h2>
