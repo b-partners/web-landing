@@ -25,17 +25,15 @@ export function Solution() {
                 <div className='solution__data'>
                     <IconCard
                         imageSrc={CashRegisterEuro}
-                        paragraph="Votre comptabilité et vous informent de l’évolution de
-                         votre trésorerie et de vos objectifs commerciaux."
+                        paragraph="Analyse les toitures à distance en suivant votre méthode."
                     />
                     <IconCard
                         imageSrc={PaidBill}
-                        paragraph="Votre édition et relances automatisées des devis et des factures impayées."
+                        paragraph="Génère en 1 clic votre analyse des dégâts et un chiffrage des réparations."
                     />
                     <IconCard
                         imageSrc={VirtualBot}
-                        paragraph="Votre développement commercial en identifiant les opportunités business
-                         et les demandes de dépannages sur lesquelles vous pouvez intervenir."
+                        paragraph="Transformez un simple appel téléphonique en une opportunité commerciale."
                     />
                 </div>
             </div>

@@ -564,7 +564,9 @@ h1.home__title {
 
 .mobile__task__image {
     width: 40%;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    transform: scale(1.3);
 }
 
 img[alt="mobile_image"] {
@@ -905,6 +907,234 @@ img[alt="mobile_image"] {
     }
 }
 
+
+/*========== COLLECTIVITY ==========*/
+.headline {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.headline__title {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    color: var(--first-color-logo);
+}
+
+.headline__subtitle {
+    font-size: 1.2rem;
+    line-height: 3.5rem;
+    font-weight: 800;
+    color: var(--first-color-logo);
+}
+
+.headline__paragraph {
+    text-align: justify;
+}
+
+.solution_collectivity__title, .offer_collectivity__title, .trust-subtitle {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    color: var(--first-color-logo);
+}
+
+.usecase__item {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.usecase__item > h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.usecase-title {
+    margin-bottom: 1rem;
+}
+
+.usecase_list-item {
+    width: 100% !important;
+    font-size: 1rem;
+}
+
+.usecase__item-section1, .usecase__item-section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.usecase__item-section1 article {
+    width: 100%;
+    padding: 2rem;
+    max-height: 32.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.usecase__item-section1 aside {
+    display: flex;
+    justify-content: center;
+}
+
+.box-img-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-img-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    width: 80%;
+}
+
+
+.usecase-box-img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.usecase-box-img > img {
+    object-fit: contain;
+    filter: brightness(.9);
+    z-index: -10;
+}
+
+.usecase-box-img > span {
+    position: absolute;
+    left: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    bottom: 10px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.usecase-table-column {
+    padding-top: 0;
+    padding-inline: 0;
+}
+
+.usecase-table-column > .table-body-cell {
+    min-height: 260px;
+    margin-block: 0;
+    padding-inline: .3rem;
+    text-align: center;
+    border-bottom: 1px solid var(--first-color-logo);
+}
+
+.zan_order-list > li {
+    margin-bottom: 1.5rem;
+}
+
+#lom_result {
+    display: flex;
+    align-items: center;
+}
+
+.zan_order-list {
+    width: 80%;
+}
+
+.species_mapping {
+    margin-right: 3.5rem;
+}
+
+#offer_collectivity {
+    margin-block: 4rem;
+}
+
+.offer_collectivity {
+    display: flex;
+}
+
+.offer_collectivity__item {
+    margin: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer_collectivity__item .subtitle {
+    font-size: 1.2rem;
+    color: var(--first-color-logo);
+}
+
+.offer_collectivity__item li {
+    list-style: disc;
+    margin-left: 1rem;
+}
+
+.offer_item-content {
+    margin-top: 1rem;
+    min-height: 8rem;
+}
+
+.add-object {
+    margin-block: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.button_style {
+    border: 1px solid var(--first-color-logo);
+    border-radius: 50px;
+    background-color: var(--first-color-logo);
+    height: 3rem;
+    cursor: pointer;
+    color: #ffffff;
+    width: 100%;
+}
+
+.button_style a {
+    color: #ffffff;
+}
+
+.partners_collectivity li {
+    list-style: disc;
+}
+
+.award_list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.award_list > li {
+    margin-bottom: 1.8rem;
+}
+
+.partners_logo {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.partners-item1, .partners-item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners-item1 {
+    width: 60%;
+}
+
+.partners-item2 {
+    width: 40%;
+}
+
+.partners_img_container {
+    width: 100%;
+    margin-top: .8rem;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    min-height: 10rem;
+}
+
 /*========== DESCRIPTION ==========*/
 .description {
     margin-top: 2rem;
@@ -934,7 +1164,7 @@ img[alt="mobile_image"] {
 .description__first-paragraph {
     color: var(--first-color-logo);
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .description__second-paragraph {
@@ -1137,6 +1367,93 @@ img[alt="BpPhone"] {
         padding: 0 5%;
         text-align: center;
     }
+
+    /* CollectivityPage */
+
+    .usecase-table {
+        display: none;
+    }
+
+    .headline__title,
+    .solution_collectivity__title,
+    .usecase__item-title,
+    .offer_collectivity__title,
+    .trust-subtitle
+    {
+        font-size: 1.1rem;
+    }
+
+    .usecase__item {
+        margin-top: 1.5rem;
+    }
+
+    .usecase__item .article {
+        padding: 1rem;
+    }
+
+    .article > h3, .offer_collectivity__item > .subtitle {
+        font-size: 1rem;
+    }
+
+    .box-img-row,
+    .offer_collectivity,
+    .partners_logo,
+    .award_list,
+    .partners-item1 > .partners_img_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-img-row > .usecase-box-img {
+        margin-bottom: 1rem;
+    }
+
+    .article > h3 {
+        text-align: center;
+    }
+
+    .headline__subtitle {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .headline__paragraph, .award_list {
+        font-size: .9rem;
+        margin-block: .5rem;
+    }
+
+    #lom_result {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .species_mapping {
+        margin-right: 0;
+        height: 165px;
+    }
+
+    .offer_collectivity__item {
+        margin: 0;
+    }
+
+    .zan_order-list {
+        width: 100%;
+    }
+
+    .award_list > li {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    .partners-item1, .partners-item2 {
+        width: 100%;
+    }
+
+    .partners_img_container > img {
+        margin-bottom: 2rem;
+    }
+
+    /* EndOf CollectivityPage */
 
     .distinction__container, .solution__data, .mobile__task__container, .share__container,
     .description__container, .location__container, .contact-form__container, .home__list {
