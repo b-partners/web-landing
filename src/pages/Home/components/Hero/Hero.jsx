@@ -5,17 +5,21 @@ import React from 'react';
 
 import Paper from '@mui/material/Paper';
 
-import {IconList} from '../../../common/components/IconList';
-import '../../../common/components/Modal/Modal.css';
-import '../../Home/assets/css/forms.css';
-import '../../Home/assets/css/spinner.css';
-import CashRegisterEuro from '../../Home/assets/img/cash-register-euro.webp';
-import PaidBill from '../../Home/assets/img/paid-bill.webp';
-import QrCode from '../../Home/assets/img/qr-code-ext.webp';
-import VirtualBot from '../../Home/assets/img/virtual-bot.webp';
-import WelcomeSectionBg from '../../Home/assets/img/welcome-waves.webp';
+import * as PropTypes from "prop-types";
 
-export function Hero () {
+import {IconList} from '../../../../common/components/IconList';
+import '../../../../common/components/Modal/Modal.css';
+import '../../assets/css/forms.css';
+import '../../assets/css/spinner.css';
+import CashRegisterEuro from '../../assets/img/cash-register-euro.webp';
+import PaidBill from '../../assets/img/paid-bill.webp';
+import QrCode from '../../assets/img/qr-code-ext.webp';
+import VirtualBot from '../../assets/img/virtual-bot.webp';
+import WelcomeSectionBg from '../../assets/img/welcome-waves.webp';
+
+export function Hero(props) {
+
+    const {heroTitle, textList, heroAside} = props;
 
     return (
         <section className="home" id="home">
@@ -29,13 +33,7 @@ export function Hero () {
                 }}
             />
             <p className="welcoming">Bienvenue sur BPartners</p>
-            <h1 className="home__title bd-container">
-                L'assistant intelligent qui accélère
-                <br/>
-                <span style={{fontWeight: '600'}}>
-          la croissance des artisans et <br/> indépendants français.
-        </span>
-            </h1>
+            {heroTitle}
             <div className="home__container bd-container bd-grid">
                 <div className="home__data">
                     <div className="home__list">
@@ -43,20 +41,23 @@ export function Hero () {
                             <ul>
                                 <IconList
                                     imageSrc={VirtualBot}
-                                    listText="Générez de nouveaux clients grâce à notre assistant commercial intelligent."
+                                    listText={textList[0]}
                                 />
                                 <IconList
                                     imageSrc={QrCode}
-                                    listText="Encaissez vos clients partout sur mobile ou à distance en 1 clic."
+                                    listText={textList[1]}
                                 />
                             </ul>
                         </div>
                         <div className="home__list__col">
                             <ul>
-                                <IconList imageSrc={PaidBill} listText="Editez vos devis et factures facilement."/>
+                                <IconList
+                                    imageSrc={PaidBill}
+                                    listText={textList[2]}
+                                />
                                 <IconList
                                     imageSrc={CashRegisterEuro}
-                                    listText="Initiez des virements depuis votre compte pro de paiement FR."
+                                    listText={textList[3]}
                                 />
                             </ul>
                         </div>
@@ -88,16 +89,7 @@ export function Hero () {
                     </Paper>
                 </div>
                 <div className="bpartners__video">
-                    <iframe
-                        title="bpartners_video"
-                        width="450"
-                        height="270"
-                        className="bp-description-video"
-                        id="bpvideo-1"
-                        src="https://www.youtube.com/embed/MTUPp2tqsL0?autoplay=0"
-                        frameBorder="0"
-                        allowFullScreen
-                    />
+                    {heroAside}
                     <br/>
                     <div
                         style={{
@@ -130,3 +122,9 @@ export function Hero () {
         </section>
     );
 }
+
+Hero.propTypes = {
+    heroTitle: PropTypes.node.isRequired,
+    textList: PropTypes.arrayOf(PropTypes.string).isRequired,
+    heroAside: PropTypes.node.isRequired,
+};

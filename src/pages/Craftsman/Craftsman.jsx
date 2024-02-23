@@ -11,16 +11,49 @@ import {Offer} from '../Home/components/Offer';
 import {Solution} from '../Home/components/Solution';
 import {Testimonial} from '../Home/components/Testimonial';
 import {Partners} from "../Home/components/Partners";
-import {Hero} from "./components/Hero";
+import {Hero} from "../Home/components/Hero";
 
 export function Craftsman(props) {
     const {setModalOpen, onEmailChange, onEmailRegistration, user} = props;
+
+    const CraftsmanPageTitle = (
+        <h1 className="home__title bd-container">
+            L'assistant intelligent qui accélère
+            <br/>
+            <span style={{fontWeight: '600'}}>
+          la croissance des artisans et <br/> indépendants français.
+        </span>
+        </h1>
+    )
+
+    const CraftsmanPageTextList = [
+        "Générez de nouveaux clients grâce à notre assistant commercial intelligent.",
+        "Encaissez vos clients partout sur mobile ou à distance en 1 clic.",
+        "Editez vos devis et factures facilement.",
+        "Initiez des virements depuis votre compte pro de paiement FR."
+    ]
+
+    const CraftsmanAside = (
+        <iframe
+            title="bpartners_video"
+            width="450"
+            height="270"
+            className="bp-description-video"
+            id="bpvideo-1"
+            src="https://www.youtube.com/embed/MTUPp2tqsL0?autoplay=0"
+            allowFullScreen
+        />
+    )
 
     return (
         <div>
             <section className='banner__section'>
                 <Header />
-                <Hero />
+                <Hero
+                    heroTitle={CraftsmanPageTitle}
+                    textList={CraftsmanPageTextList}
+                    heroAside={CraftsmanAside}
+                />
             </section>
             <Feature/>
             <Authenticity/>

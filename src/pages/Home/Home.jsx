@@ -10,17 +10,48 @@ import {Header} from './components/Header';
 import {Offer} from './components/Offer';
 import {Solution} from './components/Solution';
 import {Testimonial} from './components/Testimonial';
-import {Welcome} from './components/Welcome';
+import {Hero} from './components/Hero';
 import {Partners} from "./components/Partners";
+import AnnotatorDevices from "./assets/img/annotator-devices.png";
 
 export function Home(props) {
     const {setModalOpen, onEmailChange, onEmailRegistration, user} = props;
+
+    const homePageTitle = (
+        <h1 className="home__title bd-container">
+            L'assistant qui prend de la hauteur
+            <br/>
+            <span style={{fontWeight: '600'}}>
+          et analyse vos toitures <br/> sur image HD.
+        </span>
+        </h1>
+    )
+
+    const homePageTextList = [
+        "Analysez les toits de vos prospects automatiquement sur image HD 5 cm.",
+        "Gagnez en réactivité avec des devis précis et techniques.",
+        "Détectez, mesurez et qualifiez vos chantiers en 1 clic.",
+        "Gagnez de nouveaux clients, facturez et encaissez."
+    ]
+
+    const homePageAside = (
+        <img
+            src={AnnotatorDevices}
+            alt="annotator-devices"
+            height="270"
+            width="450"
+        />
+    )
 
     return (
         <div>
             <section className='banner__section'>
                 <Header />
-                <Welcome/>
+                <Hero
+                    heroTitle={homePageTitle}
+                    textList={homePageTextList}
+                    heroAside={homePageAside}
+                />
             </section>
             <Feature/>
             <Authenticity/>
