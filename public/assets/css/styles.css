@@ -140,6 +140,10 @@ video {
     margin-bottom: 1rem;
 }
 
+.fa-chevron-down {
+    color: var(--first-color-logo);
+}
+
 /*========== LAYOUT ==========*/
 .l-main {
     overflow: hidden;
@@ -940,9 +944,17 @@ img[alt="mobile_image"] {
     color: var(--first-color-logo);
 }
 
+.accordion {
+    margin-block: 2rem;
+}
+
 .usecase__item {
     width: 100%;
-    margin-top: 4rem;
+}
+
+.usecase__item-title {
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .usecase__item > h2 {

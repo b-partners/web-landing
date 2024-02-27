@@ -19,7 +19,6 @@ import TLOM_5 from "../assets/img/LOM/Table-LOM/lom5.jpg"
 export function UseCaseItem2() {
     return (
         <div className="usecase__item">
-            <h2 className='logo-color usecase__item-title'>SUIVI VOIRIE - LOI LOM - PASSAGES PIETONS</h2>
             <div className='usecase__item-section1'>
                 <article className='article'>
                     <h3>Etape 1 : Détection automatique des passages piétons</h3>

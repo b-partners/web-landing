@@ -17,7 +17,6 @@ import Zan6 from "../assets/img/ZAN/ZAN_6.jpg"
 export function UseCaseItem1() {
     return (
         <div className="usecase__item">
-            <h2 className='logo-color usecase__item-title'>SUIVI ARTIFICIALISATION - ZAN</h2>
             <div className='usecase__item-section1'>
                 <article className='article'>
                     <h3>Etape 1 : Détection automatique brute</h3>
