@@ -44,9 +44,8 @@ export function UseCaseItem1() {
                         <div className='usecase-box-img'>
                             <img src={Zan4} alt='AwsStartups Logo'/>
                         </div>
-                        <div className='usecase-box-img' style={{display: 'flex', justifyContent: 'center'}}>
-                            <img src={Zan5} alt='AwsStartups Logo'
-                                 style={{maxHeight: '250px'}}/>
+                        <div className='usecase-box-img'>
+                            <img src={Zan5} alt='AwsStartups Logo'/>
                         </div>
                         <div className='usecase-box-img'>
                             <img src={Zan6} alt='AwsStartups Logo'/>

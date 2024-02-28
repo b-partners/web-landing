@@ -1,16 +1,22 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 import PropTypes from 'prop-types';
 import {Accordion, AccordionActions, AccordionDetails, AccordionSummary, Button} from "@mui/material";
 
 export function AccordionItem({accordionTitle, accordionDetails}) {
     const [expanded, setExpanded] = useState(false);
+    const accordionRef = useRef(null);
 
     const handleExpansion = () => {
         setExpanded((prevExpanded) => !prevExpanded);
     };
 
+    const scrollToAccordion = () => {
+        accordionRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        handleExpansion();
+    };
+
     return (
-        <Accordion sx={{marginTop: '2rem'}} expanded={expanded} onChange={handleExpansion}>
+        <Accordion ref={accordionRef} sx={{marginTop: '2rem'}} expanded={expanded} onChange={handleExpansion}>
             <AccordionSummary
                 id="panel-header"
                 aria-controls="panel-content"
@@ -22,10 +28,9 @@ export function AccordionItem({accordionTitle, accordionDetails}) {
                 {accordionDetails}
             </AccordionDetails>
             <AccordionActions>
-                <Button onClick={handleExpansion}>
-                    <a href="#panel-header">
-                        Fermer la section
-                    </a>
+                <Button onClick={scrollToAccordion}>
+                    <i className='fa fa-chevron-up' style={{textAlign: 'center'}}/>
+                    <span>Fermer la section</span>
                 </Button>
             </AccordionActions>
         </Accordion>
