@@ -1414,7 +1414,7 @@ img[alt="BpPhone"] {
     .offer_collectivity,
     .partners_logo,
     .award_list,
-    .partners-item1 > .partners_img_container {
+    .partners_img_container {
         flex-direction: column;
         align-items: center;
     }

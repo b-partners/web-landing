@@ -29,7 +29,7 @@ export function AccordionItem({accordionTitle, accordionDetails}) {
             </AccordionDetails>
             <AccordionActions>
                 <Button onClick={scrollToAccordion}>
-                    <i className='fa fa-chevron-up' style={{textAlign: 'center'}}/>
+                    <i className='fa fa-chevron-up' style={{marginRight: '1.2rem'}}/>
                     <span>Fermer la section</span>
                 </Button>
             </AccordionActions>
