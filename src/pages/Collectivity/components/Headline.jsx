@@ -8,7 +8,7 @@ export function Headline() {
     return (
         <section className="headline bd-container" id="description">
             <h2 className="headline__title">Détectez et raisonnez par IA pour gagner <br /> en précision et en réactivité.</h2>
-            <h3 className="headline__subtitle">Intelligence artificielle issue de la recherche française, souveraine, entraînée sur l'ensemble du
+            <h3 className="headline__subtitle">Intelligence artificielle issue de la recherche française, souveraine, entraînée<br />sur l'ensemble du
                 territoire français.</h3>
             <p className="headline__paragraph">BPartners est une startup issue de la recherche française. Labélisée entreprise DeepTech pour avoir
                 conçu
