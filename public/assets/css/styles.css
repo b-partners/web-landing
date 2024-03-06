@@ -1444,6 +1444,14 @@ img[alt="BpPhone"] {
         text-align: center;
     }
 
+    .headline {
+        margin-bottom: 1rem;
+    }
+
+    .headline_content, .headline_article, .headline_aside {
+        width: 100%;
+    }
+
     .headline_aside {
         margin-top: 0;
     }
