@@ -918,6 +918,23 @@ img[alt="mobile_image"] {
     margin-bottom: 3rem;
 }
 
+.headline_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.headline_article {
+    margin-bottom: .7rem;
+    width: 90%;
+}
+
+.headline_aside {
+    width: 90% !important;
+    margin-bottom: 0 !important;
+    margin-top: 1rem;
+    align-items: center;
+}
+
 .headline__title {
     font-size: 1.5rem;
     line-height: 2.5rem;
@@ -1425,6 +1442,10 @@ img[alt="BpPhone"] {
 
     .article > h3 {
         text-align: center;
+    }
+
+    .headline_aside {
+        margin-top: 0;
     }
 
     .headline__subtitle {
