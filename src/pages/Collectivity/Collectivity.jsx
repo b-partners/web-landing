@@ -9,6 +9,7 @@ import {Headline} from "./components/Headline";
 import {Solution} from "./components/Solution";
 import {UseCase} from "./components/UseCase";
 import {Offer} from "./components/Offer";
+import {Comparison} from "./components/Comparison";
 import {Partners} from "./components/Partners";
 
 export function Collectivity(props) {
@@ -25,6 +26,7 @@ export function Collectivity(props) {
             <Headline/>
             <Solution/>
             <UseCase/>
+            <Comparison/>
             <Offer/>
             <Partners/>
             <Footer onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user}/>

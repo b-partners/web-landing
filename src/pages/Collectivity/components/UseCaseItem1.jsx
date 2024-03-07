@@ -24,13 +24,13 @@ export function UseCaseItem1() {
                 <aside>
                     <div className='box-img-row'>
                         <div className='usecase-box-img'>
-                            <img src={Zan1} alt='AwsStartups Logo'/>
+                            <img src={Zan1} alt={Zan1}/>
                         </div>
                         <div className='usecase-box-img'>
-                            <img src={Zan2} alt='AwsStartups Logo'/>
+                            <img src={Zan2} alt={Zan2}/>
                         </div>
                         <div className='usecase-box-img'>
-                            <img src={Zan3} alt='AwsStartups Logo'/>
+                            <img src={Zan3} alt={Zan3}/>
                         </div>
                     </div>
                 </aside>
@@ -42,13 +42,13 @@ export function UseCaseItem1() {
                 <aside>
                     <div className='box-img-row'>
                         <div className='usecase-box-img'>
-                            <img src={Zan4} alt='AwsStartups Logo'/>
+                            <img src={Zan4} alt={Zan4}/>
                         </div>
                         <div className='usecase-box-img'>
-                            <img src={Zan5} alt='AwsStartups Logo'/>
+                            <img src={Zan5} alt={Zan5}/>
                         </div>
                         <div className='usecase-box-img'>
-                            <img src={Zan6} alt='AwsStartups Logo'/>
+                            <img src={Zan6} alt={Zan6}/>
                         </div>
                     </div>
                 </aside>
@@ -76,13 +76,13 @@ export function UseCaseItem1() {
                                         </b>
                                     </div>
                                     <div className='table-body-cell'>
-                                        <img src={TZan5} alt='AwsStartups Logo'/>
+                                        <img src={TZan5} alt={TZan5}/>
                                     </div>
                                     <div className='table-body-cell'>
-                                        <img src={TZan6} alt='AwsStartups Logo'/>
+                                        <img src={TZan6} alt={TZan6}/>
                                     </div>
                                     <div className='table-body-cell'>
-                                        <img src={TZan2} alt='AwsStartups Logo'/>
+                                        <img src={TZan2} alt={TZan2}/>
                                     </div>
                                 </div>
                                 <div className='offer__table-first__column usecase-table-column'>
@@ -92,13 +92,13 @@ export function UseCaseItem1() {
                                         </b>
                                     </div>
                                     <div className='table-body-cell'>
-                                        <img src={TZan1} alt='AwsStartups Logo'/>
+                                        <img src={TZan1} alt={TZan1}/>
                                     </div>
                                     <div className='table-body-cell'>
-                                        <img src={TZan3} alt='AwsStartups Logo'/>
+                                        <img src={TZan3} alt={TZan3}/>
                                     </div>
                                     <div className='table-body-cell'>
-                                        <img src={TZan4} alt='AwsStartups Logo'/>
+                                        <img src={TZan4} alt={TZan4}/>
                                     </div>
                                 </div>
                                 <div className='offer__table-first__column usecase-table-column'>

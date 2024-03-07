@@ -925,14 +925,13 @@ img[alt="mobile_image"] {
 
 .headline_article {
     margin-bottom: .7rem;
-    width: 90%;
 }
 
 .headline_aside {
-    width: 90% !important;
-    margin-bottom: 0 !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-around;
     margin-top: 1rem;
-    align-items: center;
 }
 
 .headline__title {
@@ -955,7 +954,7 @@ img[alt="mobile_image"] {
 }
 
 .solution_collectivity__title, .offer_collectivity__title, .trust-subtitle {
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     font-size: 1.5rem;
     line-height: 2.5rem;
     font-weight: 400;
@@ -964,6 +963,10 @@ img[alt="mobile_image"] {
 
 .accordion {
     margin-block: 2rem;
+}
+
+.usecase {
+    margin-bottom: 2rem;
 }
 
 .usecase__item {
@@ -1033,14 +1036,14 @@ img[alt="mobile_image"] {
 .usecase-box-img > img {
     object-fit: contain;
     max-height: 250px;
-    filter: brightness(.9);
+    filter: brightness(.8);
 }
 
 .usecase-box-img > span {
     position: absolute;
     left: 10px;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     bottom: 10px;
     text-transform: capitalize;
     color: #ffffff;
@@ -1077,7 +1080,7 @@ img[alt="mobile_image"] {
 }
 
 #offer_collectivity {
-    margin-block: 4rem;
+    margin-block: 2rem;
 }
 
 .offer_collectivity {
@@ -1123,6 +1126,20 @@ img[alt="mobile_image"] {
 
 .button_style a {
     color: #ffffff;
+}
+
+.comparison__paragraph > b {
+    color: var(--first-color-logo);
+}
+
+.comparison_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.comparison_img > img {
+    width: 90%;
 }
 
 .partners_collectivity li {
@@ -1445,11 +1462,12 @@ img[alt="BpPhone"] {
     }
 
     .headline {
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
     }
 
     .headline_content, .headline_article, .headline_aside {
         width: 100%;
+        align-items: center;
     }
 
     .headline_aside {

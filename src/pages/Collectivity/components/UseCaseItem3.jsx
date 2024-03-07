@@ -18,13 +18,13 @@ export function UseCaseItem3() {
                 <aside>
                     <div className='box-img-row'>
                         <div className='usecase-box-img'>
-                            <img src={CRes1} alt='AwsStartups Logo'/>
+                            <img src={CRes1} alt={CRes1}/>
                         </div>
                         <div className='usecase-box-img'>
-                            <img src={CRes2} alt='AwsStartups Logo'/>
+                            <img src={CRes2} alt={CRes2}/>
                         </div>
                         <div className='usecase-box-img'>
-                            <img src={CRes3} alt='AwsStartups Logo'/>
+                            <img src={CRes3} alt={CRes3}/>
                         </div>
                     </div>
                 </aside>
@@ -36,14 +36,14 @@ export function UseCaseItem3() {
                 <aside>
                     <div className='box-img-row'>
                         <div className='usecase-box-img'>
-                            <img src={CRes4} alt='AwsStartups Logo'/>
+                            <img src={CRes4} alt={CRes4}/>
                         </div>
                         <div className='usecase-box-img' style={{display: 'flex', justifyContent: 'center'}}>
-                            <img src={CRes5} alt='AwsStartups Logo'
+                            <img src={CRes5} alt={CRes5}
                                  style={{maxHeight: '250px'}}/>
                         </div>
                         <div className='usecase-box-img'>
-                            <img src={CRes6} alt='AwsStartups Logo'/>
+                            <img src={CRes6} alt={CRes6}/>
                         </div>
                     </div>
                 </aside>
@@ -55,7 +55,7 @@ export function UseCaseItem3() {
                 <aside>
                     <div className='box-img-row'>
                         <div className='usecase-box-img species_mapping'>
-                            <img src={CRes7} alt='AwsStartups Logo'/>
+                            <img src={CRes7} alt={CRes7}/>
                         </div>
                         <div className='box-img-col'>
                             <ol className="zan_order-list">

@@ -26,13 +26,13 @@ export function UseCaseItem2() {
                 <aside>
                     <div className='box-img-row'>
                         <div className='usecase-box-img'>
-                            <img src={LOM_1} alt='AwsStartups Logo'/>
+                            <img src={LOM_1} alt={LOM_1}/>
                         </div>
                         <div className='usecase-box-img'>
-                            <img src={LOM_2} alt='AwsStartups Logo'/>
+                            <img src={LOM_2} alt={LOM_2}/>
                         </div>
                         <div className='usecase-box-img'>
-                            <img src={LOM_3} alt='AwsStartups Logo'/>
+                            <img src={LOM_3} alt={LOM_3}/>
                         </div>
                     </div>
                 </aside>
@@ -44,14 +44,14 @@ export function UseCaseItem2() {
                 <aside>
                     <div className='box-img-row'>
                         <div className='usecase-box-img'>
-                            <img src={LOM_4} alt='AwsStartups Logo'/>
+                            <img src={LOM_4} alt={LOM_4}/>
                         </div>
                         <div className='usecase-box-img' style={{display: 'flex', justifyContent: 'center'}}>
-                            <img src={LOM_5} alt='AwsStartups Logo'
+                            <img src={LOM_5} alt={LOM_5}
                                  style={{maxHeight: '250px'}}/>
                         </div>
                         <div className='usecase-box-img'>
-                            <img src={LOM_6} alt='AwsStartups Logo'/>
+                            <img src={LOM_6} alt={LOM_6}/>
                         </div>
                     </div>
                 </aside>
@@ -63,14 +63,14 @@ export function UseCaseItem2() {
                 <aside>
                     <div className='box-img-row'>
                         <div className='usecase-box-img'>
-                            <img src={LOM_7} alt='AwsStartups Logo'/>
+                            <img src={LOM_7} alt={LOM_7}/>
                         </div>
                         <div className='usecase-box-img' style={{display: 'flex', justifyContent: 'center'}}>
-                            <img src={LOM_8} alt='AwsStartups Logo'
+                            <img src={LOM_8} alt={LOM_8}
                                  style={{maxHeight: '250px'}}/>
                         </div>
                         <div className='usecase-box-img'>
-                            <img src={LOM_9} alt='AwsStartups Logo'/>
+                            <img src={LOM_9} alt={LOM_9}/>
                         </div>
                     </div>
                 </aside>
@@ -97,13 +97,13 @@ export function UseCaseItem2() {
                                         </b>
                                     </div>
                                     <div className='table-body-cell'>
-                                        <img src={TLOM_1} alt='AwsStartups Logo'/>
+                                        <img src={TLOM_1} alt={TLOM_1}/>
                                     </div>
                                     <div className='table-body-cell'>
-                                        <img src={TLOM_3} alt='AwsStartups Logo'/>
+                                        <img src={TLOM_3} alt={TLOM_3}/>
                                     </div>
                                     <div className='table-body-cell'>
-                                        <img src={TLOM_5} alt='AwsStartups Logo'/>
+                                        <img src={TLOM_5} alt={TLOM_5}/>
                                     </div>
                                 </div>
                                 <div className='offer__table-first__column usecase-table-column'>
@@ -113,10 +113,10 @@ export function UseCaseItem2() {
                                         </b>
                                     </div>
                                     <div className='table-body-cell'>
-                                        <img src={TLOM_2} alt='AwsStartups Logo'/>
+                                        <img src={TLOM_2} alt={TLOM_2}/>
                                     </div>
                                     <div className='table-body-cell'>
-                                        <img src={TLOM_4} alt='AwsStartups Logo'/>
+                                        <img src={TLOM_4} alt={TLOM_4}/>
                                     </div>
                                     <div className='table-body-cell'>
                                         <p>AUCUNE RISQUE</p>
