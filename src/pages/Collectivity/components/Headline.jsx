@@ -38,13 +38,16 @@ export function Headline() {
                 </article>
                 <aside className='box-img-row headline_aside'>
                     <div className='usecase-box-img'>
-                        <img src={Headline1} alt='AwsStartups Logo'/>
+                        <img src={Headline1} alt={Headline1}/>
+                        <span>Détection</span>
                     </div>
                     <div className='usecase-box-img'>
-                        <img src={Headline2} alt='AwsStartups Logo'/>
+                        <img src={Headline2} alt={Headline2}/>
+                        <span>Qualification</span>
                     </div>
                     <div className='usecase-box-img'>
-                        <img src={Headline3} alt='AwsStartups Logo'/>
+                        <img src={Headline3} alt={Headline3}/>
+                        <span>Géométrisation</span>
                     </div>
                 </aside>
             </div>
