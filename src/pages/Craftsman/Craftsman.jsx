@@ -29,8 +29,7 @@ export function Craftsman(props) {
     const CraftsmanPageTextList = [
         "Générez de nouveaux clients grâce à notre assistant commercial intelligent.",
         "Encaissez vos clients partout sur mobile ou à distance en 1 clic.",
-        "Editez vos devis et factures facilement.",
-        "Initiez des virements depuis votre compte pro de paiement FR."
+        "Editez vos devis et factures facilement."
     ]
 
     const CraftsmanAside = (
