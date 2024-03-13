@@ -55,10 +55,10 @@ export function Hero(props) {
                                     imageSrc={PaidBill}
                                     listText={textList[2]}
                                 />
-                                <IconList
+                                {textList[3] && <IconList
                                     imageSrc={CashRegisterEuro}
                                     listText={textList[3]}
-                                />
+                                />}
                             </ul>
                         </div>
                     </div>
