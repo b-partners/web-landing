@@ -18,8 +18,7 @@ export function Partners() {
                     BPI
                     France pour notre IA souveraine.
                 </li>
-                <li>Collectivités françaises (exécution sur une agglomération de 100Km2 sur plusieurs objets
-                    d‘intérêts).
+                <li>Plusieurs collectivités françaises (exécution sur +de 500Km2 sur plusieurs objets d‘intérêts).
                 </li>
                 <li>Lauréat de l'entreprise innovante 2022 par CCI & Banque Populaire IDF.</li>
             </ul>
