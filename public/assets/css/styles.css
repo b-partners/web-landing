@@ -906,7 +906,7 @@ img[alt="mobile_image"] {
         border-radius: 25px;
     }
 
-    #bpvideo-1 {
+    #bpvideo-1, #bpvideo-2 {
         width: 100% !important;
     }
 }
@@ -1584,7 +1584,7 @@ img[alt="BpPhone"] {
         width: 100% !important;
     }
 
-    #bpvideo-1 {
+    #bpvideo-1, #bpvideo-2 {
         width: 100% !important;
     }
 
