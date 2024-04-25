@@ -12,7 +12,6 @@ import {Solution} from './components/Solution';
 import {Testimonial} from './components/Testimonial';
 import {Hero} from './components/Hero';
 import {Partners} from "./components/Partners";
-import AnnotatorDevices from "./assets/img/annotator-devices.png";
 
 export function Home(props) {
     const {setModalOpen, onEmailChange, onEmailRegistration, user} = props;
@@ -35,11 +34,14 @@ export function Home(props) {
     ]
 
     const homePageAside = (
-        <img
-            src={AnnotatorDevices}
-            alt="annotator-devices"
-            height="270"
+        <iframe
+            title="bpartners_video"
             width="450"
+            height="270"
+            className="bp-description-video"
+            id="bpvideo-2"
+            src="https://youtube.com/embed/TqKR1BCru3Y?autoplay=0"
+            allowFullScreen
         />
     )
 

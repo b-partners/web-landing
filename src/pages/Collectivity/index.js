@@ -1,1 +1,1 @@
-export * from './Collectivity';
+export {Collectivity} from './Collectivity';
