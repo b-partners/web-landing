@@ -11,7 +11,6 @@ import {About} from './pages/About';
 import {Contact} from './pages/Contact';
 import {Home} from './pages/Home';
 import {PdfReader} from './pages/GCU/PdfReader';
-import {Craftsman} from "./pages/Craftsman";
 import {Collectivity} from "./pages/Collectivity";
 
 function App() {
@@ -64,7 +63,7 @@ function App() {
                     exact
                     path='/craftsman'
                     element={
-                        <Craftsman
+                        <Home
                             setModalOpen={setModalOpen}
                             onEmailChange={onEmailChange}
                             onEmailRegistration={onEmailRegistration}

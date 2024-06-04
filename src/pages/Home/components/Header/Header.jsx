@@ -70,7 +70,7 @@ export function Header() {
                             </li>
                             <li>
                                 <NavLink className="nav-bar-link" to="/craftsman">
-                                    Artisans
+                                    Couvreur
                                 </NavLink>
                             </li>
                             <li>
