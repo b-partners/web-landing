@@ -16,8 +16,8 @@
     "axios": "^0.27.2",
     "material-ui-phone-number": "^3.0.0",
     "prop-types": "^15.8.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-lazy-load-image-component": "^1.5.6",
     "react-pdf": "^6.1.0",
     "react-responsive-carousel": "^3.2.23",
@@ -30,8 +30,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "react-scripts test",
-    "lint": "eslint --fix src/**/*.js src/**/*.jsx",
-    "prepare": "node ./prepare.js"
+    "lint": "eslint --fix src/**/*.js src/**/*.jsx"
   },
   "eslintConfig": {
     "extends": [
