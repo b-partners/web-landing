@@ -1,5 +1,6 @@
 import React from 'react';
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 import PropTypes from 'prop-types';
 
 import './IconCard.css';
@@ -12,8 +13,8 @@ export function IconCard({ imageSrc, paragraph }) {
           <LazyLoadImage
             src={imageSrc}
             alt="cardImage"
-            height='38'
-            width='38'
+            height="38"
+            width="38"
             PlaceholderSrc={imageSrc}
             effect="blur"
           />

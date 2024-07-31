@@ -13,15 +13,10 @@ export function IconList({ imageSrc, listText, textStyle }) {
         </div>
       ) : (
         <div className="home-list-icon">
-          <img 
-          src={imageSrc} 
-          height='17'
-          width='17'
-          alt={imageSrc} 
-          className="icon-list" />
+          <img src={imageSrc} height="17" width="17" alt={imageSrc} className="icon-list" />
         </div>
       )}
-      <span className={`list-icon__text ${textStyle}`} >{listText}</span>
+      <span className={`list-icon__text ${textStyle}`}>{listText}</span>
     </li>
   );
 }
