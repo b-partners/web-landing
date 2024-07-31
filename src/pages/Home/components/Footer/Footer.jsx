@@ -4,8 +4,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import { makeStyles, useMediaQuery } from '@mui/material';
+import { useMediaQuery } from '@mui/material';
 import TextField from '@mui/material/TextField';
+import { makeStyles } from '@mui/styles';
 import * as PropTypes from 'prop-types';
 
 import { Button } from '../../../../common/components/Button';

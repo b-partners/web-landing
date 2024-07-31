@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { useMediaQuery, TextField, makeStyles } from '@mui/material';
+import { TextField, useMediaQuery } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import * as PropTypes from 'prop-types';
 
 import { Button } from '../../../../common/components/Button/Button';
