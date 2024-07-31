@@ -1,25 +1,30 @@
+import { ThemeProvider } from '@emotion/react';
+import * as Sentry from '@sentry/react';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import * as Sentry from '@sentry/react';
+
 import { BrowserTracing } from '@sentry/tracing';
 
 import App from './App';
+import { theme } from './config/bp-theme';
+import environment from './config/environment';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import environment from "./config/environment";
 
 Sentry.init({
-    dsn: environment.sentryDSN,
-    integrations: [new BrowserTracing()],
-    tracesSampleRate: 1.0,
-    environment: environment.sentryENV,
+  dsn: environment.sentryDSN,
+  integrations: [new BrowserTracing()],
+  tracesSampleRate: 1.0,
+  environment: environment.sentryENV,
 });
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <App />
+      <ThemeProvider theme={theme}>
+        <App />
+      </ThemeProvider>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
