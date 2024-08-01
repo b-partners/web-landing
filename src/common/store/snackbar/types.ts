@@ -1,4 +1,3 @@
-
 type SnackbarTypes = 'success' | 'error' | 'warning' | 'info';
 
 interface SnackbarState {
