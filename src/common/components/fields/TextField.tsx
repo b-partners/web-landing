@@ -24,6 +24,7 @@ export const TextField: FC<ITextField> = ({ name, icon, onClickOnIcon, type, ...
       helperText={(errors[name]?.message as string) || ''}
       InputProps={{ endAdornment }}
       {...others}
+      variant="filled"
     />
   );
 };
