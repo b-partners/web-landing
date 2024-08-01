@@ -4,7 +4,14 @@ import PropTypes from 'prop-types';
 
 import './Button.css';
 
-export function Button({ loading, type, id, preset, label, onClick }) {
+export function Button({
+  loading = false,
+  type = 'button',
+  id = '',
+  preset = 'btn-primary',
+  label = 'Valider',
+  onClick = () => {},
+}) {
   return (
     /* eslint-disable-next-line react/button-has-type */
     <button type={type} className={`btn ${preset}`} onClick={onClick} id={id}>
@@ -20,10 +27,6 @@ export function Button({ loading, type, id, preset, label, onClick }) {
   );
 }
 
-Button.defaultProps = {
-  onClick: () => {},
-};
-
 Button.propTypes = {
   loading: PropTypes.bool,
   type: PropTypes.string,
@@ -31,12 +34,4 @@ Button.propTypes = {
   preset: PropTypes.string,
   label: PropTypes.string,
   onClick: PropTypes.func,
-};
-
-Button.defaultProps = {
-  loading: false,
-  id: '',
-  type: 'button',
-  preset: 'btn-primary',
-  label: 'Valider',
 };
