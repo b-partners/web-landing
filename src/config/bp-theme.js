@@ -51,47 +51,6 @@ export const BP_THEME = {
         },
       },
     },
-    RaMenuItemLink: {
-      styleOverrides: {
-        root: {
-          height: 40,
-          marginLeft: 3,
-          paddingLeft: '12px',
-          borderRadius: '6px',
-          '&.RaMenuItemLink-active': {
-            backgroundColor: BP_COLOR[10],
-            color: '#fff',
-            borderLeft: '3px solid #fff',
-          },
-          '&.RaMenuItemLink-active .RaMenuItemLink-icon': {
-            color: '#fff',
-          },
-          '& .RaMenuItemLink-icon': {
-            margin: 0,
-            padding: 0,
-            minWidth: 0,
-            marginRight: 20,
-          },
-        },
-      },
-    },
-    RaLayout: {
-      styleOverrides: {
-        root: {
-          paddingLeft: 2,
-          marginTop: '1.5rem',
-          '&. RaLayout-content': {
-            marginTop: '2rem',
-            zIndex: 1,
-            width: '98%',
-            padding: '1%',
-          },
-          '&. RaLayout-contentWithSidebar': {
-            overflowY: important('scroll'),
-          },
-        },
-      },
-    },
     MuiPaper: {
       styleOverrides: {
         elevation1: {
@@ -124,15 +83,6 @@ export const BP_THEME = {
       styleOverrides: {
         root: {
           height: 50,
-        },
-      },
-    },
-    RaCalendar: {
-      styleOverrides: {
-        root: {
-          '& .fc-button-primary:not(.fc-button-active, .fc-today-button)': {
-            color: '#ffffff !important',
-          },
         },
       },
     },
