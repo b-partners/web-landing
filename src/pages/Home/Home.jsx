@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { heroFontSize } from '@/config/bp-theme';
 import { Box, Button, Stack, Typography } from '@mui/material';
 import * as PropTypes from 'prop-types';
 
@@ -10,7 +11,7 @@ import { Feature } from './components/Feature';
 import { Footer } from './components/Footer';
 import { GetInTouch } from './components/GetInTouch';
 import { Header } from './components/Header';
-import { Hero } from './components/Hero';
+import { Hero } from './components/Hero/index.ts';
 import { Offer } from './components/Offer';
 import { Partners } from './components/Partners';
 import { Solution } from './components/Solution';
@@ -51,49 +52,6 @@ export function Home(props) {
   return (
     <div>
       <Header />
-      <Box width="100%" height="100%" display="flex" justifyContent="center" alignItems="center">
-        <Stack
-          direction="row"
-          height="100vh"
-          justifyContent="space-around"
-          width={{ sm: '100vw', md: '90vw', lg: '75vw' }}
-        >
-          <Box flexBasis="50%" height="100%" display="flex" justifyContent="center" alignItems="center">
-            <Box width="34vw">
-              <Typography
-                fontSize={{
-                  xs: '24px',
-                  md: '32px',
-                  lg: '40px',
-                  xl: '48px',
-                }}
-                mb={4}
-              >
-                Vous êtes un couvreur ou une collectivité ? Bpartners est fait pour vous.
-              </Typography>
-              <Typography fontSize="18px" mb={4}>
-                BPartners vous permet de générer en 1 clic l'analyse des toitures de vos prospects: prise de mesures,
-                détection des revêtements, pentes, usures
-              </Typography>
-              <Stack direction="row" spacing={4}>
-                <Button sx={{ px: 5, py: 2, borderRadius: 2, fontSize: 18 }}>Couvreurs</Button>
-                <Button sx={{ px: 5, py: 2, borderRadius: 2, fontSize: 18 }}>Collectivités</Button>
-              </Stack>
-            </Box>
-          </Box>
-          <Box flexBasis="50%" height="100%" display="flex" justifyContent="center" alignItems="center">
-            <Box position="relative" height="60vh" width="60vh">
-              <img className="hero-image__bg" src="/assets/images/Compiegne.jpg" alt="Compiègne" />
-              <div className="hero-image__tl">
-                <img src="/assets/images/cities.png" alt="cities" />
-              </div>
-              <div className="hero-image__br">
-                <img src="/assets/images/solar-panels.png" alt="solar panels" />
-              </div>
-            </Box>
-          </Box>
-        </Stack>
-      </Box>
       <Hero heroTitle={homePageTitle} textList={homePageTextList} heroAside={homePageAside} />
       <Feature />
       <Authenticity />

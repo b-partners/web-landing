@@ -161,3 +161,9 @@ export const BP_THEME = {
 };
 
 export const theme = createTheme(BP_THEME);
+export const heroFontSize = {
+  xs: '24px',
+  md: '32px',
+  lg: '40px',
+  xl: '48px',
+};
