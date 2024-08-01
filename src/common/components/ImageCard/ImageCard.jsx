@@ -3,7 +3,12 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import PropTypes from 'prop-types';
 
-export function ImageCard({ imageSrc, alt, cardText, styles }) {
+export function ImageCard({
+  imageSrc = 'fa fa-bullseye fa-2x',
+  alt = 'fa fa-bullseye fa-2x',
+  cardText = '',
+  styles = {},
+}) {
   return (
     <div className="distinction__item" style={styles}>
       <LazyLoadImage
@@ -22,12 +27,5 @@ ImageCard.propTypes = {
   imageSrc: PropTypes.string,
   alt: PropTypes.string,
   cardText: PropTypes.string,
-  styles: PropTypes.objectOf(),
-};
-
-ImageCard.defaultProps = {
-  imageSrc: 'fa fa-bullseye fa-2x',
-  alt: 'fa fa-bullseye fa-2x',
-  cardText: '',
-  styles: {},
+  styles: PropTypes.any,
 };

@@ -6,7 +6,7 @@ import * as PropTypes from 'prop-types';
 import './Polygone.css';
 
 export function Polygone(props) {
-  const { description, color, position, borderLeft, borderRight, preset } = props;
+  const { description, color, position, borderLeft = '', borderRight = '', preset = '' } = props;
   let styles = {};
 
   if (position === 'polygone-right') {
@@ -58,10 +58,4 @@ Polygone.propTypes = {
   borderRight: PropTypes.string,
   borderLeft: PropTypes.string,
   preset: PropTypes.string,
-};
-
-Polygone.defaultProps = {
-  borderRight: '',
-  borderLeft: '',
-  preset: '',
 };

@@ -60,7 +60,15 @@ export function Home(props) {
         >
           <Box flexBasis="50%" height="100%" display="flex" justifyContent="center" alignItems="center">
             <Box width="34vw">
-              <Typography fontSize="54px" mb={4}>
+              <Typography
+                fontSize={{
+                  xs: '24px',
+                  md: '32px',
+                  lg: '40px',
+                  xl: '48px',
+                }}
+                mb={4}
+              >
                 Vous êtes un couvreur ou une collectivité ? Bpartners est fait pour vous.
               </Typography>
               <Typography fontSize="18px" mb={4}>

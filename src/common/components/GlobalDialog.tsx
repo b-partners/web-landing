@@ -1,10 +1,10 @@
-import { useDialog } from '@store/dialog';
 import { Dialog } from '@mui/material';
+import { useDialog } from '@store/dialog';
 
 export const GlobalDialog = () => {
   const { isOpen: isDialogOpen, content: dialogContent, close: closeDialog } = useDialog();
   return (
-    <Dialog open={isDialogOpen} onClose={closeDialog}>
+    <Dialog maxWidth="lg" open={isDialogOpen} onClose={closeDialog}>
       {dialogContent}
     </Dialog>
   );

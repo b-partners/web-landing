@@ -1,7 +1,6 @@
-import React from 'react';
-
+import { PreRegistrationForm } from '@/common/components/PreRegistrationModal';
 import { TextField, useMediaQuery } from '@mui/material';
-import { makeStyles } from '@mui/styles';
+import { useDialog } from '@store/dialog';
 import * as PropTypes from 'prop-types';
 
 import { Button } from '../../../../common/components/Button/Button';
@@ -10,7 +9,7 @@ import WavesBottomBg from '../../assets/img/waves-bottom-bg.png';
 export function GetInTouch(props) {
   const matches = useMediaQuery('(max-width: 1021px)');
 
-  const useStyles = makeStyles({
+  const style = {
     field: {
       width: '70%',
       overflow: 'hidden',
@@ -18,11 +17,14 @@ export function GetInTouch(props) {
       borderBottom: 'none !important',
       borderRadius: '25px 0px 0px 25px',
     },
-  });
+  };
 
-  const classes = useStyles();
-  const { onEmailChange, onEmailRegistration, user } = props;
+  const { user } = props;
 
+  const { open: openDialog } = useDialog();
+  const onEmailRegistration = () => {
+    openDialog(<PreRegistrationForm />);
+  };
   return (
     <section className="get_in_touch section">
       <img
@@ -47,23 +49,22 @@ export function GetInTouch(props) {
         <div className="get_in_touch__form">
           <div className="form-wrapper">
             <TextField
-              className={classes.field}
-              sx={
-                matches
+              sx={{
+                ...style.field,
+                ...(matches
                   ? {
                       borderRadius: '25px !important',
                       marginBottom: '.5rem',
                     }
                   : {
                       borderRadius: '25px 0px 0px 25px',
-                    }
-              }
+                    }),
+              }}
               label="Email"
               type="mail"
               variant="filled"
               name="email"
-              onChange={onEmailChange}
-              value={user && user.email}
+              defaultValue={user?.email || ''}
             />
             <Button
               type="submit"
@@ -87,6 +88,4 @@ GetInTouch.propTypes = {
     phone: PropTypes.string,
     email: PropTypes.string,
   }).isRequired,
-  onEmailChange: PropTypes.func.isRequired,
-  onEmailRegistration: PropTypes.func.isRequired,
 };

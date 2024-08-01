@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 import './IconCard.css';
 
-export function IconCard({ imageSrc, paragraph }) {
+export function IconCard({ imageSrc = 'fa fa-bullseye fa-2x', paragraph = 'Icon card paragraph' }) {
   return (
     <div className="solution__data__item">
       <div className="icon-wrapper">
@@ -28,9 +28,4 @@ export function IconCard({ imageSrc, paragraph }) {
 IconCard.propTypes = {
   imageSrc: PropTypes.string,
   paragraph: PropTypes.string,
-};
-
-IconCard.defaultProps = {
-  imageSrc: 'fa fa-bullseye fa-2x',
-  paragraph: 'Icon card paragraph',
 };

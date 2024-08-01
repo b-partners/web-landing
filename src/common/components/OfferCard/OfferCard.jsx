@@ -7,7 +7,16 @@ import PropTypes from 'prop-types';
 import { Button } from '../Button';
 import './OfferCard.css';
 
-export function OfferCard({ imageSrc, offer, sectorActivity, price, cardText, buttonLabel, setModalOpen, children }) {
+export function OfferCard({ setModalOpen, children, ...props }) {
+  const {
+    imageSrc = 'random image',
+    offer = 'image',
+    sectorActivity = 'artisan',
+    price = '',
+    cardText = 'Card text',
+    buttonLabel = 'primary',
+  } = props;
+
   const [openModalInfo, setOpenModalInfo] = useState(false);
   const swiper = useSwiper();
   return (
@@ -77,13 +86,4 @@ OfferCard.propTypes = {
   buttonLabel: PropTypes.string,
   setModalOpen: PropTypes.func.isRequired,
   children: PropTypes.element.isRequired,
-};
-
-OfferCard.defaultProps = {
-  imageSrc: 'random image',
-  offer: 'image',
-  sectorActivity: 'artisan',
-  price: '',
-  cardText: 'Card text',
-  buttonLabel: 'primary',
 };
