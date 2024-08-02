@@ -93,6 +93,8 @@ export const BP_THEME: ThemeOptions = {
       styleOverrides: {
         root: {
           textTransform: 'unset',
+          borderRadius: '6px',
+          fontWeight: 'bold',
         },
       },
       variants: [
@@ -109,6 +111,12 @@ export const BP_THEME: ThemeOptions = {
             '&:disabled': {
               backgroundColor: BP_COLOR.solid_grey,
             },
+          },
+        },
+        {
+          props: { variant: 'text' },
+          style: {
+            fontWeight: 'lighter',
           },
         },
       ],
