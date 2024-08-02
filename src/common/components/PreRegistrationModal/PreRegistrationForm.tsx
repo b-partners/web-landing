@@ -9,7 +9,7 @@ import { BpButton } from '../Button';
 import { TextField } from '../fields';
 import { PreRegistrationSuccess } from './PreRegistrationSuccess';
 
-export const PreRegistrationForm = () => {
+export function PreRegistrationForm() {
   const preRegistrationForm = usePreRegistrationForm();
   const { close: closeDialog, open: openDialog } = useDialog();
 
@@ -52,4 +52,4 @@ export const PreRegistrationForm = () => {
       </FormProvider>
     </Box>
   );
-};
+}

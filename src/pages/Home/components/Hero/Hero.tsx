@@ -21,12 +21,9 @@ export function Hero() {
           alignItems={{ xs: 'center', md: 'flex-start' }}
           width={{ xs: '85%', md: '75%', lg: '65%' }}
         >
-          <Typography fontSize={heroFontSize}>
-            Vous êtes un couvreur ou une collectivité ? Bpartners est fait pour vous.
-          </Typography>
+          <Typography fontSize={heroFontSize}>Vous êtes un couvreur ou une collectivité ? Bpartners est fait pour vous.</Typography>
           <Typography fontSize={{ lg: '18px', md: '16px', xs: '14' }} mb={4}>
-            BPartners vous permet de générer en 1 clic l'analyse des toitures de vos prospects: prise de mesures,
-            détection des revêtements, pentes, usures
+            BPartners vous permet de générer en 1 clic l'analyse des toitures de vos prospects: prise de mesures, détection des revêtements, pentes, usures
           </Typography>
           <Stack direction="row" spacing={4}>
             <BpButton sx={{ px: 5, py: 2, borderRadius: 2, fontSize: 16 }}>Couvreurs</BpButton>

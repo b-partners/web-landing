@@ -65,11 +65,7 @@ export function Footer(props) {
               </button>
             </li>
             <li>
-              <button
-                className="navigation-button"
-                type="button"
-                onClick={() => navigate('/general-conditions-of-use')}
-              >
+              <button className="navigation-button" type="button" onClick={() => navigate('/general-conditions-of-use')}>
                 <a href="#CGU">Conditions générales d'utilisation</a>
               </button>
             </li>
@@ -80,9 +76,7 @@ export function Footer(props) {
             </li>
             <li>
               <button className="navigation-button" type="button">
-                <a href="https://landing-bpartners.s3.eu-west-3.amazonaws.com/Inge%CC%81nieur+IA+H_F.pdf">
-                  Nous recrutons !
-                </a>
+                <a href="https://landing-bpartners.s3.eu-west-3.amazonaws.com/Inge%CC%81nieur+IA+H_F.pdf">Nous recrutons !</a>
               </button>
             </li>
           </ul>
@@ -108,13 +102,7 @@ export function Footer(props) {
             onChange={onEmailChange}
             defaultValue={user?.email || ''}
           />
-          <Button
-            type="button"
-            id="registration-button-3"
-            label="Je m'inscris"
-            preset="footer_registration__button"
-            onClick={onEmailRegistration}
-          />
+          <Button type="button" id="registration-button-3" label="Je m'inscris" preset="footer_registration__button" onClick={onEmailRegistration} />
         </div>
       </div>
     </section>

@@ -42,9 +42,7 @@ export function Home() {
             zIndex: '0',
           }}
         />
-        <Typography variant="body2">
-          L'assistant qui prend de la hauteur et analyse vos toitures sur image HD.
-        </Typography>
+        <Typography variant="body2">L'assistant qui prend de la hauteur et analyse vos toitures sur image HD.</Typography>
         <div className="home__container bd-container bd-grid">
           <div className="home__data">
             <div className="home__list">
@@ -74,11 +72,7 @@ export function Home() {
               <span>On vous montre ça en moins de 15 minutes dans une démo personnalisée.</span>
               <div className="home-registration-mail">
                 <button className="home-registration-button" type="button">
-                  <a
-                    href="https://meet.brevo.com/bpartnersartisans/reunion-de-15-minutes"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
+                  <a href="https://meet.brevo.com/bpartnersartisans/reunion-de-15-minutes" rel="noreferrer" target="_blank">
                     RÉSERVER MA DÉMO
                   </a>
                 </button>
@@ -105,10 +99,7 @@ export function Home() {
               }}
             >
               <a href="https://play.google.com/store/apps/details?id=com.bpartnersmobile&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-                <img
-                  alt="Disponible sur Google Play"
-                  src="https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png"
-                />
+                <img alt="Disponible sur Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png" />
               </a>
               <a href="https://apps.apple.com/us/app/bpartners/id1668044300?itsct=apps_box_badge&amp;itscg=30200">
                 <img

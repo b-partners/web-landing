@@ -60,10 +60,7 @@ export function OfferSwiper(props) {
               listText="Initiez la collecte de vos encaissements instantannément par QR code,
                              Mails ou SMS en 1 clic. Lien de paiement intégré à la facture. (0,99%)"
             />
-            <IconList
-              imageSrc=""
-              listText="Connectez votre compte bancaire pour visualiser votre trésorerie en continu."
-            />
+            <IconList imageSrc="" listText="Connectez votre compte bancaire pour visualiser votre trésorerie en continu." />
             <IconList imageSrc="" listText="Support 7 jours sur 7." />
           </ul>
         </OfferCard>
@@ -95,10 +92,7 @@ export function OfferSwiper(props) {
               listText="Initiez la collecte de vos encaissements instantannément par QR code,
                              Mails ou SMS en 1 clic. Lien de paiement intégré à la facture. (En fonction du volume)"
             />
-            <IconList
-              imageSrc=""
-              listText="Connectez votre compte bancaire pour visualiser votre trésorerie en continu."
-            />
+            <IconList imageSrc="" listText="Connectez votre compte bancaire pour visualiser votre trésorerie en continu." />
             <IconList imageSrc="" listText="Support 7 jours sur 7." />
           </ul>
         </OfferCard>

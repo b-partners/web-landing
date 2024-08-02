@@ -19,11 +19,7 @@ export function Distinction() {
           cardText="Intégration du programme French Tech Emergence BPI
                      de recherche en Intelligence Artificielle."
         />
-        <ImageCard
-          imageSrc={EiffelTower}
-          alt="EiffelTower"
-          cardText="Lauréat du Concours Régional de Création d’Entreprises, CCI Paris & IDF."
-        />
+        <ImageCard imageSrc={EiffelTower} alt="EiffelTower" cardText="Lauréat du Concours Régional de Création d’Entreprises, CCI Paris & IDF." />
       </div>
     </section>
   );

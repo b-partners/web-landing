@@ -125,8 +125,7 @@ export function UseCaseItem1() {
                 <div className="offer__table-first__column usecase-table-column">
                   <div className="table-body-cell">
                     <b className="logo-color">
-                      Potentiel / la nécessité de desimperméabilisation des trottoirs de la zone (trottoirs sans arbres,
-                      ex: 20% des trottoirs à perméabiliser)
+                      Potentiel / la nécessité de desimperméabilisation des trottoirs de la zone (trottoirs sans arbres, ex: 20% des trottoirs à perméabiliser)
                     </b>
                   </div>
                   <div className="table-body-cell">

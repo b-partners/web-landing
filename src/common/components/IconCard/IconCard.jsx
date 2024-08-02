@@ -10,14 +10,7 @@ export function IconCard({ imageSrc = 'fa fa-bullseye fa-2x', paragraph = 'Icon 
     <div className="solution__data__item">
       <div className="icon-wrapper">
         <div className="image-wrapper">
-          <LazyLoadImage
-            src={imageSrc}
-            alt="cardImage"
-            height="38"
-            width="38"
-            PlaceholderSrc={imageSrc}
-            effect="blur"
-          />
+          <LazyLoadImage src={imageSrc} alt="cardImage" height="38" width="38" PlaceholderSrc={imageSrc} effect="blur" />
         </div>
       </div>
       <p>{paragraph}</p>

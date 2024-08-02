@@ -24,12 +24,7 @@ export function PdfDocument({ pdfUrl }) {
             <ul className="pager">
               <li className="previous">
                 {page !== 1 && (
-                  <button
-                    type="button"
-                    disabled={page === 1}
-                    onClick={() => setPage(page - 1)}
-                    className="pagination__button"
-                  >
+                  <button type="button" disabled={page === 1} onClick={() => setPage(page - 1)} className="pagination__button">
                     <a href="#header">
                       <i className="fa fa-chevron-left" />
                     </a>
@@ -41,12 +36,7 @@ export function PdfDocument({ pdfUrl }) {
               </li>
               <li className="next">
                 {page !== numPages && (
-                  <button
-                    type="button"
-                    disabled={page === Document.numPages}
-                    onClick={() => setPage(page + 1)}
-                    className="pagination__button"
-                  >
+                  <button type="button" disabled={page === Document.numPages} onClick={() => setPage(page + 1)} className="pagination__button">
                     <a href="#header">
                       <i className="fa fa-chevron-right" />
                     </a>

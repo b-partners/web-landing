@@ -22,20 +22,14 @@ export function TableOffer(props) {
         </div>
         <div className="table-body-cell">
           <p>
-            Activation de notre intelligence artificielle qui analyse les toitures de vos prospects et organise le suivi
-            des toitures de vos clients existants.
+            Activation de notre intelligence artificielle qui analyse les toitures de vos prospects et organise le suivi des toitures de vos clients existants.
           </p>
         </div>
         <div className="table-body-cell">
-          <p>
-            Outil de devis/facturation personnalisé, gestion des acomptes,relance impayés CRM, gestion des produits.
-          </p>
+          <p>Outil de devis/facturation personnalisé, gestion des acomptes,relance impayés CRM, gestion des produits.</p>
         </div>
         <div className="table-body-cell">
-          <p>
-            Initiez la collecte de vos encaissements instantannément par QR code, Mails ou SMS en 1 clic. Lien de
-            paiement intégré à la facture.
-          </p>
+          <p>Initiez la collecte de vos encaissements instantannément par QR code, Mails ou SMS en 1 clic. Lien de paiement intégré à la facture.</p>
         </div>
         <div className="table-body-cell">
           <p>Connectez votre compte bancaire pour visualiser votre trésorerie en continu.</p>
@@ -51,9 +45,7 @@ export function TableOffer(props) {
           <div className="offer__category">
             <h3>Artisan & indépendant</h3>
           </div>
-          <p className="offer-description">
-            Tous les services essentiels pour gérer votre activité d'artisan ou d'indépendant
-          </p>
+          <p className="offer-description">Tous les services essentiels pour gérer votre activité d'artisan ou d'indépendant</p>
           <span className="offer-price">49€</span>/mois
         </div>
         <div className="table-body-cell">
@@ -75,13 +67,7 @@ export function TableOffer(props) {
           </p>
         </div>
         <RedundantTableLine />
-        <Button
-          type="submit"
-          id="offer-button-1"
-          label="C'est ça qu'il me faut"
-          preset="registration-button"
-          onClick={() => handleOpenModal()}
-        />
+        <Button type="submit" id="offer-button-1" label="C'est ça qu'il me faut" preset="registration-button" onClick={() => handleOpenModal()} />
       </div>
       <div className="offer__table-column">
         <div className="offer__table-header">
@@ -90,17 +76,8 @@ export function TableOffer(props) {
           <div className="offer__category">
             <h3>Grandes entreprises artisanales, franchises, collectivités</h3>
           </div>
-          <p className="offer-description">
-            Tous les services pour franchir un pallier dans votre croissance et automatiser votre forte activité
-          </p>
-          <div
-            className="contact-button"
-            id="contact-offer-1"
-            role="button"
-            tabIndex="0"
-            onClick={() => handleOpenModal()}
-            onKeyPress={() => {}}
-          >
+          <p className="offer-description">Tous les services pour franchir un pallier dans votre croissance et automatiser votre forte activité</p>
+          <div className="contact-button" id="contact-offer-1" role="button" tabIndex="0" onClick={() => handleOpenModal()} onKeyPress={() => {}}>
             Contactez-nous
           </div>
         </div>
@@ -124,13 +101,7 @@ export function TableOffer(props) {
           </p>
         </div>
         <RedundantTableLine />
-        <Button
-          type="submit"
-          id="offer-button-2"
-          label="C'est plutôt ça qu'il me faut"
-          preset="registration-button"
-          onClick={() => handleOpenModal()}
-        />
+        <Button type="submit" id="offer-button-2" label="C'est plutôt ça qu'il me faut" preset="registration-button" onClick={() => handleOpenModal()} />
       </div>
     </div>
   );

@@ -4,14 +4,7 @@ import PropTypes from 'prop-types';
 
 import './Button.css';
 
-export function Button({
-  loading = false,
-  type = 'button',
-  id = '',
-  preset = 'btn-primary',
-  label = 'Valider',
-  onClick = () => {},
-}) {
+export function Button({ loading = false, type = 'button', id = '', preset = 'btn-primary', label = 'Valider', onClick = () => {} }) {
   return (
     /* eslint-disable-next-line react/button-has-type */
     <button type={type} className={`btn ${preset}`} onClick={onClick} id={id}>

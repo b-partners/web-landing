@@ -8,14 +8,7 @@ import { Button } from '../Button';
 import './OfferCard.css';
 
 export function OfferCard({ setModalOpen, children, ...props }) {
-  const {
-    imageSrc = 'random image',
-    offer = 'image',
-    sectorActivity = 'artisan',
-    price = '',
-    cardText = 'Card text',
-    buttonLabel = 'primary',
-  } = props;
+  const { imageSrc = 'random image', offer = 'image', sectorActivity = 'artisan', price = '', cardText = 'Card text', buttonLabel = 'primary' } = props;
 
   const [openModalInfo, setOpenModalInfo] = useState(false);
   const swiper = useSwiper();
@@ -55,12 +48,7 @@ export function OfferCard({ setModalOpen, children, ...props }) {
             justifyContent: 'center',
           }}
         >
-          <Button
-            type="submit"
-            label={buttonLabel}
-            preset="offer-registration-button"
-            onClick={() => setModalOpen(true)}
-          />
+          <Button type="submit" label={buttonLabel} preset="offer-registration-button" onClick={() => setModalOpen(true)} />
           {!swiper.isEnd && (
             <Button
               onClick={() => {

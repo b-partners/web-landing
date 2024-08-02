@@ -18,11 +18,7 @@ export function AccordionItem({ accordionTitle, accordionDetails }) {
 
   return (
     <Accordion ref={accordionRef} sx={{ marginTop: '2rem' }} expanded={expanded} onChange={handleExpansion}>
-      <AccordionSummary
-        id="panel-header"
-        aria-controls="panel-content"
-        expandIcon={<i className="fa fa-chevron-down" />}
-      >
+      <AccordionSummary id="panel-header" aria-controls="panel-content" expandIcon={<i className="fa fa-chevron-down" />}>
         <h2 className="logo-color usecase__item-title">{accordionTitle}</h2>
       </AccordionSummary>
       <AccordionDetails>{accordionDetails}</AccordionDetails>

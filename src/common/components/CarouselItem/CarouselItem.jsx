@@ -4,12 +4,7 @@ import PropTypes from 'prop-types';
 
 import './CarouselItem.css';
 
-export function CarouselItem({
-  title = 'Application super EFFICACE',
-  paragraph = 'Carousel paragraph',
-  name = 'Anna M.',
-  company = 'MyFarm',
-}) {
+export function CarouselItem({ title = 'Application super EFFICACE', paragraph = 'Carousel paragraph', name = 'Anna M.', company = 'MyFarm' }) {
   return (
     <div className="carousel__item">
       <h3>{title}</h3>

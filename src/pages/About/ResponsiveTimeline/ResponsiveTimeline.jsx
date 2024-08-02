@@ -18,18 +18,8 @@ export function ResponsiveTimeline() {
         position="polygone-left"
         preset="responsive-width"
       />
-      <Polygone
-        description="Interviews des artisans testeurs."
-        color="rgba(175, 79, 122, 1)"
-        position="polygone-right"
-        preset="responsive-width"
-      />
-      <Polygone
-        description="Novembre 2022 : Commercialisation."
-        color="rgba(197, 129, 161, 1)"
-        position="polygone-left"
-        preset="responsive-width"
-      />
+      <Polygone description="Interviews des artisans testeurs." color="rgba(175, 79, 122, 1)" position="polygone-right" preset="responsive-width" />
+      <Polygone description="Novembre 2022 : Commercialisation." color="rgba(197, 129, 161, 1)" position="polygone-left" preset="responsive-width" />
       <Polygone
         description="Décembre 2022 : Lancement d’un programme de R&D."
         color="rgba(213, 164, 188, 1)"
