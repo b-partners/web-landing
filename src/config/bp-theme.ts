@@ -1,9 +1,16 @@
-import { createTheme } from '@mui/material';
+import { ThemeOptions, createTheme } from '@mui/material';
 
-const important = (value) => `${value} !important`;
+const important = (value: any) => `${value} !important`;
 
 export const BP_COLOR = {
   2: '#ab005650',
+  MuiSideBar: {
+    styleOverrides: {
+      root: {
+        closeWidth: 100,
+      },
+    },
+  },
   5: '#ab0056',
   10: '#7A003D',
   20: '#660033',
@@ -12,28 +19,15 @@ export const BP_COLOR = {
   solid_grey: 'rgb(0, 0, 0, 0.05)',
 };
 
-export const BP_BUTTON = {
-  color: '#fff',
-  backgroundColor: BP_COLOR[10],
-  textTransform: 'unset',
-  '&:hover, &:active': {
-    backgroundColor: BP_COLOR['20'],
-    cursor: 'pointer',
-  },
-  '&:disabled': {
-    backgroundColor: BP_COLOR.solid_grey,
-  },
-};
-
-export const BP_THEME = {
+export const BP_THEME: ThemeOptions = {
   palette: {
     background: {
       default: '#fafafb',
     },
     primary: {
       light: '#ab0056',
-      main: '#7A003D',
-      dark: '#660033',
+      main: '#ab0056',
+      dark: '#7A003D',
       contrastText: '#fff',
     },
     secondary: {
@@ -44,13 +38,6 @@ export const BP_THEME = {
     },
   },
   components: {
-    MuiSideBar: {
-      styleOverrides: {
-        root: {
-          closeWidth: 100,
-        },
-      },
-    },
     MuiPaper: {
       styleOverrides: {
         elevation1: {
@@ -102,25 +89,24 @@ export const BP_THEME = {
         },
       },
     },
-    RaListToolbar: {
-      styleOverrides: {
-        root: {
-          backgroundColor: '#fff',
-          borderRadius: '0.4rem 0.4rem 0 0',
-        },
-      },
-    },
-    RaList: {
-      styleOverrides: {
-        root: {
-          '& .RaList-main button': BP_BUTTON,
-        },
-      },
-    },
     MuiButton: {
-      styleOverrides: {
-        root: BP_BUTTON,
-      },
+      variants: [
+        {
+          props: { variant: 'contained' },
+          style: {
+            color: '#fff',
+            backgroundColor: BP_COLOR[5],
+            textTransform: 'unset',
+            '&:hover, &:active': {
+              backgroundColor: BP_COLOR['10'],
+              cursor: 'pointer',
+            },
+            '&:disabled': {
+              backgroundColor: BP_COLOR.solid_grey,
+            },
+          },
+        },
+      ],
     },
     MuiSwitch: {
       styleOverrides: {
