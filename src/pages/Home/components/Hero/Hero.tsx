@@ -1,6 +1,6 @@
+import { Grid, Stack, Typography } from '@mui/material';
 import { BpButton } from '@/common/components/Button';
 import { heroFontSize } from '@/config/bp-theme';
-import { Grid, Stack, Typography } from '@mui/material';
 
 export function Hero() {
   return (
