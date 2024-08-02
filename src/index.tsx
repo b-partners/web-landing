@@ -5,11 +5,10 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 
+import App from '@/App';
+import { environment, theme } from '@/config';
 import { BrowserTracing } from '@sentry/tracing';
 
-import App from './App';
-import { theme } from './config/bp-theme';
-import environment from './config/environment';
 import './index.css';
 
 Sentry.init({

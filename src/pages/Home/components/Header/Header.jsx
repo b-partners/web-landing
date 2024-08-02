@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+import { BpButton } from '@/common/components/Button';
 import { AppBar, Stack } from '@mui/material';
 
 import logo from '../../assets/img/logoFullWhite.webp';
@@ -28,7 +29,8 @@ export function Header() {
         top: 0,
         left: 0,
         border: 'none',
-        boxShadow: '5px 5px 10px #00000023',
+        boxShadow: `2px 2px 10px #00000020`,
+        width: '100vw',
       }}
     >
       <Stack direction="row" justifyContent="space-between" alignItems="center">
@@ -37,8 +39,10 @@ export function Header() {
         </Link>
         <Stack direction="row" alignItems="center" spacing={2}>
           {links.map(({ to, label }) => (
-            <Link style={{ color: '#fff' }} key={to} to={to}>
-              {label}
+            <Link key={to} to={to}>
+              <BpButton variant="text" sx={{ color: '#fff' }}>
+                {label}
+              </BpButton>
             </Link>
           ))}
         </Stack>

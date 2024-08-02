@@ -90,15 +90,20 @@ export const BP_THEME: ThemeOptions = {
       },
     },
     MuiButton: {
+      styleOverrides: {
+        root: {
+          textTransform: 'unset',
+        },
+      },
       variants: [
         {
           props: { variant: 'contained' },
           style: {
             color: '#fff',
             backgroundColor: BP_COLOR[5],
-            textTransform: 'unset',
+            boxShadow: `1px 1px 5px #00000020`,
             '&:hover, &:active': {
-              backgroundColor: BP_COLOR['10'],
+              backgroundColor: `${BP_COLOR['10']}dd`,
               cursor: 'pointer',
             },
             '&:disabled': {
@@ -148,8 +153,8 @@ export const BP_THEME: ThemeOptions = {
 
 export const theme = createTheme(BP_THEME);
 export const heroFontSize = {
-  xs: '24px',
-  md: '32px',
-  lg: '40px',
-  xl: '48px',
+  xs: '30px',
+  md: '35px',
+  lg: '38px',
+  xl: '46px',
 };

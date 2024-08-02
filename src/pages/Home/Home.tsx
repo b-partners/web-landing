@@ -1,6 +1,6 @@
 import { IconList } from '@/common/components/IconList';
 import '@/common/components/Modal/Modal.css';
-import { Paper } from '@mui/material';
+import { Box, Paper, Typography } from '@mui/material';
 import CashRegisterEuro from '@pages/Home/assets/img/cash-register-euro.webp';
 import PaidBill from '@pages/Home/assets/img/paid-bill.webp';
 import QrCode from '@pages/Home/assets/img/qr-code-ext.webp';
@@ -8,7 +8,6 @@ import VirtualBot from '@pages/Home/assets/img/virtual-bot.webp';
 import WelcomeSectionBg from '@pages/Home/assets/img/welcome-waves.webp';
 
 import './assets/css/forms.css';
-import './assets/css/hero.css';
 import './assets/css/spinner.css';
 import { Authenticity } from './components/Authenticity/index.js';
 import { Distinction } from './components/Distinction/index.js';
@@ -30,7 +29,7 @@ const textList = [
 ];
 export function Home() {
   return (
-    <div>
+    <Box>
       <Header />
       <Hero />
       <section className="home" id="home">
@@ -43,14 +42,9 @@ export function Home() {
             zIndex: '0',
           }}
         />
-        <p className="welcoming">Bienvenue sur BPartners</p>
-        <h1 className="home__title bd-container">
-          L'assistant qui prend de la hauteur
-          <br />
-          <span style={{ fontWeight: '600' }}>
-            et analyse vos toitures <br /> sur image HD.
-          </span>
-        </h1>
+        <Typography variant="body2">
+          L'assistant qui prend de la hauteur et analyse vos toitures sur image HD.
+        </Typography>
         <div className="home__container bd-container bd-grid">
           <div className="home__data">
             <div className="home__list">
@@ -140,6 +134,6 @@ export function Home() {
       <Testimonial />
       <GetInTouch />
       <Footer />
-    </div>
+    </Box>
   );
 }
