@@ -1,0 +1,39 @@
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
+import { BpButton } from '@/common/components/Button';
+import { Menu as MenuIcon } from '@mui/icons-material';
+import { AppBar, IconButton, Stack, Toolbar } from '@mui/material';
+import { useDialog } from '@store/dialog';
+
+import { HeaderAppBarStyle, HeaderMenuDialog, links } from '.';
+
+export function Header() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  const { open: openDialog } = useDialog();
+
+  const openMenuDialog = () => openDialog(<HeaderMenuDialog />);
+
+  return (
+    <AppBar sx={HeaderAppBarStyle}>
+      <Toolbar>
+        <Link to="/home">
+          <img src="/assets/images/logo.png" alt="logo" />
+        </Link>
+        <Stack direction="row" spacing={2}>
+          {links.map(({ to, label }) => (
+            <Link key={to} to={to}>
+              <BpButton variant="text">{label}</BpButton>
+            </Link>
+          ))}
+        </Stack>
+        <BpButton name="login-button">Se connecter</BpButton>
+        <IconButton onClick={openMenuDialog} name="menu-button">
+          <MenuIcon />
+        </IconButton>
+      </Toolbar>
+    </AppBar>
+  );
+}
