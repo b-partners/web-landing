@@ -1,7 +1,7 @@
 import { BpButton } from '@/common/components/Button';
 import { Box, Container, Stack, Typography } from '@mui/material';
 
-import { HeroPageStyle } from '.';
+import { HeroPageStyle } from './style';
 
 export function Hero() {
   return (

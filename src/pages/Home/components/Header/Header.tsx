@@ -6,7 +6,9 @@ import { Menu as MenuIcon } from '@mui/icons-material';
 import { AppBar, IconButton, Stack, Toolbar } from '@mui/material';
 import { useDialog } from '@store/dialog';
 
-import { HeaderAppBarStyle, HeaderMenuDialog, links } from '.';
+import { HeaderMenuDialog } from './HeaderMenuDialog';
+import { links } from './links';
+import { HeaderAppBarStyle } from './styles';
 
 export function Header() {
   useEffect(() => {
