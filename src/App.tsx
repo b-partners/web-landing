@@ -1,11 +1,11 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 
+import { GlobalDialog, GlobalSnackbar } from '@/common/components';
 import { About } from '@pages/About';
 import { Collectivity } from '@pages/Collectivity';
 import { Contact } from '@pages/Contact';
 import { PdfReader } from '@pages/GCU/PdfReader';
 import { Home } from '@pages/Home';
-import { GlobalDialog, GlobalSnackbar } from '@/common/components';
 
 function App() {
   return (

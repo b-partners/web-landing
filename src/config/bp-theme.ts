@@ -1,4 +1,4 @@
-import { ThemeOptions, createTheme } from '@mui/material';
+import { createTheme } from '@mui/material';
 
 const important = (value: any) => `${value} !important`;
 
@@ -11,15 +11,16 @@ export const BP_COLOR = {
       },
     },
   },
-  5: '#ab0056',
-  10: '#7A003D',
+  5: '#bb0056',
+  10: '#ab0056',
   20: '#660033',
   30: '#582d37',
   40: '#F1E4E7',
+  50: '#BB255F',
   solid_grey: 'rgb(0, 0, 0, 0.05)',
 };
 
-export const BP_THEME: ThemeOptions = {
+export const theme = createTheme({
   palette: {
     background: {
       default: '#fafafb',
@@ -36,6 +37,10 @@ export const BP_THEME: ThemeOptions = {
       dark: '#0069c0',
       contrastText: '#fff',
     },
+  },
+  typography: {
+    allVariants: { color: '#373A40' },
+    fontFamily: ['"Raleway"', 'sans-serif'].join(','),
   },
   components: {
     MuiPaper: {
@@ -93,8 +98,9 @@ export const BP_THEME: ThemeOptions = {
       styleOverrides: {
         root: {
           textTransform: 'unset',
-          borderRadius: '6px',
+          borderRadius: '100px',
           fontWeight: 'bold',
+          paddingBlock: '0.7rem',
         },
       },
       variants: [
@@ -116,7 +122,7 @@ export const BP_THEME: ThemeOptions = {
         {
           props: { variant: 'text' },
           style: {
-            fontWeight: 'lighter',
+            fontWeight: 500,
           },
         },
       ],
@@ -157,12 +163,4 @@ export const BP_THEME: ThemeOptions = {
       },
     },
   },
-};
-
-export const theme = createTheme(BP_THEME);
-export const heroFontSize = {
-  xs: '30px',
-  md: '35px',
-  lg: '38px',
-  xl: '46px',
-};
+});
