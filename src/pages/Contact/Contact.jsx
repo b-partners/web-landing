@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import * as PropTypes from 'prop-types';
 
 import { Footer } from '../Home/components/Footer';
-import { Header } from '../Home/components/Header';
 import { ContactForm } from './ContactForm';
 import { Location } from './Location';
 
@@ -18,7 +17,6 @@ export function Contact(props) {
 
   return (
     <div className="contact">
-      <Header />
       <Location />
       <ContactForm />
       <Footer onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />

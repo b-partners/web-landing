@@ -14,7 +14,6 @@ import { Distinction } from './components/Distinction/index.js';
 import { Feature } from './components/Feature/index.js';
 import { Footer } from './components/Footer/index.js';
 import { GetInTouch } from './components/GetInTouch/index.js';
-import { Header } from './components/Header/index.js';
 import { Hero } from './components/Hero/index.ts';
 import { Offer } from './components/Offer/index.js';
 import { Partners } from './components/Partners/index.js';
@@ -30,7 +29,6 @@ const textList = [
 export function Home() {
   return (
     <Box>
-      <Header />
       <Hero />
       <section className="home" id="home">
         <img

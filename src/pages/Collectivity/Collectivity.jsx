@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import * as PropTypes from 'prop-types';
 
 import { Footer } from '../Home/components/Footer';
-import { Header } from '../Home/components/Header';
 import { Comparison } from './components/Comparison';
 import { Headline } from './components/Headline';
 import { Offer } from './components/Offer';
@@ -22,7 +21,6 @@ export function Collectivity(props) {
 
   return (
     <div>
-      <Header />
       <Headline />
       <Solution />
       <UseCase />

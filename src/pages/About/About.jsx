@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import * as PropTypes from 'prop-types';
 
 import { Footer } from '../Home/components/Footer';
-import { Header } from '../Home/components/Header';
 import { Solution } from '../Home/components/Solution';
 import { Description } from './Description';
 import { History } from './History';
@@ -19,7 +18,6 @@ export function About(props) {
 
   return (
     <div>
-      <Header />
       <Description />
       <History />
       <Solution />

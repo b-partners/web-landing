@@ -6,10 +6,12 @@ import { Collectivity } from '@pages/Collectivity';
 import { Contact } from '@pages/Contact';
 import { PdfReader } from '@pages/GCU/PdfReader';
 import { Home } from '@pages/Home';
+import { Header } from '@pages/Home/components/Header';
 
 function App() {
   return (
     <>
+      <Header />
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/craftsman" element={<Home />} />
