@@ -1,21 +1,18 @@
-import React from 'react';
+import { redirect } from '@/utils/redirect';
+import { Box } from '@mui/material';
 
-import * as PropTypes from 'prop-types';
-
-import { Button } from '../../../../../common/components/Button';
+import { BpButton } from '../../../../../common/components/Button';
 import Developpement from '../../../assets/img/developpement.png';
 import Essentiel from '../../../assets/img/essentiel.png';
 import { RedundantTableLine } from './RedundantTableLine';
+import { OffersTableStyle } from './style';
 
-export function TableOffer(props) {
-  const { setModalOpen } = props;
-
-  const handleOpenModal = () => {
-    setModalOpen(true);
-  };
+export function TableOffer() {
+  const goToSignUp = () => redirect('https://dashboard.bpartners.app/sign-up');
+  const goToMeetTest = () => redirect('https://meet.brevo.com/bpartnersartisans/detection-dobjets-par-intelligence-artificielle-bpartners');
 
   return (
-    <div className="offer__table-row bd-container">
+    <Box sx={OffersTableStyle} className="offer__table-row bd-container">
       <div className="offer__table-first__column">
         <div className="offer__table-header">
           <h2 className="table__title">Nos Offres</h2>
@@ -67,7 +64,9 @@ export function TableOffer(props) {
           </p>
         </div>
         <RedundantTableLine />
-        <Button type="submit" id="offer-button-1" label="C'est ça qu'il me faut" preset="registration-button" onClick={() => handleOpenModal()} />
+        <BpButton className="cta-btn" onClick={goToSignUp}>
+          Testez 14 jours sans engagement
+        </BpButton>
       </div>
       <div className="offer__table-column">
         <div className="offer__table-header">
@@ -76,7 +75,7 @@ export function TableOffer(props) {
           <div className="offer__category">
             <h3>Collectivités, Assureurs</h3>
           </div>
-          <div className="contact-button" id="contact-offer-1" role="button" tabIndex="0" onClick={() => handleOpenModal()}>
+          <div className="contact-button" id="contact-offer-1" role="button">
             Contactez-nous
           </div>
         </div>
@@ -100,12 +99,10 @@ export function TableOffer(props) {
           </p>
         </div>
         <RedundantTableLine />
-        <Button type="submit" id="offer-button-2" label="C'est plutôt ça qu'il me faut" preset="registration-button" onClick={() => handleOpenModal()} />
+        <BpButton className="cta-btn" onClick={goToMeetTest}>
+          Testez sur 1km2 gratuitement
+        </BpButton>
       </div>
-    </div>
+    </Box>
   );
 }
-
-TableOffer.propTypes = {
-  setModalOpen: PropTypes.func.isRequired,
-};
