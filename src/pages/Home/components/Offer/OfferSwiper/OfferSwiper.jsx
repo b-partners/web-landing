@@ -38,7 +38,7 @@ export function OfferSwiper(props) {
         <OfferCard
           imageSrc={Essentiel}
           offer="L'Essentiel"
-          sectorActivity="Artisan & indépendant"
+          sectorActivity="Artisant couvreur"
           price="49"
           cardText="Tous les services essentiels pour gérer votre activité d’artisan ou d'indépendant."
           buttonLabel="C'est ça qu'il me faut"
@@ -69,7 +69,7 @@ export function OfferSwiper(props) {
         <OfferCard
           imageSrc={Developpement}
           offer="Le Sur-mesure"
-          sectorActivity="Grandes entreprises artisanales, franchises, collectivités"
+          sectorActivity="Collectivités, Assureurs"
           cardText="Tous les services pour franchir un pallier dans votre croissance et
                      automatiser votre forte activité"
           buttonLabel="C'est plutôt ça qu'il me faut"
