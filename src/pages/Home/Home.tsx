@@ -1,5 +1,11 @@
+import { IconList } from '@/common/components/IconList';
 import '@/common/components/Modal/Modal.css';
-import { Box } from '@mui/material';
+import { Box, Paper, Typography } from '@mui/material';
+import CashRegisterEuro from '@pages/Home/assets/img/cash-register-euro.webp';
+import PaidBill from '@pages/Home/assets/img/paid-bill.webp';
+import QrCode from '@pages/Home/assets/img/qr-code-ext.webp';
+import VirtualBot from '@pages/Home/assets/img/virtual-bot.webp';
+import WelcomeSectionBg from '@pages/Home/assets/img/welcome-waves.webp';
 
 import './assets/css/forms.css';
 import './assets/css/spinner.css';
@@ -13,6 +19,13 @@ import { Offer } from './components/Offer/index.js';
 import { Partners } from './components/Partners/index.js';
 import { Solution } from './components/Solution/index.js';
 import { Testimonial } from './components/Testimonial/index.js';
+
+const textList = [
+  'Analysez les toits de vos prospects automatiquement sur image HD 5 cm.',
+  'Gagnez en réactivité avec des devis précis et techniques.',
+  'Détectez, mesurez et qualifiez vos chantiers en 1 clic.',
+  'Gagnez de nouveaux clients, facturez et encaissez.',
+];
 
 export function Home() {
   return (
