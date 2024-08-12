@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import * as PropTypes from 'prop-types';
 
 import { Footer } from '../Home/components/Footer';
-import { Header } from '../Home/components/Header';
 import { PdfDocument } from './CGUDocument';
 
 export function PdfReader(props) {
@@ -17,7 +16,6 @@ export function PdfReader(props) {
 
   return (
     <div className="contact">
-      <Header />
       <PdfDocument pdfUrl={pdfUrl} />
       <Footer onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
     </div>
