@@ -13,8 +13,12 @@ import { HeaderAppBarStyle } from './styles';
 export function Header() {
   const appBarRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
+  const gotToHome = () => {
     window.scrollTo(0, 0);
+  };
+
+  useEffect(() => {
+    gotToHome();
     window.addEventListener('scroll', () => {
       if (appBarRef.current) {
         const { scrollY } = window;
@@ -33,7 +37,7 @@ export function Header() {
   return (
     <AppBar ref={appBarRef} sx={HeaderAppBarStyle}>
       <Toolbar>
-        <Link to="/home">
+        <Link to="/home" onClick={gotToHome}>
           <img src="/assets/images/logo.png" alt="logo" />
         </Link>
         <Stack direction="row" spacing={2}>
