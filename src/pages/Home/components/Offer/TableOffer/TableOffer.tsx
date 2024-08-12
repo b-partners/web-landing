@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import { redirect } from '@/utils/redirect';
 import { Box } from '@mui/material';
 
@@ -75,9 +77,9 @@ export function TableOffer() {
           <div className="offer__category">
             <h3>Collectivités, Assureurs</h3>
           </div>
-          <div className="contact-button" id="contact-offer-1" role="button">
+          <Link className="contact-button" id="contact-offer-1" to="/contact">
             Contactez-nous
-          </div>
+          </Link>
         </div>
         <div className="table-body-cell">
           <p className="text-center">
