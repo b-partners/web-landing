@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 import { BpButton } from '@/common/components/Button';
@@ -11,15 +11,27 @@ import { links } from './links';
 import { HeaderAppBarStyle } from './styles';
 
 export function Header() {
+  const appBarRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     window.scrollTo(0, 0);
+    window.addEventListener('scroll', () => {
+      if (appBarRef.current) {
+        const { scrollY } = window;
+        if (scrollY < 10) {
+          appBarRef.current.classList.remove('opaque');
+        } else {
+          appBarRef.current.classList.add('opaque');
+        }
+      }
+    });
   }, []);
   const { open: openDialog } = useDialog();
 
   const openMenuDialog = () => openDialog(<HeaderMenuDialog />);
 
   return (
-    <AppBar sx={HeaderAppBarStyle}>
+    <AppBar ref={appBarRef} sx={HeaderAppBarStyle}>
       <Toolbar>
         <Link to="/home">
           <img src="/assets/images/logo.png" alt="logo" />
