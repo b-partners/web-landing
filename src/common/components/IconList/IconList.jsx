@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import './IconList.css';
 
-export function IconList({ imageSrc = 'fa fa-bullseye fa-2x', listText = 'Icon text', textStyle = '' }) {
+export function IconList({ imageSrc = 'fa fa-bullseye fa-2x', listText = 'Icon text', textStyle = '', imageStyle = {} }) {
   return (
     <li className="home-list-item">
       {imageSrc === '' ? (
@@ -13,7 +13,7 @@ export function IconList({ imageSrc = 'fa fa-bullseye fa-2x', listText = 'Icon t
         </div>
       ) : (
         <div className="home-list-icon">
-          <img src={imageSrc} height="17" width="17" alt={imageSrc} className="icon-list" />
+          <img src={imageSrc} height="17" width="17" alt={imageSrc} className="icon-list" style={imageStyle} />
         </div>
       )}
       <span className={`list-icon__text ${textStyle}`}>{listText}</span>

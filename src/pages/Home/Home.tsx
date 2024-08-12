@@ -40,20 +40,22 @@ export function Home() {
             zIndex: '0',
           }}
         />
-        <Typography variant="body2">L'assistant qui prend de la hauteur et analyse vos toitures sur image HD.</Typography>
         <div className="home__container bd-container bd-grid">
           <div className="home__data">
+            <Typography variant="body2" sx={{ fontSize: '1.6rem' }}>
+              L'assistant qui prend de la hauteur <span style={{ fontWeight: 'bold' }}>et analyse vos toitures sur image HD.</span>
+            </Typography>
             <div className="home__list">
               <div className="home__list__col">
                 <ul>
-                  <IconList imageSrc={VirtualBot} listText={textList[0]} />
-                  <IconList imageSrc={QrCode} listText={textList[1]} />
+                  <IconList imageSrc={VirtualBot} listText={textList[0]} imageStyle={{ filter: 'none' }} />
+                  <IconList imageSrc={QrCode} listText={textList[1]} imageStyle={{ filter: 'none' }} />
                 </ul>
               </div>
               <div className="home__list__col">
                 <ul>
-                  <IconList imageSrc={PaidBill} listText={textList[2]} />
-                  {textList[3] && <IconList imageSrc={CashRegisterEuro} listText={textList[3]} />}
+                  <IconList imageSrc={PaidBill} listText={textList[2]} imageStyle={{ filter: 'none' }} />
+                  {textList[3] && <IconList imageSrc={CashRegisterEuro} listText={textList[3]} imageStyle={{ filter: 'none' }} />}
                 </ul>
               </div>
             </div>

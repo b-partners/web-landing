@@ -1,9 +1,9 @@
 import { FormProvider } from 'react-hook-form';
 
-import { Box, DialogActions, DialogContent, DialogTitle, Stack, Typography } from '@mui/material';
-import { useDialog } from '@store/dialog';
 import { usePreRegistrationForm } from '@/common/form';
 import { usePreRegistrationMutation } from '@/common/query';
+import { Box, DialogActions, DialogContent, DialogTitle, Stack, Typography } from '@mui/material';
+import { useDialog } from '@store/dialog';
 
 import { BpButton } from '../Button';
 import { TextField } from '../fields';
