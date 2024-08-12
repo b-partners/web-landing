@@ -5,7 +5,7 @@ import { HeroPageStyle } from './style';
 
 export function Hero() {
   return (
-    <Container sx={HeroPageStyle}>
+    <Container id="home" sx={HeroPageStyle}>
       <Stack className="hero-text" spacing={2}>
         <Typography className="header-title">Couvreur ou collectivité ?</Typography>
         <Typography className="header-description">
