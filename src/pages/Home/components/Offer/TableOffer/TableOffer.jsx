@@ -22,7 +22,8 @@ export function TableOffer(props) {
         </div>
         <div className="table-body-cell">
           <p>
-            Activation de notre intelligence artificielle qui analyse les toitures de vos prospects et organise le suivi des toitures de vos clients existants.
+            Activation de notre intelligence artificielle qui analyse les toitures de vos prospects et organise le suivi des toitures de vos clients existants.{' '}
+            <b>20 toitures incluses puis 2€ par toiture supplémentaire.</b>
           </p>
         </div>
         <div className="table-body-cell">
@@ -77,7 +78,7 @@ export function TableOffer(props) {
             <h3>Grandes entreprises artisanales, franchises, collectivités</h3>
           </div>
           <p className="offer-description">Tous les services pour franchir un pallier dans votre croissance et automatiser votre forte activité</p>
-          <div className="contact-button" id="contact-offer-1" role="button" tabIndex="0" onClick={() => handleOpenModal()} onKeyPress={() => {}}>
+          <div className="contact-button" id="contact-offer-1" role="button" tabIndex="0" onClick={() => handleOpenModal()}>
             Contactez-nous
           </div>
         </div>
