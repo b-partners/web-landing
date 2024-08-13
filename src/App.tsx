@@ -4,6 +4,7 @@ import { GlobalDialog, GlobalSnackbar } from '@/common/components';
 import { About } from '@pages/About';
 import { Collectivity } from '@pages/Collectivity';
 import { Contact } from '@pages/Contact';
+import { Craftsman } from '@pages/Craftsman/Craftsman';
 import { PdfReader } from '@pages/GCU/PdfReader';
 import { Home } from '@pages/Home';
 import { Header } from '@pages/Home/components/Header';
@@ -14,7 +15,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/craftsman" element={<Home />} />
+        <Route path="/craftsman" element={<Craftsman />} />
         <Route path="/collectivity" element={<Collectivity />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
