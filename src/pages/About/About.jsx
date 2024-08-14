@@ -3,13 +3,11 @@ import { useLocation } from 'react-router-dom';
 
 import * as PropTypes from 'prop-types';
 
-import { Footer } from '../Home/components/Footer';
 import { Solution } from '../Home/components/Solution';
 import { Description } from './Description';
 import { History } from './History';
 
 export function About(props) {
-  const { onEmailChange, onEmailRegistration, user } = props;
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -21,7 +19,6 @@ export function About(props) {
       <Description />
       <History />
       <Solution />
-      <Footer onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
     </div>
   );
 }

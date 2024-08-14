@@ -4,7 +4,6 @@ import { Box } from '@mui/material';
 import './assets/css/forms.css';
 import './assets/css/spinner.css';
 import { Distinction } from './components/Distinction/index.js';
-import { Footer } from './components/Footer/index.js';
 import { GetInTouch } from './components/GetInTouch/index.js';
 import { Hero } from './components/Hero/index.ts';
 import { Offer } from './components/Offer/index.js';
@@ -22,7 +21,6 @@ export function Home() {
       <Offer />
       <Testimonial />
       <GetInTouch />
-      <Footer />
     </Box>
   );
 }

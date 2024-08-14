@@ -7,6 +7,7 @@ import { Contact } from '@pages/Contact';
 import { Craftsman } from '@pages/Craftsman/Craftsman';
 import { PdfReader } from '@pages/GCU/PdfReader';
 import { Home } from '@pages/Home';
+import { Footer } from '@pages/Home/components/Footer';
 import { Header } from '@pages/Home/components/Header';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/privacy-policy" element={<PdfReader pdfUrl={process.env.REACT_APP_PRIVACY_POLICY_URL} />} />
         <Route path="/" element={<Navigate to="/home" replace />} />
       </Routes>
+      <Footer />
       <GlobalDialog />
       <GlobalSnackbar />
     </>

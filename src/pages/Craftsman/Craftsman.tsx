@@ -1,13 +1,11 @@
 import { IconList } from '@/common/components/IconList';
-import { Paper, Typography } from '@mui/material';
+import { Box, Paper, Typography } from '@mui/material';
 import CashRegisterEuro from '@pages/Home/assets/img/cash-register-euro.webp';
 import PaidBill from '@pages/Home/assets/img/paid-bill.webp';
 import QrCode from '@pages/Home/assets/img/qr-code-ext.webp';
 import VirtualBot from '@pages/Home/assets/img/virtual-bot.webp';
 import WelcomeSectionBg from '@pages/Home/assets/img/welcome-waves.webp';
 
-import { Footer } from '../Home/components/Footer';
-import './assets/css/forms.css';
 import './assets/css/spinner.css';
 import { Authenticity } from './components/Authenticity';
 import { Feature } from './components/Feature';
@@ -21,7 +19,7 @@ const textList = [
 
 export const Craftsman = () => {
   return (
-    <>
+    <Box sx={{ marginTop: '15vh' }}>
       <section className="home" id="home">
         <img
           src={WelcomeSectionBg}
@@ -110,7 +108,6 @@ export const Craftsman = () => {
       </section>
       <Feature />
       <Authenticity />
-      <Footer />
-    </>
+    </Box>
   );
 };

@@ -3,7 +3,6 @@ import { useLocation } from 'react-router-dom';
 
 import * as PropTypes from 'prop-types';
 
-import { Footer } from '../Home/components/Footer';
 import { Comparison } from './components/Comparison';
 import { Headline } from './components/Headline';
 import { Offer } from './components/Offer';
@@ -12,7 +11,6 @@ import { Solution } from './components/Solution';
 import { UseCase } from './components/UseCase';
 
 export function Collectivity(props) {
-  const { onEmailChange, onEmailRegistration, user } = props;
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -27,7 +25,6 @@ export function Collectivity(props) {
       <Comparison />
       <Offer />
       <Partners />
-      <Footer onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
     </div>
   );
 }

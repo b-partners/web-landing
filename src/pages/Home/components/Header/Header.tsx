@@ -2,13 +2,15 @@ import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 import { BpButton } from '@/common/components/Button';
-import { Menu as MenuIcon } from '@mui/icons-material';
-import { AppBar, IconButton, Stack, Toolbar } from '@mui/material';
+import { Person as LoginIcon, Menu as MenuIcon } from '@mui/icons-material';
+import { AppBar, Box, IconButton, Stack, Toolbar } from '@mui/material';
 import { useDialog } from '@store/dialog';
 
 import { HeaderMenuDialog } from './HeaderMenuDialog';
 import { links } from './links';
 import { HeaderAppBarStyle } from './styles';
+
+const DASHBOARD_LOGIN_URL = process.env.REACT_APP_DASHBOARD_LOGIN_URL;
 
 export function Header() {
   const appBarRef = useRef<HTMLDivElement>(null);
@@ -47,7 +49,15 @@ export function Header() {
             </Link>
           ))}
         </Stack>
-        <BpButton name="login-button">Se connecter</BpButton>
+        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+          <BpButton size="small" variant="outlined" sx={{ gap: 0.5 }} name="login-button" href={DASHBOARD_LOGIN_URL}>
+            Se connecter
+            <LoginIcon />
+          </BpButton>
+          <BpButton size="small" name="signup-button" href={DASHBOARD_LOGIN_URL}>
+            Je m'inscris
+          </BpButton>
+        </Box>
         <IconButton onClick={openMenuDialog} name="menu-button">
           <MenuIcon />
         </IconButton>

@@ -7,6 +7,8 @@ import { useDialog } from '@store/dialog';
 
 import { HeaderMenuDialogStyle, links } from '.';
 
+const DASHBOARD_URL = 'https://dashboard.bpartners.app/login';
+
 export const HeaderMenuDialog = () => {
   const { close: closeDialog } = useDialog();
   return (
@@ -18,12 +20,15 @@ export const HeaderMenuDialog = () => {
         </IconButton>
       </Stack>
       <DialogContent>
-        <Stack spacing={2}>
+        <Stack spacing={1}>
           {links.map(({ to, label }) => (
             <Link key={to} to={to}>
-              <BpButton sx={{ width: '60vw', paddingBlock: 2 }}>{label}</BpButton>
+              <BpButton sx={{ width: '50vw', paddingBlock: 1 }}>{label}</BpButton>
             </Link>
           ))}
+          <BpButton sx={{ width: '50vw', paddingBlock: 1 }} variant="outlined" href={DASHBOARD_URL}>
+            Se Connecter
+          </BpButton>
         </Stack>
       </DialogContent>
     </Box>

@@ -3,12 +3,10 @@ import { useLocation } from 'react-router-dom';
 
 import * as PropTypes from 'prop-types';
 
-import { Footer } from '../Home/components/Footer';
 import { ContactForm } from './ContactForm';
 import { Location } from './Location';
 
 export function Contact(props) {
-  const { onEmailChange, onEmailRegistration, user } = props;
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -19,7 +17,6 @@ export function Contact(props) {
     <div className="contact">
       <Location />
       <ContactForm />
-      <Footer onEmailChange={onEmailChange} onEmailRegistration={onEmailRegistration} user={user} />
     </div>
   );
 }

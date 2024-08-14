@@ -12,8 +12,10 @@ export function Hero() {
           BPartners vous permet de générer en 1 clic l'analyse des toitures de vos prospects: prise de mesures, détection des revêtements, pentes, usures
         </Typography>
         <Stack direction="row" spacing={4}>
-          <BpButton sx={{ px: 5, py: 2, fontSize: 16 }}>Couvreurs</BpButton>
-          <BpButton variant="outlined" sx={{ px: 5, py: 2, fontSize: 16 }}>
+          <BpButton href="/craftsman" sx={{ px: 5, py: 2, fontSize: 16 }}>
+            Couvreurs
+          </BpButton>
+          <BpButton href="/collectivity" variant="outlined" sx={{ px: 5, py: 2, fontSize: 16 }}>
             Collectivités
           </BpButton>
         </Stack>
