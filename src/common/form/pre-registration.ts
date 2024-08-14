@@ -24,4 +24,5 @@ const defaultValues: TPreRegistration = {
   society: '',
 };
 
-export const usePreRegistrationForm = () => useForm<TPreRegistration>({ mode: 'onSubmit', resolver: preRegistrationResolver, defaultValues });
+export const usePreRegistrationForm = ({ email }: { email?: string }) =>
+  useForm<TPreRegistration>({ mode: 'onSubmit', resolver: preRegistrationResolver, defaultValues: { ...defaultValues, email: email || defaultValues.email } });

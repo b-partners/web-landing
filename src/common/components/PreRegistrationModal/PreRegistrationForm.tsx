@@ -10,8 +10,8 @@ import { BpButton } from '../Button';
 import { TextField } from '../fields';
 import { PreRegistrationSuccess } from './PreRegistrationSuccess';
 
-export function PreRegistrationForm() {
-  const preRegistrationForm = usePreRegistrationForm();
+export function PreRegistrationForm({ email = '' }) {
+  const preRegistrationForm = usePreRegistrationForm({ email });
   const { close: closeDialog, open: openDialog } = useDialog();
 
   const onSuccess = () => {
@@ -20,7 +20,7 @@ export function PreRegistrationForm() {
   };
 
   const { mutate: createUser, isPending } = usePreRegistrationMutation({ onSuccess });
-  const handleSubmit = preRegistrationForm.handleSubmit((data) => createUser(data));
+  const handleSubmit = preRegistrationForm.handleSubmit((data) => console.log(data));
 
   const onPhoneNumberChange = (newValue: string) => {
     preRegistrationForm.setValue('phone', newValue);
@@ -28,14 +28,14 @@ export function PreRegistrationForm() {
   const phoneNumberValue = preRegistrationForm.getValues('phone');
 
   return (
-    <Box p={1} sx={{ width: '98%', maxWidth: '500px' }}>
+    <Box p={1}>
       <FormProvider {...preRegistrationForm}>
         <DialogTitle>
-          <Typography variant="body1">
+          <Typography variant="body1" sx={{ textAlign: 'center' }}>
             <i className="fa fa-check" aria-hidden="true" /> Merci, votre pré-inscription est bien prise en compte.
           </Typography>
         </DialogTitle>
-        <form onSubmit={handleSubmit}>
+        <form style={{ width: '100%' }} onSubmit={handleSubmit}>
           <span style={{ marginLeft: '1.6rem' }}>Dites-nous en plus sur vous:</span>
           <DialogContent>
             <Stack spacing={1}>
@@ -49,17 +49,17 @@ export function PreRegistrationForm() {
                 variant="filled"
                 label="Téléphone"
                 defaultCountry="fr"
-                onChange={onPhoneNumberChange as any} //FIXME
+                onChange={onPhoneNumberChange as any} //FIXME: type
                 value={phoneNumberValue}
               />
               <TextField fullWidth name="society" label="Société" />
             </Stack>
           </DialogContent>
           <DialogActions style={{ marginRight: '1rem' }}>
-            <BpButton loading={isPending} type="submit">
+            <BpButton loading={isPending} size="small" type="submit">
               Se préinscrire
             </BpButton>
-            <BpButton loading={isPending} onClick={closeDialog}>
+            <BpButton variant="outlined" size="small" sx={{ px: 2 }} loading={isPending} onClick={closeDialog}>
               Annuler
             </BpButton>
           </DialogActions>

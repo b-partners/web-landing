@@ -13,3 +13,7 @@ code {
 .button--pricing {
   border: none;
 }
+
+input {
+  font-family: Arial, Helvetica, sans-serif !important;
+}

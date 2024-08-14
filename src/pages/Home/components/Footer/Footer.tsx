@@ -1,29 +1,10 @@
-/* eslint-disable jsx-a11y/media-has-caption */
-
-/* eslint-disable max-len */
 import { useNavigate } from 'react-router-dom';
 
-import { useMediaQuery } from '@mui/material';
-import TextField from '@mui/material/TextField';
-import * as PropTypes from 'prop-types';
-
-import { Button } from '../../../../common/components/Button';
 import logo from '../../assets/img/logoFullWhite.webp';
+import { GetInTouchForm } from '../GetInTouch/GetInTouch';
 
-const style = {
-  field: {
-    border: '1px solid white',
-    width: '70%',
-    backgroundColor: 'white',
-    overflow: 'hidden',
-  },
-};
-
-export function Footer(props) {
+export function Footer() {
   const navigate = useNavigate();
-  const matches = useMediaQuery('(max-width: 1021px)');
-
-  const { onEmailChange, onEmailRegistration, user } = props;
 
   return (
     <section className="footer">
@@ -83,40 +64,9 @@ export function Footer(props) {
         </div>
         <div className="footer_registration">
           <h4 className="footer_subtitle">RESTER INFORMÉ</h4>
-          <TextField
-            sx={{
-              ...style.field,
-              ...(matches
-                ? {
-                    borderRadius: '25px',
-                    marginBottom: '.5rem',
-                  }
-                : {
-                    borderRadius: '25px 0px 0px 25px',
-                  }),
-            }}
-            name="email"
-            label="Email"
-            type="mail"
-            variant="filled"
-            onChange={onEmailChange}
-            defaultValue={user?.email || ''}
-          />
-          <Button type="button" id="registration-button-3" label="Je m'inscris" preset="footer_registration__button" onClick={onEmailRegistration} />
+          <GetInTouchForm />
         </div>
       </div>
     </section>
   );
 }
-
-Footer.propTypes = {
-  user: PropTypes.shape({
-    firstName: PropTypes.string,
-    lastName: PropTypes.string,
-    society: PropTypes.string,
-    phone: PropTypes.string,
-    email: PropTypes.string,
-  }).isRequired,
-  onEmailChange: PropTypes.func.isRequired,
-  onEmailRegistration: PropTypes.func.isRequired,
-};
