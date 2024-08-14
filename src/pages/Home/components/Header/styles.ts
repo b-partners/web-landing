@@ -37,12 +37,18 @@ export const HeaderAppBarStyle: SxProps = {
     justifyContent: 'space-between',
     width: {
       xs: '100vw',
-      md: '85vw',
+      md: '96vw',
     },
   },
   '& img': {
     objectFit: 'contain',
     height: 45,
+  },
+  '& [name="signup-button"]': {
+    display: {
+      xs: 'none',
+      md: 'flex',
+    },
   },
   '& [name="login-button"]': {
     display: {

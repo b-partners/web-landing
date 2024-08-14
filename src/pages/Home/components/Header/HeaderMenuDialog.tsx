@@ -6,8 +6,7 @@ import { Box, DialogContent, DialogTitle, IconButton, Stack } from '@mui/materia
 import { useDialog } from '@store/dialog';
 
 import { HeaderMenuDialogStyle, links } from '.';
-
-const DASHBOARD_URL = 'https://dashboard.bpartners.app/login';
+import { ButtonActions } from './ButtonActions';
 
 export const HeaderMenuDialog = () => {
   const { close: closeDialog } = useDialog();
@@ -26,10 +25,8 @@ export const HeaderMenuDialog = () => {
               <BpButton sx={{ width: '50vw', paddingBlock: 1 }}>{label}</BpButton>
             </Link>
           ))}
-          <BpButton sx={{ width: '50vw', paddingBlock: 1 }} variant="outlined" href={DASHBOARD_URL}>
-            Se Connecter
-          </BpButton>
         </Stack>
+        <ButtonActions buttonSx={{ width: '100%', mt: 1, py: 0.8 }} />
       </DialogContent>
     </Box>
   );
