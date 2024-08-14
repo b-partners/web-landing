@@ -4,6 +4,7 @@ import { usePreRegistrationForm } from '@/common/form';
 import { usePreRegistrationMutation } from '@/common/query';
 import { Box, DialogActions, DialogContent, DialogTitle, Stack, Typography } from '@mui/material';
 import { useDialog } from '@store/dialog';
+import MuiPhoneNumber from 'material-ui-phone-number';
 
 import { BpButton } from '../Button';
 import { TextField } from '../fields';
@@ -21,8 +22,13 @@ export function PreRegistrationForm() {
   const { mutate: createUser, isPending } = usePreRegistrationMutation({ onSuccess });
   const handleSubmit = preRegistrationForm.handleSubmit((data) => createUser(data));
 
+  const onPhoneNumberChange = (newValue: string) => {
+    preRegistrationForm.setValue('phone', newValue);
+  };
+  const phoneNumberValue = preRegistrationForm.getValues('phone');
+
   return (
-    <Box p={1} width="30vw">
+    <Box p={1} sx={{ width: '98%', maxWidth: '500px' }}>
       <FormProvider {...preRegistrationForm}>
         <DialogTitle>
           <Typography variant="body1">
@@ -36,7 +42,16 @@ export function PreRegistrationForm() {
               <TextField fullWidth name="firstName" label="Prénom" />
               <TextField fullWidth name="lastName" label="Nom" />
               <TextField fullWidth name="email" label="Adresse e-mail" type="email" />
-              <TextField fullWidth name="phone" label="Téléphone" />
+              <MuiPhoneNumber
+                id="phone"
+                name="phone"
+                type="phone"
+                variant="filled"
+                label="Téléphone"
+                defaultCountry="fr"
+                onChange={onPhoneNumberChange as any} //FIXME
+                value={phoneNumberValue}
+              />
               <TextField fullWidth name="society" label="Société" />
             </Stack>
           </DialogContent>
