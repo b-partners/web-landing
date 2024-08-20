@@ -7,7 +7,7 @@ const errorMessages = {
 
 export const requiredString = () => zod.string({ message: errorMessages.required }).min(1, errorMessages.required);
 
-const validatePhoneNumber = (value: string) => /^\+?\d+$/.test(value);
+const validatePhoneNumber = (value: string) => /^\+?[\d\s]+$/.test(value);
 export const phoneValidator = () => requiredString().refine(validatePhoneNumber, errorMessages.badPhone);
 
 export const passValidation = () => zod.custom(() => true);

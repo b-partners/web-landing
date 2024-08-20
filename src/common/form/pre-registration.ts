@@ -9,7 +9,7 @@ const preRegistrationSchema = zod.object({
   firstName: requiredString(),
   lastName: requiredString(),
   email: requiredString().email({ message: 'Adresse email invalide' }),
-  phone: phoneValidator(),
+  phone: phoneValidator().transform((value) => value.replace(/\s+/g, '')),
   society: passValidation(),
 });
 
