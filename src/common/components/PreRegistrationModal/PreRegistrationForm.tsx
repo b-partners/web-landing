@@ -12,6 +12,7 @@ import { PreRegistrationSuccess } from './PreRegistrationSuccess';
 
 export function PreRegistrationForm({ email = '' }) {
   const preRegistrationForm = usePreRegistrationForm({ email });
+  const { register } = preRegistrationForm;
   const { close: closeDialog, open: openDialog } = useDialog();
 
   const onSuccess = () => {
@@ -20,7 +21,7 @@ export function PreRegistrationForm({ email = '' }) {
   };
 
   const { mutate: createUser, isPending } = usePreRegistrationMutation({ onSuccess });
-  const handleSubmit = preRegistrationForm.handleSubmit((data) => console.log(data));
+  const handleSubmit = preRegistrationForm.handleSubmit((data) => createUser(data));
 
   const onPhoneNumberChange = (newValue: string) => {
     preRegistrationForm.setValue('phone', newValue);
@@ -39,9 +40,9 @@ export function PreRegistrationForm({ email = '' }) {
           <span style={{ marginLeft: '1.6rem' }}>Dites-nous en plus sur vous:</span>
           <DialogContent>
             <Stack spacing={1}>
-              <TextField fullWidth name="firstName" label="Prénom" />
-              <TextField fullWidth name="lastName" label="Nom" />
-              <TextField fullWidth name="email" label="Adresse e-mail" type="email" />
+              <TextField fullWidth {...register('firstName')} label="Prénom" />
+              <TextField fullWidth {...register('lastName')} label="Nom" />
+              <TextField fullWidth {...register('email')} label="Adresse e-mail" type="email" />
               <MuiPhoneNumber
                 id="phone"
                 name="phone"
@@ -49,10 +50,10 @@ export function PreRegistrationForm({ email = '' }) {
                 variant="filled"
                 label="Téléphone"
                 defaultCountry="fr"
-                onChange={onPhoneNumberChange as any} //FIXME: type
+                onChange={onPhoneNumberChange as any}
                 value={phoneNumberValue}
               />
-              <TextField fullWidth name="society" label="Société" />
+              <TextField fullWidth {...register('society')} label="Société" />
             </Stack>
           </DialogContent>
           <DialogActions style={{ marginRight: '1rem' }}>
