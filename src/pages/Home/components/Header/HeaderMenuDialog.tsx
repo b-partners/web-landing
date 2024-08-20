@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import { BpButton } from '@/common/components/Button';
 import { Close as CloseIcon } from '@mui/icons-material';
@@ -10,6 +10,8 @@ import { ButtonActions } from './ButtonActions';
 
 export const HeaderMenuDialog = () => {
   const { close: closeDialog } = useDialog();
+  const navigate = useNavigate();
+
   return (
     <Box sx={HeaderMenuDialogStyle}>
       <Stack direction="row">
@@ -21,9 +23,15 @@ export const HeaderMenuDialog = () => {
       <DialogContent>
         <Stack spacing={1}>
           {links.map(({ to, label }) => (
-            <Link key={to} to={to}>
-              <BpButton sx={{ width: '50vw', paddingBlock: 1 }}>{label}</BpButton>
-            </Link>
+            <BpButton
+              sx={{ width: '50vw', paddingBlock: 1 }}
+              onClick={() => {
+                navigate(to);
+                closeDialog();
+              }}
+            >
+              {label}
+            </BpButton>
           ))}
         </Stack>
         <ButtonActions buttonSx={{ width: '100%', mt: 1, py: 0.8 }} />

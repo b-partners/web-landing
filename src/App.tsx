@@ -1,3 +1,4 @@
+import 'react-image-gallery/styles/css/image-gallery.css';
 import { Navigate, Route, Routes } from 'react-router-dom';
 
 import { GlobalDialog, GlobalSnackbar } from '@/common/components';

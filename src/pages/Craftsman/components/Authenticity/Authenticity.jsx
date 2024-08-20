@@ -9,6 +9,7 @@ import Bank from '../../assets/img/bank.webp';
 import Bill from '../../assets/img/bill.png';
 import Bot from '../../assets/img/bot.png';
 import Euro from '../../assets/img/euro.webp';
+import Laptop from '../../assets/img/laptop.jpg';
 
 export function Authenticity() {
   return (
@@ -73,8 +74,8 @@ export function Authenticity() {
               <br />
               <b>+ Plus de réparation auprès de plus de clients.</b>
             </div>
-            <div className="mobile__task__image">
-              <LazyLoadImage src={AnnotatorDashboard} width="358" PlaceholderSrc={AnnotatorDashboard} effect="blur" />
+            <div className="mobile__task__image" style={{ marginTop: '5px' }}>
+              <LazyLoadImage src={Laptop} width="358" PlaceholderSrc={Laptop} effect="blur" />
             </div>
           </div>
         </div>
