@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 
+import { BpButton } from '@/common/components/Button';
 import { redirect } from '@/utils/redirect';
 import { Box } from '@mui/material';
 
-import { BpButton } from '../../../../../common/components/Button';
 import Developpement from '../../../assets/img/developpement.png';
 import Essentiel from '../../../assets/img/essentiel.png';
 import { RedundantTableLine } from './RedundantTableLine';

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { useMediaQuery } from '@mui/material';
-import * as PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 import WavesTopBg from '../../assets/img/waves-top-bg.png';
 import { OfferSwiper } from './OfferSwiper';

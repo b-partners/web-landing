@@ -9,6 +9,9 @@ import WelcomeSectionBg from '@pages/Home/assets/img/welcome-waves.webp';
 import './assets/css/spinner.css';
 import { Authenticity } from './components/Authenticity';
 import { Feature } from './components/Feature';
+import { GetInTouch } from './components/GetInTouch';
+import { Offer } from './components/Offer';
+import { Testimonial } from './components/Testimonial';
 
 const textList = [
   'Analysez les toits de vos prospects automatiquement sur image HD 5 cm.',
@@ -108,6 +111,9 @@ export const Craftsman = () => {
       </section>
       <Feature />
       <Authenticity />
+      <Offer />
+      <Testimonial />
+      <GetInTouch />
     </Box>
   );
 };

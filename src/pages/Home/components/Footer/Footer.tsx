@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 
+import { GetInTouchForm } from '../../../Craftsman/components/GetInTouch/GetInTouch';
 import logo from '../../assets/img/logoFullWhite.webp';
-import { GetInTouchForm } from '../GetInTouch/GetInTouch';
 
 export function Footer() {
   const navigate = useNavigate();

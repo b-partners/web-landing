@@ -1,10 +1,10 @@
 import { useForm } from 'react-hook-form';
 
+import { Button } from '@/common/components/Button';
 import { PreRegistrationForm } from '@/common/components/PreRegistrationModal';
 import { SxProps, TextField, useMediaQuery } from '@mui/material';
 import { useDialog } from '@store/dialog';
 
-import { Button } from '../../../../common/components/Button/Button';
 import WavesBottomBg from '../../assets/img/waves-bottom-bg.png';
 
 type User = {
