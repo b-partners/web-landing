@@ -1,6 +1,3 @@
-/* eslint-disable jsx-a11y/media-has-caption */
-
-/* eslint-disable max-len */
 import React from 'react';
 
 export function Solution() {

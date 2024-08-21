@@ -2,7 +2,6 @@ import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { ShareCard } from '../../../../common/components/ShareCard';
-import AnnotatorDashboard from '../../assets/img/annotator-dashboard.png';
 import WavesBottomBg from '../../assets/img/auth-bottom-waves.png';
 import WavesTopBg from '../../assets/img/auth-top-waves.png';
 import Bank from '../../assets/img/bank.webp';

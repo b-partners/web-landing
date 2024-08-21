@@ -1,5 +1,3 @@
-/* eslint-disable max-len */
-import React from 'react';
 import ImageGallery from 'react-image-gallery';
 
 import { BP_COLOR } from '@/config';

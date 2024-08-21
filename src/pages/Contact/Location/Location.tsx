@@ -1,5 +1,3 @@
-import React from 'react';
-
 import WavesTopBg from '../../Home/assets/img/waves-top2-bg.png';
 
 export function Location() {
@@ -27,12 +25,12 @@ export function Location() {
         </div>
         <div className="location__col2">
           <iframe
+            allowFullScreen
             title="map"
             src={process.env.REACT_APP_BPARTNERS_LOCATION_URL}
             width="480"
             height="300"
             style={{ border: '0' }}
-            allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />

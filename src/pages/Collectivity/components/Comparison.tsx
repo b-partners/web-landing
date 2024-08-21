@@ -1,9 +1,6 @@
-/* eslint-disable max-len */
-import React from 'react';
-
 import ComparisonImg from '../assets/img/Comparison/Annotator.jpg';
 
-export function Comparison() {
+export const Comparison = () => {
   return (
     <section id="comparison" className="bd-container">
       <h2 className="offer_collectivity__title">Générez une comparaison</h2>
@@ -15,4 +12,4 @@ export function Comparison() {
       </div>
     </section>
   );
-}
+};
