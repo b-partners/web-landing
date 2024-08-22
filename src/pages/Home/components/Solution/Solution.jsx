@@ -1,9 +1,18 @@
 import React from 'react';
 
-import { IconCard } from '../../../../common/components/IconCard';
-import CashRegisterEuro from '../../assets/img/evolution.png';
-import PaidBill from '../../assets/img/invoice.png';
-import VirtualBot from '../../assets/img/stat.png';
+import { ImageGallery } from '@/common/components';
+
+import image1 from '../../assets/img/solutions/Image_1.png';
+import image2 from '../../assets/img/solutions/Image_2.png';
+import image3 from '../../assets/img/solutions/Image_3.png';
+import image4 from '../../assets/img/solutions/Image_4.png';
+import image5 from '../../assets/img/solutions/Image_5.png';
+import image6 from '../../assets/img/solutions/Image_6.png';
+import image7 from '../../assets/img/solutions/Image_7.png';
+import image8 from '../../assets/img/solutions/Image_8.png';
+import image9 from '../../assets/img/solutions/Image_9.png';
+
+const IMAGES = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
 
 export function Solution() {
   return (
@@ -17,16 +26,8 @@ export function Solution() {
             <span style={{ fontWeight: '700' }}> grandir votre entreprise.</span>
           </span>
         </h2>
-        <p style={{ paddingBlock: '1.5rem' }}>
-          On a discuté avec des artisans comme vous et nous avons simplifié les outils existants en les rendant pragmatiques.
-          <br /> Des fonctionnalités utiles, simples à utiliser qui viennent alléger votre quotidien d’artisan sur :
-        </p>
-        <div className="solution__data">
-          <IconCard imageSrc={CashRegisterEuro} paragraph="Analyse les toitures à distance en suivant votre méthode." />
-          <IconCard imageSrc={PaidBill} paragraph="Génère en 1 clic votre analyse des dégâts et un chiffrage des réparations." />
-          <IconCard imageSrc={VirtualBot} paragraph="Transformez un simple appel téléphonique en une opportunité commerciale." />
-        </div>
       </div>
+      <ImageGallery images={IMAGES} />
     </section>
   );
 }
