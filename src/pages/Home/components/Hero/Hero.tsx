@@ -35,9 +35,9 @@ export function Hero() {
         </Stack>
       </Stack>
       <Box className="hero-images">
-        <img src="/assets/images/hero/compiegne.webp" alt="compiegne" />
-        <img src="/assets/images/hero/cities.webp" alt="cities" />
-        <img src="/assets/images/hero/solar-panels.webp" alt="solar-panels" />
+        <img src="/assets/images/hero/compiegne.jpg" alt="compiegne" />
+        <img src="/assets/images/hero/cities.jpg" alt="cities" />
+        <img src="/assets/images/hero/solar-panels.jpg" alt="solar-panels" />
       </Box>
     </Container>
   );
