@@ -23,8 +23,9 @@ export const HeroPageStyle: SxProps = {
     fontSize: { lg: '18px', md: '16px', xs: '14' },
     mb: 4,
     width: {
-      xs: '80vw',
-      md: '45vw',
+      xs: '90vw',
+      md: '80vw',
+      lg: '70vw',
     },
   },
   '& .hero-images': {

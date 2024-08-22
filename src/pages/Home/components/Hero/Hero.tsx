@@ -12,7 +12,15 @@ export function Hero() {
       <Stack className="hero-text" spacing={2}>
         <Typography className="header-title">Couvreur ou collectivité ?</Typography>
         <Typography className="header-description">
-          BPartners vous permet de générer en 1 clic l'analyse des toitures de vos prospects: prise de mesures, détection des revêtements, pentes, usures
+          BPartners IA est une{' '}
+          <span style={{ fontWeight: 'bold' }}>
+            solution innovante qui utilise l’intelligence artificielle pour analyser des images aériennes haute définition 5cm de précision
+          </span>
+          , aidant ainsi les artisans couvreurs, les collectivités territoriales ou encore les assureurs à gagner en efficacité et réactivité. Notre technologie
+          permet en <span style={{ fontWeight: 'bold' }}>1 clic détecter et analyser automatiquement</span> des objets d’intérêt, tels que{' '}
+          <span style={{ fontWeight: 'bold' }}>
+            l'état des toitures et végétations, la non-conformité d’un territoire ou les risques de sinistres facilitant ainsi la prise de décision.
+          </span>
         </Typography>
         <Stack direction="row" spacing={4}>
           <BpButton

@@ -18,9 +18,6 @@ import Headline12 from '../assets/img/Headlines/Image_12.png';
 import Headline13 from '../assets/img/Headlines/Image_13.png';
 import Headline14 from '../assets/img/Headlines/Image_14.png';
 import Headline15 from '../assets/img/Headlines/Image_15.png';
-import Headline16 from '../assets/img/Headlines/Image_16.png';
-import Headline17 from '../assets/img/Headlines/Image_17.png';
-import Headline18 from '../assets/img/Headlines/Image_18.png';
 
 const IMAGES_SRC = [
   {
@@ -83,18 +80,6 @@ const IMAGES_SRC = [
     original: Headline15,
     thumbnail: Headline15,
   },
-  {
-    original: Headline16,
-    thumbnail: Headline16,
-  },
-  {
-    original: Headline17,
-    thumbnail: Headline17,
-  },
-  {
-    original: Headline18,
-    thumbnail: Headline18,
-  },
 ];
 
 const GALLERY_SX = {
@@ -147,7 +132,7 @@ export function Headline() {
           </p>
         </article>
         <Box sx={GALLERY_SX}>
-          <ImageGallery infinite items={IMAGES} />
+          <ImageGallery autoPlay infinite items={IMAGES} />
         </Box>
       </div>
     </section>
