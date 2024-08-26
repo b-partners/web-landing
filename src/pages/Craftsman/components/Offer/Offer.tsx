@@ -1,14 +1,12 @@
-import React from 'react';
+import { Dispatch, FC, SetStateAction } from 'react';
 
 import { useMediaQuery } from '@mui/material';
-import PropTypes from 'prop-types';
 
 import WavesTopBg from '../../assets/img/waves-top-bg.png';
 import { OfferSwiper } from './OfferSwiper';
 import { TableOffer } from './TableOffer';
 
-export function Offer(props) {
-  const { setModalOpen } = props;
+export const Offer: FC<{ setModalOpen?: Dispatch<SetStateAction<boolean>> }> = ({ setModalOpen }) => {
   const matches = useMediaQuery('(min-width: 768px)');
   return (
     <div className="pricing">
@@ -26,12 +24,8 @@ export function Offer(props) {
             filter: 'brightness(1.05)',
           }}
         />
-        {matches ? <TableOffer setModalOpen={setModalOpen} /> : <OfferSwiper setModalOpen={setModalOpen} />}
+        {matches ? <TableOffer /> : <OfferSwiper setModalOpen={setModalOpen} />}
       </section>
     </div>
   );
-}
-
-Offer.propTypes = {
-  setModalOpen: PropTypes.func.isRequired,
 };

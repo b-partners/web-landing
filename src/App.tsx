@@ -21,7 +21,7 @@ function App() {
         <Route path="/collectivity" element={<Collectivity />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/general-conditions-of-use" element={<PdfReader />} />
+        <Route path="/general-conditions-of-use" element={<PdfReader pdfUrl={process.env.REACT_APP_CGU_URL} />} />
         <Route path="/legal-mention" element={<PdfReader pdfUrl={process.env.REACT_APP_LEGAL_MENTION_URL} />} />
         <Route path="/privacy-policy" element={<PdfReader pdfUrl={process.env.REACT_APP_PRIVACY_POLICY_URL} />} />
         <Route path="/" element={<Navigate to="/home" replace />} />

@@ -1,5 +1,3 @@
-import React from 'react';
-
 export function Offer() {
   return (
     <section id="offer_collectivity" className="bd-container">

@@ -52,6 +52,5 @@ export function PdfDocument({ pdfUrl }) {
 }
 
 PdfDocument.propTypes = {
-  numPages: PropTypes.number.isRequired,
   pdfUrl: PropTypes.string.isRequired,
 };
