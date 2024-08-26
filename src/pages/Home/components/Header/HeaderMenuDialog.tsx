@@ -22,17 +22,22 @@ export const HeaderMenuDialog = () => {
       </Stack>
       <DialogContent>
         <Stack spacing={1}>
-          {links.map(({ to, label }) => (
-            <BpButton
-              sx={{ width: '50vw', paddingBlock: 1 }}
-              onClick={() => {
-                navigate(to);
-                closeDialog();
-              }}
-            >
-              {label}
-            </BpButton>
-          ))}
+          {links
+            .filter((link) => link.label !== 'Blog')
+            .map(({ to, label }) => (
+              <BpButton
+                sx={{ width: '50vw', paddingBlock: 1 }}
+                onClick={() => {
+                  navigate(to);
+                  closeDialog();
+                }}
+              >
+                {label}
+              </BpButton>
+            ))}
+          <BpButton sx={{ width: '50vw', paddingBlock: 1 }} href={process.env.REACT_APP_BLOG_URL}>
+            Blog
+          </BpButton>
         </Stack>
         <ButtonActions buttonSx={{ width: '100%', mt: 1, py: 0.8 }} />
       </DialogContent>

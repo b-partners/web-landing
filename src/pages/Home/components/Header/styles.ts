@@ -37,7 +37,7 @@ export const HeaderAppBarStyle: SxProps = {
     justifyContent: 'space-between',
     width: {
       xs: '100vw',
-      md: '96vw',
+      lg: '96vw',
     },
   },
   '& img': {
