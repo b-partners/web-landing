@@ -383,6 +383,7 @@ h1.home__title {
 
 .home__list__col {
     width: 100%;
+    color: black;
 }
 
 .icon-list {
@@ -404,7 +405,7 @@ h1.home__title {
     width: 30px;
     line-height: 30px;
     height: 30px;
-    border: 2px solid white;
+    border: 2px solid var(--first-color);
     border-radius: 30px;
     margin-right: .7rem;
 }

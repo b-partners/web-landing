@@ -1,1 +1,1 @@
-export {Collectivity} from './Collectivity';
+export { Collectivity } from './Collectivity';

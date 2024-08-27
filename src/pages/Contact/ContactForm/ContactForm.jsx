@@ -20,12 +20,13 @@ export function ContactForm() {
               <li>
                 <i className="fa fa-envelope logo-color" />
                 <a href="mailto:contact@bpartners.app">
-                  <u className='logo-color'>contact@bpartners.app</u>
+                  <u className="logo-color">contact@bpartners.app</u>
                 </a>
               </li>
             </ul>
             <p style={{ marginTop: '1rem' }}>
-              ADRESSE <br />14 Rue Soleillet, 75020 Paris.
+              ADRESSE <br />
+              14 Rue Soleillet, 75020 Paris.
             </p>
           </div>
           <div className="contact-form__col2">
