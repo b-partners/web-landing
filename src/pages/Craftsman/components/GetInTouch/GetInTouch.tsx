@@ -79,10 +79,6 @@ export const GetInTouch = () => {
       />
       <div className="bd-container section">
         <h2 className="get_in_touch__title">Restez informé</h2>
-        <p style={{ marginBlock: '1.3rem' }}>
-          Aujourd'hui, les artisans consacrent entre 20% à 30% de leur temps à faire des déplacements et des devis. <br />
-          Restez informé pour gagner plus de clients.
-        </p>
         <div className="get_in_touch__form">
           <GetInTouchForm />
         </div>
