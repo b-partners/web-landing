@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 
 import { Solution } from '../Home/components/Solution';
 import { Description } from './Description';
+import { Presentation } from './Presentation';
 import { Testimonials } from './Testimonials';
 
 export const About = () => {
@@ -16,6 +17,7 @@ export const About = () => {
     <div>
       <Description />
       <Testimonials />
+      <Presentation />
       <Solution />
     </div>
   );

@@ -6,7 +6,11 @@ import { TestimonialItem } from './components';
 export const Testimonials = () => {
   return (
     <Box sx={{ mb: '50px', '& .carousel-root': { minHeight: '420px' } }}>
-      <Carousel>
+      <Carousel
+        arrowSx={{
+          fontSize: '3rem',
+        }}
+      >
         <TestimonialItem
           title={{ underlined: 'Les Pépites Tech', simple: 'de Janvier 2023' }}
           redirect={'https://lespepitestech.com/startup-de-la-french-tech/bpartners-artisans-independants'}
