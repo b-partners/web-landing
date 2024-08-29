@@ -21,7 +21,7 @@ export type PresentationItemProps = {
 
 export const PresentationItem: FC<PresentationItemProps> = ({ bgimage, children }) => {
   return (
-    <Box sx={{ ...PRESENTATION_ITEM_SX, backgroundImage: `url(${bgimage})` }}>
+    <Box sx={{ ...PRESENTATION_ITEM_SX, backgroundImage: `url("${bgimage}")` }}>
       <Box sx={{ width: '90%', maxWidth: { xs: '800px', xl: '1000px' }, bgcolor: 'white', p: { xs: 5, lg: 7 } }}>{children}</Box>
     </Box>
   );

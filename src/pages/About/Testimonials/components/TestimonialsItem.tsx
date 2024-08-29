@@ -13,6 +13,7 @@ export type TestimonialItemProps = {
   children?: ReactNode;
   content: string;
   redirect: string;
+  linkSx?: SxProps;
 };
 
 const CONTENT_SX: SxProps = {
@@ -23,7 +24,7 @@ const CONTENT_SX: SxProps = {
   color: 'inherit',
 };
 
-export const TestimonialItem: FC<TestimonialItemProps> = ({ title, redirect, children, content }) => {
+export const TestimonialItem: FC<TestimonialItemProps> = ({ title, redirect, children, content, linkSx = {} }) => {
   return (
     <Box
       sx={{
@@ -54,8 +55,9 @@ export const TestimonialItem: FC<TestimonialItemProps> = ({ title, redirect, chi
           px: 3,
           py: 1,
           opacity: 0.9,
-          transition: 'all .5s linear',
+          transition: 'background-color .5s linear',
           '&:hover': { opacity: 1 },
+          ...linkSx,
         }}
         underline="none"
         target="_blank"

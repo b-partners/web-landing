@@ -1,9 +1,6 @@
 import { Carousel } from '@/common/components';
 import { Box, SxProps, Typography } from '@mui/material';
 
-import ia from '../assets/ia.jpeg';
-import laureat from '../assets/laureat.jpeg';
-import startup from '../assets/startup.jpeg';
 import { PresentationItem } from './components';
 
 const PRESENTATION_SX: SxProps = {
@@ -50,7 +47,7 @@ export const Presentation = () => {
           color: 'white',
         }}
       >
-        <PresentationItem bgimage={ia}>
+        <PresentationItem bgimage={'/assets/images/about/ia.jpeg'}>
           <Typography sx={CONTENT_SX}>
             "On parle beaucoup d'IA en ce moment...
             <br /> 🤖
@@ -67,7 +64,7 @@ export const Presentation = () => {
             </a>
           </Typography>
         </PresentationItem>
-        <PresentationItem bgimage={laureat}>
+        <PresentationItem bgimage={'/assets/images/about/laureat.jpeg'}>
           <Typography sx={CONTENT_SX}>
             "BPartners IA lauréat de la 7ième saison la French Assurtech pour sa technologie de prévention et réactivité à la gestion des sinistres."
           </Typography>
@@ -83,7 +80,7 @@ export const Presentation = () => {
             P&V | CNP Assurances | Medef Deux-Sèvres
           </Typography>
         </PresentationItem>
-        <PresentationItem bgimage={startup}>
+        <PresentationItem bgimage={'/assets/images/about/startup.jpeg'}>
           <Typography sx={CONTENT_SX}>
             "Parmi les 20 startups finalistes du Trophée Start-up Numérique 2023, BPartners IA a remporté le premier prix dans la catégorie👏 Transformation
             numérique des entreprises"
