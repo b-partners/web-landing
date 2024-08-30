@@ -1,7 +1,7 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-import BpPhone from '../../Home/assets/img/bp-phone.png';
+import descriptionImage from '../assets/description.jpeg';
 
 export function Description() {
   return (
@@ -32,8 +32,8 @@ export function Description() {
           </ul>
         </div>
         <div className="description__col2">
-          <div>
-            <LazyLoadImage alt="BpPhone" src={BpPhone} height={200} effect="blur" />
+          <div style={{ paddingInline: '25px' }}>
+            <LazyLoadImage alt="BpPhone" src={descriptionImage} height={200} effect="blur" />
           </div>
         </div>
       </div>
