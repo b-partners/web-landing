@@ -3,7 +3,8 @@ import { useLocation } from 'react-router-dom';
 
 import { Solution } from '../Home/components/Solution';
 import { Description } from './Description';
-import { History } from './History';
+import { Presentation } from './Presentation';
+import { Testimonials } from './Testimonials';
 
 export const About = () => {
   const { pathname } = useLocation();
@@ -15,7 +16,8 @@ export const About = () => {
   return (
     <div>
       <Description />
-      <History />
+      <Testimonials />
+      <Presentation />
       <Solution />
     </div>
   );

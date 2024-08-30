@@ -582,7 +582,6 @@ img[alt="mobile_image"] {
 .solution {
     text-align: center;
     position: relative;
-    padding-block: 5rem;
 }
 
 .solution__paragraph {

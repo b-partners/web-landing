@@ -1,0 +1,11 @@
+.carousel.carousel-slider {
+  overflow: visible !important;
+}
+
+.slider.animated {
+  z-index: 9;
+}
+
+.slide.selected {
+  z-index: 9 !important;
+}
