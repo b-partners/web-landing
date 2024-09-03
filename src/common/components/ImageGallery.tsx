@@ -40,7 +40,7 @@ export const ImageGallery: FC<ImageGalleryProps> = ({ sx = {}, images, reactGall
 
   return (
     <Box sx={{ ...GALLERY_SX, ...sx }}>
-      <ReactImageGallery autoPlay infinite items={IMAGES as any} {...reactGalleryImageProps} />
+      <ReactImageGallery slideInterval={12_000} autoPlay infinite items={IMAGES as any} {...reactGalleryImageProps} />
     </Box>
   );
 };
