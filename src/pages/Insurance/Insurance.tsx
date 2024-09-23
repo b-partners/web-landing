@@ -1,6 +1,8 @@
 import { CSSProperties } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
+import { Offer } from '@pages/Collectivity/components/Offer';
+
 import InsuranceShow from './assets/img/insurance-show.jpg';
 import { Headline } from './components';
 
@@ -12,6 +14,7 @@ export const Insurance = () => {
   return (
     <div className="bd-container">
       <Headline />
+      <Offer />
       <div style={{ marginTop: '50px' }}>
         <h2 className="trust-subtitle">Ils nous font confiance</h2>
         <p>
