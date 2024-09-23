@@ -10,7 +10,7 @@ export function Hero() {
   return (
     <Container id="home" sx={HeroPageStyle}>
       <Stack className="hero-text" spacing={2}>
-        <Typography className="header-title">Couvreur ou collectivité ?</Typography>
+        <Typography className="header-title">Couvreurs, Collectivités ou Assurances ?</Typography>
         <Typography className="header-description">
           BPartners IA est une{' '}
           <span style={{ fontWeight: 'bold' }}>
@@ -22,7 +22,7 @@ export function Hero() {
             l'état des toitures et végétations, la non-conformité d’un territoire ou les risques de sinistres facilitant ainsi la prise de décision.
           </span>
         </Typography>
-        <Stack direction="row" spacing={4}>
+        <Stack direction="row" spacing={2}>
           <BpButton
             onClick={() => {
               navigate('/craftsman');
@@ -39,6 +39,15 @@ export function Hero() {
             sx={{ px: 5, py: 2, fontSize: 16 }}
           >
             Collectivités
+          </BpButton>
+          <BpButton
+            onClick={() => {
+              navigate('/insurance');
+            }}
+            variant="outlined"
+            sx={{ px: 5, py: 2, fontSize: 16 }}
+          >
+            Assurances
           </BpButton>
         </Stack>
       </Stack>

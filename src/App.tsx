@@ -10,6 +10,7 @@ import { PdfReader } from '@pages/GCU/PdfReader';
 import { Home } from '@pages/Home';
 import { Footer } from '@pages/Home/components/Footer';
 import { Header } from '@pages/Home/components/Header';
+import { Insurance } from '@pages/Insurance';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/craftsman" element={<Craftsman />} />
         <Route path="/collectivity" element={<Collectivity />} />
+        <Route path="/insurance" element={<Insurance />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/general-conditions-of-use" element={<PdfReader pdfUrl={process.env.REACT_APP_CGU_URL} />} />

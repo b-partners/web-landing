@@ -33,7 +33,7 @@ export function Offer() {
           <span className="add-object">+ AJOUTEZ vos propres objets d‘intérêts et vos propres raisonnements.</span>
           <button className="button_style" type="button">
             <a href="https://meet.brevo.com/bpartnersartisans/detection-dobjets-par-intelligence-artificielle-bpartners" rel="noreferrer" target="_blank">
-              RESERVEZ UNE DEMO GRATUITEMENT
+              RÉSERVEZ UNE DEMO GRATUITEMENT
             </a>
           </button>
         </div>
