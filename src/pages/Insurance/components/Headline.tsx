@@ -1,4 +1,6 @@
 import { ImageGallery } from '@/common/components';
+import { BpButton } from '@/common/components/Button';
+import { Box } from '@mui/material';
 
 import Headline1 from '../assets/img/Headlines/headline-1.jpg';
 import Headline2 from '../assets/img/Headlines/headline-2.jpg';
@@ -9,6 +11,7 @@ import Headline6 from '../assets/img/Headlines/headline-6.jpg';
 import Headline7 from '../assets/img/Headlines/headline-7.jpg';
 
 const IMAGES = [Headline1, Headline2, Headline3, Headline4, Headline5, Headline6, Headline7];
+const demoBrevoMeetLink = 'https://meet.brevo.com/bpartnersartisans/detection-dobjets-par-intelligence-artificielle-bpartners';
 
 export function Headline() {
   return (
@@ -41,6 +44,9 @@ export function Headline() {
         </article>
       </div>
       <ImageGallery images={IMAGES} />
+      <Box sx={{ display: 'flex', justifyContent: 'center', height: "6rem", alignItems: 'center' }}>
+        <BpButton href={demoBrevoMeetLink}>RÉSERVEZ UNE DEMO GRATUITEMENT</BpButton>
+      </Box>
     </section>
   );
 }
