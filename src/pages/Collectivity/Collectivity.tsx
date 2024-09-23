@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import { Comparison } from './components/Comparison';
-import { Headline } from './components/Headline';
 import { Offer } from './components/Offer';
 import { Partners } from './components/Partners';
 import { Solution } from './components/Solution';
@@ -17,7 +16,6 @@ export function Collectivity() {
 
   return (
     <div>
-      <Headline />
       <Solution />
       <UseCase />
       <Comparison />

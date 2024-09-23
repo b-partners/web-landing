@@ -9,7 +9,7 @@ import IMT from '../assets/img/partners/imt.png';
 export function Partners() {
   return (
     <section className="partners_collectivity bd-container" id="description">
-      <h2 className="text-center trust-subtitle">Ils nous font déjà confiance</h2>
+      <h2 className="text-center trust-subtitle">Ils nous font confiance</h2>
       <ul className="award_list">
         <li>Entreprise by Commissariat à l’Energie Atomique “CEA”, labélisée French Tech Seed et Deeptech par BPI France pour notre IA souveraine.</li>
         <li>Plusieurs collectivités françaises (exécution sur +de 500Km2 sur plusieurs objets d‘intérêts).</li>
