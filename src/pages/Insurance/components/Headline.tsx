@@ -44,7 +44,7 @@ export function Headline() {
         </article>
       </div>
       <ImageGallery images={IMAGES} />
-      <Box sx={{ display: 'flex', justifyContent: 'center', height: "6rem", alignItems: 'center' }}>
+      <Box sx={{ display: 'flex', justifyContent: 'center', height: '6rem', alignItems: 'center' }}>
         <BpButton href={demoBrevoMeetLink}>RÉSERVEZ UNE DEMO GRATUITEMENT</BpButton>
       </Box>
     </section>
