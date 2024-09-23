@@ -35,7 +35,7 @@ export function Headline() {
           </p>
           <p className="headline__paragraph" style={{ marginTop: 15 }}>
             Notre solution combine la puissance de l’IA et de l’analyse prédictive pour vous aider à anticiper les risques, mieux gérer vos contrats d’assurance
-            et prendre des décisions éclairées. Découvrez nos cas d’usage transforment la manière dont vous gérez vos portefeuilles d’assurés. Demandez votre
+            et prendre des décisions éclairées. Découvrez nos cas d’usage transformant la manière dont vous gérez vos portefeuilles d’assurés. Demandez votre
             démo.
           </p>
         </article>
