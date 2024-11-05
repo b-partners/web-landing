@@ -911,6 +911,14 @@ img[alt="mobile_image"] {
     }
 }
 
+@media only screen and (min-width: 2500px) {
+    .footer {
+      height: 25.00rem;
+      padding-top: 9rem !important;
+    }
+
+}
+
 
 /*========== COLLECTIVITY ==========*/
 .headline {
