@@ -8,49 +8,48 @@ type CarouselItem = {
 
 const CAROUSEL_ITEMS: CarouselItem[] = [
   {
-    src: '/assets/images/referencies/accueil/maif.png',
+    src: '/assets/images/referencies/maif.png',
     alt: 'maif',
   },
   {
-    src: '/assets/images/referencies/accueil/le-contentin.png',
+    src: '/assets/images/referencies/le-contentin.png',
     alt: 'ca du contentin',
   },
   {
-    src: '/assets/images/referencies/accueil/dijon-metropole.png',
+    src: '/assets/images/referencies/dijon-metropole.png',
     alt: 'Dijon Metropole',
   },
   {
-    src: '/assets/images/referencies/accueil/cannes.png',
+    src: '/assets/images/referencies/cannes.png',
     alt: 'cannes',
   },
   {
-    src: '/assets/images/referencies/accueil/chalon.png',
+    src: '/assets/images/referencies/chalon.png',
     alt: 'chalon',
   },
   {
-    src: '/assets/images/referencies/accueil/valence-roman-algo.png',
+    src: '/assets/images/referencies/valence-roman-algo.png',
     alt: 'valence-roman-algo',
   },
   {
-    src: '/assets/images/referencies/accueil/sicoval.png',
+    src: '/assets/images/referencies/sicoval.png',
     alt: 'sicoval',
   },
   {
-    src: '/assets/images/referencies/accueil/ile-de-re.png',
+    src: '/assets/images/referencies/ile-de-re.png',
     alt: 'CC ile de re',
   },
   {
-    src: '/assets/images/referencies/accueil/abs.png',
+    src: '/assets/images/referencies/abs.png',
     alt: 'Abaque Abs',
   },
   {
-    src: '/assets/images/referencies/accueil/25-ans-europe.png',
+    src: '/assets/images/referencies/25-ans-europe.png',
     alt: '25-ans-europe',
   },
 ];
 
 export function Partners() {
-  console.log(CAROUSEL_ITEMS.length);
   return (
     <section className="partners">
       <h2 className="section-title">Ils nous font confiance</h2>

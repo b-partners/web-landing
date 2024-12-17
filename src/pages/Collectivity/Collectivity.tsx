@@ -1,9 +1,10 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
+import { Partners } from '@pages/Home/components/Partners';
+
 import { Comparison } from './components/Comparison';
 import { Offer } from './components/Offer';
-import { Partners } from './components/Partners';
 import { Solution } from './components/Solution';
 import { UseCase } from './components/UseCase';
 

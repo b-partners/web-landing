@@ -5,31 +5,31 @@ import { Box, Typography } from '@mui/material';
 
 const CAROUSEL_ITEMS: CarouselItem[] = [
   {
-    src: '/assets/images/referencies/accueil/french-assuretech.png',
+    src: '/assets/images/referencies/french-assuretech.png',
     alt: 'FRENCH ASSURTECH',
     title: 'FRENCH ASSURTECH',
     description: 'Lauréat Promo #7 - 2024',
   },
   {
-    src: '/assets/images/referencies/accueil/deep-tech.png',
+    src: '/assets/images/referencies/deep-tech.png',
     alt: 'Labelised DEEPTECH',
     title: 'Labelised DEEPTECH',
     description: 'Promo 2022',
   },
   {
-    src: '/assets/images/referencies/accueil/imt-starter.png',
+    src: '/assets/images/referencies/imt-starter.png',
     alt: 'IMT Starter',
     title: 'IMT Starter',
     description: 'Lauréat 2023',
   },
   {
-    src: '/assets/images/referencies/accueil/cea.png',
+    src: '/assets/images/referencies/cea.png',
     alt: 'CEA',
     title: 'CEA',
     description: 'Promo 2022',
   },
   {
-    src: '/assets/images/referencies/accueil/wilco.png',
+    src: '/assets/images/referencies/wilco.png',
     alt: 'WILCO',
     title: 'WILCO',
     description: "Intégration programme d'accélération ProTech 2024",
