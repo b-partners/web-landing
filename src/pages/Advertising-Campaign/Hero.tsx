@@ -1,7 +1,23 @@
+import { Box, Button } from '@mui/material';
+
+import { HeroDescriptionImage as DescriptionImage, HeroDescriptionText as DescriptionText } from './components';
+import { HeroStyle as style } from './styles';
+
 export const Hero = () => {
   return (
-    <div>
-      <img alt="Bp IA Logo" src="/assets/images/bp-ia-logo.png" />
-    </div>
+    <Box sx={style}>
+      <Box className="logo-container">
+        <img alt="Bp IA Logo" src="/assets/images/bp-ia-logo.png" />
+      </Box>
+      <Box className="description-container">
+        <Box className="description-content">
+          <DescriptionText />
+          <DescriptionImage />
+        </Box>
+      </Box>
+      <Box className="cta-container">
+        <Button variant="contained">Réservez votre démo</Button>
+      </Box>
+    </Box>
   );
 };
