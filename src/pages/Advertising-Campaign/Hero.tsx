@@ -4,6 +4,8 @@ import { HeroDescriptionImage as DescriptionImage, HeroDescriptionText as Descri
 import { HeroStyle as style } from './styles';
 
 export const Hero = () => {
+  const handleClickCTA = () => window.open('https://meet.brevo.com/bpartnersartisans/reunion-de-15-minutes', '_blank');
+
   return (
     <Box sx={style}>
       <Box className="logo-container">
@@ -16,7 +18,9 @@ export const Hero = () => {
         </Box>
       </Box>
       <Box className="cta-container">
-        <Button variant="contained">Réservez votre démo</Button>
+        <Button variant="contained" onClick={handleClickCTA}>
+          Réservez votre démo
+        </Button>
       </Box>
     </Box>
   );

@@ -1,6 +1,7 @@
 import { SxProps } from '@mui/material';
 
 export const HeroStyle: SxProps = {
+  marginBottom: 10,
   '& .logo-container': {
     display: 'flex',
     justifyContent: 'center',
