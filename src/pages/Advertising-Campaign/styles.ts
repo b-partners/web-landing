@@ -26,9 +26,9 @@ export const HeroStyle: SxProps = {
     borderRadius: '2vw',
     flexWrap: 'wrap',
     width: {
-      xs: '90vw',
-      md: '80vw',
-      lg: '70vw',
+      xs: '90%',
+      md: '70%',
+      lg: '60%',
     },
     height: '100%',
     padding: 2,
@@ -42,24 +42,39 @@ export const HeroStyle: SxProps = {
 export const FeaturesStyle: SxProps = {
   width: '100%',
   display: 'flex',
-  justifyContent: 'center',
+  alignItems: 'center',
+  flexDirection: "column",
   padding: 5,
+  '& > .MuiTypography-root': {
+    fontSize: 30,
+    fontWeight: 'bold',
+    marginBlock: 5,
+    textAlign: 'center',
+  },
   '& .card-grid': {
-    width: 'fit-content',
     display: 'grid',
     gap: 10,
     placeItems: 'center',
     placeContent: 'center',
     gridTemplateColumns: {
-      sx: '90% 90% 90%',
-      lg: '25% 25% 25%',
+      sx: '100%',
+      lg: '45% 45%',
+    },
+    width: {
+      xs: '90%',
+      md: '70%',
+      lg: '60%',
     },
   },
   '& .MuiCard-root': {
     width: '100%',
   },
   '& .MuiCardContent-root': {
-    height: 120,
+    minHeight: 150,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-end",
+    alignItems: "flex-start",
   },
 };
 
@@ -78,8 +93,9 @@ export const DetectionTypeStyle: SxProps = {
     borderRadius: 5,
     paddingBlock: 5,
     width: {
-      xs: '90%',
-      lg: '60%',
+      xs: 'calc(90% - 2px)',
+      md: 'calc(70% - 2px)',
+      lg: 'calc(60% - 2px)',
     },
   },
   '& .content > .MuiTypography-root': {
@@ -114,6 +130,11 @@ export const RatingStyle: SxProps = {
     textAlign: 'center',
   },
   '& .rating-items-list': {
+    width: {
+      xs: '90%',
+      md: '70%',
+      lg: '60%',
+    },
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
@@ -124,7 +145,7 @@ export const RatingStyle: SxProps = {
     width: {
       xs: '90%',
       md: '70%',
-      lg: '40%',
+      lg: '45%',
     },
   },
   '& .MuiCardContent-root': {
@@ -150,7 +171,15 @@ export const PricingStyle: SxProps = {
       lg: '50%',
     },
   },
+  '& .pricing-item-list': {
+    width: {
+      xs: '90%',
+      md: '70%',
+      lg: '60%',
+    },
+  },
   '& .pricing-item-list > .MuiStack-root': {
+    width: '100%',
     display: 'grid',
     gridTemplateColumns: '60% 30%',
     placeContent: 'center',
@@ -218,12 +247,12 @@ export const FrequentAskingQuestionStyle: SxProps = {
     bgcolor: BP_COLOR[5],
   },
   '& .MuiAccordionSummary-root .MuiTypography-root': {
-    color: "white",
-    fontWeight: "bold"
+    color: 'white',
+    fontWeight: 'bold',
   },
   '& .MuiAccordionSummary-root .MuiSvgIcon-root': {
-    color: "white",
-    fontWeight: "bold"
+    color: 'white',
+    fontWeight: 'bold',
   },
   '& > .MuiStack-root': {
     width: {

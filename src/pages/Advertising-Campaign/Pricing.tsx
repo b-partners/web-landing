@@ -1,6 +1,7 @@
 import { CheckCircleOutline } from '@mui/icons-material';
 import { Box, Button, Stack, Typography } from '@mui/material';
 
+import { reserveDemo } from './components';
 import { PricingStyle as style } from './styles';
 
 const pricingListItem = [
@@ -34,7 +35,9 @@ export const Pricing = () => {
         <Stack direction="row">
           <Typography></Typography>
           <Box>
-            <Button variant='contained'>RÉSERVEZ VOTRE DÉMO</Button>
+            <Button onClick={reserveDemo} variant="contained">
+              RÉSERVEZ VOTRE DÉMO
+            </Button>
           </Box>
         </Stack>
       </Box>
