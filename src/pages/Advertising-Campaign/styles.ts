@@ -1,7 +1,6 @@
 import { SxProps } from '@mui/material';
 
 export const HeroStyle: SxProps = {
-  marginBottom: 10,
   '& .logo-container': {
     display: 'flex',
     justifyContent: 'center',
@@ -37,16 +36,11 @@ export const HeroStyle: SxProps = {
   '& .MuiTypography-root': {
     color: '#fff',
   },
-  '& .cta-container': {
-    width: '100%',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  '& .cta-container > .MuiButton-root': {
-    fontSize: 25,
-    paddingInline: 5,
-    paddingBlock: 2,
-    textTransform: 'uppercase',
-  },
+};
+
+export const FeaturesStyle: SxProps = {
+  width: '100%',
+  display: 'flex',
+  justifyContent: 'space-around',
+  alignItems: 'center',
 };

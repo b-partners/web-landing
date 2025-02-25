@@ -78,3 +78,17 @@ export const HeroDescriptionTextStyle: SxProps = {
     fontSize: 30,
   },
 };
+
+export const CTAStyle: SxProps = {
+  width: '100%',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  paddingBlock: 5,
+  '& .MuiButton-root': {
+    fontSize: 25,
+    paddingInline: 5,
+    paddingBlock: 2,
+    textTransform: 'uppercase',
+  },
+};

@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 
 import { Box } from '@mui/material';
-
 import { HeroDescriptionImageStyle as style } from './styles';
+
 
 const imageSourceList = [
   '/assets/images/advertising/hero-carousel/1.jpg',
