@@ -27,7 +27,7 @@ export const Contact = () => {
   return (
     <Box sx={style}>
       <Typography>Contacts</Typography>
-      <Stack direction="row">
+      <Stack direction="row" justifyContent="space-around">
         {contactItemsList.map(({ icon, link, value }) => (
           <Button startIcon={icon} onClick={open(link)} key={link}>
             {value}
