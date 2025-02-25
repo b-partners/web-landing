@@ -2,6 +2,7 @@ import { MultipleCarousel } from '@/common/components';
 import { DistinctionItem } from '@pages/Home/components/Distinction';
 import { DISTINCTION_CAROUSEL_ITEMS } from '@pages/Home/components/Distinction/constant';
 
+import { Contact } from './Contact';
 import { DetectionType } from './DetectionType';
 import { FrequentAskingQuestion } from './FAQ';
 import { Features } from './Features';
@@ -9,7 +10,6 @@ import { Hero } from './Hero';
 import { Pricing } from './Pricing';
 import { Rating } from './Rating';
 import { CTAButton } from './components';
-import { Contact } from './Contact';
 
 export const AdvertisingCampaign = () => {
   return (
