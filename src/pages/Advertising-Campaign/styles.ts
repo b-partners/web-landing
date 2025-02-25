@@ -130,3 +130,64 @@ export const RatingStyle: SxProps = {
     minHeight: 200,
   },
 };
+
+export const PricingStyle: SxProps = {
+  width: '100%',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  marginBlock: 10,
+  '& > .MuiTypography-root': {
+    fontSize: 30,
+    fontWeight: 'bold',
+    paddingBlock: 5,
+    textAlign: 'center',
+    width: {
+      xs: '90%',
+      md: '70%',
+      lg: '50%',
+    },
+  },
+  '& .pricing-item-list > .MuiStack-root': {
+    display: 'grid',
+    gridTemplateColumns: '60% 30%',
+    placeContent: 'center',
+    alignItems: 'center',
+  },
+  '& .pricing-item-list > .MuiStack-root > .MuiBox-root': {
+    padding: 5,
+    bgcolor: (theme) => (theme as any).palette.primary.light,
+    height: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    color: 'white',
+    position: 'relative',
+  },
+  '& .pricing-item-list > .MuiStack-root > .MuiBox-root > .MuiSvgIcon-root': {
+    fontSize: 30,
+  },
+  '& .pricing-item-list > .MuiStack-root > .MuiBox-root > .MuiButton-root': {
+    border: '2px solid white',
+    position: 'absolute',
+    width: '120%',
+    transition: 'all 100ms',
+  },
+  '& .pricing-item-list > .MuiStack-root > .MuiBox-root > .MuiButton-root:hover': {
+    bgcolor: (theme) => (theme as any).palette.primary.light,
+    scale: 1.1,
+  },
+  '& .pricing-item-list > .MuiStack-root:first-child > .MuiBox-root': {
+    borderRadius: '1rem 1rem 0 0',
+  },
+  '& .pricing-item-list > .MuiStack-root:last-child > .MuiBox-root': {
+    borderRadius: '0 0 1rem 1rem',
+  },
+  '& .pricing-item-list > .MuiStack-root > .MuiBox-root > .MuiTypography-root': {
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: 25,
+    textWrap: 'nowrap',
+  },
+};

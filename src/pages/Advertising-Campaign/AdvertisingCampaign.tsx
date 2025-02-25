@@ -5,6 +5,7 @@ import { DISTINCTION_CAROUSEL_ITEMS } from '@pages/Home/components/Distinction/c
 import { DetectionType } from './DetectionType';
 import { Features } from './Features';
 import { Hero } from './Hero';
+import { Pricing } from './Pricing';
 import { Rating } from './Rating';
 import { CTAButton } from './components';
 
@@ -23,6 +24,7 @@ export const AdvertisingCampaign = () => {
       <CTAButton />
       <DetectionType />
       <Rating />
+      <Pricing />
     </div>
   );
 };
