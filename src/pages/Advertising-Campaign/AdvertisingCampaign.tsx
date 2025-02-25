@@ -3,6 +3,7 @@ import { DistinctionItem } from '@pages/Home/components/Distinction';
 import { DISTINCTION_CAROUSEL_ITEMS } from '@pages/Home/components/Distinction/constant';
 
 import { DetectionType } from './DetectionType';
+import { FrequentAskingQuestion } from './FAQ';
 import { Features } from './Features';
 import { Hero } from './Hero';
 import { Pricing } from './Pricing';
@@ -25,6 +26,7 @@ export const AdvertisingCampaign = () => {
       <DetectionType />
       <Rating />
       <Pricing />
+      <FrequentAskingQuestion />
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import { BP_COLOR } from '@/config';
 import { SxProps } from '@mui/material';
 
 export const HeroStyle: SxProps = {
@@ -189,5 +190,46 @@ export const PricingStyle: SxProps = {
     fontWeight: 'bold',
     fontSize: 25,
     textWrap: 'nowrap',
+  },
+};
+
+export const FrequentAskingQuestionStyle: SxProps = {
+  width: '100%',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  marginBlock: 10,
+  '& > .MuiTypography-root': {
+    fontSize: 30,
+    fontWeight: 'bold',
+    paddingBlock: 5,
+    textAlign: 'center',
+    width: {
+      xs: '90%',
+      md: '70%',
+      lg: '50%',
+    },
+  },
+  '& .MuiAccordion-root': {
+    my: 0.5,
+  },
+  '& .MuiAccordionSummary-root': {
+    bgcolor: BP_COLOR[5],
+  },
+  '& .MuiAccordionSummary-root .MuiTypography-root': {
+    color: "white",
+    fontWeight: "bold"
+  },
+  '& .MuiAccordionSummary-root .MuiSvgIcon-root': {
+    color: "white",
+    fontWeight: "bold"
+  },
+  '& > .MuiStack-root': {
+    width: {
+      xs: '90%',
+      md: '70%',
+      lg: '60%',
+    },
   },
 };
