@@ -11,16 +11,18 @@ const featuresItemList = [
 export const Features = () => {
   return (
     <Box sx={style}>
-      {featuresItemList.map(({ texts, src }, index) => (
-        <Card key={src + index}>
-          <CardMedia sx={{ height: 140 }} image={src} title={src + index} />
-          <CardContent>
-            {texts.map((text, index2) => (
-              <Typography key={src + index + index2}>{text}</Typography>
-            ))}
-          </CardContent>
-        </Card>
-      ))}
+      <Box className='card-grid'>
+        {featuresItemList.map(({ texts, src }, index) => (
+          <Card key={src + index}>
+            <CardMedia sx={{ height: 140 }} image={src} title={src + index} />
+            <CardContent>
+              {texts.map((text, index2) => (
+                <Typography key={src + index + index2}>{text}</Typography>
+              ))}
+            </CardContent>
+          </Card>
+        ))}
+      </Box>
     </Box>
   );
 };

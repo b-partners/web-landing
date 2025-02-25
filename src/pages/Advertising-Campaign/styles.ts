@@ -41,6 +41,23 @@ export const HeroStyle: SxProps = {
 export const FeaturesStyle: SxProps = {
   width: '100%',
   display: 'flex',
-  justifyContent: 'space-around',
-  alignItems: 'center',
+  justifyContent: 'center',
+  padding: 5,
+  '& .card-grid': {
+    width: 'fit-content',
+    display: 'grid',
+    gap: 10,
+    placeItems: 'center',
+    placeContent: 'center',
+    gridTemplateColumns: {
+      sx: '90% 90% 90%',
+      lg: '25% 25% 25%',
+    },
+  },
+  '& .MuiCard-root': {
+    width: '100%',
+  },
+  '& .MuiCardContent-root': {
+    height: 120,
+  },
 };
