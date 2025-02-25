@@ -85,6 +85,7 @@ export const DetectionTypeStyle: SxProps = {
     fontSize: 30,
     fontWeight: 'bold',
     marginBlock: 5,
+    textAlign: 'center',
   },
   '& .MuiAlert-root': {
     width: '70%',
@@ -96,5 +97,36 @@ export const DetectionTypeStyle: SxProps = {
     width: '100%',
     textAlign: 'center',
     fontWeight: 'bold',
+  },
+};
+
+export const RatingStyle: SxProps = {
+  width: '100%',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  '& > .MuiTypography-root': {
+    fontSize: 30,
+    fontWeight: 'bold',
+    marginBlock: 5,
+    textAlign: 'center',
+  },
+  '& .rating-items-list': {
+    display: 'flex',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+  },
+  '& .MuiCard-root': {
+    m: 2,
+    width: {
+      xs: '90%',
+      md: '70%',
+      lg: '40%',
+    },
+  },
+  '& .MuiCardContent-root': {
+    minHeight: 200,
   },
 };
