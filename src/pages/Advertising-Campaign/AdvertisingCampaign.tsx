@@ -2,6 +2,7 @@ import { MultipleCarousel } from '@/common/components';
 import { DistinctionItem } from '@pages/Home/components/Distinction';
 import { DISTINCTION_CAROUSEL_ITEMS } from '@pages/Home/components/Distinction/constant';
 
+import { DetectionType } from './DetectionType';
 import { Features } from './Features';
 import { Hero } from './Hero';
 import { CTAButton } from './components';
@@ -19,6 +20,7 @@ export const AdvertisingCampaign = () => {
       </MultipleCarousel>
       <Features />
       <CTAButton />
+      <DetectionType />
     </div>
   );
 };

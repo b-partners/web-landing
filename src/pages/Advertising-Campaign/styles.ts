@@ -61,3 +61,40 @@ export const FeaturesStyle: SxProps = {
     height: 120,
   },
 };
+
+export const DetectionTypeStyle: SxProps = {
+  width: '100%',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  '& .content': {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'column',
+    border: (theme) => `2px solid ${(theme as any).palette.primary.light}`,
+    marginBlock: 5,
+    borderRadius: 5,
+    paddingBlock: 5,
+    width: {
+      xs: '90%',
+      lg: '60%',
+    },
+  },
+  '& .content > .MuiTypography-root': {
+    fontSize: 30,
+    fontWeight: 'bold',
+    marginBlock: 5,
+  },
+  '& .MuiAlert-root': {
+    width: '70%',
+    m: 1,
+    bgcolor: '#004aad',
+  },
+  '& .MuiAlert-message': {
+    color: '#fff',
+    width: '100%',
+    textAlign: 'center',
+    fontWeight: 'bold',
+  },
+};
