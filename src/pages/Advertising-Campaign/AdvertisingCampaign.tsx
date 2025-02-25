@@ -9,6 +9,7 @@ import { Hero } from './Hero';
 import { Pricing } from './Pricing';
 import { Rating } from './Rating';
 import { CTAButton } from './components';
+import { Contact } from './Contact';
 
 export const AdvertisingCampaign = () => {
   return (
@@ -27,6 +28,7 @@ export const AdvertisingCampaign = () => {
       <Rating />
       <Pricing />
       <FrequentAskingQuestion />
+      <Contact />
     </div>
   );
 };

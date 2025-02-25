@@ -43,7 +43,7 @@ export const FeaturesStyle: SxProps = {
   width: '100%',
   display: 'flex',
   alignItems: 'center',
-  flexDirection: "column",
+  flexDirection: 'column',
   padding: 5,
   '& > .MuiTypography-root': {
     fontSize: 30,
@@ -71,10 +71,10 @@ export const FeaturesStyle: SxProps = {
   },
   '& .MuiCardContent-root': {
     minHeight: 150,
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "flex-end",
-    alignItems: "flex-start",
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-end',
+    alignItems: 'flex-start',
   },
 };
 
@@ -260,5 +260,54 @@ export const FrequentAskingQuestionStyle: SxProps = {
       md: '70%',
       lg: '60%',
     },
+  },
+};
+
+export const ContactStyle: SxProps = {
+  width: '100%',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  marginBlock: 10,
+  '& > .MuiTypography-root': {
+    fontSize: 30,
+    fontWeight: 'bold',
+    paddingBlock: 5,
+    textAlign: 'center',
+    width: {
+      xs: '90%',
+      md: '70%',
+      lg: '50%',
+    },
+  },
+  '& .MuiAccordion-root': {
+    my: 0.5,
+  },
+  '& .MuiAccordionSummary-root': {
+    bgcolor: BP_COLOR[5],
+  },
+  '& .MuiAccordionSummary-root .MuiTypography-root': {
+    color: 'white',
+    fontWeight: 'bold',
+  },
+  '& .MuiAccordionSummary-root .MuiSvgIcon-root': {
+    color: 'white',
+    fontWeight: 'bold',
+  },
+  '& > .MuiStack-root': {
+    width: {
+      xs: '90%',
+      md: '70%',
+      lg: '60%',
+    },
+    padding: 2,
+  },
+  '& > .MuiStack-root > .MuiStack-root > img': {
+    objectFit: 'contain',
+    height: 50,
+  },
+  '& .MuiButton-root': {
+    fontSize: 15,
   },
 };
