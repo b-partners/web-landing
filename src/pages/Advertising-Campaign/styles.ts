@@ -114,6 +114,9 @@ export const FeaturesStyle: SxProps = {
     justifyContent: 'flex-end',
     alignItems: 'flex-start',
   },
+  '& .MuiCardContent-root > .MuiTypography-root:not(:first-of-type) ': {
+    mt: 2,
+  },
 };
 
 export const DetectionTypeStyle: SxProps = {
@@ -127,14 +130,14 @@ export const DetectionTypeStyle: SxProps = {
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
-    border: (theme) => `2px solid ${(theme as any).palette.primary.light}`,
+    border: `2px solid #9c255a`,
     marginBlock: 5,
     borderRadius: 5,
     paddingBlock: 5,
     width: {
       xs: 'calc(90% - 2px)',
-      md: 'calc(70% - 2px)',
-      lg: 'calc(60% - 2px)',
+      md: 'calc(80% - 2px)',
+      lg: 'calc(70% - 2px)',
     },
   },
   '& .content > .MuiTypography-root': {
@@ -172,8 +175,8 @@ export const RatingStyle: SxProps = {
   '& .rating-items-list': {
     width: {
       xs: '90%',
-      md: '70%',
-      lg: '60%',
+      md: '80%',
+      lg: '70%',
     },
     display: 'flex',
     justifyContent: 'space-around',
@@ -189,7 +192,10 @@ export const RatingStyle: SxProps = {
     },
   },
   '& .MuiCardContent-root': {
-    minHeight: 200,
+    minHeight: 160,
+  },
+  '& .MuiCardContent-root > .MuiTypography-root:not(:first-of-type)': {
+    marginTop: 4,
   },
 };
 
@@ -206,6 +212,8 @@ export const PricingStyle: SxProps = {
     fontWeight: 'bold',
     paddingBlock: 5,
     textAlign: 'center',
+    color: '#004aad',
+    mb: 10,
     width: {
       xs: '90%',
       md: '70%',
@@ -215,8 +223,8 @@ export const PricingStyle: SxProps = {
   '& .pricing-item-list': {
     width: {
       xs: '90%',
-      md: '70%',
-      lg: '60%',
+      md: '80%',
+      lg: '70%',
     },
   },
   '& .pricing-item-list > .MuiStack-root': {
@@ -299,15 +307,15 @@ export const FrequentAskingQuestionStyle: SxProps = {
   '& > .MuiStack-root': {
     width: {
       xs: '90%',
-      md: '70%',
-      lg: '60%',
+      md: '80%',
+      lg: '70%',
     },
   },
 };
 
 export const ContactStyle: SxProps = {
   width: '100%',
-  minHeight: '80vh',
+  minHeight: '50vh',
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
@@ -341,8 +349,8 @@ export const ContactStyle: SxProps = {
   '& > .MuiStack-root': {
     width: {
       xs: '90%',
-      md: '70%',
-      lg: '60%',
+      md: '80%',
+      lg: '70%',
     },
     padding: 2,
   },
@@ -352,5 +360,14 @@ export const ContactStyle: SxProps = {
   },
   '& .MuiButton-root': {
     fontSize: 15,
+  },
+  '& .MuiDivider-root': {
+    bgcolor: 'gray',
+    my: 1,
+    width: {
+      xs: '90%',
+      md: '80%',
+      lg: '70%',
+    },
   },
 };

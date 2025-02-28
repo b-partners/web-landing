@@ -1,5 +1,5 @@
 import { Email, Facebook, Instagram, LinkedIn, LocationOn, Phone } from '@mui/icons-material';
-import { Box, Button, IconButton, Stack, Typography } from '@mui/material';
+import { Box, Button, Divider, IconButton, Stack, Typography } from '@mui/material';
 
 import { ContactStyle as style } from './styles';
 
@@ -26,6 +26,7 @@ export const Contact = () => {
 
   return (
     <Box sx={style}>
+      <Divider />
       <Typography>Contacts</Typography>
       <Stack direction="row" justifyContent="space-around">
         {contactItemsList.map(({ icon, link, value }) => (

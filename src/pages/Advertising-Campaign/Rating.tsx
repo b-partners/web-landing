@@ -19,13 +19,13 @@ const rateItemList = [
 export const Rating = () => {
   return (
     <Box sx={style}>
-      <Typography>CE QU'EN PENSE NOS ARTISANS COUVREURS</Typography>
+      <Typography>CE QU’EN PENSENT NOS ARTISANS COUVREURS</Typography>
       <Box className="rating-items-list">
         {rateItemList.map(({ comment, title, user }) => (
           <Card key={title}>
             <CardHeader title={`"${title}"`} />
             <CardContent>
-              {comment}
+              <Typography>{comment}</Typography>
               <Typography>{user}</Typography>
             </CardContent>
           </Card>
