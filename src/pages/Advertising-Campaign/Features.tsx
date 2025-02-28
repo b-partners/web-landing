@@ -1,6 +1,7 @@
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
 
 import { FeaturesStyle as style } from './styles';
+import { CTAButton } from './components';
 
 const featuresItemList = [
   {
@@ -30,6 +31,7 @@ export const Features = () => {
           </Card>
         ))}
       </Box>
+      <CTAButton />
     </Box>
   );
 };

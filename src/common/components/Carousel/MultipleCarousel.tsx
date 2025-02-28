@@ -4,7 +4,7 @@ import 'react-multi-carousel/lib/styles.css';
 
 import { Box, SxProps } from '@mui/material';
 
-const RESPONSIVE: ResponsiveType = {
+export const RESPONSIVE: ResponsiveType = {
   superLargeDesktop: {
     breakpoint: { max: 5000, min: 3000 },
     items: 3,

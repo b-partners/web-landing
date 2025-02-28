@@ -16,7 +16,7 @@ export const DetectionType = () => {
   return (
     <Box sx={style}>
       <Box className="content">
-        <Typography>DÉTECTEZ TOUS TYPES D'OBJETS & D'ANOMALIES SUR VOS TOITURES</Typography>
+        <Typography>DÉTECTEZ TOUS TYPES D'OBJETS & ANOMALIES SUR VOS TOITURES</Typography>
         {detectionItemList.map((value, index) => (
           <Alert icon={false} key={value + index} severity="info">
             {value}
