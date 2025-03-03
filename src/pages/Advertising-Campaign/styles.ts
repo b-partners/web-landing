@@ -342,6 +342,21 @@ export const FrequentAskingQuestionStyle: SxProps = {
       lg: '70%',
     },
   },
+  '& .anomaly-detected .MuiAccordionDetails-root .MuiStack-root': {
+    flexWrap: 'wrap',
+    mx: {
+      xs: 0,
+      md: 10,
+    },
+    gap: {
+      xs: 0,
+      md: 10,
+    },
+  },
+  '& .anomaly-detected .MuiAccordionDetails-root .MuiStack-root > .MuiList-root': {
+    m: 0,
+    p: 0,
+  },
 };
 
 export const ContactStyle: SxProps = {

@@ -50,13 +50,13 @@ export const FrequentAskingQuestion = () => {
             <AccordionDetails>{response}</AccordionDetails>
           </Accordion>
         ))}
-        <Accordion expanded={opened === 4}>
+        <Accordion className="anomaly-detected" expanded={opened === 4}>
           <AccordionSummary onClick={handleClick(4)} expandIcon={<ExpandMore />}>
             <Typography component="span">Quels objets / anomalies pouvons nous détecter grâce à l'outil ?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>Sur une toiture l'outil peut détecter et analyser :</Typography>
-            <Stack flexDirection="row" mx={10} gap={10}>
+            <Stack flexDirection="row">
               <List>
                 {detectedObject[0].map((text) => (
                   <ListItem key={text}>
