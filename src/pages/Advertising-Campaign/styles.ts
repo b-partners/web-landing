@@ -26,7 +26,7 @@ export const HeroStyle: SxProps = {
     borderRadius: '2vw',
     flexWrap: 'wrap',
     width: {
-      xs: '90%',
+      xs: '95%',
       md: '80%',
       lg: '70%',
     },
