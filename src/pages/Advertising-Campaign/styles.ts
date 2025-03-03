@@ -230,9 +230,30 @@ export const PricingStyle: SxProps = {
   '& .pricing-item-list > .MuiStack-root': {
     width: '100%',
     display: 'grid',
-    gridTemplateColumns: '60% 30%',
+    gridTemplateColumns: {
+      xs: '90%',
+      md: '60% 30%',
+    },
     placeContent: 'center',
     alignItems: 'center',
+  },
+  '& .pricing-item-list > .MuiStack-root > .MuiDivider-root': {
+    my: 2,
+  },
+  '& .pricing-item-list > .MuiStack-root > .MuiTypography-root': {
+    px: 2,
+    pt: 1,
+    textAlign: {
+      xs: 'center',
+      md: 'start',
+    },
+  },
+  '& .pricing-item-list > .MuiStack-root > .MuiStack-root > .MuiSvgIcon-root': {
+    color: (theme) => (theme as any).palette.success.light,
+    display: {
+      xs: 'block',
+      md: 'none',
+    },
   },
   '& .pricing-item-list > .MuiStack-root > .MuiBox-root': {
     padding: 5,
@@ -248,9 +269,15 @@ export const PricingStyle: SxProps = {
     fontSize: 30,
   },
   '& .pricing-item-list > .MuiStack-root > .MuiBox-root > .MuiButton-root': {
-    border: '2px solid white',
+    border: {
+      xs: 'none',
+      md: '2px solid white',
+    },
     position: 'absolute',
-    width: '120%',
+    width: {
+      xs: '90%',
+      md: '120%',
+    },
     transition: 'all 100ms',
   },
   '& .pricing-item-list > .MuiStack-root > .MuiBox-root > .MuiButton-root:hover': {
@@ -262,6 +289,10 @@ export const PricingStyle: SxProps = {
   },
   '& .pricing-item-list > .MuiStack-root:last-child > .MuiBox-root': {
     borderRadius: '0 0 1rem 1rem',
+    bgcolor: {
+      xs: 'transparent',
+      md: BP_COLOR[10],
+    },
   },
   '& .pricing-item-list > .MuiStack-root > .MuiBox-root > .MuiTypography-root': {
     color: 'white',
