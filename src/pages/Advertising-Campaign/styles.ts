@@ -346,13 +346,33 @@ export const ContactStyle: SxProps = {
     color: 'white',
     fontWeight: 'bold',
   },
-  '& > .MuiStack-root': {
+  '& > .MuiStack-root.to-contact': {
     width: {
       xs: '90%',
       md: '80%',
       lg: '70%',
     },
     padding: 2,
+    display: 'grid',
+    gridTemplateColumns: {
+      xs: 'auto',
+      md: 'auto auto auto',
+    },
+    placeItems: {
+      xs: 'self-start',
+      md: 'center',
+    },
+  },
+  '& > .MuiStack-root.to-follow': {
+    width: {
+      xs: '90%',
+      md: '80%',
+      lg: '70%',
+    },
+    padding: 2,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
   '& > .MuiStack-root > .MuiStack-root > img': {
     objectFit: 'contain',
