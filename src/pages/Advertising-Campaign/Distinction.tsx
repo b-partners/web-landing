@@ -16,7 +16,7 @@ export const Distinction = () => {
         <Carousel
           showDots
           infinite
-        //   autoPlay
+          autoPlay
           keyBoardControl
           draggable={false}
           swipeable={false}
