@@ -24,18 +24,20 @@ const contactItemsList = [
 export const Contact = () => {
   const open = (url: string) => () => window.open(url, '_blank');
 
+  const scrollToTop = () => window.scrollTo({ top: 0 });
+
   return (
     <Box sx={style}>
       <Divider />
       <Typography>Contacts</Typography>
-      <Stack direction="row" justifyContent="space-around">
+      <Stack className="to-contact">
         {contactItemsList.map(({ icon, link, value }) => (
           <Button startIcon={icon} onClick={open(link)} key={link}>
             {value}
           </Button>
         ))}
       </Stack>
-      <Stack direction="row" justifyContent="space-between">
+      <Stack className="to-follow">
         <Stack>
           <Typography>Suivez-nous</Typography>
           <Box>
@@ -51,7 +53,7 @@ export const Contact = () => {
           </Box>
         </Stack>
         <Stack>
-          <img alt="b-logo" src="/assets/images/b-logo.png" />
+          <img onClick={scrollToTop} alt="b-logo" src="/assets/images/b-logo.png" />
         </Stack>
       </Stack>
     </Box>

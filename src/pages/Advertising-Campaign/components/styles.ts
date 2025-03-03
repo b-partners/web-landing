@@ -35,7 +35,10 @@ export const HeroDescriptionTextStyle: SxProps = {
     alignItems: 'center',
     justifyContent: 'flex-start',
     gap: 2,
-    marginLeft: 5,
+    marginLeft: {
+      xs: 0,
+      md: 5,
+    },
   },
   '& .menu > .menu-icon-container': {
     width: 50,

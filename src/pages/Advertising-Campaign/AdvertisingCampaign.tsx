@@ -1,4 +1,3 @@
-
 import { Contact } from './Contact';
 import { DetectionType } from './DetectionType';
 import { Distinction } from './Distinction';

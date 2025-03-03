@@ -1,5 +1,5 @@
 import { CheckCircleOutline } from '@mui/icons-material';
-import { Box, Button, Stack, Typography } from '@mui/material';
+import { Box, Button, Divider, Stack, Typography, useMediaQuery, useTheme } from '@mui/material';
 
 import { reserveDemo } from './components';
 import { PricingStyle as style } from './styles';
@@ -12,6 +12,9 @@ const pricingListItem = [
 ];
 
 export const Pricing = () => {
+  const theme = useTheme();
+  const isDesktop = useMediaQuery(theme.breakpoints.up('md'));
+
   return (
     <Box sx={style}>
       <Typography>
@@ -25,11 +28,20 @@ export const Pricing = () => {
           </Box>
         </Stack>
         {pricingListItem.map((text) => (
-          <Stack direction="row" key={text}>
+          <Stack key={text}>
+            {!isDesktop && (
+              <Stack alignItems="center" mt={2}>
+                <CheckCircleOutline />
+              </Stack>
+            )}
             <Typography>{text}</Typography>
-            <Box>
-              <CheckCircleOutline />
-            </Box>
+            {isDesktop ? (
+              <Box>
+                <CheckCircleOutline />
+              </Box>
+            ) : (
+              <Divider />
+            )}
           </Stack>
         ))}
         <Stack direction="row">
