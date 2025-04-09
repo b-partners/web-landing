@@ -1,6 +1,6 @@
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
 
-import { CTAButton } from './components';
+import { CTAButton, CreateAccountButton } from './components';
 import { FeaturesStyle as style } from './styles';
 
 const featuresItemList = [
@@ -32,6 +32,7 @@ export const Features = () => {
         ))}
       </Box>
       <CTAButton />
+      <CreateAccountButton />
     </Box>
   );
 };

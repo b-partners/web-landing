@@ -1,6 +1,6 @@
-import { Box } from '@mui/material';
+import { Box, Stack } from '@mui/material';
 
-import { CTAButton, HeroDescriptionImage as DescriptionImage, HeroDescriptionText as DescriptionText } from './components';
+import { CTAButton, CreateAccountButton, HeroDescriptionImage as DescriptionImage, HeroDescriptionText as DescriptionText } from './components';
 import { HeroStyle as style } from './styles';
 
 export const Hero = () => {
@@ -15,7 +15,10 @@ export const Hero = () => {
           <DescriptionImage />
         </Box>
       </Box>
-      <CTAButton />
+      <Stack direction="row" width="100%" flexWrap="wrap" justifyContent="center" gap={2}>
+        <CTAButton />
+        <CreateAccountButton />
+      </Stack>
     </Box>
   );
 };
