@@ -48,7 +48,7 @@ export const Craftsman = () => {
               className="home-registration-form"
               sx={{
                 padding: '20px',
-                bgcolor: PALETTE_COLORS.pine
+                bgcolor: PALETTE_COLORS.forest
               }}
             >
               <Typography variant="h2" sx={{ fontSize: "1.3rem", fontWeight: "bold", color: PALETTE_COLORS.cream }}>

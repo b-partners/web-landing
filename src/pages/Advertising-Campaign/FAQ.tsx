@@ -9,7 +9,7 @@ const faqItemList = [
   {
     question: "A quoi sert l'outil BIRDIA?",
     response:
-      "Bpartners vous permet d'analyser des toitures en un seul clic grâce à des images aériennes ultra HD. Détectez les problèmes (usure, moisissure, etc.), obtenez des mesures précises et générez des rapports d'analyse complets. Rejoignez les + de 2000 professionnels qui ont déjà adopté Bpartners!",
+      "BIRDIA vous permet d'analyser des toitures en un seul clic grâce à des images aériennes ultra HD. Détectez les problèmes (usure, moisissure, etc.), obtenez des mesures précises et générez des rapports d'analyse complets. Rejoignez les + de 2000 professionnels qui ont déjà adopté BIRDIA!",
   },
   {
     question: 'Pouvons-nous analyser les toitures pour toute la France ?',

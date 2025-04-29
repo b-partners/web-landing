@@ -4,8 +4,7 @@ import { Button } from '@/common/components/Button';
 import { PreRegistrationForm } from '@/common/components/PreRegistrationModal';
 import { SxProps, TextField, useMediaQuery } from '@mui/material';
 import { useDialog } from '@store/dialog';
-
-import WavesBottomBg from '../../assets/img/waves-bottom-bg.png';
+import { PALETTE_COLORS } from '@/config/theme';
 
 type User = {
   firstName?: string;
@@ -64,19 +63,7 @@ export const GetInTouchForm = () => {
 
 export const GetInTouch = () => {
   return (
-    <section className="get_in_touch section">
-      <img
-        src={WavesBottomBg}
-        alt=" "
-        loading="lazy"
-        style={{
-          position: 'absolute',
-          zIndex: '-1',
-          left: '0',
-          top: '-.05rem',
-          filter: 'brightness(1.05)',
-        }}
-      />
+    <section className="get_in_touch section" style={{backgroundColor: PALETTE_COLORS.white}}>
       <div className="bd-container section">
         <h2 className="get_in_touch__title">Restez informé</h2>
         <div className="get_in_touch__form">

@@ -1,10 +1,9 @@
 import { PALETTE_COLORS } from '@/config/theme';
-import React from 'react';
 
 export const Feature = () => {
   return (
-    <section id="share" style={{ padding: 50, backgroundColor: PALETTE_COLORS.pine}}>
-      <h2 className="mobile__title"  style={{color: PALETTE_COLORS.cream}}>
+    <section id="share" style={{ padding: 50, backgroundColor: PALETTE_COLORS.forest }}>
+      <h2 className="mobile__title" style={{ color: PALETTE_COLORS.cream }}>
         <b className="text__highlight">
           BIRDIA vous permet sur des images aériennes <br />
           haute définition et son intelligence artificielle

@@ -9,19 +9,23 @@ import Bill from '../../assets/img/bill.png';
 import Bot from '../../assets/img/bot.png';
 import Euro from '../../assets/img/euro.webp';
 import Laptop from '../../assets/img/laptop.jpg';
+import { Container } from '@mui/material';
+import { PALETTE_COLORS } from '@/config/theme';
 
 export function Authenticity() {
   return (
     <>
-      <section className="bp-tagline-section">
-        <div className="share__container  bd-container">
-          <ShareCard cardText="Lancez l'analyse de la toiture avec simplement l'adresse de votre prospect." imgSrc={Bot} />
-          <ShareCard cardText="Générez un rapport d'analyse, avec votre proposition commerciale." imgSrc={Bill} />
-          <ShareCard cardText="Priorisez et programmez vos interventions." imgSrc={Euro} />
-          <ShareCard cardText="Facturez et encaissez en 1 clic." imgSrc={Bank} />
-        </div>
+      <section style={{ paddingBlock: "50px", backgroundColor: PALETTE_COLORS.forest }}>
+        <Container>
+          <div className="share__container  bd-container">
+            <ShareCard cardText="Lancez l'analyse de la toiture avec simplement l'adresse de votre prospect." imgSrc={Bot} />
+            <ShareCard cardText="Générez un rapport d'analyse, avec votre proposition commerciale." imgSrc={Bill} />
+            <ShareCard cardText="Priorisez et programmez vos interventions." imgSrc={Euro} />
+            <ShareCard cardText="Facturez et encaissez en 1 clic." imgSrc={Bank} />
+          </div>
+        </Container>
       </section>
-      <section className="mobile">
+      <section className="mobile" style={{backgroundColor: PALETTE_COLORS.white}}>
         <div className="mobile__task bd-container">
           <div className="mobile__task__container">
             <div className="mobile__task__info">
