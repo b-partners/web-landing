@@ -31,7 +31,7 @@ export function Headline() {
             nécessaires
           </h3>
           <p className="headline__paragraph">
-            Chez BPartners, nous avons transformé l’innovation en solution pratique. Issue de la recherche française et labellisée DeepTech, notre technologie a
+            Chez BIRDIA, nous avons transformé l’innovation en solution pratique. Issue de la recherche française et labellisée DeepTech, notre technologie a
             été initialement conçue pour simplifier la vie des artisans en détectant et mesurant des objets d’intérêt. Aujourd’hui, nous avons étendu cette
             expertise aux collectivités et aux grandes entreprises, leur permettant de mieux comprendre leur patrimoine et de suivre son évolution grâce à la
             détection automatisée et à l’analyse des objets.

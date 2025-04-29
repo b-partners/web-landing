@@ -65,7 +65,7 @@ export function Authenticity() {
                 <b>passent 20% à 30% de leur temps à se rendre chez des prospects pour faire des devis.</b>
               </p>
               <p style={{ textAlign: 'justify' }}>
-                Issue de la recherche académique française, BPartners a développé{' '}
+                Issue de la recherche académique française, BIRDIA a développé{' '}
                 <b>une IA reproduisant les étapes d'analyses des toitures d'un couvreur sur des images aériennes haute définition à 5 cm de précision</b>,
                 permettant d'avoir les mesures, le chiffrage et l'urgence de l'intervention.
               </p>

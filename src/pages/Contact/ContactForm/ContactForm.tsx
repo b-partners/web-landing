@@ -50,7 +50,7 @@ export function ContactForm() {
       <section className="contact-form section">
         <div className="contact-form__container bd-container">
           <div className="contact-form__col1">
-            <h2 className="contact-form__title">L'équipe BPartners</h2>
+            <h2 className="contact-form__title">L'équipe BIRDIA</h2>
             CONTACT ACCUEIL
             <ul style={{ marginBlock: '1rem' }}>
               <li>

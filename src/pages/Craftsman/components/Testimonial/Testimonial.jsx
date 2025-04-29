@@ -18,7 +18,7 @@ export function Testimonial() {
         />
         <CarouselItem
           title=" '' Gain de TEMPS '' "
-          paragraph="Je gère seul mon activité et BPartners me permet de faire l'analyse
+          paragraph="Je gère seul mon activité et BIRDIA me permet de faire l'analyse
            des toits automatiquement, avec toutes les mesures pour anticiper mon intervention.
             Mes clients reçoivent le projet de réparation en moins de 24H."
           name="Jason H."

@@ -10,11 +10,11 @@ export function Description() {
         <div className="description__col1">
           <h2 className="description__title">À propos</h2>
           <p className="description__first-paragraph">
-            BPartners est une solution qui valorise des images aériennes par IA pour faire gagner du temps, des clients aux artisans et de la réactivité aux
+            BIRDIA est une solution qui valorise des images aériennes par IA pour faire gagner du temps, des clients aux artisans et de la réactivité aux
             collectivités.
             <br />
             Nous appliquons un raisonnement symbolique au Deeplearning pour qualifier les objets détectés pour l'aide à la décision. <br />
-            BPartners a développé un système de recommandation hybride transformant le raisonnement des artisans et des collectivités en une base de
+            BIRDIA a développé un système de recommandation hybride transformant le raisonnement des artisans et des collectivités en une base de
             connaissances dirigée pour détecter des objets d'intérêt (toitures, végétations, signalisation, etc) et y applique un raisonnement pour qualifier
             l'objet (état de dégradation dans le temps, risques inhérents, etc).
           </p>

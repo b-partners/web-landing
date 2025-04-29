@@ -7,7 +7,7 @@ import { FrequentAskingQuestionStyle as style } from './styles';
 
 const faqItemList = [
   {
-    question: "A quoi sert l'outil BPartners?",
+    question: "A quoi sert l'outil BIRDIA?",
     response:
       "Bpartners vous permet d'analyser des toitures en un seul clic grâce à des images aériennes ultra HD. Détectez les problèmes (usure, moisissure, etc.), obtenez des mesures précises et générez des rapports d'analyse complets. Rejoignez les + de 2000 professionnels qui ont déjà adopté Bpartners!",
   },
@@ -18,7 +18,7 @@ const faqItemList = [
   {
     question: "À quelles fonctionnalités l'essai de gratuit de 14 jours donne t-il accès ?",
     response:
-      "L'essai gratuit de 14 jours vous donne accès à toutes les fonctionnalités de BPartners. Vous pouvez ainsi tester l'outil dans son intégralité avant de vous engager.",
+      "L'essai gratuit de 14 jours vous donne accès à toutes les fonctionnalités de BIRDIA. Vous pouvez ainsi tester l'outil dans son intégralité avant de vous engager.",
   },
 ];
 

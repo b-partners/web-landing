@@ -14,7 +14,7 @@ export function Hero() {
       <Stack className="hero-text" spacing={2}>
         <Typography className="header-title">Couvreurs, Collectivités ou Assurances ?</Typography>
         <Typography className="header-description">
-          BPartners IA est une{' '}
+          BIRDIA est une{' '}
           <span style={{ fontWeight: 'bold' }}>
             solution innovante qui utilise l’intelligence artificielle pour analyser des images aériennes haute définition 5cm de précision
           </span>
