@@ -25,7 +25,7 @@ export const DistinctionItem: FC<{ carousel: CarouselItem }> = ({ carousel }) =>
 
 export function Distinction() {
   return (
-    <section className="distinction">
+    <section className="distinction" style={{backgroundColor: "white", paddingBlock: '50px', margin: 0}}>
       <h2 className="section-title">Nos distinctions</h2>
       <MultipleCarousel>
         {DISTINCTION_CAROUSEL_ITEMS.map((carousel) => (

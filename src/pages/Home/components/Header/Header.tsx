@@ -10,6 +10,7 @@ import { ButtonActions } from './ButtonActions';
 import { HeaderMenuDialog } from './HeaderMenuDialog';
 import { links } from './links';
 import { HeaderAppBarStyle } from './styles';
+import { PALETTE_COLORS } from '@/config/theme';
 
 export function Header() {
   const appBarRef = useRef<HTMLDivElement>(null);
@@ -39,12 +40,12 @@ export function Header() {
     <AppBar ref={appBarRef} sx={HeaderAppBarStyle}>
       <Toolbar>
         <Link to="/home" onClick={gotToHome}>
-          <img src="/assets/images/logo.png" alt="logo" />
+          <img src="/assets/images/logo.png" alt="logo" style={{height: "40px"}}/>
         </Link>
         <Stack direction="row" spacing={2}>
           {links.map(({ to, label }) => (
             <Link key={to} to={to}>
-              <BpButton variant="text">{label}</BpButton>
+              <BpButton sx={{color: PALETTE_COLORS.pine}} variant="text">{label}</BpButton>
             </Link>
           ))}
         </Stack>

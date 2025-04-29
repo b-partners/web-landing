@@ -6,8 +6,8 @@ import { HeroStyle as style } from './styles';
 export const Hero = () => {
   return (
     <Box sx={style}>
-      <Box className="logo-container">
-        <img alt="Bp IA Logo" src="/assets/images/bp-ia-logo.png" />
+      <Box>
+        <img alt="BIRDIA Logo" src="/assets/images/logo.png" />
       </Box>
       <Box className="description-container">
         <Box className="description-content">

@@ -8,7 +8,7 @@ import { SxProps } from '@mui/material';
 export const ButtonActions: FC<{ buttonSx?: SxProps }> = ({ buttonSx }) => {
   return (
     <>
-      <BpButton size="small" variant="outlined" sx={{ gap: 0.5, ...buttonSx }} name="login-button" href={DASHBOARD_LOGIN_URL}>
+      <BpButton size="small" variant="outlined" sx={{ gap: 0.5,  ...buttonSx }} name="login-button" href={DASHBOARD_LOGIN_URL}>
         Se connecter
         <LoginIcon />
       </BpButton>

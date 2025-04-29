@@ -1,9 +1,10 @@
 import { createTheme } from '@mui/material';
+import { PALETTE_COLORS } from './theme';
 
 const important = (value: any) => `${value} !important`;
 
 export const BP_COLOR = {
-  2: '#ab005650',
+  2: '#ff521b50',
   MuiSideBar: {
     styleOverrides: {
       root: {
@@ -11,12 +12,12 @@ export const BP_COLOR = {
       },
     },
   },
-  5: '#bb0056',
-  10: '#ab0056',
-  20: '#660033',
-  30: '#582d37',
-  40: '#F1E4E7',
-  50: '#BB255F',
+  5: '#ff521b',
+  10: '#ff521b',
+  20: '#ff521b',
+  30: '#ff521b',
+  40: '#ff521b',
+  50: '#ff521b',
   solid_grey: 'rgb(0, 0, 0, 0.05)',
 };
 
@@ -26,21 +27,21 @@ export const theme = createTheme({
       default: '#fafafb',
     },
     primary: {
-      light: '#ab0056',
-      main: '#ab0056',
-      dark: '#7A003D',
-      contrastText: '#fff',
+      light: PALETTE_COLORS.neon_orange,
+      main: PALETTE_COLORS.neon_orange,
+      dark: PALETTE_COLORS.neon_orange,
+      contrastText: PALETTE_COLORS.white,
     },
     secondary: {
-      light: '#6ec6ff',
-      main: '#2196f3',
-      dark: '#0069c0',
-      contrastText: '#fff',
+      light: PALETTE_COLORS.pine,
+      main: PALETTE_COLORS.pine,
+      dark: PALETTE_COLORS.pine,
+      contrastText: PALETTE_COLORS.pine,
     },
   },
   typography: {
-    allVariants: { color: '#373A40' },
-    fontFamily: ['"Raleway"', 'sans-serif'].join(','),
+    allVariants: { color: PALETTE_COLORS.black },
+    fontFamily: ['"Kumbh Sans"', 'sans-serif'].join(','),
   },
   components: {
     MuiPaper: {
@@ -111,7 +112,7 @@ export const theme = createTheme({
             backgroundColor: BP_COLOR[5],
             boxShadow: `1px 1px 5px #00000020`,
             '&:hover, &:active': {
-              backgroundColor: `${BP_COLOR['10']}dd`,
+              backgroundColor: `${PALETTE_COLORS.neon_orange}dd`,
               cursor: 'pointer',
             },
             '&:disabled': {
