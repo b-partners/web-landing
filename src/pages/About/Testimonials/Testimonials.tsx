@@ -23,7 +23,7 @@ export const Testimonials = () => {
   };
 
   return (
-    <Box sx={{ mb: '50px', '& .carousel-root': { minHeight: '420px' } }}>
+    <Box sx={{ '& .carousel-root': { minHeight: '420px' } }}>
       <Carousel
         arrowSx={{
           fontSize: '3rem',

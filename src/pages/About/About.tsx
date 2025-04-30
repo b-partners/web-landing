@@ -5,6 +5,7 @@ import { Solution } from '../Home/components/Solution';
 import { Description } from './Description';
 import { Presentation } from './Presentation';
 import { Testimonials } from './Testimonials';
+import { PALETTE_COLORS } from '@/config/theme';
 
 export const About = () => {
   const { pathname } = useLocation();
@@ -16,7 +17,9 @@ export const About = () => {
   return (
     <div>
       <Description />
-      <Testimonials />
+      <div style={{ backgroundColor: PALETTE_COLORS.white, paddingBlock: "50px" }}>
+        <Testimonials />
+      </div>
       <Presentation />
       <Solution />
     </div>
