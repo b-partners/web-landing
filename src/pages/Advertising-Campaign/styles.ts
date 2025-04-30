@@ -1,4 +1,5 @@
 import { BP_COLOR } from '@/config';
+import { PALETTE_COLORS } from '@/config/theme';
 import { SxProps } from '@mui/material';
 
 export const HeroStyle: SxProps = {
@@ -28,11 +29,11 @@ export const HeroStyle: SxProps = {
     width: {
       xs: '95%',
       md: '80%',
-      lg: '70%',
+      lg: '90%',
     },
     height: '100%',
     padding: 2,
-    bgcolor: (theme) => (theme as any).palette.primary.light,
+    bgcolor: PALETTE_COLORS.pine,
   },
   '& .MuiTypography-root': {
     color: '#fff',
@@ -40,16 +41,16 @@ export const HeroStyle: SxProps = {
 };
 export const DistinctionStyle: SxProps = {
   width: '100%',
-  minHeight: '80vh',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   flexDirection: 'column',
+  bgcolor: PALETTE_COLORS.white,
+  mt: 5,
   padding: 5,
   '& > .MuiTypography-root': {
     fontSize: 30,
     fontWeight: 'bold',
-    marginBlock: 5,
     textAlign: 'center',
   },
   '& > .MuiBox-root': {
@@ -130,7 +131,7 @@ export const DetectionTypeStyle: SxProps = {
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
-    border: `2px solid #9c255a`,
+    border: `2px solid var(--pine)`,
     marginBlock: 5,
     borderRadius: 5,
     paddingBlock: 5,
@@ -212,7 +213,6 @@ export const PricingStyle: SxProps = {
     fontWeight: 'bold',
     paddingBlock: 5,
     textAlign: 'center',
-    color: '#004aad',
     mb: 10,
     width: {
       xs: '90%',
@@ -257,7 +257,7 @@ export const PricingStyle: SxProps = {
   },
   '& .pricing-item-list > .MuiStack-root > .MuiBox-root': {
     padding: 5,
-    bgcolor: (theme) => (theme as any).palette.primary.light,
+    bgcolor: (theme) => (theme as any).palette.secondary.light,
     height: '100%',
     display: 'flex',
     justifyContent: 'center',
@@ -281,7 +281,7 @@ export const PricingStyle: SxProps = {
     transition: 'all 100ms',
   },
   '& .pricing-item-list > .MuiStack-root > .MuiBox-root > .MuiButton-root:hover': {
-    bgcolor: (theme) => (theme as any).palette.primary.light,
+    bgcolor: (theme) => (theme as any).palette.secondary.light,
     scale: 1.1,
   },
   '& .pricing-item-list > .MuiStack-root:first-child > .MuiBox-root': {
@@ -291,7 +291,7 @@ export const PricingStyle: SxProps = {
     borderRadius: '0 0 1rem 1rem',
     bgcolor: {
       xs: 'transparent',
-      md: BP_COLOR[10],
+      md: PALETTE_COLORS.pine,
     },
   },
   '& .pricing-item-list > .MuiStack-root > .MuiBox-root > .MuiTypography-root': {
@@ -366,7 +366,6 @@ export const ContactStyle: SxProps = {
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  marginBlock: 10,
   '& > .MuiTypography-root': {
     fontSize: 30,
     fontWeight: 'bold',

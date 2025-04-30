@@ -52,7 +52,7 @@ export const Presentation = () => {
             "On parle beaucoup d'IA en ce moment...
             <br /> 🤖
             <br />
-            BPartners IA une solution pour la valorisation des orthophotographies hautes résolutions ?"
+            BIRDIA une solution pour la valorisation des orthophotographies hautes résolutions ?"
           </Typography>
           <Typography sx={TYPOGRAPHY_LINK_SX}>
             <a
@@ -66,7 +66,7 @@ export const Presentation = () => {
         </PresentationItem>
         <PresentationItem bgimage={'/assets/images/about/laureat.jpeg'}>
           <Typography sx={CONTENT_SX}>
-            "BPartners IA lauréat de la 7ième saison la French Assurtech pour sa technologie de prévention et réactivité à la gestion des sinistres."
+            "BIRDIA lauréat de la 7ième saison la French Assurtech pour sa technologie de prévention et réactivité à la gestion des sinistres."
           </Typography>
           <Typography sx={{ fontSize: '1rem', fontWeight: 'bold', mt: 2, lineHeight: '2rem' }}>
             <a
@@ -82,8 +82,8 @@ export const Presentation = () => {
         </PresentationItem>
         <PresentationItem bgimage={'/assets/images/about/startup.jpeg'}>
           <Typography sx={CONTENT_SX}>
-            "Parmi les 20 startups finalistes du Trophée Start-up Numérique 2023, BPartners IA a remporté le premier prix dans la catégorie👏 Transformation
-            numérique des entreprises"
+            "Parmi les 20 startups finalistes du Trophée Start-up Numérique 2023, BIRDIA a remporté le premier prix dans la catégorie👏 Transformation numérique
+            des entreprises"
           </Typography>
           <Typography sx={TYPOGRAPHY_LINK_SX}>
             <a

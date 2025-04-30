@@ -9,7 +9,7 @@ export function PreRegistrationSuccess() {
     <>
       <DialogContent>
         <p>
-          Pour finaliser votre inscription, télécharger l’application BPartners sur <b>Android</b> ou <b>Appstore</b> pour utiliser les services de partout.
+          Pour finaliser votre inscription, télécharger l’application BIRDIA sur <b>Android</b> ou <b>Appstore</b> pour utiliser les services de partout.
         </p>
       </DialogContent>
       <DialogActions>

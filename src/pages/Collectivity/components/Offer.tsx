@@ -10,7 +10,7 @@ export function Offer() {
           <h2 className="text-center subtitle">Vous disposez déjà des images de votre territoire:</h2>
           <ul className="offer_item-content">
             <li>
-              Détectez et qualifiez les objets déjà disponible dans la bibliothèque BPartners (bâti, végétation, sol artificialisé, signalisation au sol,
+              Détectez et qualifiez les objets déjà disponible dans la bibliothèque BIRDIA (bâti, végétation, sol artificialisé, signalisation au sol,
               installations solaires, zones de débroussaillages, etc...).
             </li>
           </ul>
@@ -26,7 +26,7 @@ export function Offer() {
           <ul className="offer_item-content">
             <li>Nous collectons les images de votre territoire.</li>
             <li>
-              Détectez et qualifiez les objets déjà disponible dans la bibliothèque BPartners (bâti, végétations, sol artificialisé, signalisation au sol,
+              Détectez et qualifiez les objets déjà disponible dans la bibliothèque BIRDIA (bâti, végétations, sol artificialisé, signalisation au sol,
               installations solaires, zones de débroussaillages, etc...).
             </li>
           </ul>

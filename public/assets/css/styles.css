@@ -3,10 +3,10 @@
     --header-height: 3rem;
 
     /*========== Colors ==========*/
-    --first-color: #582d37;
-    --first-color-alt: #582d37;
-    --first-color-send: #582d37;
-    --first-color-logo: rgba(156, 37, 90, 1);
+    --first-color: #ff521b;
+    --first-color-alt: #ff521b;
+    --first-color-send: #ff521b;
+    --first-color-logo: #ff521b;
     --title-color: #161212;
     --text-color: black;
     --text-color-light: black;
@@ -49,7 +49,7 @@
 
 /*========== BASE ==========*/
 * {
-    font-family: 'Geometria', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 *,
@@ -532,7 +532,7 @@ h1.home__title {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(249, 247, 252);
+    background-color: var(--cream);
     min-height: 500px;
 }
 
@@ -580,6 +580,7 @@ img[alt="mobile_image"] {
 
 /*========== SOLUTION ==========*/
 .solution {
+    padding-bottom: 50px;
     text-align: center;
     position: relative;
 }
@@ -801,11 +802,9 @@ img[alt="mobile_image"] {
 
 /*========== FOOTER ==========*/
 .footer {
-    margin-top: 3rem;
-    background-image: url('../images/footer-bg.webp');
     height: 18.75rem;
-    background-size: cover;
     padding-top: 3rem !important;
+    background-color: var(--pine);
 }
 
 .footer__container {

@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
+import { PALETTE_COLORS } from '@/config/theme';
+
 import { Solution } from '../Home/components/Solution';
 import { Description } from './Description';
 import { Presentation } from './Presentation';
@@ -16,7 +18,9 @@ export const About = () => {
   return (
     <div>
       <Description />
-      <Testimonials />
+      <div style={{ backgroundColor: PALETTE_COLORS.white, paddingBlock: '50px' }}>
+        <Testimonials />
+      </div>
       <Presentation />
       <Solution />
     </div>

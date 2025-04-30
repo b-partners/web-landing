@@ -1,9 +1,25 @@
+:root {
+  --pine: #4A644E;
+  --peach: #FFB179;
+  --linen: #BEB4A4;
+  --white: #FFFFFF;
+  --black: #1F1F1F;
+  --cream: #F0ECE1;
+  --forest: #112717;
+  --neon-orange: #FF521B;
+}
+
 body,
 html {
   margin: 0 !important;
   padding: 0 !important;
   width: 100vw !important;
   overflow-x: hidden;
+  background-color: var(--cream);
+}
+
+* {
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 code {
@@ -17,4 +33,3 @@ code {
 input {
   font-family: Arial, Helvetica, sans-serif !important;
 }
-

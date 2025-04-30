@@ -6,12 +6,12 @@ const rateItemList = [
   {
     title: 'Gain de temps',
     comment:
-      "Je gère seul mon activité et Bpartners me permet de faire l'analyse des toits automatiquement, avec toutes les mesures pour anticiper mon intervention. Mes clients reçoivent le projet de réparation en moins de 24H",
+      "Je gère seul mon activité et BIRDIA me permet de faire l'analyse des toits automatiquement, avec toutes les mesures pour anticiper mon intervention. Mes clients reçoivent le projet de réparation en moins de 24H",
     user: 'Jason H. Couvreur dans le 77',
   },
   {
     title: 'Efficace',
-    comment: "Ma façon de travailler a changer depuis que j'utilise le logiciel de Bpartners. Un gain de temps énorme, et c'est ultra précis. Je recommande!",
+    comment: "Ma façon de travailler a changer depuis que j'utilise le logiciel de BIRDIA. Un gain de temps énorme, et c'est ultra précis. Je recommande!",
     user: 'Jean-Pierre Couvreur à Lyon',
   },
 ];

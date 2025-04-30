@@ -1,3 +1,4 @@
+import { PALETTE_COLORS } from '@/config/theme';
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
 
 import { CTAButton, CreateAccountButton } from './components';
@@ -21,7 +22,7 @@ export const Features = () => {
       <Typography>Nos fonctionnalités</Typography>
       <Box className="card-grid">
         {featuresItemList.map(({ texts, src }, index) => (
-          <Card key={src + index}>
+          <Card key={src + index} sx={{ p: 3, borderRadius: '8px' }}>
             <CardMedia sx={{ height: 200 }} image={src} title={src + index} />
             <CardContent>
               {texts.map((text, index2) => (
@@ -31,8 +32,10 @@ export const Features = () => {
           </Card>
         ))}
       </Box>
-      <CTAButton />
-      <CreateAccountButton />
+      <Box sx={{ mt: 5, display: 'flex', alignItems: 'center', gap: 5, justifyContent: 'center' }}>
+        <CTAButton sx={{ bgcolor: PALETTE_COLORS.neon_orange }} />
+        <CreateAccountButton sx={{ bgcolor: PALETTE_COLORS.neon_orange }} />
+      </Box>
     </Box>
   );
 };
