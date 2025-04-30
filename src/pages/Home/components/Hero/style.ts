@@ -12,7 +12,7 @@ export const HeroPageStyle: SxProps = {
   '& .header-title': {
     color: PALETTE_COLORS.pine,
     fontWeight: 900,
-    position: "relative",
+    position: 'relative',
     fontSize: {
       xs: '2rem',
       xl: '4.6rem',

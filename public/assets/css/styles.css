@@ -804,7 +804,7 @@ img[alt="mobile_image"] {
 .footer {
     height: 18.75rem;
     padding-top: 3rem !important;
-    background-color: var(--forest);
+    background-color: var(--pine);
 }
 
 .footer__container {

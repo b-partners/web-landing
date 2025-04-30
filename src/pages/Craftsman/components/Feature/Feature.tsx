@@ -2,7 +2,7 @@ import { PALETTE_COLORS } from '@/config/theme';
 
 export const Feature = () => {
   return (
-    <section id="share" style={{ padding: 50, backgroundColor: PALETTE_COLORS.forest }}>
+    <section id="share" style={{ padding: 50, backgroundColor: PALETTE_COLORS.pine }}>
       <h2 className="mobile__title" style={{ color: PALETTE_COLORS.cream }}>
         <b className="text__highlight">
           BIRDIA vous permet sur des images aériennes <br />
@@ -15,4 +15,4 @@ export const Feature = () => {
       </h2>
     </section>
   );
-}
+};

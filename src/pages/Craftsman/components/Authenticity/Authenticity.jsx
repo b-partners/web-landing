@@ -1,21 +1,20 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
+import { PALETTE_COLORS } from '@/config/theme';
+import { Container } from '@mui/material';
+
 import { ShareCard } from '../../../../common/components/ShareCard';
-import WavesBottomBg from '../../assets/img/auth-bottom-waves.png';
-import WavesTopBg from '../../assets/img/auth-top-waves.png';
 import Bank from '../../assets/img/bank.webp';
 import Bill from '../../assets/img/bill.png';
 import Bot from '../../assets/img/bot.png';
 import Euro from '../../assets/img/euro.webp';
 import Laptop from '../../assets/img/laptop.jpg';
-import { Container } from '@mui/material';
-import { PALETTE_COLORS } from '@/config/theme';
 
 export function Authenticity() {
   return (
     <>
-      <section style={{ paddingBlock: "50px", backgroundColor: PALETTE_COLORS.forest }}>
+      <section style={{ paddingBlock: '50px', backgroundColor: PALETTE_COLORS.pine }}>
         <Container>
           <div className="share__container  bd-container">
             <ShareCard cardText="Lancez l'analyse de la toiture avec simplement l'adresse de votre prospect." imgSrc={Bot} />
@@ -25,7 +24,7 @@ export function Authenticity() {
           </div>
         </Container>
       </section>
-      <section className="mobile" style={{backgroundColor: PALETTE_COLORS.white}}>
+      <section className="mobile" style={{ backgroundColor: PALETTE_COLORS.white }}>
         <div className="mobile__task bd-container">
           <div className="mobile__task__container">
             <div className="mobile__task__info">

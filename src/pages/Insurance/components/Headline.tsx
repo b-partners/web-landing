@@ -1,5 +1,6 @@
 import { ImageGallery } from '@/common/components';
 import { BpButton } from '@/common/components/Button';
+import { PALETTE_COLORS } from '@/config/theme';
 import { Box } from '@mui/material';
 
 import Headline1 from '../assets/img/Headlines/headline-1.jpg';
@@ -9,7 +10,6 @@ import Headline4 from '../assets/img/Headlines/headline-4.jpg';
 import Headline5 from '../assets/img/Headlines/headline-5.jpg';
 import Headline6 from '../assets/img/Headlines/headline-6.jpg';
 import Headline7 from '../assets/img/Headlines/headline-7.jpg';
-import { PALETTE_COLORS } from '@/config/theme';
 
 const IMAGES = [Headline1, Headline2, Headline3, Headline4, Headline5, Headline6, Headline7];
 const demoBrevoMeetLink = 'https://meet.brevo.com/bpartnersartisans/detection-dobjets-par-intelligence-artificielle-bpartners';
@@ -17,14 +17,14 @@ const demoBrevoMeetLink = 'https://meet.brevo.com/bpartnersartisans/detection-do
 export function Headline() {
   return (
     <section className="headline bd-container" id="description">
-      <h2 className="headline__title" style={{color: PALETTE_COLORS.forest}}>
+      <h2 className="headline__title" style={{ color: PALETTE_COLORS.forest }}>
         Détectez et raisonnez par IA sur des images HD pour optimiser la gestion de votre portefeuille d’assurés, anticiper les risques et gagner du temps après
         les sinistres.
       </h2>
 
       <div className="headline_content">
         <article className="headline_article">
-          <h3 className="headline__subtitle" style={{color: PALETTE_COLORS.forest}}>
+          <h3 className="headline__subtitle" style={{ color: PALETTE_COLORS.forest }}>
             Une intelligence artificielle souveraine, conçue en France, pour vérifier à grande échelle la complétude des contrats d’assurance et évaluer les
             risques des portefeuilles IARD.
             <br />

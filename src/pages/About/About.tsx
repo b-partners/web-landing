@@ -1,11 +1,12 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
+import { PALETTE_COLORS } from '@/config/theme';
+
 import { Solution } from '../Home/components/Solution';
 import { Description } from './Description';
 import { Presentation } from './Presentation';
 import { Testimonials } from './Testimonials';
-import { PALETTE_COLORS } from '@/config/theme';
 
 export const About = () => {
   const { pathname } = useLocation();
@@ -17,7 +18,7 @@ export const About = () => {
   return (
     <div>
       <Description />
-      <div style={{ backgroundColor: PALETTE_COLORS.white, paddingBlock: "50px" }}>
+      <div style={{ backgroundColor: PALETTE_COLORS.white, paddingBlock: '50px' }}>
         <Testimonials />
       </div>
       <Presentation />

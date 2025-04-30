@@ -1,4 +1,5 @@
 import { IconList } from '@/common/components/IconList';
+import { PALETTE_COLORS } from '@/config/theme';
 import { Box, Paper, Typography } from '@mui/material';
 import CashRegisterEuro from '@pages/Home/assets/img/cash-register-euro.webp';
 import PaidBill from '@pages/Home/assets/img/paid-bill.webp';
@@ -11,7 +12,6 @@ import { Feature } from './components/Feature';
 import { GetInTouch } from './components/GetInTouch';
 import { Offer } from './components/Offer';
 import { Testimonial } from './components/Testimonial';
-import { PALETTE_COLORS } from '@/config/theme';
 
 const textList = [
   'Analysez les toits de vos prospects automatiquement sur image HD 5 cm.',
@@ -23,7 +23,7 @@ const textList = [
 export const Craftsman = () => {
   return (
     <Box sx={{ marginTop: '15vh' }}>
-      <section className="home" id="home" style={{ paddingBottom: "50px" }}>
+      <section className="home" id="home" style={{ paddingBottom: '50px' }}>
         <div className="home__container bd-container bd-grid">
           <div className="home__data">
             <Typography variant="body2" sx={{ fontSize: '1.6rem' }}>
@@ -48,10 +48,10 @@ export const Craftsman = () => {
               className="home-registration-form"
               sx={{
                 padding: '20px',
-                bgcolor: PALETTE_COLORS.forest
+                bgcolor: PALETTE_COLORS.pine,
               }}
             >
-              <Typography variant="h2" sx={{ fontSize: "1.3rem", fontWeight: "bold", color: PALETTE_COLORS.cream }}>
+              <Typography variant="h2" sx={{ fontSize: '1.3rem', fontWeight: 'bold', color: PALETTE_COLORS.cream }}>
                 Curieux de voir comment gagner du temps et de nouveaux clients ? <br />
               </Typography>
               <Typography sx={{ color: PALETTE_COLORS.cream, mt: 1 }}>On vous montre ça en moins de 15 minutes dans une démo personnalisée.</Typography>

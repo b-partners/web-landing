@@ -7,7 +7,7 @@ import { PALETTE_COLORS } from '@/config/theme';
 
 export function Testimonial() {
   return (
-    <section className="testimonial" style={{backgroundColor: PALETTE_COLORS.white, paddingBlock: "50px"}}>
+    <section className="testimonial" style={{ backgroundColor: PALETTE_COLORS.white, paddingBlock: '50px' }}>
       <h2 className="testimonial__title">Ils nous font confiance</h2>
       <Carousel showArrows infiniteLoop showThumbs={false} showStatus={false} autoPlay interval={5000}>
         <CarouselItem

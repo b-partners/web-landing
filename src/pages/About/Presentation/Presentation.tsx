@@ -82,8 +82,8 @@ export const Presentation = () => {
         </PresentationItem>
         <PresentationItem bgimage={'/assets/images/about/startup.jpeg'}>
           <Typography sx={CONTENT_SX}>
-            "Parmi les 20 startups finalistes du Trophée Start-up Numérique 2023, BIRDIA a remporté le premier prix dans la catégorie👏 Transformation
-            numérique des entreprises"
+            "Parmi les 20 startups finalistes du Trophée Start-up Numérique 2023, BIRDIA a remporté le premier prix dans la catégorie👏 Transformation numérique
+            des entreprises"
           </Typography>
           <Typography sx={TYPOGRAPHY_LINK_SX}>
             <a

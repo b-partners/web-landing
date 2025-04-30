@@ -1,4 +1,5 @@
 import { createTheme } from '@mui/material';
+
 import { PALETTE_COLORS } from './theme';
 
 const important = (value: any) => `${value} !important`;

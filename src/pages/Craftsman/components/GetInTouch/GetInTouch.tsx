@@ -2,9 +2,9 @@ import { useForm } from 'react-hook-form';
 
 import { Button } from '@/common/components/Button';
 import { PreRegistrationForm } from '@/common/components/PreRegistrationModal';
+import { PALETTE_COLORS } from '@/config/theme';
 import { SxProps, TextField, useMediaQuery } from '@mui/material';
 import { useDialog } from '@store/dialog';
-import { PALETTE_COLORS } from '@/config/theme';
 
 type User = {
   firstName?: string;
@@ -63,7 +63,7 @@ export const GetInTouchForm = () => {
 
 export const GetInTouch = () => {
   return (
-    <section className="get_in_touch section" style={{backgroundColor: PALETTE_COLORS.white}}>
+    <section className="get_in_touch section" style={{ backgroundColor: PALETTE_COLORS.white }}>
       <div className="bd-container section">
         <h2 className="get_in_touch__title">Restez informé</h2>
         <div className="get_in_touch__form">

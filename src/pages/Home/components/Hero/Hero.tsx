@@ -1,11 +1,11 @@
 import { useNavigate } from 'react-router-dom';
 
 import { BpButton } from '@/common/components/Button';
+import { PALETTE_COLORS } from '@/config/theme';
 import { Box, Container, Stack, Typography } from '@mui/material';
 
 import '../../assets/css/hero.css';
 import { HeroPageStyle } from './style';
-import { PALETTE_COLORS } from '@/config/theme';
 
 export function Hero() {
   const navigate = useNavigate();
@@ -13,14 +13,16 @@ export function Hero() {
     <Box sx={HeroPageStyle}>
       <Container id="home">
         <Stack className="hero-text" spacing={2}>
-          <Typography className="header-title" style={{color: PALETTE_COLORS.forest}}>Couvreurs, Collectivités ou Assurances ?</Typography>
-          <Typography className="header-description" style={{color: PALETTE_COLORS.forest}}>
+          <Typography className="header-title" style={{ color: PALETTE_COLORS.pine }}>
+            Couvreurs, Collectivités ou Assurances ?
+          </Typography>
+          <Typography className="header-description" style={{ color: PALETTE_COLORS.pine }}>
             BIRDIA est une{' '}
             <span style={{ fontWeight: 'bold' }}>
               solution innovante qui utilise l’intelligence artificielle pour analyser des images aériennes haute définition 5cm de précision
             </span>
-            , aidant ainsi les artisans couvreurs, les collectivités territoriales ou encore les assureurs à gagner en efficacité et réactivité. Notre technologie
-            permet en <span style={{ fontWeight: 'bold' }}>1 clic détecter et analyser automatiquement</span> des objets d’intérêt, tels que{' '}
+            , aidant ainsi les artisans couvreurs, les collectivités territoriales ou encore les assureurs à gagner en efficacité et réactivité. Notre
+            technologie permet en <span style={{ fontWeight: 'bold' }}>1 clic détecter et analyser automatiquement</span> des objets d’intérêt, tels que{' '}
             <span style={{ fontWeight: 'bold' }}>
               l'état des toitures et végétations, la non-conformité d’un territoire ou les risques de sinistres facilitant ainsi la prise de décision.
             </span>
@@ -31,7 +33,14 @@ export function Hero() {
                 onClick={() => {
                   navigate('/craftsman');
                 }}
-                sx={{ px: 5, py: 2, fontSize: 16, color: PALETTE_COLORS.white, bgcolor: PALETTE_COLORS.forest, ":hover": { bgcolor: PALETTE_COLORS.neon_orange} }}
+                sx={{
+                  px: 5,
+                  py: 2,
+                  fontSize: 16,
+                  color: PALETTE_COLORS.white,
+                  bgcolor: PALETTE_COLORS.pine,
+                  ':hover': { bgcolor: PALETTE_COLORS.neon_orange },
+                }}
               >
                 Couvreurs
               </BpButton>
@@ -40,7 +49,14 @@ export function Hero() {
                   navigate('/collectivity');
                 }}
                 variant="outlined"
-                sx={{ px: 5, py: 2, fontSize: 16, ":hover": { color: PALETTE_COLORS.neon_orange, borderColor: PALETTE_COLORS.neon_orange}, color: PALETTE_COLORS.forest, borderColor: PALETTE_COLORS.forest}}
+                sx={{
+                  px: 5,
+                  py: 2,
+                  fontSize: 16,
+                  ':hover': { color: PALETTE_COLORS.neon_orange, borderColor: PALETTE_COLORS.neon_orange },
+                  color: PALETTE_COLORS.pine,
+                  borderColor: PALETTE_COLORS.pine,
+                }}
               >
                 Collectivités
               </BpButton>
@@ -49,7 +65,14 @@ export function Hero() {
                   navigate('/insurance');
                 }}
                 variant="outlined"
-                sx={{ px: 5, py: 2, fontSize: 16, ":hover": { color: PALETTE_COLORS.neon_orange, borderColor: PALETTE_COLORS.neon_orange }, color: PALETTE_COLORS.forest, borderColor: PALETTE_COLORS.forest }}
+                sx={{
+                  px: 5,
+                  py: 2,
+                  fontSize: 16,
+                  ':hover': { color: PALETTE_COLORS.neon_orange, borderColor: PALETTE_COLORS.neon_orange },
+                  color: PALETTE_COLORS.pine,
+                  borderColor: PALETTE_COLORS.pine,
+                }}
               >
                 Assurances
               </BpButton>
@@ -60,7 +83,7 @@ export function Hero() {
               rel="noreferrer"
               target="_blank"
               style={{
-                backgroundColor: PALETTE_COLORS.forest,
+                backgroundColor: PALETTE_COLORS.pine,
                 margin: '20px auto',
                 padding: '18px 0px',
                 width: '90%',
@@ -75,7 +98,7 @@ export function Hero() {
           </Stack>
         </Stack>
       </Container>
-      <Box sx={{ bgcolor: PALETTE_COLORS.forest, p: 5 }}>
+      <Box sx={{ bgcolor: PALETTE_COLORS.pine, p: 5 }}>
         <Container>
           <Box className="hero-images">
             <img src="/assets/images/hero/compiegne.jpg" alt="compiegne" />
