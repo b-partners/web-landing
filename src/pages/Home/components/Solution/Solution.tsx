@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { ImageGallery } from '@/common/components';
 
 import image1 from '../../assets/img/solutions/Image_1.png';
