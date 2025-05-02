@@ -3,6 +3,7 @@ import { PALETTE_COLORS } from '@/config/theme';
 import { SxProps } from '@mui/material';
 
 export const HeroStyle: SxProps = {
+  paddingBottom: '50px',
   '& .logo-container': {
     display: 'flex',
     justifyContent: 'center',
@@ -92,7 +93,7 @@ export const FeaturesStyle: SxProps = {
   },
   '& .card-grid': {
     display: 'grid',
-    gap: 10,
+    gap: 5,
     placeItems: 'center',
     placeContent: 'center',
     gridTemplateColumns: {
@@ -162,10 +163,10 @@ export const DetectionTypeStyle: SxProps = {
 
 export const RatingStyle: SxProps = {
   width: '100%',
-  minHeight: '80vh',
+  minHeight: '70vh',
   display: 'flex',
   flexDirection: 'column',
-  justifyContent: 'center',
+  justifyContent: 'stretch',
   alignItems: 'center',
   '& > .MuiTypography-root': {
     fontSize: 30,
@@ -180,8 +181,8 @@ export const RatingStyle: SxProps = {
       lg: '70%',
     },
     display: 'flex',
-    justifyContent: 'space-around',
-    alignItems: 'center',
+    justifyContent: 'space-between',
+    alignItems: 'stretch',
     flexWrap: 'wrap',
   },
   '& .MuiCard-root': {
@@ -191,9 +192,6 @@ export const RatingStyle: SxProps = {
       md: '70%',
       lg: '45%',
     },
-  },
-  '& .MuiCardContent-root': {
-    minHeight: 160,
   },
   '& .MuiCardContent-root > .MuiTypography-root:not(:first-of-type)': {
     marginTop: 4,
@@ -361,8 +359,8 @@ export const FrequentAskingQuestionStyle: SxProps = {
 
 export const ContactStyle: SxProps = {
   width: '100%',
-  minHeight: '50vh',
   display: 'flex',
+  paddingBlock: '50px',
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',

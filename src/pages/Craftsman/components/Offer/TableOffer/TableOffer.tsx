@@ -2,19 +2,39 @@ import { Link } from 'react-router-dom';
 
 import { BpButton } from '@/common/components/Button';
 import { redirect } from '@/utils/redirect';
-import { Box } from '@mui/material';
+import { CheckCircleOutlined } from '@mui/icons-material';
+import { Box, SxProps } from '@mui/material';
 
 import Developpement from '../../../assets/img/developpement.png';
 import Essentiel from '../../../assets/img/essentiel.png';
-import { RedundantTableLine } from './RedundantTableLine';
-import { OffersTableStyle } from './style';
+
+const OFFERS_TABLE_STYLE: SxProps = {
+  '& .cta-btn': { position: 'absolute', bottom: 0, transform: 'translateY(50%)', scale: 1.2 },
+};
+
+const RedundantTableLine = () => {
+  return (
+    <>
+      <div className="table-body-cell">
+        <p className="text-center">
+          <CheckCircleOutlined />
+        </p>
+      </div>
+      <div className="table-body-cell">
+        <p className="text-center">
+          <CheckCircleOutlined />
+        </p>
+      </div>
+    </>
+  );
+};
 
 export function TableOffer() {
   const goToSignUp = () => redirect('https://dashboard.bpartners.app/sign-up');
   const goToMeetTest = () => redirect('https://meet.brevo.com/bpartnersartisans/detection-dobjets-par-intelligence-artificielle-bpartners');
 
   return (
-    <Box sx={OffersTableStyle} className="offer__table-row bd-container">
+    <Box sx={OFFERS_TABLE_STYLE} className="offer__table-row bd-container">
       <div className="offer__table-first__column">
         <div className="offer__table-header">
           <h2 className="table__title">Nos Offres</h2>
@@ -49,18 +69,18 @@ export function TableOffer() {
         </div>
         <div className="table-body-cell">
           <p className="text-center">
-            <i className="fa fa-check" aria-hidden="true" />
+            <CheckCircleOutlined />
             <br />1 utilisateur
           </p>
         </div>
         <div className="table-body-cell">
           <p className="text-center">
-            <i className="fa fa-check" aria-hidden="true" />
+            <CheckCircleOutlined />
           </p>
         </div>
         <div className="table-body-cell">
           <p className="text-center">
-            <i className="fa fa-check" aria-hidden="true" />
+            <CheckCircleOutlined />
             <br />
             0,99% commission
           </p>
@@ -83,19 +103,19 @@ export function TableOffer() {
         </div>
         <div className="table-body-cell">
           <p className="text-center">
-            <i className="fa fa-check" aria-hidden="true" />
+            <CheckCircleOutlined />
             <br />
             Avec personnalisation & branchement, plusieurs métiers et utilisateurs
           </p>
         </div>
         <div className="table-body-cell">
           <p className="text-center">
-            <i className="fa fa-check" aria-hidden="true" />
+            <CheckCircleOutlined />
           </p>
         </div>
         <div className="table-body-cell">
           <p className="text-center">
-            <i className="fa fa-check" aria-hidden="true" />
+            <CheckCircleOutlined />
             <br />
             en fonction du volume
           </p>
