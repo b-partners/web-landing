@@ -38,8 +38,8 @@ export function Hero() {
                   py: 2,
                   fontSize: 16,
                   color: PALETTE_COLORS.white,
-                  bgcolor: PALETTE_COLORS.pine,
-                  ':hover': { bgcolor: PALETTE_COLORS.neon_orange },
+                  bgcolor: PALETTE_COLORS.neon_orange,
+                  ':hover': { bgcolor: PALETTE_COLORS.pine },
                 }}
               >
                 Couvreurs
@@ -53,9 +53,9 @@ export function Hero() {
                   px: 5,
                   py: 2,
                   fontSize: 16,
-                  ':hover': { color: PALETTE_COLORS.neon_orange, borderColor: PALETTE_COLORS.neon_orange },
-                  color: PALETTE_COLORS.pine,
-                  borderColor: PALETTE_COLORS.pine,
+                  ':hover': { color: PALETTE_COLORS.pine, borderColor: PALETTE_COLORS.pine },
+                  color: PALETTE_COLORS.neon_orange,
+                  borderColor: PALETTE_COLORS.neon_orange,
                 }}
               >
                 Collectivités
@@ -69,9 +69,9 @@ export function Hero() {
                   px: 5,
                   py: 2,
                   fontSize: 16,
-                  ':hover': { color: PALETTE_COLORS.neon_orange, borderColor: PALETTE_COLORS.neon_orange },
-                  color: PALETTE_COLORS.pine,
-                  borderColor: PALETTE_COLORS.pine,
+                  ':hover': { color: PALETTE_COLORS.pine, borderColor: PALETTE_COLORS.pine },
+                  color: PALETTE_COLORS.neon_orange,
+                  borderColor: PALETTE_COLORS.neon_orange,
                 }}
               >
                 Assurances
@@ -83,7 +83,7 @@ export function Hero() {
               rel="noreferrer"
               target="_blank"
               style={{
-                backgroundColor: PALETTE_COLORS.pine,
+                backgroundColor: PALETTE_COLORS.neon_orange,
                 margin: '20px auto',
                 padding: '18px 0px',
                 width: '90%',
