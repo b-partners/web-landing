@@ -8,7 +8,7 @@ import { Hero } from './components/Hero/index.ts';
 import { Partners } from './components/Partners/index.ts';
 import { Solution } from './components/Solution/index.js';
 
-export function Home() {
+export function Temp() {
   return (
     <Box>
       <Hero />

@@ -9,18 +9,18 @@ import { Collectivity } from '@pages/Collectivity';
 import { Contact } from '@pages/Contact';
 import { Craftsman } from '@pages/Craftsman/Craftsman';
 import { PdfReader } from '@pages/GCU/PdfReader';
-import { Home } from '@pages/Home';
+import { Home } from '@pages/home';
 import { Footer } from '@pages/Home/components/Footer';
-import { Header } from '@pages/Home/components/Header';
 import { Insurance } from '@pages/Insurance';
 import { useSnackbar } from '@store/snackbar';
 
 import { PALETTE_COLORS } from './config/theme';
+import { Navbar } from './common/components/navbar';
 
 const PublicLayout = () => {
   return (
     <>
-      <Header />
+      <Navbar />
       <Outlet />
       <Footer />
     </>
@@ -31,6 +31,10 @@ function App() {
   const { open } = useSnackbar();
 
   useEffect(() => {
+    if (true) {
+      return;
+    }
+
     open({
       type: 'success',
       message: 'Bienvenue sur BIRDIA, la nouvelle version de Bpartners !',
