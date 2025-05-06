@@ -53,7 +53,7 @@ export const Contact = () => {
           </Box>
         </Stack>
         <Stack>
-          <img onClick={scrollToTop} alt="b-logo" src="/assets/images/b-logo.png" />
+          <img onClick={scrollToTop} alt="logo" src="/assets/images/logo.png" />
         </Stack>
       </Stack>
     </Box>

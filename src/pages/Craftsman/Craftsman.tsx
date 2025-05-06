@@ -1,10 +1,10 @@
 import { IconList } from '@/common/components/IconList';
+import { PALETTE_COLORS } from '@/config/theme';
 import { Box, Paper, Typography } from '@mui/material';
 import CashRegisterEuro from '@pages/Home/assets/img/cash-register-euro.webp';
 import PaidBill from '@pages/Home/assets/img/paid-bill.webp';
 import QrCode from '@pages/Home/assets/img/qr-code-ext.webp';
 import VirtualBot from '@pages/Home/assets/img/virtual-bot.webp';
-import WelcomeSectionBg from '@pages/Home/assets/img/welcome-waves.webp';
 
 import './assets/css/spinner.css';
 import { Authenticity } from './components/Authenticity';
@@ -23,16 +23,7 @@ const textList = [
 export const Craftsman = () => {
   return (
     <Box sx={{ marginTop: '15vh' }}>
-      <section className="home" id="home">
-        <img
-          src={WelcomeSectionBg}
-          alt="waves-home"
-          style={{
-            position: 'absolute',
-            bottom: '-.18rem',
-            zIndex: '0',
-          }}
-        />
+      <section className="home" id="home" style={{ paddingBottom: '50px' }}>
         <div className="home__container bd-container bd-grid">
           <div className="home__data">
             <Typography variant="body2" sx={{ fontSize: '1.6rem' }}>
@@ -57,12 +48,13 @@ export const Craftsman = () => {
               className="home-registration-form"
               sx={{
                 padding: '20px',
+                bgcolor: PALETTE_COLORS.pine,
               }}
             >
-              <h2 className="registration-title">
+              <Typography variant="h2" sx={{ fontSize: '1.3rem', fontWeight: 'bold', color: PALETTE_COLORS.cream }}>
                 Curieux de voir comment gagner du temps et de nouveaux clients ? <br />
-              </h2>
-              <span>On vous montre ça en moins de 15 minutes dans une démo personnalisée.</span>
+              </Typography>
+              <Typography sx={{ color: PALETTE_COLORS.cream, mt: 1 }}>On vous montre ça en moins de 15 minutes dans une démo personnalisée.</Typography>
               <div className="home-registration-mail">
                 <button className="home-registration-button" type="button">
                   <a href="https://meet.brevo.com/bpartnersartisans/reunion-de-15-minutes" rel="noreferrer" target="_blank">

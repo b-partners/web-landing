@@ -1,3 +1,4 @@
+import { PALETTE_COLORS } from '@/config/theme';
 import { SxProps } from '@mui/material';
 
 export const HeroPageStyle: SxProps = {
@@ -9,7 +10,9 @@ export const HeroPageStyle: SxProps = {
     marginBlock: '15vh',
   },
   '& .header-title': {
+    color: PALETTE_COLORS.pine,
     fontWeight: 900,
+    position: 'relative',
     fontSize: {
       xs: '2rem',
       xl: '4.6rem',
@@ -20,6 +23,7 @@ export const HeroPageStyle: SxProps = {
     },
   },
   '& .header-description': {
+    color: PALETTE_COLORS.pine,
     fontSize: { lg: '18px', md: '16px', xs: '14' },
     mb: 4,
     width: {
@@ -38,17 +42,17 @@ export const HeroPageStyle: SxProps = {
   '& .hero-images > img:not(:first-child)': {
     position: 'absolute',
     width: {
-      xs: '50vw',
-      md: '30vw',
+      xs: '50%',
+      md: '40%',
     },
     height: {
-      xs: '30vh',
-      md: '35vh',
+      xs: '30%',
+      md: '35%',
     },
   },
   '& .hero-images > img:first-child': {
     minHeight: '70vh',
-    borderRadius: '2rem',
+    borderRadius: '1rem',
   },
   '& .hero-images > img:nth-child(2)': {
     bottom: '9px',

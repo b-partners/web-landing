@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
 import { GetInTouchForm } from '../../../Craftsman/components/GetInTouch/GetInTouch';
-import logo from '../../assets/img/logoFullWhite.webp';
 
 export function Footer() {
   const navigate = useNavigate();
@@ -12,8 +11,8 @@ export function Footer() {
         <div className="footer__column">
           <button type="button" className="nav__logo" onClick={() => navigate('/home')}>
             <a href="#home">
-              <img src={logo} alt="logo" style={{ width: '10.625rem' }} />
-              <p style={{ fontWeight: '100', color: 'white' }}>Copyright &copy; B.Partners 2022</p>
+              <img src="/assets/images/logo-white.png" alt="logo" style={{ width: '10rem' }} />
+              <p style={{ fontWeight: '100', color: 'white' }}>Copyright &copy; BIRDIA 2022</p>
             </a>
           </button>
         </div>

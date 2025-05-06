@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import { Navigate, Outlet, Route, Routes } from 'react-router-dom';
 
@@ -12,6 +13,9 @@ import { Home } from '@pages/Home';
 import { Footer } from '@pages/Home/components/Footer';
 import { Header } from '@pages/Home/components/Header';
 import { Insurance } from '@pages/Insurance';
+import { useSnackbar } from '@store/snackbar';
+
+import { PALETTE_COLORS } from './config/theme';
 
 const PublicLayout = () => {
   return (
@@ -24,6 +28,17 @@ const PublicLayout = () => {
 };
 
 function App() {
+  const { open } = useSnackbar();
+
+  useEffect(() => {
+    open({
+      type: 'success',
+      message: 'Bienvenue sur BIRDIA, la nouvelle version de Bpartners !',
+      alertProps: { sx: { alignItems: 'start', bgcolor: PALETTE_COLORS.neon_orange, mb: 5, py: 2, fontSize: '1.1rem', '& .MuiSvgIcon-root': { mt: '2px' } } },
+      snackbarProps: { autoHideDuration: 50_000 },
+    });
+  }, []);
+
   return (
     <>
       <Routes>

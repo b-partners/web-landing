@@ -3,10 +3,11 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import { CarouselItem } from '@/common/components/CarouselItem';
+import { PALETTE_COLORS } from '@/config/theme';
 
 export function Testimonial() {
   return (
-    <section className="testimonial">
+    <section className="testimonial" style={{ backgroundColor: PALETTE_COLORS.white, paddingBlock: '50px' }}>
       <h2 className="testimonial__title">Ils nous font confiance</h2>
       <Carousel showArrows infiniteLoop showThumbs={false} showStatus={false} autoPlay interval={5000}>
         <CarouselItem
@@ -18,7 +19,7 @@ export function Testimonial() {
         />
         <CarouselItem
           title=" '' Gain de TEMPS '' "
-          paragraph="Je gère seul mon activité et BPartners me permet de faire l'analyse
+          paragraph="Je gère seul mon activité et BIRDIA me permet de faire l'analyse
            des toits automatiquement, avec toutes les mesures pour anticiper mon intervention.
             Mes clients reçoivent le projet de réparation en moins de 24H."
           name="Jason H."

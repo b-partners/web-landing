@@ -1,4 +1,5 @@
-import { Alert, Box, Typography } from '@mui/material';
+import { PALETTE_COLORS } from '@/config/theme';
+import { Box, Typography } from '@mui/material';
 
 import { DetectionTypeStyle as style } from './styles';
 
@@ -18,9 +19,9 @@ export const DetectionType = () => {
       <Box className="content">
         <Typography>DÉTECTEZ TOUS TYPES D'OBJETS & ANOMALIES SUR VOS TOITURES</Typography>
         {detectionItemList.map((value, index) => (
-          <Alert icon={false} key={value + index} severity="info">
-            {value}
-          </Alert>
+          <Box key={value + index} sx={{ bgcolor: PALETTE_COLORS.pine, my: 1, py: 1, borderRadius: '8px', width: '80%' }}>
+            <Typography sx={{ fontSize: '1.2rem', textAlign: 'center', color: PALETTE_COLORS.white }}>{value}</Typography>
+          </Box>
         ))}
       </Box>
     </Box>

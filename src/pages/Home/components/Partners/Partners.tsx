@@ -51,7 +51,7 @@ const CAROUSEL_ITEMS: CarouselItem[] = [
 
 export function Partners() {
   return (
-    <section className="partners">
+    <section className="partners" style={{ backgroundColor: 'white', paddingBlock: '50px', margin: 0 }}>
       <h2 className="section-title">Ils nous font confiance</h2>
       <MultipleCarousel>
         {CAROUSEL_ITEMS.map((carousel) => (

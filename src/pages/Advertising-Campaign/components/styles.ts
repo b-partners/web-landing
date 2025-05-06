@@ -86,9 +86,8 @@ export const CTAStyle: SxProps = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  paddingBlock: 5,
   '& .MuiButton-root': {
-    fontSize: 25,
+    fontSize: 18,
     paddingInline: 5,
     paddingBlock: 2,
     textTransform: 'uppercase',

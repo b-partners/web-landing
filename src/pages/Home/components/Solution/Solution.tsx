@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { ImageGallery } from '@/common/components';
 
 import image1 from '../../assets/img/solutions/Image_1.png';
@@ -14,7 +12,7 @@ import image9 from '../../assets/img/solutions/Image_9.png';
 
 const IMAGES = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
 
-export function Solution() {
+export const Solution = () => {
   return (
     <section className="solution">
       <div className="bd-container">
@@ -30,4 +28,4 @@ export function Solution() {
       <ImageGallery images={IMAGES} />
     </section>
   );
-}
+};

@@ -1,7 +1,9 @@
 import { BP_COLOR } from '@/config';
+import { PALETTE_COLORS } from '@/config/theme';
 import { SxProps } from '@mui/material';
 
 export const HeroStyle: SxProps = {
+  paddingBottom: '50px',
   '& .logo-container': {
     display: 'flex',
     justifyContent: 'center',
@@ -28,11 +30,11 @@ export const HeroStyle: SxProps = {
     width: {
       xs: '95%',
       md: '80%',
-      lg: '70%',
+      lg: '90%',
     },
     height: '100%',
     padding: 2,
-    bgcolor: (theme) => (theme as any).palette.primary.light,
+    bgcolor: PALETTE_COLORS.pine,
   },
   '& .MuiTypography-root': {
     color: '#fff',
@@ -40,16 +42,16 @@ export const HeroStyle: SxProps = {
 };
 export const DistinctionStyle: SxProps = {
   width: '100%',
-  minHeight: '80vh',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   flexDirection: 'column',
+  bgcolor: PALETTE_COLORS.white,
+  mt: 5,
   padding: 5,
   '& > .MuiTypography-root': {
     fontSize: 30,
     fontWeight: 'bold',
-    marginBlock: 5,
     textAlign: 'center',
   },
   '& > .MuiBox-root': {
@@ -91,7 +93,7 @@ export const FeaturesStyle: SxProps = {
   },
   '& .card-grid': {
     display: 'grid',
-    gap: 10,
+    gap: 5,
     placeItems: 'center',
     placeContent: 'center',
     gridTemplateColumns: {
@@ -130,7 +132,7 @@ export const DetectionTypeStyle: SxProps = {
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
-    border: `2px solid #9c255a`,
+    border: `2px solid var(--pine)`,
     marginBlock: 5,
     borderRadius: 5,
     paddingBlock: 5,
@@ -161,10 +163,10 @@ export const DetectionTypeStyle: SxProps = {
 
 export const RatingStyle: SxProps = {
   width: '100%',
-  minHeight: '80vh',
+  minHeight: '70vh',
   display: 'flex',
   flexDirection: 'column',
-  justifyContent: 'center',
+  justifyContent: 'stretch',
   alignItems: 'center',
   '& > .MuiTypography-root': {
     fontSize: 30,
@@ -179,8 +181,8 @@ export const RatingStyle: SxProps = {
       lg: '70%',
     },
     display: 'flex',
-    justifyContent: 'space-around',
-    alignItems: 'center',
+    justifyContent: 'space-between',
+    alignItems: 'stretch',
     flexWrap: 'wrap',
   },
   '& .MuiCard-root': {
@@ -190,9 +192,6 @@ export const RatingStyle: SxProps = {
       md: '70%',
       lg: '45%',
     },
-  },
-  '& .MuiCardContent-root': {
-    minHeight: 160,
   },
   '& .MuiCardContent-root > .MuiTypography-root:not(:first-of-type)': {
     marginTop: 4,
@@ -212,7 +211,6 @@ export const PricingStyle: SxProps = {
     fontWeight: 'bold',
     paddingBlock: 5,
     textAlign: 'center',
-    color: '#004aad',
     mb: 10,
     width: {
       xs: '90%',
@@ -257,7 +255,7 @@ export const PricingStyle: SxProps = {
   },
   '& .pricing-item-list > .MuiStack-root > .MuiBox-root': {
     padding: 5,
-    bgcolor: (theme) => (theme as any).palette.primary.light,
+    bgcolor: (theme) => (theme as any).palette.secondary.light,
     height: '100%',
     display: 'flex',
     justifyContent: 'center',
@@ -281,7 +279,7 @@ export const PricingStyle: SxProps = {
     transition: 'all 100ms',
   },
   '& .pricing-item-list > .MuiStack-root > .MuiBox-root > .MuiButton-root:hover': {
-    bgcolor: (theme) => (theme as any).palette.primary.light,
+    bgcolor: (theme) => (theme as any).palette.secondary.light,
     scale: 1.1,
   },
   '& .pricing-item-list > .MuiStack-root:first-child > .MuiBox-root': {
@@ -291,7 +289,7 @@ export const PricingStyle: SxProps = {
     borderRadius: '0 0 1rem 1rem',
     bgcolor: {
       xs: 'transparent',
-      md: BP_COLOR[10],
+      md: PALETTE_COLORS.pine,
     },
   },
   '& .pricing-item-list > .MuiStack-root > .MuiBox-root > .MuiTypography-root': {
@@ -361,12 +359,11 @@ export const FrequentAskingQuestionStyle: SxProps = {
 
 export const ContactStyle: SxProps = {
   width: '100%',
-  minHeight: '50vh',
   display: 'flex',
+  paddingBlock: '50px',
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  marginBlock: 10,
   '& > .MuiTypography-root': {
     fontSize: 30,
     fontWeight: 'bold',

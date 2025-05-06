@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 import { BpButton } from '@/common/components/Button';
+import { PALETTE_COLORS } from '@/config/theme';
 import { Menu as MenuIcon } from '@mui/icons-material';
 import { AppBar, Box, IconButton, Stack, Toolbar } from '@mui/material';
 import { useDialog } from '@store/dialog';
@@ -39,12 +40,14 @@ export function Header() {
     <AppBar ref={appBarRef} sx={HeaderAppBarStyle}>
       <Toolbar>
         <Link to="/home" onClick={gotToHome}>
-          <img src="/assets/images/logo.png" alt="logo" />
+          <img src="/assets/images/logo.png" alt="logo" style={{ height: '40px' }} />
         </Link>
         <Stack direction="row" spacing={2}>
           {links.map(({ to, label }) => (
             <Link key={to} to={to}>
-              <BpButton variant="text">{label}</BpButton>
+              <BpButton sx={{ color: PALETTE_COLORS.pine }} variant="text">
+                {label}
+              </BpButton>
             </Link>
           ))}
         </Stack>

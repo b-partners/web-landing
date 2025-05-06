@@ -1,3 +1,4 @@
+import { PALETTE_COLORS } from '@/config/theme';
 import { CheckCircleOutline } from '@mui/icons-material';
 import { Box, Button, Divider, Stack, Typography, useMediaQuery, useTheme } from '@mui/material';
 
@@ -17,7 +18,7 @@ export const Pricing = () => {
 
   return (
     <Box sx={style}>
-      <Typography>
+      <Typography sx={{ color: PALETTE_COLORS.neon_orange }}>
         Découvrez le seul outil d'inspection de toiture qui garantit une qualité d'image et une analyse précise, le tout sans se déplacer !
       </Typography>
       <Box className="pricing-item-list">
@@ -47,7 +48,7 @@ export const Pricing = () => {
         <Stack direction="row">
           <Typography></Typography>
           <Box>
-            <Button onClick={reserveDemo} variant="contained">
+            <Button onClick={reserveDemo} variant="contained" sx={{ bgcolor: PALETTE_COLORS.neon_orange }}>
               RÉSERVEZ VOTRE DÉMO
             </Button>
           </Box>
