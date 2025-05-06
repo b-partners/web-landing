@@ -48,7 +48,7 @@ export const Pricing = () => {
         <Stack direction="row">
           <Typography></Typography>
           <Box>
-            <Button onClick={reserveDemo} variant="contained" sx={{ bgcolor: PALETTE_COLORS.forest }}>
+            <Button onClick={reserveDemo} variant="contained" sx={{ bgcolor: PALETTE_COLORS.neon_orange }}>
               RÉSERVEZ VOTRE DÉMO
             </Button>
           </Box>

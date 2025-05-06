@@ -883,8 +883,7 @@ img[alt="mobile_image"] {
     }
 
     .footer__container {
-        flex-direction: column;
-        background-image: linear-gradient(to right, rgba(71, 24, 70), rgba(188, 83, 96));
+      flex-direction: column;
     }
 
     .footer_registration {

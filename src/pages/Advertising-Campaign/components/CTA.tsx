@@ -1,6 +1,5 @@
 import { FC } from 'react';
 
-import { PALETTE_COLORS } from '@/config/theme';
 import { Box, Button, SxProps } from '@mui/material';
 
 import { CTAStyle } from './styles';
@@ -11,7 +10,7 @@ export const createAnAccount = () => window.open('https://dashboard.bpartners.ap
 export const CTAButton: FC<{ sx?: SxProps }> = ({ sx = {} }) => {
   return (
     <Box sx={CTAStyle}>
-      <Button variant="contained" onClick={reserveDemo} sx={{ bgcolor: PALETTE_COLORS.pine, ...sx }}>
+      <Button variant="contained" onClick={reserveDemo} sx={{ ...sx }}>
         Réservez votre démo
       </Button>
     </Box>
@@ -21,8 +20,8 @@ export const CTAButton: FC<{ sx?: SxProps }> = ({ sx = {} }) => {
 export const CreateAccountButton: FC<{ sx?: SxProps }> = ({ sx = {} }) => {
   return (
     <Box sx={CTAStyle}>
-      <Button variant="contained" onClick={createAnAccount} sx={{ bgcolor: PALETTE_COLORS.pine, ...sx }}>
-        Essai gratuit 14 jour
+      <Button variant="contained" onClick={createAnAccount} sx={{ ...sx }}>
+        Essai gratuit 14 jours
       </Button>
     </Box>
   );
