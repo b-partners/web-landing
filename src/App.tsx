@@ -31,15 +31,11 @@ function App() {
   const { open } = useSnackbar();
 
   useEffect(() => {
-    if (true) {
-      return;
-    }
-
     open({
       type: 'success',
       message: 'Bienvenue sur BIRDIA, la nouvelle version de Bpartners !',
-      alertProps: { sx: { alignItems: 'start', bgcolor: PALETTE_COLORS.neon_orange, mb: 5, py: 2, fontSize: '1.1rem', '& .MuiSvgIcon-root': { mt: '2px' } } },
-      snackbarProps: { autoHideDuration: 50_000 },
+      alertProps: { sx: { alignItems: 'start', bgcolor: PALETTE_COLORS.pine, color: PALETTE_COLORS.white, mb: 5, py: 2, fontSize: '1.1rem', '& .MuiSvgIcon-root': { mt: '2px' } } },
+      snackbarProps: { anchorOrigin: { vertical: "bottom", horizontal: "center" }, autoHideDuration: 50_000 },
     });
   }, []);
 
