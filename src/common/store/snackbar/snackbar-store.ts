@@ -9,7 +9,7 @@ export const useSnackbar = create<TSnackbarStore>()((set) => ({
   close() {
     set({ isOpen: false, message: '' });
   },
-  open({ message, type }) {
-    set({ isOpen: true, message, type });
+  open({ snackbarProps, alertProps, message, type }) {
+    set({ isOpen: true, alertProps, snackbarProps, message, type });
   },
 }));
