@@ -45,7 +45,7 @@ export const TargetItem: FC<{ target: TargetType }> = ({ target }) => {
         <Typography sx={{ mt: 3, fontSize: { xs: '1rem', xl: '1.4rem' }, textAlign: 'center' }}>{target.description}</Typography>
       </Box>
       <Box sx={{ width: '100%', mt: 5 }}>
-        <img style={{ width: '100%', borderRadius: "30px" }} src={target.img} alt={target.title} />
+        <img style={{ width: '100%', borderRadius: '30px' }} src={target.img} alt={target.title} />
         <LinkButton sx={{ mt: 2, px: 8, width: 'fit-content', fontSize: '1.3rem', display: 'block', mx: 'auto' }} to={target.link}>
           Découvrir
         </LinkButton>
