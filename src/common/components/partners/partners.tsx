@@ -1,5 +1,6 @@
-import { MultipleCarousel } from '@/common/components';
 import { Box } from '@mui/material';
+
+import { MultipleCarousel } from '../Carousel';
 
 type CarouselItem = {
   src: string;

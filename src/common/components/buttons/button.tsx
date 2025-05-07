@@ -68,11 +68,11 @@ export const LinkButton: FC<ButtonProps & { to: string }> = ({ children, ...prop
   );
 };
 
-export const Button: FC<ButtonProps> = ({ color = 'neon_orange', sx = {}, children, ...props }) => {
-  const sxColor = props.variant !== 'contained' ? ({} as Partial<SxProps>) : BUTTON_COLOR[color];
+export const Button: FC<ButtonProps> = ({ color = 'neon_orange', variant = 'contained', sx = {}, children, ...props }) => {
+  const sxColor = variant !== 'contained' ? ({} as Partial<SxProps>) : BUTTON_COLOR[color];
 
   return (
-    <MuiButton variant="contained" sx={{ fontSize: { sm: '0.7rem', lg: '0.8rem', xl: '1rem' }, ...sxColor, ...sx } as SxProps} {...props}>
+    <MuiButton variant={variant} sx={{ fontSize: { sm: '0.7rem', lg: '0.8rem', xl: '1rem' }, ...sxColor, ...sx } as SxProps} {...props}>
       {children}
     </MuiButton>
   );

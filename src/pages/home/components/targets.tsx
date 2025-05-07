@@ -23,7 +23,8 @@ export const Targets = () => {
           fontWeight: 'bold',
           fontSize: {
             xs: '3rem',
-            md: '5rem',
+            md: '3rem',
+            xl: '5rem',
             xxl: '7rem',
           },
         }}

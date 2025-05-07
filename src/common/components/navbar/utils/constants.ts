@@ -4,5 +4,5 @@ export const LINKS = [
   { to: '/collectivity', label: 'Collectivité' },
   { to: '/insurance', label: 'Assurance' },
   { to: '/about', label: 'À propos' },
-  { to: '/resources', label: 'Resources' },
+  { to: '/contact', label: 'Contact' },
 ];

@@ -3,13 +3,13 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 import { Navigate, Outlet, Route, Routes } from 'react-router-dom';
 
 import { GlobalDialog, GlobalSnackbar } from '@/common/components';
+import { Footer } from '@/common/components/footer';
 import { About } from '@pages/About';
 import { AdvertisingCampaign } from '@pages/Advertising-Campaign';
 import { Collectivity } from '@pages/Collectivity';
 import { Contact } from '@pages/Contact';
 import { Craftsman } from '@pages/Craftsman/Craftsman';
 import { PdfReader } from '@pages/GCU/PdfReader';
-import { Footer } from '@pages/Home/components/Footer';
 import { Insurance } from '@pages/Insurance';
 import { Home } from '@pages/home';
 import { useSnackbar } from '@store/snackbar';

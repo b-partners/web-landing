@@ -27,7 +27,7 @@ export const Hero = () => {
   return (
     <Box component="header" sx={HOME_SX}>
       <FlexBox sx={{ ...HOME_CONTAINER_SX, justifyContent: shouldShowDrawer ? 'center' : 'end' }}>
-        <FlexBox sx={{ flexDirection: 'column', alignItems: 'start', gap: 4, maxWidth: { sm: '1000px', xxl: '1200px' } }}>
+        <FlexBox sx={{ flexDirection: 'column', alignItems: 'start', gap: 4, maxWidth: { sm: '800px', xl: '1000px', xxl: '1200px' } }}>
           <Typography
             variant="h2"
             sx={{
@@ -35,16 +35,19 @@ export const Hero = () => {
               color: 'white',
               fontWeight: 600,
               fontSize: {
-                xs: '3rem',
-                sm: '4rem',
-                md: '5rem',
+                xs: '2rem',
+                sm: '3rem',
+                md: '3.3rem',
+                xl: '5rem',
                 xxl: '7rem',
               },
             }}
           >
             Valorisez ce que vous voyez depuis le ciel
           </Typography>
-          <Typography sx={{ textAlign: shouldShowDrawer ? 'center' : 'start', fontSize: { xs: '1rem', md: '1.3rem', xxl: '2rem' }, color: 'white' }}>
+          <Typography
+            sx={{ textAlign: shouldShowDrawer ? 'center' : 'start', fontSize: { xs: '1rem', md: '1.2rem', xl: '1.3rem', xxl: '2rem' }, color: 'white' }}
+          >
             BIRDIA analyse automatiquement les toitures à partir d’images aériennes ultra haute définition (5 cm de précision). Grâce à notre intelligence
             artificielle, couvreurs, assureurs, collectivité peuvent, en un clic, détecter l’état d’usure, les zones à risque ou les signes de dégradation d’une
             toiture, sans avoir à se déplacer.

@@ -1,14 +1,13 @@
-import { ImageGallery } from '@/common/components';
-
-import image1 from '../../assets/img/solutions/Image_1.png';
-import image2 from '../../assets/img/solutions/Image_2.png';
-import image3 from '../../assets/img/solutions/Image_3.png';
-import image4 from '../../assets/img/solutions/Image_4.png';
-import image5 from '../../assets/img/solutions/Image_5.png';
-import image6 from '../../assets/img/solutions/Image_6.png';
-import image7 from '../../assets/img/solutions/Image_7.png';
-import image8 from '../../assets/img/solutions/Image_8.png';
-import image9 from '../../assets/img/solutions/Image_9.png';
+import { ImageGallery } from '../ImageGallery';
+import image1 from './assets/images/Image_1.png';
+import image2 from './assets/images/Image_2.png';
+import image3 from './assets/images/Image_3.png';
+import image4 from './assets/images/Image_4.png';
+import image5 from './assets/images/Image_5.png';
+import image6 from './assets/images/Image_6.png';
+import image7 from './assets/images/Image_7.png';
+import image8 from './assets/images/Image_8.png';
+import image9 from './assets/images/Image_9.png';
 
 const IMAGES = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
 

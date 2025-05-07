@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
-import { GetInTouchForm } from '../../../Craftsman/components/GetInTouch/GetInTouch';
+import { GetInTouchForm } from '../get-in-touch';
 
 export function Footer() {
   const navigate = useNavigate();

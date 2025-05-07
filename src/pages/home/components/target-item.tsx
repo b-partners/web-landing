@@ -32,7 +32,8 @@ export const TargetItem: FC<{ target: TargetType }> = ({ target }) => {
             fontWeight: 'bold',
             fontSize: {
               xs: '2rem',
-              md: '2.8rem',
+              md: '2.5rem',
+              xl: '2.8rem',
               xxl: '2.2rem',
             },
           }}
