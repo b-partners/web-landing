@@ -22,7 +22,7 @@ export const Analayse = () => {
           <AnalayseItem key={analyse.title} analyse={analyse} />
         ))}
       </Box>
-      <Box sx={{ flex: 1, bgcolor: 'white', p: 5, minWidth: '700px' }}>
+      <FlexBox sx={{ flexDirection: 'column', px: 6, flex: 1, bgcolor: 'white', p: 5, minWidth: '700px' }}>
         <Typography
           variant="h2"
           sx={{
@@ -37,7 +37,7 @@ export const Analayse = () => {
         >
           Analyse automatisée de toitures par intelligence artificielle
         </Typography>
-        <Typography sx={{ fontSize: { xs: '1rem', xl: '1.3rem' }, textAlign: 'center', mt: 5, maxWidth: '1200px', mx: 'auto' }}>
+        <Typography sx={{ px: 6, fontSize: { xs: '1rem', xl: '1.3rem' }, textAlign: 'center', mt: 5, maxWidth: '1200px', mx: 'auto' }}>
           Détection, qualification et recommandation à partir d’images aériennes HD. En un clic, obtenez un diagnostic métier précis sans monter sur le toit.
         </Typography>
         <FlexBox sx={{ mt: 3 }}>
@@ -57,7 +57,7 @@ export const Analayse = () => {
             Testez sans engagement
           </LinkButton>
         </FlexBox>
-      </Box>
+      </FlexBox>
     </FlexBox>
   );
 };

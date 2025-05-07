@@ -11,6 +11,7 @@ const ANALAYSE_ITEM_SX: SxProps = {
   flexDirection: 'column',
   minHeight: '300px',
   height: '33.33%',
+  minWidth: '300px',
 };
 
 export const AnalayseItem: FC<{ analyse: AnalayseType }> = ({ analyse }) => {
