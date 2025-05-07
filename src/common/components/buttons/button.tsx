@@ -1,9 +1,9 @@
 import { FC } from 'react';
+import { Link } from 'react-router-dom';
 
+import { Env } from '@/common/utils/env';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Button as MuiButton, ButtonProps as MuiButtonProps, SxProps } from '@mui/material';
-import { Link } from 'react-router-dom';
-import { Env } from '@/common/utils/env';
 
 export type ButtonColor = 'pine' | 'neon_orange' | 'white' | 'forest';
 
@@ -45,34 +45,28 @@ const BUTTON_COLOR: Record<ButtonColor, Partial<SxProps>> = {
 };
 
 export const CTAButton: FC<ButtonProps> = (props) => {
-  // TODO: REFACTOR: MuiButtonProps doesn't infer passed component props
-  const propsValues = {
-    component: Link,
-    to: Env.CTA_URL,
-    ...props
-  } as ButtonProps
-
   return (
-    <Button {...propsValues}>
+    <LinkButton to={Env.CTA_URL} {...props}>
       Réserver votre démo
-    </Button>
-  )
-}
+    </LinkButton>
+  );
+};
 
 export const LoginButton: FC<ButtonProps> = (props) => {
-  // TODO: REFACTOR: MuiButtonProps doesn't infer passed component props
-  const propsValues = {
-    component: Link,
-    to: Env.DASHBOARD_LOGIN_URL,
-    ...props
-  } as ButtonProps
-
   return (
-    <Button {...propsValues}>
+    <LinkButton to={Env.DASHBOARD_LOGIN_URL} {...props}>
       Se connecter
+    </LinkButton>
+  );
+};
+
+export const LinkButton: FC<ButtonProps & { to: string }> = ({ children, ...props }) => {
+  return (
+    <Button component={Link} {...(props as ButtonProps)}>
+      {children}
     </Button>
-  )
-}
+  );
+};
 
 export const Button: FC<ButtonProps> = ({ color = 'neon_orange', sx = {}, children, ...props }) => {
   const sxColor = props.variant !== 'contained' ? ({} as Partial<SxProps>) : BUTTON_COLOR[color];
@@ -83,4 +77,3 @@ export const Button: FC<ButtonProps> = ({ color = 'neon_orange', sx = {}, childr
     </MuiButton>
   );
 };
-

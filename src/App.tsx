@@ -39,7 +39,7 @@ function App() {
           alignItems: 'start',
           bgcolor: PALETTE_COLORS.peach,
           color: PALETTE_COLORS.white,
-          fontWeight: "bold",
+          fontWeight: 'bold',
           mb: 5,
           py: 2,
           fontSize: '1.1rem',

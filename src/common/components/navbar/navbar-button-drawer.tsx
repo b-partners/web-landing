@@ -51,8 +51,8 @@ export const NavbarButtonDrawer = () => {
                 {label}
               </Button>
             ))}
-            <CTAButton sx={{ mt: 2, width: "100%" }} />
-            <LoginButton variant='outlined' sx={{ width: "100%", fontWeight: "bold" }} />
+            <CTAButton sx={{ mt: 2, width: '100%' }} />
+            <LoginButton variant="outlined" sx={{ width: '100%', fontWeight: 'bold' }} />
           </FlexBox>
         </FlexBox>
       </Drawer>

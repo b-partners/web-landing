@@ -88,7 +88,7 @@ const NavbarContent = () => {
       </FlexBox>
       <FlexBox sx={{ gap: 5 }}>
         <CTAButton color="forest" />
-        <LoginButton variant='text' sx={{ fontWeight: "bold" }} />
+        <LoginButton variant="text" />
       </FlexBox>
     </FlexBox>
   );

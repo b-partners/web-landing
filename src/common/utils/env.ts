@@ -12,8 +12,4 @@ const createEnv = <T extends string>(envs: T[]): Record<T, string> => {
   );
 };
 
-export const Env = createEnv([
-  "CTA_URL",
-  "DASHBOARD_LOGIN_URL",
-  "DASHBOARD_REGISTRATION_URL"
-]);
+export const Env = createEnv(['CTA_URL', 'DASHBOARD_LOGIN_URL', 'DASHBOARD_REGISTRATION_URL']);
