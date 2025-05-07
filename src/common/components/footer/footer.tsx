@@ -9,7 +9,7 @@ import { FlexBox } from '../flex-box';
 
 const LinkItem: FC<{ to: string; label: string }> = ({ label, to }) => {
   return (
-    <Link to={to} target="_blank" style={{fontSize: "1.1rem", textDecoration: 'underline' }}>
+    <Link to={to} target="_blank" style={{ fontSize: '1.1rem', textDecoration: 'underline' }}>
       {label}
     </Link>
   );
