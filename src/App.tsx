@@ -9,13 +9,13 @@ import { Collectivity } from '@pages/Collectivity';
 import { Contact } from '@pages/Contact';
 import { Craftsman } from '@pages/Craftsman/Craftsman';
 import { PdfReader } from '@pages/GCU/PdfReader';
-import { Home } from '@pages/home';
 import { Footer } from '@pages/Home/components/Footer';
 import { Insurance } from '@pages/Insurance';
+import { Home } from '@pages/home';
 import { useSnackbar } from '@store/snackbar';
 
-import { PALETTE_COLORS } from './config/theme';
 import { Navbar } from './common/components/navbar';
+import { PALETTE_COLORS } from './config/theme';
 
 const PublicLayout = () => {
   return (
@@ -34,8 +34,19 @@ function App() {
     open({
       type: 'success',
       message: 'Bienvenue sur BIRDIA, la nouvelle version de Bpartners !',
-      alertProps: { sx: { alignItems: 'start', bgcolor: PALETTE_COLORS.pine, color: PALETTE_COLORS.white, mb: 5, py: 2, fontSize: '1.1rem', '& .MuiSvgIcon-root': { mt: '2px' } } },
-      snackbarProps: { anchorOrigin: { vertical: "bottom", horizontal: "center" }, autoHideDuration: 50_000 },
+      alertProps: {
+        sx: {
+          alignItems: 'start',
+          bgcolor: PALETTE_COLORS.peach,
+          color: PALETTE_COLORS.white,
+          fontWeight: "bold",
+          mb: 5,
+          py: 2,
+          fontSize: '1.1rem',
+          '& .MuiSvgIcon-root': { mt: '2px' },
+        },
+      },
+      snackbarProps: { anchorOrigin: { vertical: 'bottom', horizontal: 'center' }, autoHideDuration: 50_000 },
     });
   }, []);
 
