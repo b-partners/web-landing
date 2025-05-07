@@ -2,9 +2,9 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 import { RESPONSIVE } from '@/common/components';
+import { DistinctionItem } from '@/common/components/distinction';
+import { DISTINCTION_CAROUSEL_ITEMS } from '@/common/components/distinction/constant';
 import { Box, Typography } from '@mui/material';
-import { DistinctionItem } from '@pages/Home/components/Distinction';
-import { DISTINCTION_CAROUSEL_ITEMS } from '@pages/Home/components/Distinction/constant';
 
 import { DistinctionStyle as style } from './styles';
 

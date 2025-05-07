@@ -1,15 +1,15 @@
+import { GetInTouch } from '@/common/components';
 import { IconList } from '@/common/components/IconList';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Box, Paper, Typography } from '@mui/material';
-import CashRegisterEuro from '@pages/Home/assets/img/cash-register-euro.webp';
-import PaidBill from '@pages/Home/assets/img/paid-bill.webp';
-import QrCode from '@pages/Home/assets/img/qr-code-ext.webp';
-import VirtualBot from '@pages/Home/assets/img/virtual-bot.webp';
 
 import './assets/css/spinner.css';
+import CashRegisterEuro from './assets/img/cash-register-euro.webp';
+import PaidBill from './assets/img/paid-bill.webp';
+import QrCode from './assets/img/qr-code-ext.webp';
+import VirtualBot from './assets/img/virtual-bot.webp';
 import { Authenticity } from './components/Authenticity';
 import { Feature } from './components/Feature';
-import { GetInTouch } from './components/GetInTouch';
 import { Offer } from './components/Offer';
 import { Testimonial } from './components/Testimonial';
 

@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { Partners } from '@pages/Home/components/Partners';
+import { Partners } from '@/common/components/partners';
 
 import { Comparison } from './components/Comparison';
 import { Offer } from './components/Offer';
