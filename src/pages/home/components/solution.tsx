@@ -102,8 +102,8 @@ export const Solution = () => {
             </LinkButton>
           </FlexBox>
         </Box>
-        <FlexBox sx={{ minWidth: '400px', flex: 1, justifyContent: 'end' }}>
-          <img src={'/assets/images/b-image.png'} alt="BIRDIA" style={{ width: '90%', maxWidth: '550px' }} />
+        <FlexBox sx={{ minWidth: '400px', flex: 1, mt: { xs: 5, md: 0 }, justifyContent: { xs: 'center', md: 'end' } }}>
+          <img src={'/assets/images/b-image.png'} alt="BIRDIA" style={{ width: '80%', maxWidth: '400px' }} />
         </FlexBox>
       </FlexBox>
     </Box>

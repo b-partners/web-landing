@@ -1,4 +1,4 @@
-import { Analayse, Hero, Solution, Targets } from './components';
+import { Analayse, Hero, Movies, Solution, Targets } from './components';
 
 export const Home = () => {
   return (
@@ -7,6 +7,7 @@ export const Home = () => {
       <Targets />
       <Analayse />
       <Solution />
+      <Movies />
     </>
   );
 };
