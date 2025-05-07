@@ -1,71 +1,96 @@
-import { useNavigate } from 'react-router-dom';
+import { FC } from 'react';
+import { Link } from 'react-router-dom';
 
-import { GetInTouchForm } from '../get-in-touch';
+import { PALETTE_COLORS } from '@/config/theme';
+import { Facebook, Instagram, LinkedIn, X, YouTube } from '@mui/icons-material';
+import { Box, Divider, IconButton, Typography } from '@mui/material';
 
-export function Footer() {
-  const navigate = useNavigate();
+import { FlexBox } from '../flex-box';
 
+const LinkItem: FC<{ to: string; label: string }> = ({ label, to }) => {
   return (
-    <section className="footer">
-      <div className="footer__container">
-        <div className="footer__column">
-          <button type="button" className="nav__logo" onClick={() => navigate('/home')}>
-            <a href="#home">
-              <img src="/assets/images/logo-white.png" alt="logo" style={{ width: '10rem' }} />
-              <p style={{ fontWeight: '100', color: 'white' }}>Copyright &copy; BIRDIA 2022</p>
-            </a>
-          </button>
-        </div>
-        <div className="navigation_link">
-          <h4 className="footer_subtitle">LIENS IMPORTANTS</h4>
-          <ul className="navigation_link_list">
-            <li>
-              <button className="navigation-button" type="button" onClick={() => navigate('/home')}>
-                <a href="#home">Présentation</a>
-              </button>
-            </li>
-            <li>
-              <button className="navigation-button" type="button" onClick={() => navigate('/about')}>
-                <a href="#description">À propos de nous</a>
-              </button>
-            </li>
-            <li>
-              <button className="navigation-button" type="button" onClick={() => navigate('/contact')}>
-                <a href="#location">Nous contacter</a>
-              </button>
-            </li>
-            <li>
-              <button className="navigation-button" type="button">
-                <a href={process.env.REACT_APP_DASHBOARD_LOGIN_URL}>Mon compte</a>
-              </button>
-            </li>
-            <li>
-              <button className="navigation-button" type="button" onClick={() => navigate('/legal-mention')}>
-                <a href="#CGU">Mentions Légales</a>
-              </button>
-            </li>
-            <li>
-              <button className="navigation-button" type="button" onClick={() => navigate('/general-conditions-of-use')}>
-                <a href="#CGU">Conditions générales d'utilisation</a>
-              </button>
-            </li>
-            <li>
-              <button className="navigation-button" type="button" onClick={() => navigate('/privacy-policy')}>
-                <a href="#CGU">Politique de protection des données</a>
-              </button>
-            </li>
-            <li>
-              <button className="navigation-button" type="button">
-                <a href="https://landing-bpartners.s3.eu-west-3.amazonaws.com/Inge%CC%81nieur+IA+H_F.pdf">Nous recrutons !</a>
-              </button>
-            </li>
-          </ul>
-        </div>
-        <div className="footer_registration">
-          <h4 className="footer_subtitle">RESTER INFORMÉ</h4>
-          <GetInTouchForm />
-        </div>
-      </div>
-    </section>
+    <Link to={to} target="_blank" style={{fontSize: "1.1rem", textDecoration: 'underline' }}>
+      {label}
+    </Link>
   );
-}
+};
+
+export const Footer = () => {
+  return (
+    <Box component="footer" sx={{ '& *': { color: 'black !important' }, width: '100%', py: 5, px: 8, bgcolor: PALETTE_COLORS.pine, minHeight: '350px' }}>
+      <FlexBox sx={{ flexDirection: 'column', position: 'relative', width: '1OO%', minHeight: '350px', height: '100%' }}>
+        <FlexBox
+          sx={{
+            top: 0,
+            left: 0,
+            zIndex: 9,
+            width: '100%',
+            height: '100%',
+            position: 'absolute',
+            backgroundSize: '85%',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            backgroundImage: "url('/assets/images/logo-pine.png')",
+          }}
+        />
+        <FlexBox sx={{ width: '100%', justifyContent: 'start', alignItems: 'stretch', zIndex: 99 }}>
+          <FlexBox sx={{ alignItems: 'start', flexDirection: 'column', justifyContent: 'space-between', gap: 4, flex: 1 }}>
+            <Typography sx={{ fontSize: '1.2rem', fontWeight: 'bold' }}>Contact:</Typography>
+            <Box sx={{ width: '100%' }}>
+              <Typography style={{ fontSize: '1rem', fontWeight: 'bold', textDecoration: 'underline' }}>06 68 62 48 36</Typography>
+              <Link to="mailto:contact@bpartners.app" style={{ textDecoration: 'underline' }}>
+                contact@bpartners.app
+              </Link>
+            </Box>
+            <FlexBox sx={{ color: PALETTE_COLORS.black, gap: 1 }}>
+              <IconButton href="/home">
+                <Facebook />
+              </IconButton>
+              <IconButton href="/home">
+                <Instagram />
+              </IconButton>
+              <IconButton href="/home">
+                <X />
+              </IconButton>
+              <IconButton href="/home">
+                <LinkedIn />
+              </IconButton>
+              <IconButton href="/home">
+                <YouTube />
+              </IconButton>
+            </FlexBox>
+          </FlexBox>
+          <FlexBox sx={{ alignItems: 'start', flexDirection: 'column', gap: 4, flex: 1 }}>
+            <LinkItem to="/home" label="link1" />
+            <LinkItem to="/home" label="link2" />
+            <LinkItem to="/home" label="link3" />
+            <LinkItem to="/home" label="link4" />
+            <LinkItem to="/home" label="link5" />
+          </FlexBox>
+          <FlexBox sx={{ alignItems: 'start', flexDirection: 'column', gap: 4, flex: 1 }}>
+            <LinkItem to="/home" label="link1" />
+            <LinkItem to="/home" label="link2" />
+            <LinkItem to="/home" label="link3" />
+            <LinkItem to="/home" label="link4" />
+            <LinkItem to="/home" label="link5" />
+          </FlexBox>
+        </FlexBox>
+        <Divider sx={{ zIndex: 99, height: '1px', my: 3, bgcolor: PALETTE_COLORS.cream, width: '100%' }} />
+        <FlexBox sx={{ zIndex: 99, width: '100%', justifyContent: 'space-between' }}>
+          <Typography sx={{ fontSize: '1rem' }}>© 2025 Relume. All rights reserved.</Typography>
+          <FlexBox sx={{ gap: 5 }}>
+            <Link to="#" style={{ textDecoration: 'underline' }}>
+              Privacy Policy
+            </Link>
+            <Link to="#" style={{ textDecoration: 'underline' }}>
+              Terms of Service
+            </Link>
+            <Link to="#" style={{ textDecoration: 'underline' }}>
+              Cookies Settings
+            </Link>
+          </FlexBox>
+        </FlexBox>
+      </FlexBox>
+    </Box>
+  );
+};

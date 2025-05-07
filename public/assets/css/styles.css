@@ -800,43 +800,6 @@ img[alt="mobile_image"] {
     height: 3.5rem;
 }
 
-/*========== FOOTER ==========*/
-.footer {
-    padding-block: 3rem !important;
-    background-color: var(--pine);
-}
-
-.footer__container {
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 1rem;
-}
-
-.footer_subtitle {
-    color: white;
-    font-weight: 600;
-}
-
-.navigation_link_list > li a {
-    color: white;
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-.navigation_link_list > li :hover {
-    text-decoration: underline;
-}
-
-.navigation-button {
-    background-color: transparent;
-    color: white;
-    border: none;
-    font-size: 1rem;
-    font-weight: lighter;
-    cursor: pointer;
-}
-
 .navigation-registration-button {
     background-color: white;
     border: 1px solid transparent;
