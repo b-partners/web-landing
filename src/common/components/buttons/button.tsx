@@ -72,7 +72,7 @@ export const Button: FC<ButtonProps> = ({ color = 'neon_orange', variant = 'cont
   const sxColor = variant !== 'contained' ? ({} as Partial<SxProps>) : BUTTON_COLOR[color];
 
   return (
-    <MuiButton variant={variant} sx={{ fontSize: { sm: '0.7rem', lg: '0.8rem', xl: '1rem' }, ...sxColor, ...sx } as SxProps} {...props}>
+    <MuiButton variant={variant} sx={{ fontSize: { sm: '0.7rem', lg: '0.8rem', xl: '1rem' }, fontWeight: 'normal', ...sxColor, ...sx } as SxProps} {...props}>
       {children}
     </MuiButton>
   );
