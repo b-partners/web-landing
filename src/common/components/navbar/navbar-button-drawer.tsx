@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Close as CloseIcon, Menu as MenuIcon } from '@mui/icons-material';
 import { Drawer, IconButton, SxProps } from '@mui/material';
 
-import { Button } from '../buttons';
+import { Button, CTAButton, LoginButton } from '../buttons';
 import { FlexBox } from '../flex-box';
 import { LINKS } from './utils/constants';
 
@@ -51,12 +51,8 @@ export const NavbarButtonDrawer = () => {
                 {label}
               </Button>
             ))}
-            <Button sx={{ mt: 2, width: '100%' }} color="neon_orange">
-              Réservez votre démo
-            </Button>
-            <Button variant="outlined" sx={{ width: '100%', fontWeight: 'bold' }}>
-              Se connecter
-            </Button>
+            <CTAButton sx={{ mt: 2, width: "100%" }} />
+            <LoginButton variant='outlined' sx={{ width: "100%", fontWeight: "bold" }} />
           </FlexBox>
         </FlexBox>
       </Drawer>

@@ -1,6 +1,7 @@
 import { FlexBox } from '@/common/components';
+import { CTAButton, LoginButton } from '@/common/components/buttons';
+import { Box, Divider, SxProps, Typography, useMediaQuery } from '@mui/material';
 import { PALETTE_COLORS } from '@/config/theme';
-import { Box, Button, Divider, SxProps, Typography, useMediaQuery } from '@mui/material';
 
 const HOME_SX: SxProps = {
   width: '100%',
@@ -55,22 +56,18 @@ export const Home = () => {
             Notre technologie permet ainsi de gagner un temps précieux, de fiabiliser les <br /> diagnostics et de faciliter la prise de décision.
           </Typography>
           <FlexBox sx={{ gap: 4 }}>
-            <Button sx={{ fontSize: '1rem', bgcolor: PALETTE_COLORS.neon_orange, color: 'white', '&:hover': { bgcolor: PALETTE_COLORS.pine }, px: 2 }}>
-              Réservez votre démo
-            </Button>
-            <Button
+            <CTAButton />
+            <LoginButton
               variant="text"
               sx={{
+                px: 2,
                 fontSize: '1rem',
                 bgcolor: 'white',
-                px: 2,
                 color: PALETTE_COLORS.black,
                 fontWeight: 'bold',
                 '&:hover': { bgcolor: PALETTE_COLORS.pine, color: 'white' },
               }}
-            >
-              Se connecter
-            </Button>
+            />
           </FlexBox>
         </FlexBox>
       </FlexBox>

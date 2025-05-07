@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { PALETTE_COLORS } from '@/config/theme';
 import { SxProps, Typography, useMediaQuery } from '@mui/material';
 
-import { Button } from '../buttons';
+import { CTAButton, LoginButton } from '../buttons';
 import { FlexBox } from '../flex-box';
 import { NavbarButtonDrawer } from './navbar-button-drawer';
 import { LINKS } from './utils/constants';
@@ -87,10 +87,8 @@ const NavbarContent = () => {
         ))}
       </FlexBox>
       <FlexBox sx={{ gap: 5 }}>
-        <Button color="forest">Réservez votre démo</Button>
-        <Button sx={{ fontWeight: 'bold' }} variant="text">
-          Se connecter
-        </Button>
+        <CTAButton color="forest" />
+        <LoginButton variant='text' sx={{ fontWeight: "bold" }} />
       </FlexBox>
     </FlexBox>
   );
