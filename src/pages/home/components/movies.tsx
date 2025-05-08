@@ -2,8 +2,6 @@ import { FlexBox } from '@/common/components';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Box, SxProps, Typography } from '@mui/material';
 
-import poster from '../assets/images/keys.png';
-
 const MOVIES_SX: SxProps = {
   flexWrap: 'wrap',
   width: '100%',
@@ -13,8 +11,24 @@ const MOVIES_SX: SxProps = {
 export const Movies = () => {
   return (
     <FlexBox component="section" sx={MOVIES_SX}>
-      <FlexBox sx={{ mx: 2, justifyContent: { xs: 'center', md: 'end' }, flex: 1, minWidth: '400px' }}>
-        <img src={poster} style={{ width: '100%', borderRadius: '30px', maxWidth: '600px' }} alt="BIRDIA" />
+      <FlexBox
+        sx={{
+          mx: 2,
+          '& #birdia-movie': { height: { xs: '300px', md: '400px', lg: '500px' }, width: { xs: '90%', md: '700px' } },
+          justifyContent: { xs: 'center', lg: 'end' },
+          flex: 1,
+          minWidth: '400px',
+        }}
+      >
+        <iframe
+          id="birdia-movie"
+          width="700px"
+          height="500px"
+          style={{ borderRadius: '30px' }}
+          allowFullScreen
+          title="BIRDIA"
+          src="https://youtube.com/embed/B2qkOKyKkp0?autoplay=0"
+        />
       </FlexBox>
       <Box sx={{ flex: 1, minWidth: '450px' }}>
         <FlexBox sx={{ flexDirection: 'column', gap: 3, alignItems: { xs: 'center', md: 'start' }, py: 5, px: 4, minHeight: '250px', bgcolor: 'white' }}>

@@ -23,7 +23,7 @@ const HOME_CONTAINER_SX: SxProps = {
 
 export const Hero = () => {
   return (
-    <Box component="header" sx={HOME_SX}>
+    <Box id="home" component="header" sx={HOME_SX}>
       <FlexBox sx={{ ...HOME_CONTAINER_SX, justifyContent: 'center' }}>
         <FlexBox sx={{ flexDirection: 'column', mx: 'auto', gap: 4, maxWidth: { sm: '800px', xl: '1000px', xxl: '1200px' } }}>
           <Typography

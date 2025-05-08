@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { Link } from 'react-router-dom';
 
 import { PALETTE_COLORS } from '@/config/theme';
-import { Facebook, Instagram, LinkedIn, X, YouTube } from '@mui/icons-material';
+import { Facebook, Instagram, LinkedIn, YouTube } from '@mui/icons-material';
 import { Box, Divider, IconButton, Typography, useMediaQuery, useTheme } from '@mui/material';
 
 import { FlexBox } from '../flex-box';
@@ -17,26 +17,23 @@ const LinkItem: FC<{ to: string; label: string }> = ({ label, to }) => {
 
 const SocialLinkWithLabel = () => (
   <>
-    <LinkItem to="/home" label="Facebook" />
-    <LinkItem to="/home" label="Intagram" />
-    <LinkItem to="/home" label="X" />
-    <LinkItem to="/home" label="LinkedIn" />
-    <LinkItem to="https://www.youtube.com/@birdia6145" label="YouTube" />
+    <LinkItem to="/about" label="À propos de nous" />
+    <LinkItem to="/contact" label="Nous contacter" />
+    <LinkItem to="https://drive.google.com/file/d/1gHtYOvrZAARjX-QSi5csl6a1MXB7cVHB/view?usp=sharing" label="Mentions Légales" />
+    <LinkItem to="https://drive.google.com/file/d/1opfu-5QgQ-e0AKfXJ8coW6aIaQIAE2_k/view?usp=sharing" label="Conditions générales d'utilisation" />
+    <LinkItem to="https://drive.google.com/file/d/1R_IPruPnFnOajYlmbJVNvUSIhBeCt-sy/view?usp=sharing" label="Politique de protection des données" />
   </>
 );
 
 const SocialLinks = () => (
   <>
-    <IconButton href="/home">
+    <IconButton href="https://www.facebook.com/profile.php?id=100086704691881">
       <Facebook />
     </IconButton>
-    <IconButton href="/home">
+    <IconButton href="https://www.instagram.com/bpartners_ia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
       <Instagram />
     </IconButton>
-    <IconButton href="/home">
-      <X />
-    </IconButton>
-    <IconButton href="/home">
+    <IconButton href="https://www.linkedin.com/company/birdia/posts/?feedView=all&viewAsMember=true">
       <LinkedIn />
     </IconButton>
     <IconButton href="https://www.youtube.com/@birdia6145">
@@ -87,25 +84,34 @@ export const Footer = () => {
             <SocialLinkWithLabel />
           </FlexBox>
           <FlexBox sx={{ alignItems: 'start', flexDirection: 'column', gap: 4, flex: 1 }}>
-            <LinkItem to="/home" label="link1" />
-            <LinkItem to="/home" label="link2" />
-            <LinkItem to="/home" label="link3" />
-            <LinkItem to="/home" label="link4" />
-            <LinkItem to="/home" label="link5" />
+            <LinkItem to="https://www.birdia.info/post/dpe-toiture" label="DPE Toiture" />
+            <LinkItem to="https://www.birdia.info/post/assurance-habitation-pr%C3%A9ventive" label="Assurance habitation préventive" />
+            <LinkItem
+              to="https://www.bpartners.blog/post/valorisation-des-images-pcrs-des-cas-d-usage-concrets-pour-les-collectivit%C3%A9ssous-titre-exploitez"
+              label="Valorisation images HD"
+            />
+            <LinkItem
+              to="https://www.birdia.info/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
+              label="Durabilité du bâti"
+            />
+            <LinkItem
+              to="https://www.birdia.info/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
+              label="Couvreur 2.0"
+            />
           </FlexBox>
         </FlexBox>
         <Divider sx={{ zIndex: 99, height: '1px', my: 3, bgcolor: PALETTE_COLORS.cream, width: '100%' }} />
         <FlexBox sx={{ zIndex: 99, width: '100%', justifyContent: 'space-between' }}>
           <Typography sx={{ fontSize: '1rem' }}>© 2025 Relume. All rights reserved.</Typography>
           <FlexBox sx={{ gap: 5 }}>
-            <Link to="#" style={{ textDecoration: 'underline' }}>
-              Privacy Policy
+            <Link to="https://drive.google.com/file/d/1gHtYOvrZAARjX-QSi5csl6a1MXB7cVHB/view?usp=sharing" style={{ textDecoration: 'underline' }}>
+              Mentions Légales
             </Link>
-            <Link to="#" style={{ textDecoration: 'underline' }}>
-              Terms of Service
+            <Link to="https://drive.google.com/file/d/1opfu-5QgQ-e0AKfXJ8coW6aIaQIAE2_k/view?usp=sharing" style={{ textDecoration: 'underline' }}>
+              Conditions générales d'utilisation
             </Link>
-            <Link to="#" style={{ textDecoration: 'underline' }}>
-              Cookies Settings
+            <Link to="https://drive.google.com/file/d/1R_IPruPnFnOajYlmbJVNvUSIhBeCt-sy/view?usp=sharing" style={{ textDecoration: 'underline' }}>
+              Politique de protection des données
             </Link>
           </FlexBox>
         </FlexBox>
@@ -121,11 +127,20 @@ const MdFooter = () => {
         <SocialLinkWithLabel />
       </FlexBox>
       <FlexBox sx={{ alignItems: 'center', flexDirection: 'column', gap: 4, flex: 1 }}>
-        <LinkItem to="/home" label="link1" />
-        <LinkItem to="/home" label="link2" />
-        <LinkItem to="/home" label="link3" />
-        <LinkItem to="/home" label="link4" />
-        <LinkItem to="/home" label="link5" />
+        <LinkItem to="https://www.birdia.info/post/dpe-toiture" label="DPE Toiture" />
+        <LinkItem to="https://www.birdia.info/post/assurance-habitation-pr%C3%A9ventive" label="Assurance habitation préventive" />
+        <LinkItem
+          to="https://www.bpartners.blog/post/valorisation-des-images-pcrs-des-cas-d-usage-concrets-pour-les-collectivit%C3%A9ssous-titre-exploitez"
+          label="Valorisation images HD"
+        />
+        <LinkItem
+          to="https://www.birdia.info/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
+          label="Durabilité du bâti"
+        />
+        <LinkItem
+          to="https://www.birdia.info/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
+          label="Couvreur 2.0"
+        />
       </FlexBox>
       <Divider sx={{ zIndex: 99, height: '1px', my: 3, bgcolor: PALETTE_COLORS.cream, width: '100%' }} />
       <FlexBox sx={{ alignItems: 'center', flexDirection: 'column', justifyContent: 'space-between', gap: 4, flex: 1 }}>
@@ -143,14 +158,14 @@ const MdFooter = () => {
       <Divider sx={{ zIndex: 99, height: '1px', my: 3, bgcolor: PALETTE_COLORS.cream, width: '100%' }} />
       <FlexBox sx={{ flexDirection: 'column', zIndex: 99, width: '100%', justifyContent: 'space-between' }}>
         <FlexBox sx={{ gap: 2, flexDirection: 'column' }}>
-          <Link to="#" style={{ textDecoration: 'underline' }}>
-            Privacy Policy
+          <Link to="https://drive.google.com/file/d/1gHtYOvrZAARjX-QSi5csl6a1MXB7cVHB/view?usp=sharing" style={{ textDecoration: 'underline' }}>
+            Mentions Légales
           </Link>
-          <Link to="#" style={{ textDecoration: 'underline' }}>
-            Terms of Service
+          <Link to="https://drive.google.com/file/d/1opfu-5QgQ-e0AKfXJ8coW6aIaQIAE2_k/view?usp=sharing" style={{ textDecoration: 'underline' }}>
+            Conditions générales d'utilisation
           </Link>
-          <Link to="#" style={{ textDecoration: 'underline' }}>
-            Cookies Settings
+          <Link to="https://drive.google.com/file/d/1R_IPruPnFnOajYlmbJVNvUSIhBeCt-sy/view?usp=sharing" style={{ textDecoration: 'underline' }}>
+            Politique de protection des données
           </Link>
         </FlexBox>
         <Typography sx={{ fontSize: '1rem', mt: 3 }}>© 2025 Relume. All rights reserved.</Typography>
