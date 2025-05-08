@@ -8,7 +8,7 @@ import { TargetItem } from './target-item';
 const TARGET_SX: SxProps = {
   width: '100%',
   minHeight: '100vh',
-  p: { xs: 10, xxl: 15 },
+  p: { xs: 5, md: 10, xxl: 15 },
   bgcolor: PALETTE_COLORS.pine,
 };
 
@@ -21,11 +21,12 @@ export const Targets = () => {
           color: PALETTE_COLORS.cream,
           textAlign: 'center',
           fontWeight: 'bold',
+          mx: 'auto',
+          maxWidth: { xl: '1200px', xxl: '1500px' },
           fontSize: {
             xs: '3rem',
-            md: '3rem',
-            xl: '5rem',
-            xxl: '7rem',
+            xl: '4rem',
+            xxl: '6rem',
           },
         }}
       >

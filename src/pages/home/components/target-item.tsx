@@ -32,15 +32,15 @@ export const TargetItem: FC<{ target: TargetType }> = ({ target }) => {
             fontWeight: 'bold',
             fontSize: {
               xs: '2rem',
-              md: '2.5rem',
-              xl: '2.8rem',
-              xxl: '2.2rem',
+              md: '2.3rem',
+              xl: '2.5rem',
+              xxl: '2.7rem',
             },
           }}
         >
           {target.title}
         </Typography>
-        <Typography variant="h3" sx={{ fontWeight: 600, mt: 3, fontSize: '1.6rem', textAlign: 'center' }}>
+        <Typography variant="h3" sx={{ fontWeight: 600, mt: 3, fontSize: { xs: '1.2rem', md: '1.4rem' }, textAlign: 'center' }}>
           {target.subtitle}
         </Typography>
         <Typography sx={{ mt: 3, fontSize: { xs: '1rem', xl: '1.4rem' }, textAlign: 'center' }}>{target.description}</Typography>
