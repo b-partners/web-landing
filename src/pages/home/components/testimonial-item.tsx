@@ -11,7 +11,7 @@ export const TestimonialItem: FC<{ testimonial: Testimonial }> = ({ testimonial 
   const stars = useMemo(() => new Array(testimonial.star).fill(0), [testimonial.star]);
 
   return (
-    <Box sx={{ pr: 5, pb: 7 }}>
+    <Box sx={{ pr: { xs: 0, md: 5 }, pb: { xs: 0, md: 7 } }}>
       <FlexBox
         sx={{
           p: 5,

@@ -24,12 +24,12 @@ export const AnalayseItem: FC<{ analyse: AnalayseType }> = ({ analyse }) => {
           maxWidth: '640px',
           textAlign: 'center',
           color: analyse.color,
-          fontSize: { xs: '1.6rem', sm: '2rem', xl: '2.4rem', xxl: '2.7rem' },
+          fontSize: { xs: '1.6rem', sm: '1.8rem', xl: '2rem', xxl: '2.5rem' },
         }}
       >
         {analyse.title}
       </Typography>
-      <Typography sx={{ textAlign: 'center', maxWidth: '700px', color: analyse.color, fontSize: '1.5rem', mt: 3 }}>{analyse.description}</Typography>
+      <Typography sx={{ textAlign: 'center', maxWidth: '700px', color: analyse.color, fontSize: '1.3rem', mt: 3 }}>{analyse.description}</Typography>
     </FlexBox>
   );
 };

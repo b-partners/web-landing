@@ -2,18 +2,26 @@ import { FlexBox } from '@/common/components';
 import { CTAButton, LinkButton } from '@/common/components/buttons';
 import { Env } from '@/common/utils/env';
 import { PALETTE_COLORS } from '@/config/theme';
-import { Box, Divider, SxProps, Typography } from '@mui/material';
+import { Box, Divider, SxProps, Typography, useMediaQuery, useTheme } from '@mui/material';
 
 const SOLUTION_SX: SxProps = {
   p: { xs: 10, xxl: 15 },
 };
 
 export const Solution = () => {
+  const theme = useTheme();
+  const md = useMediaQuery(theme.breakpoints.up('md'));
+
   return (
     <Box sx={SOLUTION_SX}>
       <Typography
         variant="h2"
-        sx={{ textAlign: { xs: 'center', md: 'start' }, fontWeight: 'bold', color: PALETTE_COLORS.forest, fontSize: { xs: '1.8rem', md: '2rem', xl: '3rem' } }}
+        sx={{
+          textAlign: { xs: 'center', md: 'start' },
+          fontWeight: 'bold',
+          color: PALETTE_COLORS.forest,
+          fontSize: { xs: '1.8rem', md: '2rem', xl: '2.8rem', xxl: '3rem' },
+        }}
       >
         Une solution de terrain,
         <br />
@@ -102,8 +110,8 @@ export const Solution = () => {
             </LinkButton>
           </FlexBox>
         </Box>
-        <FlexBox sx={{ minWidth: '400px', flex: 1, mt: { xs: 5, md: 0 }, justifyContent: { xs: 'center', md: 'end' } }}>
-          <img src={'/assets/images/b-image.png'} alt="BIRDIA" style={{ width: '80%', maxWidth: '400px' }} />
+        <FlexBox sx={{ minWidth: '400px', flex: 1, mt: { xs: 5, md: 0 }, justifyContent: { xs: 'center', lg: 'end' } }}>
+          <img src={'/assets/images/b-image.png'} alt="BIRDIA" style={{ width: '80%', maxWidth: md ? '400px' : '300px' }} />
         </FlexBox>
       </FlexBox>
     </Box>

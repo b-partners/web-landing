@@ -28,7 +28,7 @@ export const RESPONSIVE: ResponsiveType = {
 
 const TESTIMONIAL_SX: SxProps = {
   '& .react-multi-carousel-dot-list': {
-    justifyContent: 'start',
+    justifyContent: { xs: 'center', md: 'start' },
   },
   '& .react-multi-carousel-dot button': {
     border: 'none !important',
@@ -44,12 +44,20 @@ export const Testimonials = () => {
     <Box
       component="section"
       sx={{
-        p: { xs: 10, xxl: 15 },
+        p: { xs: 2, md: 10, xxl: 15 },
         bgcolor: 'white',
       }}
     >
       <Box sx={TESTIMONIAL_SX}>
-        <Typography sx={{ fontWeight: 'bold', fontSize: { xs: '2rem', md: '2.5rem' }, mb: { xs: 3, md: 5, xl: 7 }, color: PALETTE_COLORS.neon_orange }}>
+        <Typography
+          sx={{
+            textAlign: { xs: 'center', md: 'start' },
+            fontWeight: 'bold',
+            fontSize: { xs: '2rem', md: '2.5rem' },
+            mb: { xs: 3, md: 5, xl: 7 },
+            color: PALETTE_COLORS.neon_orange,
+          }}
+        >
           Témoignages clients
         </Typography>
         <Carousel
@@ -82,7 +90,7 @@ export const Testimonials = () => {
       </Box>
       <FlexBox
         sx={{
-          px: 5,
+          px: { xs: 2, md: 5 },
           py: 10,
           gap: 5,
           flexDirection: 'column',
@@ -100,12 +108,12 @@ export const Testimonials = () => {
             textAlign: 'center',
             fontWeight: 'bold',
             color: PALETTE_COLORS.white,
-            fontSize: { xs: '3rem', md: '3.5rem', xl: '4rem' },
+            fontSize: { xs: '2.4rem', md: '3.5rem', xl: '4rem' },
           }}
         >
           Passez à l’analyse intelligente, sans compléxité
         </Typography>
-        <FlexBox sx={{ gap: 5 }}>
+        <FlexBox sx={{ gap: { xs: 2, md: 5 } }}>
           <CTAButton />
           <LinkButton color="white" to={Env.DASHBOARD_REGISTRATION_URL}>
             Tester gratuitement

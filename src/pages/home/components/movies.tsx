@@ -20,7 +20,7 @@ export const Movies = () => {
         <FlexBox sx={{ flexDirection: 'column', gap: 3, alignItems: { xs: 'center', md: 'start' }, py: 5, px: 4, minHeight: '250px', bgcolor: 'white' }}>
           <Typography
             variant="h3"
-            sx={{ textAlign: { xs: 'center', md: 'start' }, fontWeight: 'bold', fontSize: { xs: '1.8rem', xl: '2.5rem', xxl: '2.8rem' } }}
+            sx={{ textAlign: { xs: 'center', md: 'start' }, fontWeight: 'bold', fontSize: { xs: '1.8rem', xl: '2.2rem', xxl: '2.6rem' } }}
           >
             <span style={{ color: PALETTE_COLORS.neon_orange }}>Rentabilité</span>
             {'  '}

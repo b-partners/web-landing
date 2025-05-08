@@ -28,7 +28,8 @@ export const Analayse = () => {
           sx={{
             maxWidth: '1000px',
             mx: 'auto',
-            width: '100%',
+            width: { xs: '90%', md: '100%' },
+            px: { xs: 5, md: 0 },
             textAlign: 'center',
             color: PALETTE_COLORS.neon_orange,
             fontWeight: 'bold',
@@ -37,7 +38,9 @@ export const Analayse = () => {
         >
           Analyse automatisée de toitures par intelligence artificielle
         </Typography>
-        <Typography sx={{ px: 6, fontSize: { xs: '1rem', xl: '1.3rem' }, textAlign: 'center', mt: 5, maxWidth: '1200px', mx: 'auto' }}>
+        <Typography
+          sx={{ width: { xs: '60%', md: '100%' }, fontSize: { xs: '1rem', xl: '1.3rem' }, textAlign: 'center', mt: 5, maxWidth: '1200px', mx: 'auto' }}
+        >
           Détection, qualification et recommandation à partir d’images aériennes HD. En un clic, obtenez un diagnostic métier précis sans monter sur le toit.
         </Typography>
         <FlexBox sx={{ mt: 3 }}>
