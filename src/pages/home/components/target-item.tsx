@@ -6,7 +6,7 @@ import { Box, Card, SxProps, Typography } from '@mui/material';
 import { TargetType } from '../utils/constant';
 
 const TARGET_ITEM_SX: SxProps = {
-  p: 5,
+  p: 3,
   flex: 1,
   display: 'flex',
   bgcolor: 'white',

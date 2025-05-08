@@ -4,3 +4,4 @@ export * from './targets';
 export * from './analyse';
 export * from './movies';
 export * from './testimonials';
+export * from './partners';

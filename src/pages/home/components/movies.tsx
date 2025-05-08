@@ -11,7 +11,15 @@ const MOVIES_SX: SxProps = {
 export const Movies = () => {
   return (
     <FlexBox component="section" sx={MOVIES_SX}>
-      <FlexBox sx={{ mx: 2, "& #birdia-movie": { height: { xs: '300px', md: '400px', lg: '500px' }, width: { xs: '90%', md: '700px' } }, justifyContent: { xs: 'center', lg: 'end' }, flex: 1, minWidth: '400px' }}>
+      <FlexBox
+        sx={{
+          mx: 2,
+          '& #birdia-movie': { height: { xs: '300px', md: '400px', lg: '500px' }, width: { xs: '90%', md: '700px' } },
+          justifyContent: { xs: 'center', lg: 'end' },
+          flex: 1,
+          minWidth: '400px',
+        }}
+      >
         <iframe
           id="birdia-movie"
           width="700px"
