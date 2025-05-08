@@ -43,7 +43,7 @@ export const TargetItem: FC<{ target: TargetType }> = ({ target }) => {
         <Typography variant="h3" sx={{ fontWeight: 600, mt: 3, fontSize: { xs: '1.2rem', md: '1.4rem' }, textAlign: 'center' }}>
           {target.subtitle}
         </Typography>
-        <Typography sx={{ mt: 3, fontSize: { xs: '1rem', xl: '1.4rem' }, textAlign: 'center' }}>{target.description}</Typography>
+        <Typography sx={{ mt: 3, maxWidth: '450px', fontSize: { xs: '1rem', xl: '1.2rem' }, textAlign: 'center' }}>{target.description}</Typography>
       </Box>
       <Box sx={{ width: '100%', mt: 5 }}>
         <img style={{ width: '100%', borderRadius: '30px' }} src={target.img} alt={target.title} />
