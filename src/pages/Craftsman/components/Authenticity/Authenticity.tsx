@@ -86,7 +86,7 @@ export function Authenticity() {
               <BirdiaPoints />
             </div>
             <div className="mobile__task__image" style={{ marginTop: '5px' }}>
-              <LazyLoadImage src={Laptop} width="358" alt={Laptop} effect="blur" />
+              <LazyLoadImage src={Laptop} width="358" alt={Laptop} effect="blur" style={{ marginTop: '30px' }} />
             </div>
           </div>
         </div>
