@@ -2,28 +2,32 @@ import { CSSProperties } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { PALETTE_COLORS } from '@/config/theme';
+import { Typography } from '@mui/material';
 
 import InsuranceShow from './assets/img/insurance-show.jpg';
 import { Headline } from './components';
 
 const INSURANCE_SHOW_STYLE: CSSProperties = {
   width: '100%',
+  marginBottom: '50px',
+  borderRadius: '5px',
 };
 
 export const Insurance = () => {
   return (
     <div>
-      <div className="bd-container">
-        <Headline />
-      </div>
-      <div style={{ backgroundColor: PALETTE_COLORS.white, paddingBlock: '30px' }}>
+      <Headline />
+      <div>
         <div className="bd-container">
-          <div style={{ marginTop: '50px' }}>
-            <h2 className="trust-subtitle">Ils nous font confiance</h2>
-            <p>
+          <div style={{ marginBlock: '50px' }}>
+            <Typography variant="h2" sx={{ fontSize: { xs: '1.5rem', md: '2rem' }, color: PALETTE_COLORS.forest, fontWeight: 'bold' }}>
+              {' '}
+              Ils nous font confiance
+            </Typography>
+            <Typography sx={{ fontSize: { xs: '1.rem', md: '1.1rem' }, mt: 2 }}>
               BIRDIA est lauréat du concours French AssurTech 2024 regroupant 7 assureurs et mutuelles d’assurances (Groupama, MACIF, MAIF, Groupe P&V, Mutuelle
               de Poitiers Assurances, MAAF COVEA et CNP Assurances).
-            </p>
+            </Typography>
           </div>
           <LazyLoadImage src={InsuranceShow} alt="InsuranceShow" style={INSURANCE_SHOW_STYLE} />
         </div>

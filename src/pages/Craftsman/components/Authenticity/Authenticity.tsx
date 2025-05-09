@@ -1,60 +1,48 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { PALETTE_COLORS } from '@/config/theme';
+import { Article, BarChart, Build, CheckCircle, Handshake, Plagiarism, Public, RequestQuote, Search, Security, SmartToy } from '@mui/icons-material';
 import { Box, Container, Typography } from '@mui/material';
 
 import { ShareCard } from '../../../../common/components/ShareCard';
 import Laptop from '../../assets/img/laptop.png';
-import {
-  Article,
-  Plagiarism,
-  RequestQuote,
-  SmartToy,
-  CheckCircle,
-  Search,
-  BarChart,
-  Build,
-  Security,
-  Public,
-  Handshake
-} from '@mui/icons-material';
 
 const points = [
   {
     icon: <CheckCircle />,
-    text: "Un assistant expert, pas un remplaçant : Notre IA simule le regard métier d’un couvreur expérimenté",
+    text: 'Un assistant expert, pas un remplaçant : Notre IA simule le regard métier d’un couvreur expérimenté',
   },
   {
     icon: <Search />,
-    text: "Pré-diagnostics à distance : Détection des zones à risque, des dégradations, et mesure de la pente et des hauteurs… sans monter sur le toit.",
+    text: 'Pré-diagnostics à distance : Détection des zones à risque, des dégradations, et mesure de la pente et des hauteurs… sans monter sur le toit.',
   },
   {
     icon: <BarChart />,
-    text: "Plus de chantiers, moins de temps perdu : Gagnez en productivité en concentrant vos déplacements uniquement sur les projets prioritaires.",
+    text: 'Plus de chantiers, moins de temps perdu : Gagnez en productivité en concentrant vos déplacements uniquement sur les projets prioritaires.',
   },
   {
     icon: <Handshake />,
-    text: "Une nouvelle expérience client : Fournissez à vos prospects un rapport technique clair dès la première prise de contact.",
+    text: 'Une nouvelle expérience client : Fournissez à vos prospects un rapport technique clair dès la première prise de contact.',
   },
   {
     icon: <Build />,
-    text: "Réduction de la pénibilité : Moins d’allers-retours sur les toitures, plus de temps passé à réparer.",
+    text: 'Réduction de la pénibilité : Moins d’allers-retours sur les toitures, plus de temps passé à réparer.',
   },
   {
     icon: <Security />,
-    text: "Moins de risques de chute : En évitant les diagnostics physiques systématiques, vous sécurisez vos équipes.",
+    text: 'Moins de risques de chute : En évitant les diagnostics physiques systématiques, vous sécurisez vos équipes.',
   },
   {
     icon: <Public />,
-    text: "Une innovation française, née de la recherche publique : BIRDIA est une solution deeptech développée pour et avec les artisans.",
+    text: 'Une innovation française, née de la recherche publique : BIRDIA est une solution deeptech développée pour et avec les artisans.',
   },
-]
+];
 
 export default function BirdiaPoints() {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', mt: 4, gap: 2 }}>
       {points.map((point, index) => {
-        const [title, description] = point.text.split(/ *: */)
+        const [title, description] = point.text.split(/ *: */);
         return (
           <Box key={index} sx={{ display: 'flex', alignItems: 'start', gap: 1 }}>
             {point.icon}
@@ -62,10 +50,10 @@ export default function BirdiaPoints() {
               <span style={{ fontWeight: 'bold' }}>{title}:</span> {description}
             </Typography>
           </Box>
-        )
+        );
       })}
     </Box>
-  )
+  );
 }
 export function Authenticity() {
   return (
@@ -75,7 +63,11 @@ export function Authenticity() {
           <div className="share__container  bd-container">
             <ShareCard cardTitle="Saisissez une adresse : " cardText="notre IA localise et extrait l’image de la toiture." icon={<SmartToy />} />
             <ShareCard cardTitle="Lancez l’analyse : " cardText="matériaux, pentes, usure, humidité et plus encore." icon={<Plagiarism />} />
-            <ShareCard cardText="exploitable pour vos devis ou la préparation des travaux." cardTitle="Obtenez un rapport visuel clair :" icon={<RequestQuote />} />
+            <ShareCard
+              cardText="exploitable pour vos devis ou la préparation des travaux."
+              cardTitle="Obtenez un rapport visuel clair :"
+              icon={<RequestQuote />}
+            />
             <ShareCard cardTitle="Planifiez vos interventions : " cardText="en fonction de la gravité et de l’urgence." icon={<Article />} />
           </div>
         </Container>
@@ -88,7 +80,8 @@ export function Authenticity() {
                 Une technologie engagée au service des artisans couvreurs
               </h3>
               <p style={{ textAlign: 'justify' }}>
-                Fruit de la recherche française, notre technologie unique reproduit le raisonnement d’un expert couvreur à partir d’images aériennes ultra haute définition.
+                Fruit de la recherche française, notre technologie unique reproduit le raisonnement d’un expert couvreur à partir d’images aériennes ultra haute
+                définition.
               </p>
               <BirdiaPoints />
             </div>
@@ -96,7 +89,7 @@ export function Authenticity() {
               <LazyLoadImage src={Laptop} width="358" alt={Laptop} effect="blur" />
             </div>
           </div>
-       </div>
+        </div>
       </section>
     </>
   );

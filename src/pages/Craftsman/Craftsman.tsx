@@ -1,8 +1,8 @@
 import { GetInTouch } from '@/common/components';
-import { CTAButton } from '@/common/components/buttons';
 import { IconList } from '@/common/components/IconList';
-import { Box, Paper, Typography } from '@mui/material';
+import { CTAButton } from '@/common/components/buttons';
 import { PALETTE_COLORS } from '@/config/theme';
+import { Box, Paper, Typography } from '@mui/material';
 
 import './assets/css/spinner.css';
 import CashRegisterEuro from './assets/img/cash-register-euro.webp';
@@ -24,18 +24,19 @@ const textList = [
 export const Craftsman = () => {
   return (
     <Box sx={{ marginTop: '15vh' }}>
-      <Box component="section" sx={{ height: '55vh', mb: 10, position: "relative", color: "white", paddingBottom: '50px' }} id="home">
-        <Box sx={{ display: "flex", justifyContent: "space-between" }} className="bd-container bd-grid">
+      <Box component="section" sx={{ height: '55vh', mb: 10, position: 'relative', color: 'white', paddingBottom: '50px' }} id="home">
+        <Box sx={{ display: 'flex', justifyContent: 'space-between' }} className="bd-container bd-grid">
           <Box>
             <Typography variant="body2" sx={{ fontSize: '1.6rem' }}>
               L'assistant qui prend de la hauteur <span style={{ fontWeight: 'bold' }}>et analyse vos toitures sur image HD.</span>
             </Typography>
             <Typography sx={{ fontSize: '1.2rem', mt: 2 }}>
-              Grâce à BIRDIA, analysez automatiquement les toitures de vos prospects à partir d’images aériennes ultra haute définition (5 cm de précision). Notre intelligence artificielle identifie les matériaux, détecte les zones d’usure, mesure les pentes et génère un diagnostic technique complet.
+              Grâce à BIRDIA, analysez automatiquement les toitures de vos prospects à partir d’images aériennes ultra haute définition (5 cm de précision).
+              Notre intelligence artificielle identifie les matériaux, détecte les zones d’usure, mesure les pentes et génère un diagnostic technique complet.
             </Typography>
 
-            <Typography sx={{ mt: 3, fontWeight: "bold" }}>Vos bénéfices en un coup d’œil</Typography>
-            <Box style={{ display: "flex" }}>
+            <Typography sx={{ mt: 3, fontWeight: 'bold' }}>Vos bénéfices en un coup d’œil</Typography>
+            <Box style={{ display: 'flex' }}>
               <Box className="home__list__col">
                 <ul>
                   <IconList imageSrc={VirtualBot} listText={textList[0]} imageStyle={{ filter: 'none' }} />
@@ -61,7 +62,7 @@ export const Craftsman = () => {
                 Curieux de voir comment ça fonctionne ?
               </Typography>
               <Typography sx={{ color: PALETTE_COLORS.cream, mt: 1 }}>Réservez votre démo de 15 minutes et testez sans engagement.</Typography>
-              <CTAButton sx={{ mt: 2, width: 'fit-content', display: "block" }} />
+              <CTAButton sx={{ mt: 2, width: 'fit-content', display: 'block' }} />
             </Paper>
           </Box>
           <div className="bpartners__video">

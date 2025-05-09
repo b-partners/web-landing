@@ -1,5 +1,5 @@
-import { Box, Typography } from '@mui/material';
 import { PALETTE_COLORS } from '@/config/theme';
+import { Box, Typography } from '@mui/material';
 
 export const Feature = () => {
   return (

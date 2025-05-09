@@ -53,10 +53,7 @@ export function OfferSwiper(props) {
               imageSrc=""
               listText="Installer notre outil sur votre site internet et offrez à vos prospects la possibilité d’évaluer en toute autonomie leurs toitures."
             />
-            <IconList
-              imageSrc=""
-              listText="Intégrez la communauté des couvreurs BIRDIA et recevez des chantiers autour de chez vous."
-            />
+            <IconList imageSrc="" listText="Intégrez la communauté des couvreurs BIRDIA et recevez des chantiers autour de chez vous." />
             <IconList imageSrc="" listText="Support 7 jours sur 7." />
           </ul>
         </OfferCard>
@@ -79,10 +76,7 @@ export function OfferSwiper(props) {
               imageSrc=""
               listText="Installer notre outil sur votre site internet et offrez à vos prospects la possibilité d’évaluer en toute autonomie leurs toitures."
             />
-            <IconList
-              imageSrc=""
-              listText="Intégrez la communauté des couvreurs BIRDIA et recevez des chantiers autour de chez vous"
-            />
+            <IconList imageSrc="" listText="Intégrez la communauté des couvreurs BIRDIA et recevez des chantiers autour de chez vous" />
             <IconList imageSrc="" listText="Support 7 jours sur 7." />
           </ul>
         </OfferCard>
