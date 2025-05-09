@@ -3,7 +3,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { PALETTE_COLORS } from '@/config/theme';
 
-import descriptionImage from '../assets/description.jpeg';
+import descriptionImage from '../assets/description.png';
 
 export function Description() {
   return (
@@ -44,7 +44,7 @@ export function Description() {
         </div>
         <div className="description__col2">
           <div style={{ paddingInline: '25px' }}>
-            <LazyLoadImage alt="BpPhone" src={descriptionImage} height={200} effect="blur" style={{ marginLeft: '40px', borderRadius: '15px' }} />
+            <LazyLoadImage alt="BpPhone" src={descriptionImage} width={550} effect="blur" style={{ marginLeft: '40px', borderRadius: '15px' }} />
           </div>
         </div>
       </div>
