@@ -1166,7 +1166,6 @@ img[alt="mobile_image"] {
 .description__list {
     list-style: disc;
     margin-left: 1.7rem;
-    font-weight: 600;
 }
 
 .description__col1, .description__col2 {
