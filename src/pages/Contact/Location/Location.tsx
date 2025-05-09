@@ -1,4 +1,4 @@
-import WavesTopBg from '../../Home/assets/img/waves-top2-bg.png';
+import WavesTopBg from '../assets/images/waves-top2-bg.png';
 
 export function Location() {
   return (

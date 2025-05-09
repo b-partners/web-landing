@@ -1,12 +1,9 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { Partners } from '@pages/Home/components/Partners';
+import { Partners } from '@/common/components/partners';
 
-import { Comparison } from './components/Comparison';
-import { Offer } from './components/Offer';
-import { Solution } from './components/Solution';
-import { UseCase } from './components/UseCase';
+import { Headline } from './components/headlines';
 
 export function Collectivity() {
   const { pathname } = useLocation();
@@ -17,10 +14,7 @@ export function Collectivity() {
 
   return (
     <div>
-      <Solution />
-      <UseCase />
-      <Comparison />
-      <Offer />
+      <Headline />
       <Partners />
     </div>
   );

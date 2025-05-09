@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
+import { Solution } from '@/common/components/solution';
 import { PALETTE_COLORS } from '@/config/theme';
 
-import { Solution } from '../Home/components/Solution';
 import { Description } from './Description';
 import { Presentation } from './Presentation';
 import { Testimonials } from './Testimonials';

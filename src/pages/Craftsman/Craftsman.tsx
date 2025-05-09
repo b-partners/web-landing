@@ -1,48 +1,55 @@
+import { GetInTouch } from '@/common/components';
 import { IconList } from '@/common/components/IconList';
+import { CTAButton } from '@/common/components/buttons';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Box, Paper, Typography } from '@mui/material';
-import CashRegisterEuro from '@pages/Home/assets/img/cash-register-euro.webp';
-import PaidBill from '@pages/Home/assets/img/paid-bill.webp';
-import QrCode from '@pages/Home/assets/img/qr-code-ext.webp';
-import VirtualBot from '@pages/Home/assets/img/virtual-bot.webp';
 
 import './assets/css/spinner.css';
+import CashRegisterEuro from './assets/img/cash-register-euro.webp';
+import PaidBill from './assets/img/paid-bill.webp';
+import QrCode from './assets/img/qr-code-ext.webp';
+import VirtualBot from './assets/img/virtual-bot.webp';
 import { Authenticity } from './components/Authenticity';
 import { Feature } from './components/Feature';
-import { GetInTouch } from './components/GetInTouch';
 import { Offer } from './components/Offer';
 import { Testimonial } from './components/Testimonial';
 
 const textList = [
-  'Analysez les toits de vos prospects automatiquement sur image HD 5 cm.',
-  'Gagnez en réactivité avec des devis précis et techniques.',
-  'Détectez, mesurez et qualifiez vos chantiers en 1 clic.',
-  'Gagnez de nouveaux clients, facturez et encaissez.',
+  'Analysez les toits de vos prospects à distance, sans monter sur une échelle.',
+  'Mesurez les surfaces, les pentes et les hauteurs en 1 clic.',
+  'Détectez les signes d’usure, d’humidité ou de dégradation.',
+  'Gagnez en réactivité avec des rapports précis et fiables.',
 ];
 
 export const Craftsman = () => {
   return (
     <Box sx={{ marginTop: '15vh' }}>
-      <section className="home" id="home" style={{ paddingBottom: '50px' }}>
-        <div className="home__container bd-container bd-grid">
-          <div className="home__data">
+      <Box component="section" sx={{ height: '55vh', mb: 10, position: 'relative', color: 'white', paddingBottom: '50px' }} id="home">
+        <Box sx={{ display: 'flex', justifyContent: 'space-between' }} className="bd-container bd-grid">
+          <Box>
             <Typography variant="body2" sx={{ fontSize: '1.6rem' }}>
               L'assistant qui prend de la hauteur <span style={{ fontWeight: 'bold' }}>et analyse vos toitures sur image HD.</span>
             </Typography>
-            <div className="home__list">
-              <div className="home__list__col">
+            <Typography sx={{ fontSize: '1.2rem', mt: 2 }}>
+              Grâce à BIRDIA, analysez automatiquement les toitures de vos prospects à partir d’images aériennes ultra haute définition (5 cm de précision).
+              Notre intelligence artificielle identifie les matériaux, détecte les zones d’usure, mesure les pentes et génère un diagnostic technique complet.
+            </Typography>
+
+            <Typography sx={{ mt: 3, fontWeight: 'bold' }}>Vos bénéfices en un coup d’œil</Typography>
+            <Box style={{ display: 'flex' }}>
+              <Box className="home__list__col">
                 <ul>
                   <IconList imageSrc={VirtualBot} listText={textList[0]} imageStyle={{ filter: 'none' }} />
                   <IconList imageSrc={QrCode} listText={textList[1]} imageStyle={{ filter: 'none' }} />
                 </ul>
-              </div>
-              <div className="home__list__col">
+              </Box>
+              <Box className="home__list__col">
                 <ul>
                   <IconList imageSrc={PaidBill} listText={textList[2]} imageStyle={{ filter: 'none' }} />
                   {textList[3] && <IconList imageSrc={CashRegisterEuro} listText={textList[3]} imageStyle={{ filter: 'none' }} />}
                 </ul>
-              </div>
-            </div>
+              </Box>
+            </Box>
             <Paper
               elevation={5}
               className="home-registration-form"
@@ -52,18 +59,12 @@ export const Craftsman = () => {
               }}
             >
               <Typography variant="h2" sx={{ fontSize: '1.3rem', fontWeight: 'bold', color: PALETTE_COLORS.cream }}>
-                Curieux de voir comment gagner du temps et de nouveaux clients ? <br />
+                Curieux de voir comment ça fonctionne ?
               </Typography>
-              <Typography sx={{ color: PALETTE_COLORS.cream, mt: 1 }}>On vous montre ça en moins de 15 minutes dans une démo personnalisée.</Typography>
-              <div className="home-registration-mail">
-                <button className="home-registration-button" type="button">
-                  <a href="https://meet.brevo.com/bpartnersartisans/reunion-de-15-minutes" rel="noreferrer" target="_blank">
-                    RÉSERVER MA DÉMO
-                  </a>
-                </button>
-              </div>
+              <Typography sx={{ color: PALETTE_COLORS.cream, mt: 1 }}>Réservez votre démo de 15 minutes et testez sans engagement.</Typography>
+              <CTAButton sx={{ mt: 2, width: 'fit-content', display: 'block' }} />
             </Paper>
-          </div>
+          </Box>
           <div className="bpartners__video">
             <iframe
               title="bpartners_video"
@@ -71,7 +72,7 @@ export const Craftsman = () => {
               height="270"
               className="bp-description-video"
               id="bpvideo-2"
-              src="https://youtube.com/embed/TqKR1BCru3Y?autoplay=0"
+              src="https://youtube.com/embed/mtcMeFWvNQI?autoplay=0"
               allowFullScreen
             />
             <br />
@@ -99,8 +100,8 @@ export const Craftsman = () => {
               </a>
             </div>
           </div>
-        </div>
-      </section>
+        </Box>
+      </Box>
       <Feature />
       <Authenticity />
       <Offer />

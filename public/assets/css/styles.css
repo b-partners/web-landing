@@ -322,10 +322,6 @@ img[alt="companyLogo"] {
     color: white;
 }
 
-.home__data {
-    height: 500px;
-}
-
 .home__container {
     display: flex;
     justify-content: space-between;
@@ -374,11 +370,6 @@ h1.home__title {
     text-align: center;
     font-size: 2rem;
     padding-top: 4rem;
-}
-
-.home__list {
-    display: flex;
-    margin-block: 2rem;
 }
 
 .home__list__col {
@@ -445,11 +436,6 @@ h1.home__title {
     color: white;
 }
 
-.home-registration-mail {
-    width: 100%;
-    height: 2.7rem
-}
-
 .registration-button {
     position: absolute;
     bottom: -43px;
@@ -507,10 +493,6 @@ h1.home__title {
     display: flex;
     justify-content: center;
     padding-block: 2rem;
-}
-
-.share-img-container {
-    display: flex;
 }
 
 .share-description {
@@ -800,43 +782,6 @@ img[alt="mobile_image"] {
     height: 3.5rem;
 }
 
-/*========== FOOTER ==========*/
-.footer {
-    padding-block: 3rem !important;
-    background-color: var(--pine);
-}
-
-.footer__container {
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 1rem;
-}
-
-.footer_subtitle {
-    color: white;
-    font-weight: 600;
-}
-
-.navigation_link_list > li a {
-    color: white;
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-.navigation_link_list > li :hover {
-    text-decoration: underline;
-}
-
-.navigation-button {
-    background-color: transparent;
-    color: white;
-    border: none;
-    font-size: 1rem;
-    font-weight: lighter;
-    cursor: pointer;
-}
-
 .navigation-registration-button {
     background-color: white;
     border: 1px solid transparent;
@@ -937,13 +882,6 @@ img[alt="mobile_image"] {
     display: flex;
     justify-content: space-around;
     margin-top: 1rem;
-}
-
-.headline__title {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    font-weight: 400;
-    color: var(--first-color-logo);
 }
 
 .headline__subtitle {
@@ -1228,7 +1166,6 @@ img[alt="mobile_image"] {
 .description__list {
     list-style: disc;
     margin-left: 1.7rem;
-    font-weight: 600;
 }
 
 .description__col1, .description__col2 {
@@ -1398,10 +1335,6 @@ img[alt="BpPhone"] {
         justify-content: center;
     }
 
-    .home-registration-button {
-        width: 100%;
-    }
-
     img[alt="waves-home"] {
         z-index: -1 !important;
     }
@@ -1527,7 +1460,7 @@ img[alt="BpPhone"] {
         margin-block: 0 !important;
     }
 
-    .distinction__item, .solution__data__item, .mobile__task__container > div, .share__element {
+    .distinction__item, .solution__data__item, .mobile__task__container > div{
         margin: auto;
         margin-bottom: 2rem;
         width: 80% !important;

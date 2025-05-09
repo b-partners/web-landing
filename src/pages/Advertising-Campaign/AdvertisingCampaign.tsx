@@ -1,6 +1,7 @@
+import { Distinction } from '@/common/components/distinction';
+
 import { Contact } from './Contact';
 import { DetectionType } from './DetectionType';
-import { Distinction } from './Distinction';
 import { FrequentAskingQuestion } from './FAQ';
 import { Features } from './Features';
 import { Hero } from './Hero';

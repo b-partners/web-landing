@@ -1,17 +1,20 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { ReactNode } from 'react';
 
 import { PALETTE_COLORS } from '@/config/theme';
-import { Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 import './ShareCard.css';
 
-export const ShareCard = ({ cardText = 'card text', imgSrc }: { cardText?: string; imgSrc?: string }) => {
+export const ShareCard = ({ cardText = 'card text', icon, cardTitle }: { cardTitle?: string; cardText?: string; icon?: ReactNode }) => {
   return (
-    <div className="share__element">
-      <div className="share-img-container">
-        <LazyLoadImage src={imgSrc} height="50" width="auto" placeholderSrc={imgSrc} effect="blur" />
-      </div>
-      <Typography sx={{ color: PALETTE_COLORS.white }}>{cardText}</Typography>
-    </div>
+    <Box sx={{ '& .MuiSvgIcon-root': { fontSize: '2.5rem', mb: 2 }, color: PALETTE_COLORS.cream }} className="share__element">
+      <div className="share-img-container">{icon}</div>
+      <Typography sx={{ color: PALETTE_COLORS.cream }}>
+        <Typography component="span" sx={{ color: PALETTE_COLORS.cream, fontWeight: 'bold' }}>
+          {cardTitle}
+        </Typography>
+        {cardText}
+      </Typography>
+    </Box>
   );
 };
