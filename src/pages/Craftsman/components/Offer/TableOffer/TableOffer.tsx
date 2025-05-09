@@ -20,18 +20,13 @@ const RedundantTableLine = () => {
           <CheckCircleOutlined />
         </p>
       </div>
-      <div className="table-body-cell">
-        <p className="text-center">
-          <CheckCircleOutlined />
-        </p>
-      </div>
     </>
   );
 };
 
 export function TableOffer() {
-  const goToSignUp = () => redirect('https://dashboard.bpartners.app/sign-up');
-  const goToMeetTest = () => redirect('https://meet.brevo.com/bpartnersartisans/detection-dobjets-par-intelligence-artificielle-bpartners');
+  const goToSignUp = () => redirect('https://dashboard.birdia.fr/sign-up');
+  const goToMeetTest = () => redirect('https://meet.brevo.com/birdia/reunion-de-15-minutes');
 
   return (
     <Box sx={OFFERS_TABLE_STYLE} className="offer__table-row bd-container">
@@ -41,18 +36,14 @@ export function TableOffer() {
         </div>
         <div className="table-body-cell">
           <p>
-            Activation de notre intelligence artificielle qui analyse les toitures (prise de mesures, détection des revêtements, pentes, usures, démoussage
-            nécessaires) de vos prospects et organise le suivi des toitures de vos clients existants. <b>20 analyses de toitures incluses.</b>
+            Activez notre intelligence artificielle dédiée à l’analyse de toitures : mesure automatique, détection des matériaux (ardoise, tuile, zinc…), estimation des pentes, identification des dégâts et des réparations. Suivi facilité pour vos clients, 20 diagnostics inclus.
           </p>
         </div>
         <div className="table-body-cell">
-          <p>Outil de devis/facturation personnalisé, gestion des acomptes,relance impayés CRM, gestion des produits.</p>
+          <p>Installer notre outil sur votre site internet et offrez à vos prospects la possibilité d’évaluer en toute autonomie leurs toitures.</p>
         </div>
         <div className="table-body-cell">
-          <p>Initiez la collecte de vos encaissements instantanément par QR code, Mails ou SMS en 1 clic. Lien de paiement intégré à la facture.</p>
-        </div>
-        <div className="table-body-cell">
-          <p>Connectez votre compte bancaire pour visualiser votre trésorerie en continu.</p>
+          <p>Intégrez la communauté des couvreurs BIRDIA et recevez des chantiers autour de chez vous.</p>
         </div>
         <div className="table-body-cell">
           <p>Support 7 jours sur 7.</p>
@@ -63,7 +54,7 @@ export function TableOffer() {
           <img src={Essentiel} alt="essentiel" className="offer-image" />
           <h2>L'Essentiel</h2>
           <div className="offer__category">
-            <h3>Artisant couvreur</h3>
+            <h3>Professionnel de la toiture</h3>
           </div>
           <span className="offer-price">49€</span>/mois
         </div>
@@ -95,7 +86,7 @@ export function TableOffer() {
           <img src={Developpement} alt="essentiel" className="offer-image" />
           <h2>Le Sur-mesure</h2>
           <div className="offer__category">
-            <h3>Collectivités, Assureurs</h3>
+            <h3>Professionnel du bâti (Foncière, Diagnostiqueur, OPH, etc)</h3>
           </div>
           <Link className="contact-button" id="contact-offer-1" to="/contact">
             Contactez-nous
@@ -117,7 +108,7 @@ export function TableOffer() {
           <p className="text-center">
             <CheckCircleOutlined />
             <br />
-            en fonction du volume
+            Intégration API
           </p>
         </div>
         <RedundantTableLine />

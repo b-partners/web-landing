@@ -1,7 +1,7 @@
 import { ImageGallery } from '@/common/components';
 import { BpButton } from '@/common/components/Button';
 import { PALETTE_COLORS } from '@/config/theme';
-import { Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 import Headline1 from '../assets/img/Headlines/headline-1.jpg';
 import Headline2 from '../assets/img/Headlines/headline-2.jpg';
@@ -16,31 +16,21 @@ const demoBrevoMeetLink = 'https://meet.brevo.com/bpartnersartisans/detection-do
 
 export function Headline() {
   return (
-    <section className="headline bd-container" id="description">
-      <h2 className="headline__title" style={{ color: PALETTE_COLORS.forest }}>
-        Détectez et raisonnez par IA sur des images HD pour optimiser la gestion de votre portefeuille d’assurés, anticiper les risques et gagner du temps après
-        les sinistres.
-      </h2>
+    <section style={{ marginTop: 140 }} className="headline bd-container" id="description">
+      <Typography sx={{ fontSize: { xs: "2rem", lg: '2.4rem' }, color: PALETTE_COLORS.pine, fontWeight: 'bold' }}>
+        Prévenir les sinistres, maîtriser les risques : l’IA au service de l’assurance habitation
+      </Typography>
 
       <div className="headline_content">
         <article className="headline_article">
           <h3 className="headline__subtitle" style={{ color: PALETTE_COLORS.forest }}>
-            Une intelligence artificielle souveraine, conçue en France, pour vérifier à grande échelle la complétude des contrats d’assurance et évaluer les
-            risques des portefeuilles IARD.
-            <br />
-            Que ce soit pour le marché particulier, tertiaire, ou les bâtiments agricoles, anticipez et agissez avant même que les réparations ne soient
-            nécessaires
+            Optimisez la gestion de vos portefeuilles IARD grâce à l’intelligence artificielle appliquée aux images aériennes haute définition.
           </h3>
           <p className="headline__paragraph">
-            Chez BIRDIA, nous avons transformé l’innovation en solution pratique. Issue de la recherche française et labellisée DeepTech, notre technologie a
-            été initialement conçue pour simplifier la vie des artisans en détectant et mesurant des objets d’intérêt. Aujourd’hui, nous avons étendu cette
-            expertise aux collectivités et aux grandes entreprises, leur permettant de mieux comprendre leur patrimoine et de suivre son évolution grâce à la
-            détection automatisée et à l’analyse des objets.
+            BIRDIA propose une solution souveraine, conçue en France, pour automatiser l’analyse des toitures à grande échelle. Notre IA identifie les anomalies, anticipe les risques climatiques et vous aide à fiabiliser les données de souscription comme de gestion.
           </p>
           <p className="headline__paragraph" style={{ marginTop: 15 }}>
-            Notre solution combine la puissance de l’IA et de l’analyse prédictive pour vous aider à anticiper les risques, mieux gérer vos contrats d’assurance
-            et prendre des décisions éclairées. Découvrez nos cas d’usage transformant la manière dont vous gérez vos portefeuilles d’assurés. Demandez votre
-            démo.
+            De la vérification post-sinistre à la prévention proactive, notre technologie transforme les images HD (5 cm de résolution) en rapports exploitables pour qualifier l’état des biens assurés, mesurer les surfaces, détecter les matériaux et suivre l’évolution des bâtiments dans le temps.
           </p>
         </article>
       </div>
