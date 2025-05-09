@@ -1,7 +1,7 @@
 import { ImageGallery } from '@/common/components';
 import { BpButton } from '@/common/components/Button';
 import { PALETTE_COLORS } from '@/config/theme';
-import { Extension, Handshake, Search, Shield, SmartToy, Thunderstorm } from '@mui/icons-material';
+import { Apartment, Assessment, CheckCircle, Forest, Layers, Timer } from '@mui/icons-material';
 import { Box, Card, CardContent, Typography } from '@mui/material';
 
 import Headline1 from '../assets/img/Headlines/1.jpg';
@@ -11,34 +11,34 @@ import Headline4 from '../assets/img/Headlines/4.jpg';
 import Headline5 from '../assets/img/Headlines/5.jpg';
 import Headline6 from '../assets/img/Headlines/6.jpg';
 
-const insurerBenefits = [
+const collectivityBenefits = [
   {
-    icon: <Search />,
-    text: 'Contrôle automatisé des toitures : pour fiabiliser la complétude des contrats',
+    icon: <Assessment />,
+    text: 'Valorisation des investissements PCRS : exploitez pleinement vos orthophotos et autres données géographiques, sans coût de relevés terrain',
   },
   {
-    icon: <Thunderstorm />,
-    text: 'Détection post-intempéries : rapide des zones à risque',
+    icon: <Apartment />,
+    text: 'Suivi territorial automatisé : détectez les changements morphologiques, les constructions illégales ou les zones sensibles (îlots de chaleur, végétation à risque…)',
   },
   {
-    icon: <SmartToy />,
-    text: 'Connaissance fine des portefeuilles : en amont pour adapter les offres',
+    icon: <CheckCircle />,
+    text: 'Conformité réglementaire : appuyez vos politiques ZAN, LOM, et Climat & Résilience sur des indicateurs visuels à jour',
   },
   {
-    icon: <Shield />,
-    text: 'Prévention proactive des sinistres : liés au vieillissement ou à la vétusté',
+    icon: <Layers />,
+    text: 'Intégration simple dans vos outils SIG : nos exports sont compatibles QGIS, Esri, et plateformes open data',
   },
   {
-    icon: <Extension />,
-    text: 'Intégration : dans vos outils métiers ou plateformes de souscription',
+    icon: <Timer />,
+    text: 'Réduction des délais d’intervention : identifiez rapidement les priorités sur le terrain',
   },
   {
-    icon: <Handshake />,
-    text: 'Support dédié : pour vos équipes sinistres, data ou risques',
+    icon: <Forest />,
+    text: 'Gain de temps et de fiabilité : fiabilisez la donnée en automatisant les relevés de terrain, sans déplacement',
   },
 ];
 
-const BirdiaInsurerCard = () => {
+const BirdiaCollectivityCard = () => {
   return (
     <Card
       sx={{
@@ -54,10 +54,10 @@ const BirdiaInsurerCard = () => {
     >
       <CardContent>
         <Typography variant="h6" sx={{ mb: 3, textAlign: 'center', fontSize: { xs: '1.2rem', md: '1.5rem' }, color: PALETTE_COLORS.cream, fontWeight: 'bold' }}>
-          Ce que BIRDIA apporte aux assureurs :
+          Ce que BIRDIA apporte aux collectivités territoriales :
         </Typography>
         <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'start', flexWrap: 'wrap', gap: 2 }}>
-          {insurerBenefits.map((item, index) => {
+          {collectivityBenefits.map((item, index) => {
             const [title, description] = item.text.split(/ *: */);
             return (
               <Box key={index} sx={{ display: 'flex', alignItems: 'start', gap: 1, maxWidth: { xs: 'unset', md: '400px' } }}>
@@ -75,33 +75,33 @@ const BirdiaInsurerCard = () => {
 };
 
 const IMAGES = [Headline1, Headline2, Headline3, Headline4, Headline5, Headline6];
-const demoBrevoMeetLink = 'https://meet.brevo.com/bpartnersartisans/detection-dobjets-par-intelligence-artificielle-bpartners';
+const demoBrevoMeetLink = 'https://meet.brevo.com/bpartnerscollectivites/valorisation-images-aeriennes-par-ia-bpartners';
 
-export function Headline() {
+export const Headline = () => {
   return (
     <section style={{ marginTop: 140 }} className="headline" id="description">
-      <Box className="bd-container" sx={{ minHeight: { xs: '0x', lg: '70vh', xl: '65vh', xxl: '55vh' }, position: 'relative' }}>
+      <Box className="bd-container" sx={{ minHeight: { xs: '0x', lg: '80vh', xl: '70vh', xxl: '55vh' }, position: 'relative' }}>
         <Typography sx={{ fontSize: { xs: '2rem', lg: '2.4rem' }, color: PALETTE_COLORS.neon_orange, fontWeight: 'bold' }}>
-          Prévenir les sinistres, maîtriser les risques : l’IA au service de l’assurance habitation
+          Valorisez vos images aériennes pour éclairer la décision publique
         </Typography>
 
         <div className="headline_content">
           <article className="headline_article">
             <h3 className="headline__subtitle" style={{ color: PALETTE_COLORS.forest }}>
-              Optimisez la gestion de vos portefeuilles IARD grâce à l’intelligence artificielle appliquée aux images aériennes haute définition.
+              Optimisez vos données PCRS et maîtrisez votre territoire grâce à l’intelligence artificielle.
             </h3>
             <p className="headline__paragraph">
-              BIRDIA propose une solution souveraine, conçue en France, pour automatiser l’analyse des toitures à grande échelle. Notre IA identifie les
-              anomalies, anticipe les risques climatiques et vous aide à fiabiliser les données de souscription comme de gestion.
+              BIRDIA transforme vos images aériennes (PCRS, LiDAR, infrarouge…) en données d’aide à la décision concrètes, exploitables immédiatement dans vos
+              outils SIG. Notre solution vous permet d’automatiser la détection des objets urbains (voirie, végétation, toitures, signalétique, zones
+              imperméabilisées…) et de suivre leur évolution dans le temps pour alimenter vos politiques publiques.
             </p>
             <p className="headline__paragraph" style={{ marginTop: 15 }}>
-              De la vérification post-sinistre à la prévention proactive, notre technologie transforme les images HD (5 cm de résolution) en rapports
-              exploitables pour qualifier l’état des biens assurés, mesurer les surfaces, détecter les matériaux et suivre l’évolution des bâtiments dans le
-              temps.
+              Grâce à une IA souveraine et frugale, entraînée sur les spécificités des réglementations françaises (ZAN, LOM, Climat & Résilience), BIRDIA vous
+              aide à passer de l’image à l’action, plus vite, plus simplement.
             </p>
           </article>
         </div>
-        <BirdiaInsurerCard />
+        <BirdiaCollectivityCard />
       </Box>
       <Box sx={{ width: '100%', px: 5, pt: 10, pb: 5, bgcolor: PALETTE_COLORS.pine }}>
         <Typography
@@ -116,7 +116,7 @@ export function Headline() {
             my: 5,
           }}
         >
-          BIRDIA, une IA souveraine, labellisée DeepTech, déjà expérimentée par les acteurs majeurs de l’assurance.
+          Découvrez nos cas usages et testez vous-même sur votre territoire
         </Typography>
         <ImageGallery images={IMAGES} />
         <Box sx={{ display: 'flex', justifyContent: 'center', height: '6rem', alignItems: 'center' }}>
@@ -125,4 +125,4 @@ export function Headline() {
       </Box>
     </section>
   );
-}
+};

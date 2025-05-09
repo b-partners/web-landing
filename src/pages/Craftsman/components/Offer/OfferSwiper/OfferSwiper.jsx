@@ -38,7 +38,7 @@ export function OfferSwiper(props) {
         <OfferCard
           imageSrc={Essentiel}
           offer="L'Essentiel"
-          sectorActivity="Artisant couvreur"
+          sectorActivity="Professionnel de la toiture"
           price="49"
           cardText="Tous les services essentiels pour gérer votre activité d’artisan ou d'indépendant."
           buttonLabel="C'est ça qu'il me faut"
@@ -47,20 +47,13 @@ export function OfferSwiper(props) {
           <ul>
             <IconList
               imageSrc=""
-              listText="Activation de notre intelligence artificielle qui analyse les toitures de vos
-                            prospects et organise le suivi des toitures de vos clients existants."
+              listText="Activez notre intelligence artificielle dédiée à l’analyse de toitures : mesure automatique, détection des matériaux (ardoise, tuile, zinc…), estimation des pentes, identification des dégâts et des réparations. Suivi facilité pour vos clients, 20 diagnostics inclus."
             />
             <IconList
               imageSrc=""
-              listText="Outil de devis/facturation personnalisé, gestion des acomptes,relance impayés CRM,
-                             gestion des produits."
+              listText="Installer notre outil sur votre site internet et offrez à vos prospects la possibilité d’évaluer en toute autonomie leurs toitures."
             />
-            <IconList
-              imageSrc=""
-              listText="Initiez la collecte de vos encaissements instantannément par QR code,
-                             Mails ou SMS en 1 clic. Lien de paiement intégré à la facture. (0,99%)"
-            />
-            <IconList imageSrc="" listText="Connectez votre compte bancaire pour visualiser votre trésorerie en continu." />
+            <IconList imageSrc="" listText="Intégrez la communauté des couvreurs BIRDIA et recevez des chantiers autour de chez vous." />
             <IconList imageSrc="" listText="Support 7 jours sur 7." />
           </ul>
         </OfferCard>
@@ -70,29 +63,20 @@ export function OfferSwiper(props) {
           imageSrc={Developpement}
           offer="Le Sur-mesure"
           sectorActivity="Collectivités, Assureurs"
-          cardText="Tous les services pour franchir un pallier dans votre croissance et
-                     automatiser votre forte activité"
+          cardText="Professionnel du bâti (Foncière, Diagnostiqueur, OPH, etc)"
           buttonLabel="C'est plutôt ça qu'il me faut"
           setModalOpen={setModalOpen}
         >
           <ul>
             <IconList
               imageSrc=""
-              listText="Activation de notre Intelligence artificielle qui génère des prospects en temps
-                             réel pour développer votre activité et obtenir de nouveaux clients.
-                             (Avec personnalisation & branchement, plusieurs métiers et utilisateurs)"
+              listText="Activez notre intelligence artificielle dédiée à l’analyse de toitures : mesure automatique, détection des matériaux (ardoise, tuile, zinc…), estimation des pentes, identification des dégâts et des réparations. Suivi facilité pour vos clients, 20 diagnostics inclus."
             />
             <IconList
               imageSrc=""
-              listText="Outil de devis/facturation personnalisé, gestion des acomptes,relance impayés CRM,
-                             gestion des produits."
+              listText="Installer notre outil sur votre site internet et offrez à vos prospects la possibilité d’évaluer en toute autonomie leurs toitures."
             />
-            <IconList
-              imageSrc=""
-              listText="Initiez la collecte de vos encaissements instantannément par QR code,
-                             Mails ou SMS en 1 clic. Lien de paiement intégré à la facture. (En fonction du volume)"
-            />
-            <IconList imageSrc="" listText="Connectez votre compte bancaire pour visualiser votre trésorerie en continu." />
+            <IconList imageSrc="" listText="Intégrez la communauté des couvreurs BIRDIA et recevez des chantiers autour de chez vous" />
             <IconList imageSrc="" listText="Support 7 jours sur 7." />
           </ul>
         </OfferCard>
