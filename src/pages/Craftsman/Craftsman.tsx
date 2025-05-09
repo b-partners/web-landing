@@ -72,7 +72,7 @@ export const Craftsman = () => {
               height="270"
               className="bp-description-video"
               id="bpvideo-2"
-              src="https://youtube.com/embed/TqKR1BCru3Y?autoplay=0"
+              src="https://youtube.com/embed/mtcMeFWvNQI?autoplay=0"
               allowFullScreen
             />
             <br />
