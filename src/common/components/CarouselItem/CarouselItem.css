@@ -13,6 +13,7 @@
 .carousel__item {
     background-color: rgb(247, 247, 247);
     padding-block: 50px;
+    min-height: 300px;
 }
 
 .carousel__itm {

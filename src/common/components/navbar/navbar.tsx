@@ -59,7 +59,11 @@ export const Navbar = () => {
         borderRadius: shouldShowDrawer ? 'Opx' : '30px',
       }}
     >
-      <img src="/assets/images/logo.png" alt="BIRDIA" style={{ marginLeft: '10px', height: isLg ? '30px' : '22px' }} />
+      <img
+        src={shouldShowDrawer ? '/assets/images/logo-text-white.png' : '/assets/images/logo.png'}
+        alt="BIRDIA"
+        style={{ marginLeft: '10px', height: isLg ? '30px' : '22px' }}
+      />
       {shouldShowDrawer ? <NavbarButtonDrawer /> : <NavbarContent />}
     </FlexBox>
   );

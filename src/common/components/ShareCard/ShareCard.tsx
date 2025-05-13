@@ -13,6 +13,7 @@ export const ShareCard = ({ cardText = 'card text', icon, cardTitle }: { cardTit
         <Typography component="span" sx={{ color: PALETTE_COLORS.cream, fontWeight: 'bold' }}>
           {cardTitle}
         </Typography>
+        <br />
         {cardText}
       </Typography>
     </Box>

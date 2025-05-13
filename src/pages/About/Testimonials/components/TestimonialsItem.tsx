@@ -37,7 +37,7 @@ export const TestimonialItem: FC<TestimonialItemProps> = ({ title, redirect, chi
         '& .they-talk-about-us': { minWidth: '198px !important', maxWidth: '198px !important', borderRadius: '0% !important' },
       }}
     >
-      <img className="they-talk-about-us" src={theyTalkAboutUs} alt="theyTalkAboutUs" style={{ display: 'block', width: 'fit-content' }} />
+      <img className="they-talk-about-us" src={theyTalkAboutUs} alt="theyTalkAboutUs" style={{ marginLeft: "70px", display: 'block', width: 'fit-content' }} />
       <Typography variant="h4" sx={{ textAlign: 'center', color: 'inherit', fontSize: '1rem', fontWeight: 'bold', mt: 1 }}>
         <span style={{ textDecoration: 'underline' }}>{title.underlined}</span> {title.simple}
       </Typography>

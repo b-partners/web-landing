@@ -20,7 +20,7 @@ export const TARGETS: TargetType[] = [
     title: 'Couvreurs',
     subtitle: 'Inspectez vos toitures à distance, en toute simplicité',
     description: (
-      <Typography sx={{ mt: 3, maxWidth: '450px', fontSize: { xs: '1rem', xl: '1.2rem' }, textAlign: 'center' }}>
+      <Typography sx={{ mt: 3, mx: 'auto', maxWidth: '450px', fontSize: { xs: '1rem', xl: '1.2rem' }, textAlign: 'center' }}>
         Facilitez votre quotidien avec des diagnostics précis et détaillés de vos toitures, sans vous déplacer.
         <br style={{ marginBottom: 8 }} />
         Notre solution analyse les images HD pour prendre les cotes, identifier les dommages et détecter les anomalies, avec une précision allant jusqu’à 5 cm.
@@ -33,7 +33,7 @@ export const TARGETS: TargetType[] = [
     title: 'Assureurs',
     subtitle: 'Connaissez vos risques pour mieux prévenir',
     description: (
-      <Typography sx={{ mt: 3, maxWidth: '450px', fontSize: { xs: '1rem', xl: '1.2rem' }, textAlign: 'center' }}>
+      <Typography sx={{ mt: 3, mx: 'auto', maxWidth: '450px', fontSize: { xs: '1rem', xl: '1.2rem' }, textAlign: 'center' }}>
         Notre IA transforme les images aériennes ultra HD en rapports d’analyse toiture précis.
         <br style={{ marginBottom: 8 }} />
         En identifiant en amont les sinistres potentiels (usure, humidité, dégradation), vous anticipez les risques et améliorez la prévention.
@@ -48,7 +48,7 @@ export const TARGETS: TargetType[] = [
     title: 'Collectivités',
     subtitle: 'Valorisez vos images PCRS comme jamais auparavant',
     description: (
-      <Typography sx={{ mt: 3, maxWidth: '450px', fontSize: { xs: '1rem', xl: '1.2rem' }, textAlign: 'center' }}>
+      <Typography sx={{ mt: 3, mx: 'auto', maxWidth: '450px', fontSize: { xs: '1rem', xl: '1.2rem' }, textAlign: 'center' }}>
         Exploitez les orthophotos PCRS et données LiDAR déjà en votre possession pour détecter automatiquement des objets d’intérêt : état des toitures
         publiques, végétation à risque, voirie dégradée, îlots de chaleur….
         <br style={{ marginBottom: 8 }} />
