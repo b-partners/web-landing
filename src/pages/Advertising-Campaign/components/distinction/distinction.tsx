@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 import { Box, Typography } from '@mui/material';
 
-import { MultipleCarousel } from '../Carousel';
+import { MultipleCarousel } from '@/common/components/Carousel';
 import { DISTINCTION_CAROUSEL_ITEMS } from './constant';
 
 type CarouselItem = { src: string; alt: string; title: string; description: string };
@@ -25,7 +25,7 @@ export const DistinctionItem: FC<{ carousel: CarouselItem }> = ({ carousel }) =>
 
 export function Distinction() {
   return (
-    <section className="distinction" style={{ backgroundColor: 'white', paddingBlock: '50px', margin: 0 }}>
+    <section className="distinction" style={{ paddingBlock: '50px', margin: 0 }}>
       <h2 className="section-title">Nos distinctions</h2>
       <MultipleCarousel>
         {DISTINCTION_CAROUSEL_ITEMS.map((carousel) => (

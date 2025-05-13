@@ -1,4 +1,4 @@
-import { Distinction } from '@/common/components/distinction';
+import { Distinction } from './components/distinction';
 
 import { Contact } from './Contact';
 import { DetectionType } from './DetectionType';
