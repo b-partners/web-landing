@@ -51,7 +51,7 @@ export const Footer = () => {
   }
 
   return (
-    <Box component="footer" sx={{ '& *': { color: 'black !important' }, width: '100%', py: 5, px: 8, bgcolor: PALETTE_COLORS.pine, minHeight: '350px' }}>
+    <Box component="footer" sx={{ '& *': { color: 'var(--cream) !important' }, width: '100%', py: 5, px: 8, bgcolor: PALETTE_COLORS.pine, minHeight: '350px' }}>
       <FlexBox sx={{ flexDirection: 'column', position: 'relative', width: '1OO%', minHeight: '350px', height: '100%' }}>
         <FlexBox
           sx={{

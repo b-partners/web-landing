@@ -17,13 +17,13 @@ export const TARGETS: TargetType[] = [
     title: 'Couvreurs',
     subtitle: 'Inspectez vos toitures à distance, en toute simplicité',
     description:
-      'Générez des rapports d’analyses de toitures sans vous déplacer, grâce à notre logiciel de détection d’objets et d’anomalies sur images HD et jusqu’à 5cm de précision.',
+      'Facilitez votre quotidien avec des diagnostics précis et détaillés de vos toitures, sans vous déplacer. Notre solution analyse les images HD pour prendre les cotes, identifier les dommages et détecter les anomalies, avec une précision allant jusqu’à 5 cm.',
     img: courvreursImg,
     link: '/craftsman',
   },
   {
     title: 'Assureurs',
-    subtitle: 'Prévenez mieux, intervenez plus vite',
+    subtitle: 'Connaissez vos risques pour mieux prévenir',
     description:
       'Notre IA transforme les images aériennes ultra HD en rapports d’analyse toiture précis. En identifiant en amont les sinistres potentiels (usure, humidité, dégradation), vous anticipez les risques et améliorez la prévention. Facilitez la souscription, accélérez les expertises post-événement, optimisez la relation client.',
     img: assureursImg,

@@ -1,6 +1,6 @@
-import { useEffect } from 'react';
+import { useEffect, useLayoutEffect } from 'react';
 import 'react-image-gallery/styles/css/image-gallery.css';
-import { Navigate, Outlet, Route, Routes } from 'react-router-dom';
+import { Navigate, Outlet, Route, Routes, useLocation } from 'react-router-dom';
 
 import { GlobalDialog, GlobalSnackbar } from '@/common/components';
 import { Footer } from '@/common/components/footer';
@@ -17,6 +17,12 @@ import { Navbar } from './common/components/navbar';
 import { PALETTE_COLORS } from './config/theme';
 
 const PublicLayout = () => {
+  const { pathname } = useLocation();
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
       <Navbar />
