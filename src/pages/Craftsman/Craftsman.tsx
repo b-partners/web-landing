@@ -2,14 +2,9 @@ import { GetInTouch } from '@/common/components';
 import { IconList } from '@/common/components/IconList';
 import { CTAButton } from '@/common/components/buttons';
 import { PALETTE_COLORS } from '@/config/theme';
+import { Assessment, HomeWork, Straighten, WaterDamage } from '@mui/icons-material';
 import { Box, Paper, Typography } from '@mui/material';
 
-import {
-  HomeWork,
-  Straighten,
-  WaterDamage,
-  Assessment,
-} from '@mui/icons-material';
 import './assets/css/spinner.css';
 import { Authenticity } from './components/Authenticity';
 import { Feature } from './components/Feature';
@@ -20,7 +15,7 @@ const textList = [
   { title: 'Analysez les toits de vos prospects à distance, sans monter sur une échelle.', icon: <HomeWork /> },
   { title: 'Mesurez les surfaces, les pentes et les hauteurs en 1 clic.', icon: <Straighten /> },
   { title: 'Détectez les signes d’usure, d’humidité ou de dégradation.', icon: <WaterDamage /> },
-  { title: 'Gagnez en réactivité avec des rapports précis et fiables.', icon: <Assessment /> }
+  { title: 'Gagnez en réactivité avec des rapports précis et fiables.', icon: <Assessment /> },
 ];
 
 export const Craftsman = () => {
@@ -39,13 +34,19 @@ export const Craftsman = () => {
 
             <Typography sx={{ mt: 3, fontWeight: 'bold' }}>Vos bénéfices en un coup d’œil</Typography>
             <Box style={{ display: 'flex' }}>
-              <Box className="home__list__col" sx={{ "& .MuiSvgIcon-root": { mx: 1, mt: "8px", border: '1px solid var(--neon-orange)', p: '5px', fontSize: '2rem', borderRadius: '50%' } }}>
+              <Box
+                className="home__list__col"
+                sx={{ '& .MuiSvgIcon-root': { mx: 1, mt: '8px', border: '1px solid var(--neon-orange)', p: '5px', fontSize: '2rem', borderRadius: '50%' } }}
+              >
                 <ul>
                   <IconList icon={textList[0].icon} listText={textList[0].title} imageStyle={{ filter: 'none' }} />
                   <IconList icon={textList[1].icon} listText={textList[1].title} imageStyle={{ filter: 'none' }} />
                 </ul>
               </Box>
-              <Box className="home__list__col" sx={{ "& .MuiSvgIcon-root": { mx: 1, mt: "8px", border: '1px solid var(--neon-orange)', p: '5px', fontSize: '2rem', borderRadius: '50%' } }}>
+              <Box
+                className="home__list__col"
+                sx={{ '& .MuiSvgIcon-root': { mx: 1, mt: '8px', border: '1px solid var(--neon-orange)', p: '5px', fontSize: '2rem', borderRadius: '50%' } }}
+              >
                 <ul>
                   <IconList icon={textList[2].icon} listText={textList[2].title} imageStyle={{ filter: 'none' }} />
                   {textList[3] && <IconList icon={textList[3].icon} listText={textList[3].title} imageStyle={{ filter: 'none' }} />}

@@ -116,7 +116,7 @@ export const Headline = () => {
             my: 5,
           }}
         >
-          Découvrez nos cas usages et testez vous-même sur votre territoire
+          Découvrez nos cas d'usage et testez vous-même sur votre territoire
         </Typography>
         <ImageGallery images={IMAGES} />
         <Box sx={{ display: 'flex', justifyContent: 'center', height: '6rem', alignItems: 'center' }}>

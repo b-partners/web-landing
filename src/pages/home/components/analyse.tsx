@@ -41,7 +41,9 @@ export const Analayse = () => {
         <Typography
           sx={{ width: { xs: '60%', md: '100%' }, fontSize: { xs: '1rem', xl: '1.3rem' }, textAlign: 'center', mt: 5, maxWidth: '1200px', mx: 'auto' }}
         >
-          Détection, qualification et recommandation à partir d’images aériennes HD. En un clic, obtenez un diagnostic métier précis sans monter sur le toit.
+          Détection, qualification et recommandation à partir d’images aériennes HD.
+          <br />
+          En un clic, obtenez un diagnostic métier précis sans monter sur le toit.
         </Typography>
         <FlexBox sx={{ mt: 3 }}>
           <img src={analyseCarousel} style={{ width: '55%', marginTop: '30px', display: 'block', marginBlock: 'auto', borderRadius: '30px' }} />

@@ -11,12 +11,12 @@ export function IconList({ icon = null, imageSrc = 'fa fa-bullseye fa-2x', listT
         <div>
           <i className="fa fa-check" aria-hidden="true" />
         </div>
+      ) : icon ? (
+        <>{icon}</>
       ) : (
-        icon ? <>{icon}</> : (
-          <div className="home-list-icon">
-            <img src={imageSrc} height="17" width="17" alt={imageSrc} className="icon-list" style={imageStyle} />
-          </div>
-        )
+        <div className="home-list-icon">
+          <img src={imageSrc} height="17" width="17" alt={imageSrc} className="icon-list" style={imageStyle} />
+        </div>
       )}
       <span className={`list-icon__text ${textStyle}`}>{listText}</span>
     </li>

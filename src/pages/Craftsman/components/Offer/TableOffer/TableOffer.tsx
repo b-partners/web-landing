@@ -65,18 +65,8 @@ export function TableOffer() {
             <br />1 utilisateur
           </p>
         </div>
-        <div className="table-body-cell">
-          <p className="text-center">
-            <CheckCircleOutlined />
-          </p>
-        </div>
-        <div className="table-body-cell">
-          <p className="text-center">
-            <CheckCircleOutlined />
-            <br />
-            0,99% commission
-          </p>
-        </div>
+        <RedundantTableLine />
+        <RedundantTableLine />
         <RedundantTableLine />
         <BpButton className="cta-btn" onClick={goToSignUp}>
           Testez 14 jours sans engagement
@@ -108,8 +98,6 @@ export function TableOffer() {
         <div className="table-body-cell">
           <p className="text-center">
             <CheckCircleOutlined />
-            <br />
-            Intégration API
           </p>
         </div>
         <RedundantTableLine />
