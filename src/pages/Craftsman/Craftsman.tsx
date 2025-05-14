@@ -21,7 +21,7 @@ const textList = [
 export const Craftsman = () => {
   return (
     <Box sx={{ marginTop: '15vh' }}>
-      <Box component="section" sx={{ height: { xs: 'auto', lg: '55vh' }, mb: 10, position: 'relative', color: 'white', paddingBottom: '50px' }} id="home">
+      <Box component="section" sx={{ height: 'auto', mb: 10, position: 'relative', color: 'white', paddingBottom: '50px' }} id="home">
         <Box sx={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }} className="bd-container bd-grid">
           <Box sx={{ flex: 1 }}>
             <Typography variant="body2" sx={{ fontSize: '1.6rem' }}>
