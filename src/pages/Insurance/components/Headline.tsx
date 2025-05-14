@@ -42,7 +42,7 @@ const BirdiaInsurerCard = () => {
   return (
     <Card
       sx={{
-        position: { xs: 'static', lg: 'absolute' },
+        position: 'static',
         bottom: '0px',
         transform: 'translateY(30%)',
         bgcolor: PALETTE_COLORS.pine,
@@ -80,7 +80,7 @@ const demoBrevoMeetLink = 'https://meet.brevo.com/bpartnersartisans/detection-do
 export function Headline() {
   return (
     <section style={{ marginTop: 140 }} className="headline" id="description">
-      <Box className="bd-container" sx={{ minHeight: { xs: '0x', lg: '70vh', xl: '65vh', xxl: '55vh' }, position: 'relative' }}>
+      <Box className="bd-container" sx={{ position: 'relative' }}>
         <Typography sx={{ fontSize: { xs: '2rem', lg: '2.4rem' }, color: PALETTE_COLORS.neon_orange, fontWeight: 'bold' }}>
           Prévenir les sinistres, maîtriser les risques : l’IA au service de l’assurance habitation
         </Typography>

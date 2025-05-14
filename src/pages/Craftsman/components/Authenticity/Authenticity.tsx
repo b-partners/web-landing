@@ -1,11 +1,11 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { PALETTE_COLORS } from '@/config/theme';
-import { Article, BarChart, Build, CheckCircle, Handshake, Plagiarism, Public, RequestQuote, Search, Security, SmartToy } from '@mui/icons-material';
-import { Box, Container, Typography } from '@mui/material';
+import { Article, BarChart, Build, CheckCircle, Handshake, LocationOn, Plagiarism, Public, RequestQuote, Search, Security } from '@mui/icons-material';
+import { Box, Typography } from '@mui/material';
 
-import { ShareCard } from '../../../../common/components/ShareCard';
 import Laptop from '../../assets/img/laptop.png';
+import { ShareCard } from './ShareCard';
 
 const points = [
   {
@@ -59,18 +59,16 @@ export function Authenticity() {
   return (
     <>
       <section style={{ paddingBottom: '50px', backgroundColor: PALETTE_COLORS.pine }}>
-        <Container>
-          <div className="share__container  bd-container">
-            <ShareCard cardTitle="Saisissez une adresse : " cardText="notre IA localise et extrait l’image de la toiture." icon={<SmartToy />} />
-            <ShareCard cardTitle="Lancez l’analyse : " cardText="matériaux, pentes, usure, humidité et plus encore." icon={<Plagiarism />} />
-            <ShareCard
-              cardText="exploitable pour vos devis ou la préparation des travaux."
-              cardTitle="Obtenez un rapport visuel clair :"
-              icon={<RequestQuote />}
-            />
-            <ShareCard cardTitle="Planifiez vos interventions : " cardText="en fonction de la gravité et de l’urgence." icon={<Article />} />
-          </div>
-        </Container>
+        <div className="share__container bd-container" style={{ maxWidth: '1900px' }}>
+          <ShareCard cardTitle="Saisissez une adresse : " cardText="notre IA localise et extrait l’image de la toiture." icon={<LocationOn />} />
+          <ShareCard cardTitle="Lancez l’analyse : " cardText="matériaux, pentes, usure, humidité et plus encore." icon={<Plagiarism />} />
+          <ShareCard
+            cardText="exploitable pour vos devis ou la préparation des travaux."
+            cardTitle="Obtenez un rapport visuel clair : "
+            icon={<RequestQuote />}
+          />
+          <ShareCard cardTitle="Planifiez vos interventions : " cardText="en fonction de la gravité et de l’urgence." icon={<Article />} />
+        </div>
       </section>
       <section className="mobile" style={{ backgroundColor: PALETTE_COLORS.white }}>
         <div className="mobile__task bd-container">
@@ -85,9 +83,9 @@ export function Authenticity() {
               </p>
               <BirdiaPoints />
             </div>
-            <div className="mobile__task__image" style={{ marginTop: '5px' }}>
+            <Box className="mobile__task__image" sx={{ justifyContent: { xs: 'center', md: 'start' }, marginTop: '5px' }}>
               <LazyLoadImage src={Laptop} width="358" alt={Laptop} effect="blur" style={{ marginTop: '30px' }} />
-            </div>
+            </Box>
           </div>
         </div>
       </section>

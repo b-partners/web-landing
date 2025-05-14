@@ -30,7 +30,7 @@ export const Solution = () => {
       <Typography
         sx={{ textAlign: { xs: 'center', md: 'start' }, color: PALETTE_COLORS.forest, mt: 4, fontSize: { xs: '1.2rem', md: '1.4rem', xl: '1.4rem' } }}
       >
-        Notre IA reproduit l’expertise métier pour analyser des toitrues à distance
+        Notre IA reproduit l’expertise métier pour analyser des toitures à distance
       </Typography>
       <Divider sx={{ height: '1px', width: '100%', bgcolor: PALETTE_COLORS.forest, mt: 4 }} />
       <FlexBox sx={{ mt: 5, alignItems: 'start', gap: 3, flexWrap: 'wrap', width: '100%' }}>
@@ -90,7 +90,7 @@ export const Solution = () => {
               fontSize: { xs: '1.3rem', md: '1.5rem', xxl: '2rem' },
             }}
           >
-            Évaluation techniques fiables, conformes aux réglementations et besoins terrain.
+            Diagnostics techniques fiables, conformes aux réglementations et besoins terrain.
           </Typography>
           <FlexBox sx={{ justifyContent: { xs: 'center', md: 'start' }, mt: 7, gap: 4 }}>
             <CTAButton />

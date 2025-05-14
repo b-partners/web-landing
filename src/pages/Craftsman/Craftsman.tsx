@@ -2,31 +2,28 @@ import { GetInTouch } from '@/common/components';
 import { IconList } from '@/common/components/IconList';
 import { CTAButton } from '@/common/components/buttons';
 import { PALETTE_COLORS } from '@/config/theme';
+import { Assessment, HomeWork, Straighten, WaterDamage } from '@mui/icons-material';
 import { Box, Paper, Typography } from '@mui/material';
 
 import './assets/css/spinner.css';
-import CashRegisterEuro from './assets/img/cash-register-euro.webp';
-import PaidBill from './assets/img/paid-bill.webp';
-import QrCode from './assets/img/qr-code-ext.webp';
-import VirtualBot from './assets/img/virtual-bot.webp';
 import { Authenticity } from './components/Authenticity';
 import { Feature } from './components/Feature';
 import { Offer } from './components/Offer';
 import { Testimonial } from './components/Testimonial';
 
 const textList = [
-  'Analysez les toits de vos prospects à distance, sans monter sur une échelle.',
-  'Mesurez les surfaces, les pentes et les hauteurs en 1 clic.',
-  'Détectez les signes d’usure, d’humidité ou de dégradation.',
-  'Gagnez en réactivité avec des rapports précis et fiables.',
+  { title: 'Analysez les toits de vos prospects à distance, sans monter sur une échelle.', icon: <HomeWork /> },
+  { title: 'Mesurez les surfaces, les pentes et les hauteurs en 1 clic.', icon: <Straighten /> },
+  { title: 'Détectez les signes d’usure, d’humidité ou de dégradation.', icon: <WaterDamage /> },
+  { title: 'Gagnez en réactivité avec des rapports précis et fiables.', icon: <Assessment /> },
 ];
 
 export const Craftsman = () => {
   return (
     <Box sx={{ marginTop: '15vh' }}>
-      <Box component="section" sx={{ height: '55vh', mb: 10, position: 'relative', color: 'white', paddingBottom: '50px' }} id="home">
-        <Box sx={{ display: 'flex', justifyContent: 'space-between' }} className="bd-container bd-grid">
-          <Box>
+      <Box component="section" sx={{ height: { xs: 'auto', lg: '55vh' }, mb: 10, position: 'relative', color: 'white', paddingBottom: '50px' }} id="home">
+        <Box sx={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }} className="bd-container bd-grid">
+          <Box sx={{ flex: 1 }}>
             <Typography variant="body2" sx={{ fontSize: '1.6rem' }}>
               L'assistant qui prend de la hauteur <span style={{ fontWeight: 'bold' }}>et analyse vos toitures sur image HD.</span>
             </Typography>
@@ -37,16 +34,22 @@ export const Craftsman = () => {
 
             <Typography sx={{ mt: 3, fontWeight: 'bold' }}>Vos bénéfices en un coup d’œil</Typography>
             <Box style={{ display: 'flex' }}>
-              <Box className="home__list__col">
+              <Box
+                className="home__list__col"
+                sx={{ '& .MuiSvgIcon-root': { mx: 1, mt: '8px', border: '1px solid var(--neon-orange)', p: '5px', fontSize: '2rem', borderRadius: '50%' } }}
+              >
                 <ul>
-                  <IconList imageSrc={VirtualBot} listText={textList[0]} imageStyle={{ filter: 'none' }} />
-                  <IconList imageSrc={QrCode} listText={textList[1]} imageStyle={{ filter: 'none' }} />
+                  <IconList icon={textList[0].icon} listText={textList[0].title} imageStyle={{ filter: 'none' }} />
+                  <IconList icon={textList[1].icon} listText={textList[1].title} imageStyle={{ filter: 'none' }} />
                 </ul>
               </Box>
-              <Box className="home__list__col">
+              <Box
+                className="home__list__col"
+                sx={{ '& .MuiSvgIcon-root': { mx: 1, mt: '8px', border: '1px solid var(--neon-orange)', p: '5px', fontSize: '2rem', borderRadius: '50%' } }}
+              >
                 <ul>
-                  <IconList imageSrc={PaidBill} listText={textList[2]} imageStyle={{ filter: 'none' }} />
-                  {textList[3] && <IconList imageSrc={CashRegisterEuro} listText={textList[3]} imageStyle={{ filter: 'none' }} />}
+                  <IconList icon={textList[2].icon} listText={textList[2].title} imageStyle={{ filter: 'none' }} />
+                  {textList[3] && <IconList icon={textList[3].icon} listText={textList[3].title} imageStyle={{ filter: 'none' }} />}
                 </ul>
               </Box>
             </Box>
@@ -54,7 +57,9 @@ export const Craftsman = () => {
               elevation={5}
               className="home-registration-form"
               sx={{
+                width: { xs: '100%', lg: '480px' },
                 padding: '20px',
+                position: { xs: 'static', lg: 'absolute' },
                 bgcolor: PALETTE_COLORS.pine,
               }}
             >
@@ -65,12 +70,12 @@ export const Craftsman = () => {
               <CTAButton sx={{ mt: 2, width: 'fit-content', display: 'block' }} />
             </Paper>
           </Box>
-          <div className="bpartners__video">
+          <div style={{ flex: 1, minWidth: '450px' }} className="bpartners__video">
             <iframe
-              title="bpartners_video"
-              width="450"
-              height="270"
-              className="bp-description-video"
+              title="BIRDIA_video"
+              width="450px"
+              height="270px"
+              style={{ marginBlock: 'auto' }}
               id="bpvideo-2"
               src="https://youtube.com/embed/mtcMeFWvNQI?autoplay=0"
               allowFullScreen

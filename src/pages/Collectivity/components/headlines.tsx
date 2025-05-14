@@ -42,7 +42,7 @@ const BirdiaCollectivityCard = () => {
   return (
     <Card
       sx={{
-        position: { xs: 'static', lg: 'absolute' },
+        position: 'static',
         bottom: '0px',
         transform: 'translateY(30%)',
         bgcolor: PALETTE_COLORS.pine,
@@ -113,10 +113,11 @@ export const Headline = () => {
             maxWidth: '1000px',
             mx: 'auto',
             fontWeight: 'bold',
-            my: 5,
+            mb: 5,
+            mt: { xs: 15, md: 5 },
           }}
         >
-          Découvrez nos cas usages et testez vous-même sur votre territoire
+          Découvrez nos cas d'usage et testez vous-même sur votre territoire
         </Typography>
         <ImageGallery images={IMAGES} />
         <Box sx={{ display: 'flex', justifyContent: 'center', height: '6rem', alignItems: 'center' }}>

@@ -51,7 +51,7 @@ export const Footer = () => {
   }
 
   return (
-    <Box component="footer" sx={{ '& *': { color: 'black !important' }, width: '100%', py: 5, px: 8, bgcolor: PALETTE_COLORS.pine, minHeight: '350px' }}>
+    <Box component="footer" sx={{ '& *': { color: 'var(--cream) !important' }, width: '100%', py: 5, px: 8, bgcolor: PALETTE_COLORS.pine, minHeight: '350px' }}>
       <FlexBox sx={{ flexDirection: 'column', position: 'relative', width: '1OO%', minHeight: '350px', height: '100%' }}>
         <FlexBox
           sx={{
@@ -102,7 +102,7 @@ export const Footer = () => {
         </FlexBox>
         <Divider sx={{ zIndex: 99, height: '1px', my: 3, bgcolor: PALETTE_COLORS.cream, width: '100%' }} />
         <FlexBox sx={{ zIndex: 99, width: '100%', justifyContent: 'space-between' }}>
-          <Typography sx={{ fontSize: '1rem' }}>© 2025 Relume. All rights reserved.</Typography>
+          <Typography sx={{ fontSize: '1rem' }}>© 2025 BIRDIA SAS. All rights reserved.</Typography>
           <FlexBox sx={{ gap: 5 }}>
             <Link to="https://drive.google.com/file/d/1gHtYOvrZAARjX-QSi5csl6a1MXB7cVHB/view?usp=sharing" style={{ textDecoration: 'underline' }}>
               Mentions Légales
@@ -122,7 +122,7 @@ export const Footer = () => {
 
 const MdFooter = () => {
   return (
-    <Box component="footer" sx={{ '& *': { color: 'black !important' }, width: '100%', py: 5, px: 4, bgcolor: PALETTE_COLORS.pine, minHeight: '350px' }}>
+    <Box component="footer" sx={{ '& *': { color: 'var(--cream) !important' }, width: '100%', py: 5, px: 4, bgcolor: PALETTE_COLORS.pine, minHeight: '350px' }}>
       <FlexBox sx={{ alignItems: 'center', flexDirection: 'column', gap: 4, flex: 1 }}>
         <SocialLinkWithLabel />
       </FlexBox>

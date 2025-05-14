@@ -9,7 +9,6 @@ import { NavbarButtonDrawer } from './navbar-button-drawer';
 import { LINKS } from './utils/constants';
 
 const NAVBAR_SX: SxProps = {
-  py: 2,
   gap: {
     md: 3,
     lg: 5,
@@ -28,8 +27,6 @@ const NAVBAR_CONTAINER_SX: SxProps = {
     xl: '10px',
   },
   width: '100%',
-  bgcolor: 'white',
-  borderRadius: '40px',
   justifyContent: 'space-between',
 };
 
@@ -56,12 +53,17 @@ export const Navbar = () => {
         ...NAVBAR_SX,
         top: shouldShowDrawer ? 0 : '10px',
         left: shouldShowDrawer ? 0 : '5%',
-        px: shouldShowDrawer ? '20px' : 0,
+        px: '20px',
         width: shouldShowDrawer ? '100%' : '90%',
-        bgcolor: shouldShowDrawer ? 'rgba(0,0,0,.4)' : 'transparent',
+        bgcolor: shouldShowDrawer ? 'rgba(0,0,0,.4)' : 'white',
+        borderRadius: shouldShowDrawer ? 'Opx' : '30px',
       }}
     >
-      <img src="/assets/images/logo-text-white.png" alt="BIRDIA" style={{ height: isLg ? '45px' : '30px' }} />
+      <img
+        src={shouldShowDrawer ? '/assets/images/logo-text-white.png' : '/assets/images/logo.png'}
+        alt="BIRDIA"
+        style={{ marginLeft: '10px', height: isLg ? '30px' : '22px' }}
+      />
       {shouldShowDrawer ? <NavbarButtonDrawer /> : <NavbarContent />}
     </FlexBox>
   );
