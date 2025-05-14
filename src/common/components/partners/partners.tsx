@@ -9,44 +9,44 @@ type CarouselItem = {
 
 const CAROUSEL_ITEMS: CarouselItem[] = [
   {
-    src: '/assets/images/referencies/maif.png',
+    src: '/assets/images/references/2_region_ile_de_france.png',
     alt: 'maif',
   },
   {
-    src: '/assets/images/referencies/le-contentin.png',
+    src: '/assets/images/references/8_cotentin.png',
     alt: 'ca du contentin',
   },
   {
-    src: '/assets/images/referencies/dijon-metropole.png',
+    src: '/assets/images/references/4_dijon_metropole.png',
     alt: 'Dijon Metropole',
   },
   {
-    src: '/assets/images/referencies/cannes.png',
+    src: '/assets/images/references/6_cannes.png',
     alt: 'cannes',
   },
   {
-    src: '/assets/images/referencies/chalon.png',
-    alt: 'chalon',
+    src: '/assets/images/references/9_chalons.png',
+    alt: 'chalons',
   },
   {
-    src: '/assets/images/referencies/valence-roman-algo.png',
-    alt: 'valence-roman-algo',
+    src: '/assets/images/references/5_toulouse_metropole.png',
+    alt: 'Toulouse Metropole',
   },
   {
-    src: '/assets/images/referencies/sicoval.png',
-    alt: 'sicoval',
+    src: '/assets/images/references/7_valence_romans_agglo.png',
+    alt: 'Valence Romans Agglo',
   },
   {
-    src: '/assets/images/referencies/ile-de-re.png',
-    alt: 'CC ile de re',
+    src: '/assets/images/references/11_sicoval.png',
+    alt: 'Sicoval',
   },
   {
-    src: '/assets/images/referencies/abs.png',
-    alt: 'Abaque Abs',
+    src: '/assets/images/references/12_cdcidr.png',
+    alt: 'CDCIDR',
   },
   {
-    src: '/assets/images/referencies/25-ans-europe.png',
-    alt: '25-ans-europe',
+    src: '/assets/images/references/13_europe_vue_de_ciel.png',
+    alt: 'Europe',
   },
 ];
 

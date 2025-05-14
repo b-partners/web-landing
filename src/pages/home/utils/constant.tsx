@@ -1,4 +1,7 @@
+import { ReactNode } from 'react';
+
 import { PALETTE_COLORS } from '@/config/theme';
+import { Typography } from '@mui/material';
 
 import assureursImg from '../assets/images/assureurs.png';
 import collectivitesImg from '../assets/images/collectivites.png';
@@ -7,7 +10,7 @@ import courvreursImg from '../assets/images/couvreurs.png';
 export type TargetType = {
   title: string;
   subtitle: string;
-  description: string;
+  description: ReactNode;
   img: string;
   link: string;
 };
@@ -16,24 +19,42 @@ export const TARGETS: TargetType[] = [
   {
     title: 'Couvreurs',
     subtitle: 'Inspectez vos toitures à distance, en toute simplicité',
-    description:
-      'Générez des rapports d’analyses de toitures sans vous déplacer, grâce à notre logiciel de détection d’objets et d’anomalies sur images HD et jusqu’à 5cm de précision.',
+    description: (
+      <Typography sx={{ mt: 3, mx: 'auto', maxWidth: '450px', fontSize: { xs: '1rem', xl: '1.2rem' }, textAlign: 'center' }}>
+        Facilitez votre quotidien avec des diagnostics précis et détaillés de vos toitures, sans vous déplacer.
+        <br style={{ marginBottom: 8 }} />
+        Notre solution analyse les images HD pour prendre les cotes, identifier les dommages et détecter les anomalies, avec une précision allant jusqu’à 5 cm.
+      </Typography>
+    ),
     img: courvreursImg,
     link: '/craftsman',
   },
   {
     title: 'Assureurs',
-    subtitle: 'Prévenez mieux, intervenez plus vite',
-    description:
-      'Notre IA transforme les images aériennes ultra HD en rapports d’analyse toiture précis. En identifiant en amont les sinistres potentiels (usure, humidité, dégradation), vous anticipez les risques et améliorez la prévention. Facilitez la souscription, accélérez les expertises post-événement, optimisez la relation client.',
+    subtitle: 'Connaissez vos risques pour mieux prévenir',
+    description: (
+      <Typography sx={{ mt: 3, mx: 'auto', maxWidth: '450px', fontSize: { xs: '1rem', xl: '1.2rem' }, textAlign: 'center' }}>
+        Notre IA transforme les images aériennes ultra HD en rapports d’analyse toiture précis.
+        <br style={{ marginBottom: 8 }} />
+        En identifiant en amont les sinistres potentiels (usure, humidité, dégradation), vous anticipez les risques et améliorez la prévention.
+        <br style={{ marginBottom: 8 }} />
+        Facilitez la souscription, accélérez les expertises post-événement, optimisez la relation client.
+      </Typography>
+    ),
     img: assureursImg,
     link: '/insurance',
   },
   {
     title: 'Collectivités',
     subtitle: 'Valorisez vos images PCRS comme jamais auparavant',
-    description:
-      'Exploitez les orthophotos PCRS et données LiDAR déjà en votre possession pour détecter automatiquement des objets d’intérêt : état des toitures publiques, végétation à risque, voirie dégradée, îlots de chaleur…. BIRDIA transforme ces données en diagnostics concrets pour vos plans ZAN, LOM, Climat & Résilience, tout en vous faisant gagner du temps sur le terrain.',
+    description: (
+      <Typography sx={{ mt: 3, mx: 'auto', maxWidth: '450px', fontSize: { xs: '1rem', xl: '1.2rem' }, textAlign: 'center' }}>
+        Exploitez les orthophotos PCRS et données LiDAR déjà en votre possession pour détecter automatiquement des objets d’intérêt : état des toitures
+        publiques, végétation à risque, voirie dégradée, îlots de chaleur….
+        <br style={{ marginBottom: 8 }} />
+        BIRDIA transforme ces données en diagnostics concrets pour vos plans ZAN, LOM, Climat & Résilience, tout en vous faisant gagner du temps sur le terrain.
+      </Typography>
+    ),
     img: collectivitesImg,
     link: '/collectivity',
   },
@@ -54,7 +75,7 @@ export const ANALYSES: AnalayseType[] = [
     color: PALETTE_COLORS.forest,
   },
   {
-    title: 'Comment fonctionne notre technologie',
+    title: 'Comment fonctionne notre technologie ?',
     description: 'Avec une simple adresse postale, analysez automatiquement les toitures de vos clients et prospects.',
     bgcolor: PALETTE_COLORS.pine,
     color: PALETTE_COLORS.white,

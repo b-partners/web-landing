@@ -128,7 +128,7 @@ export const Partners = () => {
         swipeable={false}
         pauseOnHover={false}
         responsive={RESPONSIVE}
-        autoPlaySpeed={3_000}
+        autoPlaySpeed={8_000}
         transitionDuration={500}
       >
         {PARTNERS.map((partner) => (

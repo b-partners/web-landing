@@ -57,8 +57,9 @@ export const Movies = () => {
             <span style={{ color: PALETTE_COLORS.neon_orange }}>optimisée</span>
           </Typography>
           <Typography sx={{ maxWidth: '700px', textAlign: { xs: 'center', md: 'start' }, fontSize: { xs: '1rem', xl: '1.3rem' }, color: PALETTE_COLORS.cream }}>
-            Des données précises à portée de main pour agir rapidement. Nos analyses prédictives vous aident à détecter les non-conformités avant qu’elles ne
-            deviennent problématiques.
+            Des données précises à portée de main pour agir rapidement.
+            <br />
+            Nos analyses prédictives vous aident à détecter les non-conformités avant qu’elles ne deviennent problématiques.
           </Typography>
         </FlexBox>
         <FlexBox
@@ -73,8 +74,9 @@ export const Movies = () => {
             <span style={{ color: PALETTE_COLORS.neon_orange }}>simplifié</span>
           </Typography>
           <Typography sx={{ maxWidth: '700px', textAlign: { xs: 'center', md: 'start' }, fontSize: { xs: '1rem', xl: '1.3rem' }, color: PALETTE_COLORS.black }}>
-            Des données précises à portée de main pour agir rapidement. Nos analyses prédictives vous aident à détecter les non-conformités avant qu’elles ne
-            deviennent problématiques.
+            Notre technologie automatise l’analyse des images aériennes pour détecter les objets et les anomalies en un clic.
+            <br />
+            Gagnez du temps tout en obtenant des évaluations fiables des toitures, végétations ou structures.
           </Typography>
         </FlexBox>
       </Box>

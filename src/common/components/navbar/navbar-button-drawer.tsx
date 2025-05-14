@@ -41,11 +41,11 @@ export const NavbarButtonDrawer = () => {
               <CloseIcon sx={{ color: 'white' }} />
             </IconButton>
           </FlexBox>
-          <FlexBox sx={{ mt: 2, flexDirection: 'column', gap: 1 }}>
+          <FlexBox sx={{ mt: 2, flexDirection: 'column', gap: { xs: 1, md: '3px', lg: 1 } }}>
             {LINKS.map(({ to, label }) => (
               <Button
                 variant="text"
-                sx={{ fontSize: '1rem', fontWeight: 'bold', color: location.pathname === to ? 'neon_orange' : 'white' }}
+                sx={{ fontSize: '.9rem', fontWeight: 'bold', color: location.pathname === to ? 'neon_orange' : 'white' }}
                 onClick={() => navigateTo(to)}
               >
                 {label}
