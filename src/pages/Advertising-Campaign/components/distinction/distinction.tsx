@@ -1,8 +1,8 @@
 import { FC } from 'react';
 
+import { MultipleCarousel } from '@/common/components/Carousel';
 import { Box, Typography } from '@mui/material';
 
-import { MultipleCarousel } from '@/common/components/Carousel';
 import { DISTINCTION_CAROUSEL_ITEMS } from './constant';
 
 type CarouselItem = { src: string; alt: string; title: string; description: string };

@@ -21,9 +21,9 @@ const textList = [
 export const Craftsman = () => {
   return (
     <Box sx={{ marginTop: '15vh' }}>
-      <Box component="section" sx={{ height: '55vh', mb: 10, position: 'relative', color: 'white', paddingBottom: '50px' }} id="home">
-        <Box sx={{ display: 'flex', justifyContent: 'space-between' }} className="bd-container bd-grid">
-          <Box>
+      <Box component="section" sx={{ height: { xs: 'auto', lg: '55vh' }, mb: 10, position: 'relative', color: 'white', paddingBottom: '50px' }} id="home">
+        <Box sx={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }} className="bd-container bd-grid">
+          <Box sx={{ flex: 1 }}>
             <Typography variant="body2" sx={{ fontSize: '1.6rem' }}>
               L'assistant qui prend de la hauteur <span style={{ fontWeight: 'bold' }}>et analyse vos toitures sur image HD.</span>
             </Typography>
@@ -57,7 +57,9 @@ export const Craftsman = () => {
               elevation={5}
               className="home-registration-form"
               sx={{
+                width: { xs: '100%', lg: '480px' },
                 padding: '20px',
+                position: { xs: 'static', lg: 'absolute' },
                 bgcolor: PALETTE_COLORS.pine,
               }}
             >
@@ -68,12 +70,12 @@ export const Craftsman = () => {
               <CTAButton sx={{ mt: 2, width: 'fit-content', display: 'block' }} />
             </Paper>
           </Box>
-          <div className="bpartners__video">
+          <div style={{ flex: 1, minWidth: '450px' }} className="bpartners__video">
             <iframe
-              title="bpartners_video"
-              width="450"
-              height="270"
-              className="bp-description-video"
+              title="BIRDIA_video"
+              width="450px"
+              height="270px"
+              style={{ marginBlock: 'auto' }}
               id="bpvideo-2"
               src="https://youtube.com/embed/mtcMeFWvNQI?autoplay=0"
               allowFullScreen

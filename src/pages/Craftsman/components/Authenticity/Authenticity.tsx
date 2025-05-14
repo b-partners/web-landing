@@ -4,8 +4,8 @@ import { PALETTE_COLORS } from '@/config/theme';
 import { Article, BarChart, Build, CheckCircle, Handshake, LocationOn, Plagiarism, Public, RequestQuote, Search, Security } from '@mui/icons-material';
 import { Box, Typography } from '@mui/material';
 
-import { ShareCard } from '../../../../common/components/ShareCard';
 import Laptop from '../../assets/img/laptop.png';
+import { ShareCard } from './ShareCard';
 
 const points = [
   {
@@ -83,9 +83,9 @@ export function Authenticity() {
               </p>
               <BirdiaPoints />
             </div>
-            <div className="mobile__task__image" style={{ marginTop: '5px' }}>
+            <Box className="mobile__task__image" sx={{ justifyContent: { xs: 'center', md: 'start' }, marginTop: '5px' }}>
               <LazyLoadImage src={Laptop} width="358" alt={Laptop} effect="blur" style={{ marginTop: '30px' }} />
-            </div>
+            </Box>
           </div>
         </div>
       </section>
