@@ -4,6 +4,7 @@ import { FlexBox } from '@/common/components';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Star } from '@mui/icons-material';
 import { Avatar, Box, Typography } from '@mui/material';
+import { v4 as uuid } from 'uuid';
 
 import { Testimonial } from '../utils/constant';
 
@@ -29,8 +30,8 @@ export const TestimonialItem: FC<{ testimonial: Testimonial }> = ({ testimonial 
         }}
       >
         <FlexBox sx={{ width: '100%', justifyContent: 'start', gap: 2 }}>
-          {stars.map((star) => (
-            <Star key={star.name} color="primary" />
+          {stars.map(() => (
+            <Star key={uuid()} color="primary" />
           ))}
         </FlexBox>
         <Typography sx={{ my: 1, maxWidth: '700px' }}>"{testimonial.content}"</Typography>

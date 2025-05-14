@@ -9,11 +9,13 @@ import { AdvertisingCampaign } from '@pages/Advertising-Campaign';
 import { Collectivity } from '@pages/Collectivity';
 import { Contact } from '@pages/Contact';
 import { Craftsman } from '@pages/Craftsman/Craftsman';
+import { PdfReader } from '@pages/GCU';
 import { Insurance } from '@pages/Insurance';
 import { Home } from '@pages/home';
 import { useSnackbar } from '@store/snackbar';
 
 import { Navbar } from './common/components/navbar';
+import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
 
 const PublicLayout = () => {
@@ -67,6 +69,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Navigate to="/home" replace />} />
+          <Route path="/general-conditions-of-use" element={<PdfReader pdfUrl={Env.REACT_APP_CGU_URL} />} />
+          <Route path="/legal-mention" element={<PdfReader pdfUrl={Env.REACT_APP_LEGAL_MENTION_URL} />} />
+          <Route path="/privacy-policy" element={<PdfReader pdfUrl={Env.REACT_APP_PRIVACY_POLICY_URL} />} />
+          <Route path="*" element=<Navigate to="/home" /> />
         </Route>
       </Routes>
       <GlobalDialog />

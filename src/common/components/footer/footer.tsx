@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 
+import { Env } from '@/common/utils/env';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Facebook, Instagram, LinkedIn, YouTube } from '@mui/icons-material';
 import { Box, Divider, IconButton, Typography, useMediaQuery, useTheme } from '@mui/material';
@@ -17,11 +18,11 @@ const LinkItem: FC<{ to: string; label: string }> = ({ label, to }) => {
 
 const SocialLinkWithLabel = () => (
   <>
+    <LinkItem to="/home#home" label="Présentation" />
     <LinkItem to="/about" label="À propos de nous" />
     <LinkItem to="/contact" label="Nous contacter" />
-    <LinkItem to="https://drive.google.com/file/d/1gHtYOvrZAARjX-QSi5csl6a1MXB7cVHB/view?usp=sharing" label="Mentions Légales" />
-    <LinkItem to="https://drive.google.com/file/d/1opfu-5QgQ-e0AKfXJ8coW6aIaQIAE2_k/view?usp=sharing" label="Conditions générales d'utilisation" />
-    <LinkItem to="https://drive.google.com/file/d/1R_IPruPnFnOajYlmbJVNvUSIhBeCt-sy/view?usp=sharing" label="Politique de protection des données" />
+    <LinkItem to={Env.DASHBOARD_LOGIN_URL} label="Mon compte" />
+    <LinkItem to="https://landing-bpartners.s3.eu-west-3.amazonaws.com/Inge%CC%81nieur+IA+H_F.pdf" label="Nous recrutons !" />
   </>
 );
 
@@ -104,13 +105,13 @@ export const Footer = () => {
         <FlexBox sx={{ zIndex: 99, width: '100%', justifyContent: 'space-between' }}>
           <Typography sx={{ fontSize: '1rem' }}>© 2025 BIRDIA SAS. All rights reserved.</Typography>
           <FlexBox sx={{ gap: 5 }}>
-            <Link to="https://drive.google.com/file/d/1gHtYOvrZAARjX-QSi5csl6a1MXB7cVHB/view?usp=sharing" style={{ textDecoration: 'underline' }}>
+            <Link to="/legal-mention" style={{ textDecoration: 'underline' }}>
               Mentions Légales
             </Link>
-            <Link to="https://drive.google.com/file/d/1opfu-5QgQ-e0AKfXJ8coW6aIaQIAE2_k/view?usp=sharing" style={{ textDecoration: 'underline' }}>
+            <Link to="/general-conditions-of-use" style={{ textDecoration: 'underline' }}>
               Conditions générales d'utilisation
             </Link>
-            <Link to="https://drive.google.com/file/d/1R_IPruPnFnOajYlmbJVNvUSIhBeCt-sy/view?usp=sharing" style={{ textDecoration: 'underline' }}>
+            <Link to="/privacy-policy" style={{ textDecoration: 'underline' }}>
               Politique de protection des données
             </Link>
           </FlexBox>
@@ -158,13 +159,13 @@ const MdFooter = () => {
       <Divider sx={{ zIndex: 99, height: '1px', my: 3, bgcolor: PALETTE_COLORS.cream, width: '100%' }} />
       <FlexBox sx={{ flexDirection: 'column', zIndex: 99, width: '100%', justifyContent: 'space-between' }}>
         <FlexBox sx={{ gap: 2, flexDirection: 'column' }}>
-          <Link to="https://drive.google.com/file/d/1gHtYOvrZAARjX-QSi5csl6a1MXB7cVHB/view?usp=sharing" style={{ textDecoration: 'underline' }}>
+          <Link to="/legal-mention" style={{ textDecoration: 'underline' }}>
             Mentions Légales
           </Link>
-          <Link to="https://drive.google.com/file/d/1opfu-5QgQ-e0AKfXJ8coW6aIaQIAE2_k/view?usp=sharing" style={{ textDecoration: 'underline' }}>
+          <Link to="/general-conditions-of-use" style={{ textDecoration: 'underline' }}>
             Conditions générales d'utilisation
           </Link>
-          <Link to="https://drive.google.com/file/d/1R_IPruPnFnOajYlmbJVNvUSIhBeCt-sy/view?usp=sharing" style={{ textDecoration: 'underline' }}>
+          <Link to="/privacy-policy" style={{ textDecoration: 'underline' }}>
             Politique de protection des données
           </Link>
         </FlexBox>

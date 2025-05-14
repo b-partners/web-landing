@@ -1,0 +1,61 @@
+import { useEffect, useState } from 'react';
+import { Document, Page, pdfjs } from 'react-pdf';
+
+import * as PropTypes from 'prop-types';
+
+import './PdfDocument.css';
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
+export const PdfDocument = ({ pdfUrl }) => {
+  const [page, setPage] = useState(1);
+  const [numPages, setNumPages] = useState(1);
+
+  useEffect(() => {
+    setPage(1);
+  }, [pdfUrl]);
+
+  return (
+    <div>
+      <div className="cgu-document">
+        <Document
+          error={<p>Impossible d'afficher le document.</p>}
+          loading={<p>Chargement du document...</p>}
+          onLoadSuccess={(props) => setNumPages(props.numPages)}
+          file={pdfUrl}
+        >
+          <Page pageNumber={page} />
+          <nav>
+            <ul className="pager">
+              <li className="previous">
+                {page !== 1 && (
+                  <button type="button" disabled={page === 1} onClick={() => setPage(page - 1)} className="pagination__button">
+                    <a href="#header">
+                      <i className="fa fa-chevron-left" />
+                    </a>
+                  </button>
+                )}
+              </li>
+              <li>
+                Page {page} sur {numPages}
+              </li>
+              <li className="next">
+                {page !== numPages && (
+                  <button type="button" disabled={page === Document.length} onClick={() => setPage(page + 1)} className="pagination__button">
+                    <a href="#header">
+                      <i className="fa fa-chevron-right" />
+                    </a>
+                  </button>
+                )}
+              </li>
+            </ul>
+          </nav>
+        </Document>
+      </div>
+    </div>
+  );
+};
+
+PdfDocument.propTypes = {
+  pdfUrl: PropTypes.string.isRequired,
+};
