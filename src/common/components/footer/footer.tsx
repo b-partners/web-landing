@@ -1,14 +1,14 @@
 import { FC } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, LinkProps } from 'react-router-dom';
 
 import { Env } from '@/common/utils/env';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Facebook, Instagram, LinkedIn, YouTube } from '@mui/icons-material';
-import { Box, Divider, IconButton, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { Box, Button, Divider, IconButton, Typography, useMediaQuery, useTheme } from '@mui/material';
 
 import { FlexBox } from '../flex-box';
 
-const LinkItem: FC<{ to: string; label: string }> = ({ label, to }) => {
+const LinkItem: FC<{ to: string; label: string } & LinkProps> = ({ label, to }) => {
   return (
     <Link to={to} target="_blank" style={{ fontSize: '1.1rem', textDecoration: 'underline' }}>
       {label}
@@ -22,7 +22,9 @@ const SocialLinkWithLabel = () => (
     <LinkItem to="/about" label="À propos de nous" />
     <LinkItem to="/contact" label="Nous contacter" />
     <LinkItem to={Env.DASHBOARD_LOGIN_URL} label="Mon compte" />
-    <LinkItem to="https://landing-bpartners.s3.eu-west-3.amazonaws.com/Inge%CC%81nieur+IA+H_F.pdf" label="Nous recrutons !" />
+    <Button variant="text" sx={{ p: 0, fontSize: '1.1rem', textDecoration: 'underline' }}>
+      Nous recrutons !
+    </Button>
   </>
 );
 

@@ -1,5 +1,5 @@
 import { ImageGallery } from '@/common/components';
-import { BpButton } from '@/common/components/Button';
+import { LinkButton } from '@/common/components/buttons';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Apartment, Assessment, CheckCircle, Forest, Layers, Timer } from '@mui/icons-material';
 import { Box, Card, CardContent, Typography } from '@mui/material';
@@ -75,7 +75,7 @@ const BirdiaCollectivityCard = () => {
 };
 
 const IMAGES = [Headline1, Headline2, Headline3, Headline4, Headline5, Headline6];
-const demoBrevoMeetLink = 'https://meet.brevo.com/bpartnerscollectivites/valorisation-images-aeriennes-par-ia-bpartners';
+const demoBrevoMeetLink = 'https://meet.brevo.com/birdia/detection-dobjets-par-intelligence-artificielle-bpartners';
 
 export const Headline = () => {
   return (
@@ -121,7 +121,7 @@ export const Headline = () => {
         </Typography>
         <ImageGallery images={IMAGES} />
         <Box sx={{ display: 'flex', justifyContent: 'center', height: '6rem', alignItems: 'center' }}>
-          <BpButton href={demoBrevoMeetLink}>RÉSERVEZ UNE DEMO GRATUITEMENT</BpButton>
+          <LinkButton to={demoBrevoMeetLink}>RÉSERVEZ UNE DEMO GRATUITEMENT</LinkButton>
         </Box>
       </Box>
     </section>

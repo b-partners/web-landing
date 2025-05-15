@@ -1,5 +1,5 @@
 import { ImageGallery } from '@/common/components';
-import { BpButton } from '@/common/components/Button';
+import { LinkButton } from '@/common/components/buttons';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Extension, Handshake, Search, Shield, SmartToy, Thunderstorm } from '@mui/icons-material';
 import { Box, Card, CardContent, Typography } from '@mui/material';
@@ -17,24 +17,24 @@ const insurerBenefits = [
     text: 'Contrôle automatisé des toitures : pour fiabiliser la complétude des contrats',
   },
   {
-    icon: <Thunderstorm />,
-    text: 'Détection post-intempéries : rapide des zones à risque',
+    icon: <Shield />,
+    text: 'Prévention proactive des sinistres : liés au vieillissement ou à la vétusté',
   },
   {
     icon: <SmartToy />,
     text: 'Connaissance fine des portefeuilles : en amont pour adapter les offres',
   },
   {
-    icon: <Shield />,
-    text: 'Prévention proactive des sinistres : liés au vieillissement ou à la vétusté',
+    icon: <Handshake />,
+    text: 'Support dédié : pour vos équipes sinistres, data ou risques',
   },
   {
     icon: <Extension />,
     text: 'Intégration : dans vos outils métiers ou plateformes de souscription',
   },
   {
-    icon: <Handshake />,
-    text: 'Support dédié : pour vos équipes sinistres, data ou risques',
+    icon: <Thunderstorm />,
+    text: 'Détection post-intempéries : rapide des zones à risque',
   },
 ];
 
@@ -75,7 +75,7 @@ const BirdiaInsurerCard = () => {
 };
 
 const IMAGES = [Headline1, Headline2, Headline3, Headline4, Headline5, Headline6];
-const demoBrevoMeetLink = 'https://meet.brevo.com/bpartnersartisans/detection-dobjets-par-intelligence-artificielle-bpartners';
+const demoBrevoMeetLink = 'https://meet.brevo.com/birdia/detection-dobjets-par-intelligence-artificielle-bpartners';
 
 export function Headline() {
   return (
@@ -116,11 +116,11 @@ export function Headline() {
             my: 5,
           }}
         >
-          BIRDIA, une IA souveraine, labellisée DeepTech, déjà expérimentée par les acteurs majeurs de l’assurance.
+          BIRDIA, une IA souveraine, labellisée DeepTech, déjà expérimentée par des acteurs majeurs de l’assurance.
         </Typography>
         <ImageGallery images={IMAGES} />
         <Box sx={{ display: 'flex', justifyContent: 'center', height: '6rem', alignItems: 'center' }}>
-          <BpButton href={demoBrevoMeetLink}>RÉSERVEZ UNE DEMO GRATUITEMENT</BpButton>
+          <LinkButton to={demoBrevoMeetLink}>RÉSERVEZ UNE DEMO GRATUITEMENT</LinkButton>
         </Box>
       </Box>
     </section>

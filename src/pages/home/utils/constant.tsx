@@ -21,9 +21,7 @@ export const TARGETS: TargetType[] = [
     subtitle: 'Inspectez vos toitures à distance, en toute simplicité',
     description: (
       <Typography sx={{ mt: 3, mx: 'auto', maxWidth: '450px', fontSize: { xs: '1rem', xl: '1.2rem' }, textAlign: 'center' }}>
-        Facilitez votre quotidien avec des diagnostics précis et détaillés de vos toitures, sans vous déplacer.
-        <br style={{ marginBottom: 8 }} />
-        Notre solution analyse les images HD pour prendre les cotes, identifier les dommages et détecter les anomalies, avec une précision allant jusqu’à 5 cm.
+        Notre solution permet d'identifier sur des images HD allant jusqu'à 5cm de précision, les dommages, anomalies de matériaux et d'en prendre les mesures.
       </Typography>
     ),
     img: courvreursImg,

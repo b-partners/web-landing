@@ -44,7 +44,7 @@ export function Description() {
         </div>
         <div className="description__col2">
           <div style={{ paddingInline: '25px' }}>
-            <LazyLoadImage alt="BpPhone" src={descriptionImage} width={450} effect="blur" style={{ marginBlock: 'auto', borderRadius: '15px' }} />
+            <LazyLoadImage alt="BpPhone" src={descriptionImage} width={500} effect="blur" style={{ marginBlock: 'auto', borderRadius: '15px' }} />
           </div>
         </div>
       </div>
