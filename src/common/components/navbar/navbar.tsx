@@ -1,4 +1,4 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 import { PALETTE_COLORS } from '@/config/theme';
 import { SxProps, Typography, useMediaQuery } from '@mui/material';
@@ -43,6 +43,7 @@ const LINK_ITEM_SX: SxProps = {
 };
 
 export const Navbar = () => {
+  const navigate = useNavigate();
   const isLg = useMediaQuery('(min-width:1500px)');
   const shouldShowDrawer = useMediaQuery('(max-width: 1100px)');
 
@@ -62,7 +63,8 @@ export const Navbar = () => {
       <img
         src={shouldShowDrawer ? '/assets/images/logo-text-white.png' : '/assets/images/logo.png'}
         alt="BIRDIA"
-        style={{ marginLeft: '10px', height: isLg ? '30px' : '22px' }}
+        style={{ cursor: 'pointer', marginLeft: '10px', height: isLg ? '30px' : '22px' }}
+        onClick={() => navigate('/home')}
       />
       {shouldShowDrawer ? <NavbarButtonDrawer /> : <NavbarContent />}
     </FlexBox>

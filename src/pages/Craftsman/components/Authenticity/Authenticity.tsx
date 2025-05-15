@@ -1,7 +1,7 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { PALETTE_COLORS } from '@/config/theme';
-import { Article, BarChart, Build, CheckCircle, Handshake, LocationOn, Plagiarism, Public, RequestQuote, Search, Security } from '@mui/icons-material';
+import { Article, BarChart, Build, CheckCircle, Euro, Handshake, LocationOn, Plagiarism, Public, Search, Security } from '@mui/icons-material';
 import { Box, Typography } from '@mui/material';
 
 import Laptop from '../../assets/img/laptop.png';
@@ -62,12 +62,8 @@ export function Authenticity() {
         <div className="share__container bd-container" style={{ maxWidth: '1900px' }}>
           <ShareCard cardTitle="Saisissez une adresse : " cardText="notre IA localise et extrait l’image de la toiture." icon={<LocationOn />} />
           <ShareCard cardTitle="Lancez l’analyse : " cardText="matériaux, pentes, usure, humidité et plus encore." icon={<Plagiarism />} />
-          <ShareCard
-            cardText="exploitable pour vos devis ou la préparation des travaux."
-            cardTitle="Obtenez un rapport visuel clair : "
-            icon={<RequestQuote />}
-          />
-          <ShareCard cardTitle="Planifiez vos interventions : " cardText="en fonction de la gravité et de l’urgence." icon={<Article />} />
+          <ShareCard cardText="exploitable pour vos devis ou la préparation des travaux." cardTitle="Obtenez un rapport visuel clair : " icon={<Article />} />
+          <ShareCard cardTitle="Planifiez vos interventions : " cardText="en fonction de la gravité et de l’urgence." icon={<Euro />} />
         </div>
       </section>
       <section className="mobile" style={{ backgroundColor: PALETTE_COLORS.white }}>

@@ -58,10 +58,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
@@ -1167,8 +1163,12 @@ img[alt="mobile_image"] {
     margin-left: 1.7rem;
 }
 
-.description__col1, .description__col2 {
-    width: 50%;
+.description__col1{
+    width: 45%;
+}
+
+.description__col2 {
+    width: 55%;
 }
 
 .description__col2 {

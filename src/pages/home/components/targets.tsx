@@ -33,7 +33,7 @@ export const Targets = () => {
         Vous êtes couvreurs, assureurs ou une collectivité ?
       </Typography>
       <Typography sx={{ color: PALETTE_COLORS.cream, textAlign: 'center', mt: 2, fontSize: { xs: '1rem', md: '1.5rem', xxl: '2rem' } }}>
-        Notre IA reproduit l’expertise métier pour analyser des toitures à distance
+        Notre IA reproduit l’expertise métier pour analyser le bâti à distance
       </Typography>
       <Divider sx={{ height: '1px', width: '100%', mt: 4, bgcolor: PALETTE_COLORS.cream }} />
       <FlexBox sx={{ alignItems: 'stretch', mt: 5, gap: { xs: 5, xxl: 7 }, flexWrap: 'wrap' }}>
