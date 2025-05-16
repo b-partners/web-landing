@@ -1,3 +1,5 @@
+import { FC } from 'react';
+
 import { ImageGallery } from '../ImageGallery';
 import image1 from './assets/images/Image_1.png';
 import image2 from './assets/images/Image_2.png';
@@ -11,7 +13,7 @@ import image9 from './assets/images/Image_9.png';
 
 const IMAGES = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
 
-export const Solution = () => {
+export const Solution: FC<{ images?: string[] }> = ({ images }) => {
   return (
     <section className="solution">
       <div className="bd-container">
@@ -24,7 +26,7 @@ export const Solution = () => {
           </span>
         </h2>
       </div>
-      <ImageGallery images={IMAGES} />
+      <ImageGallery images={images ?? IMAGES} />
     </section>
   );
 };
