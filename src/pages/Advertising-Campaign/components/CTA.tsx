@@ -4,7 +4,9 @@ import { Box, Button, SxProps } from '@mui/material';
 
 import { CTAStyle } from './styles';
 
-export const reserveDemo = () => window.open('https://meet.brevo.com/bpartnersartisans/reunion-de-15-minutes', '_blank');
+export const bookYourDemoUrl = 'https://meet.brevo.com/birdia/reunion-de-15-minutes';
+
+export const reserveDemo = () => window.open(bookYourDemoUrl, '_blank');
 export const createAnAccount = () => window.open('https://dashboard.bpartners.app/sign-up', '_blank');
 
 export const CTAButton: FC<{ sx?: SxProps }> = ({ sx = {} }) => {

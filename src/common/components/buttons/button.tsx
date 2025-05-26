@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Env } from '@/common/utils/env';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Button as MuiButton, ButtonProps as MuiButtonProps, SxProps } from '@mui/material';
+import { bookYourDemoUrl } from '@pages/Advertising-Campaign/components';
 
 export type ButtonColor = 'pine' | 'neon_orange' | 'white' | 'forest';
 
@@ -46,7 +47,7 @@ const BUTTON_COLOR: Record<ButtonColor, Partial<SxProps>> = {
 
 export const CTAButton: FC<ButtonProps> = (props) => {
   return (
-    <LinkButton to={Env.CTA_URL} {...props}>
+    <LinkButton to={bookYourDemoUrl} {...props}>
       Réserver votre démo
     </LinkButton>
   );
