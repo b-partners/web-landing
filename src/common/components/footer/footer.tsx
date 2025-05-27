@@ -75,8 +75,8 @@ export const Footer = () => {
             <Typography sx={{ fontSize: '1.2rem', fontWeight: 'bold' }}>Contact:</Typography>
             <Box sx={{ width: '100%' }}>
               <Typography style={{ fontSize: '1rem', fontWeight: 'bold', textDecoration: 'underline' }}>06 68 62 48 36</Typography>
-              <Link to="mailto:contact@bpartners.app" style={{ textDecoration: 'underline' }}>
-                contact@bpartners.app
+              <Link to="mailto:contact@birdia.fr" style={{ textDecoration: 'underline' }}>
+                contact@birdia.fr
               </Link>
             </Box>
             <FlexBox sx={{ color: PALETTE_COLORS.black, gap: 1 }}>
@@ -150,8 +150,8 @@ const MdFooter = () => {
         <Typography sx={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Contact:</Typography>
         <Box sx={{ width: '100%' }}>
           <Typography style={{ textAlign: 'center', fontSize: '1rem', fontWeight: 'bold', textDecoration: 'underline' }}>06 68 62 48 36</Typography>
-          <Link to="mailto:contact@bpartners.app" style={{ textAlign: 'center', display: 'block', marginTop: 10, textDecoration: 'underline' }}>
-            contact@bpartners.app
+          <Link to="mailto:contact@birdia.fr" style={{ textAlign: 'center', display: 'block', marginTop: 10, textDecoration: 'underline' }}>
+            contact@birdia.fr
           </Link>
         </Box>
         <FlexBox sx={{ color: PALETTE_COLORS.black, gap: 1 }}>
