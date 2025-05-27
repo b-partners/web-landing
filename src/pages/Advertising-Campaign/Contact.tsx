@@ -16,8 +16,8 @@ const contactItemsList = [
   },
   {
     icon: <Email />,
-    value: 'contact@bpartners.app',
-    link: 'mailTo:contact@bpartners.app',
+    value: 'contact@birdia.fr',
+    link: 'mailTo:contact@birdia.fr',
   },
 ];
 

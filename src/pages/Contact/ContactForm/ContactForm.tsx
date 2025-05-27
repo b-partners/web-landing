@@ -59,8 +59,8 @@ export function ContactForm() {
               </li>
               <li>
                 <i className="fa fa-envelope logo-color" />
-                <a href="mailto:contact@bpartners.app">
-                  <u className="logo-color">contact@bpartners.app</u>
+                <a href="mailto:contact@birdia.fr">
+                  <u className="logo-color">contact@birdia.fr</u>
                 </a>
               </li>
             </ul>
