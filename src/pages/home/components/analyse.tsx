@@ -5,7 +5,7 @@ import { PALETTE_COLORS } from '@/config/theme';
 import { SxProps, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 
-import analyseCarousel from '../assets/images/analyses-carousel/1.jpg';
+import analyseCarousel from '../assets/images/analyses-carousel/1.webp';
 import { ANALYSES } from '../utils/constant';
 import { AnalayseItem } from './analyse-item';
 

@@ -4,7 +4,7 @@ import { PALETTE_COLORS } from '@/config/theme';
 import { Article, BarChart, Build, CheckCircle, Euro, Handshake, LocationOn, Plagiarism, Public, Search, Security } from '@mui/icons-material';
 import { Box, Typography } from '@mui/material';
 
-import Laptop from '../../assets/img/laptop.png';
+import Laptop from '../../assets/img/laptop.webp';
 import { ShareCard } from './ShareCard';
 
 const points = [

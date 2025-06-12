@@ -38,7 +38,7 @@ export const HeroDescriptionText = () => {
       <Box className="description-title-container">
         <Typography>
           {`Découvrez `}
-          <img alt="BIRDIA Logo" src="/assets/images/logo.png" style={{ marginLeft: 3, padding: '7px' }} />
+          <img alt="BIRDIA Logo" src="/assets/images/logo.webp" style={{ marginLeft: 3, padding: '7px' }} />
           {` le seul outil de Détection et d'Analyse de Toitures.`}
         </Typography>
       </Box>

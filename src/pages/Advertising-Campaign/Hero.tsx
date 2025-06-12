@@ -8,7 +8,7 @@ export const Hero = () => {
     <Container>
       <Box sx={style}>
         <Box sx={{ my: 2 }}>
-          <img alt="BIRDIA Logo" src="/assets/images/logo.png" style={{ height: '40px' }} />
+          <img alt="BIRDIA Logo" src="/assets/images/logo.webp" style={{ height: '40px' }} />
         </Box>
         <Box className="description-container">
           <Box className="description-content">
