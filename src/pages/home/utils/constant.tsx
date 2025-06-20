@@ -25,7 +25,7 @@ export const TARGETS: TargetType[] = [
       </Typography>
     ),
     img: courvreursImg,
-    link: '/craftsman',
+    link: '/couvreurs',
   },
   {
     title: 'Assureurs',
@@ -40,7 +40,7 @@ export const TARGETS: TargetType[] = [
       </Typography>
     ),
     img: assureursImg,
-    link: '/insurance',
+    link: '/assurances',
   },
   {
     title: 'Collectivités',
@@ -54,7 +54,7 @@ export const TARGETS: TargetType[] = [
       </Typography>
     ),
     img: collectivitesImg,
-    link: '/collectivity',
+    link: '/collectivites',
   },
 ];
 

@@ -18,8 +18,8 @@ const LinkItem: FC<{ to: string; label: string } & LinkProps> = ({ label, to }) 
 
 const SocialLinkWithLabel = () => (
   <>
-    <LinkItem to="/home#home" label="Présentation" />
-    <LinkItem to="/about" label="À propos de nous" />
+    <LinkItem to="/accueil" label="Présentation" />
+    <LinkItem to="/a-propos" label="À propos de nous" />
     <LinkItem to="/contact" label="Nous contacter" />
     <LinkItem to={Env.DASHBOARD_LOGIN_URL} label="Mon compte" />
     <Button variant="text" sx={{ p: 0, fontSize: '1.1rem', textDecoration: 'underline' }}>
@@ -107,13 +107,13 @@ export const Footer = () => {
         <FlexBox sx={{ zIndex: 99, width: '100%', justifyContent: 'space-between' }}>
           <Typography sx={{ fontSize: '1rem' }}>© 2025 BIRDIA SAS. All rights reserved.</Typography>
           <FlexBox sx={{ gap: 5 }}>
-            <Link to="/legal-mention" style={{ textDecoration: 'underline' }}>
+            <Link to="/mentions-legales" style={{ textDecoration: 'underline' }}>
               Mentions Légales
             </Link>
-            <Link to="/general-conditions-of-use" style={{ textDecoration: 'underline' }}>
+            <Link to="/conditions-generales-d-utilisation" style={{ textDecoration: 'underline' }}>
               Conditions générales d'utilisation
             </Link>
-            <Link to="/privacy-policy" style={{ textDecoration: 'underline' }}>
+            <Link to="/politique-de-confidentialite" style={{ textDecoration: 'underline' }}>
               Politique de protection des données
             </Link>
           </FlexBox>
@@ -161,13 +161,13 @@ const MdFooter = () => {
       <Divider sx={{ zIndex: 99, height: '1px', my: 3, bgcolor: PALETTE_COLORS.cream, width: '100%' }} />
       <FlexBox sx={{ flexDirection: 'column', zIndex: 99, width: '100%', justifyContent: 'space-between' }}>
         <FlexBox sx={{ gap: 2, flexDirection: 'column' }}>
-          <Link to="/legal-mention" style={{ textDecoration: 'underline' }}>
+          <Link to="/mentions-legales" style={{ textDecoration: 'underline' }}>
             Mentions Légales
           </Link>
-          <Link to="/general-conditions-of-use" style={{ textDecoration: 'underline' }}>
+          <Link to="/conditions-generales-d-utilisation" style={{ textDecoration: 'underline' }}>
             Conditions générales d'utilisation
           </Link>
-          <Link to="/privacy-policy" style={{ textDecoration: 'underline' }}>
+          <Link to="/politique-de-confidentialite" style={{ textDecoration: 'underline' }}>
             Politique de protection des données
           </Link>
         </FlexBox>

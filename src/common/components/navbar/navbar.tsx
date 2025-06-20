@@ -64,7 +64,7 @@ export const Navbar = () => {
         src={shouldShowDrawer ? '/assets/images/logo-text-white.png' : '/assets/images/logo.png'}
         alt="BIRDIA"
         style={{ cursor: 'pointer', marginLeft: '10px', height: isLg ? '30px' : '22px' }}
-        onClick={() => navigate('/home')}
+        onClick={() => navigate('/accueil')}
       />
       {shouldShowDrawer ? <NavbarButtonDrawer /> : <NavbarContent />}
     </FlexBox>
