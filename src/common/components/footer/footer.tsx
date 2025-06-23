@@ -18,7 +18,7 @@ const LinkItem: FC<{ to: string; label: string } & LinkProps> = ({ label, to }) 
 
 const SocialLinkWithLabel = () => (
   <>
-    <LinkItem to="/accueil" label="Présentation" />
+    <LinkItem to="/" label="Présentation" />
     <LinkItem to="/a-propos" label="À propos de nous" />
     <LinkItem to="/contact" label="Nous contacter" />
     <LinkItem to={Env.DASHBOARD_LOGIN_URL} label="Mon compte" />

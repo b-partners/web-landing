@@ -1,3 +1,13 @@
 # https://www.robotstxt.org/robotstxt.html
+
 User-agent: *
-Disallow:
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+Disallow: /config/
+Disallow: /test/
+Disallow: /api/
+Disallow: /home
+Allow: /
+Sitemap: https://www.birdia.fr/sitemap.xml
+Host: www.birdia.fr

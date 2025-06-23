@@ -9,43 +9,43 @@ type CarouselItem = {
 
 const CAROUSEL_ITEMS: CarouselItem[] = [
   {
-    src: '/assets/images/references/2_region_ile_de_france.png',
+    src: '/assets/images/references/2_region_ile_de_france.webp',
     alt: 'maif',
   },
   {
-    src: '/assets/images/references/8_cotentin.png',
+    src: '/assets/images/references/8_cotentin.webp',
     alt: 'ca du contentin',
   },
   {
-    src: '/assets/images/references/4_dijon_metropole.png',
+    src: '/assets/images/references/4_dijon_metropole.webp',
     alt: 'Dijon Metropole',
   },
   {
-    src: '/assets/images/references/6_cannes.png',
+    src: '/assets/images/references/6_cannes.webp',
     alt: 'cannes',
   },
   {
-    src: '/assets/images/references/9_chalons.png',
+    src: '/assets/images/references/9_chalons.webp',
     alt: 'chalons',
   },
   {
-    src: '/assets/images/references/5_toulouse_metropole.png',
+    src: '/assets/images/references/5_toulouse_metropole.webp',
     alt: 'Toulouse Metropole',
   },
   {
-    src: '/assets/images/references/7_valence_romans_agglo.png',
+    src: '/assets/images/references/7_valence_romans_agglo.webp',
     alt: 'Valence Romans Agglo',
   },
   {
-    src: '/assets/images/references/11_sicoval.png',
+    src: '/assets/images/references/11_sicoval.webp',
     alt: 'Sicoval',
   },
   {
-    src: '/assets/images/references/12_cdcidr.png',
+    src: '/assets/images/references/12_cdcidr.webp',
     alt: 'CDCIDR',
   },
   {
-    src: '/assets/images/references/13_europe_vue_de_ciel.png',
+    src: '/assets/images/references/13_europe_vue_de_ciel.webp',
     alt: 'Europe',
   },
 ];

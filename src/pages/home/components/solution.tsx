@@ -111,7 +111,7 @@ export const Solution = () => {
           </FlexBox>
         </Box>
         <FlexBox sx={{ minWidth: '400px', flex: 1, mt: { xs: 5, md: 0 }, justifyContent: { xs: 'center', lg: 'end' } }}>
-          <img src={'/assets/images/b-image.png'} alt="BIRDIA" style={{ width: '80%', maxWidth: md ? '400px' : '300px' }} />
+          <img src={'/assets/images/b-image.webp'} alt="BIRDIA" style={{ width: '80%', maxWidth: md ? '400px' : '300px' }} />
         </FlexBox>
       </FlexBox>
     </Box>

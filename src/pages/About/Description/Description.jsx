@@ -3,7 +3,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { PALETTE_COLORS } from '@/config/theme';
 
-import descriptionImage from '../assets/description.png';
+import descriptionImage from '../assets/description.webp';
 
 export function Description() {
   return (
