@@ -55,7 +55,7 @@ function App() {
       },
       snackbarProps: { anchorOrigin: { vertical: 'bottom', horizontal: 'center' }, autoHideDuration: 50_000 },
     });
-  }, []);
+  }, [open]);
 
   return (
     <>
@@ -72,7 +72,7 @@ function App() {
           <Route path="/conditions-generales-d-utilisation" element={<PdfReader pdfUrl={Env.REACT_APP_CGU_URL} />} />
           <Route path="/mentions-legales" element={<PdfReader pdfUrl={Env.REACT_APP_LEGAL_MENTION_URL} />} />
           <Route path="/politique-de-confidentialite" element={<PdfReader pdfUrl={Env.REACT_APP_PRIVACY_POLICY_URL} />} />
-          <Route path="*" element=<Navigate to="/accueil" /> />
+          <Route path="*" element={<Navigate to="/accueil" />} />
         </Route>
       </Routes>
       <GlobalDialog />
