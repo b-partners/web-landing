@@ -3,9 +3,9 @@ import { ReactNode } from 'react';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Typography } from '@mui/material';
 
-import assureursImg from '../assets/images/assureurs.png';
-import collectivitesImg from '../assets/images/collectivites.png';
-import courvreursImg from '../assets/images/couvreurs.png';
+import assureursImg from '../assets/images/assureurs.webp';
+import collectivitesImg from '../assets/images/collectivites.webp';
+import courvreursImg from '../assets/images/couvreurs.webp';
 
 export type TargetType = {
   title: string;

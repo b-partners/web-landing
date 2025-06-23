@@ -6,71 +6,71 @@ import { Box, Typography } from '@mui/material';
 
 const PARTNERS = [
   {
-    img: '/assets/images/references/1_maif.png',
+    img: '/assets/images/references/1_maif.webp',
     alt: 'MAIF',
   },
   {
-    img: '/assets/images/references/2_region_ile_de_france.png',
+    img: '/assets/images/references/2_region_ile_de_france.webp',
     alt: 'Région ile de France',
   },
   {
-    img: '/assets/images/references/3_french_assure_tech.png',
+    img: '/assets/images/references/3_french_assure_tech.webp',
     alt: 'La French Assuretech',
   },
   {
-    img: '/assets/images/references/4_dijon_metropole.png',
+    img: '/assets/images/references/4_dijon_metropole.webp',
     alt: 'Dijon Metropole',
   },
   {
-    img: '/assets/images/references/5_toulouse_metropole.png',
+    img: '/assets/images/references/5_toulouse_metropole.webp',
     alt: 'Toulouse Metropole',
   },
   {
-    img: '/assets/images/references/6_cannes.png',
+    img: '/assets/images/references/6_cannes.webp',
     alt: 'Cannes',
   },
   {
-    img: '/assets/images/references/7_valence_romans_agglo.png',
+    img: '/assets/images/references/7_valence_romans_agglo.webp',
     alt: 'Valence Romans Agglo',
   },
   {
-    img: '/assets/images/references/8_cotentin.png',
+    img: '/assets/images/references/8_cotentin.webp',
     alt: 'Cotentin',
   },
   {
-    img: '/assets/images/references/9_chalons.png',
+    img: '/assets/images/references/9_chalons.webp',
     alt: 'Châlons Agglo',
   },
   {
-    img: '/assets/images/references/10_abs.png',
+    img: '/assets/images/references/10_abs.webp',
     alt: 'ABS',
   },
   {
-    img: '/assets/images/references/11_sicoval.png',
+    img: '/assets/images/references/11_sicoval.webp',
     alt: 'Sicoval',
   },
   {
-    img: '/assets/images/references/12_cdcidr.png',
+    img: '/assets/images/references/12_cdcidr.webp',
     alt: 'CDCIDR',
   },
   {
-    img: '/assets/images/references/13_europe_vue_de_ciel.png',
+    img: '/assets/images/references/13_europe_vue_de_ciel.webp',
     alt: 'Europe vue de ciel',
   },
   {
-    img: '/assets/images/references/14_startup_cea.png',
+    img: '/assets/images/references/14_startup_cea.webp',
     alt: 'Startup CEA',
   },
   {
-    img: '/assets/images/references/15_labelisez_deeptech_bpi.png',
+    img: '/assets/images/references/15_labelisez_deeptech_bpi.webp',
     alt: 'Labelised Deeptech BPI',
   },
   {
-    img: '/assets/images/references/16_wilko.png',
+    img: '/assets/images/references/16_wilko.webp',
     alt: 'Wilko',
   },
   {
-    img: '/assets/images/references/17_imt.png',
+    img: '/assets/images/references/17_imt.webp',
     alt: 'IMT',
   },
 ];
