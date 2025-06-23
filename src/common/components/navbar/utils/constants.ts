@@ -1,5 +1,5 @@
 export const LINKS = [
-  { to: '/accueil', label: 'Accueil' },
+  { to: '/', label: 'Accueil' },
   { to: '/couvreurs', label: 'Couvreurs' },
   { to: '/assurances', label: 'Assurances' },
   { to: '/collectivites', label: 'Collectivités' },
