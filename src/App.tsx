@@ -55,24 +55,23 @@ function App() {
       },
       snackbarProps: { anchorOrigin: { vertical: 'bottom', horizontal: 'center' }, autoHideDuration: 50_000 },
     });
-  }, []);
+  }, [open]);
 
   return (
     <>
       <Routes>
         <Route path="/campagne-publicitaire" element={<AdvertisingCampaign />} />
         <Route path="/" element={<PublicLayout />}>
-          <Route path="/accueil" element={<Home />} />
           <Route path="/couvreurs" element={<Craftsman />} />
           <Route path="/collectivites" element={<Collectivity />} />
           <Route path="/assurances" element={<Insurance />} />
           <Route path="/a-propos" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/" element={<Navigate to="/accueil" replace />} />
+          <Route path="/" element={<Home />} />
           <Route path="/conditions-generales-d-utilisation" element={<PdfReader pdfUrl={Env.REACT_APP_CGU_URL} />} />
           <Route path="/mentions-legales" element={<PdfReader pdfUrl={Env.REACT_APP_LEGAL_MENTION_URL} />} />
           <Route path="/politique-de-confidentialite" element={<PdfReader pdfUrl={Env.REACT_APP_PRIVACY_POLICY_URL} />} />
-          <Route path="*" element=<Navigate to="/accueil" /> />
+          <Route path="*" element={<Navigate to="/accueil" />} />
         </Route>
       </Routes>
       <GlobalDialog />
