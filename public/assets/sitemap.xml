@@ -51,18 +51,6 @@
         <lastmod>2025-06-23</lastmod>
     </url>
     <url>
-        <loc>https://dashboard.birdia.fr/login</loc>
-        <priority>0,5</priority>
-        <changefreq>yearly</changefreq>
-        <lastmod>2025-06-23</lastmod>
-    </url>
-    <url>
-        <loc>https://dashboard.birdia.fr/sign-up</loc>
-        <priority>0,5</priority>
-        <changefreq>yearly</changefreq>
-        <lastmod>2025-06-23</lastmod>
-    </url>
-    <url>
         <loc>https://www.birdia.info/post/dpe-toiture</loc>
         <priority>0,4</priority>
         <changefreq>never</changefreq>
@@ -89,48 +77,6 @@
     <url>
         <loc>https://www.birdia.info/post/impact-écologique-et-entretien-des-toitures-préserver-l-environnement-grâce-à-l-ia</loc>
         <priority>0,4</priority>
-        <changefreq>never</changefreq>
-        <lastmod>2025-06-23</lastmod>
-    </url>
-    <url>
-        <loc>https://www.birdia.fr/mentions-legales</loc>
-        <priority>0,2</priority>
-        <changefreq>yearly</changefreq>
-        <lastmod>2025-06-23</lastmod>
-    </url>
-    <url>
-        <loc>https://www.birdia.fr/conditions-generales-d-utilisation</loc>
-        <priority>0,2</priority>
-        <changefreq>yearly</changefreq>
-        <lastmod>2025-06-23</lastmod>
-    </url>
-    <url>
-        <loc>https://www.birdia.fr/politique-de-confidentialite</loc>
-        <priority>0,2</priority>
-        <changefreq>yearly</changefreq>
-        <lastmod>2025-06-23</lastmod>
-    </url>
-    <url>
-        <loc>https://lespepitestech.com/startup-de-la-french-tech/bpartners-artisans-independants</loc>
-        <priority>0,2</priority>
-        <changefreq>never</changefreq>
-        <lastmod>2025-06-23</lastmod>
-    </url>
-    <url>
-        <loc>https://www.jaimelesstartups.fr/bpartners-artisans-independants/</loc>
-        <priority>0,2</priority>
-        <changefreq>never</changefreq>
-        <lastmod>2025-06-23</lastmod>
-    </url>
-    <url>
-        <loc>https://systematic-paris-region.org/nouveaux-membres-2023-bienvenue-a-bord-3/</loc>
-        <priority>0,2</priority>
-        <changefreq>never</changefreq>
-        <lastmod>2025-06-23</lastmod>
-    </url>
-    <url>
-        <loc>https://www.bred.fr/actualites/les-laureats-du-concours-regional-creation-d-entreprise-ile-de-france</loc>
-        <priority>0,2</priority>
         <changefreq>never</changefreq>
         <lastmod>2025-06-23</lastmod>
     </url>
