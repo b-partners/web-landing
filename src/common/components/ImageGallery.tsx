@@ -36,6 +36,7 @@ export const ImageGallery: FC<ImageGalleryProps> = ({ sx = {}, images, reactGall
     thumbnailWidth: '50px',
     originalWidth: '100%',
     originalHeight: '400px',
+    originalTitle: 'Exemple analyse',
   }));
 
   return (
