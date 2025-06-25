@@ -46,7 +46,11 @@ export const Analayse = () => {
           En un clic, obtenez un diagnostic métier précis sans monter sur le toit.
         </Typography>
         <FlexBox sx={{ mt: 3 }}>
-          <img src={analyseCarousel} alt='Illustration : Analyse automatisée de toitures par intelligence artificielle' style={{ width: '55%', marginTop: '30px', display: 'block', marginBlock: 'auto', borderRadius: '30px' }} />
+          <img
+            src={analyseCarousel}
+            alt="Illustration : Analyse automatisée de toitures par intelligence artificielle"
+            style={{ width: '55%', marginTop: '30px', display: 'block', marginBlock: 'auto', borderRadius: '30px' }}
+          />
         </FlexBox>
         <FlexBox sx={{ my: 5, gap: 4 }}>
           <CTAButton />
