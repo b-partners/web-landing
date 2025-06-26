@@ -1,7 +1,8 @@
 import { Box } from '@mui/material';
+import { Analayse, Testimonials } from '@pages/home/components';
 
 import { HeroPage, TheyTrushUs } from './sections';
-import { Analayse, Testimonials } from '@pages/home/components';
+import { FAQ } from './sections/FAQ';
 
 export function Template() {
   return (
@@ -10,6 +11,7 @@ export function Template() {
       <TheyTrushUs />
       <Analayse />
       <Testimonials />
+      <FAQ />
     </Box>
   );
 }

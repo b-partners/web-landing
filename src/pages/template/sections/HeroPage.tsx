@@ -26,7 +26,7 @@ export const HeroPage = () => {
           <CTAButton />
         </Box>
         <Box className="content">
-          <Box className='image-container'>
+          <Box className="image-container">
             <img src={heroImage} alt="" />
           </Box>
         </Box>
