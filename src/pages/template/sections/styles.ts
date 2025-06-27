@@ -1,9 +1,8 @@
 import { PALETTE_COLORS } from '@/config/theme';
-import { PaletteTwoTone } from '@mui/icons-material';
 import { SxProps } from '@mui/material';
 
 export const HeroPageStyle: SxProps = {
-  minHeight: '100vh',
+  minHeight: '70vh',
   width: '100%',
   margin: 0,
   padding: 0,
@@ -12,10 +11,11 @@ export const HeroPageStyle: SxProps = {
   justifyContent: 'center',
   alignItems: 'center',
   '& #container': {
-    width: { xs: '100%', sm: '95%', md: '90%', lg: '85%' },
-    height: '80%',
+    width: { xs: '90%', sm: '85%', md: '80%', lg: '75%' },
+    height: '100%',
     display: 'flex',
     flexWrap: 'wrap',
+    alignItems: 'center',
   },
   '& #container > .content': {
     flexBasis: '50%',
@@ -24,12 +24,30 @@ export const HeroPageStyle: SxProps = {
   '& .MuiTypography-root': {
     color: 'white',
   },
+  '& #container .MuiListItem-root': {
+    padding: 0,
+    mb: 3,
+  },
   '& #container .MuiListItem-root svg': {
     color: 'white',
   },
   '& .image-container': {
-    height: '70%',
+    height: '100%',
     overflow: 'hidden',
+    display: 'flex',
+    justifyContent: 'flex-end',
+    alignItems: 'center', 
+  },
+  '& .image-container img': {
+    borderRadius: '10px',
+    width: '90%' ,
+    height: '100%',
+    overflow: 'hidden',
+    aspectRatio: '16 / 9',
+    objectFit: 'cover',
+  },
+  'h2':{
+    mb: 4,
   },
 };
 

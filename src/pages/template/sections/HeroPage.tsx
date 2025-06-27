@@ -12,7 +12,7 @@ export const HeroPage = () => {
     <Box component="section" id="template-HeroPage" sx={HeroPageStyle}>
       <Box id="container">
         <Box className="content">
-          <Typography variant="h4">BIRDIA, le seule outli de diagnostitque toiture</Typography>
+          <Typography variant="h2">BIRDIA, le seul outil de diagnostique toiture</Typography>
           <List>
             {heroItems.map((items) => (
               <ListItem key={items}>
@@ -23,11 +23,11 @@ export const HeroPage = () => {
               </ListItem>
             ))}
           </List>
-          <CTAButton />
+          <CTAButton sx={{ mt: 2, mb: 2 }}/>
         </Box>
         <Box className="content">
           <Box className="image-container">
-            <img src={heroImage} alt="" />
+            <img src={heroImage} alt=""/>
           </Box>
         </Box>
       </Box>
