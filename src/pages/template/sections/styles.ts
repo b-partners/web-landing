@@ -104,7 +104,7 @@ export const FAQStyle: SxProps = {
     fontSize: 30,
   },
   '#change-container': {
-    width: '100%',
+    width: '90%',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
