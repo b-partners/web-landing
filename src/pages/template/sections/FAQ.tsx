@@ -1,5 +1,7 @@
+import { LinkButton } from '@/common/components/buttons';
 import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
 import { Accordion, AccordionDetails, AccordionSummary, Box, Typography } from '@mui/material';
+import { bookYourDemoUrl } from '@pages/Advertising-Campaign/components';
 
 import { FAQStyle } from './styles';
 
@@ -16,7 +18,7 @@ export const FAQ = () => {
   return (
     <Box component="section" id="template-FAQ" sx={FAQStyle}>
       <Box id="container-faq">
-        <Typography variant="h4" className="title-faq">
+        <Typography variant="h2" className="title-faq">
           FAQ
         </Typography>
         {faqTitles.map(({ id, question, reponse }) => (
@@ -29,6 +31,10 @@ export const FAQ = () => {
             </AccordionDetails>
           </Accordion>
         ))}
+      </Box>
+      <Box id="container-change">
+        <Typography variant="h4">Vous êtes un particulier , vous souhaitez trouver un couvreur ?</Typography>
+        <LinkButton to={bookYourDemoUrl}>Echangeons ensemble</LinkButton>
       </Box>
     </Box>
   );
