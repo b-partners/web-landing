@@ -3,6 +3,7 @@ import { Analayse, Testimonials } from '@pages/home/components';
 
 import { HeroPage, TheyTrushUs } from './sections';
 import { FAQ } from './sections/FAQ';
+import { FooterTemplate } from './sections/FooterTemplate';
 import { RoofDiagnostics } from './sections/RoofDiagnostics';
 
 export function Template() {
@@ -14,6 +15,7 @@ export function Template() {
       <Testimonials />
       <FAQ />
       <RoofDiagnostics />
+      <FooterTemplate />
     </Box>
   );
 }

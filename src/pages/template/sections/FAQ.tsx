@@ -17,23 +17,25 @@ const faqTitles = [
 export const FAQ = () => {
   return (
     <Box component="section" id="template-FAQ" sx={FAQStyle}>
-      <Box id="container-faq">
-        <Typography variant="h2" className="title-faq">
+      <Box id="faq-container">
+        <Typography variant="h2" className="faq-title">
           FAQ
         </Typography>
         {faqTitles.map(({ id, question, reponse }) => (
           <Accordion key={id} className="accordion">
             <AccordionSummary expandIcon={<ExpandCircleDownIcon />}>
-              <Typography className="font-accordion">{question}</Typography>
+              <Typography className="accordion-text">{question}</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography className="font-accordion">{reponse}</Typography>
+              <Typography className="accordion-text">{reponse}</Typography>
             </AccordionDetails>
           </Accordion>
         ))}
       </Box>
-      <Box id="container-change">
-        <Typography variant="h4">Vous êtes un particulier , vous souhaitez trouver un couvreur ?</Typography>
+      <Box id="change-container">
+        <Typography className="change-text" variant="h4">
+          Vous êtes un particulier , vous souhaitez trouver un couvreur ?
+        </Typography>
         <LinkButton to={bookYourDemoUrl}>Echangeons ensemble</LinkButton>
       </Box>
     </Box>

@@ -15,11 +15,22 @@ export const HeroPageStyle: SxProps = {
     height: '100%',
     display: 'flex',
     flexWrap: 'wrap',
-    alignItems: 'center',
+    alignItems: 'flex-end',
+    mt: 7,
+  },
+  '& #container > .content-image': {
+    flexBasis: { xs: '100%', sm: '100%', md: '50%' },
+    mt: { xs: '10px', sm: '10px', md: '0' },
+    mb: { xs: '30px', sm: '30px', md: '0' },
   },
   '& #container > .content': {
-    flexBasis: '50%',
-    height: '100%',
+    flexBasis: { xs: '100%', sm: '100%', md: '50%' },
+    mt: { xs: '10px', sm: '10px', md: '0' },
+    mb: { xs: '30px', sm: '30px', md: '0' },
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: { xs: 'center', sm: 'center', md: 'flex-start' },
+    textAlign: { xs: 'center', sm: 'center', md: 'left' },
   },
   '& .MuiTypography-root': {
     color: 'white',
@@ -38,18 +49,21 @@ export const HeroPageStyle: SxProps = {
     justifyContent: 'flex-end',
     alignItems: 'center',
   },
-  '& .image-container img': {
+  '& .box-image img': {
     borderRadius: '10px',
-    width: '90%',
-    height: '100%',
-    overflow: 'hidden',
+    width: { xs: '90%', sm: '80%', md: '90%', lg: '100%' },
+    maxWidth: { sm: '500px', lg: '100%' },
+    height: 'auto',
     aspectRatio: '16 / 9',
     objectFit: 'cover',
+    margin: '0 auto',
+    display: 'block',
   },
-  '.title-hero': {
+  '.hero-title': {
     mb: 4,
     fontWeight: 'bold',
-    fontSize: '3.3rem',
+    fontSize: { xs: '1.6rem', sm: '1.8rem', md: '1.8rem', lg: '2.5rem' },
+    mr: '10px',
   },
 };
 
@@ -63,21 +77,19 @@ export const FAQStyle: SxProps = {
   justifyContent: 'center',
   alignItems: 'center',
   flexDirection: 'column',
-  '& #container-faq': {
+  '& #faq-container': {
     width: { xs: '55%', sm: '50%', md: '45%', lg: '40%' },
-    height: '80%',
-    alignItems: 'center',
-    justifyContent: 'center',
     padding: 0,
   },
-  '& #container-faq > .title-faq': {
+  '& #faq-container > .faq-title': {
     textAlign: 'center',
     mb: '5px',
     color: PALETTE_COLORS.neon_orange,
     fontWeight: 'bold',
+    fontSize: { xs: '1.6rem', sm: '1.8rem', md: '1.8rem', lg: '2.5rem' },
   },
-  '& #container-faq > .font-accordion': {
-    fontSize: '2.5rem',
+  '& #faq-container .accordion-text': {
+    fontSize: { xs: '0.8rem', sm: '1rem', lg: '1rem' },
   },
   '& .accordion': {
     borderRadius: '10px',
@@ -87,29 +99,31 @@ export const FAQStyle: SxProps = {
     border: 'none',
     overflow: 'hidden',
   },
-  '& #container-faq .MuiAccordion-root svg': {
+  '& #faq-container .MuiAccordion-root svg': {
     color: PALETTE_COLORS.pine,
     fontSize: 30,
   },
-  '#container-change': {
+  '#change-container': {
     width: '100%',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
-    margin: 6,
+    mt: 6,
+    mb: 4,
+    textAlign: 'center',
   },
-  '#container-change .MuiTypography-root': {
+  '#change-container .MuiTypography-root': {
     color: PALETTE_COLORS.neon_orange,
-    mb: 3,
+    mb: 4,
     fontWeight: 'bold',
   },
-  h2: {
-    fontSize: '3rem',
+  '.change-text': {
+    fontSize: { xs: '1.6rem', sm: '1.8rem', md: '1.8rem', lg: '2.5rem' },
   },
 };
 
-export const RoofDiadnostics: SxProps = {
+export const RoofDiagnosticsStyle: SxProps = {
   minHeight: '60vh',
   width: '100%',
   margin: 0,
@@ -118,27 +132,30 @@ export const RoofDiadnostics: SxProps = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  '& #container-diagnostics': {
+  '& #diagnostics-container': {
     width: { xs: '90%', sm: '85%', md: '80%', lg: '75%' },
     height: '100%',
     display: 'flex',
     flexWrap: 'wrap',
     alignItems: 'center',
   },
-  '& #container-diagnostics > .content': {
-    flexBasis: '50%',
-    height: '100%',
+  '& #diagnostics-container > .content-text': {
+    flexBasis: { xs: '100%', sm: '100%', md: '50%' },
+    mt: { xs: '10px', sm: '10px', md: '0' },
+    mb: { xs: '30px', sm: '30px', md: '0' },
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: { xs: 'center', sm: 'center', md: 'flex-start' },
+    textAlign: { xs: 'center', sm: 'center', md: 'left' },
+  },
+  '& #diagnostics-container > .content-img': {
+    flexBasis: { xs: '100%', sm: '100%', md: '50%' },
+    mt: { xs: '10px', sm: '10px', md: '0' },
+    mb: { xs: '30px', sm: '30px', md: '0' },
   },
   '& .MuiTypography-root': {
     color: 'white',
     mb: 2,
-  },
-  '& #container-diagnostics .MuiListItem-root': {
-    padding: 0,
-    mb: 3,
-  },
-  '& #container-diagnostics .MuiListItem-root svg': {
-    color: 'white',
   },
   '& .image-container': {
     height: '100%',
@@ -149,16 +166,76 @@ export const RoofDiadnostics: SxProps = {
   },
   '& .image-container img': {
     borderRadius: '10px',
-    width: '90%',
-    height: '100%',
-    overflow: 'hidden',
+    width: { xs: '90%', sm: '80%', md: '90%', lg: '100%' },
+    maxWidth: { sm: '500px', lg: '100%' },
+    height: 'auto',
     aspectRatio: '16 / 9',
     objectFit: 'cover',
+    margin: '0 auto',
+    display: 'block',
   },
-  '.title-disagnostics': {
+  '.diagnostics-title': {
     mb: 4,
     color: PALETTE_COLORS.neon_orange,
     fontWeight: 'bold',
-    fontSize: '3rem',
+    fontSize: { xs: '1.6rem', sm: '1.8rem', md: '1.8rem', lg: '2.5rem' },
+  },
+  '.diagnostics-description': {
+    fontSize: { xs: '0.8rem', sm: '1rem', lg: '1rem' },
+    mb: 2,
+    mr: '10px',
+  },
+};
+
+export const FooterTemplateStyle: SxProps = {
+  minHeight: '45vh',
+  height: 'auto',
+  width: '100%',
+  margin: 0,
+  padding: 0,
+  bgcolor: PALETTE_COLORS.white,
+  display: 'flex',
+  alignItems: 'center',
+  flexDirection: 'column',
+  '& #footer-container': {
+    width: { xs: '90%', sm: '85%', md: '55%', lg: '45%' },
+    padding: 0,
+    display: 'flex',
+    alignItems: 'center',
+    flexDirection: 'column',
+    textAlign: 'center',
+  },
+  '& #footer-container > .footer-title': {
+    textAlign: 'center',
+    color: PALETTE_COLORS.neon_orange,
+    fontWeight: 'bold',
+    fontSize: { xs: '1.6rem', sm: '1.8rem', md: '1.8rem', lg: '2.5rem' },
+    mb: 3,
+    mt: 4,
+  },
+  h6: {
+    fontSize: { xs: '0.8rem', sm: '1rem', lg: '1rem' },
+    mb: 7,
+  },
+  '.grid-footer': {
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '65%',
+  },
+  '.stack-footer': {
+    justifyContent: 'center',
+    pb: 1,
+    mb: 2,
+    borderBottom: '2px solid',
+    color: PALETTE_COLORS.forest,
+  },
+  '.footer-link': {
+    fontWeight: 'bold',
+    color: PALETTE_COLORS.black,
+    textDecoration: 'none',
+    fontSize: { xs: '1rem', sm: '1rem', md: '1.1rem', lg: '1.2rem' },
+    '&:hover': {
+      color: PALETTE_COLORS.neon_orange,
+    },
   },
 };
