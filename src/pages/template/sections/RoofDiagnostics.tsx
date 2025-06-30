@@ -12,13 +12,13 @@ export const RoofDiagnostics = () => {
             Diagnostique toiture
           </Typography>
           <Typography variant="h6" className="diagnostics-description">
-            Chez Birdia.fr, nous vous proposons un diagnostic toiture complet pour évaluer l’état de votre couverture, repérer les éventuelles infiltrations,
+            {`Chez Birdia.fr, nous vous proposons un\u00A0diagnostic toiture\u00A0complet pour évaluer l’état de votre couverture, repérer les éventuelles infiltrations,
             dégradations ou défauts d’isolation. Ce service essentiel vous permet d’anticiper les travaux, d'éviter les mauvaises surprises et de prolonger la
-            durée de vie de votre toiture. Nos experts interviennent rapidement, avec un rapport détaillé et des recommandations claires.
+            durée de vie de votre toiture.\u00A0Nos experts interviennent rapidement, avec un rapport détaillé et des recommandations claires.`}
           </Typography>
           <Typography variant="h6" className="diagnostics-description">
-            Que vous soyez propriétaire ou futur acquéreur, un diagnostic toiture réalisé par des professionnels qualifiés vous assure une tranquillité
-            d’esprit. Grâce à notre expertise et à des outils de pointe, nous détectons les moindres anomalies, visibles ou invisibles à l’œil nu.
+            {`Que vous soyez propriétaire ou futur acquéreur, un diagnostic toiture réalisé par des professionnels qualifiés vous assure une tranquillité
+            d’esprit.\u00A0Grâce à notre expertise et à des outils de pointe, nous détectons les moindres anomalies, visibles ou invisibles à l’œil nu.`}
           </Typography>
         </Box>
         <Box className="content-img">
