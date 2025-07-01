@@ -179,7 +179,7 @@ export const RoofDiagnosticsStyle: SxProps = {
   },
   '.diagnostics-title': {
     mb: 4,
-    color: PALETTE_COLORS.neon_orange,
+    color: PALETTE_COLORS.cream,
     fontWeight: 'bold',
     fontSize: { xs: '1.6rem', sm: '1.8rem', md: '1.8rem', lg: '2.5rem' },
   },
