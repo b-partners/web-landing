@@ -91,7 +91,7 @@ export const FAQStyle: SxProps = {
   '& #faq-container .accordion-text': {
     fontSize: { xs: '0.8rem', sm: '1rem', lg: '1rem' },
   },
-  '& .accordion': {
+  '& #faq-container .accordion': {
     borderRadius: '10px',
     mb: '5px',
     padding: 0,
