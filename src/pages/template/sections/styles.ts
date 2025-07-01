@@ -91,7 +91,7 @@ export const FAQStyle: SxProps = {
   '& #faq-container .accordion-text': {
     fontSize: { xs: '0.8rem', sm: '1rem', lg: '1rem' },
   },
-  '& .accordion': {
+  '& #faq-container .accordion': {
     borderRadius: '10px',
     mb: '5px',
     padding: 0,
@@ -136,20 +136,23 @@ export const RoofDiagnosticsStyle: SxProps = {
     width: { xs: '90%', sm: '85%', md: '80%', lg: '75%' },
     height: '100%',
     display: 'flex',
-    flexWrap: 'wrap',
+    flexWrap: { xs: 'wrap', md: 'nowrap' },
+    gap: { md: '32px' },
     alignItems: 'center',
   },
   '& #diagnostics-container > .content-text': {
-    flexBasis: { xs: '100%', sm: '100%', md: '50%' },
+    flexBasis: { xs: '100%', sm: '100%' },
     mt: { xs: '10px', sm: '10px', md: '0' },
     mb: { xs: '30px', sm: '30px', md: '0' },
     display: 'flex',
+    flexGrow: { md: 1 },
     flexDirection: 'column',
     alignItems: { xs: 'center', sm: 'center', md: 'flex-start' },
     textAlign: { xs: 'center', sm: 'center', md: 'left' },
   },
   '& #diagnostics-container > .content-img': {
-    flexBasis: { xs: '100%', sm: '100%', md: '50%' },
+    flexBasis: { xs: '100%', sm: '100%' },
+    flexGrow: { md: 1 },
     mt: { xs: '10px', sm: '10px', md: '0' },
     mb: { xs: '30px', sm: '30px', md: '0' },
   },
@@ -176,7 +179,7 @@ export const RoofDiagnosticsStyle: SxProps = {
   },
   '.diagnostics-title': {
     mb: 4,
-    color: PALETTE_COLORS.neon_orange,
+    color: PALETTE_COLORS.cream,
     fontWeight: 'bold',
     fontSize: { xs: '1.6rem', sm: '1.8rem', md: '1.8rem', lg: '2.5rem' },
   },
@@ -184,6 +187,7 @@ export const RoofDiagnosticsStyle: SxProps = {
     fontSize: { xs: '0.8rem', sm: '1rem', lg: '1rem' },
     mb: 2,
     mr: '10px',
+    textAlign: 'justify',
   },
 };
 
