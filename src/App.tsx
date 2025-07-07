@@ -13,6 +13,7 @@ import { PdfReader } from '@pages/GCU';
 import { Insurance } from '@pages/Insurance';
 import { Home } from '@pages/home';
 import { Template } from '@pages/template';
+import { TemplateGenerator } from '@pages/template-Generator';
 import { useSnackbar } from '@store/snackbar';
 
 import { Navbar } from './common/components/navbar';
@@ -90,6 +91,7 @@ function App() {
         </Route>
         <Route path="/" element={<TemplateLayout />}>
           <Route path="/template" element={<Template />} />
+          <Route path="/templateGenerator" element={<TemplateGenerator />} />
         </Route>
       </Routes>
       <GlobalDialog />
