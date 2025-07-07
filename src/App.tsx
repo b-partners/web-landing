@@ -12,6 +12,7 @@ import { Craftsman } from '@pages/Craftsman/Craftsman';
 import { PdfReader } from '@pages/GCU';
 import { Insurance } from '@pages/Insurance';
 import { Home } from '@pages/home';
+import { Template } from '@pages/template';
 import { useSnackbar } from '@store/snackbar';
 
 import { Navbar } from './common/components/navbar';
@@ -30,6 +31,20 @@ const PublicLayout = () => {
       <Navbar />
       <Outlet />
       <Footer />
+    </>
+  );
+};
+const TemplateLayout = () => {
+  const { pathname } = useLocation();
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return (
+    <>
+      <Navbar />
+      <Outlet />
     </>
   );
 };
@@ -72,6 +87,9 @@ function App() {
           <Route path="/mentions-legales" element={<PdfReader pdfUrl={Env.REACT_APP_LEGAL_MENTION_URL} />} />
           <Route path="/politique-de-confidentialite" element={<PdfReader pdfUrl={Env.REACT_APP_PRIVACY_POLICY_URL} />} />
           <Route path="*" element={<Navigate to="/" />} />
+        </Route>
+        <Route path="/" element={<TemplateLayout />}>
+          <Route path="/template" element={<Template />} />
         </Route>
       </Routes>
       <GlobalDialog />
