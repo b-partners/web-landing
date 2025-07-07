@@ -1,8 +1,9 @@
 import { PALETTE_COLORS } from '@/config/theme';
 import ShareLocationOutlinedIcon from '@mui/icons-material/ShareLocationOutlined';
-import { Box, Grid, Stack, Typography } from '@mui/material';
+import { Box, Grid, Stack, Typography, Input } from '@mui/material';
 
 import { FooterTemplateStyle } from './styles';
+import { useLocation } from 'react-router-dom';
 
 const cities = [
   { name: 'Birdia Paris', url: '/location/paris' },
@@ -17,22 +18,20 @@ const cities = [
 ];
 
 export const FooterTemplate = () => {
+  const location = useLocation();
   return (
     <Box component="section" id="template-footer" sx={FooterTemplateStyle}>
       <Box id="footer-container">
-        <Typography variant="h2" className="footer-title">
-          Votre analyse Birdia près de chez vous
-        </Typography>
-        <Typography variant="h6">Découvrez nos offres disponibles dans les villes suivantes :</Typography>
+        {location.pathname === "/template" ? <Typography variant="h2" className="footer-title">Votre analyse Birdia près de chez vous</Typography> : <Input className="footer-title" placeholder='Votre analyse Birdia près de chez vous'/>}
+        {location.pathname === "/template" ? <Typography variant="h6">Découvrez nos offres disponibles dans les villes suivantes :</Typography> : <Input className="footer-h6" placeholder='Découvrez nos offres disponibles dans les villes suivantes :'/>}
       </Box>
       <Grid className="grid-footer" container spacing={4}>
         {cities.map((city, index) => (
           <Grid item xs={12} sm={4} key={index}>
             <Stack direction="row" alignItems="center" spacing={1} className="stack-footer">
               <ShareLocationOutlinedIcon sx={{ color: PALETTE_COLORS.pine }} />
-              <Typography className="footer-link" component="a" href={city.url}>
-                {city.name}
-              </Typography>
+              {location.pathname === "/template" ? <Typography className="footer-link" component="a" href={city.url}>
+              {city.name}</Typography> : <Input className="footer-link" placeholder='Liens vers autre page'/>}
             </Stack>
           </Grid>
         ))}

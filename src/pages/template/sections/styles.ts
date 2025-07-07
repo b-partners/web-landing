@@ -59,6 +59,12 @@ export const HeroPageStyle: SxProps = {
     margin: '0 auto',
     display: 'block',
   },
+  '.box-image-template':{
+    height: '375px',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   '.hero-title': {
     mb: 4,
     fontWeight: 'bold',
@@ -120,6 +126,10 @@ export const FAQStyle: SxProps = {
   },
   '.change-text': {
     fontSize: { xs: '1.6rem', sm: '1.8rem', md: '1.8rem', lg: '2.5rem' },
+  },
+  '.input-change-text': {
+    fontSize: { xs: '1.6rem', sm: '1.8rem', md: '1.8rem', lg: '2.5rem' },
+    mb: 2,
   },
 };
 
@@ -247,5 +257,9 @@ export const FooterTemplateStyle: SxProps = {
     bgcolor: PALETTE_COLORS.white,
     height: '80px',
     width: '100%',
+  },
+  '.footer-h6': {
+    fontSize: { xs: '0.8rem', sm: '1rem', lg: '1rem' },
+    mb: 7,
   },
 };

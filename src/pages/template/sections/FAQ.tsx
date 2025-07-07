@@ -1,9 +1,10 @@
 import { LinkButton } from '@/common/components/buttons';
 import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
-import { Accordion, AccordionDetails, AccordionSummary, Box, Typography } from '@mui/material';
+import { Accordion, AccordionDetails, AccordionSummary, Box, Input, Typography } from '@mui/material';
 import { bookYourDemoUrl } from '@pages/Advertising-Campaign/components';
 
 import { FAQStyle } from './styles';
+import { useLocation } from 'react-router-dom';
 
 const faqTitles = [
   { id: 'q1', question: "A quoi ça sert d'analyser son toit ?", reponse: 'réponse premier exemple' },
@@ -15,6 +16,8 @@ const faqTitles = [
 ];
 
 export const FAQ = () => {
+  const location = useLocation();
+  
   return (
     <Box component="section" id="template-FAQ" sx={FAQStyle}>
       <Box id="faq-container">
@@ -24,18 +27,16 @@ export const FAQ = () => {
         {faqTitles.map(({ id, question, reponse }) => (
           <Accordion key={id} className="accordion">
             <AccordionSummary expandIcon={<ExpandCircleDownIcon />}>
-              <Typography className="accordion-text">{question}</Typography>
+              {location.pathname === "/template" ? <Typography className="accordion-text">{question}</Typography> : <Input placeholder='Question ...'/> }
             </AccordionSummary>
             <AccordionDetails>
-              <Typography className="accordion-text">{reponse}</Typography>
+              {location.pathname === "/template" ? <Typography className="accordion-text">{reponse}</Typography> : <Input placeholder='Réponse ...'/> }
             </AccordionDetails>
           </Accordion>
         ))}
       </Box>
       <Box id="change-container">
-        <Typography className="change-text" variant="h4">
-          Vous êtes un particulier , vous souhaitez trouver un couvreur ?
-        </Typography>
+        {location.pathname === "/template" ? <Typography className="change-text" variant="h4">Vous êtes un particulier , vous souhaitez trouver un couvreur ?</Typography> : <Input className="input-change-text" placeholder='Vous êtes un particulier , vous souhaitez trouver un couvreur ?'/> }
         <LinkButton to={bookYourDemoUrl}>Echangeons ensemble</LinkButton>
       </Box>
     </Box>
