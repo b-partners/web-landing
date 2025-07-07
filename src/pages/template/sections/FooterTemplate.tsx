@@ -37,7 +37,7 @@ export const FooterTemplate = () => {
           </Grid>
         ))}
       </Grid>
-      <Box id="space-bottom" ></Box>
+      <Box id="space-bottom"></Box>
     </Box>
   );
 };

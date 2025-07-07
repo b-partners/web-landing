@@ -243,9 +243,9 @@ export const FooterTemplateStyle: SxProps = {
       color: PALETTE_COLORS.neon_orange,
     },
   },
-  '& #space-bottom':{
+  '& #space-bottom': {
     bgcolor: PALETTE_COLORS.white,
-    height:'80px',
-    width:'100%',
+    height: '80px',
+    width: '100%',
   },
 };
