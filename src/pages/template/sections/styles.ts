@@ -197,7 +197,7 @@ export const FooterTemplateStyle: SxProps = {
   width: '100%',
   margin: 0,
   padding: 0,
-  bgcolor: PALETTE_COLORS.white,
+  bgcolor: PALETTE_COLORS.cream,
   display: 'flex',
   alignItems: 'center',
   flexDirection: 'column',
@@ -225,6 +225,7 @@ export const FooterTemplateStyle: SxProps = {
     justifyContent: 'center',
     alignItems: 'center',
     width: '65%',
+    pb: 4,
   },
   '.stack-footer': {
     justifyContent: 'center',
@@ -241,5 +242,10 @@ export const FooterTemplateStyle: SxProps = {
     '&:hover': {
       color: PALETTE_COLORS.neon_orange,
     },
+  },
+  '& #space-bottom':{
+    bgcolor: PALETTE_COLORS.white,
+    height:'80px',
+    width:'100%',
   },
 };
