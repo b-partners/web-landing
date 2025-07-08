@@ -2,8 +2,9 @@ import { useLocation } from 'react-router-dom';
 
 import { PALETTE_COLORS } from '@/config/theme';
 import ShareLocationOutlinedIcon from '@mui/icons-material/ShareLocationOutlined';
-import { Box, Button, Grid, Input, Stack, Typography } from '@mui/material';
+import { Box, Grid, Input, Stack, Typography } from '@mui/material';
 
+import { GenButtonDownload } from '../components/GenButtonDonwload';
 import { FooterTemplateStyle } from './styles';
 
 const cities = [
@@ -52,13 +53,7 @@ export const FooterTemplate = () => {
           </Grid>
         ))}
       </Grid>
-      <Box id="space-bottom">
-        {location.pathname === '/templateGenerator' && (
-          <Button className="button-json" variant="contained">
-            Télécharger le JSON
-          </Button>
-        )}
-      </Box>
+      <Box id="space-bottom">{location.pathname === '/templateGenerator' && <GenButtonDownload />}</Box>
     </Box>
   );
 };
