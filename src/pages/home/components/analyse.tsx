@@ -23,16 +23,16 @@ export const Analayse = () => {
       <Box sx={{ flex: 1 }}>
         {ANALYSES.map((analyse, index) => 
           isEditMode ? (
-            <Box key={index} sx={{ px: 3, py: 2 }}>
-              <Input placeholder="Titre de l'analyse" sx={{ mb: 1, fontWeight: 'bold', fontSize: '1.1rem' }}/>
-              <Input fullWidth placeholder="Texte de l'analyse" rows={3} sx={{ fontSize: '1rem' }}/>
+            <Box key={index} sx={{ px: 3, py: 5, bgcolor: analyse.bgcolor}}>
+              <Input placeholder="Titre de l'analyse" sx={{ mb: 1, fontWeight: 'bold', fontSize: '1.1rem', color: analyse.color}}/>
+              <Input fullWidth placeholder="Texte de l'analyse" sx={{ fontSize: '1rem', color: analyse.color}}/>
             </Box>) : (<AnalayseItem key={analyse.title} analyse={analyse} />
           )
         )}
       </Box>
       <FlexBox sx={{ flexDirection: 'column', px: 6, flex: 1, bgcolor: 'white', p: 5, minWidth: '700px' }}>
         {location.pathname === "/templateGenerator" ? 
-          <Input placeholder='Analyse automatisée de toitures par intelligence artificielle'
+          <Input multiline placeholder='Analyse automatisée de toitures par intelligence artificielle'
             sx={{
               maxWidth: '1000px',
               mx: 'auto',
@@ -59,7 +59,7 @@ export const Analayse = () => {
             Analyse automatisée de toitures par intelligence artificielle
           </Typography>}
         {location.pathname === "/templateGenerator" ? 
-          <Input placeholder='Détection, qualification et recommandation à partir d’images aériennes HD. En un clic, obtenez un diagnostic métier précis sans monter sur le toit.'
+          <Input multiline placeholder='Détection, qualification et recommandation à partir d’images aériennes HD. En un clic, obtenez un diagnostic métier précis sans monter sur le toit.'
             sx={{ 
               width: { xs: '60%', md: '100%' }, 
               fontSize: { xs: '1rem', xl: '1.3rem' }, 

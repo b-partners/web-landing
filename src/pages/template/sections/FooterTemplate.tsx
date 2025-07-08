@@ -22,8 +22,8 @@ export const FooterTemplate = () => {
   return (
     <Box component="section" id="template-footer" sx={FooterTemplateStyle}>
       <Box id="footer-container">
-        {location.pathname === "/template" ? <Typography variant="h2" className="footer-title">Votre analyse Birdia près de chez vous</Typography> : <Input className="footer-title" placeholder='Votre analyse Birdia près de chez vous'/>}
-        {location.pathname === "/template" ? <Typography variant="h6">Découvrez nos offres disponibles dans les villes suivantes :</Typography> : <Input className="footer-h6" placeholder='Découvrez nos offres disponibles dans les villes suivantes :'/>}
+        {location.pathname === "/template" ? <Typography variant="h2" className="footer-title">Votre analyse Birdia près de chez vous</Typography> : <Input multiline fullWidth className="footer-title" placeholder='Votre analyse Birdia près de chez vous'/>}
+        {location.pathname === "/template" ? <Typography variant="h6">Découvrez nos offres disponibles dans les villes suivantes :</Typography> : <Input multiline fullWidth className="footer-h6" placeholder='Découvrez nos offres disponibles dans les villes suivantes :'/>}
       </Box>
       <Grid className="grid-footer" container spacing={4}>
         {cities.map((city, index) => (

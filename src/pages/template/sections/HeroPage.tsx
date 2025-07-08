@@ -14,7 +14,7 @@ export const HeroPage = () => {
     <Box component="section" id="template-HeroPage" sx={HeroPageStyle}>
       <Box id="container">
         <Box className="content">
-        {location.pathname === "/template" ? <Typography className="hero-title" variant="h1">BIRDIA, le seul outil de diagnostique toiture</Typography> : <Input className="hero-title" placeholder='BIRDIA, le seul outil de diagnostique toiture'/> }
+        {location.pathname === "/template" ? <Typography className="hero-title" variant="h1">BIRDIA, le seul outil de diagnostique toiture</Typography> : <Input multiline className="hero-title" placeholder='BIRDIA, le seul outil de diagnostique toiture'/> }
           <List>
             {heroItems.map((items) => (
               <ListItem key={items}>

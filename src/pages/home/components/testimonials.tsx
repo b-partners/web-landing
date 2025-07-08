@@ -6,10 +6,11 @@ import { CTAButton, LinkButton } from '@/common/components/buttons';
 import { Env } from '@/common/utils/env';
 import { PALETTE_COLORS } from '@/config/theme';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
-import { Box, IconButton, SxProps, Typography } from '@mui/material';
+import { Box, IconButton, Input, Rating, SxProps, Typography } from '@mui/material';
 
 import { TESTIMONIALS } from '../utils/constant';
 import { TestimonialItem } from './testimonial-item';
+import { useLocation } from 'react-router-dom';
 
 export const RESPONSIVE: ResponsiveType = {
   desktop: {
@@ -40,6 +41,7 @@ const TESTIMONIAL_SX: SxProps = {
 };
 
 export const Testimonials = () => {
+  const location = useLocation();
   return (
     <Box
       component="section"
@@ -49,21 +51,15 @@ export const Testimonials = () => {
       }}
     >
       <Box sx={TESTIMONIAL_SX}>
-        <Typography
-          sx={{
-            textAlign: { xs: 'center', md: 'start' },
-            fontWeight: 'bold',
-            fontSize: { xs: '2rem', md: '2.5rem' },
-            mb: { xs: 3, md: 5, xl: 7 },
-            color: PALETTE_COLORS.neon_orange,
-          }}
-        >
-          Témoignages clients
-        </Typography>
+        {location.pathname === "/templateGenerator" ? 
+          <Input placeholder='Témoignages clients'
+          sx={{ textAlign: { xs: 'center', md: 'start' }, fontWeight: 'bold', fontSize: { xs: '2rem', md: '2.5rem' }, mb: { xs: 3, md: 5, xl: 7 }, color: PALETTE_COLORS.neon_orange,}} /> : 
+            <Typography sx={{ textAlign: { xs: 'center', md: 'start' }, fontWeight: 'bold', fontSize: { xs: '2rem', md: '2.5rem' }, mb: { xs: 3, md: 5, xl: 7 }, color: PALETTE_COLORS.neon_orange,}}>Témoignages clients
+            </Typography>}
         <Carousel
           showDots
           infinite
-          autoPlay
+          autoPlay={location.pathname !== "/templateGenerator"}
           keyBoardControl
           partialVisbile
           draggable={false}
@@ -83,16 +79,24 @@ export const Testimonials = () => {
             </IconButton>
           }
         >
-          {TESTIMONIALS.map((testimonial) => (
-            <TestimonialItem key={testimonial.name} testimonial={testimonial} />
-          ))}
+        {TESTIMONIALS.map((testimonial, index) =>
+          location.pathname === "/templateGenerator" ? (
+            <Box key={index} sx={{ px: 3 }}>
+              <Rating defaultValue={0} max={5} sx={{ mb: 2 }}/>
+              <Input fullWidth placeholder="Témoignage" sx={{ mb: 2 }}/>
+              <Input placeholder="Nom du client" sx={{ mb: 2, fontWeight: 'bold', display: 'block', width: '20%'}}/>
+              <Input placeholder="Profession" sx={{ mb: 5 }}/>
+            </Box>) : (
+            <TestimonialItem key={testimonial.name} testimonial={testimonial} />)
+          )
+        }
         </Carousel>
       </Box>
       <FlexBox
         sx={{
           px: { xs: 2, md: 5 },
           py: 10,
-          gap: 5,
+          gap: 5,       
           flexDirection: 'column',
           width: { xs: '100%', xl: '90%' },
           mt: { xs: 5, xl: 10 },
@@ -101,18 +105,12 @@ export const Testimonials = () => {
           borderRadius: '30px',
         }}
       >
-        <Typography
-          variant="h2"
-          sx={{
-            maxWidth: '1300px',
-            textAlign: 'center',
-            fontWeight: 'bold',
-            color: PALETTE_COLORS.white,
-            fontSize: { xs: '2.4rem', md: '3.5rem', xl: '4rem' },
-          }}
-        >
-          Passez à l’analyse intelligente, sans compléxité
-        </Typography>
+        {location.pathname === "/templateGenerator" ? 
+          <Input multiline fullWidth placeholder='Passez à l’analyse intelligente, sans compléxité'
+          sx={{ maxWidth: '1300px', textAlign: 'center', fontWeight: 'bold', color: PALETTE_COLORS.white, fontSize: { xs: '2.4rem', md: '3.5rem', xl: '4rem' },}} /> : 
+          <Typography variant="h2" sx={{ maxWidth: '1300px', textAlign: 'center', fontWeight: 'bold', color: PALETTE_COLORS.white, fontSize: { xs: '2.4rem', md: '3.5rem', xl: '4rem' }, }}>
+            Passez à l’analyse intelligente, sans compléxité
+          </Typography>}
         <FlexBox sx={{ gap: { xs: 2, md: 5 } }}>
           <CTAButton />
           <LinkButton color="white" to={Env.DASHBOARD_REGISTRATION_URL}>

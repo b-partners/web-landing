@@ -34,7 +34,7 @@ export const FAQ = () => {
         ))}
       </Box>
       <Box id="change-container">
-        {location.pathname === "/template" ? <Typography className="change-text" variant="h4">Vous êtes un particulier , vous souhaitez trouver un couvreur ?</Typography> : <Input className="input-change-text" placeholder='Vous êtes un particulier , vous souhaitez trouver un couvreur ?'/> }
+        {location.pathname === "/template" ? <Typography className="change-text" variant="h4">Vous êtes un particulier , vous souhaitez trouver un couvreur ?</Typography> : <Input multiline fullWidth className="input-change-text" placeholder='Vous êtes un particulier , vous souhaitez trouver un couvreur ?'/> }
         <LinkButton to={bookYourDemoUrl}>Echangeons ensemble</LinkButton>
       </Box>
     </Box>
