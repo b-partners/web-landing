@@ -85,7 +85,7 @@ type PartnersProps = {
   partnersFromJson?: Partner[]; // facultatif, permet de passer une liste personnalisée
 };
 
-const PartnersItem: FC<{ img: string; alt: string }> = ({ img, alt }) => {
+export const PartnersItem: FC<{ img: string; alt: string }> = ({ img, alt }) => {
   return (
     <Box sx={{ width: '300px' }}>
       <img src={img} alt={alt} style={{ width: '300px' }} />
