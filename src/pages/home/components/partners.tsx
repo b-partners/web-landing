@@ -126,32 +126,34 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
   const partners = partnersFromJson || PARTNERS;
   return (
     <Box sx={{ p: 5 }}>
-      {location.pathname === "/templateGenerator" ? 
-        <Input sx={{ fontSize: { xs: '1.2rem', md: '1.5rem' }, mb: 10, mx: 'auto', fontWeight: 'bold', color: PALETTE_COLORS.neon_orange, width: { xs: '90%', md: '400px' }, display: 'block', }} placeholder='Ils nous font confiance'/> :
-        <Typography variant="h2" sx={{ fontSize: { xs: '1.2rem', md: '1.5rem' }, mb: 10, textAlign: 'center', fontWeight: 'bold', color: PALETTE_COLORS.neon_orange }}>
+      {location.pathname === '/templateGenerator' ? (
+        <Input
+          sx={{
+            fontSize: { xs: '1.2rem', md: '1.5rem' },
+            mb: 10,
+            mx: 'auto',
+            fontWeight: 'bold',
+            color: PALETTE_COLORS.neon_orange,
+            width: { xs: '90%', md: '400px' },
+            display: 'block',
+          }}
+          placeholder="Ils nous font confiance"
+        />
+      ) : (
+        <Typography
+          variant="h2"
+          sx={{ fontSize: { xs: '1.2rem', md: '1.5rem' }, mb: 10, textAlign: 'center', fontWeight: 'bold', color: PALETTE_COLORS.neon_orange }}
+        >
           Ils nous font confiance
-        </Typography>  }
-      <Carousel
-        infinite
-        autoPlay={!isEditMode}
-        arrows={isEditMode}
-        draggable={!isEditMode}
-        swipeable={!isEditMode}
-        responsive={RESPONSIVE}
-      >
+        </Typography>
+      )}
+      <Carousel infinite autoPlay={!isEditMode} arrows={isEditMode} draggable={!isEditMode} swipeable={!isEditMode} responsive={RESPONSIVE}>
         {partners.map((partner, index) => (
           <Box key={index} sx={{ width: '300px', textAlign: 'center' }}>
             {isEditMode ? (
               <>
-                <Input
-                  fullWidth
-                  placeholder="URL de l'image"
-                  sx={{ mb: 2 }}
-                />
-                <Input
-                  fullWidth
-                  placeholder="Texte alternatif"
-                />
+                <Input fullWidth placeholder="URL de l'image" sx={{ mb: 2 }} />
+                <Input fullWidth placeholder="Texte alternatif" />
               </>
             ) : (
               <img src={partner.img} alt={partner.alt} style={{ width: '300px' }} />

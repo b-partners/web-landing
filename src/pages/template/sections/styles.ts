@@ -59,7 +59,7 @@ export const HeroPageStyle: SxProps = {
     margin: '0 auto',
     display: 'block',
   },
-  '.box-image-template':{
+  '.box-image-template': {
     height: '375px',
     display: 'flex',
     justifyContent: 'center',
@@ -257,9 +257,16 @@ export const FooterTemplateStyle: SxProps = {
     bgcolor: PALETTE_COLORS.white,
     height: '80px',
     width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   '.footer-h6': {
     fontSize: { xs: '0.8rem', sm: '1rem', lg: '1rem' },
     mb: 7,
+  },
+  '.button-json': {
+    bgcolor: PALETTE_COLORS.neon_orange,
+    height: '40px',
   },
 };

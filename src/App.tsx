@@ -91,7 +91,7 @@ function App() {
         </Route>
         <Route path="/" element={<TemplateLayout />}>
           <Route path="/template" element={<Template />} />
-          <Route path="/templateGenerator" element={<Template/>} />
+          <Route path="/templateGenerator" element={<Template />} />
         </Route>
       </Routes>
       <GlobalDialog />
