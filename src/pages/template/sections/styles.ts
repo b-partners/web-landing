@@ -268,5 +268,10 @@ export const FooterTemplateStyle: SxProps = {
   '.button-json': {
     bgcolor: PALETTE_COLORS.neon_orange,
     height: '40px',
+    position: 'fixed',
+    bottom: '10px',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    zIndex: 9999,
   },
 };

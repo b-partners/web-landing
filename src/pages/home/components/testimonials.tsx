@@ -7,7 +7,8 @@ import { CTAButton, LinkButton } from '@/common/components/buttons';
 import { Env } from '@/common/utils/env';
 import { PALETTE_COLORS } from '@/config/theme';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
-import { Box, IconButton, Input, SxProps, Typography } from '@mui/material';
+import { Box, IconButton, SxProps, Typography } from '@mui/material';
+import { GenInput } from '@pages/template/components/GenInput';
 import { GenRating } from '@pages/template/components/GenRating';
 
 import { TESTIMONIALS } from '../utils/constant';
@@ -53,7 +54,8 @@ export const Testimonials = () => {
     >
       <Box sx={TESTIMONIAL_SX}>
         {location.pathname === '/templateGenerator' ? (
-          <Input
+          <GenInput
+            name="testimonial.title1"
             placeholder="Témoignages clients"
             sx={{
               textAlign: { xs: 'center', md: 'start' },
@@ -103,9 +105,9 @@ export const Testimonials = () => {
             location.pathname === '/templateGenerator' ? (
               <Box key={index} sx={{ px: 3 }}>
                 <GenRating name={`testimonials.${index}.star`} />
-                <Input fullWidth placeholder="Témoignage" sx={{ mb: 2 }} />
-                <Input placeholder="Nom du client" sx={{ mb: 2, fontWeight: 'bold', display: 'block', width: '20%' }} />
-                <Input placeholder="Profession" sx={{ mb: 5 }} />
+                <GenInput name={`testimonials.${index}.opinion`} fullWidth placeholder="Témoignage" sx={{ mb: 2 }} />
+                <GenInput name={`testimonials.${index}.name`} placeholder="Nom du client" sx={{ mb: 2, fontWeight: 'bold', display: 'block', width: '20%' }} />
+                <GenInput name={`testimonials.${index}.Occupation`} placeholder="Profession" sx={{ mb: 5 }} />
               </Box>
             ) : (
               <TestimonialItem key={testimonial.name} testimonial={testimonial} />
@@ -127,7 +129,8 @@ export const Testimonials = () => {
         }}
       >
         {location.pathname === '/templateGenerator' ? (
-          <Input
+          <GenInput
+            name="testimonial.title2"
             multiline
             fullWidth
             placeholder="Passez à l’analyse intelligente, sans compléxité"

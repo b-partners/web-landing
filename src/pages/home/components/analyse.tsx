@@ -4,8 +4,9 @@ import { FlexBox } from '@/common/components';
 import { CTAButton, LinkButton } from '@/common/components/buttons';
 import { Env } from '@/common/utils/env';
 import { PALETTE_COLORS } from '@/config/theme';
-import { Input, SxProps, Typography } from '@mui/material';
+import { SxProps, Typography } from '@mui/material';
 import { Box } from '@mui/system';
+import { GenInput } from '@pages/template/components/GenInput';
 
 import analyseCarousel from '../assets/images/analyses-carousel/1.webp';
 import { ANALYSES } from '../utils/constant';
@@ -25,8 +26,17 @@ export const Analayse = () => {
         {ANALYSES.map((analyse, index) =>
           isEditMode ? (
             <Box key={index} sx={{ px: 3, py: 5, bgcolor: analyse.bgcolor }}>
-              <Input placeholder="Titre de l'analyse" sx={{ mb: 1, fontWeight: 'bold', fontSize: '1.1rem', color: analyse.color }} />
-              <Input fullWidth placeholder="Texte de l'analyse" sx={{ fontSize: '1rem', color: analyse.color }} />
+              <GenInput
+                name={`analyse.information.${index}.title`}
+                placeholder="Titre de l'analyse"
+                sx={{ mb: 1, fontWeight: 'bold', fontSize: '1.1rem', color: analyse.color }}
+              />
+              <GenInput
+                name={`analyse.information.${index}.description`}
+                fullWidth
+                placeholder="Texte de l'analyse"
+                sx={{ fontSize: '1rem', color: analyse.color }}
+              />
             </Box>
           ) : (
             <AnalayseItem key={analyse.title} analyse={analyse} />
@@ -35,7 +45,8 @@ export const Analayse = () => {
       </Box>
       <FlexBox sx={{ flexDirection: 'column', px: 6, flex: 1, bgcolor: 'white', p: 5, minWidth: '700px' }}>
         {location.pathname === '/templateGenerator' ? (
-          <Input
+          <GenInput
+            name="analayse.title"
             multiline
             placeholder="Analyse automatisée de toitures par intelligence artificielle"
             sx={{
@@ -67,7 +78,8 @@ export const Analayse = () => {
           </Typography>
         )}
         {location.pathname === '/templateGenerator' ? (
-          <Input
+          <GenInput
+            name="analyse.explication"
             multiline
             placeholder="Détection, qualification et recommandation à partir d’images aériennes HD. En un clic, obtenez un diagnostic métier précis sans monter sur le toit."
             sx={{
@@ -97,7 +109,7 @@ export const Analayse = () => {
         )}
         <FlexBox sx={{ mt: 3 }}>
           {location.pathname === '/templateGenerator' ? (
-            <Input type="file" />
+            <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="analyse.image" type="file" />
           ) : (
             <img
               src={analyseCarousel}

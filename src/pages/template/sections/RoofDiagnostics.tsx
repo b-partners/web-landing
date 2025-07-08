@@ -1,7 +1,8 @@
 import { useLocation } from 'react-router-dom';
 
-import { Box, Input, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
+import { GenInput } from '../components/GenInput';
 import { RoofDiagnosticsStyle } from './styles';
 import heroImage from '/assets/images/hero/compiegne.jpg';
 
@@ -16,7 +17,7 @@ export const RoofDiagnostics = () => {
               Diagnostique toiture
             </Typography>
           ) : (
-            <Input className="diagnostics-title" placeholder="Diagnostique toiture" />
+            <GenInput name="roofDiagnostics.title" className="diagnostics-title" placeholder="Diagnostique toiture" />
           )}
           {location.pathname === '/template' ? (
             <Typography variant="h6" className="diagnostics-description">
@@ -25,7 +26,7 @@ export const RoofDiagnostics = () => {
             durée de vie de votre toiture.\u00A0Nos experts interviennent rapidement, avec un rapport détaillé et des recommandations claires.`}
             </Typography>
           ) : (
-            <Input className="diagnostics-description" placeholder="Description 1" />
+            <GenInput name="roofDiagnostics.description1" className="diagnostics-description" placeholder="Description 1" />
           )}
           {location.pathname === '/template' ? (
             <Typography variant="h6" className="diagnostics-description">
@@ -33,11 +34,17 @@ export const RoofDiagnostics = () => {
             d’esprit.\u00A0Grâce à notre expertise et à des outils de pointe, nous détectons les moindres anomalies, visibles ou invisibles à l’œil nu.`}
             </Typography>
           ) : (
-            <Input className="diagnostics-description" placeholder="Description 1" />
+            <GenInput name="roofDiagnostics.description2" className="diagnostics-description" placeholder="Description 1" />
           )}
         </Box>
         <Box className="content-img">
-          <Box className="image-container">{location.pathname === '/template' ? <img src={heroImage} alt="" /> : <Input type="file" />}</Box>
+          <Box className="image-container">
+            {location.pathname === '/template' ? (
+              <img src={heroImage} alt="" />
+            ) : (
+              <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="roofDiagnostics.image" type="file" />
+            )}
+          </Box>
         </Box>
       </Box>
     </Box>

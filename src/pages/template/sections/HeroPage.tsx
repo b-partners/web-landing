@@ -46,7 +46,7 @@ export const HeroPage = () => {
             </Box>
           ) : (
             <Box className="box-image-template">
-              <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="hero-image" type="file" />
+              <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="hero.image" type="file" />
             </Box>
           )}
         </Box>

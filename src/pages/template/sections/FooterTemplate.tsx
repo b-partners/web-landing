@@ -5,6 +5,7 @@ import ShareLocationOutlinedIcon from '@mui/icons-material/ShareLocationOutlined
 import { Box, Grid, Input, Stack, Typography } from '@mui/material';
 
 import { GenButtonDownload } from '../components/GenButtonDonwload';
+import { GenInput } from '../components/GenInput';
 import { FooterTemplateStyle } from './styles';
 
 const cities = [
@@ -29,12 +30,18 @@ export const FooterTemplate = () => {
             Votre analyse Birdia près de chez vous
           </Typography>
         ) : (
-          <Input multiline fullWidth className="footer-title" placeholder="Votre analyse Birdia près de chez vous" />
+          <GenInput name="footer.title" multiline fullWidth className="footer-title" placeholder="Votre analyse Birdia près de chez vous" />
         )}
         {location.pathname === '/template' ? (
           <Typography variant="h6">Découvrez nos offres disponibles dans les villes suivantes :</Typography>
         ) : (
-          <Input multiline fullWidth className="footer-h6" placeholder="Découvrez nos offres disponibles dans les villes suivantes :" />
+          <GenInput
+            name="footer.description"
+            multiline
+            fullWidth
+            className="footer-h6"
+            placeholder="Découvrez nos offres disponibles dans les villes suivantes :"
+          />
         )}
       </Box>
       <Grid className="grid-footer" container spacing={4}>
@@ -47,7 +54,7 @@ export const FooterTemplate = () => {
                   {city.name}
                 </Typography>
               ) : (
-                <Input className="footer-link" placeholder="Liens vers autre page" />
+                <GenInput name="footer.link" className="footer-link" placeholder="Liens vers autre page" />
               )}
             </Stack>
           </Grid>

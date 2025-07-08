@@ -3,7 +3,8 @@ import Carousel, { ResponsiveType } from 'react-multi-carousel';
 import { useLocation } from 'react-router-dom';
 
 import { PALETTE_COLORS } from '@/config/theme';
-import { Box, Input, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
+import { GenInput } from '@pages/template/components/GenInput';
 
 const PARTNERS = [
   {
@@ -127,7 +128,8 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
   return (
     <Box sx={{ p: 5 }}>
       {location.pathname === '/templateGenerator' ? (
-        <Input
+        <GenInput
+          name="theyTrustUs.title"
           sx={{
             fontSize: { xs: '1.2rem', md: '1.5rem' },
             mb: 10,
@@ -151,10 +153,14 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
         {partners.map((partner, index) => (
           <Box key={index} sx={{ width: '300px', textAlign: 'center' }}>
             {isEditMode ? (
-              <>
-                <Input fullWidth placeholder="URL de l'image" sx={{ mb: 2 }} />
-                <Input fullWidth placeholder="Texte alternatif" />
-              </>
+              <GenInput
+                fullWidth
+                inputComponent="input"
+                inputProps={{ accept: 'image/*' } as any}
+                name={`theyTrustUs.image.${index}`}
+                type="file"
+                sx={{ mb: 2 }}
+              />
             ) : (
               <img src={partner.img} alt={partner.alt} style={{ width: '300px' }} />
             )}
