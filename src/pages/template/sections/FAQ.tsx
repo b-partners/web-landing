@@ -21,9 +21,7 @@ export const FAQ = () => {
   return (
     <Box component="section" id="template-FAQ" sx={FAQStyle}>
       <Box id="faq-container">
-        <Typography variant="h2" className="faq-title">
-          FAQ
-        </Typography>
+        {location.pathname === "/template" ? <Typography variant="h2" className="faq-title">FAQ</Typography> : <Input className="faq-title" placeholder='FAQ'/> }
         {faqTitles.map(({ id, question, reponse }) => (
           <Accordion key={id} className="accordion">
             <AccordionSummary expandIcon={<ExpandCircleDownIcon />}>

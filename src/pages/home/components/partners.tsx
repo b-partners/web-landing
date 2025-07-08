@@ -1,8 +1,9 @@
 import { FC } from 'react';
 import Carousel, { ResponsiveType } from 'react-multi-carousel';
+import { useLocation } from 'react-router-dom';
 
 import { PALETTE_COLORS } from '@/config/theme';
-import { Box, Typography } from '@mui/material';
+import { Box, Input, Typography } from '@mui/material';
 
 const PARTNERS = [
   {
@@ -75,6 +76,15 @@ const PARTNERS = [
   },
 ];
 
+type Partner = {
+  img: string;
+  alt: string;
+};
+
+type PartnersProps = {
+  partnersFromJson?: Partner[]; // facultatif, permet de passer une liste personnalisée
+};
+
 const PartnersItem: FC<{ img: string; alt: string }> = ({ img, alt }) => {
   return (
     <Box sx={{ width: '300px' }}>
@@ -110,29 +120,43 @@ const RESPONSIVE: ResponsiveType = {
   },
 };
 
-export const Partners = () => {
+export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
+  const location = useLocation();
+  const isEditMode = location.pathname === '/templateGenerator';
+  const partners = partnersFromJson || PARTNERS;
   return (
     <Box sx={{ p: 5 }}>
-      <Typography
-        variant="h2"
-        sx={{ fontSize: { xs: '1.2rem', md: '1.5rem' }, mb: 10, textAlign: 'center', fontWeight: 'bold', color: PALETTE_COLORS.neon_orange }}
-      >
-        Ils nous font confiance
-      </Typography>
+      {location.pathname === "/templateGenerator" ? 
+        <Input sx={{ fontSize: { xs: '1.2rem', md: '1.5rem' }, mb: 10, mx: 'auto', fontWeight: 'bold', color: PALETTE_COLORS.neon_orange, width: { xs: '90%', md: '400px' }, display: 'block', }} placeholder='Ils nous font confiance'/> :
+        <Typography variant="h2" sx={{ fontSize: { xs: '1.2rem', md: '1.5rem' }, mb: 10, textAlign: 'center', fontWeight: 'bold', color: PALETTE_COLORS.neon_orange }}>
+          Ils nous font confiance
+        </Typography>  }
       <Carousel
         infinite
-        autoPlay
-        keyBoardControl
-        arrows={false}
-        draggable={false}
-        swipeable={false}
-        pauseOnHover={false}
+        autoPlay={!isEditMode}
+        arrows={isEditMode}
+        draggable={!isEditMode}
+        swipeable={!isEditMode}
         responsive={RESPONSIVE}
-        autoPlaySpeed={8_000}
-        transitionDuration={500}
       >
-        {PARTNERS.map((partner) => (
-          <PartnersItem key={partner.alt} {...partner} />
+        {partners.map((partner, index) => (
+          <Box key={index} sx={{ width: '300px', textAlign: 'center' }}>
+            {isEditMode ? (
+              <>
+                <Input
+                  fullWidth
+                  placeholder="URL de l'image"
+                  sx={{ mb: 2 }}
+                />
+                <Input
+                  fullWidth
+                  placeholder="Texte alternatif"
+                />
+              </>
+            ) : (
+              <img src={partner.img} alt={partner.alt} style={{ width: '300px' }} />
+            )}
+          </Box>
         ))}
       </Carousel>
     </Box>
