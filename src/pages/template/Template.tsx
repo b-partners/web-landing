@@ -8,7 +8,6 @@ import { RoofDiagnostics } from './sections/RoofDiagnostics';
 import { TemplateGeneratorFormProvider } from './utils/template-gen-form';
 
 export function Template() {
-  
   return (
     <TemplateGeneratorFormProvider>
       <Box className="template">
