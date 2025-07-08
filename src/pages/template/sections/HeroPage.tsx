@@ -2,10 +2,11 @@ import { useLocation } from 'react-router-dom';
 
 import { CTAButton } from '@/common/components/buttons';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import { Box, Input, List, ListItem, ListItemText, Stack, Typography } from '@mui/material';
+import { Box, List, ListItem, ListItemText, Stack, Typography } from '@mui/material';
 
 import { HeroPageStyle } from './styles';
 import heroImage from '/assets/images/hero/cities.webp';
+import { GenInput } from '../components/GenInput';
 
 const heroItems = ['Pas de CB requise', 'Essaie gratuit de 14 jours', "Jusqu'à 38 analyses"];
 
@@ -20,14 +21,14 @@ export const HeroPage = () => {
               BIRDIA, le seul outil de diagnostique toiture
             </Typography>
           ) : (
-            <Input multiline className="hero-title" placeholder="BIRDIA, le seul outil de diagnostique toiture" />
+            <GenInput name='hero.title' multiline className="hero-title" placeholder="BIRDIA, le seul outil de diagnostique toiture" />
           )}
           <List>
-            {heroItems.map((items) => (
+            {heroItems.map((items, index) => (
               <ListItem key={items}>
                 <Stack direction="row" alignItems="center" spacing={2}>
                   <CheckCircleIcon />
-                  {location.pathname === '/template' ? <ListItemText primary={items} /> : <Input placeholder="Pas de CB requise" />}
+                  {location.pathname === '/template' ? <ListItemText primary={items} /> : <GenInput name={`hero.items.${index}`} placeholder="Pas de CB requise" />}
                 </Stack>
               </ListItem>
             ))}
@@ -41,7 +42,7 @@ export const HeroPage = () => {
             </Box>
           ) : (
             <Box className="box-image-template">
-              <Input type="file" />
+              <GenInput inputComponent='input' inputProps={{"accept": "image/*"}as any} name='hero-image' type="file"/>
             </Box>
           )}
         </Box>

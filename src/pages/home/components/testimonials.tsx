@@ -7,7 +7,8 @@ import { CTAButton, LinkButton } from '@/common/components/buttons';
 import { Env } from '@/common/utils/env';
 import { PALETTE_COLORS } from '@/config/theme';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
-import { Box, IconButton, Input, Rating, SxProps, Typography } from '@mui/material';
+import { Box, IconButton, Input, SxProps, Typography } from '@mui/material';
+import { GenRating } from '@pages/template/components/GenRating';
 
 import { TESTIMONIALS } from '../utils/constant';
 import { TestimonialItem } from './testimonial-item';
@@ -101,7 +102,7 @@ export const Testimonials = () => {
           {TESTIMONIALS.map((testimonial, index) =>
             location.pathname === '/templateGenerator' ? (
               <Box key={index} sx={{ px: 3 }}>
-                <Rating defaultValue={0} max={5} sx={{ mb: 2 }} />
+                <GenRating name={`testimonials.${index}.star`} />
                 <Input fullWidth placeholder="Témoignage" sx={{ mb: 2 }} />
                 <Input placeholder="Nom du client" sx={{ mb: 2, fontWeight: 'bold', display: 'block', width: '20%' }} />
                 <Input placeholder="Profession" sx={{ mb: 5 }} />
