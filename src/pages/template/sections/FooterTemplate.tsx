@@ -1,6 +1,5 @@
 import { useLocation } from 'react-router-dom';
 
-import { LinkButton } from '@/common/components/buttons';
 import { PALETTE_COLORS } from '@/config/theme';
 import ShareLocationOutlinedIcon from '@mui/icons-material/ShareLocationOutlined';
 import { Box, Button, Grid, Input, Stack, Typography } from '@mui/material';
