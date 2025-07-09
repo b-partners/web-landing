@@ -93,6 +93,8 @@ function App() {
           <Route path="/template" element={<Template jsonData={{}} />} />
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
+          {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          {/* Do not remote this two comments, they are use full for template page generation */}
         </Route>
       </Routes>
       <GlobalDialog />
