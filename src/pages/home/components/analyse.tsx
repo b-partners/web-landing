@@ -1,5 +1,5 @@
+import { FC } from 'react';
 import { useLocation } from 'react-router-dom';
-import { useFormContext } from 'react-hook-form';
 
 import { FlexBox } from '@/common/components';
 import { CTAButton, LinkButton } from '@/common/components/buttons';
@@ -8,6 +8,7 @@ import { PALETTE_COLORS } from '@/config/theme';
 import { SxProps, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import { GenInput } from '@pages/template/components/GenInput';
+import { useTemplateFormContext } from '@pages/template/utils/use-template-form-context';
 
 import analyseCarousel from '../assets/images/analyses-carousel/1.webp';
 import { ANALYSES } from '../utils/constant';
@@ -18,23 +19,28 @@ const ANALAYSE_SX: SxProps = {
   flexWrap: 'wrap',
 };
 
-export const Analayse = () => {
+interface AnalayseProps {
+  analayseData?: typeof ANALYSES;
+}
+
+export const Analayse: FC<AnalayseProps> = (props) => {
+  const { analayseData = ANALYSES } = props;
   const location = useLocation();
   const isEditMode = location.pathname === '/templateGenerator';
-  const { getValues } = useFormContext();
+  const { getValues } = useTemplateFormContext();
 
   const imageFile = getValues('analyse.image');
   const imageUrl = imageFile instanceof File ? URL.createObjectURL(imageFile) : analyseCarousel;
 
   const titreAnalyse = getValues('analayse.title') || 'Analyse automatisée de toitures par intelligence artificielle';
-  const explication = getValues('analyse.explication') || `Détection, qualification et recommandation à partir d’images aériennes HD.\nEn un clic, obtenez un diagnostic métier précis sans monter sur le toit.`;
+  const explication =
+    getValues('analyse.explication') ||
+    `Détection, qualification et recommandation à partir d’images aériennes HD.\nEn un clic, obtenez un diagnostic métier précis sans monter sur le toit.`;
 
   return (
     <FlexBox component="section" sx={ANALAYSE_SX}>
       <Box sx={{ flex: 1 }}>
-        {ANALYSES.map((analyse, index) => {
-          const titre = getValues(`analyse.information.${index}.title`);
-          const description = getValues(`analyse.information.${index}.description`);
+        {analayseData.map((analyse, index) => {
           return isEditMode ? (
             <Box key={index} sx={{ px: 3, py: 5, bgcolor: analyse.bgcolor }}>
               <GenInput
@@ -50,14 +56,7 @@ export const Analayse = () => {
               />
             </Box>
           ) : (
-            <Box key={index} sx={{ px: 3, py: 7, bgcolor: analyse.bgcolor }}>
-              <Typography sx={{ mb: 1, fontWeight: 'bold', fontSize: '1.1rem', color: analyse.color }}>
-                {titre}
-              </Typography>
-              <Typography sx={{ fontSize: '1rem', color: analyse.color }}>
-                {description}
-              </Typography>
-            </Box>
+            <AnalayseItem key={analyse.title} analyse={analyse} />
           );
         })}
       </Box>

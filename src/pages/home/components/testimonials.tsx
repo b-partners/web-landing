@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { useFormContext } from 'react-hook-form';
 import Carousel, { ResponsiveType } from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { useLocation } from 'react-router-dom';
@@ -11,10 +12,10 @@ import { ArrowBack, ArrowForward } from '@mui/icons-material';
 import { Box, IconButton, SxProps, Typography } from '@mui/material';
 import { GenInput } from '@pages/template/components/GenInput';
 import { GenRating } from '@pages/template/components/GenRating';
+import { useTemplateFormContext } from '@pages/template/utils/use-template-form-context';
 
 import { TESTIMONIALS } from '../utils/constant';
 import { TestimonialItem } from './testimonial-item';
-import { useFormContext } from 'react-hook-form';
 
 export const RESPONSIVE: ResponsiveType = {
   desktop: {
@@ -51,8 +52,7 @@ interface TestimonialsProps {
 export const Testimonials: FC<TestimonialsProps> = (props) => {
   const location = useLocation();
   const { testimonialsData = TESTIMONIALS } = props;
-  const { getValues } = useFormContext();
-
+  const { getValues } = useTemplateFormContext();
 
   return (
     <Box
@@ -165,7 +165,7 @@ export const Testimonials: FC<TestimonialsProps> = (props) => {
               fontSize: { xs: '2.4rem', md: '3.5rem', xl: '4rem' },
             }}
           />
-        ) }
+        )}
         <FlexBox sx={{ gap: { xs: 2, md: 5 } }}>
           <CTAButton />
           <LinkButton color="white" to={Env.DASHBOARD_REGISTRATION_URL}>

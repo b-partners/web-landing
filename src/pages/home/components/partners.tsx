@@ -1,11 +1,12 @@
-import { FC } from 'react';
+import { FC, useContext, useEffect, useState } from 'react';
+import { useFormContext } from 'react-hook-form';
 import Carousel, { ResponsiveType } from 'react-multi-carousel';
 import { useLocation } from 'react-router-dom';
-import { useFormContext } from 'react-hook-form';
-import { Box, Typography } from '@mui/material';
 
 import { PALETTE_COLORS } from '@/config/theme';
+import { Box, Typography } from '@mui/material';
 import { GenInput } from '@pages/template/components/GenInput';
+import { useTemplateFormContext } from '@pages/template/utils/use-template-form-context';
 
 const PARTNERS = [
   {
@@ -94,7 +95,8 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
   const location = useLocation();
   const isEditMode = location.pathname === '/templateGenerator';
   const partners = partnersFromJson || PARTNERS;
-  const { getValues } = useFormContext();
+
+  const { getValues } = useTemplateFormContext();
 
   return (
     <Box sx={{ p: 5 }}>
@@ -127,14 +129,7 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
         </Typography>
       )}
 
-      <Carousel
-        infinite
-        autoPlay={!isEditMode}
-        arrows={isEditMode}
-        draggable={!isEditMode}
-        swipeable={!isEditMode}
-        responsive={RESPONSIVE}
-      >
+      <Carousel infinite autoPlay={!isEditMode} arrows={isEditMode} draggable={!isEditMode} swipeable={!isEditMode} responsive={RESPONSIVE}>
         {partners.map((partner, index) => {
           const uploadedImage = getValues(`theyTrustUs.image.${index}`);
           return (
@@ -149,11 +144,7 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
                   sx={{ mb: 2 }}
                 />
               ) : (
-                <img
-                  src={uploadedImage || partner.img}
-                  alt={partner.alt}
-                  style={{ width: '300px' }}
-                />
+                <img src={uploadedImage || partner.img} alt={partner.alt} style={{ width: '300px' }} />
               )}
             </Box>
           );

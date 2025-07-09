@@ -50,6 +50,16 @@ export default {
   footer: {
     title: 'Votre analyse Paris',
     description: "Votre description d'analyse Paris",
-    link:[{name:"paris", route:"/paris"}, {name:"Lille", route:"/lille"}, {name:"Lyon", route:"/Lyon"}, {name:"paris", route:"/paris"}, {name:"paris", route:"/paris"}, {name:"paris", route:"/paris"}, {name:"paris", route:"/paris"}, {name:"paris", route:"/paris"}, {name:"paris", route:"/paris"}]
+    link: [
+      { name: 'paris', route: '/paris' },
+      { name: 'Lille', route: '/lille' },
+      { name: 'Lyon', route: '/Lyon' },
+      { name: 'paris', route: '/paris' },
+      { name: 'paris', route: '/paris' },
+      { name: 'paris', route: '/paris' },
+      { name: 'paris', route: '/paris' },
+      { name: 'paris', route: '/paris' },
+      { name: 'paris', route: '/paris' },
+    ],
   },
 };
