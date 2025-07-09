@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import { useFormContext } from 'react-hook-form';
 import Carousel, { ResponsiveType } from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { useLocation } from 'react-router-dom';
