@@ -82,7 +82,7 @@ export const Testimonials = () => {
           showDots
           infinite
           autoPlay={location.pathname !== '/templateGenerator'}
-          keyBoardControl
+          keyBoardControl={location.pathname !== '/templateGenerator'}
           partialVisbile
           draggable={false}
           swipeable={false}

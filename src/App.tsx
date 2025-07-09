@@ -18,6 +18,7 @@ import { useSnackbar } from '@store/snackbar';
 import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
+import paris from './pages/template/json-data/paris';
 
 const PublicLayout = () => {
   const { pathname } = useLocation();
@@ -89,8 +90,8 @@ function App() {
           <Route path="*" element={<Navigate to="/" />} />
         </Route>
         <Route path="/" element={<TemplateLayout />}>
-          <Route path="/template" element={<Template />} />
-          <Route path="/templateGenerator" element={<Template />} />
+          <Route path="/template" element={<Template jsonData={{}} />} />
+          <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
         </Route>
       </Routes>
       <GlobalDialog />

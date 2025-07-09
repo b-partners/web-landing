@@ -1,3 +1,5 @@
+import { FC } from 'react';
+
 import { Box } from '@mui/material';
 import { Analayse, Testimonials } from '@pages/home/components';
 
@@ -7,9 +9,13 @@ import { FooterTemplate } from './sections/FooterTemplate';
 import { RoofDiagnostics } from './sections/RoofDiagnostics';
 import { TemplateGeneratorFormProvider } from './utils/template-gen-form';
 
-export function Template() {
+interface TemplateProps {
+  jsonData: any;
+}
+
+export const Template: FC<TemplateProps> = ({ jsonData }) => {
   return (
-    <TemplateGeneratorFormProvider>
+    <TemplateGeneratorFormProvider jsonData={jsonData}>
       <Box className="template">
         <HeroPage />
         <TheyTrushUs />
@@ -21,4 +27,4 @@ export function Template() {
       </Box>
     </TemplateGeneratorFormProvider>
   );
-}
+};
