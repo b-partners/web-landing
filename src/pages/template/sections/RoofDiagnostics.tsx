@@ -43,8 +43,8 @@ export const RoofDiagnostics = () => {
         </Box>
         <Box className="content-img">
           <Box className="image-container">
-            {location.pathname !== '/templateGenrator' ? (
-              <img src={heroImage} alt="" />
+            {location.pathname !== '/templateGenerator' ? (
+              <img src={getValues('roofDiagnostics.image') || heroImage} alt="" />
             ) : (
               <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="roofDiagnostics.image" type="file" />
             )}

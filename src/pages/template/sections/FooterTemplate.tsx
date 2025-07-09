@@ -48,18 +48,23 @@ export const FooterTemplate = () => {
       </Box>
       <Grid className="grid-footer" container spacing={4}>
         {cities.map((_, index) => {
-          const city = getValues(`footer.link.${index}`) || _;
+          const link = getValues(`footer.link.${index}`) || _;
+          const name = link.name;
+          const route = link.route;
 
           return (
             <Grid item xs={12} sm={4} key={index}>
               <Stack direction="row" alignItems="center" spacing={1} className="stack-footer">
                 <ShareLocationOutlinedIcon sx={{ color: PALETTE_COLORS.pine }} />
-                {location.pathname === '/template' ? (
-                  <Typography className="footer-link" component="a" href={city.url}>
-                    {city.name}
+                {location.pathname !== '/templateGenerator' ? (
+                  <Typography className="footer-link" component="a" href={route}>
+                    {name}
                   </Typography>
                 ) : (
-                  <GenInput name={`footer.link.${index}`} className="footer-link" placeholder="Liens vers autre page" />
+                  <>
+                    <GenInput name={`footer.link.name.${index}`} className="footer-link" placeholder="Nom du liens" />
+                    <GenInput name={`footer.link.route.${index}`} className="footer-link" placeholder="URL du lien" />
+                  </>
                 )}
               </Stack>
             </Grid>

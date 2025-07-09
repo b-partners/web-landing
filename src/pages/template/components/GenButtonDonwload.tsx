@@ -22,7 +22,7 @@ export const GenButtonDownload = () => {
   return (
     <>
       <Button onClick={handleOpenDialog} variant="contained">
-        Télécharger le JSON
+        Télécharger le fichier
       </Button>
 
       <Dialog open={open} onClose={handleClose}>
