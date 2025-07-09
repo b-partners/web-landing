@@ -7,6 +7,7 @@ import { Box, Grid, Stack, Typography } from '@mui/material';
 import { GenButtonDownload } from '../components/GenButtonDonwload';
 import { GenInput } from '../components/GenInput';
 import { FooterTemplateStyle } from './styles';
+import { useFormContext } from 'react-hook-form';
 
 const cities = [
   { name: 'Birdia Paris', url: '/location/paris' },
@@ -22,18 +23,20 @@ const cities = [
 
 export const FooterTemplate = () => {
   const location = useLocation();
+  const { getValues } = useFormContext();
   return (
     <Box component="section" id="template-footer" sx={FooterTemplateStyle}>
       <Box id="footer-container">
-        {location.pathname === '/template' ? (
+        {location.pathname !== '/templateGenerator' ? (
           <Typography variant="h2" className="footer-title">
-            Votre analyse Birdia près de chez vous
+            {getValues('footer.title') || 'Votre analyse Birdia près de chez vous'}
           </Typography>
         ) : (
           <GenInput name="footer.title" multiline fullWidth className="footer-title" placeholder="Votre analyse Birdia près de chez vous" />
         )}
-        {location.pathname === '/template' ? (
-          <Typography variant="h6">Découvrez nos offres disponibles dans les villes suivantes :</Typography>
+        {location.pathname !== '/templateGenerator' ? (
+          <Typography variant="h6">
+            {getValues('footer.description') || 'Découvrez nos offres disponibles dans les villes suivantes :'}</Typography>
         ) : (
           <GenInput
             name="footer.description"
@@ -45,7 +48,7 @@ export const FooterTemplate = () => {
         )}
       </Box>
       <Grid className="grid-footer" container spacing={4}>
-        {cities.map((city, index) => (
+        {((getValues('footer.link') || cities) as typeof cities).map((city, index) => (
           <Grid item xs={12} sm={4} key={index}>
             <Stack direction="row" alignItems="center" spacing={1} className="stack-footer">
               <ShareLocationOutlinedIcon sx={{ color: PALETTE_COLORS.pine }} />
@@ -54,7 +57,7 @@ export const FooterTemplate = () => {
                   {city.name}
                 </Typography>
               ) : (
-                <GenInput name="footer.link" className="footer-link" placeholder="Liens vers autre page" />
+                <GenInput name={`footer.link.${index}`} className="footer-link" placeholder="Liens vers autre page" />
               )}
             </Stack>
           </Grid>

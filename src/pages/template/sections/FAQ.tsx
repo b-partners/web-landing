@@ -7,6 +7,7 @@ import { bookYourDemoUrl } from '@pages/Advertising-Campaign/components';
 
 import { GenInput } from '../components/GenInput';
 import { FAQStyle } from './styles';
+import { useFormContext } from 'react-hook-form';
 
 const faqTitles = [
   { id: 'q1', question: "A quoi ça sert d'analyser son toit ?", reponse: 'réponse premier exemple' },
@@ -19,40 +20,41 @@ const faqTitles = [
 
 export const FAQ = () => {
   const location = useLocation();
+  const { getValues } = useFormContext();
 
   return (
     <Box component="section" id="template-FAQ" sx={FAQStyle}>
       <Box id="faq-container">
-        {location.pathname === '/template' ? (
+        {location.pathname !== '/templateGenerator' ? (
           <Typography variant="h2" className="faq-title">
-            FAQ
+            {getValues('faq.title1') || 'FAQ'}
           </Typography>
         ) : (
           <GenInput name="faq.title1" className="faq-title" placeholder="FAQ" />
         )}
-        {faqTitles.map(({ id, question, reponse }) => (
+        {((getValues('faq.question' && 'faq.answer') || faqTitles) as typeof faqTitles).map(({ id, question, reponse }) => (
           <Accordion key={id} className="accordion">
             <AccordionSummary expandIcon={<ExpandCircleDownIcon />}>
               {location.pathname === '/template' ? (
                 <Typography className="accordion-text">{question}</Typography>
               ) : (
-                <GenInput name={`faq.${id}.question`} placeholder="Question ..." />
+                <GenInput name={`faq.question.${id}`} placeholder="Question ..." />
               )}
             </AccordionSummary>
             <AccordionDetails>
               {location.pathname === '/template' ? (
                 <Typography className="accordion-text">{reponse}</Typography>
               ) : (
-                <GenInput name={`faq.${id}.answer`} placeholder="Réponse ..." />
+                <GenInput name={`faq.answer.${id}`} placeholder="Réponse ..." />
               )}
             </AccordionDetails>
           </Accordion>
         ))}
       </Box>
       <Box id="change-container">
-        {location.pathname === '/template' ? (
+        {location.pathname !== '/templateGenerator' ? (
           <Typography className="change-text" variant="h4">
-            Vous êtes un particulier , vous souhaitez trouver un couvreur ?
+            {getValues('faq.title2') || 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?'}
           </Typography>
         ) : (
           <GenInput
