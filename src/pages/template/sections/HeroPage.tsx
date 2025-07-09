@@ -1,3 +1,4 @@
+import { useFormContext } from 'react-hook-form';
 import { useLocation } from 'react-router-dom';
 
 import { CTAButton } from '@/common/components/buttons';
@@ -12,23 +13,25 @@ const heroItems = ['Pas de CB requise', 'Essaie gratuit de 14 jours', "Jusqu'à 
 
 export const HeroPage = () => {
   const location = useLocation();
+  const { getValues } = useFormContext();
+
   return (
     <Box component="section" id="template-HeroPage" sx={HeroPageStyle}>
       <Box id="container">
         <Box className="content">
-          {location.pathname === '/template' ? (
+          {location.pathname !== '/templateGenerator' ? (
             <Typography className="hero-title" variant="h1">
-              BIRDIA, le seul outil de diagnostique toiture
+              {getValues('hero.title') || 'BIRDIA, le seul outil de diagnostique toiture'}
             </Typography>
           ) : (
             <GenInput name="hero.title" multiline className="hero-title" placeholder="BIRDIA, le seul outil de diagnostique toiture" />
           )}
           <List>
-            {heroItems.map((items, index) => (
+            {((getValues('hero.items') || heroItems) as typeof heroItems).map((items, index) => (
               <ListItem key={items}>
                 <Stack direction="row" alignItems="center" spacing={2}>
                   <CheckCircleIcon />
-                  {location.pathname === '/template' ? (
+                  {location.pathname !== '/templateGenerator' ? (
                     <ListItemText primary={items} />
                   ) : (
                     <GenInput name={`hero.items.${index}`} placeholder="Pas de CB requise" />

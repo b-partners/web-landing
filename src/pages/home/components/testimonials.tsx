@@ -1,3 +1,4 @@
+import { FC } from 'react';
 import Carousel, { ResponsiveType } from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { useLocation } from 'react-router-dom';
@@ -42,8 +43,14 @@ const TESTIMONIAL_SX: SxProps = {
   },
 };
 
-export const Testimonials = () => {
+interface TestimonialsProps {
+  testimonialsData?: typeof TESTIMONIALS;
+}
+
+export const Testimonials: FC<TestimonialsProps> = (props) => {
   const location = useLocation();
+  const { testimonialsData = TESTIMONIALS } = props;
+
   return (
     <Box
       component="section"
@@ -101,7 +108,7 @@ export const Testimonials = () => {
             </IconButton>
           }
         >
-          {TESTIMONIALS.map((testimonial, index) =>
+          {testimonialsData.map((testimonial, index) =>
             location.pathname === '/templateGenerator' ? (
               <Box key={index} sx={{ px: 3 }}>
                 <GenRating name={`testimonials.${index}.star`} />

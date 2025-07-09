@@ -92,6 +92,7 @@ function App() {
         <Route path="/" element={<TemplateLayout />}>
           <Route path="/template" element={<Template jsonData={{}} />} />
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
+          <Route path="/paris" element={<Template jsonData={paris} />} />
         </Route>
       </Routes>
       <GlobalDialog />
