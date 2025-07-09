@@ -2,7 +2,7 @@ import { useLocation } from 'react-router-dom';
 
 import { PALETTE_COLORS } from '@/config/theme';
 import ShareLocationOutlinedIcon from '@mui/icons-material/ShareLocationOutlined';
-import { Box, Grid, Input, Stack, Typography } from '@mui/material';
+import { Box, Grid, Stack, Typography } from '@mui/material';
 
 import { GenButtonDownload } from '../components/GenButtonDonwload';
 import { GenInput } from '../components/GenInput';
