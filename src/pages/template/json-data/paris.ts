@@ -24,53 +24,22 @@ export default {
   ],
   analyse: {
     information: [
-      {
-        title: 'Paris',
-        description: 'Paris description',
-      },
-      {
-        title: 'Paris',
-        description: 'Paris description',
-      },
-      {
-        title: 'Paris',
-        description: 'Paris description',
-      },
+      { title: 'Paris', description: 'Paris description' },
+      { title: 'Paris', description: 'Paris description' },
+      { title: 'Paris', description: 'Paris description' },
     ],
     explication: ' Description analyse automatisé à Paris',
   },
-  theyTrustUs: {
-    title: 'A Paris ils nous font confiance',
-  },
-  analayse: {
-    title: 'Analyse automatisé à Paris',
-  },
+  theyTrustUs: { title: 'A Paris ils nous font confiance' },
+  analayse: { title: 'Analyse automatisé à Paris' },
   faq: {
     title1: 'FAQ Paris',
-    q1: {
-      question: 'Paris question 17',
-      answer: 'Paris réponse 1',
-    },
-    q2: {
-      question: 'Paris question 2',
-      answer: 'Paris réponse 2',
-    },
-    q3: {
-      question: 'Paris question 3',
-      answer: 'Paris réponse 3',
-    },
-    q4: {
-      question: 'Paris question 4',
-      answer: 'Paris réponse 4',
-    },
-    q5: {
-      question: 'Paris question 5',
-      answer: 'Paris réponse 5',
-    },
-    q6: {
-      question: 'Paris question 6',
-      answer: 'Paris réponse 6',
-    },
+    q1: { question: 'Paris question 17', answer: 'Paris réponse 1' },
+    q2: { question: 'Paris question 2', answer: 'Paris réponse 2' },
+    q3: { question: 'Paris question 3', answer: 'Paris réponse 3' },
+    q4: { question: 'Paris question 4', answer: 'Paris réponse 4' },
+    q5: { question: 'Paris question 5', answer: 'Paris réponse 5' },
+    q6: { question: 'Paris question 6', answer: 'Paris réponse 6' },
     title2: 'Vous êtes particulier à Paris ?',
   },
   roofDiagnostics: {

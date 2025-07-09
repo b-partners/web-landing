@@ -43,9 +43,9 @@ export const HeroPage = () => {
           <CTAButton sx={{ mt: 2, mb: 3 }} />
         </Box>
         <Box className="content-image">
-          {location.pathname === '/template' ? (
+          {location.pathname !== '/templateGenerator' ? (
             <Box className="box-image">
-              <img src={heroImage} alt="" />
+              <img src={getValues('hero.image') || heroImage} alt="" />
             </Box>
           ) : (
             <Box className="box-image-template">

@@ -1,3 +1,4 @@
+import { useFormContext } from 'react-hook-form';
 import { useLocation } from 'react-router-dom';
 
 import { PALETTE_COLORS } from '@/config/theme';
@@ -7,7 +8,6 @@ import { Box, Grid, Stack, Typography } from '@mui/material';
 import { GenButtonDownload } from '../components/GenButtonDonwload';
 import { GenInput } from '../components/GenInput';
 import { FooterTemplateStyle } from './styles';
-import { useFormContext } from 'react-hook-form';
 
 const cities = [
   { name: 'Birdia Paris', url: '/location/paris' },
@@ -35,8 +35,7 @@ export const FooterTemplate = () => {
           <GenInput name="footer.title" multiline fullWidth className="footer-title" placeholder="Votre analyse Birdia près de chez vous" />
         )}
         {location.pathname !== '/templateGenerator' ? (
-          <Typography variant="h6">
-            {getValues('footer.description') || 'Découvrez nos offres disponibles dans les villes suivantes :'}</Typography>
+          <Typography variant="h6">{getValues('footer.description') || 'Découvrez nos offres disponibles dans les villes suivantes :'}</Typography>
         ) : (
           <GenInput
             name="footer.description"
@@ -48,20 +47,24 @@ export const FooterTemplate = () => {
         )}
       </Box>
       <Grid className="grid-footer" container spacing={4}>
-        {((getValues('footer.link') || cities) as typeof cities).map((city, index) => (
-          <Grid item xs={12} sm={4} key={index}>
-            <Stack direction="row" alignItems="center" spacing={1} className="stack-footer">
-              <ShareLocationOutlinedIcon sx={{ color: PALETTE_COLORS.pine }} />
-              {location.pathname === '/template' ? (
-                <Typography className="footer-link" component="a" href={city.url}>
-                  {city.name}
-                </Typography>
-              ) : (
-                <GenInput name={`footer.link.${index}`} className="footer-link" placeholder="Liens vers autre page" />
-              )}
-            </Stack>
-          </Grid>
-        ))}
+        {cities.map((_, index) => {
+          const city = getValues(`footer.link.${index}`) || _;
+
+          return (
+            <Grid item xs={12} sm={4} key={index}>
+              <Stack direction="row" alignItems="center" spacing={1} className="stack-footer">
+                <ShareLocationOutlinedIcon sx={{ color: PALETTE_COLORS.pine }} />
+                {location.pathname === '/template' ? (
+                  <Typography className="footer-link" component="a" href={city.url}>
+                    {city.name}
+                  </Typography>
+                ) : (
+                  <GenInput name={`footer.link.${index}`} className="footer-link" placeholder="Liens vers autre page" />
+                )}
+              </Stack>
+            </Grid>
+          );
+        })}
       </Grid>
       <Box id="space-bottom">{location.pathname === '/templateGenerator' && <GenButtonDownload />}</Box>
     </Box>
