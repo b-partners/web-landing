@@ -1,4 +1,5 @@
 import { useLocation } from 'react-router-dom';
+import { useFormContext } from 'react-hook-form';
 
 import { FlexBox } from '@/common/components';
 import { CTAButton, LinkButton } from '@/common/components/buttons';
@@ -20,11 +21,21 @@ const ANALAYSE_SX: SxProps = {
 export const Analayse = () => {
   const location = useLocation();
   const isEditMode = location.pathname === '/templateGenerator';
+  const { getValues } = useFormContext();
+
+  const imageFile = getValues('analyse.image');
+  const imageUrl = imageFile instanceof File ? URL.createObjectURL(imageFile) : analyseCarousel;
+
+  const titreAnalyse = getValues('analayse.title') || 'Analyse automatisée de toitures par intelligence artificielle';
+  const explication = getValues('analyse.explication') || `Détection, qualification et recommandation à partir d’images aériennes HD.\nEn un clic, obtenez un diagnostic métier précis sans monter sur le toit.`;
+
   return (
     <FlexBox component="section" sx={ANALAYSE_SX}>
       <Box sx={{ flex: 1 }}>
-        {ANALYSES.map((analyse, index) =>
-          isEditMode ? (
+        {ANALYSES.map((analyse, index) => {
+          const titre = getValues(`analyse.information.${index}.title`);
+          const description = getValues(`analyse.information.${index}.description`);
+          return isEditMode ? (
             <Box key={index} sx={{ px: 3, py: 5, bgcolor: analyse.bgcolor }}>
               <GenInput
                 name={`analyse.information.${index}.title`}
@@ -39,12 +50,19 @@ export const Analayse = () => {
               />
             </Box>
           ) : (
-            <AnalayseItem key={analyse.title} analyse={analyse} />
-          )
-        )}
+            <Box key={index} sx={{ px: 3, py: 7, bgcolor: analyse.bgcolor }}>
+              <Typography sx={{ mb: 1, fontWeight: 'bold', fontSize: '1.1rem', color: analyse.color }}>
+                {titre}
+              </Typography>
+              <Typography sx={{ fontSize: '1rem', color: analyse.color }}>
+                {description}
+              </Typography>
+            </Box>
+          );
+        })}
       </Box>
       <FlexBox sx={{ flexDirection: 'column', px: 6, flex: 1, bgcolor: 'white', p: 5, minWidth: '700px' }}>
-        {location.pathname === '/templateGenerator' ? (
+        {isEditMode ? (
           <GenInput
             name="analayse.title"
             multiline
@@ -74,10 +92,10 @@ export const Analayse = () => {
               fontSize: { xs: '2rem', md: '2.5rem', xl: '3rem', xxl: '4rem' },
             }}
           >
-            Analyse automatisée de toitures par intelligence artificielle
+            {titreAnalyse}
           </Typography>
         )}
-        {location.pathname === '/templateGenerator' ? (
+        {isEditMode ? (
           <GenInput
             name="analyse.explication"
             multiline
@@ -100,19 +118,18 @@ export const Analayse = () => {
               mt: 5,
               maxWidth: '1200px',
               mx: 'auto',
+              whiteSpace: 'pre-line',
             }}
           >
-            Détection, qualification et recommandation à partir d’images aériennes HD.
-            <br />
-            En un clic, obtenez un diagnostic métier précis sans monter sur le toit.
+            {explication}
           </Typography>
         )}
         <FlexBox sx={{ mt: 3 }}>
-          {location.pathname === '/templateGenerator' ? (
+          {isEditMode ? (
             <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="analyse.image" type="file" />
           ) : (
             <img
-              src={analyseCarousel}
+              src={imageUrl}
               alt="Illustration : Analyse automatisée de toitures par intelligence artificielle"
               style={{ width: '55%', marginTop: '30px', display: 'block', marginBlock: 'auto', borderRadius: '30px' }}
             />

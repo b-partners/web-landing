@@ -14,6 +14,7 @@ import { GenRating } from '@pages/template/components/GenRating';
 
 import { TESTIMONIALS } from '../utils/constant';
 import { TestimonialItem } from './testimonial-item';
+import { useFormContext } from 'react-hook-form';
 
 export const RESPONSIVE: ResponsiveType = {
   desktop: {
@@ -50,6 +51,8 @@ interface TestimonialsProps {
 export const Testimonials: FC<TestimonialsProps> = (props) => {
   const location = useLocation();
   const { testimonialsData = TESTIMONIALS } = props;
+  const { getValues } = useFormContext();
+
 
   return (
     <Box
@@ -60,7 +63,19 @@ export const Testimonials: FC<TestimonialsProps> = (props) => {
       }}
     >
       <Box sx={TESTIMONIAL_SX}>
-        {location.pathname === '/templateGenerator' ? (
+        {location.pathname !== '/templateGenerator' ? (
+          <Typography
+            sx={{
+              textAlign: { xs: 'center', md: 'start' },
+              fontWeight: 'bold',
+              fontSize: { xs: '2rem', md: '2.5rem' },
+              mb: { xs: 3, md: 5, xl: 7 },
+              color: PALETTE_COLORS.neon_orange,
+            }}
+          >
+            {getValues('testimonial.title1') || 'Témoignages clients'}
+          </Typography>
+        ) : (
           <GenInput
             name="testimonial.title1"
             placeholder="Témoignages clients"
@@ -72,18 +87,6 @@ export const Testimonials: FC<TestimonialsProps> = (props) => {
               color: PALETTE_COLORS.neon_orange,
             }}
           />
-        ) : (
-          <Typography
-            sx={{
-              textAlign: { xs: 'center', md: 'start' },
-              fontWeight: 'bold',
-              fontSize: { xs: '2rem', md: '2.5rem' },
-              mb: { xs: 3, md: 5, xl: 7 },
-              color: PALETTE_COLORS.neon_orange,
-            }}
-          >
-            Témoignages clients
-          </Typography>
         )}
         <Carousel
           showDots
@@ -112,9 +115,9 @@ export const Testimonials: FC<TestimonialsProps> = (props) => {
             location.pathname === '/templateGenerator' ? (
               <Box key={index} sx={{ px: 3 }}>
                 <GenRating name={`testimonials.${index}.star`} />
-                <GenInput name={`testimonials.${index}.opinion`} fullWidth placeholder="Témoignage" sx={{ mb: 2 }} />
+                <GenInput name={`testimonials.${index}.content`} fullWidth placeholder="Témoignage" sx={{ mb: 2 }} />
                 <GenInput name={`testimonials.${index}.name`} placeholder="Nom du client" sx={{ mb: 2, fontWeight: 'bold', display: 'block', width: '20%' }} />
-                <GenInput name={`testimonials.${index}.Occupation`} placeholder="Profession" sx={{ mb: 5 }} />
+                <GenInput name={`testimonials.${index}.job`} placeholder="Profession" sx={{ mb: 5 }} />
               </Box>
             ) : (
               <TestimonialItem key={testimonial.name} testimonial={testimonial} />
@@ -135,7 +138,20 @@ export const Testimonials: FC<TestimonialsProps> = (props) => {
           borderRadius: '30px',
         }}
       >
-        {location.pathname === '/templateGenerator' ? (
+        {location.pathname !== '/templateGenerator' ? (
+          <Typography
+            variant="h2"
+            sx={{
+              maxWidth: '1300px',
+              textAlign: 'center',
+              fontWeight: 'bold',
+              color: PALETTE_COLORS.white,
+              fontSize: { xs: '2.4rem', md: '3.5rem', xl: '4rem' },
+            }}
+          >
+            {getValues('testimonial.title2') || 'Passez à l’analyse intelligente, sans compléxité'}
+          </Typography>
+        ) : (
           <GenInput
             name="testimonial.title2"
             multiline
@@ -149,20 +165,7 @@ export const Testimonials: FC<TestimonialsProps> = (props) => {
               fontSize: { xs: '2.4rem', md: '3.5rem', xl: '4rem' },
             }}
           />
-        ) : (
-          <Typography
-            variant="h2"
-            sx={{
-              maxWidth: '1300px',
-              textAlign: 'center',
-              fontWeight: 'bold',
-              color: PALETTE_COLORS.white,
-              fontSize: { xs: '2.4rem', md: '3.5rem', xl: '4rem' },
-            }}
-          >
-            Passez à l’analyse intelligente, sans compléxité
-          </Typography>
-        )}
+        ) }
         <FlexBox sx={{ gap: { xs: 2, md: 5 } }}>
           <CTAButton />
           <LinkButton color="white" to={Env.DASHBOARD_REGISTRATION_URL}>

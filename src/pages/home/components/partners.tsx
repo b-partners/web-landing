@@ -1,9 +1,10 @@
 import { FC } from 'react';
 import Carousel, { ResponsiveType } from 'react-multi-carousel';
 import { useLocation } from 'react-router-dom';
+import { useFormContext } from 'react-hook-form';
+import { Box, Typography } from '@mui/material';
 
 import { PALETTE_COLORS } from '@/config/theme';
-import { Box, Typography } from '@mui/material';
 import { GenInput } from '@pages/template/components/GenInput';
 
 const PARTNERS = [
@@ -77,57 +78,27 @@ const PARTNERS = [
   },
 ];
 
-type Partner = {
-  img: string;
-  alt: string;
-};
-
-type PartnersProps = {
-  partnersFromJson?: Partner[]; // facultatif, permet de passer une liste personnalisée
-};
-
-export const PartnersItem: FC<{ img: string; alt: string }> = ({ img, alt }) => {
-  return (
-    <Box sx={{ width: '300px' }}>
-      <img src={img} alt={alt} style={{ width: '300px' }} />
-    </Box>
-  );
-};
-
 const RESPONSIVE: ResponsiveType = {
-  superLargeDesktop: {
-    breakpoint: { max: 10000, min: 2201 },
-    items: 6,
-  },
-  mediumDesktop: {
-    breakpoint: { max: 2200, min: 1201 },
-    items: 4,
-  },
-  desktop: {
-    breakpoint: { max: 1200, min: 1000 },
-    items: 3,
-  },
-  tablet: {
-    breakpoint: { max: 1000, min: 601 },
-    items: 2,
-  },
-  mobile: {
-    breakpoint: { max: 600, min: 451 },
-    items: 1,
-  },
-  smallMobile: {
-    breakpoint: { max: 450, min: 0 },
-    items: 1,
-  },
+  superLargeDesktop: { breakpoint: { max: 10000, min: 2201 }, items: 6 },
+  mediumDesktop: { breakpoint: { max: 2200, min: 1201 }, items: 4 },
+  desktop: { breakpoint: { max: 1200, min: 1000 }, items: 3 },
+  tablet: { breakpoint: { max: 1000, min: 601 }, items: 2 },
+  mobile: { breakpoint: { max: 600, min: 451 }, items: 1 },
+  smallMobile: { breakpoint: { max: 450, min: 0 }, items: 1 },
 };
+
+type Partner = { img: string; alt: string };
+type PartnersProps = { partnersFromJson?: Partner[] };
 
 export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
   const location = useLocation();
   const isEditMode = location.pathname === '/templateGenerator';
   const partners = partnersFromJson || PARTNERS;
+  const { getValues } = useFormContext();
+
   return (
     <Box sx={{ p: 5 }}>
-      {location.pathname === '/templateGenerator' ? (
+      {isEditMode ? (
         <GenInput
           name="theyTrustUs.title"
           sx={{
@@ -144,28 +115,49 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
       ) : (
         <Typography
           variant="h2"
-          sx={{ fontSize: { xs: '1.2rem', md: '1.5rem' }, mb: 10, textAlign: 'center', fontWeight: 'bold', color: PALETTE_COLORS.neon_orange }}
+          sx={{
+            fontSize: { xs: '1.2rem', md: '1.5rem' },
+            mb: 10,
+            textAlign: 'center',
+            fontWeight: 'bold',
+            color: PALETTE_COLORS.neon_orange,
+          }}
         >
-          Ils nous font confiance
+          {getValues('theyTrustUs.title') || 'Ils nous font confiance'}
         </Typography>
       )}
-      <Carousel infinite autoPlay={!isEditMode} arrows={isEditMode} draggable={!isEditMode} swipeable={!isEditMode} responsive={RESPONSIVE}>
-        {partners.map((partner, index) => (
-          <Box key={index} sx={{ width: '300px', textAlign: 'center' }}>
-            {isEditMode ? (
-              <GenInput
-                fullWidth
-                inputComponent="input"
-                inputProps={{ accept: 'image/*' } as any}
-                name={`theyTrustUs.image.${index}`}
-                type="file"
-                sx={{ mb: 2 }}
-              />
-            ) : (
-              <img src={partner.img} alt={partner.alt} style={{ width: '300px' }} />
-            )}
-          </Box>
-        ))}
+
+      <Carousel
+        infinite
+        autoPlay={!isEditMode}
+        arrows={isEditMode}
+        draggable={!isEditMode}
+        swipeable={!isEditMode}
+        responsive={RESPONSIVE}
+      >
+        {partners.map((partner, index) => {
+          const uploadedImage = getValues(`theyTrustUs.image.${index}`);
+          return (
+            <Box key={index} sx={{ width: '300px', textAlign: 'center' }}>
+              {isEditMode ? (
+                <GenInput
+                  fullWidth
+                  inputComponent="input"
+                  inputProps={{ accept: 'image/*' } as any}
+                  name={`theyTrustUs.image.${index}`}
+                  type="file"
+                  sx={{ mb: 2 }}
+                />
+              ) : (
+                <img
+                  src={uploadedImage || partner.img}
+                  alt={partner.alt}
+                  style={{ width: '300px' }}
+                />
+              )}
+            </Box>
+          );
+        })}
       </Carousel>
     </Box>
   );
