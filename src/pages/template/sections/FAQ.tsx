@@ -1,3 +1,4 @@
+import { useFormContext } from 'react-hook-form';
 import { useLocation } from 'react-router-dom';
 
 import { LinkButton } from '@/common/components/buttons';
@@ -7,7 +8,6 @@ import { bookYourDemoUrl } from '@pages/Advertising-Campaign/components';
 
 import { GenInput } from '../components/GenInput';
 import { FAQStyle } from './styles';
-import { useFormContext } from 'react-hook-form';
 
 const faqTitles = [
   { id: 'q1', question: "A quoi ça sert d'analyser son toit ?", reponse: 'réponse premier exemple' },

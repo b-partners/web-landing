@@ -1,3 +1,4 @@
+import { useFormContext } from 'react-hook-form';
 import { useLocation } from 'react-router-dom';
 
 import { Box, Typography } from '@mui/material';
@@ -5,7 +6,6 @@ import { Box, Typography } from '@mui/material';
 import { GenInput } from '../components/GenInput';
 import { RoofDiagnosticsStyle } from './styles';
 import heroImage from '/assets/images/hero/compiegne.jpg';
-import { useFormContext } from 'react-hook-form';
 
 export const RoofDiagnostics = () => {
   const location = useLocation();
@@ -23,7 +23,8 @@ export const RoofDiagnostics = () => {
           )}
           {location.pathname !== '/templateGenerator' ? (
             <Typography variant="h6" className="diagnostics-description">
-                            {getValues('roofDiagnostics.description1') || `Chez Birdia.fr, nous vous proposons un\u00A0diagnostic toiture\u00A0complet pour évaluer l’état de votre couverture, repérer les éventuelles infiltrations,
+              {getValues('roofDiagnostics.description1') ||
+                `Chez Birdia.fr, nous vous proposons un\u00A0diagnostic toiture\u00A0complet pour évaluer l’état de votre couverture, repérer les éventuelles infiltrations,
             dégradations ou défauts d’isolation. Ce service essentiel vous permet d’anticiper les travaux, d'éviter les mauvaises surprises et de prolonger la
             durée de vie de votre toiture.\u00A0Nos experts interviennent rapidement, avec un rapport détaillé et des recommandations claires.`}
             </Typography>
@@ -32,7 +33,8 @@ export const RoofDiagnostics = () => {
           )}
           {location.pathname !== '/templateGenerator' ? (
             <Typography variant="h6" className="diagnostics-description">
-              {getValues('roofDiagnostics.description2') || `Que vous soyez propriétaire ou futur acquéreur, un diagnostic toiture réalisé par des professionnels qualifiés vous assure une tranquillité
+              {getValues('roofDiagnostics.description2') ||
+                `Que vous soyez propriétaire ou futur acquéreur, un diagnostic toiture réalisé par des professionnels qualifiés vous assure une tranquillité
             d’esprit.\u00A0Grâce à notre expertise et à des outils de pointe, nous détectons les moindres anomalies, visibles ou invisibles à l’œil nu.`}
             </Typography>
           ) : (
