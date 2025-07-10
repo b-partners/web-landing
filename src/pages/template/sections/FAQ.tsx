@@ -40,7 +40,7 @@ export const FAQ = () => {
           const answer = data.answer || fallback.answer;
 
           return (
-            <Accordion key={index} className="accordion">
+            <Accordion key={index} className="accordion" expanded={isEdit ? true : undefined}>
               <AccordionSummary expandIcon={<ExpandCircleDownIcon />}>
                 {isEdit ? (
                   <GenInput name={`faq.q${index + 1}.question`} placeholder="Question ..." fullWidth />
