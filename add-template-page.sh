@@ -4,7 +4,7 @@ APP_FILE="src/App.tsx"
 
 NEW_PATH="$1"
 
-IMPORT_LINE="import $NEW_PATH from \"./src/pages/template/json-data/$NEW_PATH.ts\""
+IMPORT_LINE="import $NEW_PATH from \"./pages/template/json-data/$NEW_PATH\""
 sed -i "1s|^|$IMPORT_LINE\n\n|" "$APP_FILE"
 
 MARKER="{/* ======== NEW TEMPLATE ROUTE REF ======== */}"
