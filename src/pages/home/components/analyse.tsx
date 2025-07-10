@@ -29,8 +29,6 @@ export const Analayse: FC<AnalayseProps> = (props) => {
   const isEditMode = location.pathname === '/templateGenerator';
   const { getValues } = useTemplateFormContext();
 
-  const imageFile = getValues('analyse.image');
-  const imageUrl = imageFile instanceof File ? URL.createObjectURL(imageFile) : analyseCarousel;
   const rawImage = getValues('analyse.image');
   const analyseImageUrl = rawImage instanceof File ? URL.createObjectURL(rawImage) : rawImage || analyseCarousel;
 

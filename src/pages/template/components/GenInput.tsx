@@ -37,7 +37,7 @@ const GetInputFile: FC<InputProps> = (props) => {
 
   const onChange: ChangeEventHandler<HTMLInputElement> = (event) => {
     const file = event.target.files[0];
-    open(<UploadFileDialog onCancel={handleCancel} setFileId={setFileId} file={file} />, { onClose: () => {} });
+    open(<UploadFileDialog onCancel={handleCancel} setFileId={setFileId} file={file} />, { onClose: undefined });
   };
 
   return <Input onChange={onChange} inputRef={inputRef} {...props} />;

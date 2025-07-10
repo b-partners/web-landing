@@ -14,8 +14,9 @@ const routeWithoutContext = [
 ];
 
 export const useTemplateFormContext: typeof useFormContext = () => {
+  const context = useFormContext();
   const location = useLocation();
   const isEditMode = !routeWithoutContext.includes(location.pathname);
-  if (!isEditMode) return { getValues: (a: any) => undefined as any } as any;
-  return useFormContext();
+  if (!isEditMode) return { getValues: () => undefined as any } as any;
+  return context;
 };
