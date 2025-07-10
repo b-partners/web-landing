@@ -27,12 +27,12 @@ export const Analayse: FC<AnalayseProps> = (props) => {
   const location = useLocation();
   const isEditMode = location.pathname === '/templateGenerator';
 
-  const rawImage = analayseData.image;
+  const rawImage = analayseData?.image;
   const analyseImageUrl = rawImage instanceof File ? URL.createObjectURL(rawImage) : rawImage || analyseCarousel;
 
-  const titreAnalyse = analayseData.title || 'Analyse automatisée de toitures par intelligence artificielle';
+  const titreAnalyse = analayseData?.title || 'Analyse automatisée de toitures par intelligence artificielle';
   const explication =
-    analayseData.explication ||
+    analayseData?.explication ||
     `Détection, qualification et recommandation à partir d’images aériennes HD.\nEn un clic, obtenez un diagnostic métier précis sans monter sur le toit.`;
 
   return (
