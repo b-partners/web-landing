@@ -8,7 +8,6 @@ import { PALETTE_COLORS } from '@/config/theme';
 import { SxProps, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import { GenInput } from '@pages/template/components/GenInput';
-import { useTemplateFormContext } from '@pages/template/utils/use-template-form-context';
 
 import analyseCarousel from '../assets/images/analyses-carousel/1.webp';
 import { ANALYSES } from '../utils/constant';
@@ -20,36 +19,35 @@ const ANALAYSE_SX: SxProps = {
 };
 
 interface AnalayseProps {
-  analayseData?: typeof ANALYSES;
+  analayseData?: any;
 }
 
 export const Analayse: FC<AnalayseProps> = (props) => {
-  const { analayseData = ANALYSES } = props;
+  const { analayseData } = props;
   const location = useLocation();
   const isEditMode = location.pathname === '/templateGenerator';
-  const { getValues } = useTemplateFormContext();
 
-  const rawImage = getValues('analyse.image');
+  const rawImage = analayseData.image;
   const analyseImageUrl = rawImage instanceof File ? URL.createObjectURL(rawImage) : rawImage || analyseCarousel;
 
-  const titreAnalyse = getValues('analayse.title') || 'Analyse automatisée de toitures par intelligence artificielle';
+  const titreAnalyse = analayseData.title || 'Analyse automatisée de toitures par intelligence artificielle';
   const explication =
-    getValues('analyse.explication') ||
+    analayseData.explication ||
     `Détection, qualification et recommandation à partir d’images aériennes HD.\nEn un clic, obtenez un diagnostic métier précis sans monter sur le toit.`;
 
   return (
     <FlexBox component="section" sx={ANALAYSE_SX}>
       <Box sx={{ flex: 1 }}>
-        {analayseData.map((analyse, index) => {
+        {((analayseData?.information || ANALYSES) as typeof ANALYSES).map((analyse, index) => {
           return isEditMode ? (
             <Box key={index} sx={{ px: 3, py: 5, bgcolor: analyse.bgcolor }}>
               <GenInput
-                name={`analyse.information.title.${index}`}
+                name={`analyse.information.${index}.title`}
                 placeholder="Titre de l'analyse"
                 sx={{ mb: 1, fontWeight: 'bold', fontSize: '1.1rem', color: analyse.color }}
               />
               <GenInput
-                name={`analyse.information.description.${index}`}
+                name={`analyse.information.${index}.description`}
                 fullWidth
                 placeholder="Texte de l'analyse"
                 sx={{ fontSize: '1rem', color: analyse.color }}

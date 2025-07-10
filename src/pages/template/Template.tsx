@@ -29,7 +29,7 @@ const TemplateComponent = () => {
     <Box className="template">
       <HeroPage />
       <TheyTrushUs />
-      <Analayse />
+      <Analayse analayseData={getValues('analyse')} />
       <Testimonials testimonialsData={getValues('testimonials')} />
       <FAQ />
       <RoofDiagnostics />
