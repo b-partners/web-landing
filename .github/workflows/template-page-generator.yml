@@ -1,14 +1,14 @@
-name: Add Page from JSON
+name: Add Page from Generated Base64
 
 on:
   workflow_dispatch:
     inputs:
       jsonString:
-        description: 'The JSON string to write'
+        description: 'Le contenu du fichier généré'
         required: true
         type: string
       pageName:
-        description: 'The name of the page (used in path and filename)'
+        description: 'Le nom de la page qui (ex: paris)'
         required: true
         type: string
 
@@ -35,7 +35,7 @@ jobs:
           git config user.name "AmourRamanantsiresy"
           git config user.email "hei.amour.2@gmail.com"
 
-      - name: Create JSON file
+      - name: Create typescript code file
         run: |
           echo "${{ github.event.inputs.jsonString }}" | base64 -d > ./src/pages/template/json-data/${{ github.event.inputs.pageName }}.ts
           sed -i '1s/^/export default /' ./src/pages/template/json-data/${{ github.event.inputs.pageName }}.ts
