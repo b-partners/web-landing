@@ -33,7 +33,7 @@ export const GenButtonDownload = () => {
             margin="dense"
             fullWidth
             variant="standard"
-            placeholder="/paris"
+            placeholder="paris"
             value={urlSuffix}
             onChange={(e) => setUrlSuffix(e.target.value)}
           />
