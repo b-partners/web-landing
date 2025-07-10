@@ -2,9 +2,9 @@ import { FC } from 'react';
 
 import { FlexBox } from '@/common/components';
 import { SxProps, Typography } from '@mui/material';
+import { useTemplateFormContext } from '@pages/template/utils/use-template-form-context';
 
 import { AnalayseType } from '../utils/constant';
-import { useTemplateFormContext } from '@pages/template/utils/use-template-form-context';
 
 const ANALAYSE_ITEM_SX: SxProps = {
   p: 5,
@@ -15,7 +15,7 @@ const ANALAYSE_ITEM_SX: SxProps = {
   minWidth: '300px',
 };
 
-export const AnalayseItem: FC<{ analyse: AnalayseType; index:number }> = ({ analyse, index }) => {
+export const AnalayseItem: FC<{ analyse: AnalayseType; index: number }> = ({ analyse, index }) => {
   const { getValues } = useTemplateFormContext();
 
   return (
@@ -33,7 +33,7 @@ export const AnalayseItem: FC<{ analyse: AnalayseType; index:number }> = ({ anal
         {getValues(`analyse.information.${index}.title`) || `${analyse.title}`}
       </Typography>
       <Typography sx={{ textAlign: 'center', maxWidth: '700px', color: analyse.color, fontSize: '1.3rem', mt: 3 }}>
-      {getValues(`analyse.information.${index}.description`) || `${analyse.description}`}
+        {getValues(`analyse.information.${index}.description`) || `${analyse.description}`}
       </Typography>
     </FlexBox>
   );

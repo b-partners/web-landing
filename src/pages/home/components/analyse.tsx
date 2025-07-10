@@ -31,6 +31,8 @@ export const Analayse: FC<AnalayseProps> = (props) => {
 
   const imageFile = getValues('analyse.image');
   const imageUrl = imageFile instanceof File ? URL.createObjectURL(imageFile) : analyseCarousel;
+  const rawImage = getValues('analyse.image');
+  const analyseImageUrl = rawImage instanceof File ? URL.createObjectURL(rawImage) : rawImage || analyseCarousel;
 
   const titreAnalyse = getValues('analayse.title') || 'Analyse automatisée de toitures par intelligence artificielle';
   const explication =
@@ -128,9 +130,16 @@ export const Analayse: FC<AnalayseProps> = (props) => {
             <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="analyse.image" type="file" />
           ) : (
             <img
-              src={imageFile || imageUrl}
+              src={analyseImageUrl}
               alt="Illustration : Analyse automatisée de toitures par intelligence artificielle"
-              style={{ width: '55%', marginTop: '30px', display: 'block', marginBlock: 'auto', borderRadius: '30px' }}
+              style={{
+                width: '55%',
+                marginTop: '30px',
+                display: 'block',
+                marginInline: 'auto',
+                borderRadius: '30px',
+                objectFit: 'cover',
+              }}
             />
           )}
         </FlexBox>

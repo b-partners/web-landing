@@ -132,6 +132,8 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
       <Carousel infinite autoPlay={!isEditMode} arrows={isEditMode} draggable={!isEditMode} swipeable={!isEditMode} responsive={RESPONSIVE}>
         {partners.map((partner, index) => {
           const uploadedImage = getValues(`theyTrustUs.image.${index}`);
+          const imageUrl = uploadedImage instanceof File ? URL.createObjectURL(uploadedImage) : uploadedImage || partner.img;
+
           return (
             <Box key={index} sx={{ width: '300px', textAlign: 'center' }}>
               {isEditMode ? (
@@ -144,7 +146,7 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
                   sx={{ mb: 2 }}
                 />
               ) : (
-                <img src={uploadedImage || partner.img} alt={partner.alt} style={{ width: '300px' }} />
+                <img src={imageUrl} alt={partner.alt} style={{ width: '300px' }} />
               )}
             </Box>
           );

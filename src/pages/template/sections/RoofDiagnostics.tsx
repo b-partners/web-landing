@@ -10,6 +10,8 @@ import heroImage from '/assets/images/hero/compiegne.jpg';
 export const RoofDiagnostics = () => {
   const location = useLocation();
   const { getValues } = useFormContext();
+  const roofDiangosticsImg = getValues('rroofDiagnostics.image');
+  const imageUrl = roofDiangosticsImg instanceof File ? URL.createObjectURL(roofDiangosticsImg) : roofDiangosticsImg || heroImage;
   return (
     <Box component="section" id="template-roof-diagnostics" sx={RoofDiagnosticsStyle}>
       <Box id="diagnostics-container">
@@ -44,7 +46,7 @@ export const RoofDiagnostics = () => {
         <Box className="content-img">
           <Box className="image-container">
             {location.pathname !== '/templateGenerator' ? (
-              <img src={getValues('roofDiagnostics.image') || heroImage} alt="" />
+              <img src={imageUrl} alt="" />
             ) : (
               <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="roofDiagnostics.image" type="file" />
             )}

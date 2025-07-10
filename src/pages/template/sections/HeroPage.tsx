@@ -14,6 +14,8 @@ const heroItems = ['Pas de CB requise', 'Essaie gratuit de 14 jours', "Jusqu'à 
 export const HeroPage = () => {
   const location = useLocation();
   const { getValues } = useFormContext();
+  const heroImg = getValues('hero.image');
+  const imageUrl = heroImg instanceof File ? URL.createObjectURL(heroImg) : heroImg || heroImage;
 
   return (
     <Box component="section" id="template-HeroPage" sx={HeroPageStyle}>
@@ -45,7 +47,16 @@ export const HeroPage = () => {
         <Box className="content-image">
           {location.pathname !== '/templateGenerator' ? (
             <Box className="box-image">
-              <img src={getValues('hero.image') || heroImage} alt="" />
+              <img
+                src={imageUrl}
+                alt="Illustration Hero"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  borderRadius: '20px',
+                }}
+              />
             </Box>
           ) : (
             <Box className="box-image-template">
