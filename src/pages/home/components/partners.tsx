@@ -1,5 +1,4 @@
-import { FC, useContext, useEffect, useState } from 'react';
-import { useFormContext } from 'react-hook-form';
+import { FC } from 'react';
 import Carousel, { ResponsiveType } from 'react-multi-carousel';
 import { useLocation } from 'react-router-dom';
 
@@ -146,7 +145,7 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
                   sx={{ mb: 2 }}
                 />
               ) : (
-                <img src={imageUrl} alt={partner.alt} style={{ width: '300px' }} />
+                <img src={imageUrl} alt={partner.alt} style={{ maxWidth: '300px', maxHeight: '150px' }} />
               )}
             </Box>
           );
