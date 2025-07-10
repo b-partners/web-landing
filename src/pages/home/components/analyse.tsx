@@ -54,7 +54,7 @@ export const Analayse: FC<AnalayseProps> = (props) => {
               />
             </Box>
           ) : (
-            <AnalayseItem key={analyse.title} analyse={analyse} index={index} />
+            <AnalayseItem key={analyse.title + index} analyse={{ ...analyse, bgcolor: ANALYSES[index].bgcolor, color: ANALYSES[index].color }} index={index} />
           );
         })}
       </Box>
