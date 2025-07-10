@@ -29,7 +29,7 @@ jobs:
 
       - name: Create JSON file
         run: |
-          echo 'export default ${{ github.event.inputs.jsonString }}' > ./src/pages/template/json-data/${{ github.event.inputs.pageName }}.ts
+          printf "export default %s\n" '${{ github.event.inputs.jsonString }}' > ./src/pages/template/json-data/${{ github.event.inputs.pageName }}.ts
 
       - name: Insert import line into src/app.tsx
         run: |
