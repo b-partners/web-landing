@@ -3,7 +3,7 @@ import { useWatch } from 'react-hook-form';
 
 import { Button, Dialog, DialogActions, DialogContent, DialogTitle, TextField } from '@mui/material';
 
-import { templateGenDownloadJson } from '../utils/template-gen-json-download';
+import { templateGenDownloadBase64Txt } from '../utils/template-gen-json-download';
 
 export const GenButtonDownload = () => {
   const stateValues = useWatch();
@@ -15,7 +15,7 @@ export const GenButtonDownload = () => {
 
   const handleConfirm = () => {
     const updatedState = { ...stateValues };
-    templateGenDownloadJson(updatedState, urlSuffix.replace(/^\//, ''));
+    templateGenDownloadBase64Txt(updatedState, urlSuffix.replace(/^\//, ''));
     handleClose();
   };
 
