@@ -1,42 +1,81 @@
+import { useFormContext } from 'react-hook-form';
+import { useLocation } from 'react-router-dom';
+
 import { LinkButton } from '@/common/components/buttons';
 import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
 import { Accordion, AccordionDetails, AccordionSummary, Box, Typography } from '@mui/material';
 import { bookYourDemoUrl } from '@pages/Advertising-Campaign/components';
 
+import { GenInput } from '../components/GenInput';
 import { FAQStyle } from './styles';
 
-const faqTitles = [
-  { id: 'q1', question: "A quoi ça sert d'analyser son toit ?", reponse: 'réponse premier exemple' },
-  { id: 'q2', question: 'Est-ce un bon investissement ?', reponse: 'réponse deuxième exemple' },
-  { id: 'q3', question: "Quelles différences avec d'autres outils ?", reponse: 'réponse troisième exemple' },
-  { id: 'q4', question: 'Comment cela fonctionne ?', reponse: 'réponse quatrième exemple' },
-  { id: 'q5', question: 'Le projet est-il sécurisé ?', reponse: 'réponse cinquième exemple' },
-  { id: 'q6', question: 'Le projet est-il sécurisé ?', reponse: 'réponse sixième exemple' },
+const faqFallback = [
+  { question: "À quoi ça sert d'analyser son toit ?", answer: 'réponse premier exemple' },
+  { question: 'Est-ce un bon investissement ?', answer: 'réponse deuxième exemple' },
+  { question: "Quelles différences avec d'autres outils ?", answer: 'réponse troisième exemple' },
+  { question: 'Comment cela fonctionne ?', answer: 'réponse quatrième exemple' },
+  { question: 'Le projet est-il sécurisé ?', answer: 'réponse cinquième exemple' },
+  { question: 'Est-ce que c’est gratuit ?', answer: 'réponse sixième exemple' },
 ];
 
 export const FAQ = () => {
+  const location = useLocation();
+  const isEdit = location.pathname === '/templateGenerator';
+  const { getValues } = useFormContext();
+
   return (
     <Box component="section" id="template-FAQ" sx={FAQStyle}>
       <Box id="faq-container">
-        <Typography variant="h2" className="faq-title">
-          FAQ
-        </Typography>
-        {faqTitles.map(({ id, question, reponse }) => (
-          <Accordion key={id} className="accordion">
-            <AccordionSummary expandIcon={<ExpandCircleDownIcon />}>
-              <Typography className="accordion-text">{question}</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography className="accordion-text">{reponse}</Typography>
-            </AccordionDetails>
-          </Accordion>
-        ))}
+        {isEdit ? (
+          <GenInput name="faq.title1" className="faq-title" placeholder="FAQ" />
+        ) : (
+          <Typography variant="h2" className="faq-title">
+            {getValues('faq.title1') || 'FAQ'}
+          </Typography>
+        )}
+
+        {faqFallback.map((fallback, index) => {
+          const data = getValues(`faq.q${index + 1}`) || {};
+          const question = data.question || fallback.question;
+          const answer = data.answer || fallback.answer;
+
+          return (
+            <Accordion key={index} className="accordion">
+              <AccordionSummary expandIcon={<ExpandCircleDownIcon />}>
+                {isEdit ? (
+                  <GenInput name={`faq.q${index + 1}.question`} placeholder="Question ..." fullWidth />
+                ) : (
+                  <Typography className="accordion-text">{question}</Typography>
+                )}
+              </AccordionSummary>
+              <AccordionDetails>
+                {isEdit ? (
+                  <GenInput name={`faq.q${index + 1}.answer`} placeholder="Réponse ..." multiline fullWidth />
+                ) : (
+                  <Typography className="accordion-text">{answer}</Typography>
+                )}
+              </AccordionDetails>
+            </Accordion>
+          );
+        })}
       </Box>
+
       <Box id="change-container">
-        <Typography className="change-text" variant="h4">
-          Vous êtes un particulier , vous souhaitez trouver un couvreur ?
-        </Typography>
-        <LinkButton to={bookYourDemoUrl}>Echangeons ensemble</LinkButton>
+        {isEdit ? (
+          <GenInput
+            name="faq.title2"
+            multiline
+            fullWidth
+            className="input-change-text"
+            placeholder="Vous êtes un particulier ? Vous souhaitez trouver un couvreur ?"
+          />
+        ) : (
+          <Typography className="change-text" variant="h4">
+            {getValues('faq.title2') || 'Vous êtes un particulier ? Vous souhaitez trouver un couvreur ?'}
+          </Typography>
+        )}
+
+        <LinkButton to={bookYourDemoUrl}>Échangeons ensemble</LinkButton>
       </Box>
     </Box>
   );
