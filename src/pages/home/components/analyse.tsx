@@ -44,19 +44,19 @@ export const Analayse: FC<AnalayseProps> = (props) => {
           return isEditMode ? (
             <Box key={index} sx={{ px: 3, py: 5, bgcolor: analyse.bgcolor }}>
               <GenInput
-                name={`analyse.information.${index}.title`}
+                name={`analyse.information.title.${index}`}
                 placeholder="Titre de l'analyse"
                 sx={{ mb: 1, fontWeight: 'bold', fontSize: '1.1rem', color: analyse.color }}
               />
               <GenInput
-                name={`analyse.information.${index}.description`}
+                name={`analyse.information.description.${index}`}
                 fullWidth
                 placeholder="Texte de l'analyse"
                 sx={{ fontSize: '1rem', color: analyse.color }}
               />
             </Box>
           ) : (
-            <AnalayseItem key={analyse.title} analyse={analyse} />
+            <AnalayseItem key={analyse.title} analyse={analyse} index={index} />
           );
         })}
       </Box>
@@ -128,7 +128,7 @@ export const Analayse: FC<AnalayseProps> = (props) => {
             <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="analyse.image" type="file" />
           ) : (
             <img
-              src={imageUrl}
+              src={imageFile || imageUrl}
               alt="Illustration : Analyse automatisée de toitures par intelligence artificielle"
               style={{ width: '55%', marginTop: '30px', display: 'block', marginBlock: 'auto', borderRadius: '30px' }}
             />
