@@ -40,7 +40,7 @@ export const Analayse: FC<AnalayseProps> = (props) => {
       <Box sx={{ flex: 1 }}>
         {((analayseData?.information || ANALYSES) as typeof ANALYSES).map((analyse, index) => {
           return isEditMode ? (
-            <Box key={index} sx={{ px: 3, py: 5, bgcolor: analyse.bgcolor }}>
+            <Box key={index} sx={{ px: 3, py: 5, bgcolor: ANALYSES[index].bgcolor, color: ANALYSES[index].color }}>
               <GenInput
                 name={`analyse.information.${index}.title`}
                 placeholder="Titre de l'analyse"
