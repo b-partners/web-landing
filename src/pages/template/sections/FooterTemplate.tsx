@@ -62,8 +62,8 @@ export const FooterTemplate = () => {
                   </Typography>
                 ) : (
                   <>
-                    <GenInput name={`footer.link.name.${index}`} className="footer-link" placeholder="Nom du liens" />
-                    <GenInput name={`footer.link.route.${index}`} className="footer-link" placeholder="URL du lien" />
+                    <GenInput name={`footer.link.${index}.name`} className="footer-link" placeholder="Nom du liens" />
+                    <GenInput name={`footer.link.${index}.route`} className="footer-link" placeholder="URL du lien" />
                   </>
                 )}
               </Stack>
