@@ -20,21 +20,21 @@ export default {
       star: 5,
       name: 'Joël D.',
       content:
-        '"Birdia, c’est mon assistant digital. Je l’utilise au quotidien pour détecter les toits à rénover, et les clients adorent recevoir un rapport visuel clair. Même mes devis sont mieux acceptés grâce à ça."',
+        'Birdia, c’est mon assistant digital. Je l’utilise au quotidien pour détecter les toits à rénover, et les clients adorent recevoir un rapport visuel clair. Même mes devis sont mieux acceptés grâce à ça.',
       job: 'Couvreur expérimenté (Hauts-de-France)',
     },
     {
       name: 'Laurent M.',
       star: 5,
       content:
-        '"Birdia est un véritable game changer. L’outil est à la fois intuitif, puissant et ludique. En quelques clics, nous pouvons visualiser, détecter et évaluer des centaines de toitures. Cela change notre manière de penser la prévention et le service client."',
+        'Birdia est un véritable game changer. L’outil est à la fois intuitif, puissant et ludique. En quelques clics, nous pouvons visualiser, détecter et évaluer des centaines de toitures. Cela change notre manière de penser la prévention et le service client.',
       job: 'Responsable Innovation – Assureur Habitation',
     },
     {
       star: 5,
       name: 'Émilie C.',
       content:
-        '"Grâce à Birdia, nos équipes disposent d’une vision détaillée de chaque bien assuré. La précision de l’analyse des matériaux, de l’usure et des risques nous permet d’adapter finement les contrats. C’est un vrai plus pour la maîtrise technique et commerciale."',
+        'Grâce à Birdia, nos équipes disposent d’une vision détaillée de chaque bien assuré. La précision de l’analyse des matériaux, de l’usure et des risques nous permet d’adapter finement les contrats. C’est un vrai plus pour la maîtrise technique et commerciale.',
       job: 'Responsable Souscription Habitation – Groupe IARD',
     },
   ],
