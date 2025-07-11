@@ -62,7 +62,7 @@ export const Analayse: FC<AnalayseProps> = (props) => {
       <FlexBox sx={{ flexDirection: 'column', px: 6, flex: 1, bgcolor: 'white', p: 5, minWidth: '700px' }}>
         {isEditMode ? (
           <GenInput
-            name="analayse.title"
+            name="analyse.title"
             multiline
             placeholder="Analyse automatisée de toitures par intelligence artificielle"
             sx={{
