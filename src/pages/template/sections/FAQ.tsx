@@ -43,7 +43,7 @@ export const FAQ = () => {
             <Accordion key={index} className="accordion" expanded={isEdit ? true : undefined}>
               <AccordionSummary expandIcon={<ExpandCircleDownIcon />}>
                 {isEdit ? (
-                  <GenInput name={`faq.q${index + 1}.question`} placeholder="Question ..." fullWidth />
+                  <GenInput name={`faq.q${index + 1}.question`} placeholder="Question ..." fullWidth multiline />
                 ) : (
                   <Typography className="accordion-text">{question}</Typography>
                 )}
