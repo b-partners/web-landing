@@ -114,9 +114,9 @@ export const Testimonials: FC<TestimonialsProps> = (props) => {
             location.pathname === '/templateGenerator' ? (
               <Box key={index} sx={{ px: 3 }}>
                 <GenRating name={`testimonials.${index}.star`} />
-                <GenInput name={`testimonials.${index}.content`} fullWidth placeholder="Témoignage" sx={{ mb: 2 }} />
+                <GenInput name={`testimonials.${index}.content`} fullWidth multiline placeholder="Témoignage" sx={{ mb: 2 }} />
                 <GenInput name={`testimonials.${index}.name`} placeholder="Nom du client" sx={{ mb: 2, fontWeight: 'bold', display: 'block', width: '20%' }} />
-                <GenInput name={`testimonials.${index}.job`} placeholder="Profession" sx={{ mb: 5 }} />
+                <GenInput name={`testimonials.${index}.job`} fullWidth placeholder="Profession" sx={{ mb: 5 }} />
               </Box>
             ) : (
               <TestimonialItem key={testimonial.name} testimonial={testimonial} />
