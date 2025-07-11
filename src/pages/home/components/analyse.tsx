@@ -44,6 +44,7 @@ export const Analayse: FC<AnalayseProps> = (props) => {
               <GenInput
                 name={`analyse.information.${index}.title`}
                 placeholder="Titre de l'analyse"
+                fullWidth
                 sx={{ mb: 1, fontWeight: 'bold', fontSize: '1.1rem', color: ANALYSES[index].color }}
               />
               <GenInput
