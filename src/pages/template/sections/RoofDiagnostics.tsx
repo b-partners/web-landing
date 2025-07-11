@@ -31,7 +31,7 @@ export const RoofDiagnostics = () => {
             durée de vie de votre toiture.\u00A0Nos experts interviennent rapidement, avec un rapport détaillé et des recommandations claires.`}
             </Typography>
           ) : (
-            <GenInput name="roofDiagnostics.description1" className="diagnostics-description" placeholder="Description 1" />
+            <GenInput name="roofDiagnostics.description1" fullWidth multiline className="diagnostics-description" placeholder="Description 1" />
           )}
           {location.pathname !== '/templateGenerator' ? (
             <Typography variant="h6" className="diagnostics-description">
@@ -40,7 +40,7 @@ export const RoofDiagnostics = () => {
             d’esprit.\u00A0Grâce à notre expertise et à des outils de pointe, nous détectons les moindres anomalies, visibles ou invisibles à l’œil nu.`}
             </Typography>
           ) : (
-            <GenInput name="roofDiagnostics.description2" className="diagnostics-description" placeholder="Description 1" />
+            <GenInput name="roofDiagnostics.description2" fullWidth multiline className="diagnostics-description" placeholder="Description 1" />
           )}
         </Box>
         <Box className="content-img">
