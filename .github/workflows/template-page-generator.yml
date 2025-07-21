@@ -1,0 +1,54 @@
+name: Add Page from Generated Base64
+
+on:
+  workflow_dispatch:
+    inputs:
+      jsonString:
+        description: 'Le contenu du fichier généré'
+        required: true
+        type: string
+      pageName:
+        description: 'Le nom de la page qui (ex: paris)'
+        required: true
+        type: string
+
+jobs:
+  add-page:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout with token
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.4.x
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Set up Git
+        run: |
+          git config user.name "AmourRamanantsiresy"
+          git config user.email "hei.amour.2@gmail.com"
+
+      - name: Create typescript code file
+        run: |
+          echo "${{ github.event.inputs.jsonString }}" | base64 -d > ./src/pages/template/json-data/${{ github.event.inputs.pageName }}.ts
+          sed -i '1s/^/export default /' ./src/pages/template/json-data/${{ github.event.inputs.pageName }}.ts
+
+      - name: Insert import line into src/app.tsx
+        run: |
+          ./add-template-page.sh "${{ github.event.inputs.pageName }}"
+          npm run format
+
+      - name: Create new branch, commit, and push
+        run: |
+          BRANCH_NAME="add-page-${{ github.event.inputs.pageName }}"
+          git checkout -b "$BRANCH_NAME"
+          git add .
+          git commit -m "Add page /${{ github.event.inputs.pageName }} with JSON content"
+          git push origin "$BRANCH_NAME"

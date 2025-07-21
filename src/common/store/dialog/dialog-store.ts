@@ -8,7 +8,7 @@ export const useDialog = create<TDialogStore>()((set) => ({
   close() {
     set({ isOpen: false, content: null });
   },
-  open(content) {
-    set({ isOpen: true, content });
+  open(content, dialogProps) {
+    set({ isOpen: true, content, dialogProps });
   },
 }));

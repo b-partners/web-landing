@@ -1,14 +1,13 @@
 import { FC } from 'react';
 import Carousel, { ResponsiveType } from 'react-multi-carousel';
+import { useLocation } from 'react-router-dom';
 
 import { PALETTE_COLORS } from '@/config/theme';
 import { Box, Typography } from '@mui/material';
+import { GenInput } from '@pages/template/components/GenInput';
+import { useTemplateFormContext } from '@pages/template/utils/use-template-form-context';
 
 const PARTNERS = [
-  {
-    img: '/assets/images/references/1_maif.webp',
-    alt: 'MAIF',
-  },
   {
     img: '/assets/images/references/2_region_ile_de_france.webp',
     alt: 'Région ile de France',
@@ -75,65 +74,78 @@ const PARTNERS = [
   },
 ];
 
-const PartnersItem: FC<{ img: string; alt: string }> = ({ img, alt }) => {
-  return (
-    <Box sx={{ width: '300px' }}>
-      <img src={img} alt={alt} style={{ width: '300px' }} />
-    </Box>
-  );
-};
-
 const RESPONSIVE: ResponsiveType = {
-  superLargeDesktop: {
-    breakpoint: { max: 10000, min: 2201 },
-    items: 6,
-  },
-  mediumDesktop: {
-    breakpoint: { max: 2200, min: 1201 },
-    items: 4,
-  },
-  desktop: {
-    breakpoint: { max: 1200, min: 1000 },
-    items: 3,
-  },
-  tablet: {
-    breakpoint: { max: 1000, min: 601 },
-    items: 2,
-  },
-  mobile: {
-    breakpoint: { max: 600, min: 451 },
-    items: 1,
-  },
-  smallMobile: {
-    breakpoint: { max: 450, min: 0 },
-    items: 1,
-  },
+  superLargeDesktop: { breakpoint: { max: 10000, min: 2201 }, items: 6 },
+  mediumDesktop: { breakpoint: { max: 2200, min: 1201 }, items: 4 },
+  desktop: { breakpoint: { max: 1200, min: 1000 }, items: 3 },
+  tablet: { breakpoint: { max: 1000, min: 601 }, items: 2 },
+  mobile: { breakpoint: { max: 600, min: 451 }, items: 1 },
+  smallMobile: { breakpoint: { max: 450, min: 0 }, items: 1 },
 };
 
-export const Partners = () => {
+type Partner = { img: string; alt: string };
+type PartnersProps = { partnersFromJson?: Partner[] };
+
+export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
+  const location = useLocation();
+  const isEditMode = location.pathname === '/templateGenerator';
+  const partners = partnersFromJson || PARTNERS;
+
+  const { getValues } = useTemplateFormContext();
+
   return (
     <Box sx={{ p: 5 }}>
-      <Typography
-        variant="h2"
-        sx={{ fontSize: { xs: '1.2rem', md: '1.5rem' }, mb: 10, textAlign: 'center', fontWeight: 'bold', color: PALETTE_COLORS.neon_orange }}
-      >
-        Ils nous font confiance
-      </Typography>
-      <Carousel
-        infinite
-        autoPlay
-        keyBoardControl
-        arrows={false}
-        draggable={false}
-        swipeable={false}
-        pauseOnHover={false}
-        responsive={RESPONSIVE}
-        autoPlaySpeed={8_000}
-        transitionDuration={500}
-      >
-        {PARTNERS.map((partner) => (
-          <PartnersItem key={partner.alt} {...partner} />
-        ))}
+      {isEditMode ? (
+        <GenInput
+          name="theyTrustUs.title"
+          sx={{
+            fontSize: { xs: '1.2rem', md: '1.5rem' },
+            mb: 10,
+            mx: 'auto',
+            fontWeight: 'bold',
+            color: PALETTE_COLORS.neon_orange,
+            width: { xs: '90%', md: '400px' },
+            display: 'block',
+          }}
+          placeholder="Ils nous font confiance"
+        />
+      ) : (
+        <Typography
+          variant="h2"
+          sx={{
+            fontSize: { xs: '1.2rem', md: '1.5rem' },
+            mb: 10,
+            textAlign: 'center',
+            fontWeight: 'bold',
+            color: PALETTE_COLORS.neon_orange,
+          }}
+        >
+          {getValues('theyTrustUs.title') || 'Ils nous font confiance'}
+        </Typography>
+      )}
+
+      <Carousel infinite autoPlay={!isEditMode} arrows={isEditMode} draggable={!isEditMode} swipeable={!isEditMode} responsive={RESPONSIVE}>
+        {partners.map((partner, index) => {
+          const uploadedImage = getValues(`theyTrustUs.image.${index}`);
+          const imageUrl = uploadedImage instanceof File ? URL.createObjectURL(uploadedImage) : uploadedImage || partner.img;
+
+          return (
+            <Box key={index} sx={{ width: '300px', textAlign: 'center' }}>
+              {isEditMode ? (
+                <GenInput
+                  fullWidth
+                  inputComponent="input"
+                  inputProps={{ accept: 'image/*' } as any}
+                  name={`theyTrustUs.image.${index}`}
+                  type="file"
+                  sx={{ mb: 2 }}
+                />
+              ) : (
+                <img src={imageUrl} alt={partner.alt} style={{ maxWidth: '300px', maxHeight: '150px' }} />
+              )}
+            </Box>
+          );
+        })}
       </Carousel>
     </Box>
   );
