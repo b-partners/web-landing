@@ -10,7 +10,7 @@ type CarouselItem = {
 const CAROUSEL_ITEMS: CarouselItem[] = [
   {
     src: '/assets/images/references/2_region_ile_de_france.webp',
-    alt: 'maif',
+    alt: '2_region_ile_de_france',
   },
   {
     src: '/assets/images/references/8_cotentin.webp',

@@ -9,10 +9,6 @@ import { useTemplateFormContext } from '@pages/template/utils/use-template-form-
 
 const PARTNERS = [
   {
-    img: '/assets/images/references/1_maif.webp',
-    alt: 'MAIF',
-  },
-  {
     img: '/assets/images/references/2_region_ile_de_france.webp',
     alt: 'Région ile de France',
   },
