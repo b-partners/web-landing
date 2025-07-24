@@ -18,7 +18,7 @@ const useCheckApiKey = () => {
     const apikey = urlParams.get('apikey');
     const isTemplatePath = pathname.includes('templateGenerator');
     if (isTemplatePath && !apikey) navigate('/template/connexion');
-  }, [pathname, urlParams]);
+  }, [pathname, urlParams, navigate]);
 };
 
 export const TemplateGeneratorFormProvider: FC<TemplateGeneratorFormProvider> = ({ children, jsonData }) => {
