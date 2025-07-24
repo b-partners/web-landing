@@ -1,7 +1,7 @@
 import { ChangeEventHandler, FC, useRef, useState } from 'react';
 import { useFormContext } from 'react-hook-form';
 
-import { Close, Delete, Remove, X } from '@mui/icons-material';
+import { Close } from '@mui/icons-material';
 import { Alert, Box, Button, CircularProgress, DialogActions, DialogContent, DialogTitle, Input, InputProps, Typography } from '@mui/material';
 import { useDialog } from '@store/dialog';
 
