@@ -17,6 +17,10 @@ export const uploadFileDialogStyle: SxProps = {
   '& svg': {
     color: '#fff',
   },
+  '& .MuiAlert-root': {
+    my: 1,
+    '& svg': { color: '#000' },
+  },
 };
 
 export const templateLoginStyle: SxProps = {
