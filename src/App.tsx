@@ -12,7 +12,7 @@ import { Craftsman } from '@pages/Craftsman/Craftsman';
 import { PdfReader } from '@pages/GCU';
 import { Insurance } from '@pages/Insurance';
 import { Home } from '@pages/home';
-import { Template } from '@pages/template';
+import { Template, TemplateLogin } from '@pages/template';
 import { useSnackbar } from '@store/snackbar';
 
 import { Navbar } from './common/components/navbar';
@@ -77,6 +77,7 @@ function App() {
     <>
       <Routes>
         <Route path="/campagne-publicitaire" element={<AdvertisingCampaign />} />
+        <Route path="/template/login" element={<TemplateLogin />} />
         <Route path="/" element={<PublicLayout />}>
           <Route path="/couvreurs" element={<Craftsman />} />
           <Route path="/collectivites" element={<Collectivity />} />

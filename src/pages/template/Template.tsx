@@ -8,6 +8,7 @@ import { HeroPage, TheyTrushUs } from './sections';
 import { FAQ } from './sections/FAQ';
 import { FooterTemplate } from './sections/FooterTemplate';
 import { RoofDiagnostics } from './sections/RoofDiagnostics';
+import { useUpdateMeta } from './utils';
 import { TemplateGeneratorFormProvider } from './utils/template-gen-form';
 
 interface TemplateProps {
@@ -15,6 +16,7 @@ interface TemplateProps {
 }
 
 export const Template: FC<TemplateProps> = ({ jsonData }) => {
+  useUpdateMeta(jsonData.metaTitle, jsonData.metaDescription);
   return (
     <TemplateGeneratorFormProvider jsonData={jsonData}>
       <TemplateComponent />
