@@ -1,7 +1,8 @@
 import { ChangeEventHandler, FC, useRef, useState } from 'react';
 import { useFormContext } from 'react-hook-form';
 
-import { Box, Button, CircularProgress, DialogActions, DialogContent, DialogTitle, Input, InputProps, Typography } from '@mui/material';
+import { Close } from '@mui/icons-material';
+import { Alert, Box, Button, CircularProgress, DialogActions, DialogContent, DialogTitle, Input, InputProps, Typography } from '@mui/material';
 import { useDialog } from '@store/dialog';
 
 import { useUploadImage } from '../utils/image-queries';
@@ -62,7 +63,7 @@ const UploadFileDialog: FC<UploadFileDialogProps> = ({ file, setFileId, onCancel
     close();
   };
 
-  const { isPending, mutate } = useUploadImage(handleSuccess);
+  const { isPending, mutate, error } = useUploadImage(handleSuccess);
 
   const handleClick = () => {
     mutate(file);
@@ -73,6 +74,11 @@ const UploadFileDialog: FC<UploadFileDialogProps> = ({ file, setFileId, onCancel
       <DialogTitle>{file.name}</DialogTitle>
       <DialogContent>
         <Typography>Voulez vous vraiment utiliser cette image et l'enregistrer ?</Typography>
+        {error && (
+          <Alert icon={<Close />} color="error">
+            {error.message}
+          </Alert>
+        )}
         <Box className="image-container">
           <img src={URL.createObjectURL(file)} alt="" />
         </Box>
