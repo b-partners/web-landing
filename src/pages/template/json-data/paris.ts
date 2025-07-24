@@ -1,5 +1,8 @@
 export default {
   route: 'paris',
+  metaTitle: 'BIRDIA Paris, l’IA qui analyse vos toitures sur images HD',
+  metaDescription:
+    "Paris Mesures précises, détection d'anomalies (usures, moisissures...), et gestion de dossiers. Gagnez du temps, optimisez vos interventions !",
   hero: {
     title: 'BIRDIA, le seul outil de diagnostique toiture',
     items: ['Pas de CB requise', 'Essaie gratuit de 14 jours', "Jusqu'à 38 analyses"],
