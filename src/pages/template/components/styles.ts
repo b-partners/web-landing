@@ -18,3 +18,20 @@ export const uploadFileDialogStyle: SxProps = {
     color: '#fff',
   },
 };
+
+export const templateLoginStyle: SxProps = {
+  width: '100%',
+  height: '95vh',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  '& .MuiCard-root': {
+    width: '500px',
+  },
+  '& .message': {
+    mb: 2,
+    p: 1,
+    bgcolor: '#00000020',
+    borderRadius: 1,
+  },
+};
