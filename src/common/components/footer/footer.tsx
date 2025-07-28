@@ -87,18 +87,18 @@ export const Footer = () => {
             <SocialLinkWithLabel />
           </FlexBox>
           <FlexBox sx={{ alignItems: 'start', flexDirection: 'column', gap: 4, flex: 1 }}>
-            <LinkItem to="https://www.birdia.info/post/dpe-toiture" label="DPE Toiture" />
-            <LinkItem to="https://www.birdia.info/post/assurance-habitation-pr%C3%A9ventive" label="Assurance habitation préventive" />
+            <LinkItem to="https://blog.birdia.fr/post/dpe-toiture" label="DPE Toiture" />
+            <LinkItem to="https://blog.birdia.fr/post/assurance-habitation-pr%C3%A9ventive" label="Assurance habitation préventive" />
             <LinkItem
-              to="https://www.bpartners.blog/post/valorisation-des-images-pcrs-des-cas-d-usage-concrets-pour-les-collectivit%C3%A9ssous-titre-exploitez"
+              to="https://blog.birdia.fr/post/valorisation-des-images-pcrs-des-cas-d-usage-concrets-pour-les-collectivit%C3%A9ssous-titre-exploitez"
               label="Valorisation images HD"
             />
             <LinkItem
-              to="https://www.birdia.info/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
+              to="https://blog.birdia.fr/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
               label="Durabilité du bâti"
             />
             <LinkItem
-              to="https://www.birdia.info/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
+              to="https://blog.birdia.fr/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
               label="Couvreur 2.0"
             />
           </FlexBox>
@@ -130,18 +130,18 @@ const MdFooter = () => {
         <SocialLinkWithLabel />
       </FlexBox>
       <FlexBox sx={{ alignItems: 'center', flexDirection: 'column', gap: 4, flex: 1 }}>
-        <LinkItem to="https://www.birdia.info/post/dpe-toiture" label="DPE Toiture" />
-        <LinkItem to="https://www.birdia.info/post/assurance-habitation-pr%C3%A9ventive" label="Assurance habitation préventive" />
+        <LinkItem to="https://blog.birdia.fr/post/dpe-toiture" label="DPE Toiture" />
+        <LinkItem to="https://blog.birdia.fr/post/assurance-habitation-pr%C3%A9ventive" label="Assurance habitation préventive" />
         <LinkItem
           to="https://www.bpartners.blog/post/valorisation-des-images-pcrs-des-cas-d-usage-concrets-pour-les-collectivit%C3%A9ssous-titre-exploitez"
           label="Valorisation images HD"
         />
         <LinkItem
-          to="https://www.birdia.info/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
+          to="https://blog.birdia.fr/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
           label="Durabilité du bâti"
         />
         <LinkItem
-          to="https://www.birdia.info/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
+          to="https://blog.birdia.fr/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
           label="Couvreur 2.0"
         />
       </FlexBox>
