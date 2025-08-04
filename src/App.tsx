@@ -19,6 +19,7 @@ import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
 import paris from './pages/template/json-data/paris';
+import testNouveau from './pages/template/json-data/test-nouveau';
 
 const PublicLayout = () => {
   const { pathname } = useLocation();
@@ -95,6 +96,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/test-nouveau" element={<Template jsonData={testNouveau} />} />
           {/* Do not remote this two comments, they are use full for template page generation */}
         </Route>
       </Routes>
