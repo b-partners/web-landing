@@ -51,4 +51,4 @@ jobs:
           git checkout -b "$BRANCH_NAME"
           git add .
           git commit -m "Add page /${{ github.event.inputs.pageName }} with JSON content"
-          git push origin "$BRANCH_NAME"
+          git push -f origin "$BRANCH_NAME"
