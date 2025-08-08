@@ -18,6 +18,7 @@ import { useSnackbar } from '@store/snackbar';
 import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
+import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
 import landingPage from './pages/template/json-data/landing-page';
 import diagnosticToiture from './pages/template/json-data/diagnostic-toiture';
 import paris from './pages/template/json-data/paris';
@@ -97,6 +98,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnistic-toiture-essonne" element={<Template jsonData={diagnisticToitureEssonne} />} />
           <Route path="/landing-page" element={<Template jsonData={landingPage} />} />
           <Route path="/diagnostic-toiture" element={<Template jsonData={diagnosticToiture} />} />
           {/* Do not remote this two comments, they are use full for template page generation */}
