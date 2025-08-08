@@ -18,6 +18,7 @@ import { useSnackbar } from '@store/snackbar';
 import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
+import expertiseToiture from './pages/template/json-data/expertise-toiture';
 import paris from './pages/template/json-data/paris';
 
 const PublicLayout = () => {
@@ -95,6 +96,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/expertise-toiture" element={<Template jsonData={expertiseToiture} />} />
           {/* Do not remote this two comments, they are use full for template page generation */}
         </Route>
       </Routes>
