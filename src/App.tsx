@@ -18,6 +18,7 @@ import { useSnackbar } from '@store/snackbar';
 import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
+import essonne from './pages/template/json-data/essonne';
 import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
 import landingPage from './pages/template/json-data/landing-page';
 import diagnosticToiture from './pages/template/json-data/diagnostic-toiture';
@@ -98,6 +99,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/essonne" element={<Template jsonData={essonne} />} />
           <Route path="/diagnistic-toiture-essonne" element={<Template jsonData={diagnisticToitureEssonne} />} />
           <Route path="/landing-page" element={<Template jsonData={landingPage} />} />
           <Route path="/diagnostic-toiture" element={<Template jsonData={diagnosticToiture} />} />
