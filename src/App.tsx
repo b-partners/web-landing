@@ -24,6 +24,26 @@ import essonne from './pages/template/json-data/essonne';
 import landingPage from './pages/template/json-data/landing-page';
 import paris from './pages/template/json-data/paris';
 import refectionToitures from './pages/template/json-data/refection-toitures';
+import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
+import diagnosticToit from './pages/template/json-data/diagnostic-toit';
+import compositionToiture from './pages/template/json-data/composition-toiture';
+import expertEnToiture from './pages/template/json-data/expert-en-toiture';
+import expertiseToiture from './pages/template/json-data/expertise-toiture';
+import expertToiture from './pages/template/json-data/expert-toiture';
+import evry from './pages/template/json-data/evry';
+import essonne from './pages/template/json-data/essonne';
+import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
+import diagnosticToiture from './pages/template/json-data/diagnostic-toiture';
+import essonne from './pages/template/json-data/essonne';
+import evry from './pages/template/json-data/evry';
+import landingPage from './pages/template/json-data/landing-page';
+import paris from './pages/template/json-data/paris';
+import refectionToitureDefinition from './pages/template/json-data/refection-toiture-definition';
+import travauxDeCouverture from './pages/template/json-data/travaux-de-couverture';
+import travauxSurToiture from './pages/template/json-data/travaux-sur-toiture';
+import toitureTravaux from './pages/template/json-data/toiture-travaux';
+import toitureSchMa from './pages/template/json-data/toiture-schéma';
+import toitureCout from './pages/template/json-data/toiture-cout';
 
 const PublicLayout = () => {
   const { pathname } = useLocation();
@@ -101,6 +121,18 @@ function App() {
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
           <Route path="/refection-toitures" element={<Template jsonData={refectionToitures} />} />
+          <Route path="/refection-toiture-definition" element={<Template jsonData={refectionToitureDefinition} />} />
+          <Route path="/diagnostic-toit" element={<Template jsonData={diagnosticToit} />} />
+          <Route path="/travaux-de-couverture" element={<Template jsonData={travauxDeCouverture} />} />
+          <Route path="/composition-toiture" element={<Template jsonData={compositionToiture} />} />
+          <Route path="/travaux-sur-toiture" element={<Template jsonData={travauxSurToiture} />} />
+          <Route path="/toiture-travaux" element={<Template jsonData={toitureTravaux} />} />
+          <Route path="/toiture-schéma" element={<Template jsonData={toitureSchMa} />} />
+          <Route path="/toiture-cout" element={<Template jsonData={toitureCout} />} />
+          <Route path="/expert-en-toiture" element={<Template jsonData={expertEnToiture} />} />
+          <Route path="/expertise-toiture" element={<Template jsonData={expertiseToiture} />} />
+          <Route path="/expert-toiture" element={<Template jsonData={expertToiture} />} />
+          <Route path="/evry" element={<Template jsonData={evry} />} />
           <Route path="/essonne" element={<Template jsonData={essonne} />} />
           <Route path="/diagnistic-toiture-essonne" element={<Template jsonData={diagnisticToitureEssonne} />} />
           <Route path="/landing-page" element={<Template jsonData={landingPage} />} />
