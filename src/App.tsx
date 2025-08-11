@@ -18,6 +18,7 @@ import { useSnackbar } from '@store/snackbar';
 import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
+import compositionToiture from './pages/template/json-data/composition-toiture';
 import expertEnToiture from './pages/template/json-data/expert-en-toiture';
 import expertiseToiture from './pages/template/json-data/expertise-toiture';
 import expertToiture from './pages/template/json-data/expert-toiture';
@@ -109,6 +110,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/composition-toiture" element={<Template jsonData={compositionToiture} />} />
           <Route path="/travaux-sur-toiture" element={<Template jsonData={travauxSurToiture} />} />
           <Route path="/toiture-travaux" element={<Template jsonData={toitureTravaux} />} />
           <Route path="/toiture-schéma" element={<Template jsonData={toitureSchMa} />} />
