@@ -29,6 +29,7 @@ import essonne from './pages/template/json-data/essonne';
 import evry from './pages/template/json-data/evry';
 import landingPage from './pages/template/json-data/landing-page';
 import paris from './pages/template/json-data/paris';
+import toitureSchMa from './pages/template/json-data/toiture-schéma';
 import toitureCout from './pages/template/json-data/toiture-cout';
 
 const PublicLayout = () => {
@@ -106,6 +107,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/toiture-schéma" element={<Template jsonData={toitureSchMa} />} />
           <Route path="/toiture-cout" element={<Template jsonData={toitureCout} />} />
           <Route path="/expert-en-toiture" element={<Template jsonData={expertEnToiture} />} />
           <Route path="/expertise-toiture" element={<Template jsonData={expertiseToiture} />} />
