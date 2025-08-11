@@ -32,6 +32,7 @@ import essonne from './pages/template/json-data/essonne';
 import evry from './pages/template/json-data/evry';
 import landingPage from './pages/template/json-data/landing-page';
 import paris from './pages/template/json-data/paris';
+import refectionToitureDefinition from './pages/template/json-data/refection-toiture-definition';
 import travauxDeCouverture from './pages/template/json-data/travaux-de-couverture';
 import travauxSurToiture from './pages/template/json-data/travaux-sur-toiture';
 import toitureTravaux from './pages/template/json-data/toiture-travaux';
@@ -113,6 +114,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/refection-toiture-definition" element={<Template jsonData={refectionToitureDefinition} />} />
           <Route path="/diagnostic-toit" element={<Template jsonData={diagnosticToit} />} />
           <Route path="/travaux-de-couverture" element={<Template jsonData={travauxDeCouverture} />} />
           <Route path="/composition-toiture" element={<Template jsonData={compositionToiture} />} />
