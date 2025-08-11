@@ -24,9 +24,12 @@ import expertToiture from './pages/template/json-data/expert-toiture';
 import evry from './pages/template/json-data/evry';
 import essonne from './pages/template/json-data/essonne';
 import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
-import landingPage from './pages/template/json-data/landing-page';
 import diagnosticToiture from './pages/template/json-data/diagnostic-toiture';
+import essonne from './pages/template/json-data/essonne';
+import evry from './pages/template/json-data/evry';
+import landingPage from './pages/template/json-data/landing-page';
 import paris from './pages/template/json-data/paris';
+import toitureCout from './pages/template/json-data/toiture-cout';
 
 const PublicLayout = () => {
   const { pathname } = useLocation();
@@ -103,6 +106,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/toiture-cout" element={<Template jsonData={toitureCout} />} />
           <Route path="/expert-en-toiture" element={<Template jsonData={expertEnToiture} />} />
           <Route path="/expertise-toiture" element={<Template jsonData={expertiseToiture} />} />
           <Route path="/expert-toiture" element={<Template jsonData={expertToiture} />} />
