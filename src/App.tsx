@@ -33,6 +33,7 @@ import refectionToitureDefinition from './pages/template/json-data/refection-toi
 import refectionToitures from './pages/template/json-data/refection-toitures';
 import schMaToiture from './pages/template/json-data/schéma-toiture';
 import toitureCout from './pages/template/json-data/toiture-cout';
+import toitureGarageAmiante from './pages/template/json-data/toiture-garage-amiante';
 import toitureSchMa from './pages/template/json-data/toiture-schéma';
 import toitureTravaux from './pages/template/json-data/toiture-travaux';
 import travauxDeCouverture from './pages/template/json-data/travaux-de-couverture';
@@ -113,6 +114,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/toiture-garage-amiante" element={<Template jsonData={toitureGarageAmiante} />} />
           <Route path="/schéma-toiture" element={<Template jsonData={schMaToiture} />} />
           <Route path="/refection-toitures" element={<Template jsonData={refectionToitures} />} />
           <Route path="/refection-toiture-definition" element={<Template jsonData={refectionToitureDefinition} />} />
