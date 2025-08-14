@@ -27,6 +27,7 @@ import evry from './pages/template/json-data/evry';
 import expertEnToiture from './pages/template/json-data/expert-en-toiture';
 import expertToiture from './pages/template/json-data/expert-toiture';
 import expertiseToiture from './pages/template/json-data/expertise-toiture';
+import immobilierToiture from './pages/template/json-data/immobilier-toiture';
 import landingPage from './pages/template/json-data/landing-page';
 import paris from './pages/template/json-data/paris';
 import refectionToitureDefinition from './pages/template/json-data/refection-toiture-definition';
@@ -113,6 +114,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/immobilier-toiture" element={<Template jsonData={immobilierToiture} />} />
           <Route path="/schéma-toiture" element={<Template jsonData={schMaToiture} />} />
           <Route path="/refection-toitures" element={<Template jsonData={refectionToitures} />} />
           <Route path="/refection-toiture-definition" element={<Template jsonData={refectionToitureDefinition} />} />
