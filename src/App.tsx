@@ -75,6 +75,7 @@ import toitureSchMa from './pages/template/json-data/toiture-schéma';
 import toitureTravaux from './pages/template/json-data/toiture-travaux';
 import travauxDeCouverture from './pages/template/json-data/travaux-de-couverture';
 import travauxSurToiture from './pages/template/json-data/travaux-sur-toiture';
+import verificationToitureTarif from './pages/template/json-data/verification-toiture-tarif';
 
 const PublicLayout = () => {
   const { pathname } = useLocation();
@@ -151,6 +152,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/verification-toiture-tarif" element={<Template jsonData={verificationToitureTarif} />} />
           <Route path="/couvreur-renovation-toiture" element={<Template jsonData={couvreurRenovationToiture} />} />
           <Route path="/toiture" element={<Template jsonData={toiture} />} />
           <Route path="/diagnostic-charpente-brignais" element={<Template jsonData={diagnosticCharpenteBrignais} />} />
