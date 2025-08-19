@@ -18,6 +18,7 @@ import { useSnackbar } from '@store/snackbar';
 import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
+import charpenteToitureRhone from './pages/template/json-data/charpente-toiture-rhone';
 import apresTravauxRecouvrement from './pages/template/json-data/apres-travaux-recouvrement';
 import cournonsec34660 from './pages/template/json-data/cournonsec-34660';
 import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
