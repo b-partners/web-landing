@@ -57,6 +57,7 @@ import diagnosticToitureDrone from './pages/template/json-data/diagnostic-toitur
 import diagnosticToitureZinc from './pages/template/json-data/diagnostic-toiture-zinc';
 import dianosticAvantVente from './pages/template/json-data/dianostic-avant-vente';
 import essonne from './pages/template/json-data/essonne';
+import etatToitureAvantAchat from './pages/template/json-data/etat-toiture-avant-achat';
 import etancheiteToitureMetallique from './pages/template/json-data/etancheite-toiture-metallique';
 import etatToitureAvantAchat from './pages/template/json-data/etat-toiture-avant-achat';
 import etatToitureAvantVente from './pages/template/json-data/etat-toiture-avant-vente';
