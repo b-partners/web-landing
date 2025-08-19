@@ -51,6 +51,7 @@ import diagnosticToitureDrone from './pages/template/json-data/diagnostic-toitur
 import diagnosticToitureZinc from './pages/template/json-data/diagnostic-toiture-zinc';
 import dianosticAvantVente from './pages/template/json-data/dianostic-avant-vente';
 import essonne from './pages/template/json-data/essonne';
+import etatToitureAvantVente from './pages/template/json-data/etat-toiture-avant-vente';
 import etatToitureAvantAchat from './pages/template/json-data/etat-toiture-avant-achat';
 import etancheiteToitureMetallique from './pages/template/json-data/etancheite-toiture-metallique';
 import evry from './pages/template/json-data/evry';
@@ -155,6 +156,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/etat-toiture-avant-vente" element={<Template jsonData={etatToitureAvantVente} />} />
           <Route path="/gratuit-etat-toiture-immeuble" element={<Template jsonData={gratuitEtatToitureImmeuble} />} />
           <Route path="/etat-toiture-avant-achat" element={<Template jsonData={etatToitureAvantAchat} />} />
           <Route path="/diagnostic-etat-toiture" element={<Template jsonData={diagnosticEtatToiture} />} />
