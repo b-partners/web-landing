@@ -59,6 +59,7 @@ import evry from './pages/template/json-data/evry';
 import expertEnToiture from './pages/template/json-data/expert-en-toiture';
 import expertToiture from './pages/template/json-data/expert-toiture';
 import expertiseToiture from './pages/template/json-data/expertise-toiture';
+import immobilierToiture from './pages/template/json-data/immobilier-toiture';
 import gratuitEtatToitureImmeuble from './pages/template/json-data/gratuit-etat-toiture-immeuble';
 import ileDeFrance from './pages/template/json-data/ile-de-france';
 import landingPage from './pages/template/json-data/landing-page';
@@ -157,6 +158,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/immobilier-toiture" element={<Template jsonData={immobilierToiture} />} />
           <Route path="/diagnostic-gratuit-toiture-immeuble" element={<Template jsonData={diagnosticGratuitToitureImmeuble} />} />
           <Route path="/etat-toiture-avant-vente" element={<Template jsonData={etatToitureAvantVente} />} />
           <Route path="/gratuit-etat-toiture-immeuble" element={<Template jsonData={gratuitEtatToitureImmeuble} />} />
