@@ -32,6 +32,7 @@ import landingPage from './pages/template/json-data/landing-page';
 import paris from './pages/template/json-data/paris';
 import refectionToitureDefinition from './pages/template/json-data/refection-toiture-definition';
 import refectionToitures from './pages/template/json-data/refection-toitures';
+import renovationToiture from './pages/template/json-data/renovation-toiture';
 import schMaToiture from './pages/template/json-data/schéma-toiture';
 import toitureCout from './pages/template/json-data/toiture-cout';
 import toitureSchMa from './pages/template/json-data/toiture-schéma';
@@ -115,6 +116,7 @@ function App() {
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
           <Route path="/diagnostic-charge-toiture-charpente" element={<Template jsonData={diagnosticChargeToitureCharpente} />} />
+          <Route path="/renovation-toiture" element={<Template jsonData={renovationToiture} />} />
           <Route path="/schéma-toiture" element={<Template jsonData={schMaToiture} />} />
           <Route path="/refection-toitures" element={<Template jsonData={refectionToitures} />} />
           <Route path="/refection-toiture-definition" element={<Template jsonData={refectionToitureDefinition} />} />
