@@ -62,6 +62,7 @@ import evry from './pages/template/json-data/evry';
 import expertEnToiture from './pages/template/json-data/expert-en-toiture';
 import expertToiture from './pages/template/json-data/expert-toiture';
 import expertiseToiture from './pages/template/json-data/expertise-toiture';
+import infiltrationEauToiture from './pages/template/json-data/infiltration-eau-toiture';
 import infiltrationEauToitureTerrasse from './pages/template/json-data/infiltration-eau-toiture-terrasse';
 import immobilierToiture from './pages/template/json-data/immobilier-toiture';
 import gratuitEtatToitureImmeuble from './pages/template/json-data/gratuit-etat-toiture-immeuble';
@@ -164,6 +165,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/infiltration-eau-toiture" element={<Template jsonData={infiltrationEauToiture} />} />
           <Route path="/infiltration-eau-toiture-terrasse" element={<Template jsonData={infiltrationEauToitureTerrasse} />} />
           <Route path="/toiture-garage-amiante" element={<Template jsonData={toitureGarageAmiante} />} />
           <Route path="/diagnostic-independant-de-toiture" element={<Template jsonData={diagnosticIndependantDeToiture} />} />
