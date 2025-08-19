@@ -77,6 +77,7 @@ import structureToitureTremblay from './pages/template/json-data/structure-toitu
 import techniqueToit from './pages/template/json-data/technique-toit';
 import toiture from './pages/template/json-data/toiture';
 import toitureCout from './pages/template/json-data/toiture-cout';
+import toitureNonAccessible from './pages/template/json-data/toiture-non-accessible';
 import toitureFibroCiment from './pages/template/json-data/toiture-fibro-ciment';
 import toitureSchMa from './pages/template/json-data/toiture-schéma';
 import toitureTravaux from './pages/template/json-data/toiture-travaux';
@@ -158,6 +159,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/toiture-non-accessible" element={<Template jsonData={toitureNonAccessible} />} />
           <Route path="/immobilier-toiture" element={<Template jsonData={immobilierToiture} />} />
           <Route path="/diagnostic-gratuit-toiture-immeuble" element={<Template jsonData={diagnosticGratuitToitureImmeuble} />} />
           <Route path="/etat-toiture-avant-vente" element={<Template jsonData={etatToitureAvantVente} />} />
