@@ -18,6 +18,11 @@ import { useSnackbar } from '@store/snackbar';
 import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
+import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
+import diagnosticToiture from './pages/template/json-data/diagnostic-toiture';
+import diagnosticToiture100m2 from './pages/template/json-data/diagnostic-toiture-100m2';
+import essonne from './pages/template/json-data/essonne';
+import evry from './pages/template/json-data/evry';
 import coutDiagnosticToiture from './pages/template/json-data/cout-diagnostic-toiture';
 import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
 import diagnosticToiture from './pages/template/json-data/diagnostic-toiture';
@@ -142,6 +147,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-toiture-100m2" element={<Template jsonData={diagnosticToiture100m2} />} />
           <Route path="/cout-diagnostic-toiture" element={<Template jsonData={coutDiagnosticToiture} />} />
           <Route path="/a-distance" element={<Template jsonData={aDistance} />} />
           <Route path="/achat-maison" element={<Template jsonData={achatMaison} />} />
