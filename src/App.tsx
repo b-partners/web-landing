@@ -32,6 +32,11 @@ import couvreurRenovationToiture from './pages/template/json-data/couvreur-renov
 import devisDiagnosticMarseille from './pages/template/json-data/devis-diagnostic-marseille';
 import devisDiagnosticToiture from './pages/template/json-data/devis-diagnostic-toiture';
 import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
+import diagnosticIndependantDeToiture from './pages/template/json-data/diagnostic-independant-de-toiture';
+import diagnosticIndependantToiture from './pages/template/json-data/diagnostic-independant-toiture';
+import diagnosticImmobilierToitures from './pages/template/json-data/diagnostic-immobilier-toitures';
+import diagnosticGratuitToitureImmeuble from './pages/template/json-data/diagnostic-gratuit-toiture-immeuble';
+import diagnosticEtatToiture from './pages/template/json-data/diagnostic-etat-toiture';
 import diagnosticAmianteAvantTravaux from './pages/template/json-data/diagnostic-amiante-avant-travaux';
 import diagnosticAmianteFauxToiture from './pages/template/json-data/diagnostic-amiante-faux-toiture';
 import diagnosticAmianteObligatoire from './pages/template/json-data/diagnostic-amiante-obligatoire';
@@ -51,10 +56,17 @@ import diagnosticToitureDrone from './pages/template/json-data/diagnostic-toitur
 import diagnosticToitureZinc from './pages/template/json-data/diagnostic-toiture-zinc';
 import dianosticAvantVente from './pages/template/json-data/dianostic-avant-vente';
 import essonne from './pages/template/json-data/essonne';
+import etatToitureAvantVente from './pages/template/json-data/etat-toiture-avant-vente';
+import etatToitureAvantAchat from './pages/template/json-data/etat-toiture-avant-achat';
+import etancheiteToitureMetallique from './pages/template/json-data/etancheite-toiture-metallique';
 import evry from './pages/template/json-data/evry';
 import expertEnToiture from './pages/template/json-data/expert-en-toiture';
 import expertToiture from './pages/template/json-data/expert-toiture';
 import expertiseToiture from './pages/template/json-data/expertise-toiture';
+import infiltrationEauToiture from './pages/template/json-data/infiltration-eau-toiture';
+import infiltrationEauToitureTerrasse from './pages/template/json-data/infiltration-eau-toiture-terrasse';
+import immobilierToiture from './pages/template/json-data/immobilier-toiture';
+import gratuitEtatToitureImmeuble from './pages/template/json-data/gratuit-etat-toiture-immeuble';
 import ileDeFrance from './pages/template/json-data/ile-de-france';
 import landingPage from './pages/template/json-data/landing-page';
 import mennecy from './pages/template/json-data/mennecy';
@@ -71,11 +83,15 @@ import structureToitureTremblay from './pages/template/json-data/structure-toitu
 import techniqueToit from './pages/template/json-data/technique-toit';
 import toiture from './pages/template/json-data/toiture';
 import toitureCout from './pages/template/json-data/toiture-cout';
+import toitureGarageAmiante from './pages/template/json-data/toiture-garage-amiante';
+import toitureNonAccessible from './pages/template/json-data/toiture-non-accessible';
 import toitureFibroCiment from './pages/template/json-data/toiture-fibro-ciment';
 import toitureSchMa from './pages/template/json-data/toiture-schéma';
 import toitureTravaux from './pages/template/json-data/toiture-travaux';
 import travauxDeCouverture from './pages/template/json-data/travaux-de-couverture';
 import travauxSurToiture from './pages/template/json-data/travaux-sur-toiture';
+import verificationToiture from './pages/template/json-data/verification-toiture';
+import verificationToiturePrix from './pages/template/json-data/verification-toiture-prix';
 
 const PublicLayout = () => {
   const { pathname } = useLocation();
@@ -153,6 +169,22 @@ function App() {
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
           <Route path="/diagnostic-charpente-prix" element={<Template jsonData={diagnosticCharpentePrix} />} />
+          <Route path="/verification-toiture" element={<Template jsonData={verificationToiture} />} />
+          <Route path="/verification-toiture-prix" element={<Template jsonData={verificationToiturePrix} />} />
+          <Route path="/infiltration-eau-toiture" element={<Template jsonData={infiltrationEauToiture} />} />
+          <Route path="/infiltration-eau-toiture-terrasse" element={<Template jsonData={infiltrationEauToitureTerrasse} />} />
+          <Route path="/toiture-garage-amiante" element={<Template jsonData={toitureGarageAmiante} />} />
+          <Route path="/diagnostic-independant-de-toiture" element={<Template jsonData={diagnosticIndependantDeToiture} />} />
+          <Route path="/diagnostic-independant-toiture" element={<Template jsonData={diagnosticIndependantToiture} />} />
+          <Route path="/diagnostic-immobilier-toitures" element={<Template jsonData={diagnosticImmobilierToitures} />} />
+          <Route path="/toiture-non-accessible" element={<Template jsonData={toitureNonAccessible} />} />
+          <Route path="/immobilier-toiture" element={<Template jsonData={immobilierToiture} />} />
+          <Route path="/diagnostic-gratuit-toiture-immeuble" element={<Template jsonData={diagnosticGratuitToitureImmeuble} />} />
+          <Route path="/etat-toiture-avant-vente" element={<Template jsonData={etatToitureAvantVente} />} />
+          <Route path="/gratuit-etat-toiture-immeuble" element={<Template jsonData={gratuitEtatToitureImmeuble} />} />
+          <Route path="/etat-toiture-avant-achat" element={<Template jsonData={etatToitureAvantAchat} />} />
+          <Route path="/diagnostic-etat-toiture" element={<Template jsonData={diagnosticEtatToiture} />} />
+          <Route path="/etancheite-toiture-metallique" element={<Template jsonData={etancheiteToitureMetallique} />} />
           <Route path="/couvreur-renovation-toiture" element={<Template jsonData={couvreurRenovationToiture} />} />
           <Route path="/toiture" element={<Template jsonData={toiture} />} />
           <Route path="/diagnostic-charpente-brignais" element={<Template jsonData={diagnosticCharpenteBrignais} />} />
