@@ -111,6 +111,7 @@ import schemaToiture from './pages/template/json-data/schema-toiture';
 import renovationToiture from './pages/template/json-data/renovation-toiture';
 import schemaToiture from './pages/template/json-data/schema-toiture';
 import schMaToiture from './pages/template/json-data/schéma-toiture';
+import toiture from './pages/template/json-data/toiture';
 import structureToitureTremblay from './pages/template/json-data/structure-toiture-tremblay';
 import techniqueToit from './pages/template/json-data/technique-toit';
 import toiture from './pages/template/json-data/toiture';
