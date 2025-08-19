@@ -80,6 +80,7 @@ import structureToitureTremblay from './pages/template/json-data/structure-toitu
 import techniqueToit from './pages/template/json-data/technique-toit';
 import toiture from './pages/template/json-data/toiture';
 import toitureCout from './pages/template/json-data/toiture-cout';
+import toitureGarageAmiante from './pages/template/json-data/toiture-garage-amiante';
 import toitureNonAccessible from './pages/template/json-data/toiture-non-accessible';
 import toitureFibroCiment from './pages/template/json-data/toiture-fibro-ciment';
 import toitureSchMa from './pages/template/json-data/toiture-schéma';
@@ -162,6 +163,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/toiture-garage-amiante" element={<Template jsonData={toitureGarageAmiante} />} />
           <Route path="/diagnostic-independant-de-toiture" element={<Template jsonData={diagnosticIndependantDeToiture} />} />
           <Route path="/diagnostic-independant-toiture" element={<Template jsonData={diagnosticIndependantToiture} />} />
           <Route path="/diagnostic-immobilier-toitures" element={<Template jsonData={diagnosticImmobilierToitures} />} />
