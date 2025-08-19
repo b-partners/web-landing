@@ -88,6 +88,7 @@ import structureToitureTremblay from './pages/template/json-data/structure-toitu
 import techniqueToit from './pages/template/json-data/technique-toit';
 import toiture from './pages/template/json-data/toiture';
 import toitureCout from './pages/template/json-data/toiture-cout';
+import toitureNonAccessible from './pages/template/json-data/toiture-non-accessible';
 import toitureFibroCiment from './pages/template/json-data/toiture-fibro-ciment';
 import toitureGarageAmiante from './pages/template/json-data/toiture-garage-amiante';
 import toitureNonAccessible from './pages/template/json-data/toiture-non-accessible';
