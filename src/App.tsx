@@ -63,6 +63,7 @@ import evry from './pages/template/json-data/evry';
 import essonne from './pages/template/json-data/essonne';
 import mennecy from './pages/template/json-data/mennecy';
 import compositionToiture from './pages/template/json-data/composition-toiture';
+import devisDiagnosticToiture from './pages/template/json-data/devis-diagnostic-toiture';
 import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
 import diagnosticAmianteObligatoire from './pages/template/json-data/diagnostic-amiante-obligatoire';
 import diagnosticChargeToitureCharpente from './pages/template/json-data/diagnostic-charge-toiture-charpente';
@@ -162,6 +163,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/devis-diagnostic-toiture" element={<Template jsonData={devisDiagnosticToiture} />} />
           <Route path="/cournonsec-34660" element={<Template jsonData={cournonsec34660} />} />
           <Route path="/dianostic-avant-vente" element={<Template jsonData={dianosticAvantVente} />} />
           <Route path="/cout-median" element={<Template jsonData={coutMedian} />} />
