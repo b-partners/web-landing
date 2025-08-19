@@ -18,6 +18,7 @@ import { useSnackbar } from '@store/snackbar';
 import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
+import auditToitureTechnique from './pages/template/json-data/audit-toiture-technique';
 import ileDeFrance from './pages/template/json-data/ile-de-france';
 import evry from './pages/template/json-data/evry';
 import essonne from './pages/template/json-data/essonne';
@@ -120,6 +121,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/audit-toiture-technique" element={<Template jsonData={auditToitureTechnique} />} />
           <Route path="/ile-de-france" element={<Template jsonData={ileDeFrance} />} />
           <Route path="/mennecy" element={<Template jsonData={mennecy} />} />
           <Route path="/diagnostic-amiante-obligatoire" element={<Template jsonData={diagnosticAmianteObligatoire} />} />
