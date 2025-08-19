@@ -32,11 +32,6 @@ import couvreurRenovationToiture from './pages/template/json-data/couvreur-renov
 import devisDiagnosticMarseille from './pages/template/json-data/devis-diagnostic-marseille';
 import devisDiagnosticToiture from './pages/template/json-data/devis-diagnostic-toiture';
 import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
-import diagnosticIndependantDeToiture from './pages/template/json-data/diagnostic-independant-de-toiture';
-import diagnosticIndependantToiture from './pages/template/json-data/diagnostic-independant-toiture';
-import diagnosticImmobilierToitures from './pages/template/json-data/diagnostic-immobilier-toitures';
-import diagnosticGratuitToitureImmeuble from './pages/template/json-data/diagnostic-gratuit-toiture-immeuble';
-import diagnosticEtatToiture from './pages/template/json-data/diagnostic-etat-toiture';
 import diagnosticAmianteAvantTravaux from './pages/template/json-data/diagnostic-amiante-avant-travaux';
 import diagnosticAmianteFauxToiture from './pages/template/json-data/diagnostic-amiante-faux-toiture';
 import diagnosticAmianteObligatoire from './pages/template/json-data/diagnostic-amiante-obligatoire';
@@ -61,8 +56,6 @@ import diagnosticToitureDrone from './pages/template/json-data/diagnostic-toitur
 import diagnosticToitureZinc from './pages/template/json-data/diagnostic-toiture-zinc';
 import dianosticAvantVente from './pages/template/json-data/dianostic-avant-vente';
 import essonne from './pages/template/json-data/essonne';
-import etatToitureAvantVente from './pages/template/json-data/etat-toiture-avant-vente';
-import etatToitureAvantAchat from './pages/template/json-data/etat-toiture-avant-achat';
 import etancheiteToitureMetallique from './pages/template/json-data/etancheite-toiture-metallique';
 import etatToitureAvantAchat from './pages/template/json-data/etat-toiture-avant-achat';
 import etatToitureAvantVente from './pages/template/json-data/etat-toiture-avant-vente';
@@ -70,9 +63,6 @@ import evry from './pages/template/json-data/evry';
 import expertEnToiture from './pages/template/json-data/expert-en-toiture';
 import expertToiture from './pages/template/json-data/expert-toiture';
 import expertiseToiture from './pages/template/json-data/expertise-toiture';
-import infiltrationEauToiture from './pages/template/json-data/infiltration-eau-toiture';
-import infiltrationEauToitureTerrasse from './pages/template/json-data/infiltration-eau-toiture-terrasse';
-import immobilierToiture from './pages/template/json-data/immobilier-toiture';
 import gratuitEtatToitureImmeuble from './pages/template/json-data/gratuit-etat-toiture-immeuble';
 import ileDeFrance from './pages/template/json-data/ile-de-france';
 import immobilierToiture from './pages/template/json-data/immobilier-toiture';
@@ -93,6 +83,7 @@ import structureToitureTremblay from './pages/template/json-data/structure-toitu
 import techniqueToit from './pages/template/json-data/technique-toit';
 import toiture from './pages/template/json-data/toiture';
 import toitureCout from './pages/template/json-data/toiture-cout';
+import toitureFibroCiment from './pages/template/json-data/toiture-fibro-ciment';
 import toitureGarageAmiante from './pages/template/json-data/toiture-garage-amiante';
 import toitureNonAccessible from './pages/template/json-data/toiture-non-accessible';
 import toitureFibroCiment from './pages/template/json-data/toiture-fibro-ciment';
