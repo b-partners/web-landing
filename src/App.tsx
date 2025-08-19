@@ -76,6 +76,7 @@ import diagnosticAmianteObligatoire from './pages/template/json-data/diagnostic-
 import diagnosticChargeToitureCharpente from './pages/template/json-data/diagnostic-charge-toiture-charpente';
 import diagnosticToit from './pages/template/json-data/diagnostic-toit';
 import diagnosticToiture from './pages/template/json-data/diagnostic-toiture';
+import diagnosticToitureZinc from './pages/template/json-data/diagnostic-toiture-zinc';
 import essonne from './pages/template/json-data/essonne';
 import evry from './pages/template/json-data/evry';
 import expertEnToiture from './pages/template/json-data/expert-en-toiture';
@@ -175,6 +176,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-toiture-zinc" element={<Template jsonData={diagnosticToitureZinc} />} />
           <Route path="/charpente-toiture-rhone" element={<Template jsonData={charpenteToitureRhone} />} />
           <Route path="/structure-toiture-tremblay" element={<Template jsonData={structureToitureTremblay} />} />
           <Route path="/schema-toiture" element={<Template jsonData={schemaToiture} />} />
