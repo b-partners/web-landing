@@ -105,6 +105,7 @@ import prixDiagnosticToiture from './pages/template/json-data/prix-diagnostic-to
 import refectionToiture from './pages/template/json-data/refection-toiture';
 import refectionToitureDefinition from './pages/template/json-data/refection-toiture-definition';
 import refectionToitures from './pages/template/json-data/refection-toitures';
+import schemaToiture from './pages/template/json-data/schema-toiture';
 import renovationToiture from './pages/template/json-data/renovation-toiture';
 import schemaToiture from './pages/template/json-data/schema-toiture';
 import schMaToiture from './pages/template/json-data/schéma-toiture';
