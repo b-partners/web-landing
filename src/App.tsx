@@ -93,6 +93,7 @@ import refectionToitures from './pages/template/json-data/refection-toitures';
 import schemaToiture from './pages/template/json-data/schema-toiture';
 import renovationToiture from './pages/template/json-data/renovation-toiture';
 import schMaToiture from './pages/template/json-data/schéma-toiture';
+import toiture from './pages/template/json-data/toiture';
 import structureToitureTremblay from './pages/template/json-data/structure-toiture-tremblay';
 import techniqueToit from './pages/template/json-data/technique-toit';
 import toitureCout from './pages/template/json-data/toiture-cout';
@@ -177,6 +178,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/toiture" element={<Template jsonData={toiture} />} />
           <Route path="/diagnostic-charpente-brignais" element={<Template jsonData={diagnosticCharpenteBrignais} />} />
           <Route path="/diagnostic-toiture-zinc" element={<Template jsonData={diagnosticToitureZinc} />} />
           <Route path="/charpente-toiture-rhone" element={<Template jsonData={charpenteToitureRhone} />} />
