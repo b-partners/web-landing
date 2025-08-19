@@ -32,6 +32,7 @@ import couvreurRenovationToiture from './pages/template/json-data/couvreur-renov
 import devisDiagnosticMarseille from './pages/template/json-data/devis-diagnostic-marseille';
 import devisDiagnosticToiture from './pages/template/json-data/devis-diagnostic-toiture';
 import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
+import diagnosticGratuitToitureImmeuble from './pages/template/json-data/diagnostic-gratuit-toiture-immeuble';
 import diagnosticEtatToiture from './pages/template/json-data/diagnostic-etat-toiture';
 import diagnosticAmianteAvantTravaux from './pages/template/json-data/diagnostic-amiante-avant-travaux';
 import diagnosticAmianteFauxToiture from './pages/template/json-data/diagnostic-amiante-faux-toiture';
@@ -156,6 +157,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-gratuit-toiture-immeuble" element={<Template jsonData={diagnosticGratuitToitureImmeuble} />} />
           <Route path="/etat-toiture-avant-vente" element={<Template jsonData={etatToitureAvantVente} />} />
           <Route path="/gratuit-etat-toiture-immeuble" element={<Template jsonData={gratuitEtatToitureImmeuble} />} />
           <Route path="/etat-toiture-avant-achat" element={<Template jsonData={etatToitureAvantAchat} />} />
