@@ -18,6 +18,7 @@ import { useSnackbar } from '@store/snackbar';
 import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
+import apresTravauxRecouvrement from './pages/template/json-data/apres-travaux-recouvrement';
 import cournonsec34660 from './pages/template/json-data/cournonsec-34660';
 import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
 import diagnosticToiture from './pages/template/json-data/diagnostic-toiture';
@@ -166,6 +167,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/apres-travaux-recouvrement" element={<Template jsonData={apresTravauxRecouvrement} />} />
           <Route path="/refection-toiture" element={<Template jsonData={refectionToiture} />} />
           <Route path="/technique-toit" element={<Template jsonData={techniqueToit} />} />
           <Route path="/devis-diagnostic-marseille" element={<Template jsonData={devisDiagnosticMarseille} />} />
