@@ -18,6 +18,7 @@ import { useSnackbar } from '@store/snackbar';
 import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
+import diagnosticToitureADistance from './pages/template/json-data/diagnostic-toiture-a-distance';
 import artisanDiagnosticToiture from './pages/template/json-data/artisan-diagnostic-toiture';
 import diagnosticFuiteToiture from './pages/template/json-data/diagnostic-fuite-toiture';
 import diagnosticToitureDrone from './pages/template/json-data/diagnostic-toiture-drone';
@@ -126,6 +127,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-toiture-a-distance" element={<Template jsonData={diagnosticToitureADistance} />} />
           <Route path="/artisan-diagnostic-toiture" element={<Template jsonData={artisanDiagnosticToiture} />} />
           <Route path="/diagnostic-fuite-toiture" element={<Template jsonData={diagnosticFuiteToiture} />} />
           <Route path="/diagnostic-toiture-drone" element={<Template jsonData={diagnosticToitureDrone} />} />
