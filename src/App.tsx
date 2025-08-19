@@ -96,6 +96,7 @@ import infiltrationEauToitureTerrasse from './pages/template/json-data/infiltrat
 import landingPage from './pages/template/json-data/landing-page';
 import mennecy from './pages/template/json-data/mennecy';
 import paris from './pages/template/json-data/paris';
+import refectionToiture from './pages/template/json-data/refection-toiture';
 import prixDiagnosticAmianteToiture from './pages/template/json-data/prix-diagnostic-amiante-toiture';
 import prixDiagnosticToiture from './pages/template/json-data/prix-diagnostic-toiture';
 import refectionToiture from './pages/template/json-data/refection-toiture';
