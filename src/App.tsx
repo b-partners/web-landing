@@ -32,6 +32,7 @@ import couvreurRenovationToiture from './pages/template/json-data/couvreur-renov
 import devisDiagnosticMarseille from './pages/template/json-data/devis-diagnostic-marseille';
 import devisDiagnosticToiture from './pages/template/json-data/devis-diagnostic-toiture';
 import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
+import diagnosticIndependantDeToiture from './pages/template/json-data/diagnostic-independant-de-toiture';
 import diagnosticIndependantToiture from './pages/template/json-data/diagnostic-independant-toiture';
 import diagnosticImmobilierToitures from './pages/template/json-data/diagnostic-immobilier-toitures';
 import diagnosticGratuitToitureImmeuble from './pages/template/json-data/diagnostic-gratuit-toiture-immeuble';
