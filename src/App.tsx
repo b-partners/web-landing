@@ -50,6 +50,7 @@ import diagnosticToitureDrone from './pages/template/json-data/diagnostic-toitur
 import diagnosticToitureZinc from './pages/template/json-data/diagnostic-toiture-zinc';
 import dianosticAvantVente from './pages/template/json-data/dianostic-avant-vente';
 import essonne from './pages/template/json-data/essonne';
+import etancheiteToitureMetallique from './pages/template/json-data/etancheite-toiture-metallique';
 import evry from './pages/template/json-data/evry';
 import expertEnToiture from './pages/template/json-data/expert-en-toiture';
 import expertToiture from './pages/template/json-data/expert-toiture';
@@ -151,6 +152,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/etancheite-toiture-metallique" element={<Template jsonData={etancheiteToitureMetallique} />} />
           <Route path="/couvreur-renovation-toiture" element={<Template jsonData={couvreurRenovationToiture} />} />
           <Route path="/toiture" element={<Template jsonData={toiture} />} />
           <Route path="/diagnostic-charpente-brignais" element={<Template jsonData={diagnosticCharpenteBrignais} />} />
