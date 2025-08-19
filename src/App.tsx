@@ -87,6 +87,7 @@ import prixDiagnosticAmianteToiture from './pages/template/json-data/prix-diagno
 import prixDiagnosticToiture from './pages/template/json-data/prix-diagnostic-toiture';
 import refectionToitureDefinition from './pages/template/json-data/refection-toiture-definition';
 import refectionToitures from './pages/template/json-data/refection-toitures';
+import schemaToiture from './pages/template/json-data/schema-toiture';
 import renovationToiture from './pages/template/json-data/renovation-toiture';
 import schMaToiture from './pages/template/json-data/schéma-toiture';
 import techniqueToit from './pages/template/json-data/technique-toit';
@@ -172,6 +173,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/schema-toiture" element={<Template jsonData={schemaToiture} />} />
           <Route path="/toiture-fibro-ciment" element={<Template jsonData={toitureFibroCiment} />} />
           <Route path="/diagnostic-amiante-toiture-garage" element={<Template jsonData={diagnosticAmianteToitureGarage} />} />
           <Route path="/diagnostic-amiante-toiture" element={<Template jsonData={diagnosticAmianteToiture} />} />
