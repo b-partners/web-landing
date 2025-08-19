@@ -18,6 +18,9 @@ import { useSnackbar } from '@store/snackbar';
 import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
+import ileDeFrance from './pages/template/json-data/ile-de-france';
+import evry from './pages/template/json-data/evry';
+import essonne from './pages/template/json-data/essonne';
 import mennecy from './pages/template/json-data/mennecy';
 import compositionToiture from './pages/template/json-data/composition-toiture';
 import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
@@ -117,6 +120,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/ile-de-france" element={<Template jsonData={ileDeFrance} />} />
           <Route path="/mennecy" element={<Template jsonData={mennecy} />} />
           <Route path="/diagnostic-amiante-obligatoire" element={<Template jsonData={diagnosticAmianteObligatoire} />} />
           <Route path="/diagnostic-charge-toiture-charpente" element={<Template jsonData={diagnosticChargeToitureCharpente} />} />
