@@ -20,6 +20,7 @@ import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
 import compositionToiture from './pages/template/json-data/composition-toiture';
 import diagnisticToitureEssonne from './pages/template/json-data/diagnistic-toiture-essonne';
+import diagnosticChargeToitureCharpente from './pages/template/json-data/diagnostic-charge-toiture-charpente';
 import diagnosticToit from './pages/template/json-data/diagnostic-toit';
 import diagnosticToiture from './pages/template/json-data/diagnostic-toiture';
 import essonne from './pages/template/json-data/essonne';
@@ -114,6 +115,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-charge-toiture-charpente" element={<Template jsonData={diagnosticChargeToitureCharpente} />} />
           <Route path="/renovation-toiture" element={<Template jsonData={renovationToiture} />} />
           <Route path="/schéma-toiture" element={<Template jsonData={schMaToiture} />} />
           <Route path="/refection-toitures" element={<Template jsonData={refectionToitures} />} />
