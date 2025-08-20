@@ -8,7 +8,7 @@ on:
         required: true
         type: string
       pageName:
-        description: 'Le nom de la page qui (ex: paris)'
+        description: "L'URL qui sera utilisée pour afficher la page. Veuillez ne pas mettre d'espaces ou de caractères spéciaux (ex : paris pour https://birdia.fr/paris)"
         required: true
         type: string
 
@@ -38,7 +38,7 @@ jobs:
       - name: Create typescript code file
         run: |
           echo "${{ github.event.inputs.jsonString }}" | base64 -d > ./src/pages/template/json-data/${{ github.event.inputs.pageName }}.ts
-          sed -i '1s/^/export default /' ./src/pages/template/json-data/${{ github.event.inputs.pageName }}.ts
+          sed -i '1s/^/export default /' "./src/pages/template/json-data/${{ github.event.inputs.pageName }}.ts"
 
       - name: Insert import line into src/app.tsx
         run: |
@@ -51,4 +51,4 @@ jobs:
           git checkout -b "$BRANCH_NAME"
           git add .
           git commit -m "Add page /${{ github.event.inputs.pageName }} with JSON content"
-          git push origin "$BRANCH_NAME"
+          git push -f origin "$BRANCH_NAME"
