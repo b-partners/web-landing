@@ -68,6 +68,7 @@ import ileDeFrance from './pages/template/json-data/ile-de-france';
 import immobilierToiture from './pages/template/json-data/immobilier-toiture';
 import infiltrationEauToiture from './pages/template/json-data/infiltration-eau-toiture';
 import infiltrationEauToitureTerrasse from './pages/template/json-data/infiltration-eau-toiture-terrasse';
+import isolationToiture from './pages/template/json-data/isolation-toiture';
 import landingPage from './pages/template/json-data/landing-page';
 import mennecy from './pages/template/json-data/mennecy';
 import paris from './pages/template/json-data/paris';
@@ -168,6 +169,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/isolation-toiture" element={<Template jsonData={isolationToiture} />} />
           <Route path="/diagnostic-charpente-prix" element={<Template jsonData={diagnosticCharpentePrix} />} />
           <Route path="/verification-toiture" element={<Template jsonData={verificationToiture} />} />
           <Route path="/verification-toiture-prix" element={<Template jsonData={verificationToiturePrix} />} />
