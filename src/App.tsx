@@ -51,6 +51,7 @@ import diagnosticToiture from './pages/template/json-data/diagnostic-toiture';
 import diagnosticToiture100m2 from './pages/template/json-data/diagnostic-toiture-100m2';
 import diagnosticToitureADistance from './pages/template/json-data/diagnostic-toiture-a-distance';
 import diagnosticToitureAchatMaison from './pages/template/json-data/diagnostic-toiture-achat-maison';
+import diagnosticToitureAlsace from './pages/template/json-data/diagnostic-toiture-alsace';
 import diagnosticToitureAvantAchat from './pages/template/json-data/diagnostic-toiture-avant-achat';
 import diagnosticToitureDrone from './pages/template/json-data/diagnostic-toiture-drone';
 import diagnosticToitureZinc from './pages/template/json-data/diagnostic-toiture-zinc';
@@ -168,6 +169,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-toiture-alsace" element={<Template jsonData={diagnosticToitureAlsace} />} />
           <Route path="/diagnostic-charpente-prix" element={<Template jsonData={diagnosticCharpentePrix} />} />
           <Route path="/verification-toiture" element={<Template jsonData={verificationToiture} />} />
           <Route path="/verification-toiture-prix" element={<Template jsonData={verificationToiturePrix} />} />
