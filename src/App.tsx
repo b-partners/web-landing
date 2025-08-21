@@ -55,6 +55,7 @@ import diagnosticToiture100m2 from './pages/template/json-data/diagnostic-toitur
 import diagnosticToitureADistance from './pages/template/json-data/diagnostic-toiture-a-distance';
 import diagnosticToitureAchatMaison from './pages/template/json-data/diagnostic-toiture-achat-maison';
 import diagnosticToitureAvantAchat from './pages/template/json-data/diagnostic-toiture-avant-achat';
+import diagnosticToitureCopropriT from './pages/template/json-data/diagnostic-toiture-copropriété';
 import diagnosticToitureDrone from './pages/template/json-data/diagnostic-toiture-drone';
 import diagnosticToitureFalaise from './pages/template/json-data/diagnostic-toiture-falaise';
 import diagnosticToitureFumeeBlanche from './pages/template/json-data/diagnostic-toiture-fumee-blanche';
@@ -181,6 +182,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-toiture-copropriété" element={<Template jsonData={diagnosticToitureCopropriT} />} />
           <Route path="/technique-toiture" element={<Template jsonData={techniqueToiture} />} />
           <Route path="/refection-toiture-def" element={<Template jsonData={refectionToitureDef} />} />
           <Route path="/toiture-labat-sierra" element={<Template jsonData={toitureLabatSierra} />} />
