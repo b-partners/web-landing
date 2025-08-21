@@ -25,6 +25,7 @@ import artisanDiagnosticToiture from './pages/template/json-data/artisan-diagnos
 import auditToitureTechnique from './pages/template/json-data/audit-toiture-technique';
 import charpenteToitureRhone from './pages/template/json-data/charpente-toiture-rhone';
 import compositionToiture from './pages/template/json-data/composition-toiture';
+import contrLeToitureObligatoire from './pages/template/json-data/contrôle-toiture-obligatoire';
 import cournonsec34660 from './pages/template/json-data/cournonsec-34660';
 import coutDiagnosticToiture from './pages/template/json-data/cout-diagnostic-toiture';
 import coutMedian from './pages/template/json-data/cout-median';
@@ -181,6 +182,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/contrôle-toiture-obligatoire" element={<Template jsonData={contrLeToitureObligatoire} />} />
           <Route path="/technique-toiture" element={<Template jsonData={techniqueToiture} />} />
           <Route path="/refection-toiture-def" element={<Template jsonData={refectionToitureDef} />} />
           <Route path="/toiture-labat-sierra" element={<Template jsonData={toitureLabatSierra} />} />
