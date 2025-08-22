@@ -109,6 +109,7 @@ import structureToitureTremblay from './pages/template/json-data/structure-toitu
 import techniqueToit from './pages/template/json-data/technique-toit';
 import techniqueToiture from './pages/template/json-data/technique-toiture';
 import toiture from './pages/template/json-data/toiture';
+import toitureBourges from './pages/template/json-data/toiture-bourges';
 import toitureAmiante from './pages/template/json-data/toiture-amiante';
 import toitureBallanMire from './pages/template/json-data/toiture-ballan-mire';
 import toitureBordeaux from './pages/template/json-data/toiture-bordeaux';
@@ -203,6 +204,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/toiture-bourges" element={<Template jsonData={toitureBourges} />} />
           <Route path="/boulogne-sur-mer" element={<Template jsonData={boulogneSurMer} />} />
           <Route path="/toiture-bordeaux" element={<Template jsonData={toitureBordeaux} />} />
           <Route path="/toiture-ballan-mire" element={<Template jsonData={toitureBallanMire} />} />
