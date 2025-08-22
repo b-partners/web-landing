@@ -74,6 +74,7 @@ import diagnosticToitureNancy from './pages/template/json-data/diagnostic-toitur
 import diagnosticToitureParticuliers from './pages/template/json-data/diagnostic-toiture-particuliers';
 import diagnosticToiturePertuis from './pages/template/json-data/diagnostic-toiture-pertuis';
 import diagnosticToiturePrix from './pages/template/json-data/diagnostic-toiture-prix';
+import diagnosticToitureTours from './pages/template/json-data/diagnostic-toiture-tours';
 import diagnosticToitureZinc from './pages/template/json-data/diagnostic-toiture-zinc';
 import dianosticAvantVente from './pages/template/json-data/dianostic-avant-vente';
 import essonne from './pages/template/json-data/essonne';
@@ -201,6 +202,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-toiture-tours" element={<Template jsonData={diagnosticToitureTours} />} />
           <Route path="/boulogne-sur-mer" element={<Template jsonData={boulogneSurMer} />} />
           <Route path="/toiture-bordeaux" element={<Template jsonData={toitureBordeaux} />} />
           <Route path="/toiture-ballan-mire" element={<Template jsonData={toitureBallanMire} />} />
