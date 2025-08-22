@@ -102,6 +102,7 @@ import performanceToiture from './pages/template/json-data/performance-toiture';
 import prixDiagnosticAmianteToiture from './pages/template/json-data/prix-diagnostic-amiante-toiture';
 import prixDiagnosticToiture from './pages/template/json-data/prix-diagnostic-toiture';
 import prixExpertiseToiture from './pages/template/json-data/prix-expertise-toiture';
+import refectionDesToitures from './pages/template/json-data/refection-des-toitures';
 import refectionToiture from './pages/template/json-data/refection-toiture';
 import refectionToitureDef from './pages/template/json-data/refection-toiture-def';
 import refectionToitureDefinition from './pages/template/json-data/refection-toiture-definition';
@@ -208,6 +209,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/refection-des-toitures" element={<Template jsonData={refectionDesToitures} />} />
           <Route path="/contrôle-toiture-obligatoire" element={<Template jsonData={contrLeToitureObligatoire} />} />
           <Route path="/charpente-lyon" element={<Template jsonData={charpenteLyon} />} />
           <Route path="/toiture-charpente" element={<Template jsonData={toitureCharpente} />} />
