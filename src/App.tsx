@@ -46,6 +46,7 @@ import diagnosticChargeToitureCharpente from './pages/template/json-data/diagnos
 import diagnosticCharpenteBrignais from './pages/template/json-data/diagnostic-charpente-brignais';
 import diagnosticCharpenteP from './pages/template/json-data/diagnostic-charpente-p';
 import diagnosticCharpentePrix from './pages/template/json-data/diagnostic-charpente-prix';
+import diagnosticEtancheiteToitureTerrasse from './pages/template/json-data/diagnostic-etancheite-toiture-terrasse';
 import diagnosticEtatToiture from './pages/template/json-data/diagnostic-etat-toiture';
 import diagnosticExamenVisuel from './pages/template/json-data/diagnostic-examen-visuel';
 import diagnosticFuiteToiture from './pages/template/json-data/diagnostic-fuite-toiture';
@@ -220,6 +221,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-etancheite-toiture-terrasse" element={<Template jsonData={diagnosticEtancheiteToitureTerrasse} />} />
           <Route path="/diagnostic-toitures-s" element={<Template jsonData={diagnosticToituresS} />} />
           <Route path="/diagnostic-toiture-terrasse" element={<Template jsonData={diagnosticToitureTerrasse} />} />
           <Route path="/diagnostic-amiante-toiture-s" element={<Template jsonData={diagnosticAmianteToitureS} />} />
