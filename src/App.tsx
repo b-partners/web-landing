@@ -90,8 +90,10 @@ import immobilierToiture from './pages/template/json-data/immobilier-toiture';
 import infiltrationEauSurToitureTerrasse from './pages/template/json-data/infiltration-eau-sur-toiture-terrasse';
 import infiltrationEauToiture from './pages/template/json-data/infiltration-eau-toiture';
 import infiltrationEauToitureTerrasse from './pages/template/json-data/infiltration-eau-toiture-terrasse';
+import laineDeVerre from './pages/template/json-data/laine-de-verre';
 import isolationToiture from './pages/template/json-data/isolation-toiture';
 import landingPage from './pages/template/json-data/landing-page';
+import loiAlur from './pages/template/json-data/loi-alur';
 import mennecy from './pages/template/json-data/mennecy';
 import paris from './pages/template/json-data/paris';
 import performanceToiture from './pages/template/json-data/performance-toiture';
@@ -205,6 +207,8 @@ function App() {
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
           <Route path="/toiture-charpente" element={<Template jsonData={toitureCharpente} />} />
+          <Route path="/laine-de-verre" element={<Template jsonData={laineDeVerre} />} />
+          <Route path="/loi-alur" element={<Template jsonData={loiAlur} />} />
           <Route path="/toiture-capricorne" element={<Template jsonData={toitureCapricorne} />} />
           <Route path="/toiture-bourges" element={<Template jsonData={toitureBourges} />} />
           <Route path="/boulogne-sur-mer" element={<Template jsonData={boulogneSurMer} />} />
