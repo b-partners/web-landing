@@ -37,6 +37,7 @@ import diagnosticAmianteFauxToiture from './pages/template/json-data/diagnostic-
 import diagnosticAmianteObligatoire from './pages/template/json-data/diagnostic-amiante-obligatoire';
 import diagnosticAmianteToiture from './pages/template/json-data/diagnostic-amiante-toiture';
 import diagnosticAmianteToitureGarage from './pages/template/json-data/diagnostic-amiante-toiture-garage';
+import diagnosticAmianteToitureS from './pages/template/json-data/diagnostic-amiante-toiture-s';
 import diagnosticChargeToitureCharpente from './pages/template/json-data/diagnostic-charge-toiture-charpente';
 import diagnosticCharpenteBrignais from './pages/template/json-data/diagnostic-charpente-brignais';
 import diagnosticCharpenteP from './pages/template/json-data/diagnostic-charpente-p';
@@ -181,6 +182,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-amiante-toiture-s" element={<Template jsonData={diagnosticAmianteToitureS} />} />
           <Route path="/technique-toiture" element={<Template jsonData={techniqueToiture} />} />
           <Route path="/refection-toiture-def" element={<Template jsonData={refectionToitureDef} />} />
           <Route path="/toiture-labat-sierra" element={<Template jsonData={toitureLabatSierra} />} />
