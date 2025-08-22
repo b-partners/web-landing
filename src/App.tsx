@@ -90,6 +90,7 @@ import immobilierToiture from './pages/template/json-data/immobilier-toiture';
 import infiltrationEauSurToitureTerrasse from './pages/template/json-data/infiltration-eau-sur-toiture-terrasse';
 import infiltrationEauToiture from './pages/template/json-data/infiltration-eau-toiture';
 import infiltrationEauToitureTerrasse from './pages/template/json-data/infiltration-eau-toiture-terrasse';
+import laineDeVerre from './pages/template/json-data/laine-de-verre';
 import isolationToiture from './pages/template/json-data/isolation-toiture';
 import landingPage from './pages/template/json-data/landing-page';
 import loiAlur from './pages/template/json-data/loi-alur';
@@ -206,6 +207,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/laine-de-verre" element={<Template jsonData={laineDeVerre} />} />
           <Route path="/loi-alur" element={<Template jsonData={loiAlur} />} />
           <Route path="/toiture-capricorne" element={<Template jsonData={toitureCapricorne} />} />
           <Route path="/toiture-bourges" element={<Template jsonData={toitureBourges} />} />
