@@ -129,6 +129,7 @@ import toitureLabatSierra from './pages/template/json-data/toiture-labat-sierra'
 import toitureNonAccessible from './pages/template/json-data/toiture-non-accessible';
 import toiturePertuis from './pages/template/json-data/toiture-pertuis';
 import toitureSchMa from './pages/template/json-data/toiture-schéma';
+import toitureTermite from './pages/template/json-data/toiture-termite';
 import toitureTravaux from './pages/template/json-data/toiture-travaux';
 import travauxDeCouverture from './pages/template/json-data/travaux-de-couverture';
 import travauxSurToiture from './pages/template/json-data/travaux-sur-toiture';
@@ -211,6 +212,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/toiture-termite" element={<Template jsonData={toitureTermite} />} />
           <Route path="/renovation-couverture" element={<Template jsonData={renovationCouverture} />} />
           <Route path="/diagnostique-toiture-s" element={<Template jsonData={diagnostiqueToitureS} />} />
           <Route path="/refection-des-toitures" element={<Template jsonData={refectionDesToitures} />} />
