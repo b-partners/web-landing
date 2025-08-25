@@ -21,6 +21,7 @@ import { PALETTE_COLORS } from './config/theme';
 import aDistance from './pages/template/json-data/a-distance';
 import achatBienImmobilier from './pages/template/json-data/achat-bien-immobilier';
 import achatMaison from './pages/template/json-data/achat-maison';
+import achatVieilleMaisonDiagnostic from './pages/template/json-data/achat-vieille-maison-diagnostic';
 import apresTravauxRecouvrement from './pages/template/json-data/apres-travaux-recouvrement';
 import artisanDiagnosticToiture from './pages/template/json-data/artisan-diagnostic-toiture';
 import auditToitureTechnique from './pages/template/json-data/audit-toiture-technique';
@@ -221,6 +222,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/achat-vieille-maison-diagnostic" element={<Template jsonData={achatVieilleMaisonDiagnostic} />} />
           <Route path="/diagnostic-etancheite-toiture-terrasse" element={<Template jsonData={diagnosticEtancheiteToitureTerrasse} />} />
           <Route path="/diagnostic-toitures-s" element={<Template jsonData={diagnosticToituresS} />} />
           <Route path="/diagnostic-toiture-terrasse" element={<Template jsonData={diagnosticToitureTerrasse} />} />
