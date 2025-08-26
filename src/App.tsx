@@ -27,6 +27,7 @@ import achatVieilleMaisonDiagnostic from './pages/template/json-data/achat-vieil
 import achatVieilleMaisonDiagnosticToitureEtLaineDeVerreVente from './pages/template/json-data/achat-vieille-maison-diagnostic-toiture-et-laine-de-verre-vente';
 import apresTravauxRecouvrement from './pages/template/json-data/apres-travaux-recouvrement';
 import artisanDiagnosticToiture from './pages/template/json-data/artisan-diagnostic-toiture';
+import auditDiagnosticToitureCouverture from './pages/template/json-data/audit-diagnostic-toiture-couverture';
 import auditToitureTechnique from './pages/template/json-data/audit-toiture-technique';
 import boulogneSurMer from './pages/template/json-data/boulogne-sur-mer';
 import charpenteLyon from './pages/template/json-data/charpente-lyon';
@@ -242,6 +243,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/audit-diagnostic-toiture-couverture" element={<Template jsonData={auditDiagnosticToitureCouverture} />} />
           <Route path="/allo-diagnostic-amiante-toiture" element={<Template jsonData={alloDiagnosticAmianteToiture} />} />
           <Route path="/achat-vieille-maison-diagnostic" element={<Template jsonData={achatVieilleMaisonDiagnostic} />} />
           <Route
