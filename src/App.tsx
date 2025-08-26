@@ -128,6 +128,7 @@ import landingPage from './pages/template/json-data/landing-page';
 import loiAlur from './pages/template/json-data/loi-alur';
 import marchePublicDiagnosticToiture from './pages/template/json-data/marche-public-diagnostic-toiture';
 import mennecy from './pages/template/json-data/mennecy';
+import obligationDiagnosticFenetresPortesToiture from './pages/template/json-data/obligation-diagnostic-fenetres-portes-toiture';
 import methodeDiagnosticInfiltrationTerrasse from './pages/template/json-data/methode-diagnostic-infiltration-terrasse';
 import paris from './pages/template/json-data/paris';
 import performanceToiture from './pages/template/json-data/performance-toiture';
@@ -245,6 +246,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/obligation-diagnostic-fenetres-portes-toiture" element={<Template jsonData={obligationDiagnosticFenetresPortesToiture} />} />
           <Route path="/methode-diagnostic-infiltration-terrasse" element={<Template jsonData={methodeDiagnosticInfiltrationTerrasse} />} />
           <Route path="/marche-public-diagnostic-toiture" element={<Template jsonData={marchePublicDiagnosticToiture} />} />
           <Route path="/indemnite-amiante-toiture" element={<Template jsonData={indemniteAmianteToiture} />} />
