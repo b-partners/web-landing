@@ -115,6 +115,7 @@ import evry from './pages/template/json-data/evry';
 import expertEnToiture from './pages/template/json-data/expert-en-toiture';
 import expertToiture from './pages/template/json-data/expert-toiture';
 import expertiseToiture from './pages/template/json-data/expertise-toiture';
+import faireFaireDiagnosticIsolationToiture from './pages/template/json-data/faire-faire-diagnostic-isolation-toiture';
 import feuilleDiagnosticToiture from './pages/template/json-data/feuille-diagnostic-toiture';
 import faireDiagnosticToiture from './pages/template/json-data/faire-diagnostic-toiture';
 import fuiteReparationGouttiere from './pages/template/json-data/fuite-reparation-gouttiere';
@@ -251,6 +252,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/faire-faire-diagnostic-isolation-toiture" element={<Template jsonData={faireFaireDiagnosticIsolationToiture} />} />
           <Route path="/comment-avoir-un-diagnostic-amiante-sur-toiture" element={<Template jsonData={commentAvoirUnDiagnosticAmianteSurToiture} />} />
           <Route path="/charpentier-toiture-diagnostique-theize" element={<Template jsonData={charpentierToitureDiagnostiqueTheize} />} />
           <Route path="/centre-diagnostic-toiture-gratuit" element={<Template jsonData={centreDiagnosticToitureGratuit} />} />
