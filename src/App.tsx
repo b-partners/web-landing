@@ -94,6 +94,7 @@ import diagnosticToitureZinc from './pages/template/json-data/diagnostic-toiture
 import diagnosticToituresS from './pages/template/json-data/diagnostic-toitures-s';
 import diagnostiqueToitureS from './pages/template/json-data/diagnostique-toiture-s';
 import dianosticAvantVente from './pages/template/json-data/dianostic-avant-vente';
+import erreurDiagnosticToiture from './pages/template/json-data/erreur-diagnostic-toiture';
 import essonne from './pages/template/json-data/essonne';
 import etancheiteToitureMetallique from './pages/template/json-data/etancheite-toiture-metallique';
 import etatToitureAvantAchat from './pages/template/json-data/etat-toiture-avant-achat';
@@ -231,6 +232,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/erreur-diagnostic-toiture" element={<Template jsonData={erreurDiagnosticToiture} />} />
           <Route path="/achat-immobilier-demande-diagnostic-toiture" element={<Template jsonData={achatImmobilierDemandeDiagnosticToiture} />} />
           <Route path="/diagnostic-toiture-vente" element={<Template jsonData={diagnosticToitureVente} />} />
           <Route path="/diagnostic-toiture-rungis" element={<Template jsonData={diagnosticToitureRungis} />} />
