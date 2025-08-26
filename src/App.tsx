@@ -20,13 +20,16 @@ import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
 import aDistance from './pages/template/json-data/a-distance';
 import achatBienImmobilier from './pages/template/json-data/achat-bien-immobilier';
+import achatImmobilierDemandeDiagnosticToiture from './pages/template/json-data/achat-immobilier-demande-diagnostic-toiture';
 import achatMaison from './pages/template/json-data/achat-maison';
 import apresTravauxRecouvrement from './pages/template/json-data/apres-travaux-recouvrement';
 import artisanDiagnosticToiture from './pages/template/json-data/artisan-diagnostic-toiture';
 import auditToitureTechnique from './pages/template/json-data/audit-toiture-technique';
 import boulogneSurMer from './pages/template/json-data/boulogne-sur-mer';
+import charpenteLyon from './pages/template/json-data/charpente-lyon';
 import charpenteToitureRhone from './pages/template/json-data/charpente-toiture-rhone';
 import compositionToiture from './pages/template/json-data/composition-toiture';
+import contrLeToitureObligatoire from './pages/template/json-data/contrôle-toiture-obligatoire';
 import cournonsec34660 from './pages/template/json-data/cournonsec-34660';
 import coutDiagnosticToiture from './pages/template/json-data/cout-diagnostic-toiture';
 import coutMedian from './pages/template/json-data/cout-median';
@@ -39,10 +42,12 @@ import diagnosticAmianteFauxToiture from './pages/template/json-data/diagnostic-
 import diagnosticAmianteObligatoire from './pages/template/json-data/diagnostic-amiante-obligatoire';
 import diagnosticAmianteToiture from './pages/template/json-data/diagnostic-amiante-toiture';
 import diagnosticAmianteToitureGarage from './pages/template/json-data/diagnostic-amiante-toiture-garage';
+import diagnosticAmianteToitureS from './pages/template/json-data/diagnostic-amiante-toiture-s';
 import diagnosticChargeToitureCharpente from './pages/template/json-data/diagnostic-charge-toiture-charpente';
 import diagnosticCharpenteBrignais from './pages/template/json-data/diagnostic-charpente-brignais';
 import diagnosticCharpenteP from './pages/template/json-data/diagnostic-charpente-p';
 import diagnosticCharpentePrix from './pages/template/json-data/diagnostic-charpente-prix';
+import diagnosticEtancheiteToitureTerrasse from './pages/template/json-data/diagnostic-etancheite-toiture-terrasse';
 import diagnosticEtatToiture from './pages/template/json-data/diagnostic-etat-toiture';
 import diagnosticExamenVisuel from './pages/template/json-data/diagnostic-examen-visuel';
 import diagnosticFuiteToiture from './pages/template/json-data/diagnostic-fuite-toiture';
@@ -51,6 +56,7 @@ import diagnosticGratuitToitureImmeuble from './pages/template/json-data/diagnos
 import diagnosticImmobilierToitures from './pages/template/json-data/diagnostic-immobilier-toitures';
 import diagnosticIndependantDeToiture from './pages/template/json-data/diagnostic-independant-de-toiture';
 import diagnosticIndependantToiture from './pages/template/json-data/diagnostic-independant-toiture';
+import diagnosticMaisonToiture from './pages/template/json-data/diagnostic-maison-toiture';
 import diagnosticRhone from './pages/template/json-data/diagnostic-rhone';
 import diagnosticTechniqueToiture from './pages/template/json-data/diagnostic-technique-toiture';
 import diagnosticToit from './pages/template/json-data/diagnostic-toit';
@@ -61,20 +67,32 @@ import diagnosticToitureAchatMaison from './pages/template/json-data/diagnostic-
 import diagnosticToitureAlsace from './pages/template/json-data/diagnostic-toiture-alsace';
 import diagnosticToitureArdoise from './pages/template/json-data/diagnostic-toiture-ardoise';
 import diagnosticToitureAvantAchat from './pages/template/json-data/diagnostic-toiture-avant-achat';
+import diagnosticToitureCopropriT from './pages/template/json-data/diagnostic-toiture-copropriété';
 import diagnosticToitureDrone from './pages/template/json-data/diagnostic-toiture-drone';
+import diagnosticToitureEternit from './pages/template/json-data/diagnostic-toiture-eternit';
 import diagnosticToitureFalaise from './pages/template/json-data/diagnostic-toiture-falaise';
 import diagnosticToitureFumeeBlanche from './pages/template/json-data/diagnostic-toiture-fumee-blanche';
 import diagnosticToitureGratuit from './pages/template/json-data/diagnostic-toiture-gratuit';
 import diagnosticToitureIndependant from './pages/template/json-data/diagnostic-toiture-independant';
 import diagnosticToitureLannion from './pages/template/json-data/diagnostic-toiture-lannion';
+import diagnosticToitureLitige from './pages/template/json-data/diagnostic-toiture-litige';
 import diagnosticToitureLyon from './pages/template/json-data/diagnostic-toiture-lyon';
 import diagnosticToitureMaif from './pages/template/json-data/diagnostic-toiture-maif';
 import diagnosticToitureMarseille from './pages/template/json-data/diagnostic-toiture-marseille';
 import diagnosticToitureNancy from './pages/template/json-data/diagnostic-toiture-nancy';
+import diagnosticToitureObligatoire from './pages/template/json-data/diagnostic-toiture-obligatoire';
+import diagnosticToitureP from './pages/template/json-data/diagnostic-toiture-p';
+import diagnosticToitureParis from './pages/template/json-data/diagnostic-toiture-paris';
 import diagnosticToitureParticuliers from './pages/template/json-data/diagnostic-toiture-particuliers';
 import diagnosticToiturePertuis from './pages/template/json-data/diagnostic-toiture-pertuis';
 import diagnosticToiturePrix from './pages/template/json-data/diagnostic-toiture-prix';
+import diagnosticToitureVente from './pages/template/json-data/diagnostic-toiture-vente';
+import diagnosticToitureRungis from './pages/template/json-data/diagnostic-toiture-rungis';
+import diagnosticToitureTours from './pages/template/json-data/diagnostic-toiture-tours';
+import diagnosticToitureTerrasse from './pages/template/json-data/diagnostic-toiture-terrasse';
 import diagnosticToitureZinc from './pages/template/json-data/diagnostic-toiture-zinc';
+import diagnosticToituresS from './pages/template/json-data/diagnostic-toitures-s';
+import diagnostiqueToitureS from './pages/template/json-data/diagnostique-toiture-s';
 import dianosticAvantVente from './pages/template/json-data/dianostic-avant-vente';
 import erreurDiagnosticToiture from './pages/template/json-data/erreur-diagnostic-toiture';
 import essonne from './pages/template/json-data/essonne';
@@ -85,6 +103,7 @@ import evry from './pages/template/json-data/evry';
 import expertEnToiture from './pages/template/json-data/expert-en-toiture';
 import expertToiture from './pages/template/json-data/expert-toiture';
 import expertiseToiture from './pages/template/json-data/expertise-toiture';
+import fuiteReparationGouttiere from './pages/template/json-data/fuite-reparation-gouttiere';
 import gratuitEtatToitureImmeuble from './pages/template/json-data/gratuit-etat-toiture-immeuble';
 import ileDeFrance from './pages/template/json-data/ile-de-france';
 import immobilierToiture from './pages/template/json-data/immobilier-toiture';
@@ -92,17 +111,21 @@ import infiltrationEauSurToitureTerrasse from './pages/template/json-data/infilt
 import infiltrationEauToiture from './pages/template/json-data/infiltration-eau-toiture';
 import infiltrationEauToitureTerrasse from './pages/template/json-data/infiltration-eau-toiture-terrasse';
 import isolationToiture from './pages/template/json-data/isolation-toiture';
+import laineDeVerre from './pages/template/json-data/laine-de-verre';
 import landingPage from './pages/template/json-data/landing-page';
+import loiAlur from './pages/template/json-data/loi-alur';
 import mennecy from './pages/template/json-data/mennecy';
 import paris from './pages/template/json-data/paris';
 import performanceToiture from './pages/template/json-data/performance-toiture';
 import prixDiagnosticAmianteToiture from './pages/template/json-data/prix-diagnostic-amiante-toiture';
 import prixDiagnosticToiture from './pages/template/json-data/prix-diagnostic-toiture';
 import prixExpertiseToiture from './pages/template/json-data/prix-expertise-toiture';
+import refectionDesToitures from './pages/template/json-data/refection-des-toitures';
 import refectionToiture from './pages/template/json-data/refection-toiture';
 import refectionToitureDef from './pages/template/json-data/refection-toiture-def';
 import refectionToitureDefinition from './pages/template/json-data/refection-toiture-definition';
 import refectionToitures from './pages/template/json-data/refection-toitures';
+import renovationCouverture from './pages/template/json-data/renovation-couverture';
 import renovationToiture from './pages/template/json-data/renovation-toiture';
 import schemaToiture from './pages/template/json-data/schema-toiture';
 import schMaToiture from './pages/template/json-data/schéma-toiture';
@@ -111,8 +134,12 @@ import techniqueToit from './pages/template/json-data/technique-toit';
 import techniqueToiture from './pages/template/json-data/technique-toiture';
 import toiture from './pages/template/json-data/toiture';
 import toitureAmiante from './pages/template/json-data/toiture-amiante';
+import toitureAthisMons from './pages/template/json-data/toiture-athis-mons';
 import toitureBallanMire from './pages/template/json-data/toiture-ballan-mire';
 import toitureBordeaux from './pages/template/json-data/toiture-bordeaux';
+import toitureBourges from './pages/template/json-data/toiture-bourges';
+import toitureCapricorne from './pages/template/json-data/toiture-capricorne';
+import toitureCharpente from './pages/template/json-data/toiture-charpente';
 import toitureCout from './pages/template/json-data/toiture-cout';
 import toitureFibroCiment from './pages/template/json-data/toiture-fibro-ciment';
 import toitureGarageAmiante from './pages/template/json-data/toiture-garage-amiante';
@@ -120,6 +147,7 @@ import toitureLabatSierra from './pages/template/json-data/toiture-labat-sierra'
 import toitureNonAccessible from './pages/template/json-data/toiture-non-accessible';
 import toiturePertuis from './pages/template/json-data/toiture-pertuis';
 import toitureSchMa from './pages/template/json-data/toiture-schéma';
+import toitureTermite from './pages/template/json-data/toiture-termite';
 import toitureTravaux from './pages/template/json-data/toiture-travaux';
 import travauxDeCouverture from './pages/template/json-data/travaux-de-couverture';
 import travauxSurToiture from './pages/template/json-data/travaux-sur-toiture';
@@ -203,6 +231,34 @@ function App() {
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
           <Route path="/erreur-diagnostic-toiture" element={<Template jsonData={erreurDiagnosticToiture} />} />
+          <Route path="/achat-immobilier-demande-diagnostic-toiture" element={<Template jsonData={achatImmobilierDemandeDiagnosticToiture} />} />
+          <Route path="/diagnostic-toiture-vente" element={<Template jsonData={diagnosticToitureVente} />} />
+          <Route path="/diagnostic-toiture-rungis" element={<Template jsonData={diagnosticToitureRungis} />} />
+          <Route path="/diagnostic-toiture-tours" element={<Template jsonData={diagnosticToitureTours} />} />
+          <Route path="/fuite-reparation-gouttiere" element={<Template jsonData={fuiteReparationGouttiere} />} />
+          <Route path="/diagnostic-toiture-litige" element={<Template jsonData={diagnosticToitureLitige} />} />
+          <Route path="/toiture-athis-mons" element={<Template jsonData={toitureAthisMons} />} />
+          <Route path="/diagnostic-maison-toiture" element={<Template jsonData={diagnosticMaisonToiture} />} />
+          <Route path="/diagnostic-etancheite-toiture-terrasse" element={<Template jsonData={diagnosticEtancheiteToitureTerrasse} />} />
+          <Route path="/diagnostic-toitures-s" element={<Template jsonData={diagnosticToituresS} />} />
+          <Route path="/diagnostic-toiture-terrasse" element={<Template jsonData={diagnosticToitureTerrasse} />} />
+          <Route path="/diagnostic-amiante-toiture-s" element={<Template jsonData={diagnosticAmianteToitureS} />} />
+          <Route path="/diagnostic-toiture-p" element={<Template jsonData={diagnosticToitureP} />} />
+          <Route path="/diagnostic-toiture-obligatoire" element={<Template jsonData={diagnosticToitureObligatoire} />} />
+          <Route path="/diagnostic-toiture-paris" element={<Template jsonData={diagnosticToitureParis} />} />
+          <Route path="/diagnostic-toiture-copropriété" element={<Template jsonData={diagnosticToitureCopropriT} />} />
+          <Route path="/diagnostic-toiture-eternit" element={<Template jsonData={diagnosticToitureEternit} />} />
+          <Route path="/toiture-termite" element={<Template jsonData={toitureTermite} />} />
+          <Route path="/renovation-couverture" element={<Template jsonData={renovationCouverture} />} />
+          <Route path="/diagnostique-toiture-s" element={<Template jsonData={diagnostiqueToitureS} />} />
+          <Route path="/refection-des-toitures" element={<Template jsonData={refectionDesToitures} />} />
+          <Route path="/contrôle-toiture-obligatoire" element={<Template jsonData={contrLeToitureObligatoire} />} />
+          <Route path="/charpente-lyon" element={<Template jsonData={charpenteLyon} />} />
+          <Route path="/toiture-charpente" element={<Template jsonData={toitureCharpente} />} />
+          <Route path="/laine-de-verre" element={<Template jsonData={laineDeVerre} />} />
+          <Route path="/loi-alur" element={<Template jsonData={loiAlur} />} />
+          <Route path="/toiture-capricorne" element={<Template jsonData={toitureCapricorne} />} />
+          <Route path="/toiture-bourges" element={<Template jsonData={toitureBourges} />} />
           <Route path="/boulogne-sur-mer" element={<Template jsonData={boulogneSurMer} />} />
           <Route path="/toiture-bordeaux" element={<Template jsonData={toitureBordeaux} />} />
           <Route path="/toiture-ballan-mire" element={<Template jsonData={toitureBallanMire} />} />
