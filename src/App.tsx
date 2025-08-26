@@ -20,6 +20,7 @@ import { Env } from './common/utils/env';
 import { PALETTE_COLORS } from './config/theme';
 import aDistance from './pages/template/json-data/a-distance';
 import achatBienImmobilier from './pages/template/json-data/achat-bien-immobilier';
+import achatImmobilierDemandeDiagnosticToiture from './pages/template/json-data/achat-immobilier-demande-diagnostic-toiture';
 import achatMaison from './pages/template/json-data/achat-maison';
 import apresTravauxRecouvrement from './pages/template/json-data/apres-travaux-recouvrement';
 import artisanDiagnosticToiture from './pages/template/json-data/artisan-diagnostic-toiture';
@@ -230,6 +231,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/achat-immobilier-demande-diagnostic-toiture" element={<Template jsonData={achatImmobilierDemandeDiagnosticToiture} />} />
           <Route path="/diagnostic-toiture-vente" element={<Template jsonData={diagnosticToitureVente} />} />
           <Route path="/diagnostic-toiture-rungis" element={<Template jsonData={diagnosticToitureRungis} />} />
           <Route path="/diagnostic-toiture-tours" element={<Template jsonData={diagnosticToitureTours} />} />
