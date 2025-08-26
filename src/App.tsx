@@ -127,6 +127,7 @@ import techniqueToit from './pages/template/json-data/technique-toit';
 import techniqueToiture from './pages/template/json-data/technique-toiture';
 import toiture from './pages/template/json-data/toiture';
 import toitureAmiante from './pages/template/json-data/toiture-amiante';
+import toitureAthisMons from './pages/template/json-data/toiture-athis-mons';
 import toitureBallanMire from './pages/template/json-data/toiture-ballan-mire';
 import toitureBordeaux from './pages/template/json-data/toiture-bordeaux';
 import toitureBourges from './pages/template/json-data/toiture-bourges';
@@ -222,6 +223,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/toiture-athis-mons" element={<Template jsonData={toitureAthisMons} />} />
           <Route path="/diagnostic-maison-toiture" element={<Template jsonData={diagnosticMaisonToiture} />} />
           <Route path="/diagnostic-etancheite-toiture-terrasse" element={<Template jsonData={diagnosticEtancheiteToitureTerrasse} />} />
           <Route path="/diagnostic-toitures-s" element={<Template jsonData={diagnosticToituresS} />} />
