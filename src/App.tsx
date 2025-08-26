@@ -22,6 +22,7 @@ import aDistance from './pages/template/json-data/a-distance';
 import achatBienImmobilier from './pages/template/json-data/achat-bien-immobilier';
 import achatImmobilierDemandeDiagnosticToiture from './pages/template/json-data/achat-immobilier-demande-diagnostic-toiture';
 import achatMaison from './pages/template/json-data/achat-maison';
+import achatVieilleMaisonDiagnosticToitureEtLaineDeVerreVente from './pages/template/json-data/achat-vieille-maison-diagnostic-toiture-et-laine-de-verre-vente';
 import apresTravauxRecouvrement from './pages/template/json-data/apres-travaux-recouvrement';
 import artisanDiagnosticToiture from './pages/template/json-data/artisan-diagnostic-toiture';
 import auditToitureTechnique from './pages/template/json-data/audit-toiture-technique';
@@ -239,6 +240,10 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route
+            path="/achat-vieille-maison-diagnostic-toiture-et-laine-de-verre-vente"
+            element={<Template jsonData={achatVieilleMaisonDiagnosticToitureEtLaineDeVerreVente} />}
+          />
           <Route path="/diagnostic-technique-toiture-fuite" element={<Template jsonData={diagnosticTechniqueToitureFuite} />} />
           <Route path="/feuille-diagnostic-toiture" element={<Template jsonData={feuilleDiagnosticToiture} />} />
           <Route path="/faire-diagnostic-toiture" element={<Template jsonData={faireDiagnosticToiture} />} />
