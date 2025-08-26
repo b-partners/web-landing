@@ -97,6 +97,7 @@ import diagnosticToitureParis from './pages/template/json-data/diagnostic-toitur
 import diagnosticToitureParticuliers from './pages/template/json-data/diagnostic-toiture-particuliers';
 import diagnosticToiturePertuis from './pages/template/json-data/diagnostic-toiture-pertuis';
 import diagnosticToiturePrix from './pages/template/json-data/diagnostic-toiture-prix';
+import diagnosticToitureRentreTIlDansDiagnosticNergTique from './pages/template/json-data/diagnostic-toiture-rentre-t-il-dans-diagnostic-énergétique';
 import diagnosticToitureReglementation from './pages/template/json-data/diagnostic-toiture-reglementation';
 import diagnosticToitureVente from './pages/template/json-data/diagnostic-toiture-vente';
 import diagnosticToitureRungis from './pages/template/json-data/diagnostic-toiture-rungis';
@@ -252,6 +253,10 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route
+            path="/diagnostic-toiture-rentre-t-il-dans-diagnostic-énergétique"
+            element={<Template jsonData={diagnosticToitureRentreTIlDansDiagnosticNergTique} />}
+          />
           <Route path="/faire-faire-diagnostic-isolation-toiture" element={<Template jsonData={faireFaireDiagnosticIsolationToiture} />} />
           <Route path="/comment-avoir-un-diagnostic-amiante-sur-toiture" element={<Template jsonData={commentAvoirUnDiagnosticAmianteSurToiture} />} />
           <Route path="/charpentier-toiture-diagnostique-theize" element={<Template jsonData={charpentierToitureDiagnostiqueTheize} />} />
