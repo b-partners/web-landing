@@ -118,6 +118,7 @@ import fuiteReparationGouttiere from './pages/template/json-data/fuite-reparatio
 import gratuitEtatToitureImmeuble from './pages/template/json-data/gratuit-etat-toiture-immeuble';
 import ileDeFrance from './pages/template/json-data/ile-de-france';
 import immobilierToiture from './pages/template/json-data/immobilier-toiture';
+import indemniteAmianteToiture from './pages/template/json-data/indemnite-amiante-toiture';
 import infiltrationEauSurToitureTerrasse from './pages/template/json-data/infiltration-eau-sur-toiture-terrasse';
 import infiltrationEauToiture from './pages/template/json-data/infiltration-eau-toiture';
 import infiltrationEauToitureTerrasse from './pages/template/json-data/infiltration-eau-toiture-terrasse';
@@ -244,6 +245,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/indemnite-amiante-toiture" element={<Template jsonData={indemniteAmianteToiture} />} />
           <Route path="/diagnostic-13-capricornes-toiture" element={<Template jsonData={diagnostic13CapricornesToiture} />} />
           <Route path="/audit-diagnostic-toiture-couverture" element={<Template jsonData={auditDiagnosticToitureCouverture} />} />
           <Route path="/allo-diagnostic-amiante-toiture" element={<Template jsonData={alloDiagnosticAmianteToiture} />} />
