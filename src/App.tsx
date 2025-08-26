@@ -106,6 +106,7 @@ import evry from './pages/template/json-data/evry';
 import expertEnToiture from './pages/template/json-data/expert-en-toiture';
 import expertToiture from './pages/template/json-data/expert-toiture';
 import expertiseToiture from './pages/template/json-data/expertise-toiture';
+import feuilleDiagnosticToiture from './pages/template/json-data/feuille-diagnostic-toiture';
 import faireDiagnosticToiture from './pages/template/json-data/faire-diagnostic-toiture';
 import fuiteReparationGouttiere from './pages/template/json-data/fuite-reparation-gouttiere';
 import gratuitEtatToitureImmeuble from './pages/template/json-data/gratuit-etat-toiture-immeuble';
@@ -237,6 +238,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/feuille-diagnostic-toiture" element={<Template jsonData={feuilleDiagnosticToiture} />} />
           <Route path="/faire-diagnostic-toiture" element={<Template jsonData={faireDiagnosticToiture} />} />
           <Route path="/rapport-diagnostic-toiture-fuites" element={<Template jsonData={rapportDiagnosticToitureFuites} />} />
           <Route path="/diagnostic-technique-toiture-fuite-immo" element={<Template jsonData={diagnosticTechniqueToitureFuiteImmo} />} />
