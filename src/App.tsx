@@ -126,6 +126,7 @@ import isolationToiture from './pages/template/json-data/isolation-toiture';
 import laineDeVerre from './pages/template/json-data/laine-de-verre';
 import landingPage from './pages/template/json-data/landing-page';
 import loiAlur from './pages/template/json-data/loi-alur';
+import marchePublicDiagnosticToiture from './pages/template/json-data/marche-public-diagnostic-toiture';
 import mennecy from './pages/template/json-data/mennecy';
 import paris from './pages/template/json-data/paris';
 import performanceToiture from './pages/template/json-data/performance-toiture';
@@ -243,6 +244,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/marche-public-diagnostic-toiture" element={<Template jsonData={marchePublicDiagnosticToiture} />} />
           <Route path="/indemnite-amiante-toiture" element={<Template jsonData={indemniteAmianteToiture} />} />
           <Route path="/diagnostic-13-capricornes-toiture" element={<Template jsonData={diagnostic13CapricornesToiture} />} />
           <Route path="/audit-diagnostic-toiture-couverture" element={<Template jsonData={auditDiagnosticToitureCouverture} />} />
