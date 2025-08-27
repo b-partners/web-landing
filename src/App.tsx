@@ -33,6 +33,7 @@ import auditToitureTechnique from './pages/template/json-data/audit-toiture-tech
 import boulogneSurMer from './pages/template/json-data/boulogne-sur-mer';
 import centreDiagnosticToitureGratuit from './pages/template/json-data/centre-diagnostic-toiture-gratuit';
 import charpenteLyon from './pages/template/json-data/charpente-lyon';
+import charpenteToitureImmobilier from './pages/template/json-data/charpente-toiture-immobilier';
 import charpenteToitureRhone from './pages/template/json-data/charpente-toiture-rhone';
 import charpentierToitureDiagnostiqueTheize from './pages/template/json-data/charpentier-toiture-diagnostique-theize';
 import commentAvoirUnDiagnosticAmianteSurToiture from './pages/template/json-data/comment-avoir-un-diagnostic-amiante-sur-toiture';
@@ -51,6 +52,8 @@ import diagnosticAmianteAvantTravaux from './pages/template/json-data/diagnostic
 import diagnosticAmianteFauxToiture from './pages/template/json-data/diagnostic-amiante-faux-toiture';
 import diagnosticAmianteObligatoire from './pages/template/json-data/diagnostic-amiante-obligatoire';
 import diagnosticAmianteToiture from './pages/template/json-data/diagnostic-amiante-toiture';
+import diagnosticAmianteToitureCopropriT from './pages/template/json-data/diagnostic-amiante-toiture-copropriété';
+import diagnosticAmianteToitureFibrociment from './pages/template/json-data/diagnostic-amiante-toiture-fibrociment';
 import diagnosticAmianteToitureGarage from './pages/template/json-data/diagnostic-amiante-toiture-garage';
 import diagnosticAmianteToitureS from './pages/template/json-data/diagnostic-amiante-toiture-s';
 import diagnosticChargeToitureCharpente from './pages/template/json-data/diagnostic-charge-toiture-charpente';
@@ -69,6 +72,7 @@ import diagnosticIndependantToiture from './pages/template/json-data/diagnostic-
 import diagnosticMaisonToiture from './pages/template/json-data/diagnostic-maison-toiture';
 import diagnosticRhone from './pages/template/json-data/diagnostic-rhone';
 import diagnosticTechniqueToiture from './pages/template/json-data/diagnostic-technique-toiture';
+import diagnosticTermitesToiturePrix from './pages/template/json-data/diagnostic-termites-toiture-prix';
 import diagnosticTechniqueToitureFuite from './pages/template/json-data/diagnostic-technique-toiture-fuite';
 import diagnosticTechniqueToitureFuiteImmo from './pages/template/json-data/diagnostic-technique-toiture-fuite-immo';
 import diagnosticToit from './pages/template/json-data/diagnostic-toit';
@@ -87,6 +91,7 @@ import diagnosticToitureFumeeBlanche from './pages/template/json-data/diagnostic
 import diagnosticToitureGratuit from './pages/template/json-data/diagnostic-toiture-gratuit';
 import diagnosticToitureIndependant from './pages/template/json-data/diagnostic-toiture-independant';
 import diagnosticToitureLannion from './pages/template/json-data/diagnostic-toiture-lannion';
+import diagnosticToitureLoirEtCher from './pages/template/json-data/diagnostic-toiture-loir-et-cher';
 import diagnosticToitureLitige from './pages/template/json-data/diagnostic-toiture-litige';
 import diagnosticToitureLyon from './pages/template/json-data/diagnostic-toiture-lyon';
 import diagnosticToitureMaif from './pages/template/json-data/diagnostic-toiture-maif';
@@ -141,8 +146,10 @@ import obligationDiagnosticFenetresPortesToiture from './pages/template/json-dat
 import obligationDiagnosticToitureAchatMaison from './pages/template/json-data/obligation-diagnostic-toiture-achat-maison';
 import paris from './pages/template/json-data/paris';
 import performanceToiture from './pages/template/json-data/performance-toiture';
+import periodiciteDiagnosticAmianteToiture from './pages/template/json-data/periodicite-diagnostic-amiante-toiture';
 import prixDiagnosticAmianteToiture from './pages/template/json-data/prix-diagnostic-amiante-toiture';
 import prixDiagnosticToiture from './pages/template/json-data/prix-diagnostic-toiture';
+import prixDiagnosticToitureLoirEtCher from './pages/template/json-data/prix-diagnostic-toiture-loir-et-cher';
 import prixExpertiseToiture from './pages/template/json-data/prix-expertise-toiture';
 import rapportDiagnosticToitureFuites from './pages/template/json-data/rapport-diagnostic-toiture-fuites';
 import refectionDesToitures from './pages/template/json-data/refection-des-toitures';
@@ -256,6 +263,13 @@ function App() {
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
           <Route path="/amiante-avant-travaux-prix" element={<Template jsonData={amianteAvantTravauxPrix} />} />
+          <Route path="/diagnostic-toiture-loir-et-cher" element={<Template jsonData={diagnosticToitureLoirEtCher} />} />
+          <Route path="/prix-diagnostic-toiture-loir-et-cher" element={<Template jsonData={prixDiagnosticToitureLoirEtCher} />} />
+          <Route path="/diagnostic-termites-toiture-prix" element={<Template jsonData={diagnosticTermitesToiturePrix} />} />
+          <Route path="/diagnostic-amiante-toiture-copropriété" element={<Template jsonData={diagnosticAmianteToitureCopropriT} />} />
+          <Route path="/periodicite-diagnostic-amiante-toiture" element={<Template jsonData={periodiciteDiagnosticAmianteToiture} />} />
+          <Route path="/charpente-toiture-immobilier" element={<Template jsonData={charpenteToitureImmobilier} />} />
+          <Route path="/diagnostic-amiante-toiture-fibrociment" element={<Template jsonData={diagnosticAmianteToitureFibrociment} />} />
           <Route path="/diagnostic-toiture-rhone" element={<Template jsonData={diagnosticToitureRhone} />} />
           <Route
             path="/diagnostic-toiture-rentre-t-il-dans-diagnostic-énergétique"
