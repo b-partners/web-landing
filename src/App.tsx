@@ -51,6 +51,7 @@ import diagnosticAmianteAvantTravaux from './pages/template/json-data/diagnostic
 import diagnosticAmianteFauxToiture from './pages/template/json-data/diagnostic-amiante-faux-toiture';
 import diagnosticAmianteObligatoire from './pages/template/json-data/diagnostic-amiante-obligatoire';
 import diagnosticAmianteToiture from './pages/template/json-data/diagnostic-amiante-toiture';
+import diagnosticAmianteToitureCopropriT from './pages/template/json-data/diagnostic-amiante-toiture-copropriété';
 import diagnosticAmianteToitureFibrociment from './pages/template/json-data/diagnostic-amiante-toiture-fibrociment';
 import diagnosticAmianteToitureGarage from './pages/template/json-data/diagnostic-amiante-toiture-garage';
 import diagnosticAmianteToitureS from './pages/template/json-data/diagnostic-amiante-toiture-s';
@@ -257,6 +258,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-amiante-toiture-copropriété" element={<Template jsonData={diagnosticAmianteToitureCopropriT} />} />
           <Route path="/periodicite-diagnostic-amiante-toiture" element={<Template jsonData={periodiciteDiagnosticAmianteToiture} />} />
           <Route path="/charpente-toiture-immobilier" element={<Template jsonData={charpenteToitureImmobilier} />} />
           <Route path="/diagnostic-amiante-toiture-fibrociment" element={<Template jsonData={diagnosticAmianteToitureFibrociment} />} />
