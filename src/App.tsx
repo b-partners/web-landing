@@ -160,6 +160,7 @@ import refectionToitureDefinition from './pages/template/json-data/refection-toi
 import refectionToitures from './pages/template/json-data/refection-toitures';
 import renovationCouverture from './pages/template/json-data/renovation-couverture';
 import renovationToiture from './pages/template/json-data/renovation-toiture';
+import responsabiliteDiagnosticAmianteToiture from './pages/template/json-data/responsabilite-diagnostic-amiante-toiture';
 import schemaToiture from './pages/template/json-data/schema-toiture';
 import schMaToiture from './pages/template/json-data/schéma-toiture';
 import structureToitureTremblay from './pages/template/json-data/structure-toiture-tremblay';
@@ -263,6 +264,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/responsabilite-diagnostic-amiante-toiture" element={<Template jsonData={responsabiliteDiagnosticAmianteToiture} />} />
           <Route path="/prix-diagnostic-loir-et-cher" element={<Template jsonData={prixDiagnosticLoirEtCher} />} />
           <Route path="/amiante-avant-travaux-prix" element={<Template jsonData={amianteAvantTravauxPrix} />} />
           <Route path="/diagnostic-toiture-loir-et-cher" element={<Template jsonData={diagnosticToitureLoirEtCher} />} />
