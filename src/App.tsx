@@ -72,9 +72,9 @@ import diagnosticIndependantToiture from './pages/template/json-data/diagnostic-
 import diagnosticMaisonToiture from './pages/template/json-data/diagnostic-maison-toiture';
 import diagnosticRhone from './pages/template/json-data/diagnostic-rhone';
 import diagnosticTechniqueToiture from './pages/template/json-data/diagnostic-technique-toiture';
-import diagnosticTermitesToiturePrix from './pages/template/json-data/diagnostic-termites-toiture-prix';
 import diagnosticTechniqueToitureFuite from './pages/template/json-data/diagnostic-technique-toiture-fuite';
 import diagnosticTechniqueToitureFuiteImmo from './pages/template/json-data/diagnostic-technique-toiture-fuite-immo';
+import diagnosticTermitesToiturePrix from './pages/template/json-data/diagnostic-termites-toiture-prix';
 import diagnosticToit from './pages/template/json-data/diagnostic-toit';
 import diagnosticToiture from './pages/template/json-data/diagnostic-toiture';
 import diagnosticToiture100m2 from './pages/template/json-data/diagnostic-toiture-100m2';
@@ -91,8 +91,8 @@ import diagnosticToitureFumeeBlanche from './pages/template/json-data/diagnostic
 import diagnosticToitureGratuit from './pages/template/json-data/diagnostic-toiture-gratuit';
 import diagnosticToitureIndependant from './pages/template/json-data/diagnostic-toiture-independant';
 import diagnosticToitureLannion from './pages/template/json-data/diagnostic-toiture-lannion';
-import diagnosticToitureLoirEtCher from './pages/template/json-data/diagnostic-toiture-loir-et-cher';
 import diagnosticToitureLitige from './pages/template/json-data/diagnostic-toiture-litige';
+import diagnosticToitureLoirEtCher from './pages/template/json-data/diagnostic-toiture-loir-et-cher';
 import diagnosticToitureLyon from './pages/template/json-data/diagnostic-toiture-lyon';
 import diagnosticToitureMaif from './pages/template/json-data/diagnostic-toiture-maif';
 import diagnosticToitureMarseille from './pages/template/json-data/diagnostic-toiture-marseille';
