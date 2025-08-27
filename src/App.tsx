@@ -25,6 +25,7 @@ import achatMaison from './pages/template/json-data/achat-maison';
 import achatVieilleMaisonDiagnostic from './pages/template/json-data/achat-vieille-maison-diagnostic';
 import achatVieilleMaisonDiagnosticToitureEtLaineDeVerreVente from './pages/template/json-data/achat-vieille-maison-diagnostic-toiture-et-laine-de-verre-vente';
 import alloDiagnosticAmianteToiture from './pages/template/json-data/allo-diagnostic-amiante-toiture';
+import amianteAvantTravauxPrix from './pages/template/json-data/amiante-avant-travaux-prix';
 import apresTravauxRecouvrement from './pages/template/json-data/apres-travaux-recouvrement';
 import artisanDiagnosticToiture from './pages/template/json-data/artisan-diagnostic-toiture';
 import auditDiagnosticToitureCouverture from './pages/template/json-data/audit-diagnostic-toiture-couverture';
@@ -263,6 +264,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/amiante-avant-travaux-prix" element={<Template jsonData={amianteAvantTravauxPrix} />} />
           <Route path="/diagnostic-toiture-loir-et-cher" element={<Template jsonData={diagnosticToitureLoirEtCher} />} />
           <Route path="/prix-diagnostic-toiture-loir-et-cher" element={<Template jsonData={prixDiagnosticToitureLoirEtCher} />} />
           <Route path="/diagnostic-termites-toiture-prix" element={<Template jsonData={diagnosticTermitesToiturePrix} />} />
