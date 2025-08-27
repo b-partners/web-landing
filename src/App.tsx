@@ -178,9 +178,7 @@ import toitureFibroCiment from './pages/template/json-data/toiture-fibro-ciment'
 import toitureGarageAmiante from './pages/template/json-data/toiture-garage-amiante';
 import toitureLabatSierra from './pages/template/json-data/toiture-labat-sierra';
 import toitureNonAccessible from './pages/template/json-data/toiture-non-accessible';
-import toitureFibroCiment from './pages/template/json-data/toiture-fibro-ciment';
-import toitureGarageAmiante from './pages/template/json-data/toiture-garage-amiante';
-import toitureNonAccessible from './pages/template/json-data/toiture-non-accessible';
+import toiturePertuis from './pages/template/json-data/toiture-pertuis';
 import toitureSchMa from './pages/template/json-data/toiture-schéma';
 import toitureTermite from './pages/template/json-data/toiture-termite';
 import toitureTravaux from './pages/template/json-data/toiture-travaux';
