@@ -111,6 +111,7 @@ import diagnosticToitureReglementation from './pages/template/json-data/diagnost
 import diagnosticToitureRentreTIlDansDiagnosticNergTique from './pages/template/json-data/diagnostic-toiture-rentre-t-il-dans-diagnostic-énergétique';
 import diagnosticToitureRhone from './pages/template/json-data/diagnostic-toiture-rhone';
 import diagnosticToitureRungis from './pages/template/json-data/diagnostic-toiture-rungis';
+import diagnosticToitureSigean from './pages/template/json-data/diagnostic-toiture-sigean';
 import diagnosticToitureSeineEtMarne from './pages/template/json-data/diagnostic-toiture-seine-et-marne';
 import diagnosticToitureTerrasse from './pages/template/json-data/diagnostic-toiture-terrasse';
 import diagnosticToitureTours from './pages/template/json-data/diagnostic-toiture-tours';
@@ -271,6 +272,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-toiture-sigean" element={<Template jsonData={diagnosticToitureSigean} />} />
           <Route path="/diagnostic-toiture-seine-et-marne" element={<Template jsonData={diagnosticToitureSeineEtMarne} />} />
           <Route path="/diagnostic-immobilier-toiture-fibrociment" element={<Template jsonData={diagnosticImmobilierToitureFibrociment} />} />
           <Route path="/diagnostic-desordre-toiture-terrasse" element={<Template jsonData={diagnosticDesordreToitureTerrasse} />} />
