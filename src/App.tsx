@@ -196,6 +196,7 @@ import toitureTermite from './pages/template/json-data/toiture-termite';
 import toitureTravaux from './pages/template/json-data/toiture-travaux';
 import travauxDeCouverture from './pages/template/json-data/travaux-de-couverture';
 import travauxSurToiture from './pages/template/json-data/travaux-sur-toiture';
+import validiteDiagnosticAmianteToitureGarage from './pages/template/json-data/validite-diagnostic-amiante-toiture-garage';
 import verificationToiture from './pages/template/json-data/verification-toiture';
 import verificationToiturePrix from './pages/template/json-data/verification-toiture-prix';
 import verificationToitureTarif from './pages/template/json-data/verification-toiture-tarif';
@@ -275,6 +276,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/validite-diagnostic-amiante-toiture-garage" element={<Template jsonData={validiteDiagnosticAmianteToitureGarage} />} />
           <Route path="/diagnostic-immobilier-infiltration-toiture" element={<Template jsonData={diagnosticImmobilierInfiltrationToiture} />} />
           <Route path="/diagnostic-infiltration-toiture" element={<Template jsonData={diagnosticInfiltrationToiture} />} />
           <Route path="/diagnostic-toiture-tarif" element={<Template jsonData={diagnosticToitureTarif} />} />
