@@ -68,6 +68,7 @@ import diagnosticExamenVisuel from './pages/template/json-data/diagnostic-examen
 import diagnosticFuiteToiture from './pages/template/json-data/diagnostic-fuite-toiture';
 import diagnosticGratuitImmeuble from './pages/template/json-data/diagnostic-gratuit-immeuble';
 import diagnosticGratuitToitureImmeuble from './pages/template/json-data/diagnostic-gratuit-toiture-immeuble';
+import diagnosticImmobilierInfiltrationToiture from './pages/template/json-data/diagnostic-immobilier-infiltration-toiture';
 import diagnosticImmobilierToitureFibrociment from './pages/template/json-data/diagnostic-immobilier-toiture-fibrociment';
 import diagnosticImmobilierToitures from './pages/template/json-data/diagnostic-immobilier-toitures';
 import diagnosticIndependantDeToiture from './pages/template/json-data/diagnostic-independant-de-toiture';
@@ -274,6 +275,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-immobilier-infiltration-toiture" element={<Template jsonData={diagnosticImmobilierInfiltrationToiture} />} />
           <Route path="/diagnostic-infiltration-toiture" element={<Template jsonData={diagnosticInfiltrationToiture} />} />
           <Route path="/diagnostic-toiture-tarif" element={<Template jsonData={diagnosticToitureTarif} />} />
           <Route path="/diagnostic-toiture-sigean" element={<Template jsonData={diagnosticToitureSigean} />} />
