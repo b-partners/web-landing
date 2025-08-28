@@ -113,9 +113,9 @@ import diagnosticToitureReglementation from './pages/template/json-data/diagnost
 import diagnosticToitureRentreTIlDansDiagnosticNergTique from './pages/template/json-data/diagnostic-toiture-rentre-t-il-dans-diagnostic-énergétique';
 import diagnosticToitureRhone from './pages/template/json-data/diagnostic-toiture-rhone';
 import diagnosticToitureRungis from './pages/template/json-data/diagnostic-toiture-rungis';
-import diagnosticToitureTarif from './pages/template/json-data/diagnostic-toiture-tarif';
-import diagnosticToitureSigean from './pages/template/json-data/diagnostic-toiture-sigean';
 import diagnosticToitureSeineEtMarne from './pages/template/json-data/diagnostic-toiture-seine-et-marne';
+import diagnosticToitureSigean from './pages/template/json-data/diagnostic-toiture-sigean';
+import diagnosticToitureTarif from './pages/template/json-data/diagnostic-toiture-tarif';
 import diagnosticToitureTerrasse from './pages/template/json-data/diagnostic-toiture-terrasse';
 import diagnosticToitureTours from './pages/template/json-data/diagnostic-toiture-tours';
 import diagnosticToitureVente from './pages/template/json-data/diagnostic-toiture-vente';
