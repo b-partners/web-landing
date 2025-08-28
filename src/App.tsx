@@ -53,6 +53,7 @@ import diagnosticAmianteFauxToiture from './pages/template/json-data/diagnostic-
 import diagnosticAmianteObligatoire from './pages/template/json-data/diagnostic-amiante-obligatoire';
 import diagnosticAmianteToiture from './pages/template/json-data/diagnostic-amiante-toiture';
 import diagnosticAmianteToitureCopropriT from './pages/template/json-data/diagnostic-amiante-toiture-copropriété';
+import diagnosticAmianteToitureDouai from './pages/template/json-data/diagnostic-amiante-toiture-douai';
 import diagnosticAmianteToitureFibrociment from './pages/template/json-data/diagnostic-amiante-toiture-fibrociment';
 import diagnosticAmianteToitureGarage from './pages/template/json-data/diagnostic-amiante-toiture-garage';
 import diagnosticAmianteToitureS from './pages/template/json-data/diagnostic-amiante-toiture-s';
@@ -103,6 +104,7 @@ import diagnosticToitureParis from './pages/template/json-data/diagnostic-toitur
 import diagnosticToitureParticuliers from './pages/template/json-data/diagnostic-toiture-particuliers';
 import diagnosticToiturePertuis from './pages/template/json-data/diagnostic-toiture-pertuis';
 import diagnosticToiturePrix from './pages/template/json-data/diagnostic-toiture-prix';
+import diagnosticToitureRaquinDuchon from './pages/template/json-data/diagnostic-toiture-raquin-duchon';
 import diagnosticToitureReglementation from './pages/template/json-data/diagnostic-toiture-reglementation';
 import diagnosticToitureRentreTIlDansDiagnosticNergTique from './pages/template/json-data/diagnostic-toiture-rentre-t-il-dans-diagnostic-énergétique';
 import diagnosticToitureRhone from './pages/template/json-data/diagnostic-toiture-rhone';
@@ -152,6 +154,7 @@ import prixDiagnosticLoirEtCher from './pages/template/json-data/prix-diagnostic
 import prixDiagnosticToiture from './pages/template/json-data/prix-diagnostic-toiture';
 import prixDiagnosticToitureLoirEtCher from './pages/template/json-data/prix-diagnostic-toiture-loir-et-cher';
 import prixExpertiseToiture from './pages/template/json-data/prix-expertise-toiture';
+import rapportDiagnosticToiture from './pages/template/json-data/rapport-diagnostic-toiture';
 import rapportDiagnosticToitureFuites from './pages/template/json-data/rapport-diagnostic-toiture-fuites';
 import refectionDesToitures from './pages/template/json-data/refection-des-toitures';
 import refectionToiture from './pages/template/json-data/refection-toiture';
@@ -163,6 +166,7 @@ import renovationToiture from './pages/template/json-data/renovation-toiture';
 import responsabiliteDiagnosticAmianteToiture from './pages/template/json-data/responsabilite-diagnostic-amiante-toiture';
 import schemaToiture from './pages/template/json-data/schema-toiture';
 import schMaToiture from './pages/template/json-data/schéma-toiture';
+import societeDiagnosticAmianteToiture from './pages/template/json-data/societe-diagnostic-amiante-toiture';
 import structureToitureTremblay from './pages/template/json-data/structure-toiture-tremblay';
 import techniqueToit from './pages/template/json-data/technique-toit';
 import techniqueToiture from './pages/template/json-data/technique-toiture';
@@ -265,6 +269,10 @@ function App() {
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
           <Route path="/responsabilite-diagnostic-amiante-toiture" element={<Template jsonData={responsabiliteDiagnosticAmianteToiture} />} />
+          <Route path="/diagnostic-amiante-toiture-douai" element={<Template jsonData={diagnosticAmianteToitureDouai} />} />
+          <Route path="/societe-diagnostic-amiante-toiture" element={<Template jsonData={societeDiagnosticAmianteToiture} />} />
+          <Route path="/diagnostic-toiture-raquin-duchon" element={<Template jsonData={diagnosticToitureRaquinDuchon} />} />
+          <Route path="/rapport-diagnostic-toiture" element={<Template jsonData={rapportDiagnosticToiture} />} />
           <Route path="/prix-diagnostic-loir-et-cher" element={<Template jsonData={prixDiagnosticLoirEtCher} />} />
           <Route path="/amiante-avant-travaux-prix" element={<Template jsonData={amianteAvantTravauxPrix} />} />
           <Route path="/diagnostic-toiture-loir-et-cher" element={<Template jsonData={diagnosticToitureLoirEtCher} />} />
