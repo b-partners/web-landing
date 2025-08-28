@@ -164,6 +164,7 @@ import renovationCouverture from './pages/template/json-data/renovation-couvertu
 import renovationToiture from './pages/template/json-data/renovation-toiture';
 import schemaToiture from './pages/template/json-data/schema-toiture';
 import schMaToiture from './pages/template/json-data/schéma-toiture';
+import societeDiagnosticAmianteToiture from './pages/template/json-data/societe-diagnostic-amiante-toiture';
 import structureToitureTremblay from './pages/template/json-data/structure-toiture-tremblay';
 import techniqueToit from './pages/template/json-data/technique-toit';
 import techniqueToiture from './pages/template/json-data/technique-toiture';
@@ -265,6 +266,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/societe-diagnostic-amiante-toiture" element={<Template jsonData={societeDiagnosticAmianteToiture} />} />
           <Route path="/diagnostic-toiture-raquin-duchon" element={<Template jsonData={diagnosticToitureRaquinDuchon} />} />
           <Route path="/rapport-diagnostic-toiture" element={<Template jsonData={rapportDiagnosticToiture} />} />
           <Route path="/prix-diagnostic-loir-et-cher" element={<Template jsonData={prixDiagnosticLoirEtCher} />} />
