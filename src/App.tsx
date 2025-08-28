@@ -163,6 +163,7 @@ import refectionToitureDefinition from './pages/template/json-data/refection-toi
 import refectionToitures from './pages/template/json-data/refection-toitures';
 import renovationCouverture from './pages/template/json-data/renovation-couverture';
 import renovationToiture from './pages/template/json-data/renovation-toiture';
+import responsabiliteDiagnosticAmianteToiture from './pages/template/json-data/responsabilite-diagnostic-amiante-toiture';
 import schemaToiture from './pages/template/json-data/schema-toiture';
 import schMaToiture from './pages/template/json-data/schéma-toiture';
 import societeDiagnosticAmianteToiture from './pages/template/json-data/societe-diagnostic-amiante-toiture';
@@ -267,6 +268,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/responsabilite-diagnostic-amiante-toiture" element={<Template jsonData={responsabiliteDiagnosticAmianteToiture} />} />
           <Route path="/diagnostic-amiante-toiture-douai" element={<Template jsonData={diagnosticAmianteToitureDouai} />} />
           <Route path="/societe-diagnostic-amiante-toiture" element={<Template jsonData={societeDiagnosticAmianteToiture} />} />
           <Route path="/diagnostic-toiture-raquin-duchon" element={<Template jsonData={diagnosticToitureRaquinDuchon} />} />
