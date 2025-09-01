@@ -75,6 +75,7 @@ import diagnosticIndependantDeToiture from './pages/template/json-data/diagnosti
 import diagnosticIndependantToiture from './pages/template/json-data/diagnostic-independant-toiture';
 import diagnosticInfiltrationToiture from './pages/template/json-data/diagnostic-infiltration-toiture';
 import diagnosticMaisonToiture from './pages/template/json-data/diagnostic-maison-toiture';
+import diagnosticPlombToitureTravaux from './pages/template/json-data/diagnostic-plomb-toiture-travaux';
 import diagnosticRhone from './pages/template/json-data/diagnostic-rhone';
 import diagnosticTechniqueToiture from './pages/template/json-data/diagnostic-technique-toiture';
 import diagnosticTechniqueToitureFuite from './pages/template/json-data/diagnostic-technique-toiture-fuite';
@@ -197,6 +198,7 @@ import toitureTermite from './pages/template/json-data/toiture-termite';
 import toitureTravaux from './pages/template/json-data/toiture-travaux';
 import travauxDeCouverture from './pages/template/json-data/travaux-de-couverture';
 import travauxSurToiture from './pages/template/json-data/travaux-sur-toiture';
+import validiteDiagnosticAmianteToitureGarage from './pages/template/json-data/validite-diagnostic-amiante-toiture-garage';
 import verificationToiture from './pages/template/json-data/verification-toiture';
 import verificationToiturePrix from './pages/template/json-data/verification-toiture-prix';
 import verificationToitureTarif from './pages/template/json-data/verification-toiture-tarif';
@@ -277,6 +279,8 @@ function App() {
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
           <Route path="/diagnostic-toiture-vente-maison" element={<Template jsonData={diagnosticToitureVenteMaison} />} />
+          <Route path="/validite-diagnostic-amiante-toiture-garage" element={<Template jsonData={validiteDiagnosticAmianteToitureGarage} />} />
+          <Route path="/diagnostic-plomb-toiture-travaux" element={<Template jsonData={diagnosticPlombToitureTravaux} />} />
           <Route path="/diagnostic-immobilier-infiltration-toiture" element={<Template jsonData={diagnosticImmobilierInfiltrationToiture} />} />
           <Route path="/diagnostic-infiltration-toiture" element={<Template jsonData={diagnosticInfiltrationToiture} />} />
           <Route path="/diagnostic-toiture-tarif" element={<Template jsonData={diagnosticToitureTarif} />} />
