@@ -89,6 +89,7 @@ import diagnosticToitureADistance from './pages/template/json-data/diagnostic-to
 import diagnosticToitureAchatMaison from './pages/template/json-data/diagnostic-toiture-achat-maison';
 import diagnosticToitureAlsace from './pages/template/json-data/diagnostic-toiture-alsace';
 import diagnosticToitureArdoise from './pages/template/json-data/diagnostic-toiture-ardoise';
+import diagnosticToitureArdoiseS from './pages/template/json-data/diagnostic-toiture-ardoise-s';
 import diagnosticToitureAvantAchat from './pages/template/json-data/diagnostic-toiture-avant-achat';
 import diagnosticToitureCopropriT from './pages/template/json-data/diagnostic-toiture-copropriété';
 import diagnosticToitureDrone from './pages/template/json-data/diagnostic-toiture-drone';
@@ -279,6 +280,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-toiture-ardoise-s" element={<Template jsonData={diagnosticToitureArdoiseS} />} />
           <Route path="/diagnostic-amiante-toiture-vente" element={<Template jsonData={diagnosticAmianteToitureVente} />} />
           <Route path="/diagnostic-toiture-vente-maison" element={<Template jsonData={diagnosticToitureVenteMaison} />} />
           <Route path="/validite-diagnostic-amiante-toiture-garage" element={<Template jsonData={validiteDiagnosticAmianteToitureGarage} />} />
