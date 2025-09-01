@@ -124,6 +124,7 @@ import diagnosticToitureVente from './pages/template/json-data/diagnostic-toitur
 import diagnosticToitureVenteMaison from './pages/template/json-data/diagnostic-toiture-vente-maison';
 import diagnosticToitureZinc from './pages/template/json-data/diagnostic-toiture-zinc';
 import diagnosticToituresS from './pages/template/json-data/diagnostic-toitures-s';
+import diagnosticTacnItToitureTerrassePdf from './pages/template/json-data/diagnostic-étacnéité-toiture-terrasse-pdf';
 import diagnostiqueToitureS from './pages/template/json-data/diagnostique-toiture-s';
 import dianosticAvantVente from './pages/template/json-data/dianostic-avant-vente';
 import erreurDiagnosticToiture from './pages/template/json-data/erreur-diagnostic-toiture';
@@ -279,6 +280,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-étacnéité-toiture-terrasse-pdf" element={<Template jsonData={diagnosticTacnItToitureTerrassePdf} />} />
           <Route path="/diagnostic-amiante-toiture-vente" element={<Template jsonData={diagnosticAmianteToitureVente} />} />
           <Route path="/diagnostic-toiture-vente-maison" element={<Template jsonData={diagnosticToitureVenteMaison} />} />
           <Route path="/validite-diagnostic-amiante-toiture-garage" element={<Template jsonData={validiteDiagnosticAmianteToitureGarage} />} />
