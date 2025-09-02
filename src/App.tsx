@@ -120,9 +120,15 @@ import diagnosticToitureSeineEtMarne from './pages/template/json-data/diagnostic
 import diagnosticToitureSigean from './pages/template/json-data/diagnostic-toiture-sigean';
 import diagnosticToitureTarif from './pages/template/json-data/diagnostic-toiture-tarif';
 import diagnosticToitureTerrasse from './pages/template/json-data/diagnostic-toiture-terrasse';
+import diagnosticToitureToulouse from './pages/template/json-data/diagnostic-toiture-toulouse';
+import diagnosticToitureTerrassePdf from './pages/template/json-data/diagnostic-toiture-terrasse-pdf';
+import diagnosticToitureTerrasseDtu433 from './pages/template/json-data/diagnostic-toiture-terrasse-dtu-43.3';
+import diagnosticToitureTerrasseBTimentIndustriel from './pages/template/json-data/diagnostic-toiture-terrasse-bâtiment-industriel';
 import diagnosticToitureTours from './pages/template/json-data/diagnostic-toiture-tours';
+import diagnosticToitureTours37 from './pages/template/json-data/diagnostic-toiture-tours-37';
 import diagnosticToitureVente from './pages/template/json-data/diagnostic-toiture-vente';
 import diagnosticToitureVenteMaison from './pages/template/json-data/diagnostic-toiture-vente-maison';
+import diagnosticToitureViceCach from './pages/template/json-data/diagnostic-toiture-vice-caché';
 import diagnosticToitureZinc from './pages/template/json-data/diagnostic-toiture-zinc';
 import diagnosticToituresS from './pages/template/json-data/diagnostic-toitures-s';
 import diagnostiqueToitureS from './pages/template/json-data/diagnostique-toiture-s';
@@ -281,6 +287,12 @@ function App() {
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
           <Route path="/diagnostic-toiture-ardoise-s" element={<Template jsonData={diagnosticToitureArdoiseS} />} />
+          <Route path="/diagnostic-toiture-vice-caché" element={<Template jsonData={diagnosticToitureViceCach} />} />
+          <Route path="/diagnostic-toiture-tours-37" element={<Template jsonData={diagnosticToitureTours37} />} />
+          <Route path="/diagnostic-toiture-toulouse" element={<Template jsonData={diagnosticToitureToulouse} />} />
+          <Route path="/diagnostic-toiture-terrasse-pdf" element={<Template jsonData={diagnosticToitureTerrassePdf} />} />
+          <Route path="/diagnostic-toiture-terrasse-dtu-43.3" element={<Template jsonData={diagnosticToitureTerrasseDtu433} />} />
+          <Route path="/diagnostic-toiture-terrasse-bâtiment-industriel" element={<Template jsonData={diagnosticToitureTerrasseBTimentIndustriel} />} />
           <Route path="/diagnostic-amiante-toiture-vente" element={<Template jsonData={diagnosticAmianteToitureVente} />} />
           <Route path="/diagnostic-toiture-vente-maison" element={<Template jsonData={diagnosticToitureVenteMaison} />} />
           <Route path="/validite-diagnostic-amiante-toiture-garage" element={<Template jsonData={validiteDiagnosticAmianteToitureGarage} />} />
