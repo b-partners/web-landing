@@ -120,6 +120,9 @@ import diagnosticToitureSigean from './pages/template/json-data/diagnostic-toitu
 import diagnosticToitureTarif from './pages/template/json-data/diagnostic-toiture-tarif';
 import diagnosticToitureTerrasse from './pages/template/json-data/diagnostic-toiture-terrasse';
 import diagnosticToitureToulouse from './pages/template/json-data/diagnostic-toiture-toulouse';
+import diagnosticToitureTerrassePdf from './pages/template/json-data/diagnostic-toiture-terrasse-pdf';
+import diagnosticToitureTerrasseDtu433 from './pages/template/json-data/diagnostic-toiture-terrasse-dtu-43.3';
+import diagnosticToitureTerrasseBTimentIndustriel from './pages/template/json-data/diagnostic-toiture-terrasse-bâtiment-industriel';
 import diagnosticToitureTours from './pages/template/json-data/diagnostic-toiture-tours';
 import diagnosticToitureVente from './pages/template/json-data/diagnostic-toiture-vente';
 import diagnosticToitureVenteMaison from './pages/template/json-data/diagnostic-toiture-vente-maison';
@@ -281,6 +284,9 @@ function App() {
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
           <Route path="/diagnostic-toiture-toulouse" element={<Template jsonData={diagnosticToitureToulouse} />} />
+          <Route path="/diagnostic-toiture-terrasse-pdf" element={<Template jsonData={diagnosticToitureTerrassePdf} />} />
+          <Route path="/diagnostic-toiture-terrasse-dtu-43.3" element={<Template jsonData={diagnosticToitureTerrasseDtu433} />} />
+          <Route path="/diagnostic-toiture-terrasse-bâtiment-industriel" element={<Template jsonData={diagnosticToitureTerrasseBTimentIndustriel} />} />
           <Route path="/diagnostic-amiante-toiture-vente" element={<Template jsonData={diagnosticAmianteToitureVente} />} />
           <Route path="/diagnostic-toiture-vente-maison" element={<Template jsonData={diagnosticToitureVenteMaison} />} />
           <Route path="/validite-diagnostic-amiante-toiture-garage" element={<Template jsonData={validiteDiagnosticAmianteToitureGarage} />} />
