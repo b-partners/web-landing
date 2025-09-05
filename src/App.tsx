@@ -64,6 +64,7 @@ import diagnosticCharpenteP from './pages/template/json-data/diagnostic-charpent
 import diagnosticCharpentePrix from './pages/template/json-data/diagnostic-charpente-prix';
 import diagnosticDesordreToitureTerrasse from './pages/template/json-data/diagnostic-desordre-toiture-terrasse';
 import diagnosticEtancheiteToitureTerrasse from './pages/template/json-data/diagnostic-etancheite-toiture-terrasse';
+import diagnosticEtancheiteToitureTerrassePdf from './pages/template/json-data/diagnostic-etancheite-toiture-terrasse-pdf';
 import diagnosticEtancheiteToitureTerrasseLyon from './pages/template/json-data/diagnostic-etancheite-toiture-terrasse-lyon';
 import diagnosticEtatToiture from './pages/template/json-data/diagnostic-etat-toiture';
 import diagnosticExamenVisuel from './pages/template/json-data/diagnostic-examen-visuel';
@@ -291,6 +292,7 @@ function App() {
           <Route path="/templateGenerator" element={<Template jsonData={paris} />} />
           <Route path="/paris" element={<Template jsonData={paris} />} />
           {/* ======== NEW TEMPLATE ROUTE REF ======== */}
+          <Route path="/diagnostic-etancheite-toiture-terrasse-pdf" element={<Template jsonData={diagnosticEtancheiteToitureTerrassePdf} />} />
           <Route path="/diagnostic-etancheite-toiture-terrasse-lyon" element={<Template jsonData={diagnosticEtancheiteToitureTerrasseLyon} />} />
           <Route path="/diagnostic-étanchéité-toiture-drone" element={<Template jsonData={diagnosticTanchItToitureDrone} />} />
           <Route path="/diagnostic-étanchéité-toiture-s" element={<Template jsonData={diagnosticTanchItToitureS} />} />
