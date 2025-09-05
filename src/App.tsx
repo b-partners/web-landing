@@ -64,9 +64,9 @@ import diagnosticCharpenteP from './pages/template/json-data/diagnostic-charpent
 import diagnosticCharpentePrix from './pages/template/json-data/diagnostic-charpente-prix';
 import diagnosticDesordreToitureTerrasse from './pages/template/json-data/diagnostic-desordre-toiture-terrasse';
 import diagnosticEtancheiteToitureTerrasse from './pages/template/json-data/diagnostic-etancheite-toiture-terrasse';
-import diagnosticEtancheiteToitureTerrasseS from './pages/template/json-data/diagnostic-etancheite-toiture-terrasse-s';
-import diagnosticEtancheiteToitureTerrassePdf from './pages/template/json-data/diagnostic-etancheite-toiture-terrasse-pdf';
 import diagnosticEtancheiteToitureTerrasseLyon from './pages/template/json-data/diagnostic-etancheite-toiture-terrasse-lyon';
+import diagnosticEtancheiteToitureTerrassePdf from './pages/template/json-data/diagnostic-etancheite-toiture-terrasse-pdf';
+import diagnosticEtancheiteToitureTerrasseS from './pages/template/json-data/diagnostic-etancheite-toiture-terrasse-s';
 import diagnosticEtatToiture from './pages/template/json-data/diagnostic-etat-toiture';
 import diagnosticEtatToitureS from './pages/template/json-data/diagnostic-etat-toiture-s';
 import diagnosticExamenVisuel from './pages/template/json-data/diagnostic-examen-visuel';
