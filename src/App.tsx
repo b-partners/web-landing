@@ -138,9 +138,9 @@ import diagnosticToituresS from './pages/template/json-data/diagnostic-toitures-
 import diagnosticTacnItToitureTerrassePdf from './pages/template/json-data/diagnostic-étacnéité-toiture-terrasse-pdf';
 import diagnosticTanchItToitureDrone from './pages/template/json-data/diagnostic-étanchéité-toiture-drone';
 import diagnosticTanchItToitureS from './pages/template/json-data/diagnostic-étanchéité-toiture-s';
-import diagnosticsToitureS from './pages/template/json-data/diagnostics-toiture-s';
-import diagnosticsImobiliersAmianteToiture from './pages/template/json-data/diagnostics-imobiliers-amiante-toiture';
 import diagnosticsAmianteToitureS from './pages/template/json-data/diagnostics-amiante-toiture-s';
+import diagnosticsImobiliersAmianteToiture from './pages/template/json-data/diagnostics-imobiliers-amiante-toiture';
+import diagnosticsToitureS from './pages/template/json-data/diagnostics-toiture-s';
 import diagnostiqueToitureS from './pages/template/json-data/diagnostique-toiture-s';
 import dianosticAvantVente from './pages/template/json-data/dianostic-avant-vente';
 import dignosticToitureTerrasseS from './pages/template/json-data/dignostic-toiture-terrasse-s';
