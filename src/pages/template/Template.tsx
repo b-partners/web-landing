@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { useFormContext } from 'react-hook-form';
 
 import { Box } from '@mui/material';
-import { Analayse, Testimonials } from '@pages/home/components';
+import { Analyse, Testimonials } from '@pages/home/components';
 
 import { HeroPage, TheyTrushUs } from './sections';
 import { FAQ } from './sections/FAQ';
@@ -31,7 +31,7 @@ const TemplateComponent = () => {
     <Box className="template">
       <HeroPage />
       <TheyTrushUs />
-      <Analayse analayseData={getValues('analyse')} />
+      <Analyse analyseData={getValues('analyse')} />
       <Testimonials testimonialsData={getValues('testimonials')} />
       <FAQ />
       <RoofDiagnostics />
