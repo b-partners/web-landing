@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/a-distance',
   metaTitle: "Diagnostic de toiture à distance : l'étape indispensable pour préserver votre bâtiment",
   metaDescription:
     'Le diagnostic de toiture à distance permet une évaluation rapide et sécurisée, idéale pour les sites difficilement accessibles ou en phase de pré-étude.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-examen-visuel',
   metaTitle: 'Diagnostic de toiture par examen visuel : une inspection simple mais efficace',
   metaDescription: 'Découvrez comment un diagnostic de toiture par examen visuel permet de repérer rapidement défauts et signes d’usure.',
   hero: {

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-etat-toiture-s',
   metaTitle: 'Diagnostic état de toiture : un contrôle indispensable pour prévenir les désordres',
   metaDescription:
     'Découvrez pourquoi réaliser un diagnostic état toiture est essentiel, ses étapes clés et ses bénéfices pour anticiper réparations et préserver la durabilité du bâtiment.',

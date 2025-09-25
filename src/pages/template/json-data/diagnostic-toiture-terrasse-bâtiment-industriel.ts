@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-terrasse-bâtiment-industriel',
   metaTitle: 'Diagnostic toiture terrasse bâtiment industriel : un contrôle stratégique pour la durabilité',
   metaDescription:
     'Découvrez pourquoi réaliser un diagnostic toiture terrasse bâtiment industriel est essentiel, ses étapes et ses bénéfices pour la sécurité et la pérennité des installations.',

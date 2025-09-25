@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/indemnite-amiante-toiture',
   metaTitle: 'Indemnité diagnostic amiante toiture : quels recours pour le nouveau propriétaire ?',
   metaDescription:
     'L’indemnité diagnostic amiante toiture concerne les cas où la présence d’amiante n’a pas été signalée dans un diagnostic immobilier. Découvrez les recours possibles pour le nouveau propriétaire.',

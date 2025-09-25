@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/dignostic-toiture-terrasse-s',
   metaTitle: 'Diagnostic toiture-terrasse : une vérification indispensable pour prévenir les infiltrations',
   metaDescription:
     'Découvrez pourquoi réaliser un diagnostic toiture-terrasse est essentiel, ses étapes clés et ses bénéfices pour assurer l’étanchéité et la durabilité de votre bâtiment.',

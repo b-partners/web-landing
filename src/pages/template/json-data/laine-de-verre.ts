@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/laine-de-verre',
   metaTitle: 'Diagnostic toiture et laine de verre : contrôler l’étanchéité et la performance isolante',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture et laine de verre est essentiel pour prévenir infiltrations, améliorer l’isolation et prolonger la durée de vie du toit.',

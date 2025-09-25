@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-desordre-toiture-terrasse',
   metaTitle: 'Diagnostic désordre toiture terrasse : comprendre et anticiper les problèmes',
   metaDescription:
     'Le diagnostic désordre toiture terrasse identifie les causes de fuites, fissures ou infiltrations. Découvrez son rôle essentiel pour préserver votre bâtiment.',

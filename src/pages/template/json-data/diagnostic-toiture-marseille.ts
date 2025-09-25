@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-marseille',
   metaTitle: 'Diagnostic de toiture à Marseille : protéger votre bâtiment face aux conditions méditerranéennes',
   metaDescription: 'Découvrez comment un diagnostic de toiture à Marseille permet d’anticiper les réparations et d’assurer la durabilité du toit.',
   hero: {

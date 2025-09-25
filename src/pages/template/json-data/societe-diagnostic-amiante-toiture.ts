@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/societe-diagnostic-amiante-toiture',
   metaTitle: 'Société diagnostic amiante toiture : rôle et importance',
   metaDescription:
     'Une société de diagnostic amiante toiture vérifie la présence d’amiante dans les matériaux de couverture. Découvrez son rôle et ses enjeux.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-etancheite-toiture-terrasse',
   metaTitle: 'Diagnostic étanchéité toiture terrasse : garantir la protection de votre toit plat',
   metaDescription: 'Découvrez l’importance du diagnostic étanchéité toiture terrasse, son déroulement et ses bénéfices pour la durabilité du bâtiment.',
   hero: {

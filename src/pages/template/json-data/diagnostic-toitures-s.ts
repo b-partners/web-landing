@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toitures-s',
   metaTitle: 'Diagnostic toitures : évaluer et préserver l’état de vos couvertures',
   metaDescription: 'Découvrez en quoi consiste le diagnostic toitures, son déroulement et ses bénéfices pour la durabilité et la sécurité du bâtiment.',
   hero: {

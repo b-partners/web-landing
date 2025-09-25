@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-tours-37',
   metaTitle: 'Diagnostic toiture Tours 37 : un contrôle essentiel pour préserver votre patrimoine',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture Tours 37 est indispensable, son déroulement et ses bénéfices pour la sécurité et la durabilité de votre bâtiment.',

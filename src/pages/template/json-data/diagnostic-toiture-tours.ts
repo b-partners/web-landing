@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-tours',
   metaTitle: 'Diagnostic toiture Tours : protéger vos bâtiments face aux intempéries ligériennes',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture Tours est indispensable pour anticiper les infiltrations, planifier les réparations et préserver la valeur de votre bien immobilier.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-gratuit',
   metaTitle: 'Diagnostic toiture gratuit : évaluer l’état de votre toit sans frais',
   metaDescription: 'Comprenez l’intérêt d’un diagnostic toiture gratuit, son déroulement et les étapes à suivre après l’évaluation.',
   hero: {

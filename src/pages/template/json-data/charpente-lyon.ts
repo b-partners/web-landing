@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/charpente-lyon',
   metaTitle: 'Diagnostic toiture charpente Lyon : garantir solidité et étanchéité de votre bâtiment',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture charpente à Lyon est indispensable pour anticiper les réparations, prévenir les infiltrations et assurer la pérennité du patrimoine immobilier.',

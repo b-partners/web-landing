@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-ardoise-s',
   metaTitle: 'Diagnostic toiture ardoise : contrôler l’état d’une couverture traditionnelle et durable',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture ardoise est indispensable, ses étapes et ses bénéfices pour préserver la longévité et l’esthétique d’un toit en ardoise.',

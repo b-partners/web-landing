@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/devis-diagnostic-marseille',
   metaTitle: 'Devis et diagnostic toiture Marseille : anticiper vos travaux en toute sérénité',
   metaDescription: 'Obtenez un devis et diagnostic toiture précis à Marseille pour évaluer l’état de votre couverture et prévoir vos travaux.',
   hero: {

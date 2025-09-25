@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-termites-toiture-prix',
   metaTitle: 'Prix diagnostic termites toiture : comprendre les coûts et enjeux',
   metaDescription:
     'Le prix d’un diagnostic termites toiture dépend de la surface et de la complexité d’accès. Découvrez les facteurs qui influencent son coût.',

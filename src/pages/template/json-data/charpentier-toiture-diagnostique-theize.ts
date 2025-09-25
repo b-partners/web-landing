@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/charpentier-toiture-diagnostique-theize',
   metaTitle: 'Charpentier toiture diagnostic Theizé : expertise locale pour un toit fiable',
   metaDescription:
     'Découvrez l’importance d’un charpentier pour un diagnostic toiture à Theizé, son déroulement et ses bénéfices pour la sécurité et la durabilité du bâtiment.',

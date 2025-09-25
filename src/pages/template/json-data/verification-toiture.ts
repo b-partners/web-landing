@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/verification-toiture',
   metaTitle: 'Vérification toiture tarif : comprendre le coût et l’importance de l’intervention',
   metaDescription:
     'Découvrez comment évaluer le tarif d’une vérification de toiture, pourquoi cette intervention est cruciale et quelles étapes suivent l’inspection pour garantir la longévité de votre couverture.',

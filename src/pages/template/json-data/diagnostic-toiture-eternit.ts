@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-eternit',
   metaTitle: 'Diagnostic toiture Eternit : évaluer l’état et la présence éventuelle d’amiante',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture Eternit est indispensable pour contrôler l’usure des plaques et prévenir les risques liés à l’amiante.',

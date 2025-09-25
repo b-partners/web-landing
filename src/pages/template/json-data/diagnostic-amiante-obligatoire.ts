@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-amiante-obligatoire',
   metaTitle: 'Diagnostic amiante toiture obligatoire ? Ce que dit la loi',
   metaDescription: 'Découvrez si le diagnostic amiante toiture est obligatoire et dans quels cas il doit être réalisé.',
   hero: {

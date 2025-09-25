@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-amiante-toiture-garage',
   metaTitle: 'Diagnostic amiante sur toiture garage : protéger la santé et respecter la loi',
   metaDescription: 'Découvrez pourquoi un diagnostic amiante sur toiture garage est indispensable pour sécurité et conformité réglementaire.',
   hero: {

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-amiante-toiture-s',
   metaTitle: 'Diagnostic amiante toiture : identifier et sécuriser la présence d’amiante',
   metaDescription: 'Découvrez en quoi consiste le diagnostic amiante toiture, son déroulement et son rôle pour la sécurité des occupants.',
   hero: {

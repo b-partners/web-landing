@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/etancheite-toiture-metallique',
   metaTitle: 'Diagnostic d’étanchéité d’une toiture métallique : tout ce qu’il faut savoir',
   metaDescription:
     'Découvrez l’importance d’un diagnostic d’étanchéité de toiture métallique pour prévenir les fuites et prolonger la durée de vie de la couverture.',

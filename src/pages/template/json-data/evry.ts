@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/evry',
   metaTitle: "Diagnostic toiture Évry : l'étape indispensable pour préserver votre bâtiment",
   metaDescription:
     'Vous êtes à Évry ? Un diagnostic toiture réalisé par un expert est crucial pour anticiper dégradations, prolonger la durée de vie de votre couverture et planifier vos travaux sereinement.',

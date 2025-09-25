@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/centre-diagnostic-toiture-gratuit',
   metaTitle: 'Centre de diagnostic toiture gratuit : évaluer votre toit sans frais',
   metaDescription:
     'Découvrez comment un centre de diagnostic toiture gratuit peut vous aider à vérifier l’état de votre couverture et à prévenir les problèmes.',

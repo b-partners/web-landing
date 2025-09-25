@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-maif',
   metaTitle: 'Diagnostic de toiture MAIF pour maison : un contrôle essentiel pour anticiper les risques',
   metaDescription: 'Découvrez comment un diagnostic de toiture MAIF pour maison aide à évaluer l’état de votre couverture et prévenir les sinistres.',
   hero: {

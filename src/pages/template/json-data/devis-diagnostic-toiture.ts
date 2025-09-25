@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/devis-diagnostic-toiture',
   metaTitle: 'Devis et diagnostic toiture : préparer et budgéter votre inspection',
   metaDescription: 'Découvrez comment obtenir un devis et diagnostic toiture précis pour anticiper vos travaux ou votre entretien.',
   hero: {

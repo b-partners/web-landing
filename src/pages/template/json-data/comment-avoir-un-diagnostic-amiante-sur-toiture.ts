@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/comment-avoir-un-diagnostic-amiante-sur-toiture',
   metaTitle: 'Comment avoir un diagnostic amiante sur toiture : étapes et obligations',
   metaDescription:
     'Découvrez comment obtenir un diagnostic amiante sur toiture, de la prise de contact au rapport officiel, pour garantir sécurité et conformité.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/amiante-avant-travaux-prix',
   metaTitle: 'Prix diagnostic amiante toiture avant travaux : ce qu’il faut savoir',
   metaDescription:
     'Le prix d’un diagnostic amiante toiture avant travaux varie selon la surface et l’accessibilité. Découvrez les critères qui influencent son coût.',

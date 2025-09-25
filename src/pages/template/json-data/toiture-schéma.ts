@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-schéma',
   metaTitle: "Schéma toiture : comprendre la structure et les composants d'une couverture",
   metaDescription:
     'Découvrez l’importance d’un schéma toiture pour visualiser la structure, anticiper les travaux et garantir la performance de votre couverture.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/responsabilite-diagnostic-amiante-toiture',
   metaTitle: 'Responsabilité diagnostic amiante toiture : ce qu’il faut savoir',
   metaDescription:
     'La responsabilité du diagnostic amiante toiture engage à la fois le diagnostiqueur et le propriétaire. Découvrez les obligations et les enjeux.',

@@ -407,3 +407,5 @@ export const jsonDataIndex = {
   [VerificationToitureTarif.route]: VerificationToitureTarif,
   [VerificationToiture.route]: VerificationToiture,
 };
+
+export const autocompleteJsonDataIndex = Object.values(jsonDataIndex).map((value) => ({ label: value.route, value }));

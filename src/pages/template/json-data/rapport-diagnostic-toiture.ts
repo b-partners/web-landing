@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/rapport-diagnostic-toiture',
   metaTitle: 'Rapport diagnostic toiture : que contient-il et à quoi sert-il ?',
   metaDescription:
     'Le rapport diagnostic toiture détaille l’état de la couverture, de la charpente et des points sensibles. Découvrez son contenu type au format PDF.',

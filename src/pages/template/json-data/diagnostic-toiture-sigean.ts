@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-sigean',
   metaTitle: 'Diagnostic toiture à Sigean : un contrôle essentiel pour vos toits en Méditerranée',
   metaDescription:
     'Découvrez pourquoi réaliser un diagnostic toiture à Sigean est indispensable, son déroulement et ses bénéfices face aux conditions climatiques locales.',

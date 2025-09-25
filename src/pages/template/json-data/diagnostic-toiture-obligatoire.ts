@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-obligatoire',
   metaTitle: 'Diagnostic toiture obligatoire : comprendre les exigences et les enjeux',
   metaDescription:
     'Découvrez dans quels cas un diagnostic toiture obligatoire s’impose, son déroulement et son importance pour la sécurité et la pérennité d’un bâtiment.',

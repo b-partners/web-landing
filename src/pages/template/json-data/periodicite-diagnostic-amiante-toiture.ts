@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/periodicite-diagnostic-amiante-toiture',
   metaTitle: 'Périodicité diagnostic amiante toiture : quand faut-il le renouveler ?',
   metaDescription: 'La périodicité du diagnostic amiante toiture dépend de l’état du matériau. Découvrez les obligations de contrôle et de suivi.',
   hero: {

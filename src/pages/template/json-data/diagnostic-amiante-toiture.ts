@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-amiante-toiture',
   metaTitle: 'Diagnostic amiante sur toiture : vérifier la sécurité de votre couverture',
   metaDescription: 'Découvrez l’importance du diagnostic amiante sur toiture pour détecter les matériaux à risque et protéger la santé.',
   hero: {

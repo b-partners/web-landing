@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/rapport-diagnostic-toiture-fuites',
   metaTitle: 'Rapport diagnostic toiture fuites : contenu et utilité',
   metaDescription:
     'Découvrez à quoi ressemble un rapport diagnostic toiture fuites, son contenu détaillé et son rôle pour planifier les réparations nécessaires.',

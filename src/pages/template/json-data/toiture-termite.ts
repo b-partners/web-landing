@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-termite',
   metaTitle: 'Diagnostic toiture et termite : prévenir les dégradations invisibles de la charpente',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture et termite est indispensable pour détecter les attaques biologiques et préserver la solidité du bâtiment.',

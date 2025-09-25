@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/faire-faire-diagnostic-isolation-toiture',
   metaTitle: 'Comment faire faire un diagnostic de l’isolation d’une toiture : méthode et bonnes pratiques',
   metaDescription:
     'Découvrez comment faire faire un diagnostic de l’isolation d’une toiture, les étapes à suivre et les bénéfices pour votre confort et vos économies d’énergie.',

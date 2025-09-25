@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-athis-mons',
   metaTitle: 'Diagnostic toiture Athis-Mons : anticiper l’entretien et protéger votre bien immobilier',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture Athis-Mons est indispensable pour prévenir les infiltrations, planifier les travaux et préserver la valeur de votre maison ou immeuble.',

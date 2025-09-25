@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-non-accessible',
   metaTitle: 'Diagnostic immobilier d’une toiture non accessible : méthodes et enjeux',
   metaDescription: 'Découvrez comment se réalise un diagnostic immobilier de toiture non accessible pour évaluer son état en toute sécurité.',
   hero: {

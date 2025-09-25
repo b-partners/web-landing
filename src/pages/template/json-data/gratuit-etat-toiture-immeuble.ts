@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/gratuit-etat-toiture-immeuble',
   metaTitle: 'Diagnostic gratuit de l’état d’une toiture d’immeuble : ce qu’il faut savoir',
   metaDescription: 'Découvrez l’intérêt d’un diagnostic gratuit de l’état d’une toiture d’immeuble pour anticiper les travaux et préserver la structure.',
   hero: {

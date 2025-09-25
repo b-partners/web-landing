@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/prix-expertise-toiture',
   metaTitle: 'Prix expertise toiture : comprendre le coût d’une analyse complète',
   metaDescription: 'Découvrez comment se calcule le prix d’une expertise toiture, pourquoi elle est indispensable et quelles actions suivent l’évaluation.',
   hero: {

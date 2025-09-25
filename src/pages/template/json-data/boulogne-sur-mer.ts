@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/boulogne-sur-mer',
   metaTitle: 'Diagnostic toiture Boulogne-sur-Mer : protéger votre couverture face au climat côtier',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture à Boulogne-sur-Mer est indispensable pour anticiper les réparations et prolonger la durabilité d’un toit exposé au bord de mer.',

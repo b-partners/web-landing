@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/technique-toit',
   metaTitle: 'Technique toit : les méthodes et solutions pour une toiture performante et durable',
   metaDescription: 'La technique toit regroupe l’ensemble des méthodes de construction, rénovation et protection d’une couverture. Découvrez l’essentiel.',
   hero: {

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-immobilier-toitures',
   metaTitle: 'Diagnostic immobilier des toitures : un contrôle clé pour sécuriser la transaction',
   metaDescription: 'Découvrez pourquoi le diagnostic immobilier des toitures est indispensable pour anticiper les travaux et garantir la valeur du bien.',
   hero: {

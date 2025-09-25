@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/audit-diagnostic-toiture-couverture',
   metaTitle: 'Audit et diagnostics toiture couverture : analyser et préserver votre toit',
   metaDescription:
     'Découvrez l’importance de l’audit et des diagnostics toiture couverture, leur déroulement et leurs bénéfices pour la durabilité du bâtiment.',

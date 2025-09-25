@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/paris',
   metaTitle: 'BIRDIA Paris, l’IA qui analyse vos toitures sur images HD',
   metaDescription:
     "Paris Mesures précises, détection d'anomalies (usures, moisissures...), et gestion de dossiers. Gagnez du temps, optimisez vos interventions !",

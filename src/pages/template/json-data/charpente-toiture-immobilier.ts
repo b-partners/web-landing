@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/charpente-toiture-immobilier',
   metaTitle: 'Diagnostic charpente et toiture en immobilier : rôle et importance',
   metaDescription: 'Le diagnostic charpente et toiture en immobilier évalue l’état des pentes et des structures porteuses. Découvrez ses enjeux.',
   hero: {

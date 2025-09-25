@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-100m2',
   metaTitle: 'Coût diagnostic toiture 100m² : ce qu’il faut savoir avant de budgéter',
   metaDescription: 'Découvrez le coût d’un diagnostic toiture 100m², les facteurs influençant le prix et ses bénéfices.',
   hero: {

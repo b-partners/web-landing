@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture',
   metaTitle: 'BIRDIA, diagnostic toiture',
   metaDescription: "Protéger le bâti contre les infiltrations, l'humidité et les dégradations invisibles",
   hero: {

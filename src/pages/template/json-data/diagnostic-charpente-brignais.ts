@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-charpente-brignais',
   metaTitle: 'Diagnostic charpente toiture Brignais : guide complet',
   metaDescription:
     'Découvrez l’importance d’un diagnostic charpente toiture à Brignais pour assurer la solidité, la sécurité et la durabilité de votre couverture.',
