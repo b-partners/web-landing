@@ -4,11 +4,11 @@ import { useFormContext } from 'react-hook-form';
 import { Box } from '@mui/material';
 import { Analyse, Testimonials } from '@pages/home/components';
 
-import { HeroPage, TheyTrushUs } from './sections';
+import { HeroPage, TheyTrustUs } from './sections';
 import { FAQ } from './sections/FAQ';
 import { FooterTemplate } from './sections/FooterTemplate';
 import { RoofDiagnostics } from './sections/RoofDiagnostics';
-import { useUpdateMeta } from './utils';
+import { useTemplateGenStore, useUpdateMeta } from './utils';
 import { TemplateGeneratorFormProvider } from './utils/template-gen-form';
 
 interface TemplateProps {
@@ -16,9 +16,11 @@ interface TemplateProps {
 }
 
 export const Template: FC<TemplateProps> = ({ jsonData }) => {
+  const { jsonToEdit } = useTemplateGenStore();
+
   useUpdateMeta(jsonData.metaTitle, jsonData.metaDescription);
   return (
-    <TemplateGeneratorFormProvider jsonData={jsonData}>
+    <TemplateGeneratorFormProvider jsonData={jsonToEdit.value || jsonData}>
       <TemplateComponent />
     </TemplateGeneratorFormProvider>
   );
@@ -30,7 +32,7 @@ const TemplateComponent = () => {
   return (
     <Box className="template">
       <HeroPage />
-      <TheyTrushUs />
+      <TheyTrustUs />
       <Analyse analyseData={getValues('analyse')} />
       <Testimonials testimonialsData={getValues('testimonials')} />
       <FAQ />

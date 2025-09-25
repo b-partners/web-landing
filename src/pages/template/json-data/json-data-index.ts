@@ -409,3 +409,4 @@ export const jsonDataIndex = {
 };
 
 export const autocompleteJsonDataIndex = Object.values(jsonDataIndex).map((value) => ({ label: value.route, value }));
+export const jsonDataUrlList = Object.keys(jsonDataIndex);

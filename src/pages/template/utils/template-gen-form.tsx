@@ -9,14 +9,14 @@ interface TemplateGeneratorFormProvider {
   jsonData: any;
 }
 
-const useCheckApiKey = () => {
+export const useCheckApiKey = () => {
   const { pathname } = useLocation();
   const [urlParams] = useSearchParams();
   const navigate = useNavigate();
 
   useEffect(() => {
     const apikey = urlParams.get('apikey');
-    const isTemplatePath = pathname.includes('templateGenerator');
+    const isTemplatePath = pathname.includes('templateGenerator') || pathname.includes('template/menu');
     if (isTemplatePath && !apikey) navigate('/template/connexion');
   }, [pathname, urlParams, navigate]);
 };
