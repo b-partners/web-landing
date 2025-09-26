@@ -20,7 +20,7 @@ export const Template: FC<TemplateProps> = ({ jsonData }) => {
 
   useUpdateMeta(jsonData.metaTitle, jsonData.metaDescription);
   return (
-    <TemplateGeneratorFormProvider jsonData={jsonToEdit.value || jsonData}>
+    <TemplateGeneratorFormProvider jsonData={jsonToEdit?.value || jsonData}>
       <TemplateComponent />
     </TemplateGeneratorFormProvider>
   );
