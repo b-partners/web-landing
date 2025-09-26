@@ -6,6 +6,7 @@ import { Button, Dialog, DialogActions, DialogContent, DialogTitle, TextField } 
 import { z } from 'zod';
 
 import { jsonDataUrlList } from '../json-data';
+import { useTemplateGenStore } from '../utils';
 import { templateGenDownloadBase64Txt } from '../utils/template-gen-json-download';
 
 const schema = z.object({
@@ -25,6 +26,7 @@ const defaultValues = {
 };
 
 export const GenButtonDownload = () => {
+  const { jsonToEdit } = useTemplateGenStore();
   const stateValues = useWatch();
   const [open, setOpen] = useState(false);
   const {
@@ -58,7 +60,7 @@ export const GenButtonDownload = () => {
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Complétez la fin de l’URL, ce sera votre chemin d’accès via internet.</DialogTitle>
         <DialogContent>
-          <TextField disabled={!!stateValues.route} autoFocus label="Url de la page" margin="dense" fullWidth placeholder="paris" {...register('route')} />
+          <TextField disabled={!!jsonToEdit?.value} autoFocus label="Url de la page" margin="dense" fullWidth placeholder="paris" {...register('route')} />
           <TextField autoFocus label="Titre" margin="dense" fullWidth placeholder="BIRDIA, l’IA qui analyse ..." {...register('title')} />
           <TextField
             autoFocus
