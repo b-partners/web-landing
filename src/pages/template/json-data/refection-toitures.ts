@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/refection-toitures',
   metaTitle: 'Réfection des toitures : assurer la durabilité et la sécurité de votre couverture',
   metaDescription: 'Découvrez pourquoi la réfection des toitures est essentielle pour préserver l’étanchéité, la sécurité et la valeur de votre bâtiment.',
   hero: {

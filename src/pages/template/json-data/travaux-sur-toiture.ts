@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/travaux-sur-toiture',
   metaTitle: 'Travaux sur toiture : ce qu’il faut savoir pour intervenir efficacement et en toute sécurité',
   metaDescription: 'Les travaux sur toiture nécessitent une approche technique rigoureuse. Découvrez quand et comment les réaliser efficacement.',
   hero: {

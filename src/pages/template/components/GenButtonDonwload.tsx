@@ -1,32 +1,46 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useForm, useWatch } from 'react-hook-form';
 
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Button, Dialog, DialogActions, DialogContent, DialogTitle, TextField } from '@mui/material';
 import { z } from 'zod';
 
+import { jsonDataUrlList } from '../json-data';
+import { useTemplateGenStore } from '../utils';
 import { templateGenDownloadBase64Txt } from '../utils/template-gen-json-download';
 
 const schema = z.object({
+  route: z
+    .custom((v) => `${v}`.length > 0, { message: 'Ce champs est requis.' })
+    .refine((v) => !jsonDataUrlList.includes(`${v}`), { message: 'L’URL que vous avez saisie existe déjà. Veuillez en choisir une autre.' }),
   title: z.custom((v) => `${v}`.length > 0, { message: 'Ce champs est requis.' }),
   description: z.custom((v) => `${v}`.length > 0, { message: 'Ce champs est requis.' }),
   filename: z.custom((v) => `${v}`.length > 0, { message: 'Ce champs est requis.' }),
 });
 
 const defaultValues = {
+  route: '',
   title: 'BIRDIA, l’IA qui analyse vos toitures sur images HD',
   description: "Mesures précises, détection d'anomalies (usures, moisissures...), et gestion de dossiers. Gagnez du temps, optimisez vos interventions !",
   fileName: '',
 };
 
 export const GenButtonDownload = () => {
+  const { jsonToEdit } = useTemplateGenStore();
   const stateValues = useWatch();
   const [open, setOpen] = useState(false);
   const {
     register,
     getValues,
+    setValue,
     formState: { errors },
   } = useForm({ mode: 'all', resolver: zodResolver(schema), defaultValues });
+
+  useEffect(() => {
+    setValue('route', stateValues?.route || defaultValues.route);
+    setValue('title', stateValues?.metaTitle || defaultValues.title);
+    setValue('description', stateValues?.metaDescription || defaultValues.description);
+  }, [stateValues, setValue]);
 
   const handleOpenDialog = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -46,7 +60,7 @@ export const GenButtonDownload = () => {
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Complétez la fin de l’URL, ce sera votre chemin d’accès via internet.</DialogTitle>
         <DialogContent>
-          <TextField autoFocus label="Nom de la page" margin="dense" fullWidth placeholder="paris" {...register('fileName')} />
+          <TextField disabled={!!jsonToEdit?.value} autoFocus label="Url de la page" margin="dense" fullWidth placeholder="paris" {...register('route')} />
           <TextField autoFocus label="Titre" margin="dense" fullWidth placeholder="BIRDIA, l’IA qui analyse ..." {...register('title')} />
           <TextField
             autoFocus

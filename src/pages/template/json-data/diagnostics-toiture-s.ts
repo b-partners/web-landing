@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostics-toiture-s',
   metaTitle: 'Diagnostics de toiture : une étape clé pour préserver la sécurité et la durabilité',
   metaDescription:
     'Découvrez pourquoi les diagnostics de toiture sont essentiels, leurs étapes et leurs bénéfices pour prévenir infiltrations, désordres et pertes de valeur immobilière.',

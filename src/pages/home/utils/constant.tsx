@@ -58,14 +58,14 @@ export const TARGETS: TargetType[] = [
   },
 ];
 
-export type AnalayseType = {
+export type AnalyseType = {
   title: string;
   description: string;
   bgcolor: string;
   color: string;
 };
 
-export const ANALYSES: AnalayseType[] = [
+export const ANALYSES: AnalyseType[] = [
   {
     title: 'Analyse et rapports en temps réel',
     description: 'Analyse en temps réel pour prioriser vos interventions et gagner du temps.',

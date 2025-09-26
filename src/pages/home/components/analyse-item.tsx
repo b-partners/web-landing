@@ -4,9 +4,9 @@ import { FlexBox } from '@/common/components';
 import { SxProps, Typography } from '@mui/material';
 import { useTemplateFormContext } from '@pages/template/utils/use-template-form-context';
 
-import { AnalayseType } from '../utils/constant';
+import { AnalyseType } from '../utils/constant';
 
-const ANALAYSE_ITEM_SX: SxProps = {
+const ANALYSE_ITEM_SX: SxProps = {
   p: 5,
   flex: 1,
   flexDirection: 'column',
@@ -15,11 +15,11 @@ const ANALAYSE_ITEM_SX: SxProps = {
   minWidth: '300px',
 };
 
-export const AnalayseItem: FC<{ analyse: AnalayseType; index: number }> = ({ analyse, index }) => {
+export const AnalyseItem: FC<{ analyse: AnalyseType; index: number }> = ({ analyse, index }) => {
   const { getValues } = useTemplateFormContext();
 
   return (
-    <FlexBox sx={{ ...ANALAYSE_ITEM_SX, bgcolor: analyse.bgcolor }}>
+    <FlexBox sx={{ ...ANALYSE_ITEM_SX, bgcolor: analyse.bgcolor }}>
       <Typography
         variant="h3"
         sx={{

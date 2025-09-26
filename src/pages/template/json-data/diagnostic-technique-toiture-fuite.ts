@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-technique-toiture-fuite',
   metaTitle: 'Diagnostic technique toiture fuite : comprendre et anticiper les infiltrations',
   metaDescription:
     'Le diagnostic technique toiture fuite permet d’identifier l’origine des infiltrations et d’orienter les réparations nécessaires pour protéger le bâtiment.',

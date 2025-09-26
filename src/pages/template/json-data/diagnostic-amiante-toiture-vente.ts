@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-amiante-toiture-vente',
   metaTitle: 'Diagnostic amiante toiture vente : remise du rapport obligatoire lors d’une transaction',
   metaDescription:
     'Le diagnostic amiante toiture vente doit être remis à l’acheteur. Découvrez ses obligations et son importance pour une transaction immobilière.',

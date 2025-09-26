@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/marche-public-diagnostic-toiture',
   metaTitle: 'Marché public diagnostic toiture : comprendre les obligations et étapes essentielles',
   metaDescription:
     'Le marché public diagnostic toiture encadre l’évaluation de l’état des toitures dans le cadre de projets publics. Découvrez ses obligations et son déroulement.',

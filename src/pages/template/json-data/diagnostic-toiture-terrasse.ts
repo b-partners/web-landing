@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-terrasse',
   metaTitle: 'Diagnostic toiture terrasse : analyser l’étanchéité et la solidité de votre toit plat',
   metaDescription: 'Découvrez l’importance du diagnostic toiture terrasse, son déroulement et ses bénéfices pour la durabilité de votre couverture plate.',
   hero: {

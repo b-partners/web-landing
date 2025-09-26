@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-loir-et-cher',
   metaTitle: 'Prix diagnostic toiture Loir-et-Cher : comprendre les coûts et critères',
   metaDescription:
     'Le prix d’un diagnostic toiture en Loir-et-Cher dépend de la surface et de l’état du bâtiment. Découvrez les éléments qui influencent son coût.',

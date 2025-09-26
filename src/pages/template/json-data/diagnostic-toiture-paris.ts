@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-paris',
   metaTitle: 'Diagnostic toiture Paris : protéger votre bien immobilier face aux contraintes urbaines',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture Paris est essentiel pour anticiper les réparations, éviter les infiltrations et préserver la valeur d’un bien dans la capitale.',

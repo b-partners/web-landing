@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/prix-diagnostic-toiture',
   metaTitle: "Prix diagnostic toiture : l'étape indispensable pour préserver votre bâtiment",
   metaDescription:
     'Connaître le prix d’un diagnostic toiture permet d’anticiper les dépenses, de sécuriser son bien et de planifier les travaux nécessaires en toute transparence.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-rhone',
   metaTitle: 'Diagnostic toiture Rhône : expertise locale pour préserver votre couverture',
   metaDescription:
     'Découvrez l’importance d’un diagnostic toiture Rhône, son déroulement et ses bénéfices pour la durabilité et la sécurité de votre bâtiment.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/artisan-diagnostic-toiture',
   metaTitle: "Artisan diagnostic toiture : l'étape indispensable pour préserver votre bâtiment",
   metaDescription: 'Faire appel à un artisan pour un diagnostic toiture assure une expertise de terrain fiable, adaptée à chaque type de couverture.',
   hero: {

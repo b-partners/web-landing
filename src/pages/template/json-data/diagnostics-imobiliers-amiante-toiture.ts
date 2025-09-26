@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostics-imobiliers-amiante-toiture',
   metaTitle: 'Diagnostics immobiliers et amiante en toiture : un contrôle réglementaire indispensable',
   metaDescription:
     'Découvrez pourquoi les diagnostics immobiliers et amiante en toiture sont essentiels, leurs étapes et leurs bénéfices pour sécuriser toute transaction immobilière.',

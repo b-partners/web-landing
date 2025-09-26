@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/cout-median',
   metaTitle: 'Coût médian diagnostic toiture : référence pour estimer votre budget',
   metaDescription: 'Découvrez le coût médian d’un diagnostic toiture et comment l’utiliser pour prévoir vos dépenses.',
   hero: {

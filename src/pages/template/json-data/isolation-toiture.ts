@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/isolation-toiture',
   metaTitle: 'Diagnostic isolation toiture : améliorer confort thermique et maîtriser les dépenses énergétiques',
   metaDescription:
     'Découvrez comment un diagnostic isolation toiture permet d’évaluer la performance énergétique et d’anticiper les améliorations nécessaires.',

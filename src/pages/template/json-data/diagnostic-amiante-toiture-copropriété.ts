@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-amiante-toiture-copropriété',
   metaTitle: 'Diagnostic amiante toiture en copropriété : obligations et responsabilités',
   metaDescription:
     'Le diagnostic amiante toiture en copropriété est obligatoire si l’immeuble a été construit avant 1997. Découvrez les enjeux et les responsabilités.',

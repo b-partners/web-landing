@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-etat-toiture',
   metaTitle: 'Diagnostic de l’état d’une toiture : guide complet',
   metaDescription: 'Découvrez comment un diagnostic de l’état de votre toiture permet de prévenir les dégâts et d’optimiser sa durée de vie.',
   hero: {

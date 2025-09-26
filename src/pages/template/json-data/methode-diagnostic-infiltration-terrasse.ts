@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/methode-diagnostic-infiltration-terrasse',
   metaTitle: 'Méthode diagnostic infiltration toiture terrasse : étapes clés et solutions fiables',
   metaDescription:
     'La méthode diagnostic infiltration toiture terrasse permet d’identifier précisément l’origine des fuites. Découvrez les techniques utilisées et leurs bénéfices.',

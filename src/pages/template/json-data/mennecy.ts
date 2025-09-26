@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/mennecy',
   metaTitle: "Diagnostic toiture Mennecy : l'étape indispensable pour préserver votre bâtiment",
   metaDescription:
     'Vous êtes à Mennecy ? Un diagnostic toiture réalisé par un expert est crucial pour anticiper dégradations, prolonger la durée de vie de votre couverture et planifier vos travaux sereinement.',

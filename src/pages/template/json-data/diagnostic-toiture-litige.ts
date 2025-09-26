@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-litige',
   metaTitle: 'Diagnostic toiture : contre qui se retourner en cas de litige ?',
   metaDescription:
     'Diagnostic toiture mal réalisé ou problèmes après travaux ? Découvrez contre qui se retourner selon les responsabilités engagées : couvreur, expert, vendeur ou assurance.',

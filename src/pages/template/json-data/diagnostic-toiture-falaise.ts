@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-falaise',
   metaTitle: 'Diagnostic de toiture en zone de falaise : anticiper les contraintes environnementales',
   metaDescription: 'Découvrez l’importance d’un diagnostic de toiture en zone de falaise pour protéger le bâtiment face aux conditions extrêmes.',
   hero: {

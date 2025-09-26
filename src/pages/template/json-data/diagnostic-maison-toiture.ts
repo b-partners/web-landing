@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-maison-toiture',
   metaTitle: 'Diagnostic maison à vendre toiture : sécuriser la transaction et rassurer les acheteurs',
   metaDescription:
     'Découvrez pourquoi un diagnostic maison à vendre toiture est essentiel pour valoriser le bien, anticiper les réparations et éviter tout litige lors de la vente.',

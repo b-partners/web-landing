@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-technique-toiture-fuite-immo',
   metaTitle: 'Diagnostic technique immobilier fuite toiture : rôle et utilité avant une transaction',
   metaDescription:
     'Le diagnostic technique immobilier fuite toiture identifie les infiltrations et informe acheteurs et vendeurs sur l’état réel de la couverture.',

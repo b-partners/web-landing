@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/validite-diagnostic-amiante-toiture-garage',
   metaTitle: 'Validité diagnostic amiante toiture garage : durée et obligations à connaître',
   metaDescription: 'La validité d’un diagnostic amiante toiture garage dépend de la présence ou non d’amiante. Découvrez combien de temps il reste valable.',
   hero: {

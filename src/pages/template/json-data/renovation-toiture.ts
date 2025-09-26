@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/renovation-toiture',
   metaTitle: 'Rénovation toiture : redonner solidité et performance à votre couverture',
   metaDescription: 'La rénovation toiture préserve votre bâtiment des infiltrations, pertes d’énergie et dégradations. Découvrez ses étapes et ses bénéfices.',
   hero: {

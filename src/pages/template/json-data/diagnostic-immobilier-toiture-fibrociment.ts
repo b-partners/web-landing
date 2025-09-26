@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-immobilier-toiture-fibrociment',
   metaTitle: 'Diagnostic immobilier toiture fibrociment : ce qu’il faut vérifier',
   metaDescription:
     'Le diagnostic immobilier toiture fibrociment évalue la présence d’amiante dans les tuiles-ciment. Découvrez son importance avant vente ou travaux.',

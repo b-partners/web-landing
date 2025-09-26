@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/essonne',
   metaTitle: "Diagnostic toiture Essonne : l'étape indispensable pour préserver votre bâtiment",
   metaDescription:
     'Vous êtes en Essonne ? Un diagnostic toiture réalisé par un expert est crucial pour anticiper dégradations, prolonger la durée de vie de votre couverture et planifier vos travaux sereinement.',

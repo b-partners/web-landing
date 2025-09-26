@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-toulouse',
   metaTitle: 'Diagnostic toiture à Toulouse : un contrôle adapté aux conditions climatiques locales',
   metaDescription:
     'Découvrez pourquoi réaliser un diagnostic toiture à Toulouse est essentiel, ses étapes et ses bénéfices pour la durabilité et la sécurité de votre bâtiment.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-terrasse-pdf',
   metaTitle: 'Diagnostic toiture terrasse PDF : un rapport clair et structuré pour vos toits plats',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture terrasse PDF est indispensable, son déroulement et son utilité pour le suivi technique et administratif.',

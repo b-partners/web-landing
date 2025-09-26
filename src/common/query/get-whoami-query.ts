@@ -17,7 +17,7 @@ const mutationFn = async (apikey: string) => {
 
 export const useGetWhoamiQuery = () => {
   const navigate = useNavigate();
-  const onSuccess = () => navigate(`/templateGenerator?apikey=${getCached.apikey()}`);
+  const onSuccess = () => navigate(`/template/menu?apikey=${getCached.apikey()}`);
   const { mutate, isPending } = useMutation({ mutationKey: ['whoami'], mutationFn, onSuccess });
   return {
     getWhoami: mutate,

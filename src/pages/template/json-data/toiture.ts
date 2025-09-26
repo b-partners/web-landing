@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture',
   metaTitle: 'Une toiture : rôle, composition et importance d’un élément clé du bâtiment',
   metaDescription: 'Une toiture assure la protection, l’isolation et la pérennité d’un bâtiment. Découvrez son importance et sa composition essentielle.',
   hero: {

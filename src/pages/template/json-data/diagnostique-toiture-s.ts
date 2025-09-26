@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostique-toiture-s',
   metaTitle: 'Diagnostic toiture : analyser l’état de votre couverture pour prévenir les désordres',
   metaDescription: 'Découvrez en quoi consiste un diagnostic toiture, son déroulement et son importance pour la longévité de votre toit.',
   hero: {

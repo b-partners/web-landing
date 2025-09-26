@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-etancheite-toiture-terrasse-pdf',
   metaTitle: 'Diagnostic étanchéité toiture terrasse PDF : un rapport technique clair et structuré',
   metaDescription:
     'Découvrez pourquoi un diagnostic étanchéité toiture terrasse PDF est indispensable, les étapes clés et ses bénéfices pour assurer le suivi et la pérennité des bâtiments.',

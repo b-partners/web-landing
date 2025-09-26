@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-charpente',
   metaTitle: 'Diagnostic toiture charpente : contrôler l’état global de la couverture et de sa structure',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture charpente est indispensable pour anticiper les risques, prévenir les infiltrations et garantir la solidité du bâtiment.',

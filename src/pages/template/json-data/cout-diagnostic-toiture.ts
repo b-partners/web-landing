@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/cout-diagnostic-toiture',
   metaTitle: 'Coût diagnostic toiture : comprendre et anticiper votre budget',
   metaDescription: 'Découvrez le coût d’un diagnostic toiture, ses facteurs de variation et son importance pour anticiper vos travaux.',
   hero: {

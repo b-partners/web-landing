@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/expert-en-toiture',
   metaTitle: 'Expert en toiture : votre meilleur atout pour préserver la solidité de votre couverture',
   metaDescription: 'L’expert en toiture détecte les anomalies, évalue les risques et vous guide vers les bonnes décisions',
   hero: {

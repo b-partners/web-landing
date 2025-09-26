@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-amiante-toiture-fibrociment',
   metaTitle: 'Diagnostic amiante toiture fibrociment Tarn-et-Garonne : ce qu’il faut savoir',
   metaDescription:
     'Le diagnostic amiante toiture fibrociment en Tarn-et-Garonne est obligatoire pour certains biens. Découvrez son importance et ses modalités.',

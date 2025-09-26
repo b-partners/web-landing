@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-gratuit-toiture-immeuble',
   metaTitle: 'Diagnostic gratuit de toiture d’immeuble : un outil clé pour l’entretien',
   metaDescription:
     'Découvrez pourquoi un diagnostic gratuit de toiture d’immeuble est essentiel pour anticiper les travaux et prolonger la durée de vie de la couverture.',

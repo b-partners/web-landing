@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-étanchéité-toiture-s',
   metaTitle: 'Diagnostic étanchéité toiture : prévenir infiltrations et préserver la durabilité',
   metaDescription:
     'Découvrez pourquoi un diagnostic étanchéité toiture est indispensable, ses étapes et ses bénéfices pour assurer la protection et la longévité de votre bâtiment.',

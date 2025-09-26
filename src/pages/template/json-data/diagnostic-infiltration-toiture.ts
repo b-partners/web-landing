@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-infiltration-toiture',
   metaTitle: 'Diagnostic infiltration toiture : que faire face aux traces d’humidité ?',
   metaDescription:
     'Le diagnostic infiltration toiture identifie l’origine des traces d’humidité ou de fuites. Découvrez son importance pour prévenir des dégâts plus graves.',

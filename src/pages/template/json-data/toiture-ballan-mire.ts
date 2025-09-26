@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-ballan-mire',
   metaTitle: 'Diagnostic toiture Ballan-Miré : protéger et valoriser votre bien immobilier',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture à Ballan-Miré est essentiel pour anticiper les réparations, préserver la durabilité du toit et sécuriser votre patrimoine immobilier.',

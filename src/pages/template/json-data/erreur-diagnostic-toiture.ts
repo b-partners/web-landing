@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/erreur-diagnostic-toiture',
   metaTitle: 'Erreur diagnostic toiture vente maison : que faire en cas de litige ?',
   metaDescription:
     'Une erreur diagnostic toiture vente maison peut avoir de lourdes conséquences. Découvrez les recours possibles en cas de matériau mal identifié ou de défaut non signalé.',

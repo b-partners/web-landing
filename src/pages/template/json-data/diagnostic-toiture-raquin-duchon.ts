@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-raquin-duchon',
   metaTitle: 'Diagnostic toiture Raquin Duchon : expertise et points essentiels',
   metaDescription:
     'Le diagnostic toiture Raquin Duchon permet d’évaluer l’état complet de la couverture et de la charpente. Découvrez ses étapes et ses enjeux.',

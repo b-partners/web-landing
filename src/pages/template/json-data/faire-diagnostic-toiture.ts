@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/faire-diagnostic-toiture',
   metaTitle: 'Faire un diagnostic toiture : étapes et enjeux pour votre couverture',
   metaDescription:
     'Faire un diagnostic toiture permet de repérer usure, infiltrations et défauts de charpente. Découvrez les étapes clés et l’importance de cette inspection.',

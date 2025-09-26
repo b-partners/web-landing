@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-fumee-blanche',
   metaTitle: 'Diagnostic de toiture en cas de fumée blanche : identifier la cause et prévenir les risques',
   metaDescription:
     'Découvrez comment un diagnostic de toiture face à l’apparition de fumée blanche permet de détecter et traiter rapidement l’origine du problème.',

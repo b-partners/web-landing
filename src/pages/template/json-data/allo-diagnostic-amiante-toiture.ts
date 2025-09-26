@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/allo-diagnostic-amiante-toiture',
   metaTitle: 'Allo diagnostic amiante toiture : identifier les risques et sécuriser votre bâtiment',
   metaDescription:
     'Découvrez en quoi consiste le service « allo diagnostic amiante toiture », son déroulement et son importance pour la santé et la conformité réglementaire.',

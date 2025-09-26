@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-vice-caché',
   metaTitle: 'Diagnostic toiture vice caché : un contrôle décisif avant et après une vente',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture vice caché est essentiel, ses étapes et ses bénéfices pour éviter litiges et mauvaises surprises lors d’une transaction immobilière.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-lannion',
   metaTitle: 'Diagnostic de toiture à Lannion : préserver votre couverture face aux conditions locales',
   metaDescription: 'Découvrez comment un diagnostic de toiture à Lannion permet d’anticiper les réparations et de prolonger la durée de vie du toit.',
   hero: {

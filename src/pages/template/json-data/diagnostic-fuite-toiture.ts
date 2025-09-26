@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-fuite-toiture',
   metaTitle: "Diagnostic fuite toiture : l'étape indispensable pour préserver votre bâtiment",
   metaDescription: 'Un diagnostic fuite toiture permet d’identifier rapidement l’origine des infiltrations et d’éviter des dégâts majeurs dans le bâti.',
   hero: {

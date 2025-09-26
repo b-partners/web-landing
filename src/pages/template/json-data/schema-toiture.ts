@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/schema-toiture',
   metaTitle: 'Schéma toiture : comprendre la structure de votre couverture en un coup d’œil',
   metaDescription:
     'Le schéma toiture vous aide à visualiser clairement la composition et les éléments clés d’un toit. Indispensable pour tout diagnostic ou projet de rénovation.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-vente-maison',
   metaTitle: 'Diagnostic toiture vente maison : documents essentiels à fournir lors d’une transaction',
   metaDescription:
     'Le diagnostic toiture vente maison évalue l’état de la couverture. Découvrez les documents nécessaires pour sécuriser une transaction immobilière.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-garage-amiante',
   metaTitle: 'Diagnostic immobilier d’une toiture de garage contenant de l’amiante : ce qu’il faut savoir',
   metaDescription: 'Découvrez l’importance du diagnostic immobilier d’une toiture de garage amiantée pour garantir sécurité et conformité réglementaire.',
   hero: {
