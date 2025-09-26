@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-immobilier-infiltration-toiture',
   metaTitle: 'Diagnostic immobilier infiltration toiture : comprendre l’origine des traces d’humidité',
   metaDescription: 'Le diagnostic immobilier infiltration toiture identifie les causes d’humidité et de fuites. Un contrôle essentiel avant vente ou achat.',
   hero: {

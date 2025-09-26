@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/etat-toiture-avant-achat',
   metaTitle: 'Diagnostic de l’état d’une toiture avant achat : un contrôle indispensable',
   metaDescription: 'Découvrez pourquoi un diagnostic de l’état d’une toiture avant achat est crucial pour sécuriser votre investissement immobilier',
   hero: {

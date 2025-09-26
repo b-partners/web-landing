@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-plomb-toiture-travaux',
   metaTitle: 'Diagnostic plomb toiture travaux : est-il nécessaire avant une intervention ?',
   metaDescription:
     'Le diagnostic plomb toiture travaux évalue la présence de plomb avant réfection. Découvrez dans quels cas il est obligatoire ou recommandé.',

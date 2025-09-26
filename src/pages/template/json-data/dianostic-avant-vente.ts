@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/dianostic-avant-vente',
   metaTitle: 'Demande diagnostic toiture avant vente immobilière : un atout pour sécuriser la transaction',
   metaDescription: 'Découvrez pourquoi et comment faire une demande de diagnostic toiture avant une vente immobilière.',
   hero: {

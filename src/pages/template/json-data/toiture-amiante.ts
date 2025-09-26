@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-amiante',
   metaTitle: 'Diagnostic toiture amiante : un contrôle indispensable pour sécurité et conformité',
   metaDescription: 'Découvrez pourquoi un diagnostic toiture amiante est essentiel pour détecter les risques sanitaires et respecter la réglementation.',
   hero: {

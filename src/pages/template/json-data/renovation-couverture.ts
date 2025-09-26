@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/renovation-couverture',
   metaTitle: 'Rénovation couverture : redonner performance et esthétisme à votre toit',
   metaDescription: 'Découvrez en quoi consiste la rénovation couverture, son déroulement et ses bénéfices durables pour votre bâtiment.',
   hero: {

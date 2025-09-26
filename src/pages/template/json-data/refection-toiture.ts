@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/refection-toiture',
   metaTitle: 'Réfection de la toiture : une étape clé pour la pérennité de votre couverture',
   metaDescription: 'La réfection de la toiture permet de remettre à neuf une couverture vétuste ou endommagée. Découvrez quand et comment intervenir.',
   hero: {

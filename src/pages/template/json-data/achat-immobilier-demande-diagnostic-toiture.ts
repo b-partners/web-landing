@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/achat-immobilier-demande-diagnostic-toiture',
   metaTitle: 'Achat immobilier demande diagnostic toiture : sécuriser votre investissement',
   metaDescription:
     'Découvrez pourquoi il est essentiel de demander un diagnostic toiture lors d’un achat immobilier, comment il se déroule et les bénéfices à long terme.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/obligation-diagnostic-toiture-achat-maison',
   metaTitle: 'Obligation diagnostic toiture achat maison : ce qu’il faut savoir',
   metaDescription: 'L’obligation diagnostic toiture achat maison soulève des questions lors d’une transaction. Découvrez les règles et leur utilité.',
   hero: {

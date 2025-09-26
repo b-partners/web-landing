@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-terrasse-dtu-43',
   metaTitle: 'Diagnostic toiture terrasse DTU 43.3 : un contrôle conforme aux normes professionnelles',
   metaDescription:
     'Découvrez pourquoi réaliser un diagnostic toiture terrasse DTU 43.3 est indispensable, ses étapes et son rôle dans la conformité réglementaire.',

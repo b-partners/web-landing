@@ -39,3 +39,14 @@ export const templateLoginStyle: SxProps = {
     borderRadius: 1,
   },
 };
+
+export const templateMenuStyle: SxProps = {
+  width: '100%',
+  height: '95vh',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  '& .MuiCard-root': {
+    width: '500px',
+  },
+};

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/charpente-toiture-rhone',
   metaTitle: 'Diagnostic charpente et toiture Rhône : évaluer et préserver la structure de votre bâtiment',
   metaDescription: 'Découvrez l’importance d’un diagnostic charpente et toiture dans le Rhône pour assurer solidité et durabilité.',
   hero: {

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-bordeaux',
   metaTitle: 'Diagnostic toiture Bordeaux : préserver votre bien face au climat océanique',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture à Bordeaux est essentiel pour anticiper les réparations et protéger votre patrimoine immobilier face aux intempéries.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-cout',
   metaTitle: 'Toiture coût : ce qu’il faut savoir pour anticiper vos dépenses de couverture',
   metaDescription: 'Le coût d’une toiture varie selon les matériaux, la surface, et l’état existant. Estimez au mieux',
   hero: { title: 'BIRDIA, le seul outil de diagnostique toiture', items: ['Pas de CB requise', 'Essaie gratuit de 14 jours', "Jusqu'à 38 analyses"] },

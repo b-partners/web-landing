@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-amiante-toiture-douai',
   metaTitle: 'Diagnostic amiante toiture Douai : rôle d’une société spécialisée',
   metaDescription:
     'Le diagnostic amiante toiture à Douai permet d’identifier la présence d’amiante sur les couvertures. Découvrez l’importance d’une société spécialisée locale.',

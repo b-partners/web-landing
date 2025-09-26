@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-etancheite-toiture-terrasse-lyon',
   metaTitle: 'Diagnostic étanchéité toiture terrasse à Lyon : un contrôle adapté au climat local',
   metaDescription:
     'Découvrez pourquoi réaliser un diagnostic étanchéité toiture terrasse Lyon est essentiel, ses étapes clés et ses bénéfices pour prévenir infiltrations et préserver vos bâtiments.',

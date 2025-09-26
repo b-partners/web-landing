@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/refection-des-toitures',
   metaTitle: 'Réfection des toitures : restaurer la performance et la durabilité de votre couverture',
   metaDescription: 'Découvrez en quoi consiste la réfection des toitures, son déroulement et ses bénéfices à long terme.',
   hero: {

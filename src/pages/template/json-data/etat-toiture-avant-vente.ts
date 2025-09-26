@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/etat-toiture-avant-vente',
   metaTitle: 'Diagnostic de l’état d’une toiture avant vente : un atout pour valoriser le bien',
   metaDescription: 'Découvrez pourquoi un diagnostic de l’état d’une toiture avant achat est crucial pour sécuriser votre investissement immobilier',
   hero: {

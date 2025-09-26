@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/immobilier-toiture',
   metaTitle: 'Diagnostic immobilier et toiture : un contrôle essentiel avant transaction',
   metaDescription:
     "Mesures précises, détection d'anomalies (usures, moisissures...), et gestion de dossiers. Gagnez du temps, optimisez vos interventions !Découvrez pourquoi le diagnostic immobilier incluant la toiture est indispensable pour sécuriser une vente ou un achat.",

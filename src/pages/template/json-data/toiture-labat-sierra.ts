@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-labat-sierra',
   metaTitle: 'Diagnostic de toiture Labat Sierra : évaluer et protéger efficacement votre couverture',
   metaDescription: 'Découvrez l’importance d’un diagnostic de toiture Labat Sierra pour assurer la longévité et la sécurité de votre bâtiment.',
   hero: {

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-nancy',
   metaTitle: 'Diagnostic de toiture à Nancy : anticiper l’usure face au climat lorrain',
   metaDescription: 'Découvrez comment un diagnostic de toiture à Nancy permet de prévenir infiltrations et dégradations liées aux intempéries.',
   hero: {

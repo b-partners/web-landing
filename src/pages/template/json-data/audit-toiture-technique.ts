@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/audit-toiture-technique',
   metaTitle: "Audit toiture technique : l'étape indispensable pour préserver votre bâtiment",
   metaDescription:
     'Un audit toiture technique réalisé par un expert est crucial pour anticiper les dégradations, optimiser la performance de la couverture et sécuriser vos investissements immobiliers.',

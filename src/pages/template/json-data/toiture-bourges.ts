@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-bourges',
   metaTitle: 'Diagnostic toiture Bourges : préserver votre bien face aux variations climatiques',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture à Bourges est essentiel pour anticiper les réparations, prolonger la durée de vie du toit et sécuriser votre patrimoine immobilier.',

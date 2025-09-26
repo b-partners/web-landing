@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/achat-bien-immobilier',
   metaTitle: 'Diagnostic toiture achat bien immobilier : sécuriser son investissement avant de signer',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture avant l’achat d’un bien immobilier est essentiel pour anticiper les travaux et éviter les mauvaises surprises.',

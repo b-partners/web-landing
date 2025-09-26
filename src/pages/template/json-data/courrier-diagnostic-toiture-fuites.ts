@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/courrier-diagnostic-toiture-fuites',
   metaTitle: 'Courrier suite diagnostic toiture fuites : modèle et conseils pratiques',
   metaDescription:
     'Découvrez comment rédiger un courrier suite diagnostic toiture fuites pour alerter un syndic, un propriétaire ou une assurance, avec un exemple clair et adapté.',

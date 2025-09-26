@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/travaux-de-couverture',
   metaTitle: 'Travaux de couverture : assurer la protection durable de votre bâtiment',
   metaDescription: 'Les travaux de couverture sont essentiels pour préserver l’étanchéité et la solidité du toit. Comprenez leur rôle et leur déroulement.',
   hero: {

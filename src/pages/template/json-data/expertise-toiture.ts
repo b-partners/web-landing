@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/expertise-toiture',
   metaTitle: 'Expertise toiture : une étape clé pour évaluer et sécuriser votre couverture',
   metaDescription: 'L’expertise toiture permet d’identifier les défauts d’une couverture et de prévenir les risques de fuites ou sinistres.',
   hero: { title: 'BIRDIA, le seul outil de diagnostique toiture', items: ['Pas de CB requise', 'Essaie gratuit de 14 jours', "Jusqu'à 38 analyses"] },

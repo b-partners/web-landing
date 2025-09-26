@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toit',
   metaTitle: 'Diagnostic toit : anticiper les problèmes pour préserver votre couverture',
   metaDescription: 'Un diagnostic toit permet de détecter les faiblesses et d’assurer la longévité de votre toiture. Découvrez son utilité.',
   hero: {

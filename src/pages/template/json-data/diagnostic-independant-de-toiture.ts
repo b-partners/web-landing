@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-independant-de-toiture',
   metaTitle: 'Diagnostic indépendant de toiture : un contrôle objectif pour une évaluation fiable',
   metaDescription: 'Découvrez pourquoi un diagnostic indépendant de toiture garantit une évaluation neutre et précise de son état.',
   hero: {

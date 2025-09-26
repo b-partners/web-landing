@@ -11,34 +11,34 @@ import { GenInput } from '@pages/template/components/GenInput';
 
 import analyseCarousel from '../assets/images/analyses-carousel/1.webp';
 import { ANALYSES } from '../utils/constant';
-import { AnalayseItem } from './analyse-item';
+import { AnalyseItem } from './analyse-item';
 
-const ANALAYSE_SX: SxProps = {
+const ANALYSE_SX: SxProps = {
   alignItems: 'stretch',
   flexWrap: 'wrap',
 };
 
-interface AnalayseProps {
-  analayseData?: any;
+interface AnalyseProps {
+  analyseData?: any;
 }
 
-export const Analayse: FC<AnalayseProps> = (props) => {
-  const { analayseData } = props;
+export const Analyse: FC<AnalyseProps> = (props) => {
+  const { analyseData } = props;
   const location = useLocation();
   const isEditMode = location.pathname === '/templateGenerator';
 
-  const rawImage = analayseData?.image;
+  const rawImage = analyseData?.image;
   const analyseImageUrl = rawImage instanceof File ? URL.createObjectURL(rawImage) : rawImage || analyseCarousel;
 
-  const titreAnalyse = analayseData?.title || 'Analyse automatisée de toitures par intelligence artificielle';
+  const titreAnalyse = analyseData?.title || 'Analyse automatisée de toitures par intelligence artificielle';
   const explication =
-    analayseData?.explication ||
+    analyseData?.explication ||
     `Détection, qualification et recommandation à partir d’images aériennes HD.\nEn un clic, obtenez un diagnostic métier précis sans monter sur le toit.`;
 
   return (
-    <FlexBox component="section" sx={ANALAYSE_SX}>
+    <FlexBox component="section" sx={ANALYSE_SX}>
       <Box sx={{ flex: 1 }}>
-        {((analayseData?.information || ANALYSES) as typeof ANALYSES).map((analyse, index) => {
+        {((analyseData?.information || ANALYSES) as typeof ANALYSES).map((analyse, index) => {
           return isEditMode ? (
             <Box key={index} sx={{ px: 3, py: 7, bgcolor: ANALYSES[index].bgcolor, color: ANALYSES[index].color }}>
               <GenInput
@@ -55,7 +55,7 @@ export const Analayse: FC<AnalayseProps> = (props) => {
               />
             </Box>
           ) : (
-            <AnalayseItem key={analyse.title + index} analyse={{ ...analyse, bgcolor: ANALYSES[index].bgcolor, color: ANALYSES[index].color }} index={index} />
+            <AnalyseItem key={analyse.title + index} analyse={{ ...analyse, bgcolor: ANALYSES[index].bgcolor, color: ANALYSES[index].color }} index={index} />
           );
         })}
       </Box>

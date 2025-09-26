@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/prix-diagnostic-amiante-toiture',
   metaTitle: "Prix diagnostic amiante toiture : l'étape indispensable pour préserver votre bâtiment",
   metaDescription:
     'Connaître le prix d’un diagnostic amiante toiture est essentiel pour anticiper les coûts et sécuriser tout projet de rénovation ou de vente.',

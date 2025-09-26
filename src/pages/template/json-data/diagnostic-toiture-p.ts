@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-p',
   metaTitle: 'Diagnostic toiture prix : comprendre le coût et l’importance de l’évaluation',
   metaDescription: 'Découvrez comment se détermine le prix d’un diagnostic toiture, pourquoi il est essentiel et quelles actions en découlent.',
   hero: {

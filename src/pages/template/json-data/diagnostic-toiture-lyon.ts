@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-lyon',
   metaTitle: 'Diagnostic de toiture à Lyon : anticiper les réparations et protéger votre bâtiment',
   metaDescription: 'Découvrez comment un diagnostic de toiture à Lyon permet de détecter les défauts et prolonger la durée de vie de votre toit.',
   hero: {

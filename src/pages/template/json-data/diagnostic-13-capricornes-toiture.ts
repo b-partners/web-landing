@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-13-capricornes-toiture',
   metaTitle: 'Campagne de diagnostic 13 capricornes toiture : prévenir et traiter les infestations',
   metaDescription:
     'Découvrez en quoi consiste une campagne de diagnostic 13 capricornes toiture, son importance et ses bénéfices pour préserver la charpente et la couverture.',

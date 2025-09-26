@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/achat-maison',
   metaTitle: "Diagnostic toiture achat maison : l'étape indispensable pour préserver votre investissement",
   metaDescription: 'Un diagnostic toiture avant l’achat d’une maison permet d’anticiper les travaux à prévoir et d’acheter en toute sécurité.',
   hero: {

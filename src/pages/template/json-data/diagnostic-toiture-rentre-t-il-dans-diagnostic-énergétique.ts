@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-rentre-t-il-dans-diagnostic-énergétique',
   metaTitle: 'Le diagnostic toiture rentre t-il dans diagnostic énergétique : comprendre la différence',
   metaDescription: 'Découvrez si le diagnostic toiture rentre dans le diagnostic énergétique et quelles sont les différences entre ces deux contrôles.',
   hero: {

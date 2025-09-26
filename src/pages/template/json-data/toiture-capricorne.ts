@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-capricorne',
   metaTitle: 'Diagnostic toiture Capricorne : assurer un contrôle fiable et rigoureux de votre couverture',
   metaDescription:
     'Découvrez l’importance d’un diagnostic toiture Capricorne pour vérifier l’état du toit, anticiper les réparations et prolonger sa durabilité.',

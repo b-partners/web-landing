@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-copropriété',
   metaTitle: 'Diagnostic toiture copropriété : anticiper l’entretien et sécuriser l’immeuble',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture copropriété est indispensable pour planifier les travaux, préserver la valeur de l’immeuble et assurer la sécurité des occupants.',

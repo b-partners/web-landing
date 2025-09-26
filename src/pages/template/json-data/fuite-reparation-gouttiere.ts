@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/fuite-reparation-gouttiere',
   metaTitle: 'Diagnostic toiture fuites et réparation de gouttière : prévenir les infiltrations efficacement',
   metaDescription:
     'Découvrez comment un diagnostic toiture fuites et réparation de gouttière permet de détecter les infiltrations, d’évaluer les dégâts et d’assurer la pérennité du bâtiment.',

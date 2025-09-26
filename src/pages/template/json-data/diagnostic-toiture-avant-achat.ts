@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-avant-achat',
   metaTitle: "Diagnostic toiture avant achat : l'étape indispensable pour préserver votre investissement",
   metaDescription: 'Faire réaliser un diagnostic toiture avant achat immobilier sécurise votre acquisition et révèle les éventuels travaux à prévoir.',
   hero: {

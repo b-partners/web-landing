@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-ardoise',
   metaTitle: 'Diagnostic toiture ardoise : préserver l’élégance et la solidité de votre couverture',
   metaDescription: 'Diagnostic toiture ardoise : préserver l’élégance et la solidité de votre couverture',
   hero: {

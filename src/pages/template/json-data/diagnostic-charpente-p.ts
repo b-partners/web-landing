@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-charpente-p',
   metaTitle: 'Diagnostic charpente prix : comprendre le coût et l’importance de l’examen structurel',
   metaDescription:
     'Découvrez comment se détermine le prix d’un diagnostic de charpente, pourquoi cette expertise est indispensable et quelles étapes suivent l’inspection.',

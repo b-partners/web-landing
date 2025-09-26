@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/expert-toiture',
   metaTitle: 'Expert toiture : un allié indispensable pour la santé de votre couverture',
   metaDescription:
     'Faites appel à un expert toiture pour évaluer, sécuriser et pérenniser votre couverture. Diagnostic précis et conseils adaptés à chaque situation.',

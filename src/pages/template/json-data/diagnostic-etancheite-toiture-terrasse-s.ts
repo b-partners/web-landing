@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-etancheite-toiture-terrasse-s',
   metaTitle: 'Diagnostic étanchéité toiture-terrasse : anticiper les infiltrations et protéger le bâtiment',
   metaDescription:
     'Découvrez pourquoi réaliser un diagnostic étanchéité toiture-terrasse est essentiel, ses étapes et ses bénéfices pour préserver la durabilité des constructions.',

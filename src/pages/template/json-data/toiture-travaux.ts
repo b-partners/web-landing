@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-travaux',
   metaTitle: 'Toiture travaux : réussir vos rénovations et prolonger la vie de votre couverture',
   metaDescription: 'Les travaux de toiture garantissent l’étanchéité, la solidité et la pérennité de votre habitat. Découvrez quand et comment intervenir.',
   hero: {

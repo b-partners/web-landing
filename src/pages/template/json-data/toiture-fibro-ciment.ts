@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/toiture-fibro-ciment',
   metaTitle: 'Diagnostic amiante toiture fibro ciment : identifier et sécuriser les matériaux à risque',
   metaDescription: 'Découvrez pourquoi un diagnostic amiante toiture fibro ciment est essentiel pour détecter et gérer les risques sanitaires',
   hero: {

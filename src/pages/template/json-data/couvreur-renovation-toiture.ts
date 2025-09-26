@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/couvreur-renovation-toiture',
   metaTitle: 'Couvreur rénovation toiture : un expert clé pour remettre votre toit en état',
   metaDescription: 'Le couvreur rénovation toiture intervient pour diagnostiquer, réparer ou refaire un toit dégradé. Découvrez son rôle et son savoir-faire.',
   hero: {

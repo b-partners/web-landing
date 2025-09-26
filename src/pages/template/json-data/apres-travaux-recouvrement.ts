@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/apres-travaux-recouvrement',
   metaTitle: 'Diagnostic amiante après travaux de recouvrement de toiture : un contrôle indispensable',
   metaDescription:
     'Découvrez pourquoi réaliser un diagnostic amiante après travaux de recouvrement de toiture est essentiel pour la sécurité et la conformité.',

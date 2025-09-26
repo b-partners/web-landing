@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-rungis',
   metaTitle: 'Diagnostic toiture Rungis : évaluer et protéger les toits locaux',
   metaDescription: 'Découvrez l’importance du diagnostic toiture à Rungis, son déroulement et ses bénéfices pour préserver la couverture de votre bâtiment.',
   hero: {

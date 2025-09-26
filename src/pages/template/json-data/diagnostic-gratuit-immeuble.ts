@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-gratuit-immeuble',
   metaTitle: 'Diagnostic gratuit de toiture d’immeuble : un contrôle préventif accessible',
   metaDescription: 'Découvrez comment un diagnostic gratuit de toiture d’immeuble permet de repérer les défauts et anticiper les réparations',
   hero: {

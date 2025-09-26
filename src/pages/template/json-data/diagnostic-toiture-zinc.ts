@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-zinc',
   metaTitle: 'Diagnostic d’une toiture en zinc : tout ce qu’il faut savoir',
   metaDescription:
     'Découvrez l’importance du diagnostic d’une toiture en zinc pour préserver sa durabilité, prévenir les fuites et anticiper les réparations nécessaires.',

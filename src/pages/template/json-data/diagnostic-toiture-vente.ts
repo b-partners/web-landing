@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-vente',
   metaTitle: 'Diagnostic toiture vente : sécuriser la transaction immobilière',
   metaDescription: 'Découvrez pourquoi le diagnostic toiture vente est essentiel, comment il se déroule et son rôle dans une cession immobilière sereine.',
   hero: {

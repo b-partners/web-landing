@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-alsace',
   metaTitle: 'Diagnostic toiture Alsace : protéger votre couverture face au climat régional',
   metaDescription:
     'Découvrez pourquoi un diagnostic toiture en Alsace est indispensable pour anticiper les réparations et préserver la durabilité de votre couverture.',

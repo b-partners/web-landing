@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-étanchéité-toiture-drone',
   metaTitle: 'Diagnostic étanchéité toiture au drone : une inspection rapide et précise sans risque',
   metaDescription:
     'Découvrez pourquoi un diagnostic étanchéité toiture drone est essentiel, ses étapes et ses bénéfices pour contrôler l’état des toitures en toute sécurité.',

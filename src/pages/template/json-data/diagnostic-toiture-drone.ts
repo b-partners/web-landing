@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-drone',
   metaTitle: "Diagnostic toiture drone : l'étape indispensable pour préserver votre bâtiment",
   metaDescription:
     'Un diagnostic toiture par drone offre une inspection précise et sécurisée, idéale pour détecter les défauts invisibles sans monter sur la couverture.',

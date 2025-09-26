@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/loi-alur',
   metaTitle: 'Diagnostic toiture et peinture loi ALUR : un contrôle obligatoire en copropriété',
   metaDescription:
     'Découvrez pourquoi le diagnostic toiture et peinture loi ALUR est essentiel pour la gestion d’immeubles en copropriété et la planification des travaux.',

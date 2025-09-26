@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-particuliers',
   metaTitle: 'Diagnostic de toiture pour particuliers : protéger son habitat et anticiper les réparations',
   metaDescription: 'Découvrez comment un diagnostic de toiture pour particuliers aide à prévenir les infiltrations et prolonger la durée de vie du toit.',
   hero: {

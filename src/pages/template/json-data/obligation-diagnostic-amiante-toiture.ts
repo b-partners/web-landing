@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/obligation-diagnostic-amiante-toiture',
   metaTitle: 'Obligation diagnostic amiante toiture : ce que dit la réglementation',
   metaDescription: 'L’obligation diagnostic amiante toiture concerne de nombreux bâtiments. Découvrez les cas où il est exigé et son importance.',
   hero: {

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/feuille-diagnostic-toiture',
   metaTitle: 'Feuille de diagnostic toiture : un outil pratique pour évaluer l’état de sa couverture',
   metaDescription:
     'La feuille de diagnostic toiture permet de consigner l’état de la couverture, ses défauts et les réparations à prévoir. Découvrez son utilité et son contenu type.',

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/refection-toiture-def',
   metaTitle: 'Réfection toiture définition : comprendre la notion et ses implications',
   metaDescription: 'Découvrez la définition précise de la réfection toiture, son objectif et les étapes clés de cette intervention.',
   hero: {

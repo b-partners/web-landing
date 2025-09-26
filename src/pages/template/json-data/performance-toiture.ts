@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/performance-toiture',
   metaTitle: 'Diagnostic performance toiture : évaluer l’efficacité et anticiper les améliorations nécessaires',
   metaDescription: 'Découvrez comment un diagnostic performance toiture permet de mesurer l’efficacité globale du toit et d’anticiper son entretien.',
   hero: {

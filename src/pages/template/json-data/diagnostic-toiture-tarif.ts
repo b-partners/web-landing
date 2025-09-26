@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-tarif',
   metaTitle: 'Diagnostic toiture tarif : comprendre le coût d’un contrôle de couverture',
   metaDescription:
     'Découvrez tout ce qu’il faut savoir sur le diagnostic toiture tarif, ses facteurs de variation et ses bénéfices pour la sécurité et la durabilité du bâtiment.',

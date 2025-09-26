@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/obligation-diagnostic-fenetres-portes-toiture',
   metaTitle: 'Obligation diagnostic fenêtres portes toiture : que dit la réglementation ?',
   metaDescription:
     'Découvrez les obligations de diagnostics pour les fenêtres, portes et toiture dans le cadre des transactions immobilières ou de la rénovation, et leurs enjeux pour votre patrimoine.',

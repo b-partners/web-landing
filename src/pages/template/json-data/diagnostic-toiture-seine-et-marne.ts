@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-seine-et-marne',
   metaTitle: 'Diagnostic toiture en Seine-et-Marne : un contrôle adapté aux spécificités locales',
   metaDescription:
     'Découvrez pourquoi réaliser un diagnostic toiture Seine-et-Marne est essentiel, son déroulement et ses bénéfices pour préserver votre bâtiment.',

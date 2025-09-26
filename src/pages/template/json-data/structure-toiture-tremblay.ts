@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/structure-toiture-tremblay',
   metaTitle: 'Diagnostic structure toiture Tremblay : garantir la sécurité et la durabilité de votre couverture',
   metaDescription: 'Découvrez l’importance d’un diagnostic structure toiture à Tremblay pour évaluer la solidité et prévenir les risques.',
   hero: {

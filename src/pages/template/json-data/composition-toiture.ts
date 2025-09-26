@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/composition-toiture',
   metaTitle: 'Composition toiture : les éléments clés à connaître pour une couverture performante',
   metaDescription: 'La composition toiture influence l’étanchéité, l’isolation et la durabilité. Découvrez les composants essentiels d’un toit.',
   hero: {

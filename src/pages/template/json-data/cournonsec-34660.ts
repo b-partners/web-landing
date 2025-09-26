@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/cournonsec-34660',
   metaTitle: 'Devis diagnostic toiture Cournonsec 34660 : évaluer précisément votre projet',
   metaDescription: 'Obtenez toutes les informations pour demander un devis diagnostic toiture à Cournonsec 34660 et anticiper votre budget.',
   hero: {

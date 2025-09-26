@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-amiante-faux-toiture',
   metaTitle: 'Diagnostic amiante avant achat faux toiture non signalée : prévenir les mauvaises surprises',
   metaDescription: 'Découvrez pourquoi un diagnostic amiante avant achat est crucial en cas de faux plafond ou toiture non signalée.',
   hero: {

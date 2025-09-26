@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-amiante-avant-travaux',
   metaTitle: 'Diagnostic amiante avant travaux toiture : sécuriser votre chantier',
   metaDescription: 'Découvrez pourquoi un diagnostic amiante avant travaux toiture est obligatoire et comment il protège intervenants et occupants.',
   hero: {

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-toiture-reglementation',
   metaTitle: 'Diagnostic toiture obligatoire : que dit la réglementation ?',
   metaDescription: 'Découvrez les cas où il est exigé et pourquoi il reste essentiel pour sécuriser une transaction immobilière ou anticiper des travaux.',
   hero: {

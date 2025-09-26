@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-rhone',
   metaTitle: 'Diagnostic technique charpente et toiture Rhône : un contrôle complet pour protéger votre bâti',
   metaDescription:
     'Découvrez comment un diagnostic technique charpente et toiture dans le Rhône permet d’assurer la solidité et la durabilité de votre bâtiment.',

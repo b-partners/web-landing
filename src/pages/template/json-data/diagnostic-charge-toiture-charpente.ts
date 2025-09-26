@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/diagnostic-charge-toiture-charpente',
   metaTitle: 'Diagnostic charge toiture charpente : évaluer la solidité et la capacité portante',
   metaDescription: 'Découvrez l’importance du diagnostic charge toiture charpente pour vérifier la résistance et prévenir les risques structurels',
   hero: {

@@ -1,5 +1,5 @@
 export default {
-  route: 'paris',
+  route: '/contrôle-toiture-obligatoire',
   metaTitle: 'Contrôle toiture obligatoire : comprendre les obligations et enjeux pour votre bâtiment',
   metaDescription: 'Découvrez dans quels cas un contrôle toiture obligatoire s’impose, son déroulement et ses bénéfices sur le long terme.',
   hero: {
