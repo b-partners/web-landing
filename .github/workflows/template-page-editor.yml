@@ -9,7 +9,7 @@ on:
         type: string
 
 jobs:
-  add-page:
+  update-page:
     runs-on: ubuntu-latest
 
     steps:
