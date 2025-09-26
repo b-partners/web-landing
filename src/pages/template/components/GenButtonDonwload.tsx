@@ -38,7 +38,7 @@ export const GenButtonDownload = () => {
     setValue('route', stateValues?.route || defaultValues.route);
     setValue('title', stateValues?.metaTitle || defaultValues.title);
     setValue('description', stateValues?.metaDescription || defaultValues.description);
-  }, [stateValues]);
+  }, [stateValues, setValue]);
 
   const handleOpenDialog = () => setOpen(true);
   const handleClose = () => setOpen(false);
