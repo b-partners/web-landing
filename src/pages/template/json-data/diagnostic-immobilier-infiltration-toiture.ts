@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic immobilier infiltration toiture ?\nestion 1',
+      answer:
+        'Un diagnostic immobilier infiltration toiture est une expertise technique visant à détecter les fuites d’eau ou infiltrations au niveau de la couverture d’un bâtiment. Il permet d’évaluer l’état de la toiture, d’identifier les causes d’humidité et de proposer des solutions correctives avant la vente, l’achat ou la location d’un bien.',
+    },
+    q2: {
+      question: 'Pourquoi réaliser un diagnostic immobilier infiltration toiture avant une vente ?',
+      answer:
+        'Avant une transaction immobilière, ce diagnostic sécurise l’acheteur et le vendeur. Il met en évidence d’éventuels désordres (tuiles cassées, défaut d’étanchéité, mousses) et évite les litiges. Un rapport précis peut aussi renforcer la valeur du bien en prouvant l’entretien régulier de la toiture.',
+    },
+    q3: {
+      question: 'Quels sont les signes d’une infiltration nécessitant un diagnostic immobilier infiltration toiture ?',
+      answer:
+        'Taches d’humidité au plafond, odeurs de moisi, traces de moisissures sur les murs, peinture qui s’écaille ou isolant humide sont des signes typiques. Ces symptômes justifient un contrôle rapide pour limiter les dégâts structurels et sanitaires.',
+    },
+    q4: {
+      question: 'Qui peut réaliser un diagnostic immobilier infiltration toiture ?',
+      answer:
+        'Il est recommandé de faire appel à un professionnel qualifié : couvreur, diagnostiqueur immobilier certifié ou expert en bâtiment. Ces spécialistes disposent d’outils de détection (caméra thermique, test d’humidité) pour établir un rapport fiable et détaillé.',
+    },
+    q5: {
+      question: 'Combien coûte en moyenne un diagnostic immobilier infiltration toiture ?',
+      answer:
+        'Le tarif dépend de la surface de la toiture, de l’accessibilité et des outils utilisés (caméra infrarouge, inspection drone). En moyenne, il faut compter entre 150 € et 400 €, avec un devis personnalisé recommandé pour les grandes surfaces.',
+    },
+    q6: {
+      question: 'Quelles solutions après un diagnostic immobilier infiltration toiture positif ?',
+      answer:
+        'Si des infiltrations sont détectées, les travaux peuvent inclure le remplacement de tuiles, la réfection de l’étanchéité, la pose d’un écran sous toiture ou l’amélioration de la ventilation. Un suivi après réparation est conseillé pour s’assurer de la disparition complète des infiltrations.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/toiture-bourges' },
     ],
   },
 };
