@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: '1. Quel est le prix moyen d’un diagnostic toiture dans le Loir-et-Cher ?',
+      answer: 'Le prix d’un diagnostic toiture dans le Loir-et-Cher se situe généralement entre 150 € et 450 € selon la surface et l’accessibilité.',
+    },
+    q2: {
+      question: '2. Quels facteurs influencent le coût d’un diagnostic toiture en Loir-et-Cher ?',
+      answer: 'La taille de la toiture, son accessibilité et la méthode d’inspection choisie influencent directement le prix.',
+    },
+    q3: {
+      question: '3. Le diagnostic toiture est-il obligatoire dans le Loir-et-Cher ?',
+      answer: 'Il n’est pas obligatoire mais fortement recommandé avant une rénovation, une vente ou pour prévenir des infiltrations.',
+    },
+    q4: {
+      question: '4. Que comprend un diagnostic toiture dans le Loir-et-Cher ?',
+      answer: 'Il inclut l’inspection de l’état de la couverture, l’identification des défauts et un rapport de synthèse.',
+    },
+    q5: {
+      question: '5. Peut-on demander un devis gratuit pour un diagnostic toiture en Loir-et-Cher ?',
+      answer: 'Oui, la plupart des professionnels proposent un devis gratuit et personnalisé selon la toiture.',
+    },
+    q6: {
+      question: '6. Comment payer moins cher un diagnostic toiture dans le Loir-et-Cher ?',
+      answer: 'Comparer plusieurs devis et opter pour une inspection adaptée à vos besoins permet de réduire le coût.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne)' },
+      { name: 'Bourges', route: 'Bourges' },
+      { name: 'Lyon', route: '/charpente-lyon ' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
     ],
   },
 };
