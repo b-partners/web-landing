@@ -11,6 +11,7 @@ import { Contact } from '@pages/Contact';
 import { Craftsman } from '@pages/Craftsman/Craftsman';
 import { PdfReader } from '@pages/GCU';
 import { Insurance } from '@pages/Insurance';
+import { NavigationPlan } from '@pages/Navigation-Plan';
 import { Home } from '@pages/home';
 import { Template, TemplateLogin, TemplateMenu } from '@pages/template';
 import { useSnackbar } from '@store/snackbar';
@@ -282,6 +283,7 @@ function App() {
         <Route path="/template/login" element={<TemplateLogin />} />
         <Route path="/template/menu" element={<TemplateMenu />} />
         <Route path="/" element={<PublicLayout />}>
+          <Route path="/plan-du-site-navigation" element={<NavigationPlan />} />
           <Route path="/couvreurs" element={<Craftsman />} />
           <Route path="/collectivites" element={<Collectivity />} />
           <Route path="/assurances" element={<Insurance />} />
