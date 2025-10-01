@@ -12,7 +12,6 @@ export const sitePlanUrls = [
   'https://birdia.fr/conditions-generales-d-utilisation',
   'https://birdia.fr/mentions-legales',
   'https://birdia.fr/politique-de-confidentialite',
-  'https://birdia.fr*',
   'https://birdia.fr/template',
   'https://birdia.fr/templateGenerator',
   'https://birdia.fr/paris',
