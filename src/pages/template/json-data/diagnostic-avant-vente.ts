@@ -57,8 +57,7 @@ export default {
         description: 'Corriger les défauts, ajuster le prix de vente ou prévoir un accord avec l’acheteur.',
       },
     ],
-    explication:
-      ' Détection, qualification et recommandation à partir d’images aériennes HD. En un clic, obtenez un diagnostic métier précis sans monter sur le toit.',
+    explication: 'En un clic, obtenez un diagnostic métier précis sans monter sur le toit.',
   },
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
