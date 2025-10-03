@@ -63,12 +63,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quelle est la périodicité légale d’un diagnostic amiante en toiture ?',
+      answer: 'La réglementation impose un contrôle périodique tous les 3 ans si la présence d’amiante est avérée dans la toiture.',
+    },
+    q2: {
+      question: 'Pourquoi refaire un diagnostic amiante régulièrement sur une toiture ?',
+      answer:
+        'La périodicité du diagnostic amiante toiture permet de vérifier l’évolution de l’état des matériaux et de prévenir les risques sanitaires liés aux fibres d’amiante.',
+    },
+    q3: {
+      question: 'Qui est concerné par l’obligation de diagnostic amiante toiture et sa périodicité ?',
+      answer:
+        'Les propriétaires de bâtiments construits avant 1997 doivent respecter la périodicité du diagnostic amiante toiture. Cela concerne aussi bien les particuliers que les professionnels et les syndics.',
+    },
+    q4: {
+      question: 'Que se passe-t-il si la périodicité du diagnostic amiante toiture n’est pas respectée ?',
+      answer:
+        'Le non-respect peut engager la responsabilité civile et pénale du propriétaire et entraîner des sanctions en cas de vente ou de contrôle administratif.',
+    },
+    q5: {
+      question: 'Comment s’assurer du respect de la périodicité du diagnostic amiante toiture ?',
+      answer: 'Il est conseillé de faire appel à un diagnostiqueur certifié et de conserver un suivi régulier afin de respecter l’échéance de 3 ans.',
+    },
+    q6: {
+      question: 'Existe-t-il des solutions innovantes pour suivre la périodicité du diagnostic amiante toiture ?',
+      answer:
+        'Oui, des technologies comme l’inspection par drone et l’intelligence artificielle permettent de détecter et de suivre l’état des toitures contenant de l’amiante sans intervention intrusive.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon ', route: '/charpente-lyon' },
+      { name: 'Essone ', route: '/diagnistic-toiture-essonne)' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
