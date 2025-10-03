@@ -59,6 +59,7 @@ import diagnosticAmianteToitureFibrociment from './pages/template/json-data/diag
 import diagnosticAmianteToitureGarage from './pages/template/json-data/diagnostic-amiante-toiture-garage';
 import diagnosticAmianteToitureS from './pages/template/json-data/diagnostic-amiante-toiture-s';
 import diagnosticAmianteToitureVente from './pages/template/json-data/diagnostic-amiante-toiture-vente';
+import diagnosticAvantVente from './pages/template/json-data/diagnostic-avant-vente';
 import diagnosticChargeToitureCharpente from './pages/template/json-data/diagnostic-charge-toiture-charpente';
 import diagnosticCharpenteBrignais from './pages/template/json-data/diagnostic-charpente-brignais';
 import diagnosticCharpenteP from './pages/template/json-data/diagnostic-charpente-p';
@@ -143,7 +144,6 @@ import diagnosticsAmianteToitureS from './pages/template/json-data/diagnostics-a
 import diagnosticsImobiliersAmianteToiture from './pages/template/json-data/diagnostics-imobiliers-amiante-toiture';
 import diagnosticsToitureS from './pages/template/json-data/diagnostics-toiture-s';
 import diagnostiqueToitureS from './pages/template/json-data/diagnostique-toiture-s';
-import dianosticAvantVente from './pages/template/json-data/dianostic-avant-vente';
 import dignosticToitureTerrasseS from './pages/template/json-data/dignostic-toiture-terrasse-s';
 import erreurDiagnosticToiture from './pages/template/json-data/erreur-diagnostic-toiture';
 import essonne from './pages/template/json-data/essonne';
@@ -470,7 +470,7 @@ function App() {
           <Route path="/devis-diagnostic-marseille" element={<Template jsonData={devisDiagnosticMarseille} />} />
           <Route path="/devis-diagnostic-toiture" element={<Template jsonData={devisDiagnosticToiture} />} />
           <Route path="/cournonsec-34660" element={<Template jsonData={cournonsec34660} />} />
-          <Route path="/dianostic-avant-vente" element={<Template jsonData={dianosticAvantVente} />} />
+          <Route path="/diagnostic-avant-vente" element={<Template jsonData={diagnosticAvantVente} />} />
           <Route path="/cout-median" element={<Template jsonData={coutMedian} />} />
           <Route path="/diagnostic-toiture-100m2" element={<Template jsonData={diagnosticToiture100m2} />} />
           <Route path="/cout-diagnostic-toiture" element={<Template jsonData={coutDiagnosticToiture} />} />

@@ -122,7 +122,7 @@ import DiagnosticsAmianteToitureS from './diagnostics-amiante-toiture-s';
 import DiagnosticsImobiliersAmianteToiture from './diagnostics-imobiliers-amiante-toiture';
 import DiagnosticsToitureS from './diagnostics-toiture-s';
 import DiagnostiqueToitureS from './diagnostique-toiture-s';
-import DianosticAvantVente from './dianostic-avant-vente';
+import DianosticAvantVente from './diagnostic-avant-vente';
 import DignosticToitureTerrasseS from './dignostic-toiture-terrasse-s';
 import ErreurDiagnosticToiture from './erreur-diagnostic-toiture';
 import Essonne from './essonne';

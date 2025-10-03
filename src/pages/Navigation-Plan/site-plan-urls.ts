@@ -179,7 +179,7 @@ export const sitePlanUrls = [
   'https://birdia.fr/devis-diagnostic-marseille',
   'https://birdia.fr/devis-diagnostic-toiture',
   'https://birdia.fr/cournonsec-34660',
-  'https://birdia.fr/dianostic-avant-vente',
+  'https://birdia.fr/diagnostic-avant-vente',
   'https://birdia.fr/cout-median',
   'https://birdia.fr/diagnostic-toiture-100m2',
   'https://birdia.fr/cout-diagnostic-toiture',
