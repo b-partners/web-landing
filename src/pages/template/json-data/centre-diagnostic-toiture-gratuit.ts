@@ -64,12 +64,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un centre de diagnostic toiture gratuit ?',
+      answer: 'C’est un service permettant aux particuliers et professionnels d’obtenir une première analyse de l’état de leur toiture sans frais.',
+    },
+    q2: {
+      question: 'Que couvre un diagnostic toiture gratuit ?',
+      answer:
+        'Il évalue l’état général de la couverture, repère les défauts visibles et donne des indications sur les besoins éventuels en entretien ou réparation.',
+    },
+    q3: {
+      question: 'Le diagnostic toiture gratuit est-il aussi fiable qu’un diagnostic payant ?',
+      answer: 'Un diagnostic gratuit fournit une première estimation, mais un contrôle complet par un expert reste nécessaire pour une analyse détaillée.',
+    },
+    q4: {
+      question: 'Qui peut bénéficier d’un centre de diagnostic toiture gratuit ?',
+      answer: 'Les propriétaires de maisons individuelles, syndics de copropriété ou gestionnaires de biens peuvent y recourir pour anticiper des travaux.',
+    },
+    q5: {
+      question: 'Comment fonctionne un diagnostic toiture gratuit en ligne ?',
+      answer: 'Grâce à l’analyse d’images HD, des outils innovants comme Birdia peuvent détecter l’état de la toiture sans déplacement physique.',
+    },
+    q6: {
+      question: 'Quels sont les avantages d’un centre de diagnostic toiture gratuit ?',
+      answer:
+        'Il permet de gagner du temps, d’obtenir un premier avis objectif et de planifier sereinement un diagnostic approfondi ou des travaux si nécessaire.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: ' /ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
