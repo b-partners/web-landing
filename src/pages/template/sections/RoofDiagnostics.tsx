@@ -11,8 +11,8 @@ import heroImage from '/assets/images/hero/compiegne.jpg';
 export const RoofDiagnostics = () => {
   const location = useLocation();
   const { getValues } = useFormContext();
-  const roofDiangosticsImg = getValues('roofDiagnostics.image');
-  const imageUrl = roofDiangosticsImg instanceof File ? URL.createObjectURL(roofDiangosticsImg) : roofDiangosticsImg || heroImage;
+  const roofDiagnosticsImg = getValues('roofDiagnostics.image');
+  const imageUrl = roofDiagnosticsImg instanceof File ? URL.createObjectURL(roofDiagnosticsImg) : roofDiagnosticsImg || heroImage;
   const isDiagnosticAvantVente = location.pathname === '/diagnostic-avant-vente';
   return (
     <Box component="section" id="template-roof-diagnostics" sx={RoofDiagnosticsStyle}>

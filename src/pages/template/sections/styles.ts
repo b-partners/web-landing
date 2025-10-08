@@ -159,7 +159,6 @@ export const RoofDiagnosticsStyle: SxProps = {
     height: '100%',
     display: 'flex',
     flexWrap: { xs: 'wrap', md: 'nowrap' },
-    gap: { md: '32px' },
     alignItems: 'center',
     justifyContent: 'space-around',
   },
