@@ -7,4 +7,5 @@ export const PALETTE_COLORS = {
   cream: '#F0ECE1',
   forest: '#112717',
   neon_orange: '#FF521B',
+  neon_orange_light: '#FF6030FF',
 };

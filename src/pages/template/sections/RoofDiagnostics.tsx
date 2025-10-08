@@ -1,6 +1,7 @@
 import { useFormContext } from 'react-hook-form';
 import { useLocation } from 'react-router-dom';
 
+import { AdCtaButton } from '@/common/components/buttons';
 import { Box, Typography } from '@mui/material';
 
 import { GenInput } from '../components/GenInput';
@@ -10,10 +11,12 @@ import heroImage from '/assets/images/hero/compiegne.jpg';
 export const RoofDiagnostics = () => {
   const location = useLocation();
   const { getValues } = useFormContext();
-  const roofDiangosticsImg = getValues('roofDiagnostics.image');
-  const imageUrl = roofDiangosticsImg instanceof File ? URL.createObjectURL(roofDiangosticsImg) : roofDiangosticsImg || heroImage;
+  const roofDiagnosticsImg = getValues('roofDiagnostics.image');
+  const imageUrl = roofDiagnosticsImg instanceof File ? URL.createObjectURL(roofDiagnosticsImg) : roofDiagnosticsImg || heroImage;
+  const isDiagnosticAvantVente = location.pathname === '/diagnostic-avant-vente';
   return (
     <Box component="section" id="template-roof-diagnostics" sx={RoofDiagnosticsStyle}>
+      {isDiagnosticAvantVente && <Box className="image-container-bg"></Box>}
       <Box id="diagnostics-container">
         <Box className="content-text">
           {location.pathname !== '/templateGenerator' ? (
@@ -43,14 +46,22 @@ export const RoofDiagnostics = () => {
             <GenInput name="roofDiagnostics.description2" fullWidth multiline className="diagnostics-description" placeholder="Description 1" />
           )}
         </Box>
-        <Box className="content-img">
-          <Box className="image-container">
-            {location.pathname !== '/templateGenerator' ? (
-              <img src={imageUrl} alt="" />
-            ) : (
-              <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="roofDiagnostics.image" type="file" />
-            )}
-          </Box>
+        <Box className={`content-img ${isDiagnosticAvantVente && 'diagnosticAvantVente'}`}>
+          {isDiagnosticAvantVente && <Typography textAlign="center">Vérifiez gratuitement l’état de votre toiture et valorisez votre bien.</Typography>}
+          {!isDiagnosticAvantVente && (
+            <Box className="image-container">
+              {location.pathname !== '/templateGenerator' ? (
+                <img src={imageUrl} alt="" />
+              ) : (
+                <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="roofDiagnostics.image" type="file" />
+              )}
+            </Box>
+          )}
+          {isDiagnosticAvantVente && (
+            <Box mt={3}>
+              <AdCtaButton />
+            </Box>
+          )}
         </Box>
       </Box>
     </Box>
