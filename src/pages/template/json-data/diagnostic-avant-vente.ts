@@ -10,7 +10,6 @@ export default {
       'C’est un document technique qui peut éviter des litiges après la vente.',
     ],
   },
-  testimonial: { title1: 'Témoignages clients', title2: 'Passez à l’analyse intelligente, sans compléxité' },
   testimonials: [
     {
       name: 'Arnaud P.',
@@ -60,16 +59,6 @@ export default {
     explication: 'En un clic, obtenez un diagnostic métier précis sans monter sur le toit.',
   },
   theyTrustUs: { title: 'Ils nous font confiance' },
-  faq: {
-    title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
-    title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
-  },
   roofDiagnostics: {
     title: 'Comprendre les enjeux long terme de la demande diagnostic toiture avant vente immobilière',
     description1:

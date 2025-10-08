@@ -140,15 +140,31 @@ export const RoofDiagnosticsStyle: SxProps = {
   padding: 0,
   bgcolor: PALETTE_COLORS.pine,
   display: 'flex',
-  justifyContent: 'center',
+  justifyContent: 'space-around',
   alignItems: 'center',
+  position: 'relative',
+  '& *': {
+    zIndex: 2,
+  },
+  '& .image-container-bg': {
+    position: 'absolute',
+    height: '100%',
+    width: '50%',
+    background: PALETTE_COLORS['white'],
+    zIndex: 1,
+    left: '50%',
+  },
   '& #diagnostics-container': {
-    width: { xs: '90%', sm: '85%', md: '80%', lg: '75%' },
+    width: '100%',
     height: '100%',
     display: 'flex',
     flexWrap: { xs: 'wrap', md: 'nowrap' },
     gap: { md: '32px' },
     alignItems: 'center',
+    justifyContent: 'space-around',
+  },
+  '& #diagnostics-container > *': {
+    p: 10,
   },
   '& #diagnostics-container > .content-text': {
     flexBasis: { xs: '100%', sm: '100%' },
@@ -165,6 +181,19 @@ export const RoofDiagnosticsStyle: SxProps = {
     flexGrow: { md: 1 },
     mt: { xs: '10px', sm: '10px', md: '0' },
     mb: { xs: '30px', sm: '30px', md: '0' },
+  },
+  '& #diagnostics-container > .diagnosticAvantVente': {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'column',
+    minHeight: '60vh',
+  },
+  '& #diagnostics-container > .diagnosticAvantVente .MuiTypography-root': {
+    color: PALETTE_COLORS['pine'],
+    mb: 4,
+    fontWeight: 'bold',
+    fontSize: { xs: '1.6rem', sm: '1.8rem', md: '1.8rem', lg: '2.5rem' },
   },
   '& .MuiTypography-root': {
     color: 'white',
