@@ -1,7 +1,8 @@
 import { FC } from 'react';
 import { useFormContext } from 'react-hook-form';
 
-import { Box } from '@mui/material';
+import { PALETTE_COLORS } from '@/config/theme';
+import { Box, Typography } from '@mui/material';
 import { Analyse, Testimonials } from '@pages/home/components';
 
 import { HeroPage, TheyTrustUs } from './sections';
@@ -34,8 +35,24 @@ const TemplateComponent = () => {
       <HeroPage />
       <TheyTrustUs />
       <Analyse analyseData={getValues('analyse')} />
-      <Testimonials testimonialsData={getValues('testimonials')} />
-      <FAQ />
+      {getValues('testimonial') && <Testimonials testimonialsData={getValues('testimonials')} />}
+      {getValues('faq') && <FAQ />}
+      {(!getValues('testimonial') || !getValues('faq')) && (
+        <Box my={5} width="100%">
+          <Typography
+            sx={{
+              textAlign: 'center',
+              fontWeight: 'bold',
+              width: '100%',
+              fontSize: { xs: '2rem', md: '2.5rem' },
+              mb: { xs: 3, md: 5, xl: 7 },
+              color: PALETTE_COLORS.neon_orange,
+            }}
+          >
+            Passez à l’analyse intelligente, sans complexité
+          </Typography>
+        </Box>
+      )}
       <RoofDiagnostics />
       <FooterTemplate />
     </Box>

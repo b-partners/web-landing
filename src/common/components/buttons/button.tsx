@@ -40,7 +40,8 @@ const BUTTON_COLOR: Record<ButtonColor, Partial<SxProps>> = {
     bgcolor: PALETTE_COLORS.neon_orange,
     color: PALETTE_COLORS.white,
     '&:hover': {
-      bgcolor: PALETTE_COLORS.pine,
+      bgcolor: PALETTE_COLORS.neon_orange_light,
+      color: PALETTE_COLORS.white,
     },
   },
 };
@@ -49,6 +50,14 @@ export const CTAButton: FC<ButtonProps> = (props) => {
   return (
     <LinkButton to={bookYourDemoUrl} {...props}>
       Réserver votre démo
+    </LinkButton>
+  );
+};
+
+export const AdCtaButton: FC<ButtonProps> = (props) => {
+  return (
+    <LinkButton to={process.env.ROOF_ANALYSE_URL} {...props}>
+      Obtenez votre diagnostic gratuitement
     </LinkButton>
   );
 };

@@ -1,7 +1,7 @@
 import { useFormContext } from 'react-hook-form';
 import { useLocation } from 'react-router-dom';
 
-import { CTAButton } from '@/common/components/buttons';
+import { AdCtaButton, CTAButton } from '@/common/components/buttons';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import { Box, List, ListItem, ListItemText, Stack, Typography } from '@mui/material';
 
@@ -16,7 +16,7 @@ export const HeroPage = () => {
   const { getValues } = useFormContext();
   const heroImg = getValues('hero.image');
   const imageUrl = heroImg instanceof File ? URL.createObjectURL(heroImg) : heroImg || heroImage;
-
+  const isDiagnosticAvantVente = location.pathname === '/diagnostic-avant-vente';
   return (
     <Box component="section" id="template-HeroPage" sx={HeroPageStyle}>
       <Box id="container">
@@ -42,7 +42,7 @@ export const HeroPage = () => {
               </ListItem>
             ))}
           </List>
-          <CTAButton sx={{ mt: 2, mb: 3 }} />
+          {isDiagnosticAvantVente ? <AdCtaButton sx={{ mt: 2, mb: 3, px: 5 }} /> : <CTAButton sx={{ mt: 2, mb: 3 }} />}
         </Box>
         <Box className="content-image">
           {location.pathname !== '/templateGenerator' ? (

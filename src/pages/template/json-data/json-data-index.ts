@@ -38,6 +38,7 @@ import DiagnosticAmianteToitureFibrociment from './diagnostic-amiante-toiture-fi
 import DiagnosticAmianteToitureGarage from './diagnostic-amiante-toiture-garage';
 import DiagnosticAmianteToitureS from './diagnostic-amiante-toiture-s';
 import DiagnosticAmianteToitureVente from './diagnostic-amiante-toiture-vente';
+import DianosticAvantVente from './diagnostic-avant-vente';
 import DiagnosticChargeToitureCharpente from './diagnostic-charge-toiture-charpente';
 import DiagnosticCharpenteBrignais from './diagnostic-charpente-brignais';
 import DiagnosticCharpenteP from './diagnostic-charpente-p';
@@ -122,7 +123,6 @@ import DiagnosticsAmianteToitureS from './diagnostics-amiante-toiture-s';
 import DiagnosticsImobiliersAmianteToiture from './diagnostics-imobiliers-amiante-toiture';
 import DiagnosticsToitureS from './diagnostics-toiture-s';
 import DiagnostiqueToitureS from './diagnostique-toiture-s';
-import DianosticAvantVente from './dianostic-avant-vente';
 import DignosticToitureTerrasseS from './dignostic-toiture-terrasse-s';
 import ErreurDiagnosticToiture from './erreur-diagnostic-toiture';
 import Essonne from './essonne';

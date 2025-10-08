@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import { FlexBox } from '@/common/components';
-import { CTAButton, LinkButton } from '@/common/components/buttons';
+import { AdCtaButton, CTAButton, LinkButton } from '@/common/components/buttons';
 import { Env } from '@/common/utils/env';
 import { PALETTE_COLORS } from '@/config/theme';
 import { SxProps, Typography } from '@mui/material';
@@ -35,9 +35,11 @@ export const Analyse: FC<AnalyseProps> = (props) => {
     analyseData?.explication ||
     `Détection, qualification et recommandation à partir d’images aériennes HD.\nEn un clic, obtenez un diagnostic métier précis sans monter sur le toit.`;
 
+  const isDiagnosticAvantVente = location.pathname === '/diagnostic-avant-vente';
+
   return (
     <FlexBox component="section" sx={ANALYSE_SX}>
-      <Box sx={{ flex: 1 }}>
+      <Box sx={{ flexBasis: '50%' }}>
         {((analyseData?.information || ANALYSES) as typeof ANALYSES).map((analyse, index) => {
           return isEditMode ? (
             <Box key={index} sx={{ px: 3, py: 7, bgcolor: ANALYSES[index].bgcolor, color: ANALYSES[index].color }}>
@@ -59,7 +61,7 @@ export const Analyse: FC<AnalyseProps> = (props) => {
           );
         })}
       </Box>
-      <FlexBox sx={{ flexDirection: 'column', px: 6, flex: 1, bgcolor: 'white', p: 5, minWidth: '700px' }}>
+      <FlexBox sx={{ flexDirection: 'column', px: 6, flexBasis: '50%', bgcolor: 'white', p: 5, minWidth: '700px' }}>
         {isEditMode ? (
           <GenInput
             name="analyse.title"
@@ -141,18 +143,23 @@ export const Analyse: FC<AnalyseProps> = (props) => {
           )}
         </FlexBox>
         <FlexBox sx={{ my: 5, gap: 4 }}>
-          <CTAButton />
-          <LinkButton
-            variant="outlined"
-            sx={{
-              borderColor: PALETTE_COLORS.forest,
-              color: PALETTE_COLORS.forest,
-              '&:hover': { color: PALETTE_COLORS.cream, borderColor: PALETTE_COLORS.pine, bgcolor: PALETTE_COLORS.pine },
-            }}
-            to={Env.DASHBOARD_REGISTRATION_URL}
-          >
-            Testez sans engagement
-          </LinkButton>
+          {isDiagnosticAvantVente && <AdCtaButton sx={{ mt: 2, mb: 3, px: 5 }} />}
+          {!isDiagnosticAvantVente && (
+            <>
+              <CTAButton />
+              <LinkButton
+                variant="outlined"
+                sx={{
+                  borderColor: PALETTE_COLORS.forest,
+                  color: PALETTE_COLORS.forest,
+                  '&:hover': { color: PALETTE_COLORS.cream, borderColor: PALETTE_COLORS.pine, bgcolor: PALETTE_COLORS.pine },
+                }}
+                to={Env.DASHBOARD_REGISTRATION_URL}
+              >
+                Testez sans engagement
+              </LinkButton>
+            </>
+          )}
         </FlexBox>
       </FlexBox>
     </FlexBox>
