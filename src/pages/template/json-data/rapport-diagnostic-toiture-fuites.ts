@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un rapport de diagnostic toiture pour fuites ?',
+      answer: ' C’est un document détaillé qui identifie les origines des infiltrations et décrit l’état général de la toiture.',
+    },
+    q2: {
+      question: 'Pourquoi demander un rapport de diagnostic toiture en cas de fuites ?',
+      answer: ' Il permet de comprendre la cause exacte du problème et de planifier les réparations adaptées avant aggravation.',
+    },
+    q3: {
+      question: 'Que contient un rapport de diagnostic toiture fuites ?',
+      answer: ' Il comprend les observations visuelles, les zones à risque, les photos d’anomalies et les recommandations techniques.',
+    },
+    q4: {
+      question: 'Qui peut établir un rapport de diagnostic toiture pour fuites ?',
+      answer: ' Un couvreur expert ou un spécialiste en inspection de toitures, équipé des outils adaptés, peut rédiger ce rapport.',
+    },
+    q5: {
+      question: 'Combien de temps faut-il pour obtenir un rapport de diagnostic toiture ?',
+      answer: ' Le rapport est généralement disponible sous 24 à 48 heures après l’inspection.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour un rapport diagnostic toiture fuites ?',
+      answer: ' Birdia utilise la technologie drone pour détecter les fuites sans démontage et délivre un rapport visuel complet et précis.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
