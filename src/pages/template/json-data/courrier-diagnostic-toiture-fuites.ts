@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un courrier de diagnostic toiture fuites ?',
+      answer: 'C’est un document écrit qui détaille les constatations d’un expert après inspection d’une toiture présentant des fuites.',
+    },
+    q2: {
+      question: 'À quoi sert un courrier de diagnostic toiture ?',
+      answer: ' Il sert de preuve technique pour alerter un propriétaire, un syndic ou une assurance de la présence de fuites.',
+    },
+    q3: {
+      question: 'Qui peut rédiger un courrier de diagnostic toiture fuites ?',
+      answer: ' Un couvreur professionnel ou un expert en inspection de toitures peut rédiger ce type de courrier après analyse.',
+    },
+    q4: {
+      question: 'Que doit contenir un courrier de diagnostic toiture ?',
+      answer: ' Le courrier décrit les anomalies observées, les zones à risque et propose des recommandations de réparation.',
+    },
+    q5: {
+      question: 'Quand faut-il envoyer un courrier de diagnostic toiture fuites ?',
+      answer: ' Dès la détection d’une infiltration ou avant toute réclamation auprès d’un assureur ou d’un vendeur.',
+    },
+    q6: {
+      question: 'Pourquoi faire appel à Birdia pour un courrier de diagnostic toiture fuites ?',
+      answer: ' Birdia fournit un diagnostic visuel par drone et un rapport illustré, idéal pour appuyer un courrier de constat technique.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
