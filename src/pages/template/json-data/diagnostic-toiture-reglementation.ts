@@ -63,12 +63,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Le diagnostic de toiture est-il obligatoire selon la réglementation ?',
+      answer: ' Non, il n’est pas obligatoire, mais fortement recommandé pour sécuriser une vente ou anticiper des travaux importants.',
+    },
+    q2: {
+      question: 'Quelles sont les réglementations encadrant le diagnostic toiture ?',
+      answer: ' Elles concernent principalement la sécurité des inspections, l’accès en hauteur et le respect des normes environnementales.',
+    },
+    q3: {
+      question: 'Qui peut réaliser un diagnostic toiture conforme à la réglementation ?',
+      answer: ' Seuls les professionnels qualifiés, formés aux règles de sécurité et d’étanchéité, peuvent effectuer un diagnostic conforme.',
+    },
+    q4: {
+      question: 'Un diagnostic toiture peut-il être exigé lors d’une vente immobilière ?',
+      answer: ' Il n’est pas légalement imposé, mais il rassure les acheteurs et peut être exigé dans certaines copropriétés.',
+    },
+    q5: {
+      question: 'Que doit contenir un diagnostic toiture réglementaire ?',
+      answer: ' Il doit décrire l’état de la couverture, les matériaux, les risques d’infiltration et les travaux de mise en conformité.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour un diagnostic toiture conforme à la réglementation ?',
+      answer:
+        ' Birdia réalise des inspections par drone sécurisées et réglementées, sans monter sur le toit, pour un diagnostic précis et légalement conforme.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
