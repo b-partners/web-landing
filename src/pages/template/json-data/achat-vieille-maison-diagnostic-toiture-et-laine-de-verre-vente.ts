@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi vérifier la toiture avant l’achat d’une vieille maison ?',
+      answer: 'Un diagnostic de toiture avant achat permet de détecter les infiltrations, les tuiles endommagées et les problèmes d’isolation.',
+    },
+    q2: {
+      question: 'Que révèle l’inspection de la laine de verre lors d’un diagnostic immobilier ?',
+      answer: ' Elle met en évidence les pertes de performance thermique et les risques d’humidité ou de moisissure dans les combles.',
+    },
+    q3: {
+      question: 'Est-il obligatoire de faire diagnostiquer la toiture avant une vente ?',
+      answer: ' Non, mais un diagnostic toiture détaillé rassure les acheteurs et facilite la négociation du prix.',
+    },
+    q4: {
+      question: 'Comment savoir si la laine de verre d’une vieille maison doit être remplacée ?',
+      answer: ' Si elle est tassée, humide ou mal posée, son efficacité est réduite et un remplacement est conseillé.',
+    },
+    q5: {
+      question: 'Quel professionnel contacter pour un diagnostic toiture et isolation avant vente ?',
+      answer: 'Un expert en couverture ou un diagnostiqueur certifié peut évaluer l’état de la toiture et de la laine de verre.',
+    },
+    q6: {
+      question: 'En quoi Birdia simplifie le diagnostic toiture avant la vente d’une vieille maison ?',
+      answer: ' Birdia réalise une inspection de toiture par drone, rapide et sans démontage, pour un rapport complet et visuel.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
