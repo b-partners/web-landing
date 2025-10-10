@@ -64,12 +64,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi faire réaliser un diagnostic isolation toiture ?',
+      answer:
+        'Le diagnostic isolation toiture permet d’évaluer les déperditions thermiques, d’améliorer le confort intérieur et de réduire la consommation énergétique.',
+    },
+    q2: {
+      question: 'Qui peut effectuer un diagnostic isolation toiture ?',
+      answer: 'Seuls des professionnels qualifiés en isolation ou des entreprises spécialisées peuvent garantir une expertise fiable et conforme aux normes.',
+    },
+    q3: {
+      question: 'Quels éléments sont analysés lors d’un diagnostic isolation toiture ?',
+      answer: 'Le contrôle porte sur l’état des isolants, les ponts thermiques, l’étanchéité à l’air et les éventuels défauts liés à l’humidité.',
+    },
+    q4: {
+      question: ' Quand faut-il envisager un diagnostic isolation toiture ?',
+      answer: 'Il est conseillé avant des travaux de rénovation, lors d’une vente immobilière ou en cas de facture énergétique anormalement élevée.',
+    },
+    q5: {
+      question: 'Quel est le coût moyen d’un diagnostic isolation toiture ?',
+      answer: 'Le prix varie en fonction de la surface et de la complexité de la toiture, généralement entre 150 et 500 euros.',
+    },
+    q6: {
+      question: 'Existe-t-il des méthodes innovantes pour réaliser un diagnostic isolation toiture ?',
+      answer: 'Oui, l’inspection par drone et l’intelligence artificielle permettent aujourd’hui d’obtenir une analyse rapide et précise sans démontage.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges ', route: '/BourgesBourges' },
     ],
   },
 };
