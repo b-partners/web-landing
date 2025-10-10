@@ -1,5 +1,5 @@
 export default {
-  route: '/diagnostic-avant-vente',
+  route: '/diagnostic-toiture-particulier',
   metaTitle: 'Diagnostic toiture instantané avec une simple adresse postale',
   metaDescription: 'Découvrez pourquoi et comment faire une demande de diagnostic toiture avant une vente immobilière.',
   hero: {

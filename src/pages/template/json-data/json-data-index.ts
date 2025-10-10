@@ -38,7 +38,7 @@ import DiagnosticAmianteToitureFibrociment from './diagnostic-amiante-toiture-fi
 import DiagnosticAmianteToitureGarage from './diagnostic-amiante-toiture-garage';
 import DiagnosticAmianteToitureS from './diagnostic-amiante-toiture-s';
 import DiagnosticAmianteToitureVente from './diagnostic-amiante-toiture-vente';
-import DianosticAvantVente from './diagnostic-avant-vente';
+import DianosticAvantVente from './diagnostic-toiture-particulier';
 import DiagnosticChargeToitureCharpente from './diagnostic-charge-toiture-charpente';
 import DiagnosticCharpenteBrignais from './diagnostic-charpente-brignais';
 import DiagnosticCharpenteP from './diagnostic-charpente-p';

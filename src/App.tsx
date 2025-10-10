@@ -58,7 +58,6 @@ import diagnosticAmianteToitureFibrociment from './pages/template/json-data/diag
 import diagnosticAmianteToitureGarage from './pages/template/json-data/diagnostic-amiante-toiture-garage';
 import diagnosticAmianteToitureS from './pages/template/json-data/diagnostic-amiante-toiture-s';
 import diagnosticAmianteToitureVente from './pages/template/json-data/diagnostic-amiante-toiture-vente';
-import diagnosticAvantVente from './pages/template/json-data/diagnostic-avant-vente';
 import diagnosticChargeToitureCharpente from './pages/template/json-data/diagnostic-charge-toiture-charpente';
 import diagnosticCharpenteBrignais from './pages/template/json-data/diagnostic-charpente-brignais';
 import diagnosticCharpenteP from './pages/template/json-data/diagnostic-charpente-p';
@@ -113,6 +112,7 @@ import diagnosticToitureNancy from './pages/template/json-data/diagnostic-toitur
 import diagnosticToitureObligatoire from './pages/template/json-data/diagnostic-toiture-obligatoire';
 import diagnosticToitureP from './pages/template/json-data/diagnostic-toiture-p';
 import diagnosticToitureParis from './pages/template/json-data/diagnostic-toiture-paris';
+import diagnosticToitureParticulier from './pages/template/json-data/diagnostic-toiture-particulier';
 import diagnosticToitureParticuliers from './pages/template/json-data/diagnostic-toiture-particuliers';
 import diagnosticToiturePertuis from './pages/template/json-data/diagnostic-toiture-pertuis';
 import diagnosticToiturePrix from './pages/template/json-data/diagnostic-toiture-prix';
@@ -445,7 +445,7 @@ function App() {
           <Route path="/devis-diagnostic-marseille" element={<Template jsonData={devisDiagnosticMarseille} />} />
           <Route path="/devis-diagnostic-toiture" element={<Template jsonData={devisDiagnosticToiture} />} />
           <Route path="/cournonsec-34660" element={<Template jsonData={cournonsec34660} />} />
-          <Route path="/diagnostic-avant-vente" element={<Template jsonData={diagnosticAvantVente} />} />
+          <Route path="/diagnostic-toiture-particulier" element={<Template jsonData={diagnosticToitureParticulier} />} />
           <Route path="/cout-median" element={<Template jsonData={coutMedian} />} />
           <Route path="/diagnostic-toiture-100m2" element={<Template jsonData={diagnosticToiture100m2} />} />
           <Route path="/cout-diagnostic-toiture" element={<Template jsonData={coutDiagnosticToiture} />} />
