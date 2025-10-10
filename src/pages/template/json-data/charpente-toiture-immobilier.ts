@@ -63,12 +63,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi la charpente est-elle essentielle dans un projet immobilier ?',
+      answer:
+        'La charpente soutient la toiture et garantit la stabilité du bâtiment. Une charpente en bon état est donc primordiale pour la sécurité et la valeur d’un bien immobilier.',
+    },
+    q2: {
+      question: 'Quels sont les signes d’une charpente de toiture à vérifier lors d’un achat immobilier ?',
+      answer:
+        'Il faut contrôler la présence de fissures, d’affaissements, d’attaques d’insectes xylophages ou d’humidité, qui peuvent fragiliser la structure.',
+    },
+    q3: {
+      question: 'Quel est l’impact de l’état de la charpente sur l’évaluation d’un bien immobilier ?',
+      answer: 'Une charpente endommagée entraîne des coûts de rénovation importants, ce qui peut influencer la négociation du prix de vente ou d’achat.',
+    },
+    q4: {
+      question: 'Faut-il réaliser un diagnostic spécifique de la charpente avant une transaction immobilière ?',
+      answer: 'Oui, un diagnostic charpente-toiture permet de sécuriser la vente ou l’achat en identifiant d’éventuels travaux nécessaires.',
+    },
+    q5: {
+      question: 'Quelle est la durée de vie moyenne d’une charpente de toiture en immobilier ?',
+      answer:
+        'Une charpente bien entretenue peut durer plus de 100 ans, mais sa longévité dépend du type de bois, des conditions climatiques et de l’entretien régulier.',
+    },
+    q6: {
+      question: 'Existe-t-il des solutions modernes pour inspecter une charpente toiture en immobilier ?',
+      answer:
+        'Oui, l’inspection par drone et l’intelligence artificielle offrent une analyse rapide et précise de l’état de la toiture et de la charpente sans intervention lourde.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
