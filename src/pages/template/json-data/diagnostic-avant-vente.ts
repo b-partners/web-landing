@@ -1,14 +1,15 @@
 export default {
   route: '/diagnostic-avant-vente',
-  metaTitle: 'Demande diagnostic toiture avant vente immobilière : un atout pour sécuriser la transaction',
+  metaTitle: 'Diagnostic toiture instantané avec une simple adresse postale',
   metaDescription: 'Découvrez pourquoi et comment faire une demande de diagnostic toiture avant une vente immobilière.',
   hero: {
-    title: 'Demande diagnostic toiture avant vente immobilière : un atout pour sécuriser la transaction',
+    title: 'Diagnostic toiture instantané avec une simple adresse postale',
     items: [
-      'Rassure l’acheteur et valorise le bien.',
-      'Identifie les éventuels défauts à traiter avant la signature du compromis.',
-      'C’est un document technique qui peut éviter des litiges après la vente.',
+      '📍<strong>Entrez votre adresse :</strong> obtenez une vue ultra-précise de votre toiture à partir d’images aériennes HD.',
+      '🤖 <strong>Diagnostic automatique par IA :</strong> identifiez les risques (tuiles cassées, mousse, affaissements…) sans aucun déplacement.',
+      '🛠️ <strong>Un professionnel près de chez vous :</strong> un couvreur local de confiance vous accompagne pour prévenir les dégâts et engager les bons travaux.',
     ],
+    image: '/assets/images/hero/analyse-report.png',
   },
   testimonials: [
     {
@@ -44,27 +45,30 @@ export default {
     title: 'Analyse automatisée de toitures par intelligence artificielle',
     information: [
       {
-        title: 'Pourquoi la demande diagnostic toiture avant vente immobilière est essentielle ?',
-        description: 'Garantir transparence et confiance en fournissant un état précis de la toiture au futur acquéreur.',
+        title: 'Pourquoi faire un diagnostic régulier de sa toiture ?',
+        description:
+          '<ul><li>▪️Anticiper les dégâts avant qu’ils ne deviennent coûteux (fissures, infiltrations, tuiles déplacées…)</li><li>▪️Allonger la durée de vie de votre toiture de plusieurs années</li><li>▪️Éviter les mauvaises surprises lors de fortes pluies ou tempêtes</li><li>▪️Préserver la valeur de votre maison et votre confort au quotidien</li></uk>',
       },
       {
-        title: 'Comment se déroule la demande diagnostic toiture avant vente immobilière ?',
-        description: 'Prise de rendez-vous, inspection complète et remise d’un rapport détaillé à joindre au dossier de vente.',
+        title: 'Entretien = économies',
+        description:
+          '<p>Un toit bien entretenu, c’est :</p><ul><li>✅ Jusqu’à 15 ans de longévité en plus</li><li>✅ Moins de fuites, moisissures, dégâts structurels</li><li>✅ Une meilleure efficacité énergétique</li></ul>',
       },
       {
-        title: 'Que faire après la demande diagnostic toiture avant vente immobilière ?',
-        description: 'Corriger les défauts, ajuster le prix de vente ou prévoir un accord avec l’acheteur.',
+        title: 'Et après le diagnostic ?',
+        description:
+          '<ul><li>▪️Vous recevez un rapport détaillé avec les zones à surveiller</li><li>▪️Un professionnel de la toiture proche de chez vous peut intervenir si nécessaire</li><li>▪️Vous décidez quand et comment intervenir, en toute connaissance de cause</li></ul>',
       },
     ],
     explication: 'En un clic, obtenez un diagnostic métier précis sans monter sur le toit.',
   },
   theyTrustUs: { title: 'Ils nous font confiance' },
   roofDiagnostics: {
-    title: 'Comprendre les enjeux long terme de la demande diagnostic toiture avant vente immobilière',
+    title: 'null',
     description1:
-      'Réaliser un diagnostic toiture avant la vente permet de présenter un bien en toute transparence, ce qui renforce la confiance des acheteurs potentiels. En identifiant les problèmes éventuels, le vendeur peut anticiper des travaux ou ajuster le prix de manière réaliste. Ce document sert également de protection juridique en cas de contestations postérieures à la transaction. Sur le long terme, cette démarche contribue à fluidifier les ventes immobilières et à préserver la réputation du vendeur ou du professionnel chargé de la transaction.',
+      '<p>Réaliser un diagnostic de toiture régulier permet <strong>de prévenir les dégradations avant qu’elles ne deviennent critiques.</strong> En identifiant les signes d’usure ou de fragilité (tuiles fissurées, zones affaissées, mousses infiltrantes…), les propriétaires peuvent <strong>anticiper les réparations, planifier un entretien efficace et éviter des coûts élevés liés à des sinistres majeurs.</strong></p><br/><p>Cette approche préventive offre une <strong>meilleure gestion de son patrimoine immobilier,</strong> améliore <strong>le confort au quotidien</strong>, et <strong>réduit les risques d’infiltrations, d’humidité ou de pertes énergétiques.</strong></p><br/><p>Sur le long terme, un diagnostic régulier permet de :</p><ul><li><strong>▪️Allonger la durée de vie de la toiture</strong></li><li><strong>▪️Éviter les interventions d’urgence coûteuses</strong></li><li><strong>▪️Préserver la valeur du bien</strong></li><li><strong>▪️Réduire l’impact environnemental</strong> en optimisant les cycles de maintenance</li></ul>',
     description2:
-      'Que vous soyez propriétaire ou futur acquéreur, un diagnostic toiture réalisé par des professionnels qualifiés vous assure une tranquillité d’esprit. Grâce à notre expertise et à des outils de pointe, nous détectons les moindres anomalies, visibles ou invisibles à l’œil nu.',
+      'Que vous soyez propriétaire occupant ou bailleur, un diagnostic réalisé à distance par des professionnels qualifiés, s’appuyant sur des outils de pointe comme l’imagerie aérienne et l’IA, vous garantit une vision claire, fiable et actionnable de l’état de votre toiture.',
   },
   footer: {
     title: 'Votre analyse Birdia près de chez vous',

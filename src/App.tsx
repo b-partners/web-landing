@@ -13,12 +13,11 @@ import { PdfReader } from '@pages/GCU';
 import { Insurance } from '@pages/Insurance';
 import { NavigationPlan } from '@pages/Navigation-Plan';
 import { Home } from '@pages/home';
-import { Template, TemplateLogin, TemplateMenu } from '@pages/template';
+import { Template, TemplateLayout, TemplateLogin, TemplateMenu } from '@pages/template';
 import { useSnackbar } from '@store/snackbar';
 
 import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
-import { PALETTE_COLORS } from './config/theme';
 import aDistance from './pages/template/json-data/a-distance';
 import achatBienImmobilier from './pages/template/json-data/achat-bien-immobilier';
 import achatImmobilierDemandeDiagnosticToiture from './pages/template/json-data/achat-immobilier-demande-diagnostic-toiture';
@@ -222,6 +221,7 @@ import validiteDiagnosticAmianteToitureGarage from './pages/template/json-data/v
 import verificationToiture from './pages/template/json-data/verification-toiture';
 import verificationToiturePrix from './pages/template/json-data/verification-toiture-prix';
 import verificationToitureTarif from './pages/template/json-data/verification-toiture-tarif';
+import { birdiaNewVersionSnackBarStyle } from './style';
 
 const PublicLayout = () => {
   const { pathname } = useLocation();
@@ -238,20 +238,6 @@ const PublicLayout = () => {
     </>
   );
 };
-const TemplateLayout = () => {
-  const { pathname } = useLocation();
-
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  return (
-    <>
-      <Navbar />
-      <Outlet />
-    </>
-  );
-};
 
 function App() {
   const { open } = useSnackbar();
@@ -260,18 +246,7 @@ function App() {
     open({
       type: 'success',
       message: 'Bienvenue sur BIRDIA, la nouvelle version de Bpartners !',
-      alertProps: {
-        sx: {
-          alignItems: 'start',
-          bgcolor: PALETTE_COLORS.peach,
-          color: PALETTE_COLORS.white,
-          fontWeight: 'bold',
-          mb: 5,
-          py: { xs: 1, md: 2 },
-          fontSize: { xs: '0.8rem', md: '1.1rem' },
-          '& .MuiSvgIcon-root': { mt: '2px' },
-        },
-      },
+      alertProps: { sx: birdiaNewVersionSnackBarStyle },
       snackbarProps: { anchorOrigin: { vertical: 'bottom', horizontal: 'center' }, autoHideDuration: 50_000 },
     });
   }, [open]);
