@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quelles sont les causes les plus fréquentes d’une fuite de gouttière ?',
+      answer: ' Les fuites de gouttière proviennent souvent de joints usés, de fissures, d’obstructions ou d’une mauvaise pente d’évacuation.',
+    },
+    q2: {
+      question: 'Comment repérer une fuite sur une gouttière ?',
+      answer: ' Une fuite se détecte par des traces d’eau sur la façade, des éclaboussures au sol ou une infiltration près du toit.',
+    },
+    q3: {
+      question: 'Peut-on réparer une fuite de gouttière soi-même ?',
+      answer: ' Oui, pour de petites fissures, mais il est préférable de faire appel à un professionnel pour une réparation durable et sécurisée.',
+    },
+    q4: {
+      question: 'Quel est le coût moyen d’une réparation de gouttière ?',
+      answer: ' Le prix varie entre 100 et 300 euros selon la longueur, le matériau et la complexité de l’intervention.',
+    },
+    q5: {
+      question: 'Quand faut-il envisager le remplacement complet d’une gouttière ?',
+      answer: ' Si la gouttière présente de multiples fissures, de la corrosion ou une déformation importante, le remplacement est conseillé.',
+    },
+    q6: {
+      question: 'Pourquoi faire appel à Birdia avant une réparation de gouttière ?',
+      answer: ' Birdia réalise une inspection toiture et gouttières par drone, identifiant précisément l’origine des fuites avant toute intervention.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
