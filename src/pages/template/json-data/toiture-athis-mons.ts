@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi faire inspecter sa toiture à Athis-Mons ?',
+      answer: ' Une inspection de toiture à Athis-Mons permet de prévenir les fuites, détecter l’usure des matériaux et planifier les réparations nécessaires.',
+    },
+    q2: {
+      question: 'Qui contacter pour un diagnostic toiture à Athis-Mons ?',
+      answer: ' Un couvreur expérimenté ou une entreprise spécialisée comme Birdia peut réaliser un diagnostic précis et sans risque.',
+    },
+    q3: {
+      question: 'Quand faut-il prévoir un contrôle de toiture à Athis-Mons ?',
+      answer: ' Il est conseillé de le faire tous les deux à trois ans, ou après un épisode de vent fort ou de grêle.',
+    },
+    q4: {
+      question: 'Quel est le coût moyen d’un diagnostic toiture à Athis-Mons ?',
+      answer: ' Le tarif se situe généralement entre 150 et 400 euros selon la surface, le type de couverture et la méthode d’inspection.',
+    },
+    q5: {
+      question: 'Quels sont les signes indiquant qu’une toiture doit être vérifiée ?',
+      answer: 'Des taches d’humidité, des tuiles cassées ou un écoulement irrégulier des eaux pluviales signalent un problème à examiner.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour une inspection toiture à Athis-Mons ?',
+      answer: ' Birdia réalise des diagnostics par drone, sans démontage, avec un rapport visuel détaillé et précis pour chaque toiture.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
