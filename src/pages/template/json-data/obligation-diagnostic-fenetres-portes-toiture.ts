@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'En quoi consiste l’obligation de diagnostic fenêtres, portes et toiture ?',
+      answer: 'Il s’agit d’évaluer l’état et la performance énergétique de ces éléments avant une transaction immobilière ou des travaux.',
+    },
+    q2: {
+      question: 'Quand l’obligation de diagnostic fenêtres, portes et toiture s’applique-t-elle ?',
+      answer: 'Elle est requise lors de la vente ou de la location d’un bien immobilier, ainsi que dans le cadre de certaines rénovations énergétiques.',
+    },
+    q3: {
+      question: 'Qui doit réaliser le diagnostic fenêtres, portes et toiture ?',
+      answer: 'Le propriétaire est responsable de sa réalisation et doit faire appel à un diagnostiqueur certifié.',
+    },
+    q4: {
+      question: 'Quels sont les risques en cas de non-respect de l’obligation de diagnostic ?',
+      answer: 'Le vendeur ou bailleur peut engager sa responsabilité civile et pénale, et l’acquéreur peut se retourner contre lui pour vice caché.',
+    },
+    q5: {
+      question: 'Que couvre précisément le diagnostic fenêtres, portes et toiture ?',
+      answer: 'Il analyse l’étanchéité, l’isolation thermique et acoustique, ainsi que l’état général des menuiseries et de la toiture.',
+    },
+    q6: {
+      question: 'Existe-t-il des solutions modernes pour répondre à cette obligation ?',
+      answer: 'Oui, l’inspection par drone et l’intelligence artificielle permettent de réaliser une expertise rapide et fiable, notamment pour la toiture.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: ' /ile-de-france' },
+      { name: 'Marseille ', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
