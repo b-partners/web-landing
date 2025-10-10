@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic toiture à Tours ?',
+      answer: ' Un diagnostic toiture à Tours permet de repérer les fuites, les infiltrations et l’usure des matériaux avant qu’ils ne s’aggravent.',
+    },
+    q2: {
+      question: 'Qui peut effectuer un diagnostic toiture à Tours ?',
+      answer: ' Un couvreur expert ou une entreprise spécialisée dans l’inspection de toitures intervient pour évaluer précisément l’état du toit.',
+    },
+    q3: {
+      question: 'Que comprend un diagnostic toiture complet à Tours ?',
+      answer: ' Il analyse la couverture, la charpente, la zinguerie et l’étanchéité afin de déterminer les réparations nécessaires.',
+    },
+    q4: {
+      question: 'Quand faut-il faire un diagnostic toiture à Tours ?',
+      answer: ' Il est recommandé tous les deux à trois ans, ou après des intempéries ayant pu fragiliser la structure.',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic toiture à Tours ?',
+      answer: ' Le tarif varie entre 150 et 400 euros selon la surface du toit et la technologie utilisée pour l’inspection.',
+    },
+    q6: {
+      question: 'Pourquoi faire appel à Birdia pour un diagnostic toiture à Tours ?',
+      answer: ' Birdia propose une inspection toiture par drone, rapide, précise et sans démontage, avec un rapport visuel complet.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
