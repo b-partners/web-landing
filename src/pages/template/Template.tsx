@@ -54,7 +54,7 @@ const TemplateComponent = () => {
         </Box>
       )}
       <RoofDiagnostics />
-      <FooterTemplate />
+      {getValues('faq') && <FooterTemplate />}
     </Box>
   );
 };
