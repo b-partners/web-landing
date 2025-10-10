@@ -64,12 +64,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce que le service Allo Diagnostic Amiante Toiture ?',
+      answer: 'C’est une solution permettant d’obtenir rapidement un diagnostic amiante sur toiture grâce à l’intervention de professionnels certifiés.',
+    },
+    q2: {
+      question: 'Qui peut demander un diagnostic amiante toiture ?',
+      answer: 'Tout propriétaire d’un bâtiment construit avant 1997 est concerné, notamment en cas de vente, de location ou de travaux.',
+    },
+    q3: {
+      question: 'Pourquoi faire appel à un service spécialisé comme Allo Diagnostic Amiante Toiture ?',
+      answer: 'Cela garantit une expertise certifiée, un rapport officiel et une conformité avec la réglementation en vigueur.',
+    },
+    q4: {
+      question: 'Combien coûte un diagnostic amiante toiture ?',
+      answer: 'Le tarif dépend de la surface et de l’accessibilité de la toiture, généralement entre 150 et 400 euros.',
+    },
+    q5: {
+      question: 'Comment se déroule un diagnostic amiante toiture ?',
+      answer:
+        'Un diagnostiqueur prélève des échantillons de matériaux suspects, qui sont ensuite analysés en laboratoire pour confirmer la présence ou non d’amiante.',
+    },
+    q6: {
+      question: 'Existe-t-il des alternatives modernes pour détecter l’amiante en toiture ?',
+      answer: 'Oui, l’inspection par drone et l’intelligence artificielle permettent d’identifier rapidement les zones à risque sans démontage direct.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
