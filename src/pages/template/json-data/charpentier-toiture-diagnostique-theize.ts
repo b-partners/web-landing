@@ -64,12 +64,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi faire appel à un charpentier pour diagnostiquer une toiture à Thèize ?',
+      answer: 'Un charpentier spécialisé peut identifier les défauts de structure et prévenir des risques de sécurité liés à une charpente fragilisée.',
+    },
+    q2: {
+      question: 'Quels sont les signes indiquant qu’une charpente doit être contrôlée à Thèize ?',
+      answer: 'Affaissements, fissures, humidité ou traces d’insectes xylophages sont des signaux d’alerte nécessitant un diagnostic rapide.',
+    },
+    q3: {
+      question: 'Le diagnostic toiture à Thèize est-il obligatoire avant une vente immobilière ?',
+      answer:
+        'Oui, un diagnostic complet de la toiture et de la charpente est fortement recommandé, car il influence la valeur du bien et sécurise la transaction.',
+    },
+    q4: {
+      question: 'Quelle est la différence entre un diagnostic réalisé par un charpentier et une inspection classique ?',
+      answer: 'Le charpentier apporte une expertise technique sur la structure porteuse, en complément du contrôle visuel des éléments de couverture.',
+    },
+    q5: {
+      question: 'Quel est le coût d’un diagnostic de charpente et toiture à Thèize ?',
+      answer: 'Le tarif dépend de la surface et de l’accessibilité, mais il faut compter en moyenne entre 200 et 600 euros.',
+    },
+    q6: {
+      question: 'Existe-t-il des solutions modernes pour compléter l’expertise d’un charpentier toiture à Thèize ?',
+      answer: 'Oui, l’inspection par drone et l’intelligence artificielle offrent une analyse rapide et non intrusive pour évaluer l’état de la toiture.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon ' },
+      { name: 'Essone', route: 'diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
