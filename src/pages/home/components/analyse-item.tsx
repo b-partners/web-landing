@@ -34,7 +34,7 @@ export const AnalyseItem: FC<{ analyse: AnalyseType; index: number }> = ({ analy
     if (ref.current) {
       ref.current.innerHTML = getValues(`analyse.information.${index}.description`) || `${analyse.description}`;
     }
-  }, []);
+  }, [analyse.description, index, getValues]);
 
   return (
     <FlexBox sx={ANALYSE_ITEM_SX(analyse.bgcolor, analyse.color)}>
