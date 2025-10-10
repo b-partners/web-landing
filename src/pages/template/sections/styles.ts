@@ -11,17 +11,27 @@ export const HeroPageStyle: SxProps = {
   justifyContent: 'center',
   alignItems: 'center',
   '& #container': {
-    width: { xs: '90%', sm: '85%', md: '80%', lg: '75%' },
+    width: { xs: '90%', xl: '75%' },
     height: '100%',
     display: 'flex',
     flexWrap: 'wrap',
-    alignItems: 'flex-end',
+    alignItems: 'center',
+    justifyContent: 'center',
     mt: 7,
   },
   '& #container > .content-image': {
-    flexBasis: { xs: '100%', sm: '100%', md: '50%' },
+    flexBasis: { xs: '100%', md: '50%' },
     mt: { xs: '10px', sm: '10px', md: '0' },
     mb: { xs: '30px', sm: '30px', md: '0' },
+    height: '100%',
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+  },
+  '& img': {
+    width: { xs: '90%', sm: '80%', md: '90%', lg: '100%' },
+    maxWidth: { sm: '500px', lg: '100%' },
+    objectFit: { xs: 'contain', md: 'cover', lg: 'contain' },
   },
   '& #container > .content': {
     flexBasis: { xs: '100%', sm: '100%', md: '50%' },
@@ -32,12 +42,14 @@ export const HeroPageStyle: SxProps = {
     alignItems: { xs: 'center', sm: 'center', md: 'flex-start' },
     textAlign: { xs: 'center', sm: 'center', md: 'left' },
   },
+  '& #container > .content > .ad-cta-button': { mt: 2, mb: 3, px: 5, fontSize: { lg: '1.5rem', xs: '1.3rem', md: '1.2rem' } },
   '& .MuiTypography-root': {
     color: 'white',
   },
   '& #container .MuiListItem-root': {
     padding: 0,
     mb: 3,
+    width: '90%',
   },
   '& #container .MuiListItem-root svg': {
     color: 'white',
@@ -48,16 +60,6 @@ export const HeroPageStyle: SxProps = {
     display: 'flex',
     justifyContent: 'flex-end',
     alignItems: 'center',
-  },
-  '& .box-image img': {
-    borderRadius: '10px',
-    width: { xs: '90%', sm: '80%', md: '90%', lg: '100%' },
-    maxWidth: { sm: '500px', lg: '100%' },
-    height: 'auto',
-    aspectRatio: '16 / 9',
-    objectFit: 'cover',
-    margin: '0 auto',
-    display: 'block',
   },
   '.box-image-template': {
     height: '375px',
