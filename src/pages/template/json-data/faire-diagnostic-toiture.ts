@@ -64,12 +64,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: ' Pourquoi faire un diagnostic de toiture ?',
+      answer: ' Faire un diagnostic de toiture permet de détecter les fuites, l’usure des matériaux et les risques d’infiltration avant qu’ils ne s’aggravent.',
+    },
+    q2: {
+      question: 'Quand faut-il faire un diagnostic de toiture ?',
+      answer: ' Il est recommandé d’effectuer un diagnostic tous les deux ans ou après des intempéries majeures',
+    },
+    q3: {
+      question: 'Qui peut faire un diagnostic de toiture ?',
+      answer: ' Seul un couvreur expérimenté ou un expert en inspection de toiture est habilité à réaliser un diagnostic fiable.',
+    },
+    q4: {
+      question: 'Comment se déroule un diagnostic complet de toiture ?',
+      answer:
+        'Le professionnel examine la couverture, la charpente, les éléments d’étanchéité et parfois utilise un drone pour inspecter les zones difficiles d’accès.',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic de toiture ?',
+      answer: ' Le prix varie entre 150 et 400 euros selon la surface du toit et le niveau de détail du diagnostic.',
+    },
+    q6: {
+      question: 'Pourquoi faire appel à Birdia pour un diagnostic de toiture ?',
+      answer: ' Birdia propose un diagnostic toiture par drone précis, rapide et sans risque, offrant une vision globale et illustrée de l’état du toit.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {

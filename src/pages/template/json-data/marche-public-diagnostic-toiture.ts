@@ -64,12 +64,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un marché public de diagnostic toiture ?',
+      answer:
+        'C’est une procédure par laquelle une collectivité ou un organisme public confie à un prestataire l’analyse de l’état des toitures de ses bâtiments',
+    },
+    q2: {
+      question: 'Pourquoi lancer un marché public pour un diagnostic toiture ?',
+      answer:
+        'Il permet de garantir la transparence, la mise en concurrence des prestataires et l’obtention d’un service adapté aux besoins du parc immobilier public.',
+    },
+    q3: {
+      question: 'Quels bâtiments sont concernés par un marché public diagnostic toiture ?',
+      answer: 'Les écoles, mairies, équipements sportifs, logements sociaux ou tout bâtiment appartenant à une collectivité peuvent être concernés.',
+    },
+    q4: {
+      question: 'Quelles prestations inclut généralement un marché public de diagnostic toiture ?',
+      answer: 'Il comprend l’évaluation de l’étanchéité, de la couverture, de la charpente et de l’isolation, avec un rapport détaillé et des préconisations.',
+    },
+    q5: {
+      question: 'Qui peut répondre à un marché public diagnostic toiture ?',
+      answer:
+        'Des entreprises spécialisées en couverture, charpente, étanchéité ou inspection par drone peuvent candidater, sous réserve de certifications adaptées.',
+    },
+    q6: {
+      question: 'Existe-t-il des solutions innovantes adaptées aux marchés publics de diagnostic toiture ?',
+      answer:
+        'Oui, l’utilisation de drones et d’intelligence artificielle permet de réaliser des diagnostics rapides, précis et sécurisés, idéaux pour de grands ensembles publics.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +105,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

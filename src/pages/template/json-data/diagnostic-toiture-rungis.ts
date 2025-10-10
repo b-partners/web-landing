@@ -63,12 +63,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic toiture à Rungis ?',
+      answer:
+        ' Un diagnostic toiture à Rungis permet de détecter les fuites, l’usure ou les défauts d’étanchéité avant qu’ils ne causent des dommages importants.',
+    },
+    q2: {
+      question: ' Qui peut effectuer un diagnostic toiture à Rungis ?',
+      answer: 'Seuls des couvreurs qualifiés ou des entreprises spécialisées dans le diagnostic technique de toitures interviennent sur ce secteur.',
+    },
+    q3: {
+      question: 'Quand faut-il prévoir un diagnostic toiture à Rungis ?',
+      answer: ' Il est conseillé de le faire tous les deux à trois ans ou après des intempéries importantes susceptibles d’endommager le toit.',
+    },
+    q4: {
+      question: 'Que comprend un diagnostic toiture complet à Rungis ?',
+      answer: ' L’inspection porte sur la couverture, la charpente, la zinguerie et l’isolation afin d’évaluer l’état général du toit.',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic toiture à Rungis ?',
+      answer: ' Le prix varie généralement entre 150 et 400 euros selon la surface du toit et le niveau de détail du rapport.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour un diagnostic toiture à Rungis ?',
+      answer: ' Birdia propose une inspection toiture par drone, rapide, sans démontage, avec un rapport visuel complet et précis.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {

@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic amiante toiture avant travaux ?',
+      answer: 'Pour garantir la sécurité sanitaire et se conformer aux obligations légales avant toute intervention.',
+    },
+    q2: {
+      question: 'Quel est le prix moyen d’un diagnostic amiante toiture ?',
+      answer: 'Le coût varie généralement entre 80 € et 300 € selon la surface et l’accessibilité du toit.',
+    },
+    q3: {
+      question: 'Quels facteurs influencent le prix d’un diagnostic amiante toiture ?',
+      answer: 'La surface de la toiture, sa complexité d’accès et la méthodologie employée impactent le tarif.',
+    },
+    q4: {
+      question: 'Qui peut réaliser un diagnostic amiante toiture avant travaux ?',
+      answer: 'Seuls des diagnostiqueurs certifiés et accrédités sont habilités à effectuer ce contrôle.',
+    },
+    q5: {
+      question: 'Que se passe-t-il après un diagnostic amiante positif ?',
+      answer: 'Un plan de désamiantage ou de confinement doit être mis en place par des professionnels agréés.',
+    },
+    q6: {
+      question: 'Le diagnostic amiante toiture est-il obligatoire pour vendre un bien ?',
+      answer: 'Oui, il fait partie du dossier technique exigé lors d’une vente immobilière si le permis de construire date d’avant juillet 1997.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: ' /diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

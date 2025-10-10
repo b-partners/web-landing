@@ -63,12 +63,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce que l’obligation de diagnostic amiante toiture ?',
+      answer: 'C’est une exigence légale visant à vérifier la présence d’amiante dans les toitures des bâtiments construits avant 1997.',
+    },
+    q2: {
+      question: 'Qui est concerné par l’obligation du diagnostic amiante toiture ?',
+      answer:
+        'Tous les propriétaires de biens immobiliers construits avant 1997 doivent se conformer à cette obligation, qu’il s’agisse de particuliers ou de professionnels.',
+    },
+    q3: {
+      question: 'Dans quels cas l’obligation de diagnostic amiante toiture s’applique-t-elle ?',
+      answer: 'Le diagnostic est obligatoire en cas de vente, de location, de travaux ou lors d’un contrôle périodique si la présence d’amiante est confirmée.',
+    },
+    q4: {
+      question: 'Quelles sont les sanctions en cas de non-respect de l’obligation de diagnostic amiante toiture ?',
+      answer: 'Le propriétaire s’expose à des sanctions civiles et pénales, notamment en cas de mise en danger d’autrui ou de litige lors d’une transaction.',
+    },
+    q5: {
+      question: 'Comment réaliser un diagnostic amiante toiture conforme à la réglementation ?',
+      answer: 'Il faut faire appel à un diagnostiqueur certifié qui procèdera aux prélèvements et établira un rapport officiel.',
+    },
+    q6: {
+      question: 'Existe-t-il des solutions innovantes pour répondre à l’obligation du diagnostic amiante toiture ?',
+      answer:
+        'Oui, des technologies comme l’inspection par drone et l’intelligence artificielle permettent de faciliter la détection et le suivi des matériaux amiantés.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

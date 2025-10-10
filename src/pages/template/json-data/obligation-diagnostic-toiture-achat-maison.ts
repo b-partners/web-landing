@@ -63,12 +63,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Le diagnostic toiture est-il obligatoire lors de l’achat d’une maison ?',
+      answer: 'Non, la loi n’impose pas un diagnostic toiture spécifique, mais il est fortement recommandé pour sécuriser la transaction.',
+    },
+    q2: {
+      question: 'Pourquoi demander un diagnostic toiture avant d’acheter une maison ?',
+      answer: 'Cela permet d’évaluer l’état de la couverture, de la charpente et de l’étanchéité afin d’éviter des frais imprévus après l’achat.',
+    },
+    q3: {
+      question: 'Quels risques en cas d’absence de diagnostic toiture lors d’un achat immobilier ?',
+      answer: 'L’acquéreur peut découvrir après coup des problèmes coûteux comme des infiltrations, une isolation défectueuse ou une charpente fragilisée.',
+    },
+    q4: {
+      question: 'Qui peut réaliser un diagnostic toiture avant un achat de maison ?',
+      answer: 'Un couvreur, un charpentier ou une entreprise spécialisée peuvent fournir un rapport détaillé sur l’état de la toiture.',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic toiture avant achat ?',
+      answer: 'Le prix varie selon la surface et l’accessibilité, généralement entre 200 et 600 euros.',
+    },
+    q6: {
+      question: 'Existe-t-il des solutions modernes pour faciliter un diagnostic toiture avant achat de maison ?',
+      answer: 'Oui, l’inspection par drone et l’analyse par intelligence artificielle permettent d’obtenir une expertise rapide, précise et sans démontage.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +100,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

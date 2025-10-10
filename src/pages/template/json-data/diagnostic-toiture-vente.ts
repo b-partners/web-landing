@@ -63,12 +63,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic toiture avant une vente immobilière ?',
+      answer: 'Un diagnostic toiture avant la vente rassure les acheteurs, valorise le bien et permet d’éviter des négociations à la baisse.',
+    },
+    q2: {
+      question: 'Le diagnostic toiture est-il obligatoire pour vendre une maison ?',
+      answer: ' Non, il n’est pas obligatoire, mais il est fortement conseillé pour prouver la bonne condition du toit et anticiper les remarques d’expertise.',
+    },
+    q3: {
+      question: 'Que contient un diagnostic toiture pour la vente d’un bien ?',
+      answer: ' Il inclut l’évaluation de la couverture, de la charpente, de l’étanchéité, des éléments de zinguerie et des éventuelles fuites.',
+    },
+    q4: {
+      question: 'Qui peut réaliser un diagnostic toiture avant une vente ?',
+      answer: 'Un couvreur qualifié ou une société spécialisée dans le diagnostic technique de toiture peut effectuer cette inspection.',
+    },
+    q5: {
+      question: 'Quel est le coût d’un diagnostic toiture pour une vente immobilière ?',
+      answer: ' Le prix varie entre 150 et 400 euros selon la surface du toit, la complexité et les outils d’inspection utilisés.',
+    },
+    q6: {
+      question: ' Pourquoi faire appel à Birdia pour un diagnostic toiture vente ?',
+      answer: ' Birdia propose un diagnostic toiture par drone, rapide, visuel et précis, idéal pour présenter un rapport clair aux acheteurs.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +100,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

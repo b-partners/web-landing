@@ -64,12 +64,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic avant l’achat d’une vieille maison ?',
+      answer:
+        ' Un diagnostic complet avant l’achat d’une vieille maison permet d’identifier les défauts cachés et d’éviter des travaux coûteux après acquisition.',
+    },
+    q2: {
+      question: 'Quels diagnostics sont obligatoires pour l’achat d’une vieille maison ?',
+      answer:
+        ' Les diagnostics obligatoires incluent l’électricité, le gaz, le plomb, l’amiante, les termites, la performance énergétique et l’état de la toiture.',
+    },
+    q3: {
+      question: 'Qui peut effectuer le diagnostic d’une vieille maison avant achat ?',
+      answer: 'Seul un diagnostiqueur certifié ou un expert en bâtiment indépendant peut réaliser un diagnostic fiable et conforme à la réglementation.',
+    },
+    q4: {
+      question: 'Combien coûte un diagnostic complet pour une vieille maison ?',
+      answer: ' Le coût varie entre 400 et 800 euros selon la taille de la maison et le nombre de diagnostics nécessaires.',
+    },
+    q5: {
+      question: 'Pourquoi le diagnostic de la toiture est-il essentiel lors de l’achat d’une vieille maison ?',
+      answer: ' La toiture est souvent la première source d’infiltrations et de déperditions thermiques, d’où l’importance d’un contrôle approfondi.',
+    },
+    q6: {
+      question: 'Comment Birdia facilite le diagnostic d’une vieille maison avant achat ?',
+      answer: ' Birdia propose une inspection toiture innovante par drone, rapide et précise, pour sécuriser votre achat immobilie',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

@@ -64,12 +64,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic amiante toiture fibrociment ?',
+      answer:
+        'C’est un contrôle obligatoire permettant d’identifier la présence d’amiante dans les plaques de fibrociment utilisées pour les toitures construites avant 1997.',
+    },
+    q2: {
+      question: 'Pourquoi réaliser un diagnostic amiante sur une toiture en fibrociment ?',
+      answer:
+        'Il permet de prévenir les risques sanitaires liés à l’inhalation de fibres d’amiante et de sécuriser les occupants comme les intervenants sur la toiture.',
+    },
+    q3: {
+      question: 'Qui doit faire réaliser un diagnostic amiante toiture fibrociment ?',
+      answer: 'Tout propriétaire d’un bâtiment construit avant 1997 doit effectuer ce diagnostic, notamment en cas de vente, de location ou de travaux.',
+    },
+    q4: {
+      question: 'Comment se déroule un diagnostic amiante toiture fibrociment ?',
+      answer:
+        'Un diagnostiqueur certifié prélève des échantillons de fibrociment pour analyse en laboratoire et établit un rapport détaillé sur la présence éventuelle d’amiante.',
+    },
+    q5: {
+      question: 'Quel est le coût moyen d’un diagnostic amiante toiture fibrociment ?',
+      answer: 'Le prix dépend de la surface à diagnostiquer et de l’accessibilité de la toiture, mais il faut compter généralement entre 150 et 400 euros.',
+    },
+    q6: {
+      question: 'Existe-t-il des alternatives pour faciliter le diagnostic amiante toiture fibrociment ?',
+      answer:
+        'Oui, des solutions innovantes comme l’inspection par drone et l’analyse par intelligence artificielle permettent de détecter rapidement les zones à risque sans démontage.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +105,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

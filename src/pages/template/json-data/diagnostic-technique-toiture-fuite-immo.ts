@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic technique de toiture pour un bien immobilier ?',
+      answer: ' C’est une expertise complète permettant d’évaluer l’état de la toiture et de détecter d’éventuelles fuites avant une vente ou un achat.',
+    },
+    q2: {
+      question: 'Pourquoi réaliser un diagnostic technique toiture avant une transaction immobilière ?',
+      answer: ' Il sécurise la vente ou l’achat en identifiant les défauts invisibles et en estimant les travaux éventuels.',
+    },
+    q3: {
+      question: 'Comment se déroule un diagnostic technique toiture fuite immo ?',
+      answer: ' L’expert inspecte la couverture, les éléments d’étanchéité et la zinguerie, souvent à l’aide d’un drone pour plus de précision.',
+    },
+    q4: {
+      question: 'Qui peut effectuer un diagnostic toiture pour un bien immobilier ?',
+      answer: ' Un couvreur qualifié ou une entreprise spécialisée dans le diagnostic technique de toiture peut réaliser cette inspection.',
+    },
+    q5: {
+      question: 'Quels sont les avantages d’un diagnostic toiture pour le vendeur ou l’acheteur ?',
+      answer: ' Le vendeur valorise son bien grâce à la transparence, tandis que l’acheteur évite les mauvaises surprises après acquisition.',
+    },
+    q6: {
+      question: 'Pourquoi faire appel à Birdia pour un diagnostic technique toiture fuite immo ?',
+      answer: ' Birdia propose une inspection toiture par drone, rapide, fiable et sans démontage, idéale avant toute transaction immobilière.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

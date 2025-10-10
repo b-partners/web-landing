@@ -64,12 +64,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’une indemnité amiante toiture ?',
+      answer:
+        'C’est une aide financière destinée à compenser tout ou partie des frais liés au désamiantage ou au remplacement d’une toiture contenant de l’amiante.',
+    },
+    q2: {
+      question: 'Qui peut bénéficier d’une indemnité amiante toiture ?',
+      answer:
+        'Les propriétaires de bâtiments construits avant 1997, dont la toiture contient de l’amiante, peuvent solliciter une indemnisation sous certaines conditions.',
+    },
+    q3: {
+      question: 'Quelles démarches entreprendre pour obtenir une indemnité amiante toiture ?',
+      answer: 'Il faut réaliser un diagnostic amiante par un professionnel certifié, puis constituer un dossier auprès des organismes compétents ou assureurs.',
+    },
+    q4: {
+      question: 'Quel est le montant possible d’une indemnité amiante toiture ?',
+      answer:
+        'Le montant varie selon la surface, l’état de la toiture et les barèmes d’aide disponibles. Certaines aides peuvent couvrir jusqu’à 50 % des frais.',
+    },
+    q5: {
+      question: 'L’indemnité amiante toiture est-elle obligatoire pour les assureurs ?',
+      answer: 'Non, elle dépend des conditions de garantie et des dispositifs publics ou privés en place. Chaque dossier est étudié au cas par cas.',
+    },
+    q6: {
+      question: 'Existe-t-il des alternatives ou compléments à l’indemnité amiante toiture ?',
+      answer: 'Oui, des subventions de l’ANAH, des aides locales ou des prêts à taux préférentiels peuvent compléter ou remplacer une indemnité.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

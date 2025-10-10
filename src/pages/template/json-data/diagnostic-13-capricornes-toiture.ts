@@ -64,12 +64,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic capricornes toiture ?',
+      answer:
+        'C’est un contrôle destiné à détecter la présence de capricornes, insectes xylophages qui s’attaquent aux charpentes et fragilisent les toitures.',
+    },
+    q2: {
+      question: 'Pourquoi réaliser un diagnostic capricornes dans une toiture ?',
+      answer: 'Il permet d’identifier rapidement une infestation et d’éviter des dégradations importantes sur la charpente et la structure du bâtiment.',
+    },
+    q3: {
+      question: 'Quels sont les signes d’une infestation de capricornes dans une charpente ?',
+      answer: 'Présence de trous dans le bois, sciure fine, bruits de grignotement ou affaiblissement des poutres sont des indices typiques.',
+    },
+    q4: {
+      question: 'Qui peut effectuer un diagnostic capricornes toiture fiable ?',
+      answer: 'Un professionnel spécialisé dans le traitement du bois ou un charpentier expérimenté est habilité à réaliser ce type de diagnostic.',
+    },
+    q5: {
+      question: 'Quel est le coût moyen d’un diagnostic capricornes toiture ?',
+      answer: 'Le tarif varie selon la surface et l’accessibilité de la charpente, généralement entre 150 et 400 euros.',
+    },
+    q6: {
+      question: 'Existe-t-il des solutions modernes pour faciliter un diagnostic capricornes toiture ?',
+      answer:
+        'Oui, des technologies innovantes comme l’inspection par drone et l’analyse par intelligence artificielle permettent de repérer les zones fragilisées rapidement.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
