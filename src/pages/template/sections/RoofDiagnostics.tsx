@@ -14,7 +14,7 @@ export const RoofDiagnostics = () => {
   const { getValues } = useFormContext();
   const roofDiagnosticsImg = getValues('roofDiagnostics.image');
   const imageUrl = roofDiagnosticsImg instanceof File ? URL.createObjectURL(roofDiagnosticsImg) : roofDiagnosticsImg || heroImage;
-  const isDiagnosticAvantVente = location.pathname === '/diagnostic-avant-vente';
+  const isDiagnosticAvantVente = location.pathname === '/diagnostic-toiture-particulier';
 
   const refDiagnostic1 = useRef(null);
   const refDiagnostic2 = useRef(null);

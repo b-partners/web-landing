@@ -113,6 +113,7 @@ import diagnosticToitureNancy from './pages/template/json-data/diagnostic-toitur
 import diagnosticToitureObligatoire from './pages/template/json-data/diagnostic-toiture-obligatoire';
 import diagnosticToitureP from './pages/template/json-data/diagnostic-toiture-p';
 import diagnosticToitureParis from './pages/template/json-data/diagnostic-toiture-paris';
+import diagnosticToitureParticulier from './pages/template/json-data/diagnostic-toiture-particulier';
 import diagnosticToitureParticuliers from './pages/template/json-data/diagnostic-toiture-particuliers';
 import diagnosticToiturePertuis from './pages/template/json-data/diagnostic-toiture-pertuis';
 import diagnosticToiturePrix from './pages/template/json-data/diagnostic-toiture-prix';
@@ -445,6 +446,7 @@ function App() {
           <Route path="/devis-diagnostic-marseille" element={<Template jsonData={devisDiagnosticMarseille} />} />
           <Route path="/devis-diagnostic-toiture" element={<Template jsonData={devisDiagnosticToiture} />} />
           <Route path="/cournonsec-34660" element={<Template jsonData={cournonsec34660} />} />
+          <Route path="/diagnostic-toiture-particulier" element={<Template jsonData={diagnosticToitureParticulier} />} />
           <Route path="/diagnostic-avant-vente" element={<Template jsonData={diagnosticAvantVente} />} />
           <Route path="/cout-median" element={<Template jsonData={coutMedian} />} />
           <Route path="/diagnostic-toiture-100m2" element={<Template jsonData={diagnosticToiture100m2} />} />

@@ -44,7 +44,7 @@ export const HeroPage = () => {
   const { getValues } = useFormContext();
   const heroImg = getValues('hero.image');
   const imageUrl = heroImg instanceof File ? URL.createObjectURL(heroImg) : heroImg || heroImage;
-  const isDiagnosticAvantVente = location.pathname === '/diagnostic-avant-vente';
+  const isDiagnosticAvantVente = location.pathname === '/diagnostic-toiture-particulier';
   return (
     <Box component="section" id="template-HeroPage" sx={HeroPageStyle}>
       <Box id="container">
