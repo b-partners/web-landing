@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'https://www.birdia.fr/erreur-diagnostic-toiture',
+      answer: ' C’est une mauvaise évaluation de l’état d’une toiture, entraînant des conclusions ou des travaux inadaptés.',
+    },
+    q2: {
+      question: 'Quelles sont les causes les plus fréquentes d’une erreur de diagnostic toiture ?',
+      answer: ' Elles proviennent souvent d’un manque d’accès, d’un contrôle visuel insuffisant ou d’un manque d’expertise technique.',
+    },
+    q3: {
+      question: 'Quelles conséquences peut avoir une erreur de diagnostic toiture ?',
+      answer: ' Elle peut provoquer des infiltrations non détectées, des coûts supplémentaires ou des litiges après une vente.',
+    },
+    q4: {
+      question: 'Comment éviter une erreur lors d’un diagnostic toiture ?',
+      answer: ' Il est essentiel de faire appel à un expert certifié ou à une entreprise utilisant des technologies d’inspection modernes.',
+    },
+    q5: {
+      question: 'Que faire en cas d’erreur avérée sur un diagnostic toiture ?',
+      answer: 'Il faut contacter le diagnostiqueur pour réévaluation, et en cas de préjudice, faire valoir sa responsabilité professionnelle.',
+    },
+    q6: {
+      question: 'Comment Birdia limite le risque d’erreur dans un diagnostic toiture ?',
+      answer: ' Birdia utilise l’inspection par drone et l’analyse visuelle haute définition pour garantir des diagnostics précis et fiables.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
