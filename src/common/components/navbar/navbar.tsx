@@ -24,7 +24,7 @@ export const Navbar = () => {
 const NavbarContent = () => {
   const location = useLocation();
 
-  const showLoginButton = location.pathname !== '/diagnostic-avant-vente';
+  const showLoginButton = location.pathname !== '/diagnostic-toiture-particulier';
 
   return (
     <FlexBox sx={NAVBAR_CONTAINER_SX}>

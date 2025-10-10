@@ -35,7 +35,7 @@ export const Analyse: FC<AnalyseProps> = (props) => {
     analyseData?.explication ||
     `Détection, qualification et recommandation à partir d’images aériennes HD.\nEn un clic, obtenez un diagnostic métier précis sans monter sur le toit.`;
 
-  const isDiagnosticAvantVente = location.pathname === '/diagnostic-avant-vente';
+  const isDiagnosticAvantVente = location.pathname === '/diagnostic-toiture-particulier';
 
   return (
     <FlexBox component="section" sx={ANALYSE_SX}>
