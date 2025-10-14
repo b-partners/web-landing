@@ -61,7 +61,7 @@ export const HeroPage = () => {
               <HeroList key={item} index={index} text={item} />
             ))}
           </List>
-          {isDiagnosticAvantVente ? <AdCtaButton className="ad-cta-button" /> : <CTAButton sx={{ mt: 2, mb: 3 }} />}
+          {!isDiagnosticAvantVente && <CTAButton sx={{ mt: 2, mb: 3 }} />}
         </Box>
         <Box className="content-image">
           {location.pathname !== '/templateGenerator' ? (
@@ -73,6 +73,11 @@ export const HeroPage = () => {
           )}
         </Box>
       </Box>
+      {isDiagnosticAvantVente && (
+        <Box className='ad-cta-container'>
+          <AdCtaButton className="ad-cta-button" />
+        </Box>
+      )}
     </Box>
   );
 };
