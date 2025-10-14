@@ -64,12 +64,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi faire un diagnostic toiture à Paris ?',
+      answer:
+        'Un diagnostic toiture à Paris permet de prévenir les infiltrations et d’anticiper les réparations dans un environnement urbain souvent exposé à la pollution et aux intempéries.',
+    },
+    q2: {
+      question: 'Qui peut réaliser un diagnostic toiture à Paris ?',
+      answer: ' Seuls des experts en couverture et inspection toiture, connaissant les spécificités du bâti parisien, peuvent garantir un diagnostic fiable.',
+    },
+    q3: {
+      question: 'Quand faut-il effectuer un diagnostic toiture à Paris ?',
+      answer: ' Il est recommandé de faire un diagnostic toiture à Paris tous les 2 à 3 ans ou avant toute vente, achat ou réfection du toit.',
+    },
+    q4: {
+      question: 'Que comprend un diagnostic toiture à Paris ?',
+      answer: ' Le diagnostic toiture à Paris analyse l’état des tuiles, ardoises, chéneaux, zingueries et de l’étanchéité pour détecter toute anomalie.',
+    },
+    q5: {
+      question: 'Quel est le prix d’un diagnostic toiture à Paris ?',
+      answer:
+        ' Le coût d’un diagnostic toiture à Paris dépend de la surface, de l’accessibilité et de la technologie d’inspection utilisée, notamment le drone.',
+    },
+    q6: {
+      question: 'Comment Birdia réalise-t-elle un diagnostic toiture à Paris ?',
+      answer:
+        ' Birdia effectue un diagnostic toiture à Paris par drone, offrant une inspection complète, rapide et sans risque sur les toits difficiles d’accès.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
