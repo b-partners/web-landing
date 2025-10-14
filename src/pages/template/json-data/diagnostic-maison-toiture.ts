@@ -64,12 +64,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic maison toiture ?',
+      answer:
+        ' Un diagnostic maison toiture permet de détecter les défauts d’étanchéité, d’isolation ou de structure avant qu’ils ne causent des dégâts plus importants.',
+    },
+    q2: {
+      question: 'Quand faut-il faire un diagnostic maison toiture ?',
+      answer: ' Il est conseillé d’effectuer un diagnostic maison toiture tous les 2 à 3 ans ou avant toute vente, achat ou rénovation du bien.',
+    },
+    q3: {
+      question: 'Qui peut effectuer un diagnostic maison toiture ?',
+      answer: ' Seuls des professionnels qualifiés en couverture ou en inspection toiture peuvent garantir un diagnostic maison toiture fiable et complet.',
+    },
+    q4: {
+      question: 'Que vérifie un diagnostic maison toiture ?',
+      answer:
+        ' Le diagnostic maison toiture analyse l’état des tuiles, de la charpente, de l’isolation et des éléments de zinguerie pour détecter tout signe de dégradation.',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic maison toiture ?',
+      answer: ' Le prix d’un diagnostic maison toiture varie selon la taille du bâtiment et la technologie utilisée, mais reste généralement accessible.',
+    },
+    q6: {
+      question: 'Comment Birdia réalise-t-elle un diagnostic maison toiture ?',
+      answer: ' Birdia utilise la technologie drone pour effectuer un diagnostic maison toiture précis, rapide et sans risque de détérioration du toit.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
