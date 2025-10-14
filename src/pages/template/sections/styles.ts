@@ -2,14 +2,16 @@ import { PALETTE_COLORS } from '@/config/theme';
 import { SxProps } from '@mui/material';
 
 export const HeroPageStyle: SxProps = {
-  minHeight: '70vh',
+  minHeight: '80vh',
   width: '100%',
   margin: 0,
   padding: 0,
   bgcolor: PALETTE_COLORS.pine,
   display: 'flex',
+  flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
+  gap: 2,
   '& #container': {
     width: { xs: '90%', xl: '75%' },
     height: '100%',
@@ -19,6 +21,8 @@ export const HeroPageStyle: SxProps = {
     justifyContent: 'center',
     mt: 7,
   },
+  '& .ad-cta-container': { flexBasis: '100%', display: 'flex', justifyContent: 'center' },
+  '& .ad-cta-button': { px: 5, fontSize: { lg: '1.5rem', xs: '1.3rem', md: '1.2rem' } },
   '& #container > .content-image': {
     flexBasis: { xs: '100%', md: '50%' },
     mt: { xs: '10px', sm: '10px', md: '0' },
@@ -42,7 +46,6 @@ export const HeroPageStyle: SxProps = {
     alignItems: { xs: 'center', sm: 'center', md: 'flex-start' },
     textAlign: { xs: 'center', sm: 'center', md: 'left' },
   },
-  '& #container > .content > .ad-cta-button': { mt: 2, mb: 3, px: 5, fontSize: { lg: '1.5rem', xs: '1.3rem', md: '1.2rem' } },
   '& .MuiTypography-root': {
     color: 'white',
   },
