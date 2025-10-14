@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect } from 'react';
+import { useLayoutEffect } from 'react';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import { Navigate, Outlet, Route, Routes, useLocation } from 'react-router-dom';
 
@@ -14,7 +14,6 @@ import { Insurance } from '@pages/Insurance';
 import { NavigationPlan } from '@pages/Navigation-Plan';
 import { Home } from '@pages/home';
 import { Template, TemplateLayout, TemplateLogin, TemplateMenu } from '@pages/template';
-import { useSnackbar } from '@store/snackbar';
 
 import { Navbar } from './common/components/navbar';
 import { Env } from './common/utils/env';
@@ -222,7 +221,6 @@ import validiteDiagnosticAmianteToitureGarage from './pages/template/json-data/v
 import verificationToiture from './pages/template/json-data/verification-toiture';
 import verificationToiturePrix from './pages/template/json-data/verification-toiture-prix';
 import verificationToitureTarif from './pages/template/json-data/verification-toiture-tarif';
-import { birdiaNewVersionSnackBarStyle } from './style';
 
 const PublicLayout = () => {
   const { pathname } = useLocation();
@@ -241,17 +239,6 @@ const PublicLayout = () => {
 };
 
 function App() {
-  const { open } = useSnackbar();
-
-  useEffect(() => {
-    open({
-      type: 'success',
-      message: 'Bienvenue sur BIRDIA, la nouvelle version de Bpartners !',
-      alertProps: { sx: birdiaNewVersionSnackBarStyle },
-      snackbarProps: { anchorOrigin: { vertical: 'bottom', horizontal: 'center' }, autoHideDuration: 50_000 },
-    });
-  }, [open]);
-
   return (
     <>
       <Routes>
