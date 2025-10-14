@@ -74,7 +74,7 @@ export const HeroPage = () => {
         </Box>
       </Box>
       {isDiagnosticAvantVente && (
-        <Box className='ad-cta-container'>
+        <Box className="ad-cta-container">
           <AdCtaButton className="ad-cta-button" />
         </Box>
       )}
