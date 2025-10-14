@@ -63,12 +63,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi faire un diagnostic étanchéité toiture terrasse ?',
+      answer: 'Un diagnostic étanchéité toiture terrasse permet de détecter les infiltrations d’eau et prévenir les dégradations de la structure du bâtiment.',
+    },
+    q2: {
+      question: 'Quand faut-il réaliser un diagnostic étanchéité toiture terrasse ?',
+      answer: ' Il est recommandé de réaliser un diagnostic étanchéité toiture terrasse tous les 2 à 3 ans ou dès l’apparition de signes d’humidité.',
+    },
+    q3: {
+      question: 'Qui peut effectuer un diagnostic étanchéité toiture terrasse ?',
+      answer: ' Seuls des experts en couverture et étanchéité, équipés d’outils de détection adaptés, peuvent garantir un diagnostic fiable.',
+    },
+    q4: {
+      question: 'Que contrôle un diagnostic étanchéité toiture terrasse ?',
+      answer: ' Ce diagnostic vérifie l’état des membranes, relevés d’étanchéité, joints et évacuations pour repérer les zones de fuite potentielles.',
+    },
+    q5: {
+      question: 'Quel est le coût d’un diagnostic étanchéité toiture terrasse ?',
+      answer:
+        ' Le tarif d’un diagnostic étanchéité toiture terrasse dépend de la surface et des technologies employées, comme l’inspection par drone ou thermographie.',
+    },
+    q6: {
+      question: 'Comment Birdia réalise-t-elle un diagnostic étanchéité toiture terrasse ?',
+      answer:
+        ' Birdia effectue le diagnostic étanchéité toiture terrasse par drone, offrant une inspection complète, rapide et sans démontage de la couverture.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
