@@ -49,7 +49,7 @@ const NavbarContent = () => {
           <LoginButton variant="text" />
         </FlexBox>
       )}
-      {!showLoginButton && <AdCtaButton sx={{ px: 5, transform: 'translateX(12%)' }} color="forest" />}
+      {!showLoginButton && <AdCtaButton sx={{ px: 5, transform: 'translateX(12%)' }} />}
     </FlexBox>
   );
 };
