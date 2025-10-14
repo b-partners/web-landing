@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Le diagnostic toiture est-il obligatoire ?',
+      answer: ' Le diagnostic toiture n’est pas toujours obligatoire, mais il devient essentiel avant une vente, une rénovation ou en cas de sinistre.',
+    },
+    q2: {
+      question: 'Quand le diagnostic toiture devient-il obligatoire ?',
+      answer: ' Il est obligatoire lorsqu’un bien immobilier construit avant 1997 contient de l’amiante ou avant certains travaux de réfection importants.',
+    },
+    q3: {
+      question: 'Pourquoi faire un diagnostic toiture obligatoire ?',
+      answer: 'Le diagnostic toiture obligatoire garantit la sécurité du bâtiment et la conformité avec les normes en vigueur, notamment en matière d’amiante.',
+    },
+    q4: {
+      question: 'Qui peut réaliser un diagnostic toiture obligatoire ?',
+      answer: ' Seuls des diagnostiqueurs certifiés ou experts en couverture sont habilités à réaliser un diagnostic toiture obligatoire conforme à la loi.',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic toiture obligatoire ?',
+      answer: ' Le coût d’un diagnostic toiture obligatoire dépend de la surface, de la complexité du toit et du type de contrôle exigé.',
+    },
+    q6: {
+      question: 'Comment Birdia effectue-t-elle un diagnostic toiture obligatoire ?',
+      answer: ' Birdia réalise un diagnostic toiture obligatoire par drone, offrant une inspection conforme, précise et sans danger pour le bâtiment.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
