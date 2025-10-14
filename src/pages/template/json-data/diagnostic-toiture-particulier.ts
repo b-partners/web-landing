@@ -1,9 +1,9 @@
 export default {
   route: '/diagnostic-toiture-particulier',
-  metaTitle: 'Diagnostic toiture instantané avec une simple adresse postale',
+  metaTitle: 'Diagnostic toiture instantané',
   metaDescription: 'Découvrez pourquoi et comment faire une demande de diagnostic toiture avant une vente immobilière.',
   hero: {
-    title: 'Diagnostic toiture instantané avec une simple adresse postale',
+    title: 'Diagnostic toiture instantané',
     items: [
       '📍<strong>Entrez votre adresse :</strong> obtenez une vue ultra-précise de votre toiture à partir d’images aériennes HD.',
       '🤖 <strong>Diagnostic automatique par IA :</strong> identifiez les risques (tuiles cassées, mousse, affaissements…) sans aucun déplacement.',
