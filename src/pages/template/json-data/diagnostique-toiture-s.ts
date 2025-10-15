@@ -60,12 +60,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic toiture ?',
+      answer: ' Un diagnostic toiture est une inspection complète de l’état de votre couverture, de la charpente et des éléments d’étanchéité.',
+    },
+    q2: {
+      question: 'Pourquoi faire un diagnostic de toiture régulièrement ?',
+      answer: ' Un diagnostic toiture régulier prévient les infiltrations d’eau, prolonge la durée de vie du toit et évite des travaux de réfection coûteux.',
+    },
+    q3: {
+      question: 'Qui peut réaliser un diagnostic de toiture ?',
+      answer:
+        ' Le diagnostic toiture doit être réalisé par un couvreur ou un professionnel qualifié disposant des équipements nécessaires (drone, caméra thermique, test d’humidité).',
+    },
+    q4: {
+      question: 'Combien coûte un diagnostic de toiture ?',
+      answer: ' Le prix d’un diagnostic toiture dépend de la taille de la toiture, de l’accès et des technologies utilisées',
+    },
+    q5: {
+      question: 'Que contient un rapport de diagnostic toiture ?',
+      answer:
+        ' Un rapport complet inclut l’état des matériaux (tuiles, ardoises, zinc), les zones à risque, les photos haute définition et des recommandations pour la maintenance ou la réparation.',
+    },
+    q6: {
+      question: 'Quelle est la différence entre un diagnostic toiture et une inspection par drone ?',
+      answer:
+        ' L’inspection par drone est une méthode moderne de diagnostic toiture. Elle offre une vue globale et précise, sans risque pour les techniciens ni dégradation du toit.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -79,15 +100,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
