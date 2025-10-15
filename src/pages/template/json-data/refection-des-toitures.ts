@@ -63,12 +63,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce que la réfection d’une toiture ?',
+      answer: ' La réfection d’une toiture consiste à remplacer ou restaurer les éléments dégradés du toit (tuiles, ardoises, étanchéité, isolation). ',
+    },
+    q2: {
+      question: 'Quand faut-il envisager la réfection d’une toiture ?',
+      answer: ' La réfection devient nécessaire lorsque la couverture présente des fuites répétées, des tuiles cassées ou des signes d’usure avancée',
+    },
+    q3: {
+      question: 'Quelle est la différence entre rénovation et réfection de toiture ?',
+      answer: ' La rénovation de toiture englobe l’ensemble des travaux d’amélioration (nettoyage, isolation, traitement). ',
+    },
+    q4: {
+      question: 'Combien coûte une réfection de toiture ?',
+      answer: ' Le coût dépend du type de matériaux, de la surface et des spécificités du chantier. En moyenne, il faut compter entre 120 € et 250 € par m²',
+    },
+    q5: {
+      question: 'Qui contacter pour une réfection de toiture ?',
+      answer:
+        ' Seul un couvreur qualifié ou une entreprise spécialisée peut assurer la réfection d’une toiture en respectant les normes de sécurité et d’étanchéité.',
+    },
+    q6: {
+      question: 'Pourquoi réaliser un diagnostic avant la réfection du toit ?',
+      answer: ' Avant toute réfection, un diagnostic toiture permet d’identifier les causes exactes des dégradations et d’adapter la solution technique.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
