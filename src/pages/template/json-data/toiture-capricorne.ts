@@ -64,12 +64,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un capricorne du bois ?\n',
+      answer: ' Le capricorne du bois est un insecte xylophage dont les larves se nourrissent du bois des charpentes.',
+    },
+    q2: {
+      question: 'Comment savoir si ma charpente est attaquée par des capricornes ?',
+      answer:
+        'Les signes les plus fréquents sont la présence de petits trous dans le bois, de la sciure fine au sol, des grincements ou des traces de vermoulure.',
+    },
+    q3: {
+      question: 'Quels risques les capricornes représentent-ils pour la toiture ?',
+      answer: ' Les larves creusent le bois en profondeur, affaiblissant la résistance mécanique de la charpente',
+    },
+    q4: {
+      question: 'Comment traiter une toiture infestée par les capricornes ?',
+      answer: ' Le traitement consiste à injecter un produit insecticide dans les galeries et à pulvériser les surfaces du bois.',
+    },
+    q5: {
+      question: 'Comment prévenir le retour des capricornes dans la charpente ?',
+      answer: ' Un traitement préventif tous les 10 à 15 ans et une ventilation correcte des combles sont essentiels pour éviter les infestations.',
+    },
+    q6: {
+      question: 'Pourquoi faire appel à Birdia pour un diagnostic toiture capricorne ?',
+      answer: ' Birdia combine inspection par drone et expertise charpente pour repérer rapidement les zones à risque sans démontage.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
