@@ -64,12 +64,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: ' Quels sont les types de toitures les plus courants à Bourges ?',
+      answer:
+        ' À Bourges, les toitures sont principalement composées de tuiles en terre cuite, typiques du Centre-Val de Loire, mais on trouve aussi des toitures en ardoise ou en zinc.',
+    },
+    q2: {
+      question: 'À quelle fréquence faut-il faire inspecter sa toiture à Bourges ?',
+      answer:
+        ' Il est recommandé d’effectuer une inspection de toiture tous les 2 à 3 ans, ou après un événement climatique intense (tempête, gel, fortes pluies). ',
+    },
+    q3: {
+      question: 'Quel est le prix moyen d’une réfection de toiture à Bourges ?',
+      answer:
+        ' Le coût varie selon la surface, le matériau et la complexité du chantier. En moyenne, une réfection de toiture à Bourges coûte entre 120 € et 250 € par m².',
+    },
+    q4: {
+      question: 'Pourquoi faire appel à Birdia pour un diagnostic de toiture à Bourges ?',
+      answer:
+        ' Birdia propose des diagnostics de toiture par drone, offrant une vue complète et précise de l’état du toit sans échafaudage ni intervention risquée.',
+    },
+    q5: {
+      question: 'Comment entretenir efficacement sa toiture à Bourges ?',
+      answer: ' L’entretien régulier comprend le nettoyage des tuiles, le démoussage, la vérification des gouttières et le contrôle de l’étanchéité.',
+    },
+    q6: {
+      question: 'Quels sont les avantages d’un diagnostic toiture par drone à Bourges ?',
+      answer: ' L’inspection par drone permet d’obtenir des images haute définition de l’ensemble du toit, même dans les zones difficilement accessibles. ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +105,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
