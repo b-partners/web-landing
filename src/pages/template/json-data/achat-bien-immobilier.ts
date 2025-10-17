@@ -64,12 +64,35 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quels diagnostics sont obligatoires avant d’acheter un bien immobilier ?',
+      answer:
+        'Avant un achat immobilier, le vendeur doit fournir un Dossier de Diagnostic Technique (DDT) comprenant le DPE, l’état d’amiante, le CREP, le diagnostic termites si applicable, les diagnostics gaz et électricité pour installations de plus de 15 ans, ainsi que l’état des risques naturels, miniers et technologiques.',
+    },
+    q2: {
+      question: 'Le diagnostic de toiture fait-il partie des obligations lors de l’achat ?',
+      answer: ' Non, il n’existe pas de diagnostic de toiture explicitement imposé dans tous les cas par la loi pour la vente',
+    },
+    q3: {
+      question: 'Pourquoi faire une inspection technique ou un audit avant l’achat d’un bien immobilier ?',
+      answer:
+        ' Une inspection technique permet de détecter des problèmes cachés (étanchéité, état de la toiture, charpente, humidité, fissures, installations électriques ou gaz).',
+    },
+    q4: {
+      question: 'Combien coûtent les diagnostics et inspections pour un bien immobilier ?',
+      answer:
+        ' Le coût varie selon plusieurs paramètres : la surface du bien, son âge, sa localisation, le nombre de diagnostics requis (amiante, plomb, DPE, etc.), la complexité de l’inspection (accès toiture, charpente, etc.), le tarif du diagnostiqueur.',
+    },
+    q5: {
+      question: 'Quels risques encourt un acheteur si un diagnostic manque ou est incomplet ?',
+      answer:
+        ' Si le vendeur ne fournit pas certains diagnostics obligatoires, ou s’il cache des défauts (vices cachés), l’acheteur peut avoir recours légalement : négociation du prix, demande de réparation, voire annulation de la vente.',
+    },
+    q6: {
+      question: ' Comment intégrer le diagnostic toiture dans son projet d’achat immobilier ?',
+      answer:
+        ' Quand tu envisages d’acheter, demande à voir tout le DDT fourni par le vendeur, inspecte visuellement l’état du toit, de la charpente et des éléments extérieurs (tuiles/ardoises, gouttières, solins). ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
