@@ -63,12 +63,35 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quel est le prix moyen d’un diagnostic de toiture ?\n',
+      answer:
+        ' Le tarif d’un diagnostic de toiture varie largement selon plusieurs facteurs, mais on observe fréquemment une fourchette de 300 € à 1 000 € pour une inspection complète selon la complexité du toit',
+    },
+    q2: {
+      question: 'Quels critères font varier le prix du diagnostic toiture ?',
+      answer:
+        'Les principaux critères influençant le coût sont la surface et l’accessibilité du toit, la méthode d’inspection, le niveau de détail souhaité, ainsi que la localisation et les frais de déplacement du professionnel.',
+    },
+    q3: {
+      question: ' Quel est le prix d’un diagnostic toiture par drone ?',
+      answer: ' L’inspection par drone est souvent plus coûteuse que l’inspection manuelle classique mais apporte des images précises.',
+    },
+    q4: {
+      question: 'Existe-t-il des diagnostics toiture « basiques » moins chers ?',
+      answer:
+        ' Oui, un diagnostic sommaire ou une simple visite visuelle limitée peut coûter entre 90 € et 300 €, selon la surface et l’ampleur de la prestation.',
+    },
+    q5: {
+      question: 'Le diagnostic toiture peut-il comporter des coûts cachés ou surcoûts ?',
+      answer:
+        'Oui, des surcoûts peuvent s’ajouter en cas d’accès difficile, de conditions météo défavorables, d’usage de technologies spécifiques ou de déplacement en zone isolée.',
+    },
+    q6: {
+      question: 'Comment obtenir un diagnostic toiture au meilleur rapport qualité / prix ?',
+      answer:
+        'Pour obtenir un bon rapport qualité/prix, compare plusieurs devis détaillés, assure-toi de l’usage de moyens adaptés, vérifie la qualification et l’assurance du diagnostiqueur, précise ton besoin exact pour éviter les prestations inutiles, et intègre le coût dans un plan global de maintenance ou de rénovation de la toiture.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +105,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
