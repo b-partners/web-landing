@@ -64,12 +64,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic toiture en Alsace et en quoi diffère-t-il d’un diagnostic dans une autre région ?',
+      answer:
+        'Un diagnostic toiture en Alsace consiste à inspecter l’état de la couverture, de la charpente, de l’étanchéité, de la zinguerie, ainsi que de l’isolation',
+    },
+    q2: {
+      question: 'Quand est-il conseillé de réaliser un diagnostic toiture en Alsace ?',
+      answer:
+        'Plusieurs moments sont propices : après un hiver rigoureux ou une forte tempête ; avant un changement de saison ; lorsque des signes apparaissent  ; ou en vue d’une vente ou d’une rénovation globale.\n',
+    },
+    q3: {
+      question: 'Quelles sont les contraintes spécifiques à considérer pour un diagnostic toiture en Alsace ',
+      answer:
+        'Parmi les contraintes régionales :\nLe climat, le bâti ancien, normes thermiques et exigences d’isolation , patrimoine et réglementation locale\n',
+    },
+    q4: {
+      question: 'Qui peut effectuer un diagnostic toiture en Alsace et quelles compétences spécifiques sont nécessaires ?',
+      answer:
+        ' Le diagnostic doit être réalisé par un professionnel couvreur-zingueur ou un expert en bâtiment spécialisé dans les toitures, familiarisé avec les matériaux régionaux (tuiles plates, ardoises, Biberschwantz, etc.). ',
+    },
+    q5: {
+      question: 'Quel contenu et quelles recommandations doit comporter le rapport de diagnostic pour toiture en Alsace ?',
+      answer:
+        'Un rapport complet doit inclure :\nÉtat actuel de la toiture, description des anomalies, photos annotées des défauts, recommandations de travaux , estimation financière des travaux recommandés',
+    },
+    q6: {
+      question: 'Quelles sont les suites après un diagnostic toiture en Alsace ? Quels travaux ou actions mettre en œuvre ?',
+      answer:
+        'Après diagnostic, il convient de prioriser les réparations urgentes, planifier l’entretien courant, évaluer les rénovations nécessaires, vérifier les aides possibles, et établir un calendrier d’inspections régulières.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +107,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
