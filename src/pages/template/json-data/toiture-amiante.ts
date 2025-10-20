@@ -63,12 +63,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’une toiture amiante et où la rencontre-t-on majoritairement ?',
+      answer: 'Une toiture amiante désigne une couverture contenant de l’amiante, souvent sous forme de plaques de fibro-ciment amianté. ',
+    },
+    q2: {
+      question: 'Le diagnostic amiante toiture est-il obligatoire ? Dans quels cas ?',
+      answer:
+        ' Oui, le diagnostic amiante toiture est obligatoire dans plusieurs cas comme avant une vente immobilière si le permis de construire du bâtiment date d’avant juillet 1997 ;',
+    },
+    q3: {
+      question: 'Quels sont les risques pour la santé liés à une toiture amiantée ?',
+      answer:
+        ' L’amiante est classée comme substance dangereuse : lorsque les matériaux contenant de l’amiante sont dégradés ou manipulés, les fibres peuvent être libérées dans l’air et inhalées. ',
+    },
+    q4: {
+      question: 'Combien coûtent le diagnostic et le désamiantage d’une toiture amiantée ?',
+      answer:
+        ' Voici des ordres de grandeur en France selon les sources :\nLe diagnostic amiante : entre ≈ 70 € et 300; le désamiantage complet : généralement 25 à 60 €/m² pour des toitures en fibro-ciment amianté.; le coût d’évacuation des déchets amiantés',
+    },
+    q5: {
+      question: 'Quelles sont les démarches légales et les obligations pour un propriétaire disposant d’une toiture contenant de l’amiante ?',
+      answer: 'Faire réaliser un diagnostic par un professionnel certifié pour identifier la présence ou non d’amiante, et dans quel état sont les matériaux.',
+    },
+    q6: {
+      question: 'Existe-t-il des aides financières ou dispositifs pour contribuer aux coûts liés à la toiture amiante ?',
+      answer:
+        'Oui, plusieurs aides ou dispositifs peuvent alléger la charge financière comme le taux de TVA réduit applicable à certains travaux de désamiantage ou de remplacement de couverture selon les cas',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
