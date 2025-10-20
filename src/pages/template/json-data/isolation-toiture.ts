@@ -64,12 +64,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quelles sont les méthodes courantes pour isoler une toiture ?',
+      answer:
+        ' On distingue principalement deux grandes techniques : l’isolation par l’intérieur (pose entre ou sous rampants, isolation des combles perdus ou combles aménagés) et l’isolation par l’extérieur (dont la technique du sarking)',
+    },
+    q2: {
+      question: 'Quels matériaux isolants choisir pour une toiture performante ?',
+      answer: 'Les matériaux biosourcés offrent souvent un bon compromis entre performance, confort et impact environnemental. ',
+    },
+    q3: {
+      question: 'Combien coûte une isolation de toiture selon les différentes configurations ?',
+      answer: 'Le coût varie beaucoup selon la configuration (combles perdus, aménageables, toiture plate, sarking, isolation par l’intérieur ou extérieur).',
+    },
+    q4: {
+      question: 'Quels gains / économies d’énergie peut-on attendre après avoir bien isolé sa toiture ?',
+      answer:
+        ' Une isolation toiture bien réalisée peut réduire les pertes de chaleur via le toit, souvent responsables de 20 à 30 % des déperditions dans une maison mal isolée.',
+    },
+    q5: {
+      question: 'Quelles aides financières ou dispositifs encouragent l’isolation de toiture ?',
+      answer:
+        'Plusieurs aides sont disponibles selon les revenus, la nature des travaux et la localisation :\nMaPrimeRénov, Prime énergie / Certificats d’Économies d’Énergie (CEE), Éco-prêt à taux zéro, TVA réduite\n',
+    },
+    q6: {
+      question: 'Quels éléments vérifier avant de lancer un projet d’isolation toiture ?',
+      answer: 'Avant de vous lancer, il est important de vérifier l’état de la charpente (capacité portante, présence d’humidité ou de dégâts)',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
