@@ -63,12 +63,35 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Que signifie la “performance” d’une toiture ?',
+      answer:
+        ' La performance d’une toiture regroupe plusieurs critères : l’isolation thermique (réduire les pertes de chaleur en hiver, la surchauffe en été), l’étanchéité (éviter infiltrations et dégâts d’eau), la résistance au feu, la durabilité des matériaux, et parfois la performance acoustique.',
+    },
+    q2: {
+      question: 'Quels sont les indicateurs de performance thermique d’une toiture ?',
+      answer:
+        ' Parmi les indicateurs les plus utilisés : le coefficient de transmission thermique U (ou l’inverse, la résistance thermique R), la conductivité thermique (λ) du matériau isolant, les ponts thermiques, l’étanchéité à l’air, ainsi que le niveau de conformité aux normes (RT/RE, exigences régionales).',
+    },
+    q3: {
+      question: 'Comment améliorer la performance d’une toiture existante ?',
+      answer: 'Remplacer ou réparer les éléments défaillants d’étanchéité (solins, zinguerie, écrans sous-tuiles).',
+    },
+    q4: {
+      question: 'Quelles sont les normes ou exigences réglementaires liées à la performance toiture en France ?',
+      answer:
+        'Les normes qui définissent la performance thermique des toitures dans le neuf ou en rénovation, notamment via la réglementation thermique (RT 2012 dans les constructions plus anciennes / RE 2020 pour le neuf) qui impose des valeurs minimales de résistance thermique',
+    },
+    q5: {
+      question: 'Quel est le coût pour obtenir une toiture performante ?',
+      answer:
+        ' Le coût dépend fortement : surface de toiture, type de travaux (simple isolation, remplacement complet, étanchéité, ajout de panneaux solaires…), matériaux choisis, accessibilité (pente, hauteur, sécurité), main-d’œuvre locale',
+    },
+    q6: {
+      question: 'Quels bénéfices concrets peut-on attendre en optimisant la performance de sa toiture ?',
+      answer:
+        'Réduction des factures d’énergie (chauffage en hiver, climatisation ou surchauffe en été). On estime souvent que 20-30 % des pertes de chaleur se font par la toiture dans une maison mal isolée.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +105,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
