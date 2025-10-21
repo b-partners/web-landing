@@ -60,12 +60,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi faire un diagnostic de toiture à Lannion ?',
+      answer:
+        ' À Lannion, le climat océanique entraîne humidité, vents forts et pluies fréquentes. Ces conditions favorisent l’apparition de mousses, fissures et infiltrations.',
+    },
+    q2: {
+      question: 'Comment se déroule un diagnostic toiture par drone à Lannion ?',
+      answer: ' Un télépilote Birdia effectue un survol de la toiture à l’aide d’un drone équipé de caméras haute définition et, si nécessaire, thermiques.',
+    },
+    q3: {
+      question: 'Quel est le prix d’un diagnostic toiture à Lannion ?',
+      answer: ' Le tarif dépend de la surface, du type de couverture et du niveau d’analyse souhaité.',
+    },
+    q4: {
+      question: 'Quand faut-il prévoir un diagnostic toiture à Lannion ?',
+      answer: ' Il est conseillé d’effectuer un diagnostic toiture une fois par an, ou après une tempête ou de fortes pluies.',
+    },
+    q5: {
+      question: 'Quels types de toitures peuvent être inspectés à Lannion ?',
+      answer: ' Birdia intervient sur tous types de toitures : maisons individuelles, immeubles, bâtiments industriels ou bâtiments publics.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour un diagnostic toiture à Lannion ?',
+      answer:
+        ' Birdia combine expertise technique et innovation. Grâce à la technologie drone, l’entreprise offre un diagnostic toiture à Lannion rapide, précis et sans danger.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -79,15 +99,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
