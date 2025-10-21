@@ -63,12 +63,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi un particulier devrait-il faire un diagnostic de toiture ?',
+      answer:
+        'Un diagnostic de toiture permet aux particuliers d’identifier les problèmes invisibles à l’œil nu : tuiles fissurées, infiltrations, défauts d’étanchéité ou accumulation de mousse.',
+    },
+    q2: {
+      question: 'Quand réaliser un diagnostic de toiture pour une maison individuelle ?',
+      answer:
+        ' Il est conseillé d’effectuer un diagnostic toiture tous les deux ans, ou après des conditions météorologiques extrêmes (tempête, fortes pluies, canicule).',
+    },
+    q3: {
+      question: 'En quoi consiste un diagnostic toiture par drone pour les particuliers ?',
+      answer: ' Le drone survole la toiture et capture des images haute définition, parfois thermiques.',
+    },
+    q4: {
+      question: 'Combien coûte un diagnostic de toiture pour un particulier ?',
+      answer: 'Birdia propose des formules adaptées aux particuliers, avec un rapport complet et des recommandations personnalisées, à un tarif accessible.',
+    },
+    q5: {
+      question: 'Est-ce utile de faire un diagnostic toiture avant de vendre sa maison ?',
+      answer:
+        'Un diagnostic toiture rassure les acheteurs et valorise le bien. Il permet de présenter un rapport technique prouvant l’état de la couverture, ce qui peut accélérer la vente et limiter les négociations sur le prix.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour un diagnostic toiture particulier ?',
+      answer:
+        'Grâce à l’inspection par drone et à l’analyse assistée par intelligence artificielle, chaque particulier reçoit une évaluation complète, sans échafaudage ni intervention intrusive, pour une vision claire de l’état de sa toiture.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
