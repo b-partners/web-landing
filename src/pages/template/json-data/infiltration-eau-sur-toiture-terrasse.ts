@@ -63,12 +63,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quelles sont les causes d’une infiltration d’eau sur toiture terrasse ?',
+      answer: ' Les infiltrations d’eau sur toiture terrasse proviennent souvent d’un défaut d’étanchéité, d’un joint dégradé ou d’une évacuation obstruée.',
+    },
+    q2: {
+      question: 'Comment repérer une infiltration d’eau sur toiture terrasse ?',
+      answer: ' Des traces d’humidité, cloques sur le revêtement ou taches au plafond sont les signes typiques d’une infiltration d’eau sur toiture terrasse.',
+    },
+    q3: {
+      question: 'Que faire en cas d’infiltration d’eau sur toiture terrasse ?',
+      answer: ' Il faut contacter un professionnel pour établir un diagnostic étanchéité précis et identifier la zone de fuite avant toute réparation.',
+    },
+    q4: {
+      question: 'Comment prévenir une infiltration d’eau sur toiture terrasse ?',
+      answer:
+        ' Un entretien régulier et un diagnostic toiture terrasse tous les 2 à 3 ans permettent de prévenir les infiltrations et prolonger la durabilité du toit.',
+    },
+    q5: {
+      question: 'Combien coûte la réparation d’une infiltration d’eau sur toiture terrasse ?',
+      answer: ' Le coût dépend de la cause de la fuite et de la surface touchée, mais une détection précoce réduit considérablement les dépenses.',
+    },
+    q6: {
+      question: 'Comment Birdia détecte une infiltration d’eau sur toiture terrasse ?',
+      answer: ' Birdia utilise des drones équipés de capteurs visuels et thermiques pour localiser précisément les infiltrations d’eau sans démontage du toit.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
