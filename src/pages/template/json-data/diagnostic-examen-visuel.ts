@@ -63,12 +63,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic examen visuel de toiture ?',
+      answer: 'Un diagnostic examen visuel consiste à inspecter l’état apparent du toit pour repérer fissures, infiltrations ou signes d’usure.',
+    },
+    q2: {
+      question: 'Pourquoi réaliser un diagnostic examen visuel ?',
+      answer: ' Ce diagnostic permet d’identifier rapidement les défauts visibles avant qu’ils n’entraînent des dommages plus importants sur la toiture.',
+    },
+    q3: {
+      question: 'Qui peut effectuer un diagnostic examen visuel fiable ?',
+      answer: ' Seuls des professionnels expérimentés en couverture et inspection peuvent garantir un diagnostic examen visuel précis et complet.',
+    },
+    q4: {
+      question: 'Que comprend un diagnostic examen visuel ?',
+      answer: ' Il inclut la vérification de la couverture, des joints, des éléments de zinguerie et des points d’étanchéité du toit.',
+    },
+    q5: {
+      question: ' Combien coûte un diagnostic examen visuel ?',
+      answer: ' Le coût d’un diagnostic examen visuel dépend de la surface du toit et de la méthode utilisée, manuelle ou assistée par drone.',
+    },
+    q6: {
+      question: 'Comment Birdia réalise-t-elle un diagnostic examen visuel ?',
+      answer: ' Birdia effectue le diagnostic examen visuel par drone, offrant une inspection précise et sécurisée sans intervention directe sur la toiture.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +100,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
