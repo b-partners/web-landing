@@ -63,12 +63,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Comment savoir si ma toiture de garage contient de l’amiante ?',
+      answer:
+        ' Les toitures de garage en fibrociment posées avant 1997 contiennent souvent de l’amiante. On les reconnaît à leur aspect gris, rigide et légèrement ondulé.',
+    },
+    q2: {
+      question: 'Est-il dangereux d’avoir une toiture de garage en amiante ?',
+      answer: ' L’amiante devient dangereux uniquement lorsqu’il se dégrade et libère des fibres dans l’air. ',
+    },
+    q3: {
+      question: 'Peut-on réparer une toiture de garage contenant de l’amiante ?',
+      answer: ' Non, il est déconseillé de percer, poncer ou réparer soi-même une toiture en amiante. ',
+    },
+    q4: {
+      question: 'Quel est le coût pour retirer une toiture de garage en amiante ?',
+      answer: ' Le désamiantage d’une toiture de garage coûte généralement entre 25 et 45 € par m², selon l’accessibilité et l’état du support.',
+    },
+    q5: {
+      question: 'Quelles sont les obligations légales concernant une toiture en amiante ?',
+      answer: ' En France, le propriétaire est responsable du repérage et du suivi de l’amiante dans ses bâtiments.',
+    },
+    q6: {
+      question: 'Comment Birdia peut m’aider à contrôler ma toiture de garage en amiante ?',
+      answer: ' Birdia propose des inspections de toitures par drone, permettant d’analyser l’état des plaques amiantées sans contact direct. ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
