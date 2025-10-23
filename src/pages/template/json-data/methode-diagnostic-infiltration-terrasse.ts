@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic d’infiltration sur une terrasse ?',
+      answer: 'Il permet de détecter les fuites ou défauts d’étanchéité responsables d’humidité et de dégradations dans le bâtiment.',
+    },
+    q2: {
+      question: 'Quelles sont les principales méthodes de diagnostic d’infiltration terrasse ?',
+      answer: 'Les plus courantes sont la mise en eau, la thermographie infrarouge, la fumigation et l’inspection visuelle approfondie.',
+    },
+    q3: {
+      question: 'Qui peut réaliser un diagnostic infiltration terrasse fiable ?',
+      answer: 'Seuls des professionnels spécialisés en étanchéité et diagnostic bâtiment peuvent garantir une expertise complète.',
+    },
+    q4: {
+      question: 'Quels signes doivent alerter sur une infiltration de terrasse ?',
+      answer: 'Des traces d’humidité, moisissures, cloques sur le revêtement ou infiltrations visibles en sous-face sont des indices révélateurs.',
+    },
+    q5: {
+      question: ' Quel est le coût d’un diagnostic infiltration terrasse ?',
+      answer: 'Le prix varie selon la surface et la méthode utilisée, en moyenne entre 200 et 800 euros.',
+    },
+    q6: {
+      question: 'Existe-t-il des méthodes innovantes pour diagnostiquer une infiltration de terrasse ?',
+      answer: 'Oui, l’inspection par drone et l’intelligence artificielle permettent une analyse rapide et non destructive pour repérer les zones à risque.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
