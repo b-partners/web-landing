@@ -64,12 +64,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi la toiture est-elle un élément clé dans un projet immobilier ?',
+      answer:
+        ' La toiture est l’un des postes les plus importants dans un bien immobilier. Elle protège la structure, influence le confort thermique et l’étanchéité, et représente une part significative de la valeur du bâtiment',
+    },
+    q2: {
+      question: 'Faut-il faire inspecter la toiture avant une vente immobilière ?',
+      answer: ' Oui. Une inspection de toiture avant vente permet de détecter d’éventuels défauts d’étanchéité, de vieillissement ou d’isolation. ',
+    },
+    q3: {
+      question: 'Qu’est-ce qu’un diagnostic immobilier toiture ?',
+      answer:
+        ' Un diagnostic immobilier toiture est une expertise technique qui évalue l’état du toit dans le cadre d’une vente, d’un achat ou d’une gestion de patrimoine.',
+    },
+    q4: {
+      question: 'Quels risques encourt-on avec une toiture défectueuse dans un bien immobilier ?',
+      answer: ' Une toiture endommagée peut entraîner des infiltrations d’eau, des problèmes d’humidité, voire une dégradation de la charpente.',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic immobilier de toiture ?',
+      answer: ' Le coût d’un diagnostic toiture varie selon la surface et la complexité du toit, généralement entre 150 et 400 €.',
+    },
+    q6: {
+      question: 'Comment Birdia accompagne les professionnels de l’immobilier pour le suivi des toitures ?',
+      answer:
+        ' Birdia collabore avec des agences immobilières, syndics et gestionnaires de patrimoine pour la surveillance et le diagnostic régulier des toitures.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
