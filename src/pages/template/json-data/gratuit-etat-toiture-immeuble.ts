@@ -63,12 +63,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'En quoi consiste une évaluation gratuite de l’état d’une toiture d’immeuble ?',
+      answer:
+        ' Une évaluation gratuite de l’état de la toiture d’un immeuble permet d’obtenir un premier aperçu des conditions du toit sans frais ni engagement.',
+    },
+    q2: {
+      question: ' Qui peut demander un diagnostic gratuit de l’état de la toiture ?',
+      answer:
+        ' Ce service s’adresse principalement aux syndics de copropriété, bailleurs sociaux, gestionnaires d’immeubles et propriétaires souhaitant un premier état des lieux avant d’envisager des travaux',
+    },
+    q3: {
+      question: '. Quelle est la différence entre une évaluation gratuite et un diagnostic complet de toiture ?',
+      answer:
+        ' L’évaluation gratuite donne une vision générale et rapide de l’état du toit. Le diagnostic complet, quant à lui, va plus loin : il comprend une analyse détaillée de l’étanchéité, des éléments de zinguerie, de la charpente et de la structure.',
+    },
+    q4: {
+      question: ' Comment se déroule une inspection gratuite de toiture avec Birdia ?',
+      answer: ' Après une prise de contact, les équipes Birdia planifient un vol de drone au-dessus de l’immeuble.',
+    },
+    q5: {
+      question: 'Pourquoi faire vérifier gratuitement l’état d’une toiture d’immeuble ?',
+      answer: ' Un diagnostic gratuit aide à détecter les premiers signes de dégradation avant qu’ils ne se transforment en problèmes coûteux.',
+    },
+    q6: {
+      question: 'Birdia propose-t-elle un service gratuit d’inspection de toiture pour les immeubles ?',
+      answer: ' Oui. Birdia met à disposition des copropriétés et gestionnaires d’immeubles un service gratuit d’évaluation visuelle de l’état des toitures.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
