@@ -63,12 +63,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic de l’état de la toiture ?',
+      answer:
+        ' Le diagnostic de toiture permet d’évaluer la solidité, l’étanchéité et la durabilité du toit. Il aide à détecter les signes de vieillissement, d’infiltration ou de dégradation avant qu’ils ne causent des dommages coûteux.',
+    },
+    q2: {
+      question: 'À quelle fréquence faut-il contrôler l’état de sa toiture ?',
+      answer: 'Un contrôle complet est recommandé tous les 2 à 3 ans, et après chaque épisode climatique extrême (grêle, vent fort, neige).',
+    },
+    q3: {
+      question: 'Quels éléments sont vérifiés lors d’un diagnostic de toiture ?',
+      answer: 'Le diagnostic porte sur la couverture (tuiles, ardoises, zinc), la charpente visible, l’isolation, l’étanchéité et la zinguerie.',
+    },
+    q4: {
+      question: 'Combien coûte un diagnostic de toiture complet ?',
+      answer:
+        ' Le prix varie selon la surface du toit, le type de couverture et la technologie utilisée. Une inspection par drone Birdia est jusqu’à 40 % plus économique qu’une expertise traditionnelle.',
+    },
+    q5: {
+      question: 'Quelle est la différence entre un diagnostic visuel et une inspection par drone ?',
+      answer: ' Un diagnostic visuel classique nécessite un accès physique au toit, souvent risqué et partiel.',
+    },
+    q6: {
+      question: 'Quand demander un diagnostic d’état de toiture ?',
+      answer: ' Il est recommandé d’effectuer un diagnostic avant une vente immobilière, une rénovation énergétique ou la pose de panneaux solaires.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
