@@ -64,12 +64,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi l’étanchéité d’une toiture métallique est-elle essentielle ?',
+      answer: ' Une toiture métallique, bien que robuste, reste sensible aux infiltrations d’eau par les joints, vis ou raccords mal scellés. ',
+    },
+    q2: {
+      question: ' Quels sont les signes d’un problème d’étanchéité sur une toiture métallique ?',
+      answer:
+        ' Les signes les plus courants sont les traces d’humidité sous toiture, la rouille, le décollement de peinture ou encore la condensation à l’intérieur du bâtiment.',
+    },
+    q3: {
+      question: 'Quelles sont les solutions pour améliorer l’étanchéité d’une toiture métallique ?',
+      answer:
+        ' Selon la nature du problème, il est possible d’appliquer une résine d’étanchéité, de poser une membrane bitumineuse ou synthétique, ou de reprendre les fixations et les joints défectueux.',
+    },
+    q4: {
+      question: 'Combien coûte une intervention pour étanchéifier une toiture métallique ?',
+      answer: ' Le coût dépend de la surface, de l’état du support et du type de traitement appliqué. En moyenne, le prix se situe entre 30 et 80 € par m². ',
+    },
+    q5: {
+      question: 'Peut-on rendre une toiture métallique étanche sans la démonter ?',
+      answer:
+        ' Oui, dans de nombreux cas, il est possible d’assurer l’étanchéité par application d’un revêtement liquide étanche directement sur le métal existant.',
+    },
+    q6: {
+      question: ' Comment Birdia contrôle-t-elle l’étanchéité d’une toiture métallique ?',
+      answer:
+        ' Birdia utilise la technologie d’inspection par drone pour observer la toiture sous tous les angles, repérer les zones oxydées, fissurées ou infiltrées.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +105,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
