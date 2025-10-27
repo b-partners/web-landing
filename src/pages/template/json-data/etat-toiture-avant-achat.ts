@@ -63,12 +63,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi vérifier l’état de la toiture avant d’acheter une maison ?',
+      answer: ' La toiture protège la structure du bâtiment contre les infiltrations et les déperditions thermiques',
+    },
+    q2: {
+      question: 'Qui peut réaliser un diagnostic de toiture avant achat ?',
+      answer: 'Le diagnostic de toiture doit être réalisé par un couvreur-zingueur ou un expert en inspection toiture. ',
+    },
+    q3: {
+      question: 'Que comprend un rapport d’état de toiture avant achat ?',
+      answer:
+        ' Un rapport professionnel inclut généralement l’analyse de la couverture (tuiles, ardoises, étanchéité), de la charpente visible, des éléments de zinguerie (gouttières, rives, faîtage) et de l’isolation. ',
+    },
+    q4: {
+      question: 'Combien coûte une inspection de toiture avant achat ?',
+      answer:
+        ' Le tarif dépend de la taille et de la complexité du bâtiment, mais une inspection par drone coûte en moyenne 30 à 40 % moins cher qu’une expertise traditionnelle nécessitant une échelle ou un échafaudage',
+    },
+    q5: {
+      question: 'Quelle est la différence entre une visite de toiture classique et une inspection par drone ?',
+      answer:
+        ' Une visite classique nécessite un accès physique au toit, parfois impossible ou dangereux. L’inspection par drone Birdia, elle, capture des images précises sous tous les angles, même sur des toitures difficiles d’accès.',
+    },
+    q6: {
+      question: 'Quand faut-il demander une inspection de toiture dans le processus d’achat immobilier ?',
+      answer: ' Idéalement, la demande d’inspection doit se faire avant la signature du compromis de vente.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
