@@ -63,12 +63,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi faire un diagnostic amiante sur une toiture de garage ?',
+      answer:
+        'Chez Birdia, nous recommandons le diagnostic amiante pour toute toiture de garage construite avant 1997 ou susceptible de contenir du fibro-ciment',
+    },
+    q2: {
+      question: ' Quels risques si l’amiante est présent et non traité ?',
+      answer:
+        'Si la toiture contient de l’amiante en mauvais état (friable ou endommagée), des fibres peuvent se libérer dans l’air lors de manipulations ou à cause de la détérioration naturelle. ',
+    },
+    q3: {
+      question: 'Quels sont les modes d’intervention après diagnostic ?',
+      answer:
+        'Selon l’état du matériau, Birdia peut recommander une simple surveillance, un recouvrement partiel ou un désamiantage complet par une entreprise certifiée.',
+    },
+    q4: {
+      question: 'Qui réalise le diagnostic et comment Birdia garantit-elle la sécurité ?',
+      answer: 'Le diagnostic est réalisé par un technicien certifié, formé aux obligations légales et aux risques liés à l’amiante',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic amiante pour une toiture de garage via Birdia ?',
+      answer: 'Le prix varie selon la surface, la complexité d’accès, le nombre d’échantillons à prélever et le besoin ou non d’analyses en laboratoire.',
+    },
+    q6: {
+      question: 'Quelle est la durée de validité du diagnostic amiante pour toiture garage ?',
+      answer: 'Le diagnostic reste valable tant que l’état des matériaux n’évolue pas (sans dégradation, ni travaux).',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
