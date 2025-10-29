@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’entend-on par « technique toit » et pourquoi est-ce important ?',
+      answer:
+        'La « technique toit » désigne l’ensemble des aspects techniques liés à la toiture : structure de la charpente, support de couverture, étanchéité, ventilation, zinguerie, isolation des combles, matériaux de couverture, mise en œuvre.',
+    },
+    q2: {
+      question: 'À quelle fréquence faut-il réaliser une inspection technique de toiture ?',
+      answer:
+        'Il est recommandé de faire une inspection technique de toiture au moins une fois tous les deux à trois ans, ou immédiatement après un événement climatique fort (tempête, grêle, neige importante).',
+    },
+    q3: {
+      question: 'Quels éléments vérifier lors d’une inspection technique de toiture ?',
+      answer:
+        'Contrôle de la charpente et des supports, état de la couverture, zinguerie (gouttières, solins, étanchéité), ventilation des combles et isolation du toit. Birdia réalise ce diagnostic complet.',
+    },
+    q4: {
+      question: 'Quelles technologies ou méthodes modernes utilise-t-on pour l’inspection technique d’un toit ?',
+      answer:
+        'Aujourd’hui, plusieurs technologies facilitent l’examen technique du toit : drones pour survoler et filmer en vue aérienne difficilement accessible, caméras thermiques pour détecter les zones de déperdition ou d’humidité, capteurs d’humidité ou d’infiltration, relevés numériques en haute définition, modélisation 3D. ',
+    },
+    q5: {
+      question: 'Quand faut-il envisager une intervention technique lourde plutôt qu’un simple entretien ?',
+      answer:
+        'Une intervention lourde s’impose lorsqu’on relève : un état généralisé d’usure du support (charpente, bois, structure métallique), des défauts d’étanchéité persistants ou multiples, une ventilation inexistante ou obstruée, ou un matériau de couverture devenu obsolète ou non conforme.',
+    },
+    q6: {
+      question: 'Quels sont les coûts et délais associés à une mise en œuvre liée à la « technique toit » ?',
+      answer:
+        'Les coûts et délais dépendent fortement de la nature de l’intervention : simple nettoyage, remplacement partiel de couverture, renforcement de charpente, amélioration de l’étanchéité ou rénovation complète.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
