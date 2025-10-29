@@ -64,12 +64,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’entend-on par « après travaux / recouvrement » en contexte amiante ?',
+      answer:
+        'Après travaux / recouvrement désigne l’ensemble des étapes qui suivent la pose d’un nouveau revêtement ou le recouvrement (ou encapsulage) de matériaux ou produits contenant de l’amiante.',
+    },
+    q2: {
+      question: 'Que prévoit la réglementation après des travaux de recouvrement d’amiante ?',
+      answer:
+        'Après recouvrement ou encapsulage, la loi impose un examen visuel des surfaces traitées, pour vérifier l’absence visible de matériau amianté non retiré ou de défaut de recouvrement. ',
+    },
+    q3: {
+      question: 'Quel est le rôle du contrôle visuel après travaux de recouvrement ?',
+      answer:
+        'Il consiste à vérifier que le recouvrement est complet, sans fissures ni zones découvertes, et que les finitions aux jonctions et points techniques sont correctes.',
+    },
+    q4: {
+      question: 'Qu’est-ce que la mesure d’empoussièrement et quand est-elle nécessaire ?',
+      answer:
+        'La mesure d’empoussièrement consiste à analyser l’air dans les locaux concernés afin d’évaluer la présence de fibres d’amiante dans l’air après travaux ou recouvrement.',
+    },
+    q5: {
+      question: 'Que fait Birdia après vérification du recouvrement ?',
+      answer:
+        'Birdia rédige un rapport avec photos et résultats, propose des corrections si nécessaire, autorise la réutilisation de la zone et assure un suivi périodique si le matériau est simplement recouvert.',
+    },
+    q6: {
+      question: 'Quels sont les coûts et délais après travaux ?',
+      answer:
+        'Ils dépendent de la surface, de l’accès, du type de recouvrement et des analyses nécessaires. Birdia fournit un devis précis incluant contrôle visuel, analyses et corrections éventuelles.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +107,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
