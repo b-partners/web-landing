@@ -63,12 +63,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Comment obtenir un devis de diagnostic toiture à Cournonsec ?',
+      answer:
+        'Pour obtenir un devis de diagnostic toiture, il suffit de fournir à Birdia les informations suivantes : l’adresse précise, la surface approximative de la toiture, le type de couverture (tuile, ardoise, métal…), et les contraintes d’accès éventuelles.',
+    },
+    q2: {
+      question: 'Quels sont les critères qui influencent le prix du devis à Cournonsec ?',
+      answer:
+        'Plusieurs facteurs peuvent faire varier le tarif à Cournonsec : la surface de la toiture, sa pente ou complexité, l’état visible de la couverture, le type de matériaux ; l’accessibilité du site ; la distance depuis le siège de l’entreprise ou les frais de déplacement.',
+    },
+    q3: {
+      question: 'Que comprend exactement un devis de diagnostic toiture ?',
+      answer:
+        'Le devis présente les prestations incluses : inspection visuelle de la couverture, vérification des tuiles/ardoises, des éléments de zinguerie (gouttières, solins), de la ventilation des combles, prise de photographies, rapport documenté, et recommandations d’éventuels travaux.',
+    },
+    q4: {
+      question: 'Quels sont les délais après acceptation du devis pour l’intervention à Cournonsec ?',
+      answer: 'Une fois le devis accepté, Birdia planifie l’intervention dans les meilleurs délais. ',
+    },
+    q5: {
+      question: 'Le devis peut-il évoluer si la toiture à Cournonsec présente des difficultés non anticipées ?',
+      answer:
+        'Oui. Si durant l’intervention, l’expert diagnostique constate des contraintes non prévues (charpente très dégradée, matériaux spéciaux, accès compliqué), un avenant au devis initial peut être proposé.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour un devis de diagnostic toiture à Cournonsec ?',
+      answer: 'Birdia est spécialisé dans l’inspection et le diagnostic des toitures, et intervient dans la région Hérault (dont Cournonsec).',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
