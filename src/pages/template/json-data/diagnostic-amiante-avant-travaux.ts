@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce que le diagnostic amiante avant travaux (DAAT) ?',
+      answer:
+        'Le Diagnostic Amiante Avant Travaux (DAAT), aussi appelé repérage amiante avant travaux (RAAT), est une mission obligatoire pour tout bâtiment dont le permis de construire a été délivré avant le 1er juillet 1997.',
+    },
+    q2: {
+      question: 'Dans quels cas le DAAT est-il obligatoire ?',
+      answer:
+        'Le DAAT est exigé dès lors que des travaux peuvent causer une perturbation des matériaux contenant de l’amiante, par exemple lors de rénovation, remise à neuf, réhabilitation, ou démolition partielle ou totale.',
+    },
+    q3: {
+      question: 'Qui est responsable de réaliser le diagnostic amiante avant travaux ?',
+      answer:
+        'Le donneur d’ordre (le propriétaire, maître d’ouvrage ou tout intervenant commanditaire des travaux) est responsable de faire réaliser le DAAT avant le lancement du chantier. ',
+    },
+    q4: {
+      question: 'Que contient le diagnostic amiante avant travaux ?',
+      answer:
+        'Il identifie les matériaux contenant de l’amiante, réalise si besoin des prélèvements, évalue leur état et propose des mesures de gestion ou de retrait sécurisées.',
+    },
+    q5: {
+      question: 'Quelles sont les conséquences si on ne fait pas le diagnostic amiante avant travaux ?',
+      answer:
+        'Sans DAAT, il y a un risque d’exposition aux fibres d’amiante, une responsabilité légale en cas d’incident et d’éventuelles amendes pour non-conformité.',
+    },
+    q6: {
+      question: 'Comment Birdia réalise un diagnostic amiante ?',
+      answer:
+        'Birdia vérifie l’année de construction, inspecte le site, effectue les prélèvements nécessaires, analyse les échantillons en laboratoire, rédige un rapport complet et assure le suivi après travaux si besoin.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
