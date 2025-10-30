@@ -64,12 +64,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Que signifie « schéma de toiture » dans le contexte d’un diagnostic ou d’une rénovation ?',
+      answer:
+        'Un schéma de toiture est une représentation graphique qui illustre la construction, les composants et les liaisons d’une toiture : versants, faîtage, arêtiers, noues, les éléments de structure.',
+    },
+    q2: {
+      question: ' Quels sont les principaux éléments figurant sur un schéma de toiture ?',
+      answer:
+        'Un schéma toiture typique comporte les éléments suivants : les versants (ou pans) du toit ; le faîtage (ligne de rencontre haute entre deux pans) etc.\n',
+    },
+    q3: {
+      question: 'À quoi sert un schéma de toiture dans une mission Birdia ?',
+      answer: 'Le schéma est un outil fondamental pour garantir que les travaux aboutissent à une toiture performante et durable.',
+    },
+    q4: {
+      question: 'Un schéma de toiture est-il obligatoire pour une rénovation ?',
+      answer:
+        'Le schéma n’est pas une obligation légale dans la plupart des cas, mais il est fortement recommandé. Il offre une base technique — tant pour l’étude que pour le chiffrage — et limite les risques d’erreurs lors de l’exécution des travaux. ',
+    },
+    q5: {
+      question: 'Comment Birdia réalise-t-elle le schéma de toiture ?',
+      answer: 'L’approche de Birdia est structurée autour de plusieurs étapes comme le relevé des dimensions par terrain (mesures, relevés de pente). ',
+    },
+    q6: {
+      question: 'Que faire si le schéma révèle des anomalies structurelles ?',
+      answer:
+        'Si le schéma fait apparaître des anomalies (déformations, désordres au niveau des noues ou arêtiers, pénétrations mal traitées, zones de faiblesse structurelle), on doit les signaler immédiatement dans le rapport;\n',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +105,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
