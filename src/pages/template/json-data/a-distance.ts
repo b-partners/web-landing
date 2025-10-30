@@ -64,12 +64,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’entend-on par « inspection de toiture à distance » chez Birdia ?',
+      answer:
+        'L’inspection de toiture à distance consiste en une analyse de l’état de la couverture (tuiles, ardoises, zinguerie, étanchéité) sans que le diagnostiqueur ait besoin d’accéder physiquement à chaque zone du toit.',
+    },
+    q2: {
+      question: 'Dans quels cas choisir l’option « à distance » ?',
+      answer:
+        'Elle est idéale quand l’accès au toit est difficile, pour un premier diagnostic ou une vérification rapide avant vente. Cette solution offre une vue d’ensemble fiable sans travaux d’accès lourds.',
+    },
+    q3: {
+      question: 'Quels sont les avantages de l’inspection à distance ?',
+      answer:
+        'Elle est plus rapide, moins coûteuse et offre une documentation visuelle complète (photos, vidéos, vues aériennes) pour mieux comprendre l’état de la toiture.',
+    },
+    q4: {
+      question: 'Quelles sont les limites de l’inspection à distance ?',
+      answer:
+        'Elle ne permet pas toujours d’observer les défauts internes ou structurels et dépend des conditions météo. En cas de suspicion sérieuse, une inspection sur place reste nécessaire.',
+    },
+    q5: {
+      question: 'Comment demander une inspection à distance chez Birdia ?',
+      answer:
+        'Il suffit de transmettre les informations sur le bâtiment ; Birdia réalise ensuite la collecte d’images, l’analyse et fournit un rapport détaillé avant toute intervention.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia plutôt qu’un autre prestataire ?',
+      answer:
+        'Birdia associe expertise toiture, outils numériques avancés et IA pour offrir un diagnostic rapide, précis et documenté, adapté à chaque type de couverture.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +107,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
