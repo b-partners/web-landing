@@ -63,12 +63,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’entend-on par “coût médian de toiture” dans le contexte Birdia ?',
+      answer:
+        'Le « coût médian » désigne le montant situé au milieu d’une série de devis ou estimations pour des travaux liés à une toiture (diagnostic, entretien, réfection).',
+    },
+    q2: {
+      question: 'Quels types de toitures ou travaux sont pris en compte pour établir ce coût médian ?',
+      answer:
+        'Le coût médian s’appuie sur des cas variés : toitures de maisons individuelles, petites copropriétés, toits en pente classique, toits plats, toitures en tuiles, ardoises, métal, etc. Il peut inclure des inspections, des nettoyages, des remplacements partiels ou des réfections complètes',
+    },
+    q3: {
+      question: 'Quels sont les principaux facteurs qui font varier le coût réel par rapport au coût médian ?',
+      answer:
+        'Plusieurs éléments influencent l’écart entre le coût médian et le coût réel comme la surface de la toiture et sa pente : plus c’est grand ou incliné, plus les coûts grimpent.\n',
+    },
+    q4: {
+      question: 'Peut-on se fier au coût médian pour établir son budget ?',
+      answer: 'Oui et non. Le coût médian constitue une excellente base de départ pour crédibiliser une estimation ou vérifier si un devis est raisonnable',
+    },
+    q5: {
+      question: 'Comment Birdia collecte-t-elle les données pour établir ce coût médian ?',
+      answer: 'Birdia s’appuie sur un volume de devis réels, d’interventions précédentes, et de diagnostics déjà effectués. ',
+    },
+    q6: {
+      question: ' Que faire si mon devis est bien supérieur au coût médian ?',
+      answer:
+        'Demandez des explications détaillées, comparez plusieurs devis et vérifiez si des travaux cachés justifient le surcoût. Un diagnostic Birdia peut aider à l’évaluer précisément.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
