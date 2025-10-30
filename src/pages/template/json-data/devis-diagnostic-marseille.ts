@@ -63,12 +63,35 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Comment obtenir un devis diagnostic pour un bien à Marseille ?',
+      answer:
+        'Pour obtenir un devis diagnostic à Marseille, il suffit de contacter Birdia en précisant : l’adresse du bien, le type de bien (maison, appartement, immeuble), l’usage (vente, location, rénovation) et l’éventuelle date souhaitée pour l’intervention.',
+    },
+    q2: {
+      question: ' Quels éléments influencent le prix du devis diagnostic à Marseille ?',
+      answer:
+        'Plusieurs paramètres impactent le coût du devis : la surface du bien, le type de bâtiment, son état général, l’échéance (urgence ou intervention planifiée), l’accessibilité du site (étage, combles, toiture difficile), et la localisation dans la région marseillaise (certains quartiers peuvent exiger des interventions plus techniques).',
+    },
+    q3: {
+      question: 'Que comprend typiquement un devis diagnostic ?',
+      answer:
+        'Un devis diagnostic établi par Birdia inclura : la liste des prestations (inspection visuelle ou technique, relevés, photos, rapport), les éventuels équipements ou technologies utilisées (ex. drone, caméra thermique), la durée estimée de l’intervention, les délais de remise du rapport, les conditions d’accès, les garanties ou assurances liées à l’intervention, et bien sûr le prix global.',
+    },
+    q4: {
+      question: 'Quels sont les délais après acceptation du devis pour l’intervention ?',
+      answer: 'Une fois le devis accepté, Birdia planifie l’intervention en fonction de la disponibilité et de l’accessibilité du site.',
+    },
+    q5: {
+      question: 'Le devis est-il modifiable si l’état du bien est plus complexe que prévu ?',
+      answer:
+        'Oui. Si lors de l’intervention, l’expert diagnostique de Birdia constate que le bien présente des complications inattendues (accès difficile, structure dégradée, composants cachés), un avenant peut être proposé.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour le devis diagnostic à Marseille ?',
+      answer:
+        'Birdia est spécialisé en diagnostic toiture, inspection et réfection, et offre une expertise adaptée à la région marseillaise (climat, bâti, accès à la toiture). ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +105,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
