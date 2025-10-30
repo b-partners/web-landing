@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic « fuite toiture » et pourquoi est-il indispensable ?',
+      answer:
+        'C’est une inspection qui identifie l’origine des infiltrations pour éviter des dommages importants à la charpente, à l’isolant ou à l’habitation.',
+    },
+    q2: {
+      question: 'Quels signes doivent déclencher une inspection ?',
+      answer:
+        'Humidité au plafond ou dans les combles, gouttes visibles, tuiles cassées, joints endommagés, noues obstruées ou isolant humide sont des alertes nécessitant un diagnostic rapide.',
+    },
+    q3: {
+      question: 'Quelles méthodes utilise Birdia pour localiser une fuite ?',
+      answer:
+        'Birdia combine drones, caméras thermiques et inspection visuelle in situ pour identifier précisément les zones humides et documenter les anomalies.',
+    },
+    q4: {
+      question: 'Quels sont les avantages par rapport à un simple contrôle visuel ?',
+      answer:
+        'Le diagnostic Birdia est plus précis, sécurisé et fournit un rapport documenté avec photos, recommandations et plan d’action pour anticiper les travaux coûteux.',
+    },
+    q5: {
+      question: 'Quand envisager une intervention immédiate ?',
+      answer:
+        'Si le diagnostic révèle infiltration active, bois pourri, charpente affaiblie, solins ou noues détériorés, une intervention rapide est recommandée pour limiter les dégâts.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour ce diagnostic ?',
+      answer:
+        'Spécialiste des toitures, Birdia identifie la source exacte des fuites, utilise des technologies avancées pour toits difficiles d’accès et fournit un rapport exploitable pour négociation, entretien ou assurance.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
