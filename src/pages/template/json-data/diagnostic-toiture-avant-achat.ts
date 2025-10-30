@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic toiture avant achat et pourquoi est-il important ?',
+      answer:
+        'Il s’agit d’inspecter la couverture, la charpente, la zinguerie et l’étanchéité d’un bien avant l’achat. L’objectif : connaître l’état du toit, anticiper les travaux et éviter les mauvaises surprises, tout en complétant les diagnostics obligatoires.',
+    },
+    q2: {
+      question: 'À quel moment le réaliser dans le processus d’achat ?',
+      answer:
+        'Avant la signature de l’offre ou du compromis, pour pouvoir évaluer les travaux, négocier le prix ou inclure une condition suspensive liée à l’état du toit.',
+    },
+    q3: {
+      question: 'Remplace-t-il les diagnostics obligatoires ?',
+      answer:
+        'Non. Il est complémentaire aux diagnostics légaux (DPE, amiante, plomb, électricité…). Il apporte une expertise technique approfondie sur le toit que les contrôles standards ne couvrent pas.',
+    },
+    q4: {
+      question: 'Pourquoi choisir Birdia ?',
+      answer:
+        'Birdia propose une expertise spécialisée, avec outils modernes (drone, imagerie haute résolution) et rapport détaillé : photos, zones à risque, recommandations, estimation travaux. Cela sécurise l’achat, anticipe les coûts et fournit une évaluation fiable du toit.',
+    },
+    q5: {
+      question: 'Quels éléments le diagnostic doit-il couvrir ?',
+      answer:
+        'Le diagnostic vérifie la couverture (tuiles ou ardoises cassées, déplacées, mousses), la zinguerie et l’évacuation (gouttières, descentes, noues, solins), la charpente (humidité, bois pourri, corrosion, affaissement) et la ventilation/isolant des combles.',
+    },
+    q6: {
+      question: 'Que faire si des défauts sont détectés ?',
+      answer:
+        'On peut demander au vendeur de réparer, négocier une réduction de prix, prévoir un budget travaux post-acquisition ou ajouter une condition suspensive “réalisation des travaux toiture”.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
