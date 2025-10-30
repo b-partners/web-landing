@@ -64,12 +64,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'En quoi consiste un diagnostic gratuit de toiture d’immeuble ?',
+      answer: ' Un diagnostic gratuit de toiture d’immeuble permet d’évaluer l’état général du toit sans engagement de travaux.',
+    },
+    q2: {
+      question: 'Qui peut bénéficier d’un diagnostic gratuit de toiture ?',
+      answer:
+        ' Ce service s’adresse principalement aux syndics de copropriété, gestionnaires d’immeubles et propriétaires bailleurs souhaitant un premier état des lieux avant d’engager des travaux.',
+    },
+    q3: {
+      question: 'Quelle est la différence entre un diagnostic gratuit et un diagnostic complet de toiture ?',
+      answer: ' Le diagnostic gratuit est une inspection de surface permettant d’identifier les zones à risque et de prioriser les besoins. ',
+    },
+    q4: {
+      question: 'Comment se déroule un diagnostic gratuit de toiture d’immeuble avec Birdia ?',
+      answer:
+        ' Après prise de contact, une équipe Birdia planifie une inspection aérienne par drone. Le survol de la toiture permet de capturer des images haute résolution, puis un rapport synthétique est remis au gestionnaire ou au propriétaire. ',
+    },
+    q5: {
+      question: 'Pourquoi réaliser un diagnostic gratuit avant des travaux de toiture ?',
+      answer:
+        ' Un diagnostic gratuit permet de savoir si des travaux sont réellement nécessaires. Il aide à éviter des interventions inutiles et à cibler les réparations prioritaires.',
+    },
+    q6: {
+      question: 'Birdia propose-t-elle un diagnostic gratuit de toiture pour les immeubles collectifs ?',
+      answer: 'Oui. Birdia offre aux copropriétés et gestionnaires d’immeubles un diagnostic visuel gratuit, réalisé par drone.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
