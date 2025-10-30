@@ -64,12 +64,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: ' Pourquoi réaliser un diagnostic de charpente à Brignais ?',
+      answer:
+        ' La charpente est la structure porteuse du toit. Un diagnostic régulier permet de détecter les signes de faiblesse, d’humidité ou d’attaque d’insectes xylophages, avant qu’ils ne compromettent la solidité du bâtiment.',
+    },
+    q2: {
+      question: 'Quels sont les signes d’une charpente en mauvais état ?',
+      answer:
+        ' Les indices les plus courants sont les poutres affaissées, les craquelures, la présence de sciure ou de galeries d’insectes, et des traces d’humidité.',
+    },
+    q3: {
+      question: 'Qui peut effectuer un diagnostic de charpente à Brignais ?',
+      answer: ' Seuls des experts en structure bois ou en couverture peuvent évaluer correctement l’état d’une charpente.',
+    },
+    q4: {
+      question: 'Combien coûte un diagnostic de charpente à Brignais ?',
+      answer:
+        ' Le tarif dépend de la surface et de la complexité du bâtiment. En moyenne, le prix d’un diagnostic de charpente se situe entre 200 et 400 €, incluant le rapport complet et les recommandations. ',
+    },
+    q5: {
+      question: 'Quelle est la différence entre une inspection visuelle et une inspection par drone ?',
+      answer: ' L’inspection visuelle nécessite souvent un accès difficile et ne permet pas toujours de tout observer.',
+    },
+    q6: {
+      question: 'À quel moment demander un diagnostic de charpente ?',
+      answer: ' Un diagnostic est recommandé tous les 10 ans, ou dès l’apparition de signes de dégradation.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
