@@ -64,12 +64,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Que signifie la présence de fumée blanche sur une toiture ?',
+      answer: 'La fumée blanche sur une toiture indique souvent une condensation importante ou une mauvaise ventilation sous les combles.',
+    },
+    q2: {
+      question: 'Pourquoi réaliser un diagnostic toiture en cas de fumée blanche ?',
+      answer:
+        ' Un diagnostic toiture fumée blanche permet d’identifier l’origine du phénomène et de vérifier l’état de l’isolation et de l’étanchéité du toit.',
+    },
+    q3: {
+      question: ' Quelles sont les causes possibles d’une fumée blanche sur le toit ?',
+      answer: ' Elle peut provenir d’une mauvaise évacuation de la vapeur d’eau, d’une fuite ou d’un déséquilibre thermique dans la toiture.',
+    },
+    q4: {
+      question: 'Qui peut effectuer un diagnostic toiture fumée blanche fiable ?',
+      answer: ' Un expert en couverture ou en inspection par drone peut analyser la toiture sans risque et déterminer la cause exacte de la fumée.',
+    },
+    q5: {
+      question: 'Le diagnostic toiture fumée blanche est-il urgent ?',
+      answer: ' Oui, car une condensation non traitée peut rapidement entraîner des moisissures, une perte d’isolation et des dégradations du bois.',
+    },
+    q6: {
+      question: 'Comment Birdia réalise un diagnostic toiture fumée blanche ?',
+      answer:
+        ' Birdia effectue le diagnostic toiture fumée blanche par drone, combinant imagerie thermique et analyse visuelle pour détecter les zones humides ou mal ventilées.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
