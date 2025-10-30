@@ -63,12 +63,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’entend-on par « structure de toiture » ?',
+      answer:
+        'La structure de toiture désigne l’ossature porteuse (charpente, fermes, pannes, chevrons, arbalétriers) et les éléments de liaison qui assurent la solidité, la stabilité et la répartition des charges (neige, vent, toiture).',
+    },
+    q2: {
+      question: 'Comment diagnostiquer l’état de la structure de toit?',
+      answer: 'En fonction du constat, Birdia établit un rapport avec préconisations de réparation ou renforcement.',
+    },
+    q3: {
+      question: 'Quelles sont les pathologies courantes d’une structure de toiture à Tremblay ?',
+      answer: 'Parmi les problèmes fréquemment observés :fléchissement ou affaissement de la charpente  et dégradation ou pourriture du bois due à l’humidité ',
+    },
+    q4: {
+      question: 'Quelle est la durée de vie d’une structure de toit bien entretenue ?',
+      answer:
+        'Avec un entretien régulier (traitement du bois, contrôle périodique, ventilation, réparation des infiltrations) une structure de toiture peut durer plusieurs décennies (50 à 100 ans selon les matériaux). ',
+    },
+    q5: {
+      question: 'Quel coût prévoir pour restaurer ou renforcer une structure de toiture?',
+      answer:
+        'Le coût dépend de l’ampleur des dégradations, des matériaux utilisés, de l’accès au site et de la nécessité d’un échafaudage ou de travaux de charpente lourds.',
+    },
+    q6: {
+      question: 'Comment Birdia intervient-elle à Tremblay sur les structures de toiture ?',
+      answer: 'Birdia peut accompagner le maître d’ouvrage depuis le diagnostic jusqu’à la livraison.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
