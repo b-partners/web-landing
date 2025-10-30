@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Comment obtenir un devis pour un diagnostic toiture avec Birdia ?',
+      answer:
+        'Pour obtenir un devis de diagnostic toiture, il suffit de renseigner l’adresse du bien, la surface estimée à diagnostiquer, le type de couverture (tuile, ardoise, métal, terrasse…), et les éventuelles contraintes d’accès',
+    },
+    q2: {
+      question: 'Quels sont les éléments qui influencent le prix d’un devis diagnostic toiture ?',
+      answer:
+        'Plusieurs facteurs font varier le coût : la surface de la toiture à inspecter, la complexité de la structure, l’accessibilité, les matériaux de couverture, et les technologies utilisées',
+    },
+    q3: {
+      question: 'Que comprend exactement le devis pour un diagnostic toiture ?',
+      answer:
+        'Le devis présente les prestations incluses : contrôle de la couverture, vérification de l’état des tuiles ou ardoises, de la zinguerie, examen de la charpente ou des combles accessibles, rapport photographique, recommandations techniques, délais de remise. Il précise aussi les conditions d’intervention.',
+    },
+    q4: {
+      question: 'Quels sont les délais après acceptation du devis pour l’intervention de diagnostic toiture ?',
+      answer:
+        'Une fois le devis signé, l’intervention peut généralement être programmée dans un délai variable selon disponibilités et conditions d’accès (météo, chantier occupé, hauteur bâtiment).',
+    },
+    q5: {
+      question: 'Le devis peut-il évoluer si l’état de la toiture est plus complexe que prévu ?',
+      answer:
+        'Oui. Si lors de l’intervention, l’expert constate des éléments non prévus dans le devis initial (charpente très dégradée, accès difficile, matériau spécial, présence d’amiante ou autre danger), un avenant peut être proposé.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour un devis diagnostic toiture ?',
+      answer:
+        'Birdia est spécialisé dans l’inspection et le diagnostic de toitures, avec des outils modernes (imagerie aérienne, IA, drone) pour analyser rapidement et précisément l’état d’une toiture. ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
