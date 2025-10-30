@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi faire une vérification régulière de toiture ?',
+      answer: ' Pour détecter tôt les défauts (fuites, tuiles abîmées, mousses) avant qu’ils n’engendrent des réparations coûteuses.',
+    },
+    q2: {
+      question: 'À quelle fréquence doit-on vérifier une toiture ?',
+      answer: ' Il est conseillé d’effectuer un contrôle annuel, voire semi-annuel en zones exposées aux intempéries.',
+    },
+    q3: {
+      question: 'Peut-on faire soi-même la vérification de toiture ?',
+      answer: ' Oui pour une inspection visuelle extérieure, mais une vérification complète nécessite l’expertise d’un professionnel.',
+    },
+    q4: {
+      question: 'Que couvre une inspection de toiture Birdia ?',
+      answer: 'Elle inclut l’analyse de l’état de la couverture, des solins, gouttières, et la détection d’infiltrations éventuelles.',
+    },
+    q5: {
+      question: ' Quels signes montrent qu’une vérification est urgente ?',
+      answer: ' Des taches d’humidité intérieures, des ardoises manquantes ou des infiltrations visibles imposent une vérification immédiate.',
+    },
+    q6: {
+      question: 'Quels bénéfices retire-t-on d’une vérification de toiture par Birdia ?',
+      answer: ' On obtient un diagnostic précis et des recommandations chiffrées pour anticiper travaux ou entretien fiable.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
