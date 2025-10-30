@@ -63,12 +63,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic de charpente et de toiture dans le Rhône ?',
+      answer:
+        'Un diagnostic charpente et toiture consiste à inspecter l’ensemble de la structure ainsi que la couverture pour évaluer leur état, détecter les pathologies et proposer des solutions de réparation.',
+    },
+    q2: {
+      question: 'Quand faut-il faire diagnostiquer sa toiture ou sa charpente ?',
+      answer: 'Un diagnostic précoce permet de détecter les problèmes naissants avant qu’ils ne deviennent coûteux.',
+    },
+    q3: {
+      question: 'En quoi consiste l’intervention de Birdia dans le Rhône pour ce diagnostic ?',
+      answer: 'Le diagnostic livré peut servir de base à un devis de réparation ou de rénovation.',
+    },
+    q4: {
+      question: 'Le diagnostic est-il obligatoire en Rhône (69) ?',
+      answer:
+        'Dans le Rhône, certaines communes ou PLU peuvent imposer des normes esthétiques ou structurelles qui rendent conseillé (voire imposé) l’état des lieux avant travaux.',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic charpente et toiture dans le Rhône ?',
+      answer: 'Birdia fournit toujours un devis clair avant l’intervention, précisant les prestations incluses (rapport, photos, propositions de travaux).',
+    },
+    q6: {
+      question: 'Que faire si le diagnostic révèle des anomalies importantes ?',
+      answer: 'Birdia peut accompagner chaque étape — du diagnostic à la réalisation des travaux — en cohérence avec les solutions préconisées.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
