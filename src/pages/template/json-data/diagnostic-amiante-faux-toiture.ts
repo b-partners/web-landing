@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un faux-toit dans le contexte du diagnostic amiante ?',
+      answer:
+        'Un faux-toit est une structure secondaire placée sous la toiture principale ou sous la charpente, souvent dans les combles ou sous les toits-terrasses, qui sert à l’isolation, à l’aménagement ou à masquer la structure.',
+    },
+    q2: {
+      question: 'Quand faut-il réaliser un diagnostic amiante sur un faux-toit ?',
+      answer:
+        'Avant tout travaux, vente ou rénovation d’un bâtiment construit avant 1997, ou en cas de dégradation visible du faux-plafond (fissures, humidité, effritement).',
+    },
+    q3: {
+      question: 'Quels matériaux de faux-toit peuvent contenir de l’amiante ?',
+      answer:
+        'Plaques de fibrociment, panneaux et isolants anciens, revêtements comme lambris ou dalles, ainsi que joints ou mastics sur structures métalliques.',
+    },
+    q4: {
+      question: 'Qui peut faire ce diagnostic et quelles sont les obligations réglementaires ?',
+      answer:
+        'Le diagnostic amiante faux-toit doit être réalisé par un diagnostiqueur certifié, habilité au repérage amiante selon la réglementation française.',
+    },
+    q5: {
+      question: 'Que faire si de l’amiante est détectée dans le faux-toit ?',
+      answer:
+        'Selon l’état du matériau, Birdia recommande la surveillance, le confinement/recouvrement, ou un retrait complet par des professionnels certifiés.',
+    },
+    q6: {
+      question: 'Quel est le coût et le délai pour un diagnostic amiante faux-toit chez Birdia ?',
+      answer:
+        'Le coût dépend de plusieurs facteurs : surface du faux-toit à inspecter, accessibilité, complexité de démontage éventuel, besoin ou non de prélèvements et d’analyse en laboratoire.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
