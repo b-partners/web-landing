@@ -63,12 +63,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Un diagnostic toiture gratuit, est-ce vraiment possible ?',
+      answer: ' Oui, certaines entreprises comme Birdia proposent un diagnostic toiture gratuit pour évaluer l’état général du toit sans engagement immédiat.',
+    },
+    q2: {
+      question: 'Que comprend un diagnostic toiture gratuit ?',
+      answer:
+        ' Un diagnostic toiture gratuit inclut généralement une inspection visuelle ou par drone afin de repérer les signes d’usure, fuites ou dégradations.',
+    },
+    q3: {
+      question: ' Pourquoi demander un diagnostic toiture gratuit ?',
+      answer: ' Un diagnostic toiture gratuit permet de connaître l’état de sa couverture avant d’engager des travaux ou de prévenir des infiltrations.',
+    },
+    q4: {
+      question: 'Qui peut bénéficier d’un diagnostic toiture gratuit ?',
+      answer: 'Les propriétaires, syndics ou gestionnaires de biens peuvent bénéficier d’un diagnostic toiture gratuit selon la politique du prestataire.',
+    },
+    q5: {
+      question: 'Quelle est la différence entre un diagnostic toiture gratuit et payant ?',
+      answer:
+        ' Le diagnostic toiture gratuit offre une première évaluation, tandis qu’un diagnostic payant inclut souvent un rapport détaillé et des mesures techniques.',
+    },
+    q6: {
+      question: 'Comment Birdia réalise-t-elle un diagnostic toiture gratuit ?',
+      answer: ' Birdia effectue un diagnostic toiture gratuit par drone, offrant une inspection précise et rapide sans mise en danger du bâtiment ni surcoût.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
