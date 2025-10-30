@@ -63,12 +63,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: ' En quoi consiste un diagnostic gratuit immeuble ?',
+      answer: ' Un diagnostic gratuit immeuble permet d’évaluer l’état des toitures, façades ou structures communes sans frais pour la copropriété.',
+    },
+    q2: {
+      question: 'Pourquoi demander un diagnostic gratuit pour un immeuble ?',
+      answer:
+        ' Ce diagnostic aide les syndics et gestionnaires à anticiper les travaux nécessaires et à prévenir les risques d’infiltration ou de dégradation.',
+    },
+    q3: {
+      question: ' Que comprend un diagnostic gratuit immeuble ?',
+      answer: ' Il inclut une inspection visuelle ou par drone des toitures et éléments extérieurs pour repérer les anomalies apparentes.',
+    },
+    q4: {
+      question: 'Qui peut bénéficier d’un diagnostic gratuit immeuble ?',
+      answer: ' Les copropriétés, syndics et bailleurs peuvent solliciter un diagnostic gratuit immeuble selon la politique du prestataire.',
+    },
+    q5: {
+      question: 'Le diagnostic gratuit immeuble est-il fiable ?',
+      answer: ' Oui, s’il est réalisé par un professionnel qualifié utilisant des outils d’inspection modernes comme le drone.',
+    },
+    q6: {
+      question: 'Comment Birdia réalise un diagnostic gratuit immeuble ?',
+      answer: ' Birdia effectue un diagnostic gratuit immeuble par drone, offrant une inspection rapide, précise et sans perturbation pour les occupants.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
