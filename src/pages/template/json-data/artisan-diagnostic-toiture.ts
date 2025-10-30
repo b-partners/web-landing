@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi faire appel à un artisan spécialisé via Birdia ?',
+      answer:
+        'Un artisan qualifié apporte son expertise sur les matériaux et la charpente, utilise Birdia pour analyser le toit et fournit un rapport fiable et documenté, facilitant la planification des travaux.',
+    },
+    q2: {
+      question: 'Quelles sont les étapes d’un diagnostic complet via Birdia ?',
+      answer:
+        'L’artisan collecte les infos du bâtiment, inspecte le toit sur place ou à distance, analyse les images via Birdia, rédige un rapport détaillé et propose un devis si nécessaire.',
+    },
+    q3: {
+      question: 'Quels avantages pour l’artisan ?',
+      answer:
+        'Birdia lui permet de gagner du temps, d’améliorer la précision du diagnostic, de valoriser son offre et de proposer de nouveaux services pour fidéliser ses clients.',
+    },
+    q4: {
+      question: 'Quelles sont les limites et quand prévoir une inspection supplémentaire ?',
+      answer:
+        'Certaines zones très complexes ou cachées peuvent nécessiter un contrôle physique. Les défauts internes ou les contraintes météo peuvent aussi limiter la détection à distance.',
+    },
+    q5: {
+      question: 'Comment l’artisan fixe-t-il le tarif ?',
+      answer:
+        'Le prix dépend de la surface, de l’accès, du type de toiture, des technologies utilisées et des contraintes logistiques, et doit être clairement détaillé dans le devis.',
+    },
+    q6: {
+      question: 'Comment intégrer ce diagnostic à son offre pour développer son activité ?',
+      answer:
+        'L’artisan peut proposer un forfait complet, utiliser le rapport comme outil de valorisation, offrir un suivi périodique et communiquer sur ce service pour se distinguer et attirer de nouveaux clients.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
