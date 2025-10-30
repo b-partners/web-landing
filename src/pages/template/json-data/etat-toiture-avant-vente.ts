@@ -63,12 +63,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi vérifier l’état de la toiture avant une vente immobilière ?',
+      answer: ' Contrôler l’état de la toiture avant vente permet d’éviter les mauvaises surprises lors de la transaction.',
+    },
+    q2: {
+      question: 'Qui doit s’occuper du diagnostic de la toiture avant la vente ?',
+      answer: ' C’est en général le vendeur qui fait réaliser un diagnostic de toiture pour présenter un dossier complet et transparent à l’acquéreur.',
+    },
+    q3: {
+      question: 'Qu’inclut le contrôle de l’état d’une toiture avant vente ?',
+      answer:
+        ' Le diagnostic comprend l’inspection du revêtement (tuiles, ardoises, zinc, etc.), la vérification de l’étanchéité, des évacuations d’eau pluviale, de la charpente et de l’isolation. ',
+    },
+    q4: {
+      question: 'Quels sont les risques de ne pas vérifier la toiture avant la vente ?',
+      answer: ' Une toiture en mauvais état peut cacher des infiltrations d’eau, des dégradations de charpente ou une isolation défaillante. ',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic de l’état de toiture avant une vente ?',
+      answer:
+        ' Le prix dépend du type de bâtiment, de la surface du toit et de la méthode d’inspection. En moyenne, un diagnostic toiture avant vente coûte entre 150 et 400 €.',
+    },
+    q6: {
+      question: 'Comment Birdia peut m’aider à évaluer l’état de ma toiture avant la vente ?',
+      answer: ' Birdia réalise un diagnostic indépendant de toiture à l’aide de drones et d’outils d’analyse visuelle et thermique. ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
