@@ -63,12 +63,35 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic toiture avant achat et pourquoi est-il important ?',
+      answer:
+        'C’est une inspection du toit avant l’acquisition d’un bien. Elle permet d’évaluer l’état réel de la couverture, d’anticiper les travaux et de négocier le prix en toute connaissance de cause.',
+    },
+    q2: {
+      question: 'Quand réaliser le diagnostic toiture avant achat ?',
+      answer:
+        'Idéalement avant la signature de l’offre ou du compromis, afin d’obtenir toutes les informations nécessaires pour décider ou négocier sereinement.',
+    },
+    q3: {
+      question: 'Quels éléments doit couvrir le diagnostic ?',
+      answer:
+        'Il vérifie la couverture, la charpente, la zinguerie, la ventilation et l’isolation, ainsi que les matériaux à risque comme le fibrociment ancien.',
+    },
+    q4: {
+      question: 'Que faire si des anomalies sont détectées ?',
+      answer:
+        'Demandez des réparations, négociez le prix ou prévoyez un budget travaux. Le rapport peut aussi servir de preuve en cas de litige ou de vice caché.',
+    },
+    q5: {
+      question: 'Le diagnostic toiture remplace-t-il les diagnostics obligatoires ?',
+      answer: 'Non. Il complète les diagnostics légaux en se concentrant sur l’état technique du toit, souvent négligé dans les contrôles standard.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia plutôt qu’un autre prestataire ?',
+      answer:
+        'Spécialiste de la toiture, Birdia utilise drones, imagerie et analyse thermique pour fournir un rapport fiable et précis, utile pour sécuriser votre achat.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
