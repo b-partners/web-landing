@@ -60,12 +60,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quelle est la durée de vie moyenne d’une toiture ?',
+      answer:
+        ' La durée de vie d’une toiture dépend du matériau utilisé : environ 30 à 40 ans pour les tuiles en terre cuite, 50 ans pour l’ardoise, et jusqu’à 70 ans pour le zinc.',
+    },
+    q2: {
+      question: 'Quand faut-il faire vérifier sa toiture ?',
+      answer:
+        ' Il est recommandé de contrôler l’état de la toiture tous les 2 à 3 ans, et après chaque événement climatique important (tempête, grêle, neige).',
+    },
+    q3: {
+      question: 'Quels sont les signes d’une toiture en mauvais état ?',
+      answer:
+        ' Les signes les plus fréquents sont : tuiles fissurées ou manquantes, mousse excessive, traces d’humidité sous la charpente, gouttières bouchées ou déformation du faîtage.',
+    },
+    q4: {
+      question: 'Quel est le coût moyen d’un entretien ou d’une rénovation de toiture ?',
+      answer:
+        ' L’entretien simple (nettoyage, démoussage, vérification des joints) coûte entre 15 et 30 € par m², tandis qu’une rénovation complète peut atteindre 150 à 300 € par m². ',
+    },
+    q5: {
+      question: 'Comment se déroule une inspection de toiture par drone Birdia ?',
+      answer: ' Un pilote agréé survole la toiture à basse altitude pour capturer des images haute résolution de l’ensemble du toit. ',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour le diagnostic de votre toiture ?',
+      answer: ' Birdia combine technologie de pointe et expertise en couverture pour offrir un diagnostic complet, sûr et rapide.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -79,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
