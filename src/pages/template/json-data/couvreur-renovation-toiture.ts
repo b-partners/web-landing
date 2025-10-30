@@ -63,12 +63,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quand faut-il envisager une rénovation de toiture ?',
+      answer:
+        ' Une rénovation devient nécessaire lorsque la couverture présente des signes d’usure : tuiles cassées, infiltrations d’eau, mousse abondante ou déperdition thermique.',
+    },
+    q2: {
+      question: 'Quelle est la différence entre une rénovation partielle et une réfection complète ?',
+      answer: 'La rénovation partielle consiste à remplacer uniquement les éléments abîmés (tuiles, zinguerie, étanchéité).',
+    },
+    q3: {
+      question: ' Combien coûte la rénovation d’une toiture ?',
+      answer:
+        ' Le coût moyen d’une rénovation varie entre 150 et 300 € par m², selon les matériaux (tuiles, ardoises, zinc, bac acier) et la complexité du chantier',
+    },
+    q4: {
+      question: 'Pourquoi faire appel à un couvreur professionnel pour rénover sa toiture ?',
+      answer: ' Le couvreur garantit la conformité des travaux, la sécurité du chantier et la durabilité de la couverture.',
+    },
+    q5: {
+      question: 'Combien de temps dure un chantier de rénovation de toiture ?',
+      answer: ' La durée dépend de la surface, du type de couverture et des conditions météo. En moyenne, une rénovation complète prend de 1 à 3 semaines.',
+    },
+    q6: {
+      question: 'Comment Birdia accompagne-t-elle un projet de rénovation de toiture ?',
+      answer: ' Birdia intervient en amont des travaux pour inspecter et diagnostiquer la toiture par drone. ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
