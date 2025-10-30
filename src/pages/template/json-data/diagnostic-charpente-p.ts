@@ -64,12 +64,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi faire un diagnostic charpente ?',
+      answer:
+        ' Un diagnostic charpente permet de vérifier la solidité du bois et de détecter les attaques d’insectes xylophages ou l’humidité avant qu’elles n’affaiblissent la structure.',
+    },
+    q2: {
+      question: 'Quand faut-il réaliser un diagnostic charpente ?',
+      answer: ' Il est recommandé de réaliser un diagnostic charpente tous les 10 ans ou dès l’apparition de signes de fragilité ou d’affaissement du toit.',
+    },
+    q3: {
+      question: '. Que vérifie un diagnostic charpente ?',
+      answer: ' Le diagnostic charpente examine l’état des poutres, solives et assemblages pour repérer les fissures, déformations ou infestations.',
+    },
+    q4: {
+      question: 'Qui peut effectuer un diagnostic charpente fiable ?',
+      answer: ' Seuls des professionnels spécialisés en structure bois et couverture peuvent garantir un diagnostic charpente complet et précis.',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic charpente ?',
+      answer: ' Le prix d’un diagnostic charpente dépend de la taille du bâtiment, de la complexité de la structure et du type d’inspection réalisée.',
+    },
+    q6: {
+      question: 'Comment Birdia réalise-t-elle un diagnostic charpente ?',
+      answer: ' Birdia propose un diagnostic charpente par drone, permettant d’inspecter les zones inaccessibles sans démontage ni mise en danger.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
