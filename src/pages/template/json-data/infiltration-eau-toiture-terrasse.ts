@@ -63,12 +63,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quelles sont les causes les plus fréquentes d’une infiltration d’eau sur une toiture terrasse ?',
+      answer:
+        'Les infiltrations sur toiture terrasse proviennent souvent d’un défaut d’étanchéité : fissures dans le revêtement bitumineux, joints dégradés autour des relevés ou des évacuations, stagnation d’eau due à une mauvaise pente, ou encore vieillissement des membranes d’étanchéité.',
+    },
+    q2: {
+      question: ' Comment détecter une infiltration d’eau sur une toiture terrasse ?',
+      answer: ' Les signes visibles incluent des auréoles au plafond, des traces d’humidité sur les murs, une odeur de moisi ou un décollement de peinture.',
+    },
+    q3: {
+      question: 'Quelle est la différence entre infiltration et condensation sur une toiture terrasse ?',
+      answer:
+        ' L’infiltration provient d’une entrée d’eau extérieure (pluie, neige, stagnation), tandis que la condensation est liée à un problème interne d’isolation ou de ventilation.',
+    },
+    q4: {
+      question: 'Comment réparer une infiltration d’eau sur une toiture terrasse ?',
+      answer: ' La réparation dépend de la nature du revêtement (bitume, EPDM, PVC, résine, etc.) et de l’étendue des dégâts.',
+    },
+    q5: {
+      question: 'Combien coûte la réparation d’une infiltration d’eau sur toiture terrasse ?',
+      answer: ' Le prix varie selon la surface, la complexité du chantier et le matériau utilisé. En moyenne, il faut compter entre 30 et 120 € par m².',
+    },
+    q6: {
+      question: 'Comment prévenir les infiltrations d’eau sur une toiture terrasse ?',
+      answer:
+        ' Un entretien régulier est la clé : nettoyage des évacuations, vérification des relevés d’étanchéité, contrôle après chaque hiver ou épisode de pluie intense. ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
