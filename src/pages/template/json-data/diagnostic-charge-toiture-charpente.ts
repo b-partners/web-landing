@@ -63,12 +63,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'En quoi consiste un diagnostic charge toiture / charpente ?',
+      answer:
+        'Ce diagnostic évalue la résistance de la toiture et de la charpente face aux charges comme le poids des matériaux, la neige ou l’installation de panneaux solaires.',
+    },
+    q2: {
+      question: 'Pourquoi le réaliser avant d’ajouter une charge ?',
+      answer:
+        'Avant toute installation lourde, il est essentiel de vérifier la capacité portante de la charpente. Sans cette précaution, le risque d’affaissement, de fissures ou d’effondrement augmente.',
+    },
+    q3: {
+      question: 'Quels éléments sont vérifiés ?',
+      answer:
+        'Le diagnostiqueur analyse la charpente, la couverture, les évacuations d’eau, la ventilation et l’isolation afin de repérer toute faiblesse ou surcharge.',
+    },
+    q4: {
+      question: 'Quand faut-il le faire ?',
+      answer: 'Ce contrôle s’impose avant un aménagement de combles, la pose de panneaux solaires, un changement de couverture ou après un sinistre.',
+    },
+    q5: {
+      question: 'Quel est le coût d’un diagnostic charge toiture ?',
+      answer: 'Le prix varie selon la taille du toit, la complexité de la charpente et les moyens techniques utilisés.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia ?',
+      answer: 'Birdia allie expertise technique et outils modernes comme le drone ou l’imagerie thermique pour établir un diagnostic précis et exploitable.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
