@@ -64,12 +64,35 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Que couvre un diagnostic toiture dans le département du Rhône ?',
+      answer:
+        ' Un diagnostic toiture dans le Rhône examine l’état de la couverture (tuiles, ardoises, bac acier, etc.), de la charpente, des éléments de zinguerie (gouttières, solins, chéneaux), de l’isolation sous-toiture.',
+    },
+    q2: {
+      question: 'Pourquoi faire un diagnostic de toiture dans le Rhône ?',
+      answer: ' Dans le Rhône, les conditions climatiques (hivers froids, gel/dégel, précipitations) sollicitent fortement les toitures.',
+    },
+    q3: {
+      question: 'Qui peut réaliser un diagnostic toiture agréé dans le Rhône ?',
+      answer:
+        ' Un couvreur-zingueur ou un expert bâtiment disposant des compétences en inspection de toitures (couverture, zinguerie, charpente) peut réaliser ce diagnostic. ',
+    },
+    q4: {
+      question: 'Quels sont les coûts typiques d’un diagnostic toiture dans le Rhône ?',
+      answer:
+        ' Le coût varie selon la surface du toit, la pente, l’accessibilité, la complexité du bâtiment et les technologies utilisées (drone, thermographie).',
+    },
+    q5: {
+      question: 'Comment le climat du Rhône influence-t-il le diagnostic toiture ?',
+      answer:
+        ' Le climat régional, avec des épisodes de gel, de fortes pluies et de vents, accentue l’usure des matériaux, provoque fissurations, glissements ou soulèvements d’éléments de couverture.',
+    },
+    q6: {
+      question: 'Quelles actions suivre après le diagnostic toiture dans le Rhône ?',
+      answer:
+        ' Après réception du rapport, il faut prioriser les interventions (réparer les sections défaillantes, remplacer les éléments gravement endommagés, renforcer l’étanchéité).',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
