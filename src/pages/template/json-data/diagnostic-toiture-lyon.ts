@@ -63,12 +63,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic de toiture à Lyon ?',
+      answer:
+        ' À Lyon, les variations climatiques — fortes pluies, gel hivernal, chaleur estivale — fragilisent les tuiles, les joints et les éléments d’étanchéité. ',
+    },
+    q2: {
+      question: 'Comment se déroule un diagnostic toiture par drone à Lyon ?',
+      answer: ' Le diagnostic par drone Birdia consiste à survoler la toiture à l’aide d’un drone équipé de caméras haute résolution et thermiques.',
+    },
+    q3: {
+      question: 'Quel est le coût d’un diagnostic toiture à Lyon ?',
+      answer: 'Le tarif dépend de la surface du toit, de son accessibilité et du type d’analyse demandé (visuelle ou thermique).',
+    },
+    q4: {
+      question: 'Quand faut-il faire inspecter sa toiture à Lyon ?',
+      answer:
+        ' Il est conseillé de réaliser un diagnostic toiture au moins une fois par an, idéalement au printemps ou après un épisode climatique important (grêle, vent fort, gel).',
+    },
+    q5: {
+      question: 'Quels types de bâtiments Birdia inspecte-t-elle à Lyon ?',
+      answer:
+        ' Birdia intervient sur tous types de bâtiments lyonnais : maisons individuelles, immeubles haussmanniens, bâtiments industriels ou copropriétés.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour un diagnostic toiture à Lyon ?',
+      answer:
+        ' Birdia associe innovation technologique et expertise du bâtiment. Grâce à l’inspection par drone, le diagnostic toiture à Lyon est rapide, précis et totalement sécurisé. ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
