@@ -64,12 +64,35 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quel est le prix moyen d’un diagnostic toiture Birdia ?',
+      answer: 'En 2025, le tarif moyen se situe entre 200 € et 800 € TTC selon la surface, l’accessibilité et la complexité de la toiture.',
+    },
+    q2: {
+      question: 'Quels facteurs influencent le coût du diagnostic ?',
+      answer:
+        'Le prix varie selon la taille du toit, la difficulté d’accès, la méthode d’inspection choisie (visuelle, drone, thermographie) et l’état général de la couverture.',
+    },
+    q3: {
+      question: 'Birdia propose-t-elle plusieurs niveaux de prestation ?',
+      answer:
+        'Oui, Birdia adapte ses prestations selon le besoin. Le diagnostic standard inclut un contrôle visuel complet, tandis que la version avancée utilise des outils comme le drone ou l’imagerie thermique pour un rapport plus détaillé.',
+    },
+    q4: {
+      question: 'Le tarif affiché est-il définitif ?',
+      answer:
+        'Non, il sert surtout de repère. Chaque toiture étant différente, il est conseillé de demander un devis personnalisé pour connaître le montant exact.',
+    },
+    q5: {
+      question: 'Y a-t-il des coûts supplémentaires possibles ?',
+      answer:
+        'Oui, certaines situations peuvent entraîner un surcoût, notamment si l’accès est difficile ou si l’inspection nécessite un drone ou une nacelle. Les réparations éventuelles restent toujours en dehors du diagnostic.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia ?',
+      answer:
+        'Birdia est un spécialiste de l’inspection de toitures, utilisant des outils modernes et une méthode rigoureuse. Cette expertise garantit un rapport précis, une évaluation fiable et une meilleure anticipation des risques et des coûts.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
