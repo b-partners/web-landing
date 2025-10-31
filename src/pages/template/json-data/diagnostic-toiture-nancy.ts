@@ -63,12 +63,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic de toiture à Nancy ?',
+      answer: ' À Nancy, les toitures sont soumises à un climat humide et variable, propice à la mousse, aux infiltrations et aux dégradations des tuiles. ',
+    },
+    q2: {
+      question: 'Comment se déroule un diagnostic toiture par drone à Nancy ?',
+      answer: ' L’expert Birdia déploie un drone équipé de caméras haute définition et thermiques.',
+    },
+    q3: {
+      question: 'Quel est le prix d’un diagnostic toiture à Nancy ?',
+      answer: ' Le tarif dépend de la superficie de la toiture, du niveau d’analyse souhaité et de l’accessibilité du bâtiment. ',
+    },
+    q4: {
+      question: 'Quand faut-il planifier un diagnostic toiture à Nancy ?',
+      answer: ' Il est recommandé d’effectuer un diagnostic tous les deux ans, ou après des conditions climatiques extrêmes (gel, grêle, vent for',
+    },
+    q5: {
+      question: 'Quels types de bâtiments peuvent bénéficier d’un diagnostic toiture à Nancy ?',
+      answer: ' Birdia intervient sur tous types de bâtiments : maisons individuelles, immeubles collectifs, bâtiments publics ou industriels.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour un diagnostic toiture à Nancy ?',
+      answer: ' Birdia combine expertise technique et innovation. Grâce à la technologie drone, le diagnostic toiture est rapide, précis et sans risque. ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +100,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
