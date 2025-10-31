@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi les termites sont-ils dangereux pour la toiture ?',
+      answer: ' Les termites fragilisent la charpente en bois de la toiture, compromettant sa solidité et la sécurité du bâtiment.',
+    },
+    q2: {
+      question: 'Comment savoir si des termites attaquent la toiture ?',
+      answer: ' La présence de galeries, de sciure fine ou de bois creux sous la charpente sont des signes typiques d’une infestation de termites.',
+    },
+    q3: {
+      question: 'Que faire en cas de termites dans la toiture ?',
+      answer: ' Il faut contacter rapidement un professionnel pour établir un diagnostic précis et mettre en place un traitement curatif adapté.',
+    },
+    q4: {
+      question: 'Le diagnostic termites toiture est-il obligatoire ?',
+      answer: ' Oui, le diagnostic termites est obligatoire dans les zones à risque définies par arrêté préfectoral, notamment avant la vente d’un bien.',
+    },
+    q5: {
+      question: 'Quel est le coût d’un diagnostic termites toiture ?',
+      answer: ' Le prix d’un diagnostic termites toiture dépend de la taille du bâtiment et du degré d’infestation suspecté.',
+    },
+    q6: {
+      question: 'Comment Birdia intervient-elle pour une toiture infestée de termites ?',
+      answer: ' Birdia propose une inspection toiture par drone permettant d’identifier les zones à risque avant toute intervention de traitement.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
