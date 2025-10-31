@@ -63,12 +63,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quels sont les principaux problèmes de toiture rencontrés à Pertuis ?',
+      answer: ' À Pertuis, les toitures subissent souvent les effets du mistral, de la chaleur estivale et des épisodes pluvieux intenses. ',
+    },
+    q2: {
+      question: 'Quand faut-il faire inspecter sa toiture à Pertuis ?',
+      answer: ' Il est recommandé de faire inspecter sa toiture au moins une fois par an, idéalement après l’hiver ou un épisode de vent fort.',
+    },
+    q3: {
+      question: 'Combien coûte une inspection de toiture à Pertuis ?',
+      answer:
+        'Grâce aux nouvelles technologies, Birdia propose une inspection toiture par drone à Pertuis, rapide et économique, sans nécessiter d’échafaudage.',
+    },
+    q4: {
+      question: 'Quels sont les avantages d’une inspection toiture par drone à Pertuis ?',
+      answer:
+        ' L’inspection par drone offre une vision globale et précise de l’état de la toiture, sans risque pour le technicien ni dommage pour la couverture.',
+    },
+    q5: {
+      question: 'Birdia intervient-elle uniquement sur Pertuis ?',
+      answer:
+        'Non. Birdia couvre Pertuis et l’ensemble du Vaucluse ainsi que les départements voisins. Les inspections peuvent être réalisées sur des maisons individuelles, des immeubles ou des bâtiments professionnels.',
+    },
+    q6: {
+      question: 'Comment entretenir sa toiture à Pertuis pour prolonger sa durée de vie ?',
+      answer: ' Un entretien régulier est essentiel : nettoyage des tuiles, démoussage, vérification des gouttières et du faîtage',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
