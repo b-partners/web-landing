@@ -64,12 +64,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: ' Quels sont les différents types de charpentes utilisés à Lyon ?',
+      answer:
+        ' À Lyon, on retrouve principalement trois types de charpentes : la charpente traditionnelle en bois, la charpente industrielle (ou fermette) et la charpente métallique.',
+    },
+    q2: {
+      question: 'Comment savoir si ma charpente a besoin d’une réparation ou d’un remplacement ?',
+      answer: ' Des signes comme des déformations, des infiltrations, des traces d’humidité ou la présence d’insectes xylophages doivent alerter.',
+    },
+    q3: {
+      question: 'Quel est le prix moyen d’une charpente à Lyon ?',
+      answer:
+        ' Le coût d’une charpente varie selon le matériau et la complexité de la toiture. En moyenne, il faut compter entre 80 € et 200 € par m² pour une charpente bois traditionnelle, et davantage pour une structure sur mesure.',
+    },
+    q4: {
+      question: 'Quelle est la durée de vie d’une charpente en bois ?',
+      answer:
+        ' Une charpente bien entretenue peut durer plus de 100 ans. Cependant, l’humidité, les insectes ou les infiltrations peuvent accélérer son vieillissement. ',
+    },
+    q5: {
+      question: 'Qui contacter pour un diagnostic de charpente à Lyon ?',
+      answer:
+        'Birdia propose à Lyon des diagnostics de charpente par drone, permettant une analyse visuelle complète sans démontage ni intervention risquée.\n',
+    },
+    q6: {
+      question: 'Pourquoi faire inspecter sa charpente avant des travaux de toiture ?',
+      answer: 'Inspecter la charpente avant une réfection de toiture garantit que la structure peut supporter la nouvelle couverture.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +105,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
