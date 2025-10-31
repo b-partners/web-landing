@@ -63,12 +63,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic de toiture en ardoise ?',
+      answer:
+        ' Un diagnostic de toiture en ardoise consiste à inspecter l’état des ardoises (fissures, éclats, glissements), les fixations, l’étanchéité, ainsi que les éléments périphériques comme les solins et la zinguerie.',
+    },
+    q2: {
+      question: 'Pourquoi faire un diagnostic pour une toiture en ardoise ?',
+      answer: ' Le diagnostic permet de prévenir ces risques, d’optimiser la longévité de la couverture et d’anticiper les travaux nécessaires.\n',
+    },
+    q3: {
+      question: 'À quelle fréquence faut-il réaliser un diagnostic d’ardoise ?',
+      answer: ' Il est recommandé d’effectuer un diagnostic tous les 5 à 10 ans, ou plus fréquemment dans les zones exposées (vents, gel/dégel).',
+    },
+    q4: {
+      question: 'Qui est qualifié pour diagnostiquer une toiture en ardoise ?',
+      answer:
+        ' Un professionnel couvreur ou un expert en diagnostic toiture disposant de compétences en zinguerie, toiture ardoise et outils d’inspection (drone, imagerie HD, thermographie) est requis.',
+    },
+    q5: {
+      question: 'Quel est le contenu d’un rapport de diagnostic pour toiture en ardoise ?',
+      answer:
+        'Le rapport présente l’état de chaque zone inspectée (ardoises, fixations, accessoires), des photos annotées, une identification des points critiques',
+    },
+    q6: {
+      question: 'Quelles réparations ou interventions sont souvent préconisées après un diagnostic d’ardoise ?',
+      answer:
+        ' Les travaux peuvent inclure le remplacement d’ardoises abîmées, la remise en place des fixations, le renforcement des solins, le nettoyage ou traitement des zones sensibles',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
