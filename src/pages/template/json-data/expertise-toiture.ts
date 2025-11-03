@@ -56,12 +56,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: '', answer: 'Réponse 1' },
-    q2: { question: '', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’une expertise de toiture ?',
+      answer: 'C’est une évaluation technique complète de l’état d’un toit, réalisée par un expert indépendant pour détecter fuites, défauts ou dégradations.',
+    },
+    q2: {
+      question: 'Dans quels cas demander une expertise de toiture ?',
+      answer: 'Elle est recommandée en cas de fuite, avant une vente, après un sinistre ou lors d’un désaccord avec un artisan ou une assurance.',
+    },
+    q3: {
+      question: 'Quelle différence entre un diagnostic et une expertise toiture ?',
+      answer:
+        'Le diagnostic donne un aperçu général, tandis que l’expertise fournit une analyse approfondie avec un rapport détaillé et utilisable en cas de litige.',
+    },
+    q4: {
+      question: 'Comment se déroule une expertise de toiture Birdia ?',
+      answer: 'L’expert Birdia analyse les symptômes, inspecte la toiture (sur site ou par drone) et remet un rapport illustré et objectif.',
+    },
+    q5: {
+      question: 'Quel est le coût d’une expertise de toiture ?',
+      answer: 'Le tarif varie entre 150 et 400 €, selon la surface et la méthode d’inspection, rapport complet inclus.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour une expertise de toiture ?',
+      answer: 'Birdia garantit une expertise indépendante, rapide et fiable, grâce à la technologie drone et à l’absence de conflit d’intérêt.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -75,15 +94,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
