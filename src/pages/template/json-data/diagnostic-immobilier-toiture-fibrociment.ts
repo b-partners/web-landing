@@ -64,12 +64,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic immobilier de toiture en fibrociment ?',
+      answer:
+        'Un diagnostic immobilier de toiture en fibrociment est indispensable pour connaître l’état du toit et vérifier la présence éventuelle d’amiante dans les plaques.',
+    },
+    q2: {
+      question: ' Le diagnostic toiture fibrociment est-il obligatoire ?',
+      answer: 'Oui, le diagnostic amiante toiture est obligatoire pour toute vente de bien dont le permis de construire est antérieur à juillet 1997.',
+    },
+    q3: {
+      question: 'Comment se déroule un diagnostic Birdia sur une toiture en fibrociment ?',
+      answer: 'Le diagnostic Birdia s’effectue sans démontage, à l’aide de technologies d’inspection à distance ou par drone, selon l’accessibilité du toit.',
+    },
+    q4: {
+      question: 'Quel est le prix d’un diagnostic immobilier de toiture fibrociment ?',
+      answer: 'Le prix moyen d’un diagnostic de toiture fibrociment Birdia varie entre 120 et 250 €, selon la surface et le type d’inspection.',
+    },
+    q5: {
+      question: 'Quels sont les risques liés à une toiture en fibrociment ?',
+      answer:
+        'Une toiture en fibrociment contenant de l’amiante peut libérer des fibres nocives en cas de dégradation, de fissures ou de travaux mal exécutés.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour un diagnostic toiture fibrociment ?',
+      answer:
+        'Birdia offre une expertise indépendante, centrée sur l’évaluation et la prévention.\nGrâce à ses inspections à distance ou par drone, elle permet d’obtenir une analyse rapide, précise et sans risque d’exposition.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/paris' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
