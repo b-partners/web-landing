@@ -74,7 +74,7 @@ export const RoofDiagnostics = () => {
           )}
           {isDiagnosticAvantVente && (
             <Box mt={3}>
-              <AdCtaButton className='diagnostics-container-ad-cta' />
+              <AdCtaButton className="diagnostics-container-ad-cta" />
             </Box>
           )}
         </Box>
