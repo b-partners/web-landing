@@ -63,12 +63,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’une toiture non accessible ?',
+      answer: ' Une toiture non accessible est un toit qui n’a pas vocation à être utilisé ni à supporter la circulation des personnes.',
+    },
+    q2: {
+      question: 'Pourquoi l’inspection d’une toiture non accessible est-elle difficile ?',
+      answer: ' Ces toitures sont souvent situées en hauteur, sans garde-corps ni points d’ancrage, rendant tout accès manuel dangereux.',
+    },
+    q3: {
+      question: 'Comment inspecter une toiture non accessible en toute sécurité ?',
+      answer: 'L’inspection par drone professionnel permet de visualiser chaque détail du toit sans intervention physique. ',
+    },
+    q4: {
+      question: 'Quelles sont les pathologies fréquentes sur une toiture non accessible ?',
+      answer:
+        ' Les principales dégradations observées sont la stagnation d’eau, les fissures dans les membranes d’étanchéité, les relevés décollés ou les évacuations obstruées.',
+    },
+    q5: {
+      question: 'Quelle réglementation s’applique aux toitures non accessibles ?',
+      answer: ' Une toiture non accessible doit répondre aux exigences d’étanchéité et de résistance définies par les DTU (Documents Techniques Unifiés). ',
+    },
+    q6: {
+      question: 'Pourquoi faire appel à Birdia pour inspecter une toiture non accessible ?',
+      answer:
+        ' Birdia est spécialisée dans l’inspection de toitures inaccessibles par drone. Grâce à une technologie de captation aérienne précise et à des analyses thermographiques, Birdia fournit un diagnostic objectif, complet et sans danger pour les opérateurs. ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

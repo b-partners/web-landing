@@ -64,12 +64,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic de toiture en zinc ?',
+      answer: ' Le zinc est un matériau durable mais sensible à la corrosion et aux défauts d’étanchéité au niveau des joints ou des soudures. ',
+    },
+    q2: {
+      question: ' Quels sont les signes d’usure d’une toiture en zinc ?',
+      answer:
+        ' Les signes les plus courants sont la décoloration, la formation de taches blanches ou de zones d’oxydation, les infiltrations dans les combles ou les déformations des bacs.',
+    },
+    q3: {
+      question: 'À quelle fréquence faut-il contrôler une toiture en zinc ?',
+      answer: ' Une toiture en zinc doit être inspectée tous les 5 à 10 ans, selon son exposition et son environnement (pollution, bord de mer, végétation).',
+    },
+    q4: {
+      question: 'Combien coûte un diagnostic de toiture zinc ?',
+      answer:
+        ' Le prix varie en fonction de la surface et de l’accessibilité du toit. En moyenne, un diagnostic complet par drone Birdia coûte entre 200 et 400 €, rapport inclus.',
+    },
+    q5: {
+      question: 'Quelle est la différence entre un diagnostic classique et une inspection par drone ?',
+      answer: ' Le diagnostic classique nécessite une montée sur le toit, souvent risquée et limitée en visibilité.',
+    },
+    q6: {
+      question: 'Comment Birdia procède-t-elle pour diagnostiquer une toiture zinc ?',
+      answer: ' Birdia utilise la technologie d’inspection aérienne par drone pour capturer des vues précises du toit. ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

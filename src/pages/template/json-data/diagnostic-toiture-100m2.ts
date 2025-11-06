@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’englobe exactement le service “Diagnostic toiture 100 m²” proposé par Birdia ?',
+      answer:
+        'Ce service porte sur une inspection technique ciblée d’une toiture d’environ 100 m² : il inclut un examen visuel de la couverture (tuiles, ardoises, métal), de la zinguerie (gouttières, noues, solins), de l’étanchéité, ainsi que de la ventilation des combles ou de l’isolation s’il y a lieu',
+    },
+    q2: {
+      question: 'Pourquoi faire ce diagnostic pour une toiture de 100 m² ?',
+      answer:
+        'Même pour une surface modérée comme 100 m², un diagnostic toiture permet de détecter tôt des défauts qui, s’ils sont négligés, peuvent engendrer des réparations coûteuses',
+    },
+    q3: {
+      question: 'Quels facteurs font varier le coût ou la durée d’un diagnostic de 100 m² ?',
+      answer:
+        'L’accès au toit, le type de couverture, les moyens nécessaires (drone, nacelle) et la présence éventuelle d’amiante influencent le temps et le prix du diagnostic.',
+    },
+    q4: {
+      question: 'Quel est le contenu du rapport après diagnostic de 100 m² ?',
+      answer:
+        'Birdia remet un rapport détaillant l’état de la toiture, des photos annotées, des recommandations par priorité et des estimations de coûts pour faciliter les échanges avec les professionnels.',
+    },
+    q5: {
+      question: 'Que faire si le diagnostic de 100 m² révèle des anomalies ?',
+      answer:
+        'Traitez d’abord les urgences (infiltrations, fuites), demandez plusieurs devis, planifiez les travaux selon votre budget et usage, puis mettez en place un entretien régulier avec l’aide du rapport Birdia.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour ce diagnostic d’une toiture de 100 m² plutôt qu’un simple contrôle visuel ?',
+      answer:
+        'Birdia se spécialise dans l’inspection technique toiture, avec des outils modernes (drones, imagerie haute définition, IA) et une méthodologie rigoureuse.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

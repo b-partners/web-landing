@@ -64,12 +64,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quel est le tarif d’une vérification de toiture ?',
+      answer: ' Le tarif d’une vérification de toiture varie en moyenne entre 150 € et 400 €, selon la taille du toit et la méthode d’inspection utilisée.',
+    },
+    q2: {
+      question: 'Quels éléments influencent le tarif d’une vérification de toiture ?',
+      answer: ' La surface, l’accessibilité, le type de couverture et l’utilisation de technologies comme le drone ou la thermographie font varier le prix.',
+    },
+    q3: {
+      question: 'Pourquoi faire vérifier sa toiture régulièrement ?',
+      answer:
+        ' Une vérification régulière de la toiture permet de prévenir les infiltrations, d’éviter des réparations coûteuses et de prolonger la durée de vie du toit.',
+    },
+    q4: {
+      question: 'Quelle est la différence entre vérification et diagnostic toiture ?',
+      answer:
+        ' La vérification toiture consiste en un contrôle visuel rapide, tandis qu’un diagnostic inclut une analyse détaillée et un rapport technique complet.',
+    },
+    q5: {
+      question: 'À quelle fréquence faut-il faire une vérification toiture ?',
+      answer: ' Il est recommandé de vérifier sa toiture tous les 2 à 3 ans ou après des intempéries importantes comme une tempête ou de fortes pluies.',
+    },
+    q6: {
+      question: 'Comment Birdia optimise le tarif d’une vérification de toiture ?',
+      answer: ' Birdia utilise la technologie drone pour offrir une vérification toiture rapide, précise et à un tarif compétitif sans besoin d’échafaudage.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

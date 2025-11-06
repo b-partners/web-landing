@@ -63,12 +63,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quelles sont les causes principales d’une infiltration d’eau par la toiture ?',
+      answer: ' Elles proviennent souvent de tuiles fissurées, de joints dégradés ou de problèmes d’étanchéité autour des cheminées et fenêtres de toit.',
+    },
+    q2: {
+      question: 'Comment repérer une infiltration d’eau dans une toiture ?',
+      answer: ' Des taches d’humidité, moisissures ou peintures cloquées au plafond sont les premiers signes visibles.',
+    },
+    q3: {
+      question: 'Quels risques entraîne une infiltration d’eau non traitée ?',
+      answer: ' Elle peut endommager l’isolation, fragiliser la charpente et provoquer des moisissures nocives pour la santé.',
+    },
+    q4: {
+      question: 'Qui contacter en cas d’infiltration d’eau toiture ?',
+      answer: ' Il faut faire appel rapidement à un couvreur spécialisé ou à un expert en diagnostic toiture comme Birdia.',
+    },
+    q5: {
+      question: 'Peut-on réparer soi-même une infiltration d’eau ?',
+      answer: ' Non, car seule une intervention professionnelle permet d’identifier précisément la source et d’assurer une réparation durable.',
+    },
+    q6: {
+      question: 'Comment prévenir les infiltrations d’eau dans la toiture ?',
+      answer: ' Une vérification annuelle et un entretien régulier des éléments d’étanchéité suffisent à éviter la majorité des infiltrations.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +100,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

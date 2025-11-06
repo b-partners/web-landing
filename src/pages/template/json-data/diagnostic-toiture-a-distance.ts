@@ -64,12 +64,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic toiture à distance ?',
+      answer:
+        'C’est une inspection réalisée sans monter sur le toit, à l’aide de drones, d’images aériennes ou de caméras thermiques. Elle permet d’obtenir un rapport rapide et précis, même pour les toitures difficiles d’accès.',
+    },
+    q2: {
+      question: 'Dans quels cas cette méthode est-elle la plus pertinente ?',
+      answer:
+        'Elle est idéale pour les toits en hauteur, les zones difficiles d’accès ou les contrôles préventifs avant vente ou travaux, quand une inspection complète n’est pas nécessaire.',
+    },
+    q3: {
+      question: 'Quelles sont les limites du diagnostic à distance ?',
+      answer:
+        'Certaines zones internes ou cachées ne peuvent pas être observées, et les conditions météo peuvent affecter la qualité des images. En cas de doute structurel, une inspection sur place reste préférable.',
+    },
+    q4: {
+      question: 'Quels sont les avantages principaux ?',
+      answer:
+        'Cette méthode est plus rapide, moins coûteuse et fournit une documentation visuelle complète (photos, vidéos, thermographie), utile pour comprendre l’état du toit et archiver les données.',
+    },
+    q5: {
+      question: 'Quelle est la démarche pour faire appel à Birdia ?',
+      answer:
+        'Il suffit de communiquer les informations du bâtiment à Birdia, qui planifie la prise de vues, analyse les images à distance et remet un rapport détaillé avec recommandations.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour ce service ?',
+      answer:
+        'Grâce à son expertise et à ses outils technologiques, Birdia offre un diagnostic fiable, rapide et économique, parfait pour l’entretien, la vente ou la gestion de patrimoine.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +107,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

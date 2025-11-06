@@ -5,7 +5,8 @@ export const HeroPageStyle: SxProps = {
   minHeight: '80vh',
   width: '100%',
   margin: 0,
-  padding: 0,
+  paddingX: 0,
+  paddingY: 3,
   bgcolor: PALETTE_COLORS.pine,
   display: 'flex',
   flexDirection: 'column',
@@ -22,7 +23,7 @@ export const HeroPageStyle: SxProps = {
     mt: 7,
   },
   '& .ad-cta-container': { flexBasis: '100%', display: 'flex', justifyContent: 'center' },
-  '& .ad-cta-button': { px: 5, fontSize: { lg: '1.5rem', xs: '1.3rem', md: '1.2rem' } },
+  '& .ad-cta-button': { px: 5, fontSize: { lg: '1.5rem', xs: '0.8rem', sm: '1.2rem', md: '1.2rem' } },
   '& #container > .content-image': {
     flexBasis: { xs: '100%', md: '50%' },
     mt: { xs: '10px', sm: '10px', md: '0' },
@@ -154,10 +155,10 @@ export const RoofDiagnosticsStyle: SxProps = {
   '& .image-container-bg': {
     position: 'absolute',
     height: '100%',
-    width: '50%',
+    width: { xs: '100%', md: '50%' },
     background: PALETTE_COLORS['white'],
     zIndex: 1,
-    left: '50%',
+    left: { md: '50%' },
   },
   '& #diagnostics-container': {
     width: '100%',
@@ -179,12 +180,19 @@ export const RoofDiagnosticsStyle: SxProps = {
     flexDirection: 'column',
     alignItems: { xs: 'center', sm: 'center', md: 'flex-start' },
     textAlign: { xs: 'center', sm: 'center', md: 'left' },
+    background: PALETTE_COLORS['pine'],
   },
   '& #diagnostics-container > .content-img': {
     flexBasis: { xs: '100%', sm: '100%' },
     flexGrow: { md: 1 },
     mt: { xs: '10px', sm: '10px', md: '0' },
     mb: { xs: '30px', sm: '30px', md: '0' },
+  },
+  '& .content-img-title': {
+    fontSize: { xs: '1.3rem !important', md: '1.8rem !important', lg: '2.5rem !important' },
+  },
+  '& .diagnostics-container-ad-cta': {
+    fontSize: { xs: '0.8rem !important', md: '1.8rem !important', lg: '2.5rem !important' },
   },
   '& #diagnostics-container > .diagnosticAvantVente': {
     display: 'flex',

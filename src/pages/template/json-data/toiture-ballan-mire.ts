@@ -64,12 +64,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic toiture à Ballan-Miré et à quoi sert-il ?\n',
+      answer:
+        ' Un diagnostic toiture consiste à inspecter l’état de couverture (tuiles, ardoises, éléments de zinguerie, étanchéité, isolation) et de la structure, afin de détecter les défauts (infiltrations, fissures, zones d’usure, stagnation d’eau, etc.).',
+    },
+    q2: {
+      question: 'Quand faut-il réaliser un diagnostic toiture à Ballan-Miré ?',
+      answer: ' Il est conseillé de programmer un diagnostic dans les cas suivants : après une tempête, ou après 10 à 15 ans sans entretien régulier ',
+    },
+    q3: {
+      question: ' Qui peut réaliser ce diagnostic à Ballan-Miré ?',
+      answer: ' Le diagnostic doit être assuré par un professionnel de la couverture ou un bureau d’études spécialisé dans l’inspection de toitures. ',
+    },
+    q4: {
+      question: 'Quel est le coût moyen d’un diagnostic toiture à Ballan-Miré ?',
+      answer:
+        ' Le coût dépend de la surface du toit, de la complexité (pentes, matériaux, accès difficile) et des technologies utilisées (drone, thermographie).',
+    },
+    q5: {
+      question: 'Que comprend un rapport de diagnostic toiture à Ballan-Miré ?',
+      answer:
+        'Le rapport détaille l’état de chaque élément (tuiles, faîtage, zinguerie, gouttières, évacuations), les anomalies constatées, des photographies annotées, des recommandations de travaux prioritaires ou préventifs',
+    },
+    q6: {
+      question: 'Et après le diagnostic, quelles sont les étapes recommandées à Ballan-Miré ?',
+      answer:
+        ' Après le diagnostic, il convient de prioriser les réparations (zones de fuites, éléments en zinc, joints abîmés) puis d’établir un échéancier de travaux (démoussage, remplacement de tuiles, renforcement d’étanchéité).',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +105,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quel est le coût moyen d’un diagnostic de toiture proposé par Birdia ?',
+      answer:
+        'Le tarif d’un diagnostic de toiture varie selon plusieurs critères, mais selon les données de Birdia, on observe en 2025 une fourchette typique entre environ 200 € et 800 € pour une inspection standard.',
+    },
+    q2: {
+      question: 'Quels facteurs influencent le coût d’un diagnostic de toiture ?',
+      answer:
+        'Le coût d’un diagnostic de toiture varie selon la taille et l’accessibilité du toit, le type de matériaux, la méthode d’inspection utilisée (drone, caméra thermique…) ainsi que la région et les contraintes logistiques.',
+    },
+    q3: {
+      question: 'Le diagnostic proposé inclut-il tous les cas, ou y a-t-il des options “premium” qui coûtent plus cher ?',
+      answer:
+        'Le diagnostic peut être basique ou plus complet selon les options choisies. Une formule “premium” avec drone, caméra thermique ou rapport détaillé coûte logiquement plus cher ; il faut donc préciser ses besoins dès la demande de devis.',
+    },
+    q4: {
+      question: 'Est-il pertinent de comparer le devis de Birdia avec le “coût médian” d’un diagnostic toiture dans le secteur ?',
+      answer:
+        'Oui, cela permet de vérifier que le tarif proposé est raisonnable. Les guides spécialisés indiquent pour un diagnostic toiture un éventail allant d’environ 90 € à 1 300 €, selon complexité, surface, type de toit',
+    },
+    q5: {
+      question: 'Quelles sont les erreurs à éviter ou les “surprises” possibles concernant le coût d’un diagnostic toiture ?',
+      answer:
+        'Les principales erreurs consistent à accepter un devis flou, à négliger les contraintes d’accès ou les options technologiques, ou à choisir uniquement selon le prix. Un diagnostic trop bon marché peut manquer de précision et coûter plus cher à long terme.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour le diagnostic toiture plutôt qu’un prestataire “standard” ?',
+      answer:
+        'Birdia se positionne comme un spécialiste de l’inspection toiture, avec des outils modernes (imagerie aérienne, drone, intelligence artificielle) et une méthodologie dédiée.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

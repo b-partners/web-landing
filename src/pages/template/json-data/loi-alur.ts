@@ -64,12 +64,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce que la loi ALUR ?',
+      answer:
+        ' La loi ALUR (Accès au Logement et un Urbanisme Rénové), adoptée en 2014, vise à encadrer le marché immobilier, améliorer la transparence dans les copropriétés et renforcer la sécurité des logements.',
+    },
+    q2: {
+      question: 'Quel lien existe-t-il entre la loi ALUR et la toiture d’un immeuble ?',
+      answer: ' Dans le cadre de la loi ALUR, les copropriétés doivent anticiper les travaux nécessaires pour maintenir le bon état du bâtiment.',
+    },
+    q3: {
+      question: 'Que doit contenir le diagnostic technique global (DTG) imposé par la loi ALUR ?',
+      answer: ' Le DTG évalue l’état général de l’immeuble, y compris la toiture, la charpente et l’étanchéité',
+    },
+    q4: {
+      question: 'La loi ALUR s’applique-t-elle à toutes les copropriétés ?',
+      answer:
+        ' Le diagnostic technique global est obligatoire pour les immeubles de plus de 10 ans mis en copropriété ou pour ceux présentant des signes de vétusté.',
+    },
+    q5: {
+      question: 'Comment la technologie Birdia aide-t-elle à répondre aux obligations de la loi ALUR ?',
+      answer: ' Birdia propose des diagnostics de toiture par drone, idéaux pour réaliser un état des lieux précis et documenté de la couverture. ',
+    },
+    q6: {
+      question: 'Quels sont les avantages d’un diagnostic toiture dans le cadre de la loi ALUR ?',
+      answer: ' Un diagnostic toiture régulier facilite la planification budgétaire, réduit les risques d’infiltration et valorise le patrimoine immobilier.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

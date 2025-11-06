@@ -63,12 +63,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quand faut-il envisager une réfection complète de toiture ?',
+      answer: 'Si plusieurs éléments sont détériorés, les infiltrations persistent, l’isolation ou la charpente sont vieillies ou non conformes.',
+    },
+    q2: {
+      question: 'Quel est le coût d’une réfection de toiture et ses facteurs ?',
+      answer:
+        'Le coût varie selon surface, pente, complexité, type et état de la couverture, charpente, accessibilité, localisation et travaux annexes (isolation, étanchéité, ventilation). Un diagnostic Birdia permet une estimation précise.',
+    },
+    q3: {
+      question: 'Quels matériaux choisir pour la nouvelle toiture ?',
+      answer:
+        'Le choix des matériaux dépend du style architectural, de la région, des contraintes de pente et de mise en œuvre, mais aussi du budget et des objectifs.',
+    },
+    q4: {
+      question: 'Quelles garanties et normes faut-il regarder lors d’une réfection toiture ?',
+      answer:
+        'Pour être bien protégé, il est important de vérifier que l’entreprise intervenante est titulaire des assurances adéquates (responsabilité civile, assurances chantier)',
+    },
+    q5: {
+      question: 'Peut-on rénover partiellement la toiture plutôt que la refaire intégralement ?',
+      answer:
+        'Oui, une rénovation partielle est souvent une solution pertinente si l’état général de la toiture reste correct mais présente des zones de dégradation (tuiles cassées, joints affaiblis, infiltration localisée).',
+    },
+    q6: {
+      question: 'Quels sont les délais et les contraintes pour réaliser une réfection de toiture ?',
+      answer: 'Les délais dépendent de la taille du chantier, de la complexité, des conditions météorologiques, et de la période de l’année. ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

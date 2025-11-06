@@ -44,7 +44,7 @@ const TemplateComponent = () => {
               textAlign: 'center',
               fontWeight: 'bold',
               width: '100%',
-              fontSize: { xs: '2rem', md: '2.5rem' },
+              fontSize: { xs: '1.2rem', md: '2.5rem' },
               mb: { xs: 3, md: 5, xl: 7 },
               color: PALETTE_COLORS.neon_orange,
             }}

@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic toiture Eternit ?',
+      answer: ' Un diagnostic toiture Eternit permet de détecter la présence d’amiante dans les plaques fibrociment et d’évaluer leur état de dégradation.',
+    },
+    q2: {
+      question: 'Quand faut-il faire un diagnostic toiture Eternit ?',
+      answer: ' Il est obligatoire d’effectuer un diagnostic toiture Eternit avant toute vente ou rénovation d’un bâtiment construit avant juillet 1997.',
+    },
+    q3: {
+      question: 'Qui peut effectuer un diagnostic toiture Eternit ?',
+      answer: ' Seuls des diagnostiqueurs certifiés amiante sont habilités à réaliser un diagnostic toiture Eternit conforme à la réglementation.',
+    },
+    q4: {
+      question: 'Que comprend un diagnostic toiture Eternit ?',
+      answer: ' Le diagnostic toiture Eternit inclut l’identification visuelle des matériaux, le prélèvement d’échantillons et leur analyse en laboratoire',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic toiture Eternit ?',
+      answer: ' Le prix d’un diagnostic toiture Eternit dépend de la surface, du nombre d’échantillons et des frais d’analyse du laboratoire agréé.',
+    },
+    q6: {
+      question: 'Comment Birdia réalise-t-elle un diagnostic toiture Eternit ?',
+      answer: ' Birdia propose un diagnostic toiture Eternit par drone, permettant une inspection visuelle à distance sans contact ni risque d’exposition.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

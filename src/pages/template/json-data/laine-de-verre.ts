@@ -64,12 +64,34 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce que la laine de verre ?',
+      answer: 'La laine de verre est un isolant thermique et acoustique fabriqué à partir de sable et de verre recyclé. ',
+    },
+    q2: {
+      question: 'Pourquoi isoler sa toiture avec de la laine de verre ?',
+      answer:
+        'L’isolation par laine de verre améliore le confort thermique, réduit la consommation énergétique et augmente la valeur du bien immobilier, tout en restant économique à poser.',
+    },
+    q3: {
+      question: 'Quelle est la durée de vie de la laine de verre ?',
+      answer: 'La laine de verre a une durée de vie moyenne de 30 à 50 ans si elle est bien installée et protégée de l’humidité.',
+    },
+    q4: {
+      question: 'Comment savoir si ma laine de verre est encore efficace ?',
+      answer:
+        ' Des combles trop chauds en été ou trop froids en hiver, ou encore une hausse de la consommation énergétique, peuvent indiquer une isolation défaillante',
+    },
+    q5: {
+      question: 'Peut-on combiner la laine de verre avec d’autres isolants ?',
+      answer:
+        ' Oui, la laine de verre peut être associée à d’autres isolants comme la laine de roche ou la ouate de cellulose, selon les performances souhaitées.',
+    },
+    q6: {
+      question: 'Que faire si ma laine de verre est humide ou tassée ?',
+      answer:
+        ' Une laine de verre humide perd jusqu’à 70 % de son pouvoir isolant. Il faut alors la remplacer pour restaurer les performances énergétiques du logement.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +105,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

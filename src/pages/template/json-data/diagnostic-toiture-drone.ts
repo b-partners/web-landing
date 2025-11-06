@@ -64,12 +64,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'En quoi consiste un diagnostic de toiture par drone chez Birdia ?',
+      answer:
+        'Le drone capture des images haute résolution de la toiture (tuiles, ardoises, solins, cheminée…) que l’expert analyse pour repérer les défauts et produire un rapport illustré avec recommandations.',
+    },
+    q2: {
+      question: 'Quels sont les avantages par rapport à une inspection manuelle ?',
+      answer:
+        'Le drone offre plus de sécurité, un accès facilité aux zones difficiles, une intervention rapide, une meilleure précision visuelle et un rapport documenté pour travaux ou assurance.',
+    },
+    q3: {
+      question: 'Quels types de toitures sont compatibles ?',
+      answer:
+        'Presque toutes : tuiles, ardoises, zinc, toitures métalliques, membranes ou toits plats, avec relevés de zones sensibles comme les jonctions et solins.',
+    },
+    q4: {
+      question: 'Quelles sont les limites ou contraintes ?',
+      answer:
+        'Les zones cachées ou internes restent difficiles à inspecter, la météo ou la luminosité peuvent affecter les images, et certaines zones urbaines ou réglementées nécessitent autorisations. Une inspection physique peut parfois être nécessaire.',
+    },
+    q5: {
+      question: 'Quel est le coût indicatif ?',
+      answer:
+        'Les tarifs varient généralement entre 350 € et 800 € TTC selon la surface, la complexité du toit et le type d’analyse, mais le devis final dépend du bâtiment et des contraintes spécifiques.',
+    },
+    q6: {
+      question: 'Quelles réglementations et autorisations respecter ?',
+      answer:
+        'Le télépilote doit être certifié, respecter les zones et hauteurs de vol autorisées, obtenir les autorisations nécessaires en zone urbaine, et disposer d’une assurance responsabilité civile pour le drone.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +107,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

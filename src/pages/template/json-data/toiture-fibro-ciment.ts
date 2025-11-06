@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’une toiture en fibro-ciment ?',
+      answer:
+        'Une toiture en fibro-ciment (ou fibrociment) est une couverture réalisée avec des plaques composées de ciment renforcé par des fibres (cellulose ou fibres textiles), sans amiante pour les versions contemporaines',
+    },
+    q2: {
+      question: 'Le fibrociment contient-il de l’amiante ? Quels sont les risques ?',
+      answer:
+        'Oui, certaines toitures anciennes peuvent contenir de l’amiante (fibro-ciment amianté), ce qui pose des risques sanitaires en cas de dégradation ou de manipulation.',
+    },
+    q3: {
+      question: 'Quels sont les avantages et inconvénients du fibro-ciment ?',
+      answer:
+        'Résistant, léger et économique, le fibro-ciment offre un bon rendu esthétique. En revanche, il est fragile aux chocs, exige un entretien régulier et peut contenir de l’amiante sur les anciens modèles.',
+    },
+    q4: {
+      question: 'Comment poser les plaques en fibro-ciment ?',
+      answer:
+        'Fixez-les au sommet des ondes, avec un recouvrement d’environ 20 cm selon la pente. Percez (sans poinçonner) un trou légèrement plus large que la fixation, et ancrez celle-ci dans le bois sur au moins 5 cm.',
+    },
+    q5: {
+      question: 'Quel entretien pour une toiture en fibro-ciment ?',
+      answer:
+        'Nettoyez régulièrement à basse pression, éliminez la mousse, appliquez un traitement hydrofuge et contrôlez l’état des plaques. En cas d’amiante, faites d’abord un diagnostic. Bien entretenue, la toiture dure 30 à 50 ans.',
+    },
+    q6: {
+      question: 'Quand remplacer une toiture en fibro-ciment ?',
+      answer:
+        'Remplacez-la si plusieurs plaques sont fissurées, si le matériau s’effrite ou si un diagnostic amiante indique un risque. En présence d’amiante, la dépose doit être confiée à des professionnels certifiés.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

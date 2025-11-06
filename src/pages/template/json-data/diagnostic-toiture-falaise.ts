@@ -63,12 +63,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi faire un diagnostic toiture à Falaise ?',
+      answer: ' Un diagnostic toiture à Falaise permet de détecter les fuites, usures ou dégradations causées par le climat normand souvent humide.',
+    },
+    q2: {
+      question: 'Qui peut réaliser un diagnostic toiture à Falaise ?',
+      answer: ' Seuls des professionnels qualifiés en couverture et inspection peuvent garantir un diagnostic toiture à Falaise précis et sécurisé.',
+    },
+    q3: {
+      question: 'Quand faut-il effectuer un diagnostic toiture à Falaise ?',
+      answer: ' Il est conseillé de réaliser un diagnostic toiture à Falaise tous les 2 à 3 ans ou avant toute vente ou rénovation du bien.',
+    },
+    q4: {
+      question: 'Que comprend un diagnostic toiture à Falaise ?',
+      answer: ' Le diagnostic toiture à Falaise inclut le contrôle de l’étanchéité, de la charpente, de la zinguerie et de l’isolation du toit.',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic toiture à Falaise ?',
+      answer: ' Le prix d’un diagnostic toiture à Falaise dépend de la superficie, de l’accessibilité et du niveau de détail souhaité dans l’inspection.',
+    },
+    q6: {
+      question: 'Comment Birdia réalise-t-elle un diagnostic toiture à Falaise ?',
+      answer: ' Birdia effectue un diagnostic toiture à Falaise par drone, permettant une inspection complète, rapide et sans risque pour le toit.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +100,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

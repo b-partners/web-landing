@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Que vérifier sur la toiture avant d’acheter une maison ?',
+      answer:
+        'Inspectez l’état général du toit, la charpente, la ventilation et la présence d’infiltrations ou de mousses. Un contrôle complet évite de futures dépenses imprévues.',
+    },
+    q2: {
+      question: 'Le diagnostic toiture est-il obligatoire avant achat ?',
+      answer:
+        'Non, il n’est pas obligatoire, mais vivement recommandé. Une inspection préventive, notamment par Birdia, permet d’éviter les mauvaises surprises après l’achat.',
+    },
+    q3: {
+      question: 'Quels sont les risques si l’on néglige la toiture ?',
+      answer:
+        'Ignorer son état peut entraîner infiltrations, moisissures, perte d’isolation ou travaux coûteux. Ces problèmes peuvent alourdir le budget d’achat.',
+    },
+    q4: {
+      question: 'Comment intégrer la toiture dans le budget d’achat ?',
+      answer:
+        'Prévoyez un poste dédié à l’inspection et aux éventuelles réparations. Un devis précis, obtenu après diagnostic, aide à négocier le prix ou planifier les travaux.',
+    },
+    q5: {
+      question: 'Quel est le rôle de Birdia dans cette étape ?',
+      answer:
+        'Birdia réalise des diagnostics complets grâce à la photo, au drone et à l’analyse visuelle. Le rapport fourni aide à évaluer l’état du toit et à mieux négocier.',
+    },
+    q6: {
+      question: 'Que faire si des anomalies sont détectées ?',
+      answer:
+        'Faites établir des devis, ajustez votre offre ou votre budget, et conservez le rapport Birdia comme référence pour les travaux ou garanties futures.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

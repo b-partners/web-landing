@@ -14,14 +14,14 @@ const ANALYSE_ITEM_SX = (bgcolor: string, color: string): SxProps => ({
   height: '33.33%',
   minWidth: '300px',
   bgcolor: bgcolor,
-  '& .analyse-item-description': { textAlign: 'center', maxWidth: '700px', color, fontSize: '1.3rem', mt: 3 },
+  '& .analyse-item-description': { textAlign: 'center', maxWidth: '700px', color, fontSize: { xs: '0.8rem', md: '1.3rem' }, mt: 3 },
   '& .analyse-item-description ul': { textAlign: 'start' },
   '& .analyse-item-title': {
     fontWeight: 'bold',
     maxWidth: '640px',
     textAlign: 'center',
     color,
-    fontSize: { xs: '1.6rem', sm: '1.8rem', xl: '2rem', xxl: '2.5rem' },
+    fontSize: { xs: '1.2rem', md: '1.8rem', xl: '2rem', xxl: '2.5rem' },
   },
 });
 

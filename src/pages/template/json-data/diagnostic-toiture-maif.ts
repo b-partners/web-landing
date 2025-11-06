@@ -63,12 +63,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic de toiture avant une déclaration à la MAIF ?',
+      answer: 'Un diagnostic toiture MAIF permet de documenter précisément l’état de votre couverture après un sinistre (tempête, grêle, infiltration, etc.). ',
+    },
+    q2: {
+      question: 'Le diagnostic toiture par drone est-il reconnu par la MAIF ?',
+      answer:
+        ' Oui. Les rapports fournis par Birdia incluent des images haute définition et des relevés précis conformes aux exigences des compagnies d’assurance comme la MAIF.',
+    },
+    q3: {
+      question: 'Quand faire appel à Birdia pour un diagnostic toiture MAIF ?',
+      answer:
+        ' Il est recommandé de demander un diagnostic toiture dès que des dommages apparaissent : fuite, tuiles envolées, infiltration d’eau, ou après un épisode climatique extrême.',
+    },
+    q4: {
+      question: 'Combien coûte un diagnostic toiture dans le cadre d’un dossier MAIF ?',
+      answer: ' Le prix dépend de la taille de la toiture et du type d’analyse souhaité (visuelle, thermique ou complète).',
+    },
+    q5: {
+      question: 'Comment se déroule un diagnostic toiture MAIF avec Birdia ?',
+      answer: ' Un télépilote Birdia effectue un survol du toit à l’aide d’un drone équipé de caméras haute résolution',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour un diagnostic toiture dans le cadre d’un sinistre MAIF ?',
+      answer: ' Birdia est spécialisée dans le diagnostic rapide et non intrusif des toitures. ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

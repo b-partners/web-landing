@@ -63,12 +63,35 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic indépendant de toiture ?',
+      answer: 'Un diagnostic indépendant de toiture consiste à évaluer l’état général d’une toiture sans lien commercial avec une entreprise de travaux.',
+    },
+    q2: {
+      question: 'Pourquoi faire appel à un expert indépendant plutôt qu’à un couvreur ?',
+      answer:
+        ' Un expert indépendant ne vend pas de prestations de rénovation. Son rôle est d’analyser objectivement la toiture et de fournir un rapport détaillé sur les zones à surveiller, les priorités d’entretien et les coûts potentiels.',
+    },
+    q3: {
+      question: 'Que comprend un diagnostic indépendant de toiture ?',
+      answer:
+        ' Le diagnostic inclut généralement l’inspection visuelle du revêtement, la vérification de l’étanchéité, du système d’évacuation des eaux pluviales, des éléments de zinguerie, ainsi que l’état des supports et isolants.',
+    },
+    q4: {
+      question: 'Combien coûte un diagnostic indépendant de toiture ?',
+      answer:
+        ' Le prix varie selon la surface, la complexité du bâtiment et la méthode d’inspection. En moyenne, il faut compter entre 150 et 400 € pour une expertise complète.',
+    },
+    q5: {
+      question: 'Quand faut-il réaliser un diagnostic indépendant de toiture ?',
+      answer:
+        ' Il est recommandé de le faire avant une vente immobilière, après des intempéries, ou dès l’apparition de signes d’usure (infiltrations, tuiles déplacées, mousses). ',
+    },
+    q6: {
+      question: 'Comment Birdia garantit l’indépendance de son diagnostic toiture ?',
+      answer:
+        ' Birdia ne réalise aucun travaux de couverture ou d’étanchéité. L’entreprise se consacre exclusivement à l’inspection et à l’analyse technique des toitures, à l’aide de drones et de technologies thermiques.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +105,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

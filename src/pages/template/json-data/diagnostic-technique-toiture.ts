@@ -64,12 +64,35 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic technique toiture ?',
+      answer:
+        ' Le diagnostic technique toiture est une inspection poussée et methodique de l’état global de la toiture — couverture, charpente, étanchéité, éléments de zinguerie, isolation — visant à identifier les pathologies, les risques d’infiltration ou de détérioration, et à proposer des solutions correctives',
+    },
+    q2: {
+      question: 'Quand faut-il envisager un diagnostic technique toiture ?',
+      answer:
+        ' Il est conseillé de le réaliser dans les cas suivants : avant une rénovation ou des travaux majeurs de toiture, après des événements climatiques (tempête, grêle, vent fort), en présence de signes visibles (fuites, traces d’humidité, déformation), ou pour entretenir un toit ancien.',
+    },
+    q3: {
+      question: 'Quels sont les éléments contrôlés dans un diagnostic technique toiture ?',
+      answer:
+        'Parmi les éléments inspectés : la couverture et son état, les jonctions et faîtages, les émergences et solins, la zinguerie et les gouttières, la charpente et son humidité, ainsi que l’isolation et les ponts thermiques, avec éventuellement des techniques complémentaires comme la thermographie ou les sondages.',
+    },
+    q4: {
+      question: 'Quel est le coût d’un diagnostic technique toiture ?',
+      answer: ' Le coût dépend de nombreux paramètres (surface du toit, complexité, accessibilité, niveau d’analyse requis). ',
+    },
+    q5: {
+      question: 'En quoi un diagnostic technique toiture est-il différent d’un diagnostic de vente ou d’une inspection basique ?',
+      answer:
+        ' Un diagnostic de toiture « classique » ou réalisé dans le cadre d’une vente est souvent limité à une inspection visuelle et à quelques relevés usuels, sans investigation approfondie. ',
+    },
+    q6: {
+      question: 'Que faire après le diagnostic technique toiture ?',
+      answer:
+        ' À l’issue du diagnostic, le professionnel remet un rapport détaillé avec les constats, les zones à surveiller, les préconisations de réparations ou de renfort, parfois un ordre de priorité.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

@@ -64,12 +64,33 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quels sont les types de toitures les plus répandus à Boulogne-sur-Mer ?',
+      answer:
+        ' À Boulogne-sur-Mer, les toitures sont souvent réalisées en ardoise naturelle, zinc ou tuile plate, des matériaux adaptés au climat océanique de la Côte d’Opale. ',
+    },
+    q2: {
+      question: 'Pourquoi la toiture s’abîme-t-elle plus vite sur le littoral ?',
+      answer: ' Le sel marin, l’humidité constante et les vents forts accélèrent la corrosion et l’usure des matériaux de toiture. ',
+    },
+    q3: {
+      question: 'Quand faut-il faire inspecter sa toiture à Boulogne-sur-Mer ?',
+      answer:
+        'Un diagnostic toiture par drone, comme celui proposé par Birdia, permet de repérer les tuiles fissurées, les infiltrations ou les débuts de corrosion sans démontage.',
+    },
+    q4: {
+      question: 'Quel est le coût moyen d’une rénovation de toiture à Boulogne-sur-Mer ?',
+      answer: ' Le prix dépend du matériau et de la surface du toit. En moyenne, la rénovation d’une toiture coûte entre 150 € et 280 € par m². ',
+    },
+    q5: {
+      question: 'Pourquoi choisir Birdia pour un diagnostic de toiture à Boulogne-sur-Mer ?',
+      answer:
+        ' Birdia utilise la technologie drone pour inspecter rapidement et en toute sécurité les toitures des maisons, immeubles ou bâtiments industriels.',
+    },
+    q6: {
+      question: ' Quels sont les avantages d’un diagnostic toiture préventif sur le littoral ?',
+      answer: ' Un diagnostic préventif aide à détecter les infiltrations, les problèmes d’étanchéité et la corrosion avant qu’ils ne deviennent critiques. ',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +104,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

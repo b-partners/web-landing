@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quelle est la différence entre la toiture et la charpente ?',
+      answer: ' La charpente constitue la structure porteuse du toit, tandis que la toiture en est le revêtement extérieur (tuiles, ardoises, zinc, etc.).',
+    },
+    q2: {
+      question: 'Pourquoi est-il important d’inspecter à la fois la toiture et la charpente ?',
+      answer: ' Une inspection conjointe permet de repérer les désordres cachés, comme les infiltrations d’eau ou les affaissements structurels.',
+    },
+    q3: {
+      question: 'Quels sont les signes d’une charpente ou d’une toiture en mauvais état ?',
+      answer: ' Des tuiles cassées, des traces d’humidité au plafond, des bois affaiblis ou des déformations visibles du toit sont des signaux d’alerte.',
+    },
+    q4: {
+      question: 'Combien coûte le diagnostic d’une toiture et d’une charpente ?',
+      answer: ' Le tarif dépend de la surface, de l’accès et de la technologie employée. En moyenne, un diagnostic complet varie entre 200 € et 600 €.',
+    },
+    q5: {
+      question: 'À quelle fréquence faut-il vérifier sa toiture et sa charpente ?',
+      answer: ' Il est recommandé d’effectuer un contrôle visuel tous les ans et un diagnostic complet tous les 3 à 5 ans. ',
+    },
+    q6: {
+      question: 'Comment Birdia inspecte-t-elle une toiture et une charpente ?',
+      answer: ' Birdia utilise la technologie drone pour inspecter la toiture et la charpente sans démontage ni risque pour les techniciens.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
