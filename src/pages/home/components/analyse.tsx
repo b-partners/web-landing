@@ -14,8 +14,25 @@ import { ANALYSES } from '../utils/constant';
 import { AnalyseItem } from './analyse-item';
 
 const ANALYSE_SX: SxProps = {
-  alignItems: 'stretch',
   flexWrap: 'wrap',
+  position: 'relative',
+  background: 'white',
+  '& .analyse-section-right-title-input': {
+    width: { xs: '100%', md: '100%' },
+    textAlign: 'center',
+    color: PALETTE_COLORS.neon_orange,
+    fontWeight: 'bold',
+    fontSize: { xs: '2rem', md: '2.5rem', xl: '3rem', xxl: '4rem' },
+  },
+  '& .analyse-section-right-title': {
+    width: { xs: '100%', md: '100%' },
+    textAlign: 'center',
+    color: PALETTE_COLORS.neon_orange,
+    fontWeight: 'bold',
+    fontSize: { xs: '1.2rem', md: '2.5rem', xl: '3rem', xxl: '4rem' },
+  },
+  '& .analyse-right-container': { flexDirection: 'column', px: { xs: 1, md: 6 }, flexBasis: { xs: '90%', md: '50%' }, bgcolor: 'white', py: { xs: 2, md: 5 } },
+  '& .analyse-right-ad-cta': { mt: 2, mb: 3, px: 5, fontSize: { xs: '0.8rem', md: '1.3rem' } },
 };
 
 interface AnalyseProps {
@@ -39,7 +56,7 @@ export const Analyse: FC<AnalyseProps> = (props) => {
 
   return (
     <FlexBox component="section" sx={ANALYSE_SX}>
-      <Box sx={{ flexBasis: '50%' }}>
+      <Box sx={{ flexBasis: { xs: '90%', md: '50%' } }}>
         {((analyseData?.information || ANALYSES) as typeof ANALYSES).map((analyse, index) => {
           return isEditMode ? (
             <Box key={index} sx={{ px: 3, py: 7, bgcolor: ANALYSES[index].bgcolor, color: ANALYSES[index].color }}>
@@ -61,37 +78,16 @@ export const Analyse: FC<AnalyseProps> = (props) => {
           );
         })}
       </Box>
-      <FlexBox sx={{ flexDirection: 'column', px: 6, flexBasis: '50%', bgcolor: 'white', p: 5, minWidth: '700px' }}>
+      <FlexBox className="analyse-right-container">
         {isEditMode ? (
           <GenInput
             name="analyse.title"
             multiline
             placeholder="Analyse automatisée de toitures par intelligence artificielle"
-            sx={{
-              maxWidth: '1000px',
-              mx: 'auto',
-              width: { xs: '90%', md: '100%' },
-              px: { xs: 5, md: 0 },
-              textAlign: 'center',
-              color: PALETTE_COLORS.neon_orange,
-              fontWeight: 'bold',
-              fontSize: { xs: '2rem', md: '2.5rem', xl: '3rem', xxl: '4rem' },
-            }}
+            className="analyse-section-title-input"
           />
         ) : (
-          <Typography
-            variant="h2"
-            sx={{
-              maxWidth: '1000px',
-              mx: 'auto',
-              width: { xs: '90%', md: '100%' },
-              px: { xs: 5, md: 0 },
-              textAlign: 'center',
-              color: PALETTE_COLORS.neon_orange,
-              fontWeight: 'bold',
-              fontSize: { xs: '2rem', md: '2.5rem', xl: '3rem', xxl: '4rem' },
-            }}
-          >
+          <Typography className="analyse-section-right-title" variant="h2">
             {titreAnalyse}
           </Typography>
         )}
@@ -143,7 +139,7 @@ export const Analyse: FC<AnalyseProps> = (props) => {
           )}
         </FlexBox>
         <FlexBox sx={{ my: 5, gap: 4 }}>
-          {isDiagnosticAvantVente && <AdCtaButton sx={{ mt: 2, mb: 3, px: 5 }} />}
+          {isDiagnosticAvantVente && <AdCtaButton className="analyse-right-ad-cta" />}
           {!isDiagnosticAvantVente && (
             <>
               <CTAButton />

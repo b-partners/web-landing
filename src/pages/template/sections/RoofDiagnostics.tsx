@@ -58,7 +58,11 @@ export const RoofDiagnostics = () => {
           )}
         </Box>
         <Box className={`content-img ${isDiagnosticAvantVente && 'diagnosticAvantVente'}`}>
-          {isDiagnosticAvantVente && <Typography textAlign="center">Vérifiez gratuitement l’état de votre toiture et valorisez votre bien.</Typography>}
+          {isDiagnosticAvantVente && (
+            <Typography className="content-img-title" textAlign="center">
+              Vérifiez gratuitement l’état de votre toiture et valorisez votre bien.
+            </Typography>
+          )}
           {!isDiagnosticAvantVente && (
             <Box className="image-container">
               {location.pathname !== '/templateGenerator' ? (
@@ -70,7 +74,7 @@ export const RoofDiagnostics = () => {
           )}
           {isDiagnosticAvantVente && (
             <Box mt={3}>
-              <AdCtaButton />
+              <AdCtaButton className='diagnostics-container-ad-cta' />
             </Box>
           )}
         </Box>
