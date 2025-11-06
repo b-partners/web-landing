@@ -63,12 +63,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quand faut-il envisager une réfection de toiture ?',
+      answer: 'Une réfection devient nécessaire lorsque la toiture présente des fuites récurrentes, une usure avancée ou une isolation insuffisante.',
+    },
+    q2: {
+      question: 'Quelle est la différence entre rénovation et réfection de toiture ?',
+      answer: 'La réfection implique une remise à neuf complète ou partielle, tandis que la rénovation peut concerner des réparations plus ciblées.',
+    },
+    q3: {
+      question: 'Quel est le prix moyen d’une réfection de toiture ?',
+      answer: 'Le coût varie de 150 à 300 € par m² selon les matériaux, la surface et l’état initial du toit.',
+    },
+    q4: {
+      question: 'Faut-il une autorisation pour refaire sa toiture ?',
+      answer: 'Oui, une déclaration préalable de travaux est souvent exigée, surtout si l’aspect extérieur est modifié.',
+    },
+    q5: {
+      question: 'Combien de temps dure une réfection de toiture ?',
+      answer: 'La durée des travaux dépend de la surface et de la complexité, mais elle s’étale généralement sur une à deux semaines.',
+    },
+    q6: {
+      question: 'Comment savoir si une réfection complète est nécessaire ?',
+      answer: 'Un diagnostic toiture approfondi par un professionnel permet de déterminer si une réfection totale s’impose.',
+    },
     title2: 'Vous êtes un particulier, vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +100,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
