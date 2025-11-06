@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi faire inspecter sa toiture à Mennecy ?',
+      answer: 'Une inspection permet de détecter les défauts invisibles à l’œil nu et d’anticiper les fuites ou dégradations.',
+    },
+    q2: {
+      question: 'À quelle fréquence faut-il inspecter sa toiture à Mennecy ?',
+      answer: 'Il est conseillé de faire inspecter sa toiture tous les 2 à 3 ans, ou après un événement climatique important.',
+    },
+    q3: {
+      question: 'Quels signes doivent alerter sur l’état d’une toiture à Mennecy ?',
+      answer: 'Des tuiles déplacées, des traces d’humidité au plafond ou une mousse excessive sont des signaux à ne pas négliger.',
+    },
+    q4: {
+      question: 'Combien coûte une inspection de toiture à Mennecy ?',
+      answer: 'Le prix varie généralement entre 200 € et 500 €, selon la méthode d’inspection et la surface du toit.',
+    },
+    q5: {
+      question: 'L’inspection par drone est-elle possible à Mennecy ?',
+      answer: 'Oui, l’inspection par drone est une solution rapide et précise, parfaitement adaptée aux toitures de Mennecy.',
+    },
+    q6: {
+      question: 'Qui peut réaliser une inspection de toiture fiable à Mennecy ?',
+      answer: 'Des professionnels spécialisés comme Birdia utilisent des technologies avancées pour un diagnostic précis et sécurisé.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
