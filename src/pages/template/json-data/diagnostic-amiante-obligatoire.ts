@@ -63,12 +63,35 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Dans quels cas le diagnostic amiante est-il obligatoire ?',
+      answer: 'Le diagnostic amiante est obligatoire pour tout bâtiment dont le permis de construire date d’avant le 1er juillet 1997.',
+    },
+    q2: {
+      question: 'Quelles sortes de diagnostics amiante existent ?',
+      answer:
+        'On distingue le diagnostic avant-vente, le repérage avant travaux ou démolition, et les dossiers DTA ou DAPP selon qu’il s’agisse de parties communes ou privatives.',
+    },
+    q3: {
+      question: 'Quelle est la durée de validité d’un diagnostic amiante ?',
+      answer:
+        'S’il ne détecte aucune trace d’amiante, le diagnostic est valable sans limite s’il a été réalisé après le 1er avril 2013. En cas de présence d’amiante, des contrôles réguliers ou travaux peuvent être imposés selon l’état des matériaux.',
+    },
+    q4: {
+      question: 'Quelles obligations pèsent sur le propriétaire en cas de présence d’amiante ?',
+      answer:
+        'Le propriétaire doit surveiller, retirer ou confiner les matériaux selon leur état de dégradation. Les dossiers DTA ou DAPP doivent être mis à jour et communiqués aux occupants ou entreprises intervenantes avant tout chantier.',
+    },
+    q5: {
+      question: 'Qui peut réaliser le diagnostic amiante obligatoire ?',
+      answer:
+        'Seuls les diagnostiqueurs certifiés par un organisme accrédité peuvent effectuer ce repérage. Ils doivent suivre les protocoles de sécurité et fournir un rapport conforme à la réglementation.',
+    },
+    q6: {
+      question: 'Quels sont les risques en cas de non-réalisation du diagnostic amiante obligatoire ?',
+      answer:
+        'L’absence de diagnostic peut entraîner la nullité d’une vente, des sanctions légales et un risque pour la santé des occupants ou travailleurs exposés.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +105,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
