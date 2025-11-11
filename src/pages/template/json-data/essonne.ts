@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi faire un diagnostic toiture en Essonne ?',
+      answer: 'Un diagnostic toiture en Essonne permet de repérer les fuites et défauts liés au climat local afin d’éviter des réparations coûteuses.',
+    },
+    q2: {
+      question: 'Comment se déroule un diagnostic toiture Birdia en Essonne ?',
+      answer: 'L’expertise Birdia s’effectue par drone ou à distance, sans démontage, et donne lieu à un rapport complet et illustré.',
+    },
+    q3: {
+      question: 'Quel est le prix d’un diagnostic toiture en Essonne ?',
+      answer: 'Le coût varie entre 100 et 250 €, selon la surface et la complexité du toit, rapport technique inclus.',
+    },
+    q4: {
+      question: 'Qui peut demander un diagnostic toiture Birdia en Essonne ?',
+      answer: 'Particuliers, acheteurs, vendeurs, syndics ou assurés peuvent solliciter Birdia pour une évaluation neutre et fiable du toit.',
+    },
+    q5: {
+      question: 'Quels sont les avantages du diagnostic Birdia en Essonne ?',
+      answer: 'Birdia offre une inspection rapide, sans démontage, avec un rapport indépendant et utilisable pour assurance ou devis.',
+    },
+    q6: {
+      question: 'Dans quelles villes de l’Essonne Birdia intervient-elle ?',
+      answer: 'Birdia couvre tout le département, dont Évry, Massy, Palaiseau et Corbeil-Essonnes, avec des inspections sur site ou à distance.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
