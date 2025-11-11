@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic d’infiltration de toiture ?',
+      answer: 'C’est une inspection qui identifie la source d’une fuite ou d’une humidité sous toiture grâce à des technologies à distance ou par drone.',
+    },
+    q2: {
+      question: 'Quand faut-il faire un diagnostic d’infiltration toiture ?',
+      answer: 'Il est conseillé dès les premiers signes d’humidité, après un sinistre ou avant des travaux ou une vente immobilière.',
+    },
+    q3: {
+      question: 'Comment se déroule un diagnostic infiltration toiture Birdia ?',
+      answer: 'Un expert collecte vos informations, inspecte le toit par drone ou à distance, puis envoie un rapport illustré et détaillé.',
+    },
+    q4: {
+      question: 'Quel est le prix d’un diagnostic infiltration toiture Birdia ?',
+      answer: 'Le tarif varie entre 120 et 250 €, incluant l’analyse technique et un rapport d’expertise complet et indépendant.',
+    },
+    q5: {
+      question: 'Quels sont les avantages du diagnostic infiltration Birdia ?',
+      answer: 'Il est rapide, sans démontage, indépendant, illustré et aide à éviter des réparations inutiles.',
+    },
+    q6: {
+      question: 'Birdia intervient-elle partout pour un diagnostic infiltration toiture ?',
+      answer: 'Oui, Birdia intervient dans toute la France, avec la même précision et qualité, même dans les zones difficiles d’accès.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
