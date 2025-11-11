@@ -61,12 +61,31 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic toiture à Évry ?',
+      answer:
+        'Un diagnostic toiture à Évry permet de vérifier l’état du toit avant une vente, un achat ou des travaux afin d’éviter des réparations coûteuses.',
+    },
+    q2: {
+      question: 'Comment se déroule un diagnostic toiture Birdia à Évry ?',
+      answer: 'L’expertise Birdia s’effectue sans démontage grâce à une inspection par drone ou à distance, suivie d’un rapport illustré et détaillé.',
+    },
+    q3: {
+      question: 'Quel est le prix d’un diagnostic toiture à Évry ?',
+      answer: 'Le diagnostic Birdia coûte entre 100 et 250 €, incluant l’inspection complète, l’analyse technique et le rapport final.',
+    },
+    q4: {
+      question: 'À qui s’adresse le diagnostic toiture Birdia à Évry ?',
+      answer: 'Il s’adresse aux propriétaires, acheteurs, syndics ou assurés souhaitant un état précis et neutre de leur toiture.',
+    },
+    q5: {
+      question: 'Quels sont les avantages du diagnostic toiture Birdia à Évry ?',
+      answer: 'Birdia offre une inspection rapide, sans démontage, avec un rapport objectif et une analyse fiable par drone.',
+    },
+    q6: {
+      question: 'Birdia intervient-elle sur tout le secteur d’Évry ?',
+      answer: 'Oui, Birdia couvre tout le secteur d’Évry-Courcouronnes et ses environs avec des diagnostics rapides et indépendants.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -80,15 +99,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
