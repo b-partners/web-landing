@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qui est Raquin Duchon et quel est son lien avec le diagnostic toiture ?',
+      answer: 'Raquin Duchon est une entreprise reconnue du bâtiment, dont Birdia évalue les toitures de façon indépendante.',
+    },
+    q2: {
+      question: 'En quoi consiste un diagnostic toiture Raquin Duchon ?',
+      answer: 'Il sert à identifier les causes de fuites ou dégradations sur les toits réalisés ou entretenus par l’entreprise.',
+    },
+    q3: {
+      question: 'Quand faut-il demander un diagnostic toiture sur un chantier Raquin Duchon ?',
+      answer: 'Il est conseillé après réception des travaux, en cas d’infiltration ou avant une vente immobilière.',
+    },
+    q4: {
+      question: 'Combien coûte un diagnostic toiture Birdia pour une toiture Raquin Duchon ?',
+      answer: 'Le prix moyen varie entre 150 et 300 €, incluant inspection, analyse et rapport complet.',
+    },
+    q5: {
+      question: 'Quelle est la valeur ajoutée d’un diagnostic indépendant Birdia ?',
+      answer: 'Birdia offre une expertise neutre, sans lien commercial, appuyée sur des inspections visuelles ou par drone.',
+    },
+    q6: {
+      question: 'Birdia collabore-t-elle directement avec Raquin Duchon ?',
+      answer: 'Non, Birdia agit en toute indépendance pour garantir une analyse objective et impartiale.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
