@@ -57,12 +57,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un expert en toiture ?',
+      answer: 'C’est un professionnel indépendant qui analyse l’état technique d’un toit pour identifier les désordres et recommander des solutions adaptées.',
+    },
+    q2: {
+      question: 'Dans quels cas faire appel à un expert en toiture ?',
+      answer: 'On le sollicite avant une vente, après un sinistre, en cas de fuite ou pour préparer des travaux de rénovation.',
+    },
+    q3: {
+      question: 'Quelle différence entre un couvreur et un expert toiture ?',
+      answer: 'Le couvreur réalise les travaux, tandis que l’expert fournit un avis neutre et technique sur l’état du toit.',
+    },
+    q4: {
+      question: 'Comment se déroule une expertise toiture Birdia ?',
+      answer: 'Birdia inspecte la toiture sur site, par drone ou à distance, puis remet un rapport illustré et précis sans démontage.',
+    },
+    q5: {
+      question: 'Quel est le prix d’une expertise de toiture ?',
+      answer: 'Le coût varie entre 100 et 300 €, selon la surface et la complexité du toit, rapport inclus.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia comme expert toiture ?',
+      answer: 'Birdia allie technologie innovante et expertise indépendante pour offrir une évaluation fiable, rapide et objective.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -76,15 +94,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
