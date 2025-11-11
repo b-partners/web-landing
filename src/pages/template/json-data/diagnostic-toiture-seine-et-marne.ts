@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic de toiture en Seine-et-Marne ?',
+      answer: 'Il permet d’évaluer l’état du toit face à l’humidité et aux intempéries locales afin de prévenir les dégâts coûteux.',
+    },
+    q2: {
+      question: 'Comment se déroule un diagnostic toiture Birdia en Seine-et-Marne ?',
+      answer: 'L’expert inspecte le toit sans démontage, par drone ou à distance, puis remet un rapport clair et illustré.',
+    },
+    q3: {
+      question: 'Quel est le prix d’un diagnostic toiture? ',
+      answer: 'Le tarif varie entre 100 et 250 €, incluant l’analyse complète et un rapport neutre réalisé par un expert.',
+    },
+    q4: {
+      question: 'À qui s’adresse le diagnostic toiture Birdia en Seine-et-Marne ?',
+      answer: 'Il concerne les propriétaires, acheteurs, vendeurs et syndics souhaitant connaître l’état réel de leur toiture.',
+    },
+    q5: {
+      question: 'Quels sont les avantages d’un diagnostic Birdia en Seine-et-Marne ?',
+      answer: 'Rapide, précis, sans démontage ni conflit d’intérêt, il offre une analyse indépendante et illustrée.',
+    },
+    q6: {
+      question: 'Dans quelles villes de Seine-et-Marne Birdia intervient-elle ?',
+      answer: 'Birdia couvre tout le département 77, dont Meaux, Melun, Fontainebleau et leurs alentours.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
