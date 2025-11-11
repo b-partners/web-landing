@@ -65,31 +65,33 @@ export default {
   faq: {
     title1: 'FAQ',
     q1: {
-      question: 'En quoi consiste un diagnostic gratuit de toiture d’immeuble ?',
-      answer: ' Un diagnostic gratuit de toiture d’immeuble permet d’évaluer l’état général du toit sans engagement de travaux.',
+      question: "Qu'est-ce qu'un diagnostic gratuit de toiture d'immeuble ?",
+      answer:
+        "Il s'agit d'une évaluation initiale de l'état de la toiture d'un immeuble, réalisée sans frais. Cette analyse permet d'identifier rapidement d'éventuels problèmes tels que des tuiles endommagées, des zones d'humidité ou des signes d'usure.",
     },
     q2: {
-      question: 'Qui peut bénéficier d’un diagnostic gratuit de toiture ?',
+      question: 'Comment fonctionne le diagnostic gratuit ?',
       answer:
-        ' Ce service s’adresse principalement aux syndics de copropriété, gestionnaires d’immeubles et propriétaires bailleurs souhaitant un premier état des lieux avant d’engager des travaux.',
+        "Birdia utilise l'intelligence artificielle pour analyser des images aériennes haute définition de la toiture. Il vous suffit de fournir l'adresse de votre bien, et le système génère un rapport détaillé de l'état de votre toit.",
     },
     q3: {
-      question: 'Quelle est la différence entre un diagnostic gratuit et un diagnostic complet de toiture ?',
-      answer: ' Le diagnostic gratuit est une inspection de surface permettant d’identifier les zones à risque et de prioriser les besoins. ',
+      question: 'Quels types de problèmes peuvent être détectés ?',
+      answer:
+        "Le diagnostic peut identifier divers problèmes, tels que des tuiles manquantes, des zones de mousse, des signes d'humidité ou des déformations de la structure du toit.",
     },
     q4: {
-      question: 'Comment se déroule un diagnostic gratuit de toiture d’immeuble avec Birdia ?',
+      question: 'Est-ce que le diagnostic est vraiment gratuit ?',
       answer:
-        ' Après prise de contact, une équipe Birdia planifie une inspection aérienne par drone. Le survol de la toiture permet de capturer des images haute résolution, puis un rapport synthétique est remis au gestionnaire ou au propriétaire. ',
+        'Oui, le diagnostic initial est gratuit. Cependant, des services supplémentaires, tels que des analyses approfondies ou des rapports détaillés, peuvent être proposés moyennant des frais.',
     },
     q5: {
-      question: 'Pourquoi réaliser un diagnostic gratuit avant des travaux de toiture ?',
-      answer:
-        ' Un diagnostic gratuit permet de savoir si des travaux sont réellement nécessaires. Il aide à éviter des interventions inutiles et à cibler les réparations prioritaires.',
+      question: 'Est-ce que je dois être propriétaire pour bénéficier du diagnostic ?',
+      answer: "Non, le service est accessible à tous, qu'il s'agisse de propriétaires, de locataires ou de gestionnaires immobiliers.",
     },
     q6: {
-      question: 'Birdia propose-t-elle un diagnostic gratuit de toiture pour les immeubles collectifs ?',
-      answer: 'Oui. Birdia offre aux copropriétés et gestionnaires d’immeubles un diagnostic visuel gratuit, réalisé par drone.',
+      question: 'Comment obtenir mon diagnostic gratuit ?',
+      answer:
+        "Il vous suffit de vous rendre sur le site de Birdia, de saisir l'adresse de votre bien et de suivre les instructions pour recevoir votre rapport personnalisé.",
     },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
