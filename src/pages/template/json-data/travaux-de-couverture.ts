@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Que recouvrent exactement les travaux de couverture ?',
+      answer:
+        'Les travaux de couverture regroupent la pose, l’entretien, la réparation ou le remplacement du toit afin d’assurer l’étanchéité et la protection du bâtiment.',
+    },
+    q2: {
+      question: 'Quand faut-il envisager des travaux de couverture ?',
+      answer:
+        'Il faut envisager des travaux de couverture dès que des infiltrations, des tuiles endommagées ou des signes de vieillissement apparaissent, idéalement après un diagnostic complet comme celui de Birdia.',
+    },
+    q3: {
+      question: 'Quelles sont les principales étapes d’un chantier de couverture ?',
+      answer:
+        'Un chantier de couverture comprend l’inspection du toit, la préparation du support, la pose du matériau choisi et la mise en place de la zinguerie pour garantir une parfaite étanchéité.',
+    },
+    q4: {
+      question: 'Quels sont les matériaux les plus utilisés pour une couverture de toit ?',
+      answer:
+        'Les couvertures de toit utilisent principalement la tuile, l’ardoise, le zinc, le bac acier ou les membranes d’étanchéité, selon le style du bâtiment et le climat.',
+    },
+    q5: {
+      question: 'Combien coûtent en moyenne des travaux de couverture ?',
+      answer:
+        'Le coût d’une couverture varie selon le matériau et la complexité du toit, entre environ 80 € et 250 € le m², une estimation affinée étant possible avec un diagnostic Birdia.',
+    },
+    q6: {
+      question: 'Pourquoi faire diagnostiquer sa toiture avant des travaux de couverture ?',
+      answer:
+        'Le diagnostic toiture permet de repérer les zones fragiles, d’éviter les dépenses inutiles et de planifier des travaux adaptés grâce à l’expertise Birdia.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
