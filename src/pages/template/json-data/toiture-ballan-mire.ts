@@ -65,32 +65,33 @@ export default {
   faq: {
     title1: 'FAQ',
     q1: {
-      question: 'Qu’est-ce qu’un diagnostic toiture à Ballan-Miré et à quoi sert-il ?\n',
+      question: 'Pourquoi réaliser un diagnostic de toiture à Ballan-Miré ?',
       answer:
-        ' Un diagnostic toiture consiste à inspecter l’état de couverture (tuiles, ardoises, éléments de zinguerie, étanchéité, isolation) et de la structure, afin de détecter les défauts (infiltrations, fissures, zones d’usure, stagnation d’eau, etc.).',
+        "Un diagnostic de toiture permet d'identifier les éventuelles faiblesses du toit, telles que des infiltrations ou des dégradations, afin d'éviter des réparations coûteuses à l'avenir.",
     },
     q2: {
-      question: 'Quand faut-il réaliser un diagnostic toiture à Ballan-Miré ?',
-      answer: ' Il est conseillé de programmer un diagnostic dans les cas suivants : après une tempête, ou après 10 à 15 ans sans entretien régulier ',
+      question: 'Comment se déroule un diagnostic de toiture avec Birdia ?',
+      answer:
+        "Birdia utilise l'intelligence artificielle pour analyser des images haute définition de votre toiture. Cette technologie permet de détecter des anomalies telles que des usures, des moisissures ou des défauts d'étanchéité.",
     },
     q3: {
-      question: ' Qui peut réaliser ce diagnostic à Ballan-Miré ?',
-      answer: ' Le diagnostic doit être assuré par un professionnel de la couverture ou un bureau d’études spécialisé dans l’inspection de toitures. ',
+      question: "Quels sont les avantages d'un diagnostic par IA ?",
+      answer:
+        "L'utilisation de l'IA offre des mesures précises, une détection rapide des anomalies et une gestion optimisée des dossiers, ce qui permet de gagner du temps et d'améliorer l'efficacité des interventions.",
     },
     q4: {
-      question: 'Quel est le coût moyen d’un diagnostic toiture à Ballan-Miré ?',
+      question: 'Est-ce que le diagnostic est accessible à distance ?',
       answer:
-        ' Le coût dépend de la surface du toit, de la complexité (pentes, matériaux, accès difficile) et des technologies utilisées (drone, thermographie).',
+        "Oui, grâce à la technologie d'analyse d'images, le diagnostic peut être effectué à distance, sans nécessiter une intervention physique initiale.",
     },
     q5: {
-      question: 'Que comprend un rapport de diagnostic toiture à Ballan-Miré ?',
+      question: 'Quels types de problèmes peuvent être détectés ?',
       answer:
-        'Le rapport détaille l’état de chaque élément (tuiles, faîtage, zinguerie, gouttières, évacuations), les anomalies constatées, des photographies annotées, des recommandations de travaux prioritaires ou préventifs',
+        "Le système peut identifier divers problèmes, tels que des tuiles manquantes, des zones d'humidité, des signes de moisissures ou des déformations de la structure du toit.",
     },
     q6: {
-      question: 'Et après le diagnostic, quelles sont les étapes recommandées à Ballan-Miré ?',
-      answer:
-        ' Après le diagnostic, il convient de prioriser les réparations (zones de fuites, éléments en zinc, joints abîmés) puis d’établir un échéancier de travaux (démoussage, remplacement de tuiles, renforcement d’étanchéité).',
+      question: 'Comment obtenir un diagnostic pour ma toiture à Ballan-Miré ?',
+      answer: "Pour bénéficier d'un diagnostic, il est nécessaire de soumettre des images haute définition de votre toiture via la plateforme Birdia.",
     },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
