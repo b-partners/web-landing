@@ -63,12 +63,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quand faut-il envisager une rénovation complète de la toiture ?',
+      answer:
+        'Une rénovation devient nécessaire lorsque la couverture montre des signes d’usure : tuiles cassées, infiltrations répétées, charpente humide, isolation détériorée ou toit vieillissant.',
+    },
+    q2: {
+      question: 'Quels éléments vérifier avant de rénover ?',
+      answer:
+        'Avant les travaux, il faut examiner la charpente, la couverture, la zinguerie et la ventilation des combles. Ces points garantissent que la structure est saine et prête à accueillir une nouvelle toiture sans risque d’infiltration ni de déséquilibre.',
+    },
+    q3: {
+      question: 'Quelle est l’ampleur des travaux ?',
+      answer:
+        'Selon le diagnostic, la rénovation peut aller d’un simple nettoyage avec remplacement de tuiles à une réfection complète impliquant isolation, zinguerie et parfois charpente. Le niveau d’intervention dépend de l’état général du toit et des objectifs recherchés.',
+    },
+    q4: {
+      question: 'Quels matériaux privilégier ?',
+      answer:
+        'Le choix se fait entre tuiles, ardoises, zinc ou solutions végétalisées, selon le style et les performances souhaitées. Une bonne isolation et une ventilation adaptée assurent la durabilité et l’efficacité énergétique du nouvel ensemble.',
+    },
+    q5: { question: 'Quel budget prévoir ?', answer: 'Le coût varie selon la surface, la complexité du toit et les matériaux choisis.' },
+    q6: {
+      question: 'Quelles démarches et aides existent ?',
+      answer:
+        'Avant les travaux, il est recommandé de consulter le service urbanisme pour connaître les obligations du PLU. Selon le projet, certaines aides comme MaPrimeRénov’, la TVA réduite ou l’éco-prêt à taux zéro peuvent alléger le coût de la rénovation.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
