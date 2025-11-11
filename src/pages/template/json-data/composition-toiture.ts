@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'De quoi est composée une toiture ?',
+      answer:
+        'Une toiture se compose de la charpente, de l’isolation, de l’écran sous-toiture, de la couverture et de la zinguerie, des éléments essentiels qui assurent sa solidité, son étanchéité et son isolation.',
+    },
+    q2: {
+      question: 'Quelle est la fonction de chaque couche d’une toiture ?',
+      answer:
+        'Chaque couche de la toiture a un rôle précis : la charpente soutient l’ensemble, l’isolation améliore le confort, l’écran sous-toiture protège des infiltrations, la couverture assure l’étanchéité et la zinguerie évacue l’eau de pluie.',
+    },
+    q3: {
+      question: 'Quelle différence entre la composition d’une toiture traditionnelle et celle d’une toiture plate ?',
+      answer:
+        'La toiture en pente repose sur une charpente en bois et une couverture ventilée, tandis que la toiture plate intègre un complexe d’étanchéité avec pare-vapeur, isolation et membrane spécifique.',
+    },
+    q4: {
+      question: 'Pourquoi l’écran sous-toiture est-il indispensable ?',
+      answer:
+        'L’écran sous-toiture forme une barrière supplémentaire contre l’eau, la poussière et la neige, tout en favorisant la ventilation du toit pour prolonger sa durée de vie.',
+    },
+    q5: {
+      question: 'Comment savoir si la composition actuelle de ma toiture est conforme ?',
+      answer:
+        'Un diagnostic toiture réalisé par un professionnel, comme ceux proposés par Birdia, permet de vérifier la conformité, l’étanchéité et la qualité des matériaux sans démontage.',
+    },
+    q6: {
+      question: 'Pourquoi bien connaître la composition de sa toiture avant des travaux ?',
+      answer:
+        'Connaître la composition de sa toiture permet de choisir les bons matériaux, anticiper les travaux et assurer la durabilité du toit grâce à une préparation technique complète.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
