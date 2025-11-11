@@ -53,12 +53,35 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quel est le coût moyen d’une toiture ?',
+      answer: 'Le prix d’une toiture varie selon le matériau, la surface et la complexité du chantier, entre environ 80 et 400 € par m², pose comprise.',
+    },
+    q2: {
+      question: 'Quels facteurs influencent le prix d’une toiture ?',
+      answer:
+        'Le coût dépend notamment de la surface, du matériau, de la pente, de l’état du toit et de la main-d’œuvre, un diagnostic Birdia aidant à identifier les postes les plus coûteux.',
+    },
+    q3: {
+      question: 'Quelle différence de coût entre rénovation, réfection et construction neuve ?',
+      answer:
+        'Une toiture neuve coûte entre 100 et 200 € par m², une rénovation entre 150 et 300 €, et une réfection complète peut dépasser 400 € selon l’état de la charpente.',
+    },
+    q4: {
+      question: 'Comment estimer le coût total d’une toiture sans mauvaise surprise ?',
+      answer:
+        'L’estimation doit s’appuyer sur un diagnostic précis et des devis détaillés, Birdia permettant d’obtenir un chiffrage clair et complet avant tout engagement.',
+    },
+    q5: {
+      question: 'Existe-t-il des aides financières pour réduire le coût d’une toiture ?',
+      answer:
+        'Des aides comme MaPrimeRénov’, l’éco-prêt à taux zéro ou la TVA réduite à 5,5 % peuvent réduire le coût des travaux améliorant l’efficacité énergétique.',
+    },
+    q6: {
+      question: 'Pourquoi faire un diagnostic avant d’estimer le coût d’une toiture ?',
+      answer:
+        'Un diagnostic Birdia détecte les défauts invisibles qui influencent le budget et fournit une estimation fiable, indépendante et adaptée à l’état réel du toit.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -72,15 +95,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
