@@ -60,12 +60,35 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quels sont les principaux types de travaux de toiture ?',
+      answer:
+        'Les travaux de toiture peuvent aller du simple entretien à la réfection complète, incluant la réparation, l’isolation ou la pose d’équipements, selon le diagnostic préalable réalisé.',
+    },
+    q2: {
+      question: 'Quand faut-il envisager des travaux sur sa toiture ?',
+      answer:
+        'Il est conseillé d’envisager des travaux dès l’apparition de fuites, de matériaux abîmés ou après plusieurs décennies sans rénovation, un diagnostic Birdia permettant d’en confirmer la nécessité.',
+    },
+    q3: {
+      question: 'Quels sont les bénéfices d’une rénovation ou d’une réfection de toiture ?',
+      answer: 'Une rénovation de toiture améliore l’étanchéité, renforce l’isolation, valorise le bien immobilier et prolonge la durée de vie du bâtiment.',
+    },
+    q4: {
+      question: 'Quel budget prévoir pour des travaux de toiture ?',
+      answer:
+        'Le budget varie selon la nature et l’ampleur des travaux, entre environ 80 et 300 € le m², une estimation précise étant réalisable grâce à un diagnostic Birdia.',
+    },
+    q5: {
+      question: 'Quels matériaux peut-on choisir lors de travaux de toiture ?',
+      answer:
+        'Le choix du matériau dépend du climat, de la pente et du style du bâtiment, entre tuiles, ardoise, zinc, bac acier ou membrane d’étanchéité pour les toits plats.',
+    },
+    q6: {
+      question: 'Pourquoi réaliser un diagnostic technique avant tout chantier de toiture ?',
+      answer:
+        'Le diagnostic technique, effectué par Birdia à distance ou par drone, permet de repérer les faiblesses du toit et de planifier des travaux adaptés pour garantir leur durabilité.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -79,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
