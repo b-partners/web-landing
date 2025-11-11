@@ -64,30 +64,34 @@ export default {
   faq: {
     title1: 'FAQ',
     q1: {
-      question: 'Qu’est-ce qu’une toiture non accessible ?',
-      answer: ' Une toiture non accessible est un toit qui n’a pas vocation à être utilisé ni à supporter la circulation des personnes.',
+      question: "Qu'est-ce qu'une toiture non accessible ?",
+      answer:
+        "Une toiture non accessible est une toiture terrasse généralement plane, dont l'accès est restreint aux interventions techniques spécifiques (entretien des équipements, maintenance, etc.). Elle est conçue pour être protégée des intempéries et ne sert pas d'espace de vie.",
     },
     q2: {
-      question: 'Pourquoi l’inspection d’une toiture non accessible est-elle difficile ?',
-      answer: ' Ces toitures sont souvent situées en hauteur, sans garde-corps ni points d’ancrage, rendant tout accès manuel dangereux.',
+      question: 'Pourquoi est-il important de diagnostiquer une toiture non accessible ?',
+      answer:
+        "Bien que non accessible, une toiture peut présenter des signes d'usure ou des défauts d'étanchéité. Un diagnostic permet d'identifier ces problèmes avant qu'ils ne causent des infiltrations ou des dégradations importantes.",
     },
     q3: {
-      question: 'Comment inspecter une toiture non accessible en toute sécurité ?',
-      answer: 'L’inspection par drone professionnel permet de visualiser chaque détail du toit sans intervention physique. ',
+      question: "Comment Birdia effectue-t-il le diagnostic d'une toiture non accessible ?",
+      answer:
+        "Birdia utilise l'intelligence artificielle pour analyser des images haute définition de la toiture. Cette technologie permet de détecter des anomalies telles que des zones d'humidité, des déformations ou des signes d'usure, sans nécessiter un accès direct à la toiture.",
     },
     q4: {
-      question: 'Quelles sont les pathologies fréquentes sur une toiture non accessible ?',
+      question: 'Quels types de problèmes peuvent être détectés sur une toiture non accessible ?',
       answer:
-        ' Les principales dégradations observées sont la stagnation d’eau, les fissures dans les membranes d’étanchéité, les relevés décollés ou les évacuations obstruées.',
+        "Le diagnostic peut identifier des défauts d'étanchéité, des zones de condensation, des déformations de la structure, des signes de moisissures ou d'humidité, ainsi que des problèmes liés à l'isolation thermique et phonique.",
     },
     q5: {
-      question: 'Quelle réglementation s’applique aux toitures non accessibles ?',
-      answer: ' Une toiture non accessible doit répondre aux exigences d’étanchéité et de résistance définies par les DTU (Documents Techniques Unifiés). ',
+      question: 'Est-ce que le diagnostic est payant ?',
+      answer:
+        'Le diagnostic de toiture proposé par Birdia est gratuit. Il suffit de soumettre des images haute définition de la toiture via la plateforme Birdia pour obtenir une analyse détaillée.',
     },
     q6: {
-      question: 'Pourquoi faire appel à Birdia pour inspecter une toiture non accessible ?',
+      question: 'Comment obtenir un diagnostic pour ma toiture non accessible ?',
       answer:
-        ' Birdia est spécialisée dans l’inspection de toitures inaccessibles par drone. Grâce à une technologie de captation aérienne précise et à des analyses thermographiques, Birdia fournit un diagnostic objectif, complet et sans danger pour les opérateurs. ',
+        "Pour bénéficier d'un diagnostic, il vous suffit de vous rendre sur le site de Birdia, de soumettre des images haute définition de votre toiture et de suivre les instructions pour recevoir votre rapport personnalisé.",
     },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
