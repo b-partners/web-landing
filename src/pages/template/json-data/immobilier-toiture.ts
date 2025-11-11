@@ -65,31 +65,32 @@ export default {
   faq: {
     title1: 'FAQ',
     q1: {
-      question: 'Pourquoi la toiture est-elle un élément clé dans un projet immobilier ?',
+      question: "Pourquoi réaliser un diagnostic de toiture lors d'une transaction immobilière ?",
       answer:
-        ' La toiture est l’un des postes les plus importants dans un bien immobilier. Elle protège la structure, influence le confort thermique et l’étanchéité, et représente une part significative de la valeur du bâtiment',
+        "Un diagnostic de toiture permet d'identifier d'éventuels défauts d'étanchéité, des signes d'humidité ou des problèmes structurels. Cela aide à évaluer l'état général du bien, à anticiper les coûts de rénovation et à sécuriser la transaction pour l'acheteur comme pour le vendeur",
     },
     q2: {
-      question: 'Faut-il faire inspecter la toiture avant une vente immobilière ?',
-      answer: ' Oui. Une inspection de toiture avant vente permet de détecter d’éventuels défauts d’étanchéité, de vieillissement ou d’isolation. ',
+      question: "Le diagnostic de toiture est-il obligatoire lors de l'achat d'une maison ?",
+      answer:
+        "Non, le diagnostic de toiture n'est pas légalement obligatoire lors de l'achat d'une maison. Cependant, il est fortement recommandé pour éviter les mauvaises surprises et est souvent exigé par les institutions financières avant l'octroi d'un prêt immobilier.",
     },
     q3: {
-      question: 'Qu’est-ce qu’un diagnostic immobilier toiture ?',
+      question: "Quelles anomalies peuvent être détectées lors d'un diagnostic de toiture ?",
       answer:
-        ' Un diagnostic immobilier toiture est une expertise technique qui évalue l’état du toit dans le cadre d’une vente, d’un achat ou d’une gestion de patrimoine.',
+        "Le diagnostic peut révéler des problèmes tels que des fuites, des infiltrations d'eau, des déformations de la structure, des tuiles ou ardoises endommagées, des signes de moisissure ou de champignons, ainsi que des défauts d'isolation thermique ou phonique.",
     },
     q4: {
-      question: 'Quels risques encourt-on avec une toiture défectueuse dans un bien immobilier ?',
-      answer: ' Une toiture endommagée peut entraîner des infiltrations d’eau, des problèmes d’humidité, voire une dégradation de la charpente.',
+      question: 'Comment se déroule un diagnostic de toiture ?',
+      answer: "Le diagnostic de toiture peut être réalisé à distance grâce à l'analyse d'images haute définition de la toiture.",
     },
     q5: {
-      question: 'Combien coûte un diagnostic immobilier de toiture ?',
-      answer: ' Le coût d’un diagnostic toiture varie selon la surface et la complexité du toit, généralement entre 150 et 400 €.',
+      question: 'Qui est responsable du diagnostic de toiture ?',
+      answer:
+        'Le propriétaire du bien immobilier est responsable de la réalisation du diagnostic de toiture. Cependant, il peut faire appel à des professionnels spécialisés pour effectuer cette évaluation. ',
     },
     q6: {
-      question: 'Comment Birdia accompagne les professionnels de l’immobilier pour le suivi des toitures ?',
-      answer:
-        ' Birdia collabore avec des agences immobilières, syndics et gestionnaires de patrimoine pour la surveillance et le diagnostic régulier des toitures.',
+      question: 'Comment obtenir un diagnostic de toiture ?',
+      answer: "Pour obtenir un diagnostic de toiture, il est conseillé de faire appel à des entreprises spécialisées dans l'évaluation de l'état des toitures.",
     },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
