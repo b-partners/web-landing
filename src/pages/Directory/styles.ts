@@ -20,23 +20,28 @@ export const directoryStyle: SxProps = {
     transform: { md: 'translateY(10%)' },
   },
   '& .hero-left': {
-    width: { xs: '100%', md: '50%' },
+    width: { xs: '100%', md: '45%' },
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
+    mt: 2,
   },
   '& .hero-left-container .MuiButton-root': {
     mt: 3,
   },
+  '& .hero-left-container .title': {
+    fontSize: { xs: '1.8rem', sm: '2rem' },
+  },
   '& .hero-right': {
-    width: { xs: '100%', md: '50%' },
+    width: { xs: '100%', md: '55%' },
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
+    textAlign: 'justify',
     mt: { xs: 2, md: 0 },
   },
   '& .hero-right-container': {
-    mt: { xs: 2, md: 0 },
+    mt: { xs: 2, sm: 0 },
     width: {
       xs: '90%',
       sm: '80%',
@@ -47,6 +52,10 @@ export const directoryStyle: SxProps = {
   },
   '& .hero-right-container .title': {
     color: PALETTE_COLORS['neon_orange'],
+    fontSize: {
+      xs: '1.6rem',
+      sm: '2rem',
+    },
   },
   '& .hero-right-container .button-container': {
     display: 'flex',
@@ -80,15 +89,23 @@ export const directoryStyle: SxProps = {
     background: PALETTE_COLORS['neon_orange_light'],
   },
   '& .content-other-informations': {
-    mt: 2,
-    p: 3,
+    mb: 2,
     borderRadius: 5,
     background: PALETTE_COLORS['cream'],
   },
   '& .content-activity': {
-    p: 3,
+    gap: 2,
+    display: 'flex',
+  },
+  '& .content-activity > .MuiBox-root': {
     borderRadius: 5,
+    p: 3,
     background: PALETTE_COLORS['cream'],
+    flexGrow: 1,
+    minWidth: {
+      xs: '100%',
+      md: '40%',
+    },
   },
   '& .content-map-container': {
     mt: 2,
