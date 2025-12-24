@@ -7,8 +7,8 @@ import { Box, Button, Chip, Stack, Typography, useMediaQuery, useTheme } from '@
 import { Icon } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-import { AinAuvergneRAlpesDirectory } from './Ain (Auvergne-R-Alpes)';
 import { directoryStyle as style } from './styles';
+import { zone } from './zones';
 
 const userIcon = new Icon({
   iconUrl: 'https://cdn-icons-png.flaticon.com/512/447/447031.png',
@@ -24,9 +24,9 @@ const ChangeLocation: FC<{ coordinates: [number, number] }> = (props) => {
 const parisLocation = [48.8581479079253, 2.342225169981041];
 export const Directory = () => {
   const [location] = useState<any>(parisLocation as any);
-  const { id } = useParams();
+  const { id, zId } = useParams();
 
-  const current = AinAuvergneRAlpesDirectory[id];
+  const current = zone[zId][id];
 
   const theme = useTheme();
   const isLessThanLg = useMediaQuery(theme.breakpoints.down('lg'));

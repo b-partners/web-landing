@@ -9,7 +9,7 @@ import { AdvertisingCampaign } from '@pages/Advertising-Campaign';
 import { Collectivity } from '@pages/Collectivity';
 import { Contact } from '@pages/Contact';
 import { Craftsman } from '@pages/Craftsman/Craftsman';
-import { Directory } from '@pages/Directory';
+import { Directory, DirectoryList } from '@pages/Directory';
 import { PdfReader } from '@pages/GCU';
 import { Insurance } from '@pages/Insurance';
 import { NavigationPlan } from '@pages/Navigation-Plan';
@@ -266,7 +266,8 @@ function App() {
           <Route path="/assurances" element={<Insurance />} />
           <Route path="/a-propos" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/annuaire/:id" element={<Directory />} />
+          <Route path="/annuaire/:id/zone/:zId" element={<Directory />} />
+          <Route path="/annuaire" element={<DirectoryList />} />
           <Route path="/" element={<Home />} />
           <Route path="/conditions-generales-d-utilisation" element={<PdfReader pdfUrl={Env.REACT_APP_CGU_URL} />} />
           <Route path="/mentions-legales" element={<PdfReader pdfUrl={Env.REACT_APP_LEGAL_MENTION_URL} />} />

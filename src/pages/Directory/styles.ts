@@ -124,3 +124,15 @@ export const directoryStyle: SxProps = {
     flexGrow: 1,
   },
 };
+
+export const directoryListStyles: SxProps = {
+  '& .title': {
+    mb: 2,
+    background: PALETTE_COLORS['forest'],
+    '& .MuiTypography-root': {
+      color: 'white !important',
+      fontSize: '1rem',
+      fontWeight: 'bold',
+    },
+  },
+};
