@@ -77,7 +77,7 @@ export const Craftsman = () => {
               height="270px"
               style={{ marginBlock: 'auto' }}
               id="bpvideo-2"
-              src="https://youtube.com/embed/mtcMeFWvNQI?autoplay=0"
+              src={process.env.REACT_APP_CRAFTSMAN_VIDEO_URL}
               allowFullScreen
             />
             <br />
