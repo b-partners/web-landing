@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Quel est le prix moyen d’un diagnostic de toiture ?',
+      answer: 'Le prix moyen se situe entre 200 € et 500 €, en fonction de la surface et de la complexité du toit.',
+    },
+    q2: {
+      question: 'Qu’est-ce qui peut faire varier le coût d’un diagnostic toiture ?',
+      answer: 'Le type de couverture, l’accessibilité, l’état général du toit et la méthode d’inspection utilisée influencent le tarif.',
+    },
+    q3: {
+      question: 'Un diagnostic toiture est-il rentable ?',
+      answer: 'Oui, car il permet d’anticiper les réparations coûteuses et d’éviter les sinistres liés à l’humidité ou aux infiltrations.',
+    },
+    q4: {
+      question: 'Faut-il faire un diagnostic toiture avant des travaux ?',
+      answer: 'Absolument, car il identifie précisément les zones à traiter et évite les interventions inutiles.',
+    },
+    q5: {
+      question: 'Combien de temps dure un diagnostic de toiture complet ?',
+      answer: 'Il faut compter en moyenne entre 1 et 3 heures selon la taille du bâtiment et les équipements mobilisés.',
+    },
+    q6: {
+      question: 'Quel est l’intérêt d’un diagnostic toiture par drone ?',
+      answer: 'Le drone permet une inspection détaillée, rapide et sans danger, même sur des toits difficiles d’accès.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

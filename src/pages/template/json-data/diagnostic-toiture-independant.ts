@@ -64,29 +64,32 @@ export default {
   faq: {
     title1: 'FAQ',
     q1: {
-      question: 'Qu’est-ce qu’un diagnostic toiture indépendant ?',
+      question: "Qu'est-ce qu'un diagnostic de toiture indépendant ?",
       answer:
-        'Un diagnostic toiture indépendant est une expertise réalisée par un professionnel neutre, sans lien avec une entreprise de travaux, pour garantir une évaluation objective.',
+        "Un diagnostic de toiture indépendant est une évaluation objective de l'état de votre toit, réalisée par un expert sans lien avec des entreprises de travaux. ",
     },
     q2: {
-      question: 'Pourquoi faire appel à un expert indépendant pour un diagnostic toiture ?',
-      answer: ' Un expert indépendant fournit une analyse impartiale de l’état du toit, sans intérêt commercial à recommander des réparations inutiles.',
+      question: "Pourquoi choisir un diagnostic indépendant plutôt qu'un diagnostic gratuit proposé par un artisan ?",
+      answer: 'Les diagnostics gratuits offerts par des artisans ou des entreprises de couverture se limitent souvent à une inspection visuelle superficielle.',
     },
     q3: {
-      question: 'Que comprend un diagnostic toiture indépendant ?',
-      answer: ' Il inclut la vérification de la couverture, de la charpente, de l’étanchéité, de l’isolation et de la zinguerie du bâtiment.',
+      question: "Quels outils sont utilisés lors d'un diagnostic indépendant ?",
+      answer:
+        "Lors d'un diagnostic indépendant, des outils spécialisés tels que des drones, des caméras thermiques et des humidimètres peuvent être utilisés pour inspecter les zones difficiles d'accès, détecter les infiltrations invisibles et évaluer l'état de l'isolation et de la charpente. ",
     },
     q4: {
-      question: 'Qui peut réaliser un diagnostic toiture indépendant fiable ?',
-      answer: ' Seuls des spécialistes certifiés ou des experts techniques en bâtiment peuvent effectuer un diagnostic toiture indépendant reconnu.',
+      question: "Quels types de problèmes peuvent être détectés lors d'un diagnostic indépendant ?",
+      answer:
+        "Un diagnostic indépendant peut identifier divers problèmes, tels que des tuiles manquantes, des zones d'humidité, des signes de moisissures, des déformations de la structure du toit, des défauts d'étanchéité, des problèmes d'isolation ou des dégradations de la charpente. ",
     },
     q5: {
-      question: 'Quel est le coût d’un diagnostic toiture indépendant ?',
-      answer: ' Le prix varie selon la surface du toit, l’accessibilité et le niveau de détail du rapport d’expertise souhaité.',
+      question: 'Est-ce que le diagnostic indépendant est payant ?',
+      answer:
+        "Oui, un diagnostic indépendant est généralement payant. Cependant, cet investissement permet d'obtenir une évaluation précise et objective de l'état de votre toiture, ce qui peut vous faire économiser sur le long terme en évitant des réparations coûteuses dues à des problèmes non détectés.",
     },
     q6: {
-      question: 'Comment Birdia réalise un diagnostic toiture indépendant ?',
-      answer: ' Birdia propose un diagnostic toiture indépendant par drone, garantissant une inspection précise, rapide et sans parti pris commercial.',
+      question: 'Comment obtenir un diagnostic de toiture indépendant ?',
+      answer: "Pour bénéficier d'un diagnostic de toiture indépendant, vous pouvez faire appel à des entreprises spécialisées qui proposent ce service. ",
     },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },

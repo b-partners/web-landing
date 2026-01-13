@@ -63,12 +63,36 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Que recouvrent les travaux sur toiture ?',
+      answer:
+        'Les travaux sur toiture englobent toutes les interventions de réparation, d’entretien ou de rénovation visant à préserver l’étanchéité, la solidité et la performance du toit.',
+    },
+    q2: {
+      question: 'Quels sont les signes indiquant qu’il faut engager des travaux sur sa toiture ?',
+      answer:
+        'Des tuiles endommagées, des fuites, des traces d’humidité ou une accumulation de mousse sont autant de signes qu’un diagnostic toiture, comme celui de Birdia, peut confirmer.',
+    },
+    q3: {
+      question: 'Quelle différence entre réparation, rénovation et réfection de toiture ?',
+      answer:
+        'La réparation concerne une intervention ponctuelle, la rénovation une remise en état plus globale et la réfection un remplacement complet du toit selon son état et le budget.',
+    },
+    q4: {
+      question: 'Quels professionnels interviennent sur les travaux de toiture ?',
+      answer:
+        'Les travaux de toiture font intervenir le couvreur, le zingueur, le charpentier et parfois un diagnostiqueur Birdia pour évaluer l’état du toit avant intervention.',
+    },
+    q5: {
+      question: 'Combien coûtent les travaux sur toiture ?',
+      answer:
+        'Le coût varie selon le type de travaux et les matériaux, allant d’environ 80 à 300 € par mètre carré, une estimation précise étant possible après un diagnostic Birdia.',
+    },
+    q6: {
+      question: 'Pourquoi faire un diagnostic avant d’engager des travaux sur toiture ?',
+      answer:
+        'Un diagnostic préalable permet d’identifier les causes des désordres et de cibler les réparations nécessaires grâce aux inspections par drone ou à distance proposées par Birdia.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -82,15 +106,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

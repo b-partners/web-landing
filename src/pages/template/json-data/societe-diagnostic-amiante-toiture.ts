@@ -64,12 +64,32 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’une société de diagnostic amiante toiture ?',
+      answer:
+        'Une société de diagnostic amiante toiture est une entreprise spécialisée dans la détection de la présence d’amiante au sein des matériaux de couverture, notamment les plaques en fibrociment.',
+    },
+    q2: {
+      question: 'Quand faut-il faire appel à une société de diagnostic amiante toiture ?',
+      answer: 'Le recours à une société spécialisée est obligatoire pour tout bâtiment dont le permis de construire a été délivré avant juillet 1997.',
+    },
+    q3: {
+      question: 'Comment Birdia réalise-t-elle un diagnostic amiante toiture ?',
+      answer: 'Birdia procède à une inspection visuelle haute précision, souvent réalisée par drone pour limiter les risques liés à l’accès toiture.',
+    },
+    q4: {
+      question: 'Quel est le coût moyen d’un diagnostic amiante toiture ?',
+      answer: 'Le prix moyen d’un diagnostic amiante toiture varie entre 120 € et 250 €, selon la surface, la difficulté d’accès et la technologie utilisée.',
+    },
+    q5: {
+      question: 'Comment choisir la bonne société de diagnostic amiante toiture ?',
+      answer: 'Une société de diagnostic fiable doit être certifiée, indépendante des entreprises de travaux, et utiliser des procédés sûrs et précis.',
+    },
+    q6: {
+      question: 'Pourquoi faire confiance à Birdia pour un diagnostic amiante toiture ?',
+      answer:
+        'Birdia allie technologie, sécurité et impartialité. Ses inspections à distance ou par drone évitent toute dégradation de la toiture et garantissent un diagnostic rapide et documenté.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +103,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

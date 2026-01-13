@@ -60,12 +60,35 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Qu’est-ce qu’un diagnostic de toit ?',
+      answer:
+        'Le diagnostic de toit est une analyse technique complète de l’état de la toiture. Il permet de détecter les dégradations visibles ou cachées, telles que les tuiles fissurées, les infiltrations, les défauts d’étanchéité, les problèmes d’isolation ou de ventilation, ainsi que l’affaissement de la charpente',
+    },
+    q2: {
+      question: 'Pourquoi réaliser un diagnostic de toit régulièrement ?',
+      answer: 'Au fil du temps, le toit subit les effets du vent, de la pluie, des rayons UV et des variations de température.',
+    },
+    q3: {
+      question: 'Que comprend un diagnostic de toit Birdia ?',
+      answer:
+        'Le diagnostic inclut une inspection visuelle ou par imagerie selon l’accès et la configuration, la vérification de la couverture (tuiles, ardoises, zinc, bac acier, etc.), le contrôle de la zinguerie, des noues et des gouttières, l’examen de la charpente et de l’isolation, ainsi que la recherche de fuites ou de zones à risque.',
+    },
+    q4: {
+      question: 'Quand faut-il réaliser un diagnostic de toit ?',
+      answer:
+        'Plusieurs situations rendent ce diagnostic indispensable. Il est recommandé avant ou après une tempête ou un épisode de grêle, en cas de taches d’humidité ou d’infiltration, avant la vente ou l’achat d’un bien immobilier',
+    },
+    q5: {
+      question: 'Combien coûte un diagnostic de toit ?',
+      answer:
+        'Le tarif varie en fonction de la surface, de la hauteur, du type de toiture et de la technologie employée, qu’il s’agisse d’une inspection classique, par drone ou à distance.',
+    },
+    q6: {
+      question: 'Pourquoi choisir Birdia pour un diagnostic de toit ?',
+      answer:
+        'Birdia se distingue par son expertise en toiture et l’utilisation de méthodes d’inspection innovantes. L’analyse est réalisée par imagerie haute définition et drone, avec des rapports complets et illustrés.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -79,15 +102,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };

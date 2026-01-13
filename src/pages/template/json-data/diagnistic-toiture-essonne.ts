@@ -64,12 +64,30 @@ export default {
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
     title1: 'FAQ',
-    q1: { question: 'Question 1', answer: 'Réponse 1' },
-    q2: { question: 'Question 2', answer: 'Réponse 2' },
-    q3: { question: 'Question 3', answer: 'Réponse 3' },
-    q4: { question: 'Question 4', answer: 'Réponse 4' },
-    q5: { question: 'Question 5', answer: 'Réponse 5' },
-    q6: { question: 'Question 6', answer: 'Réponse 6' },
+    q1: {
+      question: 'Pourquoi réaliser un diagnostic de toiture en Essonne ?',
+      answer: "Un diagnostic permet de repérer les défaillances avant qu'elles ne causent des dégâts coûteux, notamment après des intempéries.",
+    },
+    q2: {
+      question: 'Quel est le tarif d’un diagnostic toiture en Essonne ?',
+      answer: 'Les prix varient entre 200 € et 500 € selon la surface du toit et les technologies utilisées.',
+    },
+    q3: {
+      question: 'Qui contacter pour un diagnostic toiture fiable en Essonne ?',
+      answer: 'Des entreprises spécialisées comme Birdia proposent des inspections complètes, y compris par drone, avec rapport détaillé.',
+    },
+    q4: {
+      question: 'Quels éléments sont vérifiés lors d’un diagnostic toiture en Essonne ?',
+      answer: 'On inspecte la couverture, l’étanchéité, la charpente visible, les points d’infiltration et l’état général des matériaux.',
+    },
+    q5: {
+      question: 'Une inspection par drone est-elle disponible en Essonne ?',
+      answer: 'Oui, Birdia propose des diagnostics toiture par drone, pratiques et non invasifs, adaptés à tous types de bâtiments.',
+    },
+    q6: {
+      question: 'Combien de temps faut-il pour un diagnostic toiture en Essonne ?',
+      answer: 'La durée moyenne est de 1 à 3 heures, selon la complexité de la toiture et l’accessibilité.',
+    },
     title2: 'Vous êtes un particulier , vous souhaitez trouver un couvreur ?',
   },
   roofDiagnostics: {
@@ -83,15 +101,15 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
-      { name: 'paris', route: '/paris' },
+      { name: 'Lyon', route: '/charpente-lyon' },
+      { name: 'Essone', route: '/diagnistic-toiture-essonne' },
+      { name: 'Evry', route: '/evry' },
+      { name: 'Ile de France', route: '/ile-de-france' },
+      { name: 'Marseille', route: '/devis-diagnostic-marseille' },
+      { name: 'Lannion', route: '/diagnostic-toiture-lannion' },
+      { name: 'Rhone', route: '/diagnostic-rhone' },
+      { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
+      { name: 'Bourges', route: '/BourgesBourges' },
     ],
   },
 };
