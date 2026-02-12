@@ -43,23 +43,27 @@ export default {
     },
   ],
   analyse: {
-    title: 'Analyse automatisée de toitures par intelligence artificielle',
+    title: "Services d'Imagerie et de Données Airbus",
+    image: '/assets/images/airbus-image-illustration.webp',
     information: [
       {
-        title: 'Pourquoi un diagnostic de toiture pour particuliers est essentiel ?',
-        description: 'Identifier les défauts de la couverture et protéger durablement son patrimoine immobilier.',
+        title: 'Imagerie Satellite de pointe',
+        description:
+          "Airbus s'appuie sur une constellation unique de satellites optiques et radar pour offrir une surveillance globale et durable des infrastructures.",
       },
       {
-        title: 'Comment se déroule un diagnostic de toiture pour particuliers ?',
-        description: 'Inspection visuelle et relevés techniques pour établir un rapport clair et détaillé.',
+        title: 'Précision 3D et Géolocalisation',
+        description:
+          "Grâce à des modèles d'élévation numérique de haute précision, Airbus permet une modélisation 3D rigoureuse et une localisation exacte des actifs au sol.",
       },
       {
-        title: 'Que faire après un diagnostic de toiture pour particuliers ?',
-        description: 'Réaliser les réparations nécessaires et planifier un suivi régulier de l’état du toit.',
+        title: 'Analyses Géospatiales Avancées',
+        description:
+          "Les services d'analyse transforment l'imagerie premium en données exploitables, permettant d'extraire des informations stratégiques au moment précis où elles sont nécessaires.",
       },
     ],
     explication:
-      ' Détection, qualification et recommandation à partir d’images aériennes HD. En un clic, obtenez un diagnostic métier précis sans monter sur le toit.',
+      "Exploitez la puissance des données géospatiales premium et de l'imagerie haute résolution pour obtenir des analyses stratégiques, grâce à notre technologie de pointe en systèmes d'information géographique (SIG).",
   },
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
