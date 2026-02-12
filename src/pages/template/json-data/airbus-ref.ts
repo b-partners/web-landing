@@ -63,7 +63,7 @@ export default {
       },
     ],
     explication:
-      "Exploitez la puissance des données géospatiales premium et de l'imagerie haute résolution pour obtenir des analyses stratégiques, grâce à notre technologie de pointe en systèmes d'information géographique (SIG).",
+      "Exploitation de la puissance des données géospatiales premium et de l'imagerie haute résolution pour pour l'obtention des analyses stratégiques, grâce à une technologie de pointe en systèmes d'information géographique (SIG).",
   },
   theyTrustUs: { title: 'Ils nous font confiance' },
   faq: {
