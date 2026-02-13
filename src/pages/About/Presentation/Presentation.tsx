@@ -95,6 +95,19 @@ export const Presentation = () => {
             </a>
           </Typography>
         </PresentationItem>
+        <PresentationItem bgimage={'/assets/images/about/airbus-site.webp'}>
+          <Typography sx={CONTENT_SX}>"Monitoring roof health over time with Pléiades Neo</Typography>
+          <Typography sx={CONTENT_SX}>BIRDIA: from ultra-HD roof diagnostics to satellite-based change detection"</Typography>
+          <Typography sx={TYPOGRAPHY_LINK_SX}>
+            <a
+              target="_blank"
+              href="https://space-solutions.airbus.com/resources/case-studies/pleiades-neo/monitoring-roof-health-over-time-with-pleiades-neo/"
+              style={{ color: 'inherit' }}
+            >
+              Airbus
+            </a>
+          </Typography>
+        </PresentationItem>
       </Carousel>
     </Box>
   );

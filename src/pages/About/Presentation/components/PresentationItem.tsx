@@ -14,6 +14,25 @@ const PRESENTATION_ITEM_SX: SxProps = {
   display: 'flex',
 };
 
+const TEXT_CONTAINE_STYLE = {
+  width: '90%',
+  maxWidth: { xs: '800px', xl: '1000px' },
+  p: { xs: 5, lg: 7 },
+  position: 'relative',
+  zIndex: 1,
+  '&::before': {
+    content: '""',
+    bgcolor: '#ffffff70',
+    height: '100%',
+    width: '100%',
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    'backdrop-filter': 'blur(10px)',
+    zIndex: -1,
+  },
+};
+
 export type PresentationItemProps = {
   bgimage: string;
   children: ReactNode;
@@ -22,7 +41,7 @@ export type PresentationItemProps = {
 export const PresentationItem: FC<PresentationItemProps> = ({ bgimage, children }) => {
   return (
     <Box sx={{ ...PRESENTATION_ITEM_SX, backgroundImage: `url("${bgimage}")` }}>
-      <Box sx={{ width: '90%', maxWidth: { xs: '800px', xl: '1000px' }, bgcolor: 'white', p: { xs: 5, lg: 7 } }}>{children}</Box>
+      <Box sx={TEXT_CONTAINE_STYLE}>{children}</Box>
     </Box>
   );
 };
