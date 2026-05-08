@@ -1,121 +1,9 @@
 import { useState } from 'react';
+
 import { Box, Button, Table, TableBody, TableCell, TableHead, TableRow, Typography } from '@mui/material';
+
+import { faqItems, pricingCouvreurs } from './constant';
 import { PricingContainerStyle } from './styles';
-
-const pricingCouvreurs = [
-  {
-    id: 'usage',
-    title: "À l'usage",
-    subtitle: 'Sans engagement, payez ce que vous consommez.',
-    icon: '⏱️',
-    price: { monthly: '10 €', yearly: '10 €' },
-    suffix: '/ analyse',
-    priceHT: 'Prix HT, sans abonnement',
-    yearlyText: { monthly: '—', yearly: '—' },
-    cta: 'Acheter une analyse',
-    ctaVariant: 'outlined',
-    featured: false,
-    features: [
-      { text: 'Pay-as-you-go, sans engagement', included: true },
-      { text: 'Analyse IA toiture complète', included: true },
-      { text: 'Export PDF + emprise GeoJSON', included: true },
-      { text: 'Support email', included: true },
-      { text: 'Communauté BIRDIA', included: false },
-    ],
-  },
-  {
-    id: 'essential',
-    title: 'Essentiel',
-    subtitle: 'Le pack tout-en-un pour les artisans et TPE.',
-    icon: '→',
-    price: { monthly: '49 €', yearly: '42 €' },
-    suffix: '/ mois',
-    priceHT: 'HT — engagement annuel 12 mois',
-    yearlyText: {
-      monthly: '588 € HT / an',
-      yearly: '<strong>500 €</strong> HT / an (économie 88 €)',
-    },
-    cta: 'Tester 14 jours sans engagement',
-    ctaVariant: 'contained',
-    featured: true,
-    features: [
-      { text: '<strong>10 analyses incluses / mois</strong>', included: true },
-      { text: '5 € HT / analyse supp.', included: true },
-      { text: 'Widget site internet (lead-gen)', included: true },
-      { text: 'Communauté BIRDIA (chantiers locaux)', included: true },
-      { text: 'Support 7j/7 par email', included: true },
-    ],
-  },
-  {
-    id: 'pro',
-    title: 'Pro',
-    subtitle: 'Pour les PME en croissance et les multi-utilisateurs.',
-    icon: '✓',
-    price: { monthly: '99 €', yearly: '84 €' },
-    suffix: '/ mois',
-    priceHT: 'HT — engagement annuel 12 mois',
-    yearlyText: {
-      monthly: '1 188 € HT / an',
-      yearly: '<strong>1 010 €</strong> HT / an (économie 178 €)',
-    },
-    cta: 'Choisir Pro',
-    ctaVariant: 'outlined',
-    featured: false,
-    features: [
-      { text: '<strong>25 analyses incluses / mois</strong>', included: true },
-      { text: '4 € HT / analyse supp.', included: true },
-      { text: '3 utilisateurs inclus', included: true },
-      { text: 'Marque blanche / co-branding', included: true },
-      { text: 'Connecteurs CRM (HubSpot, Pipedrive…)', included: true },
-      { text: 'Module devis automatisé', included: true },
-    ],
-  },
-  {
-    id: 'expert',
-    title: 'Expert',
-    subtitle: 'Pour les multi-agences et les API.',
-    icon: '🛡️',
-    price: { monthly: '199 €', yearly: '169 €' },
-    suffix: '/ mois',
-    priceHT: 'HT — engagement annuel 12 mois',
-    yearlyText: {
-      monthly: '2 388 € HT / an',
-      yearly: '<strong>2 030 €</strong> HT / an (économie 358 €)',
-    },
-    cta: 'Choisir Expert',
-    ctaVariant: 'outlined',
-    featured: false,
-    features: [
-      { text: '<strong>60 analyses incluses / mois</strong>', included: true },
-      { text: '3 € HT / analyse supp.', included: true },
-      { text: 'Utilisateurs illimités', included: true },
-      { text: 'Accès API & webhooks', included: true },
-      { text: 'Monitoring annuel (re-scan auto)', included: true },
-      { text: 'Support dédié 4h ouvrées', included: true },
-    ],
-  },
-];
-
-const faqItems = [
-  {
-    question: "Puis-je changer d'offre à tout moment ?",
-    answer: "Oui, vous pouvez monter en gamme à tout moment. La rétrogradation se fait à l'échéance de votre période d'engagement.",
-  },
-  {
-    question: 'Que se passe-t-il si je dépasse mes analyses incluses ?',
-    answer: 'Les analyses supplémentaires sont facturées au tarif indiqué dans votre offre (5 € en Essentiel, 4 € en Pro, 3 € en Expert).',
-  },
-  {
-    question: 'Puis-je tester gratuitement ?',
-    answer:
-      "Oui. Les offres Essentiel, Pro et Expert bénéficient d'un essai 14 jours sans engagement. L'offre À l'usage est sans abonnement et permet d'acheter une seule analyse à l'unité.",
-  },
-  {
-    question: 'Comment sont facturées les collectivités ?',
-    answer:
-      'Forfait annuel au km² avec tacite reconduction 12 mois. La consommation API se fait en fonction de la disponibilité des images (IGN BD ORTHO HR + partenaires).',
-  },
-];
 
 export const Pricing = () => {
   const [billing, setBilling] = useState<'monthly' | 'yearly'>('monthly');
@@ -133,22 +21,15 @@ export const Pricing = () => {
             pour chaque taille d'entreprise.
           </Typography>
           <Typography className="pricing-description">
-            De l'artisan à la coopérative, choisissez l'offre qui correspond à votre activité. Sans engagement, à l'usage ou avec
-            abonnement annuel.
+            De l'artisan à la coopérative, choisissez l'offre qui correspond à votre activité. Sans engagement, à l'usage ou avec abonnement annuel.
           </Typography>
 
           {/* Billing Toggle */}
           <Box className="billing-toggle">
-            <Button
-              className={`toggle-btn ${billing === 'monthly' ? 'active' : ''}`}
-              onClick={() => setBilling('monthly')}
-            >
+            <Button className={`toggle-btn ${billing === 'monthly' ? 'active' : ''}`} onClick={() => setBilling('monthly')}>
               Mensuel
             </Button>
-            <Button
-              className={`toggle-btn ${billing === 'yearly' ? 'active' : ''}`}
-              onClick={() => setBilling('yearly')}
-            >
+            <Button className={`toggle-btn ${billing === 'yearly' ? 'active' : ''}`} onClick={() => setBilling('yearly')}>
               Annuel <span className="toggle-badge">-15 %</span>
             </Button>
           </Box>
@@ -161,11 +42,7 @@ export const Pricing = () => {
             { id: 'assureurs', label: 'Assureurs' },
             { id: 'collectivites', label: 'Collectivités' },
           ].map((tab) => (
-            <Button
-              key={tab.id}
-              className={`tab-btn ${activeSegment === tab.id ? 'active' : ''}`}
-              onClick={() => setActiveSegment(tab.id)}
-            >
+            <Button key={tab.id} className={`tab-btn ${activeSegment === tab.id ? 'active' : ''}`} onClick={() => setActiveSegment(tab.id)}>
               {tab.label}
             </Button>
           ))}
@@ -193,9 +70,7 @@ export const Pricing = () => {
                   <Box className="card-features">
                     {card.features.map((feature, idx) => (
                       <Box key={idx} className={`feature-item ${feature.included ? '' : 'muted'}`}>
-                        <Box className={`feature-check ${feature.included ? 'included' : 'excluded'}`}>
-                          {feature.included ? '✓' : '×'}
-                        </Box>
+                        <Box className={`feature-check ${feature.included ? 'included' : 'excluded'}`}>{feature.included ? '✓' : '×'}</Box>
                         <Box dangerouslySetInnerHTML={{ __html: feature.text }} />
                       </Box>
                     ))}
@@ -210,8 +85,8 @@ export const Pricing = () => {
               <Box>
                 <Typography className="custom-title">Sur-mesure — Foncières, OPH, Diagnostiqueurs</Typography>
                 <Typography className="custom-description">
-                  Volumes importants, multi-métiers, déploiement multi-entités, intégration personnalisée. Tarif adapté à votre activité,
-                  contractualisation par bon de commande ou Contrat SaaS dédié.
+                  Volumes importants, multi-métiers, déploiement multi-entités, intégration personnalisée. Tarif adapté à votre activité, contractualisation par
+                  bon de commande ou Contrat SaaS dédié.
                 </Typography>
               </Box>
               <Button className="custom-cta">Contactez-nous</Button>
@@ -253,10 +128,7 @@ export const Pricing = () => {
                             key={colIdx}
                             align="center"
                             className={`${colIdx === 1 ? 'featured-col' : ''} ${
-                              (typeof row.isYes === 'boolean' ? row.isYes : Array.isArray(row.isYes) && row.isYes[colIdx]) &&
-                              value === '✓'
-                                ? 'yes'
-                                : ''
+                              (typeof row.isYes === 'boolean' ? row.isYes : Array.isArray(row.isYes) && row.isYes[colIdx]) && value === '✓' ? 'yes' : ''
                             }`}
                           >
                             {value}
@@ -287,9 +159,7 @@ export const Pricing = () => {
         {/* Footer CTA */}
         <Box className="footer-cta">
           <Typography className="footer-cta-title">Prêt à booster votre activité ?</Typography>
-          <Typography className="footer-cta-description">
-            Rejoignez les centaines d'artisans, PME et collectivités qui utilisent BIRDIA.
-          </Typography>
+          <Typography className="footer-cta-description">Rejoignez les centaines d'artisans, PME et collectivités qui utilisent BIRDIA.</Typography>
           <Button className="footer-cta-btn">Tester 14 jours sans engagement</Button>
         </Box>
       </Box>
