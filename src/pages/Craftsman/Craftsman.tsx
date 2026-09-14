@@ -414,10 +414,8 @@ export const Craftsman = () => {
     const grid = pricingRef.current;
     if (!grid) return;
 
-    let ro: ResizeObserver | null = null;
+    let lastWidth = -1;
     const equalize = () => {
-      // On déconnecte pendant la mutation pour éviter une boucle avec le ResizeObserver.
-      ro?.disconnect();
       const cards = Array.from(grid.querySelectorAll<HTMLElement>('.price-card'));
       const lists = cards.map((c) => Array.from(c.querySelectorAll<HTMLElement>('.features li')));
       lists.forEach((lis) => lis.forEach((li) => (li.style.height = '')));
@@ -431,18 +429,25 @@ export const Craftsman = () => {
           lists.forEach((lis) => lis[i] && (lis[i].style.height = `${max}px`));
         }
       }
-      if (ro) ro.observe(grid);
+      lastWidth = grid.clientWidth;
+    };
+
+    // On ne ré-égalise QUE si la largeur change. Les changements de hauteur viennent de
+    // nos propres mutations : les ignorer évite une boucle ResizeObserver (thrashing qui
+    // bloquait le scroll via le scroll anchoring).
+    const onMaybeResize = () => {
+      if (grid.clientWidth !== lastWidth) equalize();
     };
 
     equalize();
-    ro = new ResizeObserver(() => equalize());
+    const ro = new ResizeObserver(onMaybeResize);
     ro.observe(grid);
-    window.addEventListener('resize', equalize);
+    window.addEventListener('resize', onMaybeResize);
     if (document.fonts?.ready) document.fonts.ready.then(equalize);
 
     return () => {
-      ro?.disconnect();
-      window.removeEventListener('resize', equalize);
+      ro.disconnect();
+      window.removeEventListener('resize', onMaybeResize);
     };
   }, [billing]);
 
