@@ -105,7 +105,7 @@ export const Footer = () => {
         </FlexBox>
         <Divider sx={{ zIndex: 99, height: '1px', my: 3, bgcolor: PALETTE_COLORS.cream, width: '100%' }} />
         <FlexBox sx={{ zIndex: 99, width: '100%', justifyContent: 'space-between' }}>
-          <Typography sx={{ fontSize: '1rem' }}>© 2025 BIRDIA SAS. All rights reserved.</Typography>
+          <Typography sx={{ fontSize: '1rem' }}>© {new Date().getFullYear()} BIRDIA SAS. All rights reserved.</Typography>
           <FlexBox sx={{ gap: 5 }}>
             <Link to="/mentions-legales" style={{ textDecoration: 'underline' }}>
               Mentions Légales
@@ -171,7 +171,7 @@ const MdFooter = () => {
             Politique de protection des données
           </Link>
         </FlexBox>
-        <Typography sx={{ fontSize: '1rem', mt: 3 }}>© 2025 Relume. All rights reserved.</Typography>
+        <Typography sx={{ fontSize: '1rem', mt: 3 }}>© {new Date().getFullYear()} BIRDIA SAS. All rights reserved.</Typography>
       </FlexBox>
     </Box>
   );
