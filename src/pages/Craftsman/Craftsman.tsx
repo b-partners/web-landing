@@ -211,7 +211,6 @@ const plans: Plan[] = [
         ),
       },
       { node: 'Rapport PDF + emprise GeoJSON' },
-      { node: 'Marque blanche / co-branding du rapport' },
       { node: 'Assistance par courriel' },
       { node: 'Bouton lead-gen sur votre site', muted: true },
       { node: 'Communauté BIRDIA — chantiers proposés', muted: true },
@@ -242,7 +241,6 @@ const plans: Plan[] = [
       { node: <strong>10 analyses toiture incluses / mois</strong> },
       { node: '5 € HT / analyse supplémentaire' },
       { node: 'Tous les métrés (2D + détaillés + 3D + export CAO/BIM)' },
-      { node: 'Marque blanche / co-branding du rapport' },
       { node: 'Bouton sur votre site pour génération de prospects' },
       {
         node: (
@@ -348,12 +346,10 @@ const compareRows: CompareRow[] = [
   { label: 'Faîtage, rives, égouts, noues (linéaires)', cells: [true, true, true, true] },
   { label: 'Maquette 3D des pans (visualisation)', cells: [true, true, true, true] },
   { label: 'Export CAO / BIM (DXF, IFC)', cells: [true, true, true, true] },
-  { label: 'Livrables & branding', group: true },
+  { label: 'Livrables', group: true },
   { label: 'Rapport PDF + emprise GeoJSON', cells: [true, true, true, true] },
-  { label: 'Marque blanche / co-branding rapport', cells: [true, true, true, true] },
   { label: 'Acquisition & process commercial', group: true },
   { label: 'Bouton sur votre site pour génération de prospects', cells: [false, true, true, true] },
-  { label: 'Module de génération de devis', cells: [false, false, false, true] },
   { label: "Outil d'aide aux appels d'offres publics ou grands groupes", cells: [false, false, true, true] },
   { label: 'Communauté BIRDIA — chantiers proposés', group: true },
   {
