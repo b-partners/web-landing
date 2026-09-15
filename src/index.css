@@ -1,12 +1,12 @@
 :root {
-  --pine: #4A644E;
-  --peach: #FFB179;
-  --linen: #BEB4A4;
-  --white: #FFFFFF;
-  --black: #1F1F1F;
-  --cream: #F0ECE1;
+  --pine: #4a644e;
+  --peach: #ffb179;
+  --linen: #beb4a4;
+  --white: #ffffff;
+  --black: #1f1f1f;
+  --cream: #f0ece1;
   --forest: #112717;
-  --neon-orange: #FF521B;
+  --neon-orange: #ff521b;
 }
 
 body,
@@ -19,7 +19,7 @@ html {
 }
 
 * {
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
 code {
