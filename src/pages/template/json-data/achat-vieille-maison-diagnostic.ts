@@ -1,6 +1,6 @@
 export default {
   route: '/achat-vieille-maison-diagnostic',
-  metaTitle: 'Achat vieille maison diagnostic toiture et laine de verre vente : sécuriser votre transaction',
+  metaTitle: 'Achat d’une vieille maison : pourquoi exiger un diagnostic toiture avant de signer',
   metaDescription:
     'Découvrez pourquoi il est crucial de vérifier la toiture et la laine de verre lors de l’achat d’une vieille maison mise en vente, et comment ce diagnostic influence la transaction.',
   hero: {

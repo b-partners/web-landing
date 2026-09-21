@@ -1,6 +1,6 @@
 export default {
   route: '/diagnostic-toiture-p',
-  metaTitle: 'Diagnostic toiture prix : comprendre le coût et l’importance de l’évaluation',
+  metaTitle: 'Prix d’un diagnostic toiture : les critères qui font varier le coût',
   metaDescription: 'Découvrez comment se détermine le prix d’un diagnostic toiture, pourquoi il est essentiel et quelles actions en découlent.',
   hero: {
     title: 'Diagnostic toiture prix : comprendre le coût et l’importance de l’évaluation',

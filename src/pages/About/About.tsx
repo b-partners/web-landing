@@ -1,4 +1,5 @@
 import { Solution } from '@/common/components/solution';
+import { useUpdateMeta } from '@/common/utils/use-update-meta';
 import { PALETTE_COLORS } from '@/config/theme';
 
 import { Description } from './Description';
@@ -45,6 +46,11 @@ const IMAGES = [
 ];
 
 export const About = () => {
+  useUpdateMeta(
+    'À propos de BIRDIA : notre mission et notre technologie d’analyse de toitures',
+    'Découvrez l’équipe et la technologie BIRDIA, l’IA qui analyse les toitures sur images aériennes HD pour les couvreurs, assureurs et collectivités.',
+  );
+
   return (
     <div>
       <Description />

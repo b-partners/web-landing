@@ -1,6 +1,7 @@
 import { CSSProperties } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
+import { useUpdateMeta } from '@/common/utils/use-update-meta';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Typography } from '@mui/material';
 
@@ -14,6 +15,11 @@ const INSURANCE_SHOW_STYLE: CSSProperties = {
 };
 
 export const Insurance = () => {
+  useUpdateMeta(
+    'BIRDIA pour les assureurs : analyse IA des toitures pour mieux évaluer les risques',
+    'Lauréat French AssurTech 2024, BIRDIA aide les assureurs à évaluer précisément l’état des toitures grâce à l’analyse d’images aériennes HD par IA.',
+  );
+
   return (
     <div>
       <Headline />

@@ -1,6 +1,6 @@
 export default {
   route: '/verification-toiture',
-  metaTitle: 'Vérification toiture tarif : comprendre le coût et l’importance de l’intervention',
+  metaTitle: 'Vérification de toiture : pourquoi et quand faire contrôler votre couverture',
   metaDescription:
     'Découvrez comment évaluer le tarif d’une vérification de toiture, pourquoi cette intervention est cruciale et quelles étapes suivent l’inspection pour garantir la longévité de votre couverture.',
   hero: {

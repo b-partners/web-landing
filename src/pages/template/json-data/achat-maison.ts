@@ -1,6 +1,6 @@
 export default {
   route: '/achat-maison',
-  metaTitle: "Diagnostic toiture achat maison : l'étape indispensable pour préserver votre investissement",
+  metaTitle: 'Acheter une maison : pourquoi vérifier l’état de la toiture avant de signer',
   metaDescription: 'Un diagnostic toiture avant l’achat d’une maison permet d’anticiper les travaux à prévoir et d’acheter en toute sécurité.',
   hero: {
     title: "Diagnostic toiture achat maison : l'étape indispensable pour préserver votre investissement",
