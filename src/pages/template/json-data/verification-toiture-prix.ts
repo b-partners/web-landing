@@ -1,6 +1,6 @@
 export default {
   route: '/verification-toiture-prix',
-  metaTitle: 'Vérification toiture tarif : comprendre le coût et l’importance de l’intervention',
+  metaTitle: 'Prix d’une vérification de toiture : ce qui influence le coût de l’intervention',
   metaDescription:
     'Découvrez comment évaluer le tarif d’une vérification de toiture, pourquoi cette intervention est cruciale et quelles étapes suivent l’inspection pour garantir la longévité de votre couverture.',
   hero: {

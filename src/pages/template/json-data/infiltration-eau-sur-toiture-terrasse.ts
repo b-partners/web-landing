@@ -1,6 +1,6 @@
 export default {
   route: '/infiltration-eau-sur-toiture-terrasse',
-  metaTitle: 'Diagnostic d’infiltration d’eau sur toiture-terrasse : détecter et prévenir les dégâts',
+  metaTitle: 'Infiltration d’eau sur toiture-terrasse : les solutions pour stopper les dégâts',
   metaDescription: 'Découvrez comment un diagnostic d’infiltration d’eau sur toiture-terrasse permet de localiser les fuites et protéger le bâtiment.',
   hero: {
     title: 'Diagnostic d’infiltration d’eau sur toiture-terrasse : détecter et prévenir les dégâts',

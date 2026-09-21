@@ -1,6 +1,6 @@
 export default {
   route: '/landing-page',
-  metaTitle: 'BIRDIA, diagnostic toiture',
+  metaTitle: 'BIRDIA : diagnostic toiture par IA, découvrez notre solution',
   metaDescription: "Protéger le bâti contre les infiltrations, l'humidité et les dégradations invisibles",
   hero: {
     title: "Diagnostique toiture: identifiez les défauts avant qu'ils ne deviennent critiques",

@@ -1,6 +1,6 @@
 export default {
   route: '/diagnostic-independant-toiture',
-  metaTitle: 'Diagnostic indépendant de toiture : un contrôle objectif pour une évaluation fiable',
+  metaTitle: 'Diagnostic toiture indépendant : une expertise neutre pour évaluer votre couverture',
   metaDescription: 'Découvrez pourquoi un diagnostic indépendant de toiture garantit une évaluation neutre et précise de son état.',
   hero: {
     title: 'Diagnostic indépendant de toiture : un contrôle objectif pour une évaluation fiable',
