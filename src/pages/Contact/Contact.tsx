@@ -6,7 +6,7 @@ import { Location } from './Location';
 export function Contact() {
   useUpdateMeta(
     'Contactez BIRDIA : parlons de votre projet de diagnostic toiture par IA',
-    'Une question sur notre solution d’analyse de toitures par IA ? Contactez l’équipe BIRDIA, nous vous répondons rapidement.',
+    'Une question sur notre solution d’analyse de toitures par IA ? Contactez l’équipe BIRDIA, nous vous répondons rapidement.'
   );
 
   return (

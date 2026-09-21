@@ -5,8 +5,8 @@ import { Headline } from './components/headlines';
 
 export function Collectivity() {
   useUpdateMeta(
-    'BIRDIA pour les collectivités : cartographie et suivi des toitures par IA',
-    'Donnez à vos équipes une vision claire du patrimoine bâti : analyse des toitures par IA sur images aériennes HD pour prioriser vos interventions.',
+    'BIRDIA pour les collectivités : valorisez vos images aériennes par IA',
+    'Transformez vos images aériennes (PCRS, LiDAR, infrarouge) en données d’aide à la décision : détection automatisée d’objets urbains et suivi ZAN, LOM, Climat & Résilience.'
   );
 
   return (

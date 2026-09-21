@@ -48,7 +48,7 @@ const IMAGES = [
 export const About = () => {
   useUpdateMeta(
     'À propos de BIRDIA : notre mission et notre technologie d’analyse de toitures',
-    'Découvrez l’équipe et la technologie BIRDIA, l’IA qui analyse les toitures sur images aériennes HD pour les couvreurs, assureurs et collectivités.',
+    'Découvrez l’équipe et la technologie BIRDIA, l’IA qui analyse les toitures sur images aériennes HD pour les couvreurs, assureurs et collectivités.'
   );
 
   return (

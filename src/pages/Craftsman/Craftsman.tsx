@@ -407,7 +407,7 @@ const renderCell = (cell: Cell, key: number) => {
 export const Craftsman = () => {
   useUpdateMeta(
     'BIRDIA pour les couvreurs : chiffrez vos toitures plus vite grâce à l’IA',
-    'Sans échelle ni drone : analysez vos toitures depuis l’imagerie aérienne HD, générez maquette 3D et rapport de chiffrage en moins de 5 minutes.',
+    'Sans échelle ni drone : analysez vos toitures depuis l’imagerie aérienne HD, générez maquette 3D et rapport de chiffrage en moins de 5 minutes.'
   );
 
   const [billing, setBilling] = useState<Billing>('yearly');

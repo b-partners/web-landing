@@ -17,7 +17,7 @@ const INSURANCE_SHOW_STYLE: CSSProperties = {
 export const Insurance = () => {
   useUpdateMeta(
     'BIRDIA pour les assureurs : analyse IA des toitures pour mieux évaluer les risques',
-    'Lauréat French AssurTech 2024, BIRDIA aide les assureurs à évaluer précisément l’état des toitures grâce à l’analyse d’images aériennes HD par IA.',
+    'Lauréat French AssurTech 2024, BIRDIA aide les assureurs à évaluer précisément l’état des toitures grâce à l’analyse d’images aériennes HD par IA.'
   );
 
   return (
