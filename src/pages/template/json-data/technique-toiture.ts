@@ -1,6 +1,6 @@
 export default {
   route: '/technique-toiture',
-  metaTitle: 'Diagnostic technique toiture : un contrôle précis pour assurer durabilité et sécurité',
+  metaTitle: 'Technique de diagnostic toiture : les méthodes pour évaluer votre couverture',
   metaDescription:
     'Découvrez comment un diagnostic technique toiture permet d’évaluer l’état global de la couverture et d’anticiper les réparations nécessaires.',
   hero: {

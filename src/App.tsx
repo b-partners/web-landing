@@ -253,9 +253,36 @@ function App() {
           <Route path="/a-propos" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
-          <Route path="/conditions-generales-d-utilisation" element={<PdfReader pdfUrl={Env.REACT_APP_CGU_URL} />} />
-          <Route path="/mentions-legales" element={<PdfReader pdfUrl={Env.REACT_APP_LEGAL_MENTION_URL} />} />
-          <Route path="/politique-de-confidentialite" element={<PdfReader pdfUrl={Env.REACT_APP_PRIVACY_POLICY_URL} />} />
+          <Route
+            path="/conditions-generales-d-utilisation"
+            element={
+              <PdfReader
+                pdfUrl={Env.REACT_APP_CGU_URL}
+                title="Conditions générales d’utilisation | BIRDIA"
+                description="Consultez les conditions générales d’utilisation de la solution BIRDIA d’analyse de toitures par IA."
+              />
+            }
+          />
+          <Route
+            path="/mentions-legales"
+            element={
+              <PdfReader
+                pdfUrl={Env.REACT_APP_LEGAL_MENTION_URL}
+                title="Mentions légales | BIRDIA"
+                description="Retrouvez les mentions légales du site BIRDIA."
+              />
+            }
+          />
+          <Route
+            path="/politique-de-confidentialite"
+            element={
+              <PdfReader
+                pdfUrl={Env.REACT_APP_PRIVACY_POLICY_URL}
+                title="Politique de confidentialité | BIRDIA"
+                description="Découvrez comment BIRDIA collecte, utilise et protège vos données personnelles."
+              />
+            }
+          />
           <Route path="*" element={<Navigate to="/" />} />
         </Route>
         <Route path="/" element={<TemplateLayout />}>
@@ -280,6 +307,7 @@ function App() {
           <Route path="/diagnostic-toiture-toulouse" element={<Template jsonData={diagnosticToitureToulouse} />} />
           <Route path="/diagnostic-toiture-terrasse-pdf" element={<Template jsonData={diagnosticToitureTerrassePdf} />} />
           <Route path="/diagnostic-toiture-terrasse-dtu-43.3" element={<Template jsonData={diagnosticToitureTerrasseDtu433} />} />
+          <Route path="/diagnostic-toiture-terrasse-dtu-43" element={<Template jsonData={diagnosticToitureTerrasseDtu433} />} />
           <Route path="/diagnostic-toiture-terrasse-bâtiment-industriel" element={<Template jsonData={diagnosticToitureTerrasseBTimentIndustriel} />} />
           <Route path="/diagnostic-amiante-toiture-vente" element={<Template jsonData={diagnosticAmianteToitureVente} />} />
           <Route path="/diagnostic-toiture-vente-maison" element={<Template jsonData={diagnosticToitureVenteMaison} />} />

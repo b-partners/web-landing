@@ -1,6 +1,7 @@
 import { ReactNode, useLayoutEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
+import { useUpdateMeta } from '@/common/utils/use-update-meta';
 import { bookYourDemoUrl } from '@pages/Advertising-Campaign/components';
 
 import './assets/css/couvreurs.css';
@@ -404,6 +405,11 @@ const renderCell = (cell: Cell, key: number) => {
 /* Page                                                                */
 /* ------------------------------------------------------------------ */
 export const Craftsman = () => {
+  useUpdateMeta(
+    'BIRDIA pour les couvreurs : chiffrez vos toitures plus vite grâce à l’IA',
+    'Sans échelle ni drone : analysez vos toitures depuis l’imagerie aérienne HD, générez maquette 3D et rapport de chiffrage en moins de 5 minutes.'
+  );
+
   const [billing, setBilling] = useState<Billing>('yearly');
   const pricingRef = useRef<HTMLDivElement>(null);
 

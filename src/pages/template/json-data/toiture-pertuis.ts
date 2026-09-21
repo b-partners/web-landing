@@ -1,6 +1,6 @@
 export default {
   route: '/toiture-pertuis',
-  metaTitle: 'Diagnostic de toiture à Pertuis : préserver votre couverture face aux conditions provençales',
+  metaTitle: 'Toiture à Pertuis : faire diagnostiquer sa couverture face au climat provençal',
   metaDescription: 'Découvrez comment un diagnostic de toiture à Pertuis permet d’anticiper les réparations et de prolonger la durée de vie du toit.',
   hero: {
     title: 'Diagnostic de toiture à Pertuis : préserver votre couverture face aux conditions provençales',
