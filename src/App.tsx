@@ -12,6 +12,8 @@ import { Craftsman } from '@pages/Craftsman/Craftsman';
 import { PdfReader } from '@pages/GCU';
 import { Insurance } from '@pages/Insurance';
 import { NavigationPlan } from '@pages/Navigation-Plan';
+import { Presse } from '@pages/Presse';
+import { Rebranding } from '@pages/Rebranding';
 import { Home } from '@pages/home';
 import { Template, TemplateLayout, TemplateLogin, TemplateMenu } from '@pages/template';
 
@@ -252,6 +254,8 @@ function App() {
           <Route path="/assurances" element={<Insurance />} />
           <Route path="/a-propos" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/bpartners-devient-birdia" element={<Rebranding />} />
+          <Route path="/presse" element={<Presse />} />
           <Route path="/" element={<Home />} />
           <Route
             path="/conditions-generales-d-utilisation"

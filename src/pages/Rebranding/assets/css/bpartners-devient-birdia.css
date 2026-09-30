@@ -1,0 +1,323 @@
+/* ==================================================================== */
+/* Page BPartners devient BIRDIA — styles scopés sous .rebranding-page   */
+/* Repris du template bpartners-devient-birdia.html (palette birdia.fr)  */
+/* ==================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+.rebranding-page {
+  --beige: #f0ebe1;
+  --green: #4b6650;
+  --deep: #13291c;
+  --orange: #ff5a1f;
+  --peach: #ffb27d;
+  --white: #ffffff;
+  --ink: #13291c;
+  --muted: #3e4a42;
+
+  background: var(--beige);
+  color: var(--ink);
+  font-family: 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+.rebranding-page *,
+.rebranding-page *::before,
+.rebranding-page *::after {
+  box-sizing: border-box;
+}
+.rebranding-page img {
+  max-width: 100%;
+}
+.rebranding-page a {
+  color: inherit;
+}
+.rebranding-page .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Hero ---------- */
+.rebranding-page .hero {
+  padding: 70px 0 150px;
+}
+.rebranding-page .hero h1 {
+  color: var(--orange);
+  font-size: clamp(30px, 4vw, 40px);
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 12px;
+}
+.rebranding-page .hero .lead {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+.rebranding-page .hero p {
+  margin: 0 0 14px;
+  max-width: none;
+  text-align: justify;
+}
+
+/* Encadré vert qui chevauche beige / vert */
+.rebranding-page .band {
+  background: linear-gradient(var(--beige) 0 50%, var(--green) 50% 100%);
+}
+.rebranding-page .panel {
+  background: var(--green);
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 28px;
+  padding: 40px 48px;
+  margin-top: -110px;
+}
+.rebranding-page .panel h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 28px;
+}
+.rebranding-page .cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px 48px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.rebranding-page .cols h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.rebranding-page .cols ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.rebranding-page .cols li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.45;
+}
+.rebranding-page .cols li svg {
+  flex: 0 0 18px;
+  height: 18px;
+  margin-top: 2px;
+}
+
+/* ---------- Histoire (section verte) ---------- */
+.rebranding-page .story {
+  background: var(--green);
+  color: var(--white);
+  padding: 70px 0 80px;
+}
+.rebranding-page .story h2 {
+  text-align: center;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 500;
+  margin: 0 0 40px;
+}
+.rebranding-page .timeline {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 720px;
+  border-left: 2px solid var(--peach);
+}
+.rebranding-page .timeline li {
+  position: relative;
+  padding: 0 0 28px 28px;
+}
+.rebranding-page .timeline li::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--orange);
+  border: 2px solid var(--green);
+}
+.rebranding-page .timeline .year {
+  font-weight: 700;
+  color: var(--peach);
+  font-size: 15px;
+}
+.rebranding-page .timeline p {
+  margin: 4px 0 0;
+  font-size: 15px;
+}
+.rebranding-page .timeline li:last-child {
+  padding-bottom: 0;
+}
+
+/* ---------- Bloc 3 couleurs ---------- */
+.rebranding-page .trio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.rebranding-page .trio .left > div {
+  padding: 44px 40px;
+  text-align: center;
+}
+.rebranding-page .trio .left > div:nth-child(1) {
+  background: var(--peach);
+}
+.rebranding-page .trio .left > div:nth-child(2) {
+  background: var(--green);
+  color: var(--white);
+}
+.rebranding-page .trio .left > div:nth-child(3) {
+  background: var(--deep);
+  color: var(--white);
+}
+.rebranding-page .trio h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.rebranding-page .trio .left p {
+  margin: 0;
+  font-size: 15px;
+}
+.rebranding-page .trio .right {
+  background: var(--white);
+  padding: 48px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rebranding-page .trio .right h2 {
+  color: var(--orange);
+  font-size: clamp(26px, 3vw, 34px);
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 18px;
+}
+.rebranding-page .trio .right p {
+  margin: 0 auto 24px;
+  max-width: 420px;
+}
+.rebranding-page .btns {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ---------- FAQ ---------- */
+.rebranding-page .faq {
+  padding: 80px 0 60px;
+}
+.rebranding-page .faq h2 {
+  color: var(--orange);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 28px;
+}
+.rebranding-page .faq-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.rebranding-page .faq details {
+  background: var(--white);
+  border: 1px solid #b8b8b8;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+.rebranding-page .faq summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  font-size: 15px;
+}
+.rebranding-page .faq summary::-webkit-details-marker {
+  display: none;
+}
+.rebranding-page .faq summary::after {
+  content: '';
+  flex: 0 0 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--green)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E")
+    center/14px no-repeat;
+  transition: transform 0.2s;
+}
+.rebranding-page .faq details[open] summary::after {
+  transform: rotate(180deg);
+}
+.rebranding-page .faq details p {
+  margin: 0;
+  padding: 0 16px 14px;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+/* ---------- CTA ---------- */
+.rebranding-page .cta-wrap {
+  padding: 20px 0 90px;
+}
+.rebranding-page .cta {
+  background: var(--green);
+  color: var(--white);
+  border-radius: 24px;
+  text-align: center;
+  padding: 60px 32px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.rebranding-page .cta h2 {
+  font-size: clamp(28px, 4vw, 46px);
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 26px;
+}
+
+/* ---------- Boutons ---------- */
+.rebranding-page .btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+}
+.rebranding-page .btn-orange {
+  background: var(--orange);
+  color: var(--white);
+}
+.rebranding-page .btn-white {
+  background: var(--white);
+  color: var(--deep);
+  border: 1px solid var(--deep);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 760px) {
+  .rebranding-page .panel {
+    padding: 32px 24px;
+  }
+  .rebranding-page .cols,
+  .rebranding-page .trio {
+    grid-template-columns: 1fr;
+  }
+  .rebranding-page .hero p {
+    text-align: left;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rebranding-page * {
+    transition: none !important;
+  }
+}
