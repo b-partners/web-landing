@@ -25,8 +25,8 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 
 ## Privacy (/confidentialite)
 - [x] Publication date — kept as previous version's date, 16/01/2024 (user's call)
-- [ ] Legal sign-off: new activity description replaces old one
-- [ ] Scope confirm: France + EEA
+- [x] Legal sign-off: new activity description (section 2) is complete as-is, placeholder removed
+- [ ] Scope confirm: France + EEA (open — need to confirm Belgium/Switzerland availability first)
 - [ ] Verify reconstructed account addresses
 - [ ] Add new-site form data + uploaded files to data-collected list
 - [ ] Retention: harmonize with CGU art. 16.3 (30 days post-termination)

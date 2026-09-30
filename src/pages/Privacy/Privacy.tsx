@@ -258,11 +258,7 @@ const sections: Section[] = [
       <>
         <p>
           BIRDIA est une plateforme SaaS d&apos;analyse de toitures et d&apos;actifs bâtis reposant sur des technologies d&apos;intelligence artificielle et de
-          traitement de données géospatiales, destinée aux professionnels (couvreurs et métiers du bâti, assureurs, collectivités).{' '}
-          <mark className="todo">
-            [À compléter : validation juridique : ce paragraphe remplace l&apos;ancienne description (assistant bancaire, devis, factures, encaissement,
-            agrégation bancaire)]
-          </mark>
+          traitement de données géospatiales, destinée aux professionnels (couvreurs et métiers du bâti, assureurs, collectivités).
         </p>
         <p>Ainsi, et sous réserve de disposer d&apos;un Espace Utilisateur, l&apos;Application BIRDIA permet notamment aux Utilisateurs :</p>
         <ul>
