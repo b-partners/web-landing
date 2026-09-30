@@ -72,7 +72,7 @@ export const About = () => {
 
   return (
     <div className="a-propos-page">
-      <section className="hero" style={{ paddingBottom: '70px' }}>
+      <section className="hero">
         <div className="wrap">
           <h1>À propos</h1>
           <p className="lead">La puissance de la recherche française, au service du terrain.</p>
