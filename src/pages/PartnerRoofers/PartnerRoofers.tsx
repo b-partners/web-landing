@@ -56,10 +56,6 @@ const steps = [
 
 const faqItems = [
   {
-    question: 'Comment sont choisis les couvreurs partenaires ?',
-    answer: '[À compléter : critères : assurance décennale, ancienneté, avis clients, utilisation de BIRDIA]',
-  },
-  {
     question: 'Combien coûte la mise en relation pour un particulier ?',
     answer: '[À compléter : gratuit / conditions]',
   },
@@ -214,9 +210,6 @@ export const PartnerRoofers = () => {
               </div>
             ))}
           </div>
-          <p className="intro" style={{ marginTop: '30px' }}>
-            <mark className="todo">[À compléter : intégrer le widget Trustpilot / G2 / Capterra une fois la campagne d'avis lancée]</mark>
-          </p>
         </div>
       </section>
 

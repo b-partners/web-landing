@@ -8,10 +8,10 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [ ] Photo + 2-line bio × 8
 
 ## PartnerRoofers (/partenaires-couvreurs)
-- [ ] Couvreur selection criteria (FAQ)
-- [ ] Is homeowner mise-en-relation free / conditions (FAQ)
+- [x] Couvreur selection criteria (FAQ) — question removed (user's call, no content to show)
+- [ ] Is homeowner mise-en-relation free / conditions (FAQ) — for Sofiane to ask
 - [x] "Avis vérifiés" section — filled with 5 real reviews from the homepage (Idris B. + the 4 reuse candidates: Laurent M., Émilie C., Nathalie L., Julien V.). ⚠️ 4 of these are assureur/collectivité testimonials on a couvreur-network page — thematic fit is questionable, sanity-check before shipping.
-- [ ] Real Trustpilot/G2/Capterra widget link (still pending campaign launch)
+- [x] Trustpilot/G2/Capterra widget note removed (user's call)
 
 ## ContactDemo (/contact-demo)
 - [x] Office address: 14 rue Soleillet, 75020 Paris (user's call)
