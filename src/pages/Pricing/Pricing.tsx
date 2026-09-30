@@ -17,22 +17,82 @@ const Todo = ({ children }: { children: ReactNode }) => <mark className="todo">{
 type Plan = {
   name: string;
   who: string;
+  price: string;
   unit: string;
+  note?: string;
   ctaLabel: string;
+  features: string[];
   featured?: boolean;
 };
 
+// Prix et contenu repris de l'offre déjà en ligne sur /couvreurs (src/pages/Craftsman/Craftsman.tsx).
 const plans: Plan[] = [
-  { name: "À l'usage", who: 'Pour tester ou pour un besoin ponctuel', unit: 'par analyse, sans abonnement', ctaLabel: 'Tester sans engagement' },
-  { name: 'Essentiel', who: "Pour l'artisan qui chiffre régulièrement", unit: 'par mois', ctaLabel: 'Choisir Essentiel' },
+  {
+    name: "À l'usage",
+    who: 'Pour tester ou pour un besoin ponctuel',
+    price: '10 €',
+    unit: 'par analyse, sans abonnement',
+    ctaLabel: 'Tester sans engagement',
+    features: [
+      '1 analyse toiture à la demande',
+      'Tous les métrés (2D + détaillés + 3D + export CAO/BIM)',
+      'Rapport PDF + emprise GeoJSON',
+      'Marque blanche / co-branding du rapport',
+      'Assistance par courriel',
+    ],
+  },
+  {
+    name: 'Essentiel',
+    who: "Pour l'artisan qui chiffre régulièrement",
+    price: '49 €',
+    unit: 'par mois',
+    note: 'HT · engagement annuel 12 mois · 44 € / mois en facturation annuelle',
+    ctaLabel: 'Essayer 7 jours sans engagement',
+    features: [
+      '10 analyses toiture incluses / mois',
+      '5 € HT / analyse supplémentaire',
+      'Tous les métrés (2D + détaillés + 3D + export CAO/BIM)',
+      'Marque blanche / co-branding du rapport',
+      'Bouton sur votre site pour génération de prospects',
+      'Communauté BIRDIA — 1 chantier proposé / mois',
+      'Assistance 7j/7 par courriel',
+    ],
+  },
   {
     name: 'Pro',
     who: "Pour l'entreprise de couverture qui développe son activité",
+    price: '99 €',
     unit: 'par mois',
-    ctaLabel: 'Choisir Pro',
+    note: 'HT · engagement annuel 12 mois · 89 € / mois en facturation annuelle',
+    ctaLabel: 'Essayer 7 jours sans engagement',
     featured: true,
+    features: [
+      '+ Tout Essentiel',
+      '25 analyses toiture incluses / mois',
+      '4 € HT / analyse supplémentaire',
+      'Communauté BIRDIA — +2 chantiers / mois',
+      "Outil d'aide aux appels d'offres publics ou grands groupes",
+      'Support prioritaire',
+    ],
   },
-  { name: 'Expert', who: 'Pour les équipes multi-utilisateurs et les intégrations', unit: 'par mois', ctaLabel: 'Choisir Expert' },
+  {
+    name: 'Expert',
+    who: 'Pour les équipes multi-utilisateurs et les intégrations',
+    price: '199 €',
+    unit: 'par mois',
+    note: 'HT · engagement annuel 12 mois · 179 € / mois en facturation annuelle',
+    ctaLabel: 'Essayer 7 jours sans engagement',
+    features: [
+      '+ Tout Pro',
+      '60 analyses toiture incluses / mois',
+      '3 € HT / analyse supplémentaire',
+      'Communauté BIRDIA — +5 chantiers / mois',
+      'Accès API & webhooks',
+      'Suivi annuel (nouvelle passe automatique)',
+      'Multi-agences / multi-marques',
+      'Assistance dédiée 4 h ouvrées',
+    ],
+  },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -61,16 +121,17 @@ const quotePlans: { name: string; who: string; unit: string; features: string[] 
 /* ------------------------------------------------------------------ */
 /* Comparatif : ce qui est inclus dans chaque offre                    */
 /* ------------------------------------------------------------------ */
-const featureRows = [
-  "Analyse automatisée de l'état des toitures à partir d'images aériennes et satellitaires",
-  'Métrés, mesures et prises de cotes à distance',
-  'Détection des matériaux de couverture, des éléments techniques et des anomalies',
-  'Estimation des pentes, hauteurs et surfaces réelles des rampants',
-  "Identification de l'usure, de l'humidité, des moisissures et des risques d'infiltration",
-  'Rapports PDF et exports GeoJSON, Excel, CityJSON',
-  'Suivi de clients et de prospects',
-  "Module d'analyse en marque blanche sur votre site",
-  "Accès à la communauté BIRDIA et aux opportunités d'intervention",
+// Cases par offre reprises du comparatif déjà en ligne sur /couvreurs (Craftsman.tsx compareRows).
+const featureRows: { label: string; cells: [boolean, boolean, boolean, boolean] }[] = [
+  { label: "Analyse automatisée de l'état des toitures à partir d'images aériennes et satellitaires", cells: [true, true, true, true] },
+  { label: 'Métrés, mesures et prises de cotes à distance', cells: [true, true, true, true] },
+  { label: 'Détection des matériaux de couverture, des éléments techniques et des anomalies', cells: [true, true, true, true] },
+  { label: 'Estimation des pentes, hauteurs et surfaces réelles des rampants', cells: [true, true, true, true] },
+  { label: "Identification de l'usure, de l'humidité, des moisissures et des risques d'infiltration", cells: [true, true, true, true] },
+  { label: 'Rapports PDF et exports GeoJSON, Excel, CityJSON', cells: [true, true, true, true] },
+  { label: 'Suivi de clients et de prospects', cells: [false, true, true, true] },
+  { label: "Module d'analyse en marque blanche sur votre site", cells: [true, true, true, true] },
+  { label: "Accès à la communauté BIRDIA et aux opportunités d'intervention", cells: [false, true, true, true] },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -117,7 +178,7 @@ const faqItems: { question: string; answer: ReactNode }[] = [
     question: "Puis-je tester avant de m'engager ?",
     answer: (
       <>
-        Oui, le test est sans engagement. <Todo>[À compléter : préciser : nombre d'analyses offertes, durée]</Todo>
+        Oui, 7 jours sans engagement sur les offres Essentiel, Pro et Expert. <Todo>[À compléter : nombre d'analyses offertes pendant l'essai]</Todo>
       </>
     ),
   },
@@ -125,8 +186,8 @@ const faqItems: { question: string; answer: ReactNode }[] = [
     question: "Quelle est la durée d'engagement ?",
     answer: (
       <>
-        L'offre À l'usage est sans abonnement. Les abonnements Essentiel, Pro et Expert sont{' '}
-        <Todo>[À compléter : mensuels ou annuels : confirmer (les CGU mentionnent un engagement annuel)]</Todo>.
+        L'offre À l'usage est sans abonnement. Les abonnements Essentiel, Pro et Expert sont facturés mensuellement ou annuellement, avec un engagement de 12
+        mois — la facturation annuelle donne un tarif mensuel réduit.
       </>
     ),
   },
@@ -174,14 +235,13 @@ export const Pricing = () => {
               <div className={`card price${plan.featured ? ' feat' : ''}`} key={plan.name}>
                 <h3>{plan.name}</h3>
                 <p className="who">{plan.who}</p>
-                <div className="amount">
-                  <Todo>[À compléter : x € HT]</Todo>
-                </div>
+                <div className="amount">{plan.price}</div>
                 <div className="unit">{plan.unit}</div>
+                {plan.note && <p className="fine">{plan.note}</p>}
                 <ul>
-                  <li>
-                    <Todo>[À compléter : contenu de l'offre]</Todo>
-                  </li>
+                  {plan.features.map((feature) => (
+                    <li key={feature}>{feature}</li>
+                  ))}
                 </ul>
                 <a className="btn btn-orange" href={Env.DASHBOARD_REGISTRATION_URL}>
                   {plan.ctaLabel}
@@ -234,23 +294,14 @@ export const Pricing = () => {
                 </tr>
               </thead>
               <tbody>
-                {featureRows.map((label) => (
-                  <tr key={label}>
+                {featureRows.map((row) => (
+                  <tr key={row.label}>
                     <th scope="row" style={{ background: 'var(--white)', color: 'var(--ink)', fontWeight: 400 }}>
-                      {label}
+                      {row.label}
                     </th>
-                    <td>
-                      <Todo>[À compléter : oui / non]</Todo>
-                    </td>
-                    <td>
-                      <Todo>[À compléter : oui / non]</Todo>
-                    </td>
-                    <td>
-                      <Todo>[À compléter : oui / non]</Todo>
-                    </td>
-                    <td>
-                      <Todo>[À compléter : oui / non]</Todo>
-                    </td>
+                    {row.cells.map((included, i) => (
+                      <td key={i}>{included ? '✓' : '—'}</td>
+                    ))}
                   </tr>
                 ))}
               </tbody>
