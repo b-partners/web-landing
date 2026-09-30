@@ -135,15 +135,11 @@ export const LegalNotice = () => {
                 </tr>
                 <tr>
                   <td>Localisation des données</td>
-                  <td>
-                    <mark className="todo">[À compléter : région AWS utilisée (les CGU indiquent un hébergement européen)]</mark>
-                  </td>
+                  <td>Amazon Web Services (AWS), région eu-west-3 (Paris)</td>
                 </tr>
               </tbody>
             </table>
-            <p>
-              Le site birdia.fr est hébergé par : <mark className="todo">[À compléter : hébergeur du nouveau site après la refonte]</mark>.
-            </p>
+            <p>Le site birdia.fr est hébergé par : Amazon Web Services (AWS), région eu-west-3 (Paris).</p>
 
             <h2 id="developpement">Développement de l'application</h2>
             <table>

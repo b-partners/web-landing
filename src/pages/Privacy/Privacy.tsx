@@ -711,12 +711,7 @@ const sections: Section[] = [
     title: '15. Où sont traitées les données collectées par BIRDIA ?',
     body: (
       <>
-        <p>
-          BIRDIA traite majoritairement les Données sur des serveurs situés en France.{' '}
-          <mark className="todo">
-            [À compléter : vérifier : l&apos;ancienne version parlait de « serveurs internes » alors que l&apos;hébergement est chez AWS]
-          </mark>
-        </p>
+        <p>BIRDIA traite majoritairement les Données sur des serveurs Amazon Web Services (AWS) situés en France, région eu-west-3 (Paris).</p>
         <p>
           Nos Sous-Traitants sont majoritairement établis au sein de l&apos;Espace économique européen. De manière marginale et pour certains Services
           spécifiques, les Données recueillies par BIRDIA pourraient être transmises à des Sous-Traitants établis en dehors de l&apos;Union européenne.

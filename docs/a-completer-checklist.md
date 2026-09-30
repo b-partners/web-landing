@@ -3,10 +3,8 @@
 Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (see `docs/new-pages.md`).
 
 ## About (/a-propos) — team
-- [ ] Sofiane Madani (Président) — photo + 2-line bio
-- [ ] Fonenantsoa Maurica Andrianampoizinimaro ("Lou"?) — role, photo + 2-line bio (⚠️ possible duplicate card, see chat)
-- [ ] Emmanuel Faiche — photo + 2-line bio (⚠️ no LinkedIn match found under Birdia/BPartners)
-- [ ] "Lou" card — last name, role, photo + 2-line bio
+- [x] Real roster (confirmed by user): Sofiane Madani (CEO, co-fondateur), Fonenantsoa "Lou" Maurica (co-fondateur, directeur technique), Ryan Andriamahery (fullstack), Amour Bien Aimée (frontend), Dinasoa Ratsimba (DevOps), Adel Belhancee (IA), Ricka Princy (backend). "Emmanuel Faiche" was not on the real team, dropped.
+- [ ] Photo + 2-line bio × 7
 
 ## PartnerRoofers (/partenaires-couvreurs)
 - [ ] Couvreur selection criteria (FAQ)
@@ -21,7 +19,7 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [ ] VAT number
 - [ ] Phone number in mentions légales (vs 06 68 62 48 36)
 - [ ] Legal sign-off: new activity description replaces old one
-- [ ] Hosting: AWS region + host name
+- [x] Hosting: AWS, region eu-west-3 (Paris)
 
 ## Privacy (/confidentialite)
 - [ ] Publication date
@@ -30,7 +28,7 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [ ] Verify reconstructed account addresses
 - [ ] Add new-site form data + uploaded files to data-collected list
 - [ ] Retention: harmonize with CGU art. 16.3 (30 days post-termination)
-- [ ] Hosting wording: fix "internal servers" → AWS
+- [x] Hosting wording: fixed — AWS, France, eu-west-3
 - [ ] Subprocessor: Fintecture — still used?
 - [ ] Subprocessor: Bridge — still used?
 - [ ] Add current subprocessors list

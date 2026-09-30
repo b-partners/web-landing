@@ -25,26 +25,13 @@ const audiences = [
 ];
 
 const teamMembers: { initials: string; name: ReactNode; role: ReactNode }[] = [
-  { initials: 'SM', name: 'Sofiane Madani', role: 'Président' },
-  {
-    initials: 'FM',
-    name: 'Fonenantsoa Maurica Andrianampoizinimaro',
-    role: (
-      <>
-        Directeur de la publication <mark className="todo">[À compléter : fonction dans l'équipe]</mark>
-      </>
-    ),
-  },
-  { initials: 'EF', name: 'Emmanuel Faiche', role: 'Responsable commercial collectivités et couvreurs' },
-  {
-    initials: 'L',
-    name: (
-      <>
-        Lou <mark className="todo">[À compléter : nom]</mark>
-      </>
-    ),
-    role: <mark className="todo">[À compléter : fonction]</mark>,
-  },
+  { initials: 'SM', name: 'Sofiane Madani', role: 'CEO, co-fondateur' },
+  { initials: 'FM', name: 'Fonenantsoa "Lou" Maurica', role: 'Co-fondateur, directeur technique' },
+  { initials: 'RA', name: 'Ryan Andriamahery', role: 'Développeur fullstack' },
+  { initials: 'AB', name: 'Amour Bien Aimée', role: 'Développeur frontend' },
+  { initials: 'DR', name: 'Dinasoa Ratsimba', role: 'DevOps' },
+  { initials: 'AD', name: 'Adel Belhancee', role: 'Ingénieur IA' },
+  { initials: 'RP', name: 'Ricka Princy', role: 'Développeur backend' },
 ];
 
 const faqItems = [
