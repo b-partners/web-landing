@@ -3,8 +3,9 @@
 Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (see `docs/new-pages.md`).
 
 ## About (/a-propos) — team
-- [x] Real roster (confirmed by user): Sofiane Madani (CEO, co-fondateur), Fonenantsoa "Lou" Maurica (co-fondateur, directeur technique), Ryan Andriamahery (fullstack), Amour Bien Aimée (frontend), Dinasoa Ratsimba (DevOps), Adel Belhancee (IA), Ricka Princy (backend). "Emmanuel Faiche" was not on the real team, dropped.
-- [ ] Photo + 2-line bio × 7
+- [x] Real roster (confirmed by user): Sofiane Madani (CEO, co-fondateur), Fonenantsoa "Lou" Maurica (co-fondateur, directeur technique), Ryan Andriamahery (fullstack), Amour Bien Aimée (frontend, homme), Dinasoa Ratsimba (DevOps), Adel Belhancee (IA), Ricka Princy (backend), Fadela Belarbi. "Emmanuel Faiche" was not on the real team, dropped.
+- [ ] Fadela Belarbi — exact role (user unsure: "Finance et relation client je crois", flagged as [À compléter] on the page)
+- [ ] Photo + 2-line bio × 8
 
 ## PartnerRoofers (/partenaires-couvreurs)
 - [ ] Couvreur selection criteria (FAQ)
@@ -12,7 +13,8 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [ ] Reviews widget (Trustpilot/G2/Capterra) link
 
 ## ContactDemo (/contact-demo)
-- [ ] Office address: 14 rue Soleillet 75020 vs 8 rue Puget 75018 (Pappers says 8 rue Puget is registered)
+- [x] Office address: 14 rue Soleillet, 75020 Paris (user's call)
+- [x] Minimap added, same embed pattern as the current /contact page
 
 ## LegalNotice (/mentions-legales)
 - [ ] Publication date
@@ -22,7 +24,7 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [x] Hosting: AWS, region eu-west-3 (Paris)
 
 ## Privacy (/confidentialite)
-- [ ] Publication date
+- [x] Publication date — kept as previous version's date, 16/01/2024 (user's call)
 - [ ] Legal sign-off: new activity description replaces old one
 - [ ] Scope confirm: France + EEA
 - [ ] Verify reconstructed account addresses
@@ -50,12 +52,13 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [ ] Use-case per city: Dijon, Toulouse, Cannes, Valence Romans Agglo
 - [ ] Le Cotentin: confirm client
 - [ ] Anonymous insurer case: name + use-case
-- [ ] Testimonial "Arnaud P." — full name + company, consent
-- [ ] Testimonial "Joël D." — full name + company, consent
+- [x] Testimonial "Arnaud P." — matches the live homepage testimonial verbatim (name/role/quote); that's the approved published form, no fuller name/company needed
+- [x] Testimonial "Joël D." — same, matches live homepage testimonial verbatim
 - [ ] Precision rate + method (FAQ)
 - [ ] Official client logos + usage rights
 - [ ] Reviews widget link
+- [ ] Unused live testimonials available for reuse (see chat): Laurent M. (assureur habitation), Émilie C. (souscription IARD), Nathalie L. (SIG collectivité), Julien V. (DSI collectivité), Idris B. (couvreur, 35). None are tied to a specific city, so not auto-assigned to a case card — say which case/page, if any.
 
 ## Advertising-Campaign (/campagne-publicitaire)
-- [ ] Per-campaign message variant
-- [ ] Response turnaround time (currently "24h ouvrées" placeholder)
+- [x] Per-campaign message variant — placeholder text removed (user's call: no variant needed)
+- [x] Response turnaround time — placeholder removed, no SLA line shown (user's call)

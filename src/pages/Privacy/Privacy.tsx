@@ -914,9 +914,7 @@ export const Privacy = () => {
         <div className="wrap">
           <article className="doc">
             <h1>Politique de protection des données à caractère personnel</h1>
-            <p className="upd">
-              Politique à jour du <mark className="todo">[À compléter : date de publication (version précédente : 16/01/2024)]</mark>
-            </p>
+            <p className="upd">Politique à jour du 16/01/2024</p>
             <p>
               <a href={Env.REACT_APP_PRIVACY_POLICY_URL} target="_blank" rel="noreferrer">
                 Télécharger la politique de protection des données au format PDF

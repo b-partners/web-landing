@@ -56,9 +56,17 @@ export const ContactDemo = () => {
               </a>
             </p>
             <p style={{ margin: '0 0 4px', fontWeight: 600 }}>Adresse</p>
-            <p style={{ margin: '0 0 18px' }}>
-              <mark className="todo">[À compléter : une seule adresse : 14 rue Soleillet 75020 ou 8 rue Puget 75018]</mark>
-            </p>
+            <p style={{ margin: '0 0 12px' }}>14 rue Soleillet, 75020 Paris</p>
+            <iframe
+              allowFullScreen
+              title="Localisation BIRDIA"
+              src={process.env.REACT_APP_BPARTNERS_LOCATION_URL}
+              width="100%"
+              height="220"
+              style={{ border: 0, borderRadius: '12px', marginBottom: '18px' }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
             <p style={{ margin: '0 0 4px', fontWeight: 600 }}>Pendant la démo</p>
             <ul style={{ margin: 0, paddingLeft: '18px', fontSize: '15px' }}>
               <li>Analyse en direct d’un exemple choisi par vous</li>

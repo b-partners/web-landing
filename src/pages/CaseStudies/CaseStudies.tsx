@@ -78,22 +78,14 @@ const testimonials: Testimonial[] = [
   {
     initials: 'AP',
     name: 'Arnaud P.',
-    role: (
-      <>
-        Gérant, entreprise de couverture (Cannes) <Todo>[À compléter : nom complet et entreprise, avec accord]</Todo>
-      </>
-    ),
+    role: 'Gérant, entreprise de couverture (Cannes)',
     quote:
       "« L'outil Birdia est simple, rapide et fiable. Je peux générer un rapport technique avant même de visiter le chantier. Cela me fait gagner des heures chaque semaine, tout en améliorant la qualité de mes prestations. »",
   },
   {
     initials: 'JD',
     name: 'Joël D.',
-    role: (
-      <>
-        Couvreur expérimenté (Hauts-de-France) <Todo>[À compléter : nom complet et entreprise, avec accord]</Todo>
-      </>
-    ),
+    role: 'Couvreur expérimenté (Hauts-de-France)',
     quote:
       "« Birdia, c'est mon assistant digital. Je l'utilise au quotidien pour détecter les toits à rénover, et les clients adorent recevoir un rapport visuel clair. Même mes devis sont mieux acceptés grâce à ça. »",
   },

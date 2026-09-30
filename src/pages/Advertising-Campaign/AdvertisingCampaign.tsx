@@ -52,9 +52,6 @@ export const AdvertisingCampaign = () => {
               <li>Aucun drone, aucun déplacement</li>
               <li>Lauréat French AssurTech 2024</li>
             </ul>
-            <p className="fine">
-              <mark className="todo">[À compléter : adapter le message à chaque campagne via paramètres UTM ou variantes]</mark>
-            </p>
           </div>
 
           <div className="card">
@@ -83,7 +80,7 @@ export const AdvertisingCampaign = () => {
                 Réserver ma démo
               </button>
               <p className="fine">
-                Réponse sous <mark className="todo">[À compléter : 24 h ouvrées]</mark>. <Link to="/confidentialite">Données personnelles</Link>.
+                <Link to="/confidentialite">Données personnelles</Link>.
               </p>
               {message && (
                 <p className="form-msg full" role="status">

@@ -32,6 +32,15 @@ const teamMembers: { initials: string; name: ReactNode; role: ReactNode }[] = [
   { initials: 'DR', name: 'Dinasoa Ratsimba', role: 'DevOps' },
   { initials: 'AD', name: 'Adel Belhancee', role: 'Ingénieur IA' },
   { initials: 'RP', name: 'Ricka Princy', role: 'Développeur backend' },
+  {
+    initials: 'FB',
+    name: 'Fadela Belarbi',
+    role: (
+      <>
+        Finance et relation client <mark className="todo">[À compléter : confirmer le rôle exact]</mark>
+      </>
+    ),
+  },
 ];
 
 const faqItems = [
