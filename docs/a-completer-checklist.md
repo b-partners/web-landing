@@ -10,17 +10,18 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 ## PartnerRoofers (/partenaires-couvreurs)
 - [ ] Couvreur selection criteria (FAQ)
 - [ ] Is homeowner mise-en-relation free / conditions (FAQ)
-- [ ] Reviews widget (Trustpilot/G2/Capterra) link
+- [x] "Avis vérifiés" section — filled with 5 real reviews from the homepage (Idris B. + the 4 reuse candidates: Laurent M., Émilie C., Nathalie L., Julien V.). ⚠️ 4 of these are assureur/collectivité testimonials on a couvreur-network page — thematic fit is questionable, sanity-check before shipping.
+- [ ] Real Trustpilot/G2/Capterra widget link (still pending campaign launch)
 
 ## ContactDemo (/contact-demo)
 - [x] Office address: 14 rue Soleillet, 75020 Paris (user's call)
 - [x] Minimap added, same embed pattern as the current /contact page
 
 ## LegalNotice (/mentions-legales)
-- [ ] Publication date
-- [ ] VAT number
-- [ ] Phone number in mentions légales (vs 06 68 62 48 36)
-- [ ] Legal sign-off: new activity description replaces old one
+- [x] Publication date — set to today (30/09/2026), since content was modified (rule: old date only if untouched)
+- [ ] VAT number — to confirm with Sofiane
+- [ ] Phone number in mentions légales (vs 06 68 62 48 36) — to confirm with Sofiane
+- [x] Legal sign-off: activity description confirmed complete as-is, placeholder removed
 - [x] Hosting: AWS, region eu-west-3 (Paris)
 
 ## Privacy (/confidentialite)
@@ -34,7 +35,7 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [x] Subprocessor: Fintecture — not used, replaced with Stripe (only payment processor currently)
 - [ ] Subprocessor: Bridge — still used?
 - [ ] Add current subprocessors list — imagery provider: ask Dinasoa (per user); still need CRM/form tool, emailing, analytics, site host names
-- [ ] Write cookies section
+- [x] Cookies section written — based on actual trackers in index.html (Axeptio managing Microsoft Clarity + Meta Pixel); could not scrape the live banner's exact wording (renders client-side, blocked in headless even with UA spoofing). REMINDER saved: talk to Sofiane before shipping.
 
 ## Pricing (/tarifs)
 - [x] Price × 4 — reused live pricing from /couvreurs: 10€/analyse, 49€/99€/199€ per month (44/89/179 annual)

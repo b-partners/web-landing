@@ -17,7 +17,13 @@
 
   background: var(--beige);
   color: var(--ink);
-  font-family: 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-family:
+    'Outfit',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
   font-size: 16px;
   line-height: 1.55;
 }
@@ -161,6 +167,42 @@
   text-align: center;
   max-width: 680px;
   margin: 0 auto 40px;
+}
+.partenaires-couvreurs-page .grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+.partenaires-couvreurs-page .card {
+  background: var(--white);
+  color: var(--ink);
+  border: 1px solid #b8b8b8;
+  border-radius: 18px;
+  padding: 28px;
+}
+.partenaires-couvreurs-page .stars {
+  color: var(--orange);
+  letter-spacing: 4px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.partenaires-couvreurs-page .person {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.partenaires-couvreurs-page .avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--green);
+  color: var(--white);
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  flex-shrink: 0;
 }
 .partenaires-couvreurs-page form.f {
   display: grid;
@@ -309,6 +351,7 @@
 /* ---------- Responsive ---------- */
 @media (max-width: 760px) {
   .partenaires-couvreurs-page .trio,
+  .partenaires-couvreurs-page .grid2,
   .partenaires-couvreurs-page form.f {
     grid-template-columns: 1fr;
   }

@@ -9,6 +9,45 @@ import './assets/css/partenaires-couvreurs.css';
 
 const FORM_SUBJECT = 'Réseau de couvreurs partenaires BIRDIA (birdia.fr/partenaires-couvreurs)';
 
+// Avis repris de la page d'accueil (src/pages/home/utils/constant.tsx TESTIMONIALS).
+const reviews = [
+  {
+    initials: 'IB',
+    name: 'Idris B.',
+    role: 'Artisan couvreur (35 - Ille-et-Vilaine)',
+    quote:
+      "Je ne perds plus de temps sur la route. Birdia me permet de faire des pré-diagnostics précis, directement depuis mon bureau. Depuis que j'ai intégré leur outil sur mon site, mes demandes de devis ont explosé.",
+  },
+  {
+    initials: 'LM',
+    name: 'Laurent M.',
+    role: 'Responsable Innovation – Assureur Habitation',
+    quote:
+      'Birdia est un véritable game changer. L’outil est à la fois intuitif, puissant et ludique. En quelques clics, nous pouvons visualiser, détecter et évaluer des centaines de toitures. Cela change notre manière de penser la prévention et le service client.',
+  },
+  {
+    initials: 'EC',
+    name: 'Émilie C.',
+    role: 'Responsable Souscription Habitation – Groupe IARD',
+    quote:
+      'Grâce à Birdia, nos équipes disposent d’une vision détaillée de chaque bien assuré. La précision de l’analyse des matériaux, de l’usure et des risques nous permet d’adapter finement les contrats. C’est un vrai plus pour la maîtrise technique et commerciale.',
+  },
+  {
+    initials: 'NL',
+    name: 'Nathalie L.',
+    role: 'Responsable SIG',
+    quote:
+      'Enfin une solution qui valorise concrètement nos orthophotos PCRS. Avec Birdia, on extrait des données directement exploitables pour l’urbanisme, la végétation ou les risques. Le ROI est immédiat.',
+  },
+  {
+    initials: 'JV',
+    name: 'Julien V.',
+    role: 'DSI',
+    quote:
+      'Birdia nous aide à créer de la donnée métier à partir des images que nous avons déjà. C’est un outil idéal pour simplifier les échanges avec les services techniques, les élus, et prendre de meilleures décisions.',
+  },
+];
+
 const steps = [
   { title: "Vous indiquez l'adresse", text: "Aucune visite n'est nécessaire à ce stade." },
   { title: 'BIRDIA analyse la toiture', text: 'Surface, matériaux, usure, mousses, défauts de fixation.' },
@@ -157,7 +196,25 @@ export const PartnerRoofers = () => {
           <h2 className="t" style={{ color: 'var(--orange)' }}>
             Avis vérifiés
           </h2>
-          <p className="intro">
+          <div className="grid2" style={{ marginTop: '30px' }}>
+            {reviews.map((review) => (
+              <div className="card" key={review.initials}>
+                <div className="stars" aria-label="5 étoiles sur 5">
+                  ★★★★★
+                </div>
+                <p>{review.quote}</p>
+                <div className="person">
+                  <span className="avatar">{review.initials}</span>
+                  <span>
+                    <strong>{review.name}</strong>
+                    <br />
+                    {review.role}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="intro" style={{ marginTop: '30px' }}>
             <mark className="todo">[À compléter : intégrer le widget Trustpilot / G2 / Capterra une fois la campagne d'avis lancée]</mark>
           </p>
         </div>

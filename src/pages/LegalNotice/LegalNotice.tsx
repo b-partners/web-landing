@@ -16,9 +16,7 @@ export const LegalNotice = () => {
         <div className="wrap">
           <article className="doc">
             <h1>Mentions légales</h1>
-            <p className="upd">
-              Mentions légales à jour du <mark className="todo">[À compléter : date de publication (version précédente : 16/01/2024)]</mark>
-            </p>
+            <p className="upd">Mentions légales à jour du 30/09/2026</p>
             <p>
               <a href={Env.REACT_APP_LEGAL_MENTION_URL} target="_blank" rel="noreferrer">
                 Télécharger les mentions légales au format PDF
@@ -100,10 +98,7 @@ export const LegalNotice = () => {
             <p>
               BIRDIA est une plateforme SaaS d'analyse de toitures et d'actifs bâtis reposant sur des technologies d'intelligence artificielle et de traitement
               de données géospatiales, destinée aux professionnels. Pour le détail des services, l'Utilisateur est invité à se référer aux{' '}
-              <Link to="/cgu">conditions générales d'utilisation</Link>.{' '}
-              <mark className="todo">
-                [À compléter : validation juridique : cette description remplace l'ancienne activité (devis, factures, encaissement, agrégation bancaire)]
-              </mark>
+              <Link to="/cgu">conditions générales d'utilisation</Link>.
             </p>
             <p>Son contenu éditorial, ainsi que l'ensemble des mises à jour, est géré par la société BPartners SAS.</p>
 

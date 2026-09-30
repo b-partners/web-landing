@@ -887,12 +887,28 @@ const sections: Section[] = [
     id: 's23',
     title: '23. Cookies',
     body: (
-      <p>
-        <mark className="todo">
-          [À compléter : section à rédiger : le site affiche un bandeau cookies (mesure d&apos;audience, etc.) mais l&apos;ancienne politique n&apos;en parle
-          pas]
-        </mark>
-      </p>
+      <>
+        <p>
+          Lors de votre première visite sur birdia.fr, un bandeau vous permet d&apos;accepter ou de refuser le dépôt de cookies non essentiels au fonctionnement
+          du site. Votre choix est géré par notre plateforme de gestion du consentement, Axeptio, et peut être modifié à tout moment.
+        </p>
+        <p>Les cookies utilisés par BIRDIA se répartissent en deux catégories :</p>
+        <ul>
+          <li>
+            <strong>Cookies strictement nécessaires</strong> : indispensables au fonctionnement du site (navigation, sécurité, mémorisation de votre choix de
+            consentement) ; ils ne peuvent pas être désactivés.
+          </li>
+          <li>
+            <strong>Cookies de mesure d&apos;audience et de publicité</strong> (soumis à votre consentement) : Microsoft Clarity, pour analyser la navigation
+            sur le site (parcours, clics, enregistrements de session anonymisés), et Meta Pixel (Facebook), pour mesurer l&apos;efficacité de nos campagnes
+            publicitaires et vous proposer des contenus pertinents sur les réseaux sociaux.
+          </li>
+        </ul>
+        <p>
+          Vous pouvez à tout moment revenir sur votre choix via le lien de gestion des cookies présent en bas de page, ou en configurant votre navigateur pour
+          refuser les cookies.
+        </p>
+      </>
     ),
   },
 ];
@@ -909,7 +925,7 @@ export const Privacy = () => {
         <div className="wrap">
           <article className="doc">
             <h1>Politique de protection des données à caractère personnel</h1>
-            <p className="upd">Politique à jour du 16/01/2024</p>
+            <p className="upd">Politique à jour du 30/09/2026</p>
             <p>
               <a href={Env.REACT_APP_PRIVACY_POLICY_URL} target="_blank" rel="noreferrer">
                 Télécharger la politique de protection des données au format PDF
