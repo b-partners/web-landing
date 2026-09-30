@@ -211,18 +211,6 @@ const subProcessorsRows: TableRow[] = [
       </>,
     ],
   },
-  {
-    cells: [
-      'Bridge, FR',
-      <>
-        Agrégation bancaire :{' '}
-        <a href="https://bridgeapi.io/en/regulation-and-compliance/" target="_blank" rel="noopener">
-          politique RGPD
-        </a>{' '}
-        <mark className="todo">[À compléter : service de l&apos;ancienne application : retirer si abandonné]</mark>
-      </>,
-    ],
-  },
 ];
 
 const sections: Section[] = [

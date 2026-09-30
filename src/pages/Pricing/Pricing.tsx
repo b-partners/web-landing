@@ -148,11 +148,19 @@ const costRows: CostRow[] = [
   { label: 'Autorisation de vol', cells: ['Non', 'Souvent, en zone urbaine', 'Non'] },
   {
     label: 'Délai avant devis',
-    cells: [<Todo key="j1">[À compléter : x jours]</Todo>, <Todo key="j2">[À compléter : x jours]</Todo>, <Todo key="m">[À compléter : x minutes]</Todo>],
+    cells: [
+      <Todo key="j1">[À demander à Sofiane : délai visite terrain]</Todo>,
+      <Todo key="j2">[À demander à Sofiane : délai drone]</Todo>,
+      <Todo key="m">[À demander à Sofiane : délai BIRDIA]</Todo>,
+    ],
   },
   {
     label: 'Coût par bâtiment',
-    cells: [<Todo key="e1">[À compléter : x €]</Todo>, <Todo key="e2">[À compléter : x €]</Todo>, <Todo key="e3">[À compléter : x €]</Todo>],
+    cells: [
+      <Todo key="e1">[À demander à Sofiane : coût visite terrain]</Todo>,
+      <Todo key="e2">[À demander à Sofiane : coût drone]</Todo>,
+      <Todo key="e3">[À demander à Sofiane : coût BIRDIA]</Todo>,
+    ],
   },
   { label: 'Analyse à grande échelle', cells: ['Non', 'Limitée', 'Oui, un territoire entier'] },
 ];
@@ -178,7 +186,8 @@ const faqItems: { question: string; answer: ReactNode }[] = [
     question: "Puis-je tester avant de m'engager ?",
     answer: (
       <>
-        Oui, 7 jours sans engagement sur les offres Essentiel, Pro et Expert. <Todo>[À compléter : nombre d'analyses offertes pendant l'essai]</Todo>
+        Oui, 7 jours sans engagement sur les offres Essentiel, Pro et Expert, sans limite de nombre d'analyses.{' '}
+        <Todo>[À confirmer avec Ryan : pas de limite d'analyses pendant l'essai]</Todo>
       </>
     ),
   },

@@ -34,7 +34,7 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [ ] Retention: harmonize with CGU art. 16.3 (30 days post-termination)
 - [x] Hosting wording: fixed — AWS, France, eu-west-3
 - [x] Subprocessor: Fintecture — not used, replaced with Stripe (only payment processor currently)
-- [ ] Subprocessor: Bridge — still used?
+- [x] Subprocessor: Bridge — not used anymore (migrated to Stripe), row removed
 - [ ] Add current subprocessors list — imagery provider: ask Dinasoa (per user); still need CRM/form tool, emailing, analytics, site host names
 - [x] Cookies section written — based on actual trackers in index.html (Axeptio managing Microsoft Clarity + Meta Pixel); could not scrape the live banner's exact wording (renders client-side, blocked in headless even with UA spoofing). REMINDER saved: talk to Sofiane before shipping.
 
@@ -44,10 +44,10 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [x] Feature table: 9 rows × 4 plans — filled by mapping to /couvreurs' comparatif (inferred mapping, not 1:1 source — worth a sanity check)
 - [x] Monthly or annual billing — both, 12-month commitment, annual gets a discount
 - [x] Free trial duration — 7 days, no engagement (Essentiel/Pro/Expert)
-- [ ] Free trial: number of analyses included (duration resolved, count still open)
+- [x] Free trial: no analysis-count limit during the 7 days (to confirm with Ryan)
 - [ ] Assureurs/collectivités devis basis
-- [ ] Comparison table: delay before quote (site visit / drone / BIRDIA)
-- [ ] Comparison table: cost per building (site visit / drone / BIRDIA)
+- [x] Comparison table: delay before quote — for Sofiane
+- [x] Comparison table: cost per building — for Sofiane
 
 ## CaseStudies (/cas-clients)
 - [ ] Shared template ×6 (solution/territory/imagery, named quote, 3 metrics)
@@ -58,7 +58,7 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [x] Testimonial "Joël D." — same, matches live homepage testimonial verbatim
 - [ ] Precision rate + method (FAQ)
 - [ ] Official client logos + usage rights
-- [ ] Reviews widget link
+- [x] Reviews widget mention removed — logged as a nice-to-have in memory instead (not blocking)
 - [ ] Unused live testimonials available for reuse (see chat): Laurent M. (assureur habitation), Émilie C. (souscription IARD), Nathalie L. (SIG collectivité), Julien V. (DSI collectivité), Idris B. (couvreur, 35). None are tied to a specific city, so not auto-assigned to a case card — say which case/page, if any.
 
 ## Advertising-Campaign (/campagne-publicitaire)

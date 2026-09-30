@@ -219,9 +219,6 @@ export const CaseStudies = () => {
               </div>
             ))}
           </div>
-          <p className="intro" style={{ marginTop: '30px' }}>
-            <Todo>[À compléter : widget ou lien vers les avis vérifiés Trustpilot / G2 / Capterra]</Todo>
-          </p>
         </div>
       </section>
 
