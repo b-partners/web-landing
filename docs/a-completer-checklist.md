@@ -4,8 +4,9 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 
 ## About (/a-propos) — team
 - [x] Real roster (confirmed by user): Sofiane Madani (CEO, co-fondateur), Fonenantsoa "Lou" Maurica (co-fondateur, directeur technique), Ryan Andriamahery (fullstack), Amour Bien Aimée (frontend, homme), Dinasoa Ratsimba (DevOps), Adel Belhancee (IA), Ricka Princy (backend), Fadela Belarbi. "Emmanuel Faiche" was not on the real team, dropped.
+- [x] Moved to `src/pages/About/resources/team.ts` — plain data array (initials/name/role/roleTodo/photo/bio), so future edits don't touch component code. Fill `photo`/`bio` per person there and the page picks it up automatically.
 - [ ] Fadela Belarbi — exact role (user unsure: "Finance et relation client je crois", flagged as [À compléter] on the page)
-- [ ] Photo + 2-line bio × 8
+- [ ] Photo + 2-line bio × 8 — fill directly in `resources/team.ts`
 
 ## PartnerRoofers (/partenaires-couvreurs)
 - [x] Couvreur selection criteria (FAQ) — question removed (user's call, no content to show)
@@ -27,8 +28,8 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 ## Privacy (/confidentialite)
 - [x] Publication date — kept as previous version's date, 16/01/2024 (user's call)
 - [x] Legal sign-off: new activity description (section 2) is complete as-is, placeholder removed
-- [ ] Scope confirm: France + EEA (open — need to confirm Belgium/Switzerland availability first)
-- [ ] Verify reconstructed account addresses — ⚠️ Instagram link (section 4.1) is dead/unavailable, needs a real handle or removal
+- [x] Scope confirm: France + EEA — for Sofiane (Belgium/Switzerland availability)
+- [x] Verify reconstructed account addresses — for Sofiane; ⚠️ Instagram link (section 4.1) is dead/unavailable, needs a real handle or removal
 - [ ] Add new-site form data + uploaded files to data-collected list
 - [ ] Retention: harmonize with CGU art. 16.3 (30 days post-termination)
 - [x] Hosting wording: fixed — AWS, France, eu-west-3

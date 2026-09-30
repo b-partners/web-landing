@@ -1,10 +1,10 @@
-import { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 
 import { Env } from '@/common/utils/env';
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
 import './assets/css/a-propos.css';
+import { teamMembers } from './resources/team';
 
 const audiences = [
   {
@@ -21,25 +21,6 @@ const audiences = [
     title: 'Assureurs',
     text: 'Diagnostic visuel automatisé, gestion du risque, prévention et complétude des contrats.',
     link: '/assurances',
-  },
-];
-
-const teamMembers: { initials: string; name: ReactNode; role: ReactNode }[] = [
-  { initials: 'SM', name: 'Sofiane Madani', role: 'CEO, co-fondateur' },
-  { initials: 'FM', name: 'Fonenantsoa "Lou" Maurica', role: 'Co-fondateur, directeur technique' },
-  { initials: 'RA', name: 'Ryan Andriamahery', role: 'Développeur fullstack' },
-  { initials: 'AB', name: 'Amour Bien Aimée', role: 'Développeur frontend' },
-  { initials: 'DR', name: 'Dinasoa Ratsimba', role: 'DevOps' },
-  { initials: 'AD', name: 'Adel Belhancee', role: 'Ingénieur IA' },
-  { initials: 'RP', name: 'Ricka Princy', role: 'Développeur backend' },
-  {
-    initials: 'FB',
-    name: 'Fadela Belarbi',
-    role: (
-      <>
-        Finance et relation client <mark className="todo">[À compléter : confirmer le rôle exact]</mark>
-      </>
-    ),
   },
 ];
 
@@ -140,14 +121,24 @@ export const About = () => {
           <div className="grid4">
             {teamMembers.map((member) => (
               <div className="card" key={member.initials}>
-                <div className="avatar" aria-hidden="true">
-                  {member.initials}
-                </div>
+                {member.photo ? (
+                  <img className="avatar" src={member.photo} alt={member.name} />
+                ) : (
+                  <div className="avatar" aria-hidden="true">
+                    {member.initials}
+                  </div>
+                )}
                 <h3>{member.name}</h3>
-                <p className="who">{member.role}</p>
-                <p>
-                  <mark className="todo">[À compléter : photo et 2 lignes de parcours]</mark>
+                <p className="who">
+                  {member.role}
+                  {member.roleTodo && (
+                    <>
+                      {' '}
+                      <mark className="todo">[À compléter : {member.roleTodo}]</mark>
+                    </>
+                  )}
                 </p>
+                <p>{member.bio ?? <mark className="todo">[À compléter : photo et 2 lignes de parcours]</mark>}</p>
               </div>
             ))}
           </div>
