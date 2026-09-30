@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom';
+
 import { Env } from '@/common/utils/env';
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
-import { bookYourDemoUrl } from '@pages/Advertising-Campaign/components';
 
 import './assets/css/bpartners-devient-birdia.css';
 
@@ -177,9 +178,9 @@ export const Rebranding = () => {
             Détection, qualification et recommandation à partir d’images aériennes HD. En un clic, obtenez un diagnostic métier précis sans monter sur le toit.
           </p>
           <div className="btns">
-            <a className="btn btn-orange" href={bookYourDemoUrl} target="_blank" rel="noreferrer">
+            <Link className="btn btn-orange" to="/contact-demo">
               Réserver votre démo
-            </a>
+            </Link>
             <a className="btn btn-white" href={Env.DASHBOARD_REGISTRATION_URL} target="_blank" rel="noreferrer">
               Tester sans engagement
             </a>
@@ -206,9 +207,9 @@ export const Rebranding = () => {
           <div className="cta">
             <h2>Passez à l’analyse intelligente, sans complexité</h2>
             <div className="btns">
-              <a className="btn btn-orange" href={bookYourDemoUrl} target="_blank" rel="noreferrer">
+              <Link className="btn btn-orange" to="/contact-demo">
                 Réserver votre démo
-              </a>
+              </Link>
               <a className="btn btn-white" href={Env.DASHBOARD_LOGIN_URL} target="_blank" rel="noreferrer">
                 Se connecter
               </a>

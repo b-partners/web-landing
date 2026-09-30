@@ -1,0 +1,178 @@
+/* ==================================================================== */
+/* Page campagne publicitaire — styles scopés sous                      */
+/* .campagne-publicitaire-page. Repris du template campagne-publicitaire.html */
+/* (palette birdia.fr)                                                   */
+/* ==================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+.campagne-publicitaire-page {
+  --beige: #f0ebe1;
+  --green: #4b6650;
+  --deep: #13291c;
+  --orange: #ff5a1f;
+  --peach: #ffb27d;
+  --white: #ffffff;
+  --ink: #13291c;
+  --muted: #3e4a42;
+
+  background: var(--beige);
+  color: var(--ink);
+  font-family: 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+.campagne-publicitaire-page *,
+.campagne-publicitaire-page *::before,
+.campagne-publicitaire-page *::after {
+  box-sizing: border-box;
+}
+.campagne-publicitaire-page a {
+  color: inherit;
+}
+.campagne-publicitaire-page .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Hero ---------- */
+.campagne-publicitaire-page .hero {
+  padding: 70px 0 150px;
+}
+.campagne-publicitaire-page .hero h1 {
+  color: var(--orange);
+  font-size: clamp(30px, 4vw, 40px);
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 12px;
+}
+.campagne-publicitaire-page .hero .lead {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+.campagne-publicitaire-page .split {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 48px;
+  align-items: start;
+}
+
+/* ---------- Card + formulaire ---------- */
+.campagne-publicitaire-page .card {
+  background: var(--white);
+  color: var(--ink);
+  border: 1px solid #b8b8b8;
+  border-radius: 18px;
+  padding: 28px;
+}
+.campagne-publicitaire-page form.f {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+.campagne-publicitaire-page form.f label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.campagne-publicitaire-page form.f input,
+.campagne-publicitaire-page form.f select,
+.campagne-publicitaire-page form.f textarea {
+  width: 100%;
+  font: inherit;
+  padding: 14px;
+  border: 1px solid #b8b8b8;
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--ink);
+}
+.campagne-publicitaire-page form.f button {
+  justify-self: start;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+}
+.campagne-publicitaire-page .fine {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* ---------- Section confiance ---------- */
+.campagne-publicitaire-page .sec {
+  padding: 80px 0;
+}
+.campagne-publicitaire-page .sec.green {
+  background: var(--green);
+  color: var(--white);
+}
+.campagne-publicitaire-page .sec h2.t {
+  text-align: center;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+.campagne-publicitaire-page .logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+}
+.campagne-publicitaire-page .logos .lg {
+  background: var(--white);
+  color: var(--deep);
+  border-radius: 40px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+.campagne-publicitaire-page .logos .lg:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+.campagne-publicitaire-page .btns {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ---------- Boutons ---------- */
+.campagne-publicitaire-page .btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+}
+.campagne-publicitaire-page .btn-orange {
+  background: var(--orange);
+  color: var(--white);
+}
+
+/* ---------- Placeholder ---------- */
+.campagne-publicitaire-page .todo {
+  background: #fff3b0;
+  color: #5a4500;
+  border-radius: 4px;
+  padding: 0 4px;
+  font-style: normal;
+  font-size: 0.92em;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 760px) {
+  .campagne-publicitaire-page .split {
+    grid-template-columns: 1fr;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .campagne-publicitaire-page * {
+    transition: none !important;
+  }
+}

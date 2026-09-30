@@ -2,12 +2,61 @@
 
 Tracks pages added to the site outside the auto-generated `/template` SEO pages: route, source, description, and any follow-up needed.
 
+## BPARTNERS-3708 — Pages entreprise (site redesign)
+
+11 pages ported from the BIRDIA mockups in `/srv/download/birdia-pages-entreprises/` (see that folder's `pages-entreprise.md` and `TODO.md` for the original ticket). Two of them (`/bpartners-devient-birdia`, `/presse`) were built first from an earlier, near-identical drop and are listed separately below; this section covers the rest plus site-wide notes.
+
+**Decisions made during this batch** (see `TODO.md` "Decisions to make first" for the full list — most are still open):
+- `/cas-clients` uses the **plural** slug (content-tree naming), not the ticket's singular `/cas-client`.
+- `/mentions-legales`, `/cgu` and `/confidentialite` now render the new HTML legal pages. `/conditions-generales-d-utilisation` and `/politique-de-confidentialite` (the old PDF-viewer routes) now render the same new `Cgu`/`Privacy` components instead of redirecting — a real 301 still needs to be set up at the hosting level per `pages-entreprise.md`, along with `bpartners.app/*` → `/bpartners-devient-birdia` and `/contact` → `/contact-demo` (only if those two pages get merged — not decided).
+- The old in-app PDF viewer (`src/pages/GCU/PdfReader`) was removed; each legal page instead has a plain "Télécharger le PDF" link to the existing hosted PDF (`Env.REACT_APP_CGU_URL` / `REACT_APP_LEGAL_MENTION_URL` / `REACT_APP_PRIVACY_POLICY_URL`), so the original PDFs stay reachable.
+- `/a-propos` and `/campagne-publicitaire` fully replace their previous page implementations (old subcomponents deleted after confirming nothing else imported them).
+- Forms (`/contact-demo`, `/partenaires-couvreurs`, `/campagne-publicitaire`) use a shared `useMailtoFallbackForm` hook (`src/common/utils/use-mailto-fallback-form.ts`) that opens a pre-filled email to contact@birdia.fr, exactly like the mockups' own vanilla-JS fallback — no real CRM/form endpoint exists yet, so this **is not wired to `/sendEmail`** (the endpoint the older `ContactForm` uses) since its request shape is unrelated and unverified for these forms. Swap in a real endpoint once `TODO.md`'s "set ENDPOINT" item is resolved.
+- `/campagne-publicitaire`'s `noindex, follow` meta and every page's canonical/OG/JSON-LD tags were **not** added — this codebase has no head-tag management infra beyond `useUpdateMeta` (title + description only). Worth revisiting if SEO/social previews matter for these pages.
+- Every `<mark class="todo">[À compléter : …]</mark>` placeholder from the mockups was preserved verbatim in the ported JSX — none were filled in or guessed at. See `TODO.md` for the full inventory; highlights that block launch are called out per page below.
+- Not ported in this batch (still open, per `TODO.md`): CGV / Contrat SaaS pages (referenced by CGU and tarifs but no page exists), the header "Nous recrutons !" careers page, verifying the social-media links reconstructed from the old privacy policy, and the footer "Ressources" blog links (some point at planned `/blog/` slugs that don't exist yet).
+
+### /a-propos (replaces the previous About page)
+- **Source**: `src/pages/About` (from `a-propos.html`)
+- **Description**: Company story — research origin, the hybrid AI explained as "not a black box", the three professions served, team, awards, FAQ.
+- **Open TODOs**: team member photos + 2-line bios (×4), Fonenantsoa's role, Lou's last name and role.
+
+### /cas-clients
+- **Source**: `src/pages/CaseStudies` (from `cas-client.html`)
+- **Description**: Trust-center page — client logos, 6 case studies (need/solution/figures/quote), roofer testimonials, space for verified reviews, FAQ.
+- **Open TODOs**: official client logos + usage agreement, per-case-study figures/quotes/use-cases (heavily templated, see `TODO.md` for the full count), a verified-reviews widget (Trustpilot/G2/Capterra).
+
+### /partenaires-couvreurs
+- **Source**: `src/pages/PartnerRoofers` (from `partenaires-couvreurs.html`)
+- **Description**: Two-path page — homeowners find a partner roofer, roofers join the network. How-it-works steps, a lead form, FAQ.
+- **Open TODOs**: verified-reviews widget, partner selection criteria, whether the homeowner mise-en-relation is free.
+
+### /tarifs
+- **Source**: `src/pages/Pricing` (from `tarifs.html`)
+- **Description**: The four CGU-named offers (À l'usage, Essentiel, Pro, Expert), quote-based offers for assureurs/collectivités, a feature-comparison table, a cost-vs-site-visit-vs-drone comparison, FAQ.
+- **Open TODOs**: every price and feature-table cell is still a placeholder (46 total) — pricing hasn't been decided yet.
+
+### /contact-demo
+- **Source**: `src/pages/ContactDemo` (from `contact-demo.html`)
+- **Description**: Merged contact + demo-booking page: team contact details, what happens during the demo, one lead form (profile + request type).
+- **Open TODO**: office address — the mockup flags a conflict between 14 rue Soleillet 75020 (site) and 8 rue Puget 75018 (legal docs); kept as a visible placeholder, not resolved.
+
+### /mentions-legales, /cgu, /confidentialite
+- **Source**: `src/pages/LegalNotice`, `src/pages/Cgu`, `src/pages/Privacy` (from `mentions-legales.html`, `cgu.html`, `confidentialite.html`)
+- **Description**: Full legal text — mentions légales, terms of service (preamble + 20 articles), privacy policy (preamble + definitions + 23 sections) — each with an in-page table of contents.
+- **Open TODOs**: publication dates, VAT number, AWS hosting region/host name, legal sign-off on the rewritten activity description (mentions légales + confidentialité), a cookies section to write, current subprocessor list, and — flagged but **not** resolved — two different phone numbers appear across the legal text (`+33 1 82 07 72 28`) vs. the rest of the site (`06 68 62 48 36`); both were kept exactly as the source had them.
+
+### /campagne-publicitaire (replaces the previous ad-campaign page)
+- **Source**: `src/pages/Advertising-Campaign` (from `campagne-publicitaire.html`)
+- **Description**: Short ad-landing page — pitch, lead-gen form (captures `utm_source`/`utm_campaign` from the URL into hidden fields), and client-logo links into `/cas-clients`.
+- **Open TODO**: the per-campaign message variant and the "réponse sous X" turnaround time are still placeholders.
+
 ## /bpartners-devient-birdia
 
 - **Source**: `src/pages/Rebranding` (from `/srv/download/bpartners-devient-birdia.html`)
 - **Description**: Rebranding announcement — explains that BPartners is now called BIRDIA (same company, same team, same account), what changes vs. what doesn't, the company timeline, and an FAQ.
 - **Links fixed during import**:
-  - `/contact-demo` (didn't exist as a route) → replaced with the site's demo-booking link (`bookYourDemoUrl`, opens in a new tab), matching the "Réserver votre démo" convention used elsewhere on the site.
+  - `/contact-demo` now exists for real (built in the BPARTNERS-3708 batch above) — its "Réserver votre démo" buttons were updated to link there directly instead of the external demo-booking link they used temporarily.
   - Hardcoded `https://dashboard.birdia.fr/login` and `/sign-up` → replaced with `Env.DASHBOARD_LOGIN_URL` / `Env.DASHBOARD_REGISTRATION_URL` so they follow the environment, like the rest of the site.
 
 ## /presse

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import { Env } from '@/common/utils/env';
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
-import { bookYourDemoUrl } from '@pages/Advertising-Campaign/components';
 
 import './assets/css/presse.css';
 
@@ -164,9 +163,9 @@ export const Presse = () => {
           <div className="cta">
             <h2>Voir BIRDIA en action</h2>
             <div className="btns">
-              <a className="btn btn-orange" href={bookYourDemoUrl} target="_blank" rel="noreferrer">
+              <Link className="btn btn-orange" to="/contact-demo">
                 Réserver votre démo
-              </a>
+              </Link>
               <a className="btn btn-white" href={Env.DASHBOARD_REGISTRATION_URL} target="_blank" rel="noreferrer">
                 Tester sans engagement
               </a>
