@@ -31,9 +31,9 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [ ] Add new-site form data + uploaded files to data-collected list
 - [ ] Retention: harmonize with CGU art. 16.3 (30 days post-termination)
 - [x] Hosting wording: fixed — AWS, France, eu-west-3
-- [ ] Subprocessor: Fintecture — still used?
+- [x] Subprocessor: Fintecture — not used, replaced with Stripe (only payment processor currently)
 - [ ] Subprocessor: Bridge — still used?
-- [ ] Add current subprocessors list
+- [ ] Add current subprocessors list — imagery provider: ask Dinasoa (per user); still need CRM/form tool, emailing, analytics, site host names
 - [ ] Write cookies section
 
 ## Pricing (/tarifs)

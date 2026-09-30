@@ -202,13 +202,12 @@ const subProcessorsRows: TableRow[] = [
   },
   {
     cells: [
-      'Fintecture, FR',
+      'Stripe, IE',
       <>
         Paiement :{' '}
-        <a href="https://www.fintecture.com/en/privacy_fr/" target="_blank" rel="noopener">
+        <a href="https://stripe.com/fr/privacy" target="_blank" rel="noopener">
           politique RGPD
-        </a>{' '}
-        <mark className="todo">[À compléter : toujours utilisé ? sinon retirer]</mark>
+        </a>
       </>,
     ],
   },
