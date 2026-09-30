@@ -27,7 +27,7 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [x] Publication date — kept as previous version's date, 16/01/2024 (user's call)
 - [x] Legal sign-off: new activity description (section 2) is complete as-is, placeholder removed
 - [ ] Scope confirm: France + EEA (open — need to confirm Belgium/Switzerland availability first)
-- [ ] Verify reconstructed account addresses
+- [ ] Verify reconstructed account addresses — ⚠️ Instagram link (section 4.1) is dead/unavailable, needs a real handle or removal
 - [ ] Add new-site form data + uploaded files to data-collected list
 - [ ] Retention: harmonize with CGU art. 16.3 (30 days post-termination)
 - [x] Hosting wording: fixed — AWS, France, eu-west-3
