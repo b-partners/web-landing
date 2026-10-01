@@ -39,6 +39,7 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [x] Cookies section written — based on actual trackers in index.html (Axeptio managing Microsoft Clarity + Meta Pixel); could not scrape the live banner's exact wording (renders client-side, blocked in headless even with UA spoofing). REMINDER saved: talk to Sofiane before shipping.
 
 ## Pricing (/tarifs)
+- [x] Visual style now matches the real /couvreurs pricing section: Mensuel/Annuel (-10%) toggle, dark "métrés" banner, icon-topped cards, "Le plus choisi" badge, dashed feature checklist, outline/filled CTAs — ported from Craftsman.tsx/couvreurs.css
 - [x] Price × 4 — reused live pricing from /couvreurs: 10€/analyse, 49€/99€/199€ per month (44/89/179 annual)
 - [x] Offer content/inclusions × 4 — same source, real feature bullets per plan
 - [x] Feature table: 9 rows × 4 plans — filled by mapping to /couvreurs' comparatif (inferred mapping, not 1:1 source — worth a sanity check)
