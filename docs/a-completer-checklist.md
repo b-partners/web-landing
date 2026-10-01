@@ -45,7 +45,7 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [x] Feature table: 9 rows × 4 plans — filled by mapping to /couvreurs' comparatif (inferred mapping, not 1:1 source — worth a sanity check)
 - [x] Monthly or annual billing — both, 12-month commitment, annual gets a discount
 - [x] Free trial duration — 7 days, no engagement (Essentiel/Pro/Expert)
-- [x] Free trial: no analysis-count limit during the 7 days (to confirm with Ryan)
+- [x] Free trial: 2 analyses included (confirmed by Ryan)
 - [ ] Assureurs/collectivités devis basis
 - [x] Comparison table: delay before quote — for Sofiane
 - [x] Comparison table: cost per building — for Sofiane

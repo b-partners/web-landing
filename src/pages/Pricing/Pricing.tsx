@@ -249,12 +249,7 @@ const faqItems: { question: string; answer: ReactNode }[] = [
   },
   {
     question: "Puis-je tester avant de m'engager ?",
-    answer: (
-      <>
-        Oui, 7 jours sans engagement sur les offres Essentiel, Pro et Expert, sans limite de nombre d'analyses.{' '}
-        <Todo>[À confirmer avec Ryan : pas de limite d'analyses pendant l'essai]</Todo>
-      </>
-    ),
+    answer: <>Oui, 7 jours sans engagement sur les offres Essentiel, Pro et Expert, avec 2 analyses incluses pour tester.</>,
   },
   {
     question: "Quelle est la durée d'engagement ?",
