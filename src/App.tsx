@@ -267,9 +267,9 @@ function App() {
           <Route path="/tarifs" element={<Pricing />} />
           <Route path="/mentions-legales" element={<LegalNotice />} />
           <Route path="/cgu" element={<Cgu />} />
-          <Route path="/conditions-generales-d-utilisation" element={<Cgu />} />
+          <Route path="/conditions-generales-d-utilisation" element={<Navigate to="/cgu" replace />} />
           <Route path="/confidentialite" element={<Privacy />} />
-          <Route path="/politique-de-confidentialite" element={<Privacy />} />
+          <Route path="/politique-de-confidentialite" element={<Navigate to="/confidentialite" replace />} />
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Route>
