@@ -50,8 +50,8 @@ const quotes = [
 
 export const Presse = () => {
   useUpdateMeta(
-    'Espace presse BIRDIA | Communiqués, distinctions et kit média',
-    "Espace presse de BIRDIA (ex-BPartners), l'IA française qui analyse les toitures à partir d'images aériennes : chiffres clés, distinctions, articles, kit média et contact presse."
+    'Espace presse BIRDIA | Communiqués et distinctions',
+    "Espace presse de BIRDIA (ex-BPartners), l'IA française qui analyse les toitures à partir d'images aériennes : chiffres clés, distinctions, articles et contact presse."
   );
 
   return (
@@ -67,7 +67,7 @@ export const Presse = () => {
           </p>
           <p>
             Couvreurs, assureurs et collectivités l'utilisent pour inspecter les toitures à distance, prévenir les sinistres et valoriser leurs données PCRS.
-            Vous trouverez ici nos chiffres clés, nos distinctions, les articles qui parlent de nous et notre kit média.
+            Vous trouverez ici nos chiffres clés, nos distinctions et les articles qui parlent de nous.
           </p>
         </div>
       </section>
@@ -121,30 +121,6 @@ export const Presse = () => {
               </Link>
             </li>
           </ul>
-        </div>
-      </section>
-
-      <section className="kit" aria-labelledby="presse-kit-title">
-        <div className="wrap">
-          <h2 id="presse-kit-title">Kit média</h2>
-          <div className="kgrid">
-            <div>
-              <h3>Visuels</h3>
-              <p>Captures de la plateforme et exemples d'analyses de toitures en haute définition.</p>
-              {/* TODO(presse): brancher le vrai fichier à télécharger, voir docs/new-pages.md */}
-              <a className="btn btn-orange" href="#" download>
-                Télécharger les visuels
-              </a>
-            </div>
-            <div>
-              <h3>Dossier de presse</h3>
-              <p>Présentation de l'entreprise, de la technologie, des marchés et de l'équipe.</p>
-              {/* TODO(presse): brancher le vrai fichier à télécharger, voir docs/new-pages.md */}
-              <a className="btn btn-orange" href="#" download>
-                Télécharger le dossier (PDF)
-              </a>
-            </div>
-          </div>
         </div>
       </section>
 

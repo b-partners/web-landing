@@ -62,9 +62,6 @@ Tracks pages added to the site outside the auto-generated `/template` SEO pages:
 ## /presse
 
 - **Source**: `src/pages/Presse` (from `/srv/download/presse.html`)
-- **Description**: Press kit page — key facts about BIRDIA, press quotes/mentions, a press-release list (currently just the BPartners→BIRDIA announcement), a media kit, and press contact details.
+- **Description**: Press page — key facts about BIRDIA, press quotes/mentions, a press-release list (currently just the BPartners→BIRDIA announcement), and press contact details. The media kit section (logos/visuals/press-kit downloads) was removed entirely — user's call, not planned for now.
 - **Links fixed during import**: same `/contact-demo` and dashboard URL fixes as above.
-- **Known TODOs (intentionally left as placeholders, per product decision)**:
-  - The 5 "Lire l'article" press-quote links (Les Pépites Tech, Systematic Paris Region, Institut Mines-Télécom, GIP RECIA, French AssurTech) still point to `#`. Real article URLs need to be found and wired in — search the existing site/blog for matching coverage first.
-  - The "Télécharger les logos" download button was removed entirely (no asset, and not planned).
-  - "Télécharger les visuels" and "Télécharger le dossier (PDF)" buttons are still `#` — need a real asset to link to (e.g. hosted PDF/zip) before launch.
+- **Known TODO**: the 5 "Lire l'article" press-quote links (Les Pépites Tech, Systematic Paris Region, Institut Mines-Télécom, GIP RECIA, French AssurTech) still point to `#`. Real article URLs need to be found and wired in — search the existing site/blog for matching coverage first.
