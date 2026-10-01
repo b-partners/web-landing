@@ -2,6 +2,7 @@ import { Fragment, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 
 import { Env } from '@/common/utils/env';
+import { handleCenteredAnchorClick } from '@/common/utils/use-centered-anchor-scroll';
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
 import './assets/css/confidentialite.css';
@@ -302,10 +303,7 @@ const sections: Section[] = [
           <li>des contacts directs (téléphone, mail, visite, etc.) entre l&apos;Utilisateur et BIRDIA ;</li>
           <li>de nos réseaux sociaux.</li>
         </ul>
-        <p>
-          Ainsi, BIRDIA possède des pages dédiées sur les réseaux sociaux suivants :{' '}
-          <mark className="todo">[À compléter : vérifier les adresses des comptes (reconstituées depuis l&apos;ancienne politique)]</mark>
-        </p>
+        <p>Ainsi, BIRDIA possède des pages dédiées sur les réseaux sociaux suivants :</p>
         <ul>
           <li>
             <a href="https://www.facebook.com/profile.php?id=100086704691881" target="_blank" rel="noopener">
@@ -315,11 +313,6 @@ const sections: Section[] = [
           <li>
             <a href="https://www.linkedin.com/company/bpartners-artisans/" target="_blank" rel="noopener">
               LinkedIn
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/bpartners.artisans/" target="_blank" rel="noopener">
-              Instagram
             </a>
           </li>
           <li>
@@ -919,7 +912,7 @@ export const Privacy = () => {
                 Télécharger la politique de protection des données au format PDF
               </a>
             </p>
-            <nav className="toc" aria-label="Sommaire">
+            <nav className="toc" aria-label="Sommaire" onClick={handleCenteredAnchorClick}>
               <ul style={{ listStyle: 'none', paddingLeft: 0, margin: 0, columns: '2', fontSize: 14 }}>
                 {tocItems.map((item) => (
                   <li key={item.href}>

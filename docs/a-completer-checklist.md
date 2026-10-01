@@ -29,7 +29,7 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [x] Publication date — kept as previous version's date, 16/01/2024 (user's call)
 - [x] Legal sign-off: new activity description (section 2) is complete as-is, placeholder removed
 - [x] Scope confirm: France + EEA — for Sofiane (Belgium/Switzerland availability)
-- [x] Verify reconstructed account addresses — for Sofiane; ⚠️ Instagram link (section 4.1) is dead/unavailable, needs a real handle or removal
+- [x] Verify reconstructed account addresses — Instagram link (section 4.1) removed (was dead); Facebook/LinkedIn/X kept
 - [ ] Add new-site form data + uploaded files to data-collected list
 - [ ] Retention: harmonize with CGU art. 16.3 (30 days post-termination)
 - [x] Hosting wording: fixed — AWS, France, eu-west-3

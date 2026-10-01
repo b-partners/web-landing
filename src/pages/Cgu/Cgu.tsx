@@ -2,6 +2,7 @@ import { Fragment, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 
 import { Env } from '@/common/utils/env';
+import { handleCenteredAnchorClick } from '@/common/utils/use-centered-anchor-scroll';
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
 import './assets/css/cgu.css';
@@ -621,7 +622,7 @@ export const Cgu = () => {
                 Télécharger les CGU au format PDF
               </a>
             </p>
-            <nav className="toc" aria-label="Sommaire">
+            <nav className="toc" aria-label="Sommaire" onClick={handleCenteredAnchorClick}>
               <ul>
                 {toc.map((item) => (
                   <li key={item.href}>

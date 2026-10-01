@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import { Env } from '@/common/utils/env';
+import { handleCenteredAnchorClick } from '@/common/utils/use-centered-anchor-scroll';
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
 import './assets/css/mentions-legales.css';
@@ -22,7 +23,7 @@ export const LegalNotice = () => {
                 Télécharger les mentions légales au format PDF
               </a>
             </p>
-            <nav className="toc" aria-label="Sommaire">
+            <nav className="toc" aria-label="Sommaire" onClick={handleCenteredAnchorClick}>
               <ul style={{ listStyle: 'none', paddingLeft: 0, margin: 0, columns: 2, fontSize: '14px' }}>
                 <li>
                   <a href="#editeur">1. Éditeur du site et de l'application</a>
