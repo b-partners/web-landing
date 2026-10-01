@@ -130,6 +130,16 @@
   border: 1px solid var(--deep);
 }
 
+/* ---------- Placeholder ---------- */
+.presse-page .todo {
+  background: #fff3b0;
+  color: #5a4500;
+  border-radius: 4px;
+  padding: 0 4px;
+  font-style: normal;
+  font-size: 0.92em;
+}
+
 /* ---------- Spécifique /presse ---------- */
 .presse-page .facts {
   display: grid;
