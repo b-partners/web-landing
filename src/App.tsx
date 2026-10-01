@@ -8,14 +8,17 @@ import { About } from '@pages/About';
 import { AdvertisingCampaign } from '@pages/Advertising-Campaign';
 import { CaseStudies } from '@pages/CaseStudies';
 import { Cgu } from '@pages/Cgu';
-import { Collectivity } from '@pages/Collectivity';
 import { Contact } from '@pages/Contact';
 import { ContactDemo } from '@pages/ContactDemo';
-import { Craftsman } from '@pages/Craftsman/Craftsman';
-import { Insurance } from '@pages/Insurance';
+import { DiagnosticToitureParticuliers } from '@pages/DiagnosticToitureParticuliers';
 import { LegalNotice } from '@pages/LegalNotice';
 import { NavigationPlan } from '@pages/Navigation-Plan';
 import { PartnerRoofers } from '@pages/PartnerRoofers';
+import { PourQui } from '@pages/PourQui';
+import { PourQuiAssureurs } from '@pages/PourQuiAssureurs';
+import { PourQuiCollectivites } from '@pages/PourQuiCollectivites';
+import { PourQuiCouvreurs } from '@pages/PourQuiCouvreurs';
+import { PourQuiFoncieresBailleurs } from '@pages/PourQuiFoncieresBailleurs';
 import { Presse } from '@pages/Presse';
 import { Pricing } from '@pages/Pricing';
 import { Privacy } from '@pages/Privacy';
@@ -254,9 +257,15 @@ function App() {
         <Route path="/template/menu" element={<TemplateMenu />} />
         <Route path="/" element={<PublicLayout />}>
           <Route path="/plan-du-site-navigation" element={<NavigationPlan />} />
-          <Route path="/couvreurs" element={<Craftsman />} />
-          <Route path="/collectivites" element={<Collectivity />} />
-          <Route path="/assurances" element={<Insurance />} />
+          <Route path="/pour-qui" element={<PourQui />} />
+          <Route path="/pour-qui/couvreurs" element={<PourQuiCouvreurs />} />
+          <Route path="/pour-qui/assureurs" element={<PourQuiAssureurs />} />
+          <Route path="/pour-qui/collectivites" element={<PourQuiCollectivites />} />
+          <Route path="/pour-qui/foncieres-bailleurs-gestionnaires-de-patrimoine" element={<PourQuiFoncieresBailleurs />} />
+          <Route path="/particuliers/diagnostic-toiture" element={<DiagnosticToitureParticuliers />} />
+          <Route path="/couvreurs" element={<Navigate to="/pour-qui/couvreurs" replace />} />
+          <Route path="/assurances" element={<Navigate to="/pour-qui/assureurs" replace />} />
+          <Route path="/collectivites" element={<Navigate to="/pour-qui/collectivites" replace />} />
           <Route path="/a-propos" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/contact-demo" element={<ContactDemo />} />

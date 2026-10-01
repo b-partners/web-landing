@@ -65,3 +65,12 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 ## Advertising-Campaign (/campagne-publicitaire)
 - [x] Per-campaign message variant — placeholder text removed (user's call: no variant needed)
 - [x] Response turnaround time — placeholder removed, no SLA line shown (user's call)
+
+## Pour qui (/pour-qui/*) — BPARTNERS-3718 batch (see `docs/new-pages.md`)
+- [ ] `/pour-qui/foncieres-bailleurs-gestionnaires-de-patrimoine` — confirm exact slug (ticket flagged it as truncated)
+- [ ] `/pour-qui/foncieres-bailleurs-gestionnaires-de-patrimoine` — validate positioning, no prior content existed for this persona
+- [ ] `/particuliers/diagnostic-toiture` — validate positioning, no prior content existed for this persona
+- [ ] `/particuliers/diagnostic-toiture` — is the pre-diagnostic free for a homeowner?
+- [ ] `/pour-qui/foncieres-bailleurs-gestionnaires-de-patrimoine` — max volume of properties BIRDIA can analyze at once, processing delay for a large portfolio
+- [ ] Replace the 5 placeholder hero SVG illustrations with real photography or brand art
+- [ ] Set `ENDPOINT` in the CRM/form-tool integration once available (none of these pages have a form; CTAs go to `/contact-demo`, which already uses the mailto fallback)

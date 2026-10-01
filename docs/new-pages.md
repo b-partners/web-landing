@@ -65,3 +65,34 @@ Tracks pages added to the site outside the auto-generated `/template` SEO pages:
 - **Description**: Press page — key facts about BIRDIA, press quotes/mentions, a press-release list (currently just the BPartners→BIRDIA announcement), and press contact details. The media kit section (logos/visuals/press-kit downloads) was removed entirely — user's call, not planned for now.
 - **Links fixed during import**: same `/contact-demo` and dashboard URL fixes as above.
 - **Known TODO**: 4 of 6 press-quote links are now real (Les Pépites Tech, Institut Mines-Télécom, GIP RECIA, and a new Airbus/Pléiades Neo case study added to the list). Systematic Paris Region and French AssurTech still need their article URL.
+
+## BPARTNERS-3718 — /pour-qui (persona hub + 5 persona pages)
+
+6 pages ported from the BIRDIA mockups in `/srv/download/pour-qui/` (see that folder's `pour-qui.md` for the original ticket). All 6 share the same visual template (hero + illustration, green "pourquoi BIRDIA" panel, benefit cards, FAQ, CTA) — only the hub page (`/pour-qui`) differs, with a persona-card grid instead.
+
+**Decisions made during this batch**:
+- `/pour-qui/couvreurs`, `/pour-qui/assureurs` and `/pour-qui/collectivites` **replace** the previous `/couvreurs` (`Craftsman`), `/assurances` (`Insurance`) and `/collectivites` (`Collectivity`) page implementations, per the ticket — confirmed with the user even though `/couvreurs` had just been reworked from a different mockup in the previous batch (see `cd59235`, `57af1f7`). The old components and their image assets were deleted (nothing else imported them). `/couvreurs`, `/assurances` and `/collectivites` now client-side redirect (`<Navigate replace>`) to their `/pour-qui/*` equivalent, same pattern as the existing `/conditions-generales-d-utilisation` → `/cgu` redirect. No server-level 301 exists for any of these (no redirect config in this repo) — same caveat as the legal-page redirects from the previous batch.
+- `/pour-qui/foncieres-bailleurs-gestionnaires-de-patrimoine` and `/particuliers/diagnostic-toiture` are new personas, no prior page existed.
+- Navbar: the three separate `Couvreurs`/`Assurances`/`Collectivités` links were replaced with a single `Pour qui ?` link to the hub (`src/common/components/navbar/utils/constants.ts`) — the ticket's second suggested option, since a dropdown component doesn't exist yet.
+- Internal links to the old slugs were updated to the new canonical paths where found: the 3 persona cards on `/` (`src/pages/home/utils/constant.tsx`) and on `/a-propos` (`About.tsx`), and the template-page route allowlist (`use-template-form-context.ts`).
+- On `/particuliers/diagnostic-toiture`, the "couvreur partenaire" mention in the benefits list links to `/partenaires-couvreurs` (not in the source mockup, added to fulfil the ticket's note that this page "connects to `/partenaires-couvreurs` for the roofer hand-off").
+- Every `<mark class="todo">[À compléter : …]</mark>` placeholder from the mockups was preserved verbatim — none were filled in or guessed at.
+- The illustrative SVGs in each hero are placeholders (per the ticket), kept as inline SVG exactly as in the mockups.
+
+### /pour-qui
+- **Source**: `src/pages/PourQui` (from `pour-qui.html`)
+- **Description**: Hub page linking to the 5 persona pages below.
+
+### /pour-qui/couvreurs, /pour-qui/assureurs, /pour-qui/collectivites
+- **Source**: `src/pages/PourQuiCouvreurs`, `src/pages/PourQuiAssureurs`, `src/pages/PourQuiCollectivites` (from `pour-qui-couvreurs.html`, `pour-qui-assureurs.html`, `pour-qui-collectivites.html`)
+- **Description**: Persona pitch — benefits list, "why BIRDIA" panel, 4 (6 for collectivités) value-prop cards, FAQ, CTA.
+
+### /pour-qui/foncieres-bailleurs-gestionnaires-de-patrimoine
+- **Source**: `src/pages/PourQuiFoncieresBailleurs` (from `pour-qui-foncieres-bailleurs.html`)
+- **Description**: Same template as above, for foncières/bailleurs/gestionnaires de patrimoine.
+- **Open TODO**: positioning not validated — no prior content existed for this persona (flagged `[À compléter]` in the hero).
+
+### /particuliers/diagnostic-toiture
+- **Source**: `src/pages/DiagnosticToitureParticuliers` (from `pour-qui-particuliers.html`)
+- **Description**: Same template, for individual homeowners — pre-diagnostic before a purchase/sale/renovation, with an optional hand-off to a partner roofer via `/partenaires-couvreurs`.
+- **Open TODO**: positioning not validated (no prior content existed), and whether the pre-diagnostic is free is still a placeholder.

@@ -10,17 +10,17 @@ const audiences = [
   {
     title: 'Couvreurs',
     text: "Analyse de toiture automatisée, génération de devis, suivi client et détection d'opportunités commerciales.",
-    link: '/couvreurs',
+    link: '/pour-qui/couvreurs',
   },
   {
     title: 'Collectivités',
     text: 'Valorisation des bases PCRS et des données DSI pour anticiper, planifier et piloter la transformation du territoire.',
-    link: '/collectivites',
+    link: '/pour-qui/collectivites',
   },
   {
     title: 'Assureurs',
     text: 'Diagnostic visuel automatisé, gestion du risque, prévention et complétude des contrats.',
-    link: '/assurances',
+    link: '/pour-qui/assureurs',
   },
 ];
 
