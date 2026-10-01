@@ -1,0 +1,607 @@
+/* ==================================================================== */
+/* Page Tarifs — styles scopés sous .tarifs-page                        */
+/* Repris du template tarifs.html (palette birdia.fr)                   */
+/* ==================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+.tarifs-page {
+  --beige: #f0ebe1;
+  --green: #4b6650;
+  --deep: #13291c;
+  --orange: #ff5a1f;
+  --orange-dark: #c95822;
+  --orange-soft: #fbe6d8;
+  --orange-tint: #fff6ea;
+  --peach: #ffb27d;
+  --white: #ffffff;
+  --ink: #13291c;
+  --muted: #3e4a42;
+  --border: #e4d8bc;
+  --border-dotted: #c9a87a;
+  --shadow-sm: 0 4px 14px rgba(43, 25, 8, 0.06);
+  --shadow: 0 10px 32px rgba(43, 25, 8, 0.09);
+  --radius: 20px;
+
+  background: var(--beige);
+  color: var(--ink);
+  font-family:
+    'Outfit',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+.tarifs-page *,
+.tarifs-page *::before,
+.tarifs-page *::after {
+  box-sizing: border-box;
+}
+.tarifs-page img {
+  max-width: 100%;
+}
+.tarifs-page a {
+  color: inherit;
+}
+.tarifs-page .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Hero ---------- */
+.tarifs-page .hero {
+  padding: 70px 0 150px;
+}
+.tarifs-page .hero h1 {
+  color: var(--orange);
+  font-size: clamp(30px, 4vw, 40px);
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 12px;
+}
+.tarifs-page .hero .lead {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+.tarifs-page .hero p {
+  margin: 0 0 14px;
+  max-width: none;
+  text-align: justify;
+}
+
+/* ---------- Boutons ---------- */
+.tarifs-page .btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+}
+.tarifs-page .btn-orange {
+  background: var(--orange);
+  color: var(--white);
+}
+.tarifs-page .btn-white {
+  background: var(--white);
+  color: var(--deep);
+  border: 1px solid var(--deep);
+}
+.tarifs-page .btns {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ---------- FAQ ---------- */
+.tarifs-page .faq {
+  padding: 80px 0 60px;
+}
+.tarifs-page .faq h2 {
+  color: var(--orange);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 28px;
+}
+.tarifs-page .faq-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.tarifs-page .faq details {
+  background: var(--white);
+  border: 1px solid #b8b8b8;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+.tarifs-page .faq summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  font-size: 15px;
+}
+.tarifs-page .faq summary::-webkit-details-marker {
+  display: none;
+}
+.tarifs-page .faq summary::after {
+  content: '';
+  flex: 0 0 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--green)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E")
+    center/14px no-repeat;
+  transition: transform 0.2s;
+}
+.tarifs-page .faq details[open] summary::after {
+  transform: rotate(180deg);
+}
+.tarifs-page .faq details p {
+  margin: 0;
+  padding: 0 16px 14px;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+/* ---------- CTA ---------- */
+.tarifs-page .cta-wrap {
+  padding: 20px 0 90px;
+}
+.tarifs-page .cta {
+  background: var(--green);
+  color: var(--white);
+  border-radius: 24px;
+  text-align: center;
+  padding: 60px 32px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.tarifs-page .cta h2 {
+  font-size: clamp(28px, 4vw, 46px);
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 26px;
+}
+
+/* ---------- Responsive (gabarit commun) ---------- */
+@media (max-width: 760px) {
+  .tarifs-page .hero p {
+    text-align: left;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tarifs-page * {
+    transition: none !important;
+  }
+}
+
+/* ---------- Composants additionnels ---------- */
+.tarifs-page .todo {
+  background: #fff3b0;
+  color: #5a4500;
+  border-radius: 4px;
+  padding: 0 4px;
+  font-style: normal;
+  font-size: 0.92em;
+}
+.tarifs-page .sec {
+  padding: 80px 0;
+}
+.tarifs-page .sec.white {
+  background: var(--white);
+}
+.tarifs-page .sec.green {
+  background: var(--green);
+  color: var(--white);
+}
+.tarifs-page .sec h2.t {
+  text-align: center;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+.tarifs-page .sec.white h2.t,
+.tarifs-page .sec.beige h2.t {
+  color: var(--orange);
+}
+.tarifs-page .sec .intro {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 40px;
+}
+.tarifs-page .grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+/* ---------- Pricing (repris de /couvreurs pour la cohérence visuelle) ---------- */
+.tarifs-page .pricing-head-toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0 48px;
+}
+.tarifs-page .toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px;
+  box-shadow: var(--shadow-sm);
+}
+.tarifs-page .toggle button {
+  border: none;
+  background: transparent;
+  padding: 10px 22px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+.tarifs-page .toggle button.active {
+  background: var(--orange);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(255, 90, 31, 0.32);
+}
+.tarifs-page .toggle .badge {
+  background: var(--orange-soft);
+  color: var(--orange-dark);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 999px;
+  margin-left: 6px;
+}
+.tarifs-page .metres-band {
+  background: linear-gradient(135deg, #0e2a4a 0%, #1a3d63 100%);
+  color: #fff;
+  border-radius: 20px;
+  padding: 28px 36px;
+  margin: 24px 0 32px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 24px;
+  align-items: center;
+}
+.tarifs-page .metres-band .mb-col {
+  border-left: 2px solid rgba(255, 255, 255, 0.15);
+  padding-left: 20px;
+}
+.tarifs-page .metres-band .mb-eyebrow {
+  color: var(--orange);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.tarifs-page .metres-band .mb-title {
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: -0.3px;
+  line-height: 1.2;
+}
+.tarifs-page .metres-band .mb-big {
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--orange);
+  line-height: 1.2;
+}
+.tarifs-page .metres-band .mb-mid {
+  font-size: 16px;
+  font-weight: 900;
+  color: var(--orange);
+  line-height: 1.2;
+}
+.tarifs-page .metres-band .mb-note {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 4px;
+}
+.tarifs-page .pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 22px;
+  align-items: stretch;
+}
+@media (min-width: 1100px) {
+  .tarifs-page .pricing-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.tarifs-page .price-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 30px 24px 26px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  box-shadow: var(--shadow-sm);
+}
+.tarifs-page .price-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+.tarifs-page .price-card.featured {
+  border: 2px solid var(--orange);
+  background: var(--orange-tint);
+  transform: scale(1.02);
+}
+.tarifs-page .price-card.featured::before {
+  content: 'Le plus choisi';
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--orange);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.tarifs-page .price-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--orange-soft);
+  color: var(--orange-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.tarifs-page .price-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--ink);
+}
+.tarifs-page .price-subtitle {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 22px;
+  min-height: 38px;
+}
+.tarifs-page .price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 2px;
+  flex-wrap: wrap;
+}
+.tarifs-page .price-row .price {
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--orange);
+  letter-spacing: -0.02em;
+}
+.tarifs-page .price-suffix {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 500;
+}
+.tarifs-page .price-ht {
+  color: var(--muted);
+  font-size: 12px;
+  margin: 2px 0 12px;
+}
+.tarifs-page .price-yearly {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 22px;
+  min-height: 18px;
+}
+.tarifs-page .price-yearly strong {
+  color: var(--ink);
+}
+.tarifs-page .cta-full {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: none;
+  background: var(--orange);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 22px;
+  font-family: inherit;
+  text-decoration: none;
+  transition:
+    background 0.2s,
+    transform 0.1s;
+}
+.tarifs-page .cta-full:hover {
+  background: var(--orange-dark);
+  transform: translateY(-1px);
+}
+.tarifs-page .cta-full.outline {
+  background: transparent;
+  color: var(--orange);
+  border: 2px solid var(--orange);
+  padding: 11px 16px;
+}
+.tarifs-page .cta-full.outline:hover {
+  background: var(--orange);
+  color: #fff;
+}
+.tarifs-page .plus-tag {
+  background: var(--orange-soft);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--orange-dark);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.tarifs-page .features {
+  list-style: none;
+  margin-top: 0;
+  padding: 4px 0 0;
+  border-top: 1px dashed var(--border-dotted);
+}
+.tarifs-page .features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 11px 0;
+  border-bottom: 1px dashed var(--border-dotted);
+}
+.tarifs-page .features li:last-child {
+  border-bottom: none;
+}
+.tarifs-page .features .feature-text {
+  flex: 1;
+  min-width: 0;
+}
+.tarifs-page .features .check {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--orange-soft);
+  color: var(--orange-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  margin-top: 1px;
+}
+.tarifs-page .features li.muted {
+  color: var(--muted);
+}
+.tarifs-page .features li.muted .check {
+  background: #eaeaea;
+  color: #b0b0b0;
+}
+
+.tarifs-page .card {
+  background: var(--white);
+  color: var(--ink);
+  border: 1px solid #b8b8b8;
+  border-radius: 18px;
+  padding: 28px;
+}
+.tarifs-page .card h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.tarifs-page .card .who {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 0 0 14px;
+}
+.tarifs-page .card p {
+  margin: 0 0 12px;
+  font-size: 15px;
+}
+.tarifs-page .card ul {
+  margin: 0 0 12px;
+  padding-left: 18px;
+  font-size: 15px;
+}
+.tarifs-page .price .amount {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--orange);
+  margin: 6px 0 4px;
+}
+.tarifs-page .price .unit {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+.tarifs-page .price .btn {
+  margin-top: auto;
+}
+.tarifs-page .price {
+  display: flex;
+  flex-direction: column;
+}
+.tarifs-page .price ul {
+  flex: 1;
+}
+.tarifs-page .price .btn {
+  text-align: center;
+  align-self: stretch;
+}
+.tarifs-page .price.feat {
+  border: 2px solid var(--orange);
+}
+.tarifs-page table.cmp {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--white);
+  border-radius: 14px;
+  overflow: hidden;
+  font-size: 15px;
+}
+.tarifs-page .tscroll {
+  overflow-x: auto;
+}
+.tarifs-page table.cmp th,
+.tarifs-page table.cmp td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e3ded3;
+  text-align: left;
+}
+.tarifs-page table.cmp th {
+  background: var(--deep);
+  color: var(--white);
+  font-weight: 500;
+}
+.tarifs-page .fine {
+  font-size: 13px;
+  color: var(--muted);
+}
+@media (max-width: 760px) {
+  .tarifs-page .grid2 {
+    grid-template-columns: 1fr;
+  }
+  .tarifs-page .metres-band {
+    grid-template-columns: 1fr;
+  }
+  .tarifs-page .metres-band .mb-col {
+    border-left: none;
+    padding-left: 0;
+  }
+}

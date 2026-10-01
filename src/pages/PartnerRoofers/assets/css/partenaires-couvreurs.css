@@ -1,0 +1,366 @@
+/* ==================================================================== */
+/* Page Réseau de couvreurs partenaires — styles scopés sous            */
+/* .partenaires-couvreurs-page. Repris du template                      */
+/* partenaires-couvreurs.html (palette birdia.fr)                       */
+/* ==================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+.partenaires-couvreurs-page {
+  --beige: #f0ebe1;
+  --green: #4b6650;
+  --deep: #13291c;
+  --orange: #ff5a1f;
+  --peach: #ffb27d;
+  --white: #ffffff;
+  --ink: #13291c;
+  --muted: #3e4a42;
+
+  background: var(--beige);
+  color: var(--ink);
+  font-family:
+    'Outfit',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+.partenaires-couvreurs-page *,
+.partenaires-couvreurs-page *::before,
+.partenaires-couvreurs-page *::after {
+  box-sizing: border-box;
+}
+.partenaires-couvreurs-page a {
+  color: inherit;
+}
+.partenaires-couvreurs-page .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Hero ---------- */
+.partenaires-couvreurs-page .hero {
+  padding: 70px 0 150px;
+}
+.partenaires-couvreurs-page .hero h1 {
+  color: var(--orange);
+  font-size: clamp(30px, 4vw, 40px);
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 12px;
+}
+.partenaires-couvreurs-page .hero .lead {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+.partenaires-couvreurs-page .hero p {
+  margin: 0 0 14px;
+  max-width: none;
+  text-align: justify;
+}
+
+/* ---------- Bloc 3 couleurs + comment ça marche ---------- */
+.partenaires-couvreurs-page .trio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.partenaires-couvreurs-page .trio .left > div {
+  padding: 44px 40px;
+  text-align: center;
+}
+.partenaires-couvreurs-page .trio .left > div:nth-child(1) {
+  background: var(--peach);
+}
+.partenaires-couvreurs-page .trio .left > div:nth-child(2) {
+  background: var(--green);
+  color: var(--white);
+}
+.partenaires-couvreurs-page .trio .left > div:nth-child(3) {
+  background: var(--deep);
+  color: var(--white);
+}
+.partenaires-couvreurs-page .trio h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.partenaires-couvreurs-page .trio .left p {
+  margin: 0;
+  font-size: 15px;
+}
+.partenaires-couvreurs-page .trio .right {
+  background: var(--white);
+  padding: 48px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.partenaires-couvreurs-page .trio .right h2 {
+  color: var(--orange);
+  font-size: clamp(26px, 3vw, 34px);
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 18px;
+}
+.partenaires-couvreurs-page .btns {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.partenaires-couvreurs-page .steps {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 760px;
+  counter-reset: s;
+}
+.partenaires-couvreurs-page .steps li {
+  counter-increment: s;
+  display: flex;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+.partenaires-couvreurs-page .steps li::before {
+  content: counter(s);
+  flex: 0 0 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--orange);
+  color: var(--white);
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+}
+.partenaires-couvreurs-page .steps h3 {
+  margin: 6px 0 4px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.partenaires-couvreurs-page .steps p {
+  margin: 0;
+  font-size: 15px;
+}
+
+/* ---------- Sections + formulaire ---------- */
+.partenaires-couvreurs-page .sec {
+  padding: 80px 0;
+}
+.partenaires-couvreurs-page .sec.white {
+  background: var(--white);
+}
+.partenaires-couvreurs-page .sec h2.t {
+  text-align: center;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+.partenaires-couvreurs-page .sec.white h2.t {
+  color: var(--orange);
+}
+.partenaires-couvreurs-page .sec .intro {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 40px;
+}
+.partenaires-couvreurs-page .grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+.partenaires-couvreurs-page .card {
+  background: var(--white);
+  color: var(--ink);
+  border: 1px solid #b8b8b8;
+  border-radius: 18px;
+  padding: 28px;
+}
+.partenaires-couvreurs-page .stars {
+  color: var(--orange);
+  letter-spacing: 4px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.partenaires-couvreurs-page .person {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.partenaires-couvreurs-page .avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--green);
+  color: var(--white);
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.partenaires-couvreurs-page form.f {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.partenaires-couvreurs-page form.f .full {
+  grid-column: 1 / -1;
+}
+.partenaires-couvreurs-page form.f label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.partenaires-couvreurs-page form.f input,
+.partenaires-couvreurs-page form.f select,
+.partenaires-couvreurs-page form.f textarea {
+  width: 100%;
+  font: inherit;
+  padding: 14px;
+  border: 1px solid #b8b8b8;
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--ink);
+}
+.partenaires-couvreurs-page form.f textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+.partenaires-couvreurs-page form.f button {
+  justify-self: start;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+}
+.partenaires-couvreurs-page .fine {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* ---------- FAQ ---------- */
+.partenaires-couvreurs-page .faq {
+  padding: 80px 0 60px;
+}
+.partenaires-couvreurs-page .faq h2 {
+  color: var(--orange);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 28px;
+}
+.partenaires-couvreurs-page .faq-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.partenaires-couvreurs-page .faq details {
+  background: var(--white);
+  border: 1px solid #b8b8b8;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+.partenaires-couvreurs-page .faq summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  font-size: 15px;
+}
+.partenaires-couvreurs-page .faq summary::-webkit-details-marker {
+  display: none;
+}
+.partenaires-couvreurs-page .faq summary::after {
+  content: '';
+  flex: 0 0 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--green)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E")
+    center/14px no-repeat;
+  transition: transform 0.2s;
+}
+.partenaires-couvreurs-page .faq details[open] summary::after {
+  transform: rotate(180deg);
+}
+.partenaires-couvreurs-page .faq details p {
+  margin: 0;
+  padding: 0 16px 14px;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+/* ---------- CTA ---------- */
+.partenaires-couvreurs-page .cta-wrap {
+  padding: 20px 0 90px;
+}
+.partenaires-couvreurs-page .cta {
+  background: var(--green);
+  color: var(--white);
+  border-radius: 24px;
+  text-align: center;
+  padding: 60px 32px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.partenaires-couvreurs-page .cta h2 {
+  font-size: clamp(28px, 4vw, 46px);
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 26px;
+}
+
+/* ---------- Boutons ---------- */
+.partenaires-couvreurs-page .btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+}
+.partenaires-couvreurs-page .btn-orange {
+  background: var(--orange);
+  color: var(--white);
+}
+.partenaires-couvreurs-page .btn-white {
+  background: var(--white);
+  color: var(--deep);
+  border: 1px solid var(--deep);
+}
+
+/* ---------- Placeholder ---------- */
+.partenaires-couvreurs-page .todo {
+  background: #fff3b0;
+  color: #5a4500;
+  border-radius: 4px;
+  padding: 0 4px;
+  font-style: normal;
+  font-size: 0.92em;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 760px) {
+  .partenaires-couvreurs-page .trio,
+  .partenaires-couvreurs-page .grid2,
+  .partenaires-couvreurs-page form.f {
+    grid-template-columns: 1fr;
+  }
+  .partenaires-couvreurs-page .hero p {
+    text-align: left;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .partenaires-couvreurs-page * {
+    transition: none !important;
+  }
+}
