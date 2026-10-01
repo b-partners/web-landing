@@ -71,7 +71,7 @@ Tracks pages added to the site outside the auto-generated `/template` SEO pages:
 6 pages ported from the BIRDIA mockups in `/srv/download/pour-qui/` (see that folder's `pour-qui.md` for the original ticket). All 6 share the same visual template (hero + illustration, green "pourquoi BIRDIA" panel, benefit cards, FAQ, CTA) — only the hub page (`/pour-qui`) differs, with a persona-card grid instead.
 
 **Decisions made during this batch**:
-- `/pour-qui/couvreurs`, `/pour-qui/assureurs` and `/pour-qui/collectivites` **replace** the previous `/couvreurs` (`Craftsman`), `/assurances` (`Insurance`) and `/collectivites` (`Collectivity`) page implementations, per the ticket — confirmed with the user even though `/couvreurs` had just been reworked from a different mockup in the previous batch (see `cd59235`, `57af1f7`). The old components and their image assets were deleted (nothing else imported them). `/couvreurs`, `/assurances` and `/collectivites` now client-side redirect (`<Navigate replace>`) to their `/pour-qui/*` equivalent, same pattern as the existing `/conditions-generales-d-utilisation` → `/cgu` redirect. No server-level 301 exists for any of these (no redirect config in this repo) — same caveat as the legal-page redirects from the previous batch.
+- `/pour-qui/couvreurs`, `/pour-qui/assureurs` and `/pour-qui/collectivites` were initially built from the `pour-qui-*.html` mockups, then reverted: the user asked to keep the existing preprod page implementations (`Craftsman`, `Insurance`, `Collectivity`) instead — these are now served as-is at the new `/pour-qui/*` URLs (no mockup template, no new illustration/benefits/FAQ layout for these 3). `/couvreurs`, `/assurances` and `/collectivites` still client-side redirect (`<Navigate replace>`) to their `/pour-qui/*` equivalent, same pattern as the existing `/conditions-generales-d-utilisation` → `/cgu` redirect. No server-level 301 exists for any of these (no redirect config in this repo) — same caveat as the legal-page redirects from the previous batch.
 - `/pour-qui/foncieres-bailleurs-gestionnaires-de-patrimoine` and `/particuliers/diagnostic-toiture` are new personas, no prior page existed.
 - Navbar: the three separate `Couvreurs`/`Assurances`/`Collectivités` links were replaced with a single `Pour qui ?` link to the hub (`src/common/components/navbar/utils/constants.ts`) — the ticket's second suggested option, since a dropdown component doesn't exist yet.
 - Internal links to the old slugs were updated to the new canonical paths where found: the 3 persona cards on `/` (`src/pages/home/utils/constant.tsx`) and on `/a-propos` (`About.tsx`), and the template-page route allowlist (`use-template-form-context.ts`).
@@ -84,8 +84,8 @@ Tracks pages added to the site outside the auto-generated `/template` SEO pages:
 - **Description**: Hub page linking to the 5 persona pages below.
 
 ### /pour-qui/couvreurs, /pour-qui/assureurs, /pour-qui/collectivites
-- **Source**: `src/pages/PourQuiCouvreurs`, `src/pages/PourQuiAssureurs`, `src/pages/PourQuiCollectivites` (from `pour-qui-couvreurs.html`, `pour-qui-assureurs.html`, `pour-qui-collectivites.html`)
-- **Description**: Persona pitch — benefits list, "why BIRDIA" panel, 4 (6 for collectivités) value-prop cards, FAQ, CTA.
+- **Source**: unchanged — `src/pages/Craftsman`, `src/pages/Insurance`, `src/pages/Collectivity` (the existing preprod pages), just mounted at the new `/pour-qui/*` paths instead of `/couvreurs`, `/assurances`, `/collectivites`.
+- **Description**: same pages as before this batch — see their own history for content details.
 
 ### /pour-qui/foncieres-bailleurs-gestionnaires-de-patrimoine
 - **Source**: `src/pages/PourQuiFoncieresBailleurs` (from `pour-qui-foncieres-bailleurs.html`)

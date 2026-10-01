@@ -3,10 +3,10 @@
 Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (see `docs/new-pages.md`).
 
 ## About (/a-propos) — team
-- [x] Real roster (confirmed by user): Sofiane Madani (CEO, co-fondateur), Fonenantsoa "Lou" Maurica (co-fondateur, directeur technique), Ryan Andriamahery (fullstack), Amour Bien Aimée (frontend, homme), Dinasoa Ratsimba (DevOps), Adel Belhancee (IA), Ricka Princy (backend), Fadela Belarbi. "Emmanuel Faiche" was not on the real team, dropped.
-- [x] Moved to `src/pages/About/resources/team.ts` — plain data array (initials/name/role/roleTodo/photo/bio), so future edits don't touch component code. Fill `photo`/`bio` per person there and the page picks it up automatically.
-- [ ] Fadela Belarbi — exact role (user unsure: "Finance et relation client je crois", flagged as [À compléter] on the page)
-- [ ] Photo + 2-line bio × 8 — fill directly in `resources/team.ts`
+- [x] Team section removed from the page entirely (user's call) — `resources/team.ts` deleted, all items below are moot
+- [x] ~~Real roster (confirmed by user): Sofiane Madani (CEO, co-fondateur), Fonenantsoa "Lou" Maurica (co-fondateur, directeur technique), Ryan Andriamahery (fullstack), Amour Bien Aimée (frontend, homme), Dinasoa Ratsimba (DevOps), Adel Belhancee (IA), Ricka Princy (backend), Fadela Belarbi. "Emmanuel Faiche" was not on the real team, dropped.~~
+- [x] ~~Fadela Belarbi — exact role~~
+- [x] ~~Photo + 2-line bio × 8~~
 
 ## PartnerRoofers (/partenaires-couvreurs)
 - [x] Couvreur selection criteria (FAQ) — question removed (user's call, no content to show)
@@ -72,6 +72,6 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [ ] `/particuliers/diagnostic-toiture` — validate positioning, no prior content existed for this persona
 - [ ] `/particuliers/diagnostic-toiture` — is the pre-diagnostic free for a homeowner?
 - [ ] `/pour-qui/foncieres-bailleurs-gestionnaires-de-patrimoine` — max volume of properties BIRDIA can analyze at once, processing delay for a large portfolio
-- [x] Replace the hero SVG illustration with real photography for couvreurs, assureurs, collectivites (user-provided photos)
+- [x] ~~Replace the hero SVG illustration with real photography for couvreurs, assureurs, collectivites~~ — moot, these 3 pages reverted to the existing preprod `Craftsman`/`Insurance`/`Collectivity` components (no mockup template)
 - [ ] Replace the 2 remaining placeholder hero SVG illustrations (foncières-bailleurs, particuliers) with real photography or brand art
 - [ ] Set `ENDPOINT` in the CRM/form-tool integration once available (none of these pages have a form; CTAs go to `/contact-demo`, which already uses the mailto fallback)

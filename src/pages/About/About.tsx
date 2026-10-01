@@ -4,7 +4,6 @@ import { Env } from '@/common/utils/env';
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
 import './assets/css/a-propos.css';
-import { teamMembers } from './resources/team';
 
 const audiences = [
   {
@@ -107,38 +106,6 @@ export const About = () => {
                 <Link className="link-orange" to={audience.link}>
                   Découvrir
                 </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="sec team" aria-labelledby="a-propos-team-title">
-        <div className="wrap">
-          <h2 className="t" id="a-propos-team-title" style={{ color: 'var(--orange)' }}>
-            L'équipe
-          </h2>
-          <div className="grid4">
-            {teamMembers.map((member) => (
-              <div className="card" key={member.initials}>
-                {member.photo ? (
-                  <img className="avatar" src={member.photo} alt={member.name} />
-                ) : (
-                  <div className="avatar" aria-hidden="true">
-                    {member.initials}
-                  </div>
-                )}
-                <h3>{member.name}</h3>
-                <p className="who">
-                  {member.role}
-                  {member.roleTodo && (
-                    <>
-                      {' '}
-                      <mark className="todo">[À compléter : {member.roleTodo}]</mark>
-                    </>
-                  )}
-                </p>
-                <p>{member.bio ?? <mark className="todo">[À compléter : photo et 2 lignes de parcours]</mark>}</p>
               </div>
             ))}
           </div>

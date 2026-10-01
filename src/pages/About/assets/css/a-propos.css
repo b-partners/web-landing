@@ -143,16 +143,6 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
 }
-.a-propos-page .grid4 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 28px;
-}
-@media (max-width: 1000px) {
-  .a-propos-page .grid4 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 .a-propos-page .card {
   background: var(--white);
   color: var(--ink);
@@ -174,27 +164,6 @@
   margin: 0 0 12px;
   font-size: 15px;
 }
-.a-propos-page .avatar {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: var(--green);
-  color: var(--white);
-  display: grid;
-  place-items: center;
-  font-weight: 600;
-  flex-shrink: 0;
-}
-.a-propos-page .team .avatar {
-  width: 96px;
-  height: 96px;
-  font-size: 28px;
-  margin: 0 auto 14px;
-}
-.a-propos-page .team .card {
-  text-align: center;
-}
-
 /* ---------- Boutons ---------- */
 .a-propos-page .btns {
   display: flex;
@@ -311,8 +280,7 @@
     padding: 32px 24px;
   }
   .a-propos-page .cols,
-  .a-propos-page .grid3,
-  .a-propos-page .grid4 {
+  .a-propos-page .grid3 {
     grid-template-columns: 1fr;
   }
   .a-propos-page .hero p {
