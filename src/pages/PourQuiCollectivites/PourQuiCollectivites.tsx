@@ -4,6 +4,7 @@ import { Env } from '@/common/utils/env';
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
 import './assets/css/pour-qui-collectivites.css';
+import collectivitesVueAerienne from './assets/img/collectivites-vue-aerienne.webp';
 
 const BENEFITS = [
   'Valorisation des investissements PCRS existants, sans relevés terrain',
@@ -45,29 +46,6 @@ const CheckIcon = () => (
   </svg>
 );
 
-const Illustration = () => (
-  <svg viewBox="0 0 400 300" role="img" aria-label="Illustration collectivité">
-    <rect width={400} height={300} rx={20} fill="var(--green)" />
-    <rect x={70} y={120} width={70} height={110} fill="var(--peach)" />
-    <rect x={165} y={90} width={70} height={140} fill="var(--peach)" opacity={0.9} />
-    <rect x={260} y={140} width={70} height={90} fill="var(--peach)" opacity={0.8} />
-    <g fill="var(--deep)">
-      <rect x={82} y={135} width={12} height={12} />
-      <rect x={104} y={135} width={12} height={12} />
-      <rect x={82} y={160} width={12} height={12} />
-      <rect x={104} y={160} width={12} height={12} />
-      <rect x={177} y={105} width={12} height={12} />
-      <rect x={199} y={105} width={12} height={12} />
-      <rect x={177} y={130} width={12} height={12} />
-      <rect x={199} y={130} width={12} height={12} />
-      <rect x={272} y={155} width={12} height={12} />
-      <rect x={294} y={155} width={12} height={12} />
-    </g>
-    <path d="M60 230 H340" stroke="var(--deep)" strokeWidth={4} />
-    <circle cx={330} cy={70} r={18} fill="var(--orange)" />
-  </svg>
-);
-
 export const PourQuiCollectivites = () => {
   useUpdateMeta(
     "BIRDIA pour les collectivités | Valoriser les images PCRS par l'IA",
@@ -88,7 +66,7 @@ export const PourQuiCollectivites = () => {
             </p>
           </div>
           <div className="pq-illus">
-            <Illustration />
+            <img src={collectivitesVueAerienne} alt="Vue aérienne d'une ville, données exploitables pour les collectivités" />
           </div>
         </div>
       </section>

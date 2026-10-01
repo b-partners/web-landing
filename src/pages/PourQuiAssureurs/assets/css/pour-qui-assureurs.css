@@ -76,10 +76,11 @@
   border-radius: 20px;
   overflow: hidden;
 }
-.pour-qui-assureurs-page .pq-illus svg {
+.pour-qui-assureurs-page .pq-illus img {
   display: block;
   width: 100%;
-  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
 }
 
 /* ---------- Pourquoi BIRDIA (bénéfices + panneau) ---------- */

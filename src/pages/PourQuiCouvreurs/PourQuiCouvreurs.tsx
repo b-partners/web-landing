@@ -4,6 +4,7 @@ import { Env } from '@/common/utils/env';
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
 import './assets/css/pour-qui-couvreurs.css';
+import couvreurToiture from './assets/img/couvreur-toiture.webp';
 
 const BENEFITS = [
   'Mesures et surfaces précises, sans monter sur le toit',
@@ -37,23 +38,6 @@ const CheckIcon = () => (
   </svg>
 );
 
-const Illustration = () => (
-  <svg viewBox="0 0 400 300" role="img" aria-label="Illustration toiture">
-    <rect width={400} height={300} rx={20} fill="var(--green)" />
-    <path d="M60 190 L200 90 L340 190 Z" fill="var(--peach)" />
-    <path d="M60 190 L200 90 L340 190" fill="none" stroke="var(--deep)" strokeWidth={4} />
-    <g stroke="var(--deep)" strokeWidth={2} opacity={0.55}>
-      <path d="M100 165 L300 165" />
-      <path d="M85 180 L315 180" />
-      <path d="M130 140 L270 140" />
-      <path d="M155 118 L245 118" />
-    </g>
-    <rect x={60} y={190} width={280} height={14} fill="var(--deep)" />
-    <circle cx={320} cy={70} r={26} fill="var(--orange)" />
-    <path d="M305 70 l10 10 20 -22" stroke="var(--white)" strokeWidth={5} fill="none" strokeLinecap="round" strokeLinejoin="round" />
-  </svg>
-);
-
 export const PourQuiCouvreurs = () => {
   useUpdateMeta(
     'BIRDIA pour les couvreurs | Analyse de toiture par IA sans monter sur le toit',
@@ -73,7 +57,7 @@ export const PourQuiCouvreurs = () => {
             </p>
           </div>
           <div className="pq-illus">
-            <Illustration />
+            <img src={couvreurToiture} alt="Vue aérienne d'une toiture analysée par BIRDIA" />
           </div>
         </div>
       </section>

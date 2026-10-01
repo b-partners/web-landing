@@ -4,6 +4,7 @@ import { Env } from '@/common/utils/env';
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
 import './assets/css/pour-qui-assureurs.css';
+import assureursDiagnosticToiture from './assets/img/assureurs-diagnostic-toiture.webp';
 
 const BENEFITS = [
   'Contrôle automatisé des toitures à grande échelle',
@@ -40,16 +41,6 @@ const CheckIcon = () => (
   </svg>
 );
 
-const Illustration = () => (
-  <svg viewBox="0 0 400 300" role="img" aria-label="Illustration assurance">
-    <rect width={400} height={300} rx={20} fill="var(--green)" />
-    <path d="M200 50 L300 85 V160 C300 215 255 250 200 265 C145 250 100 215 100 160 V85 Z" fill="var(--peach)" stroke="var(--deep)" strokeWidth={4} />
-    <path d="M165 160 l25 25 55 -60" stroke="var(--deep)" strokeWidth={8} fill="none" strokeLinecap="round" strokeLinejoin="round" />
-    <circle cx={90} cy={60} r={20} fill="var(--orange)" />
-    <circle cx={330} cy={230} r={14} fill="var(--orange)" />
-  </svg>
-);
-
 export const PourQuiAssureurs = () => {
   useUpdateMeta(
     'BIRDIA pour les assureurs | Prévenir les sinistres, maîtriser les risques toiture',
@@ -69,7 +60,7 @@ export const PourQuiAssureurs = () => {
             </p>
           </div>
           <div className="pq-illus">
-            <Illustration />
+            <img src={assureursDiagnosticToiture} alt="Toiture analysée avec mesures et anomalies détectées par BIRDIA" />
           </div>
         </div>
       </section>
