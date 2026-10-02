@@ -6,17 +6,28 @@ import { GlobalDialog, GlobalSnackbar } from '@/common/components';
 import { Footer } from '@/common/components/footer';
 import { About } from '@pages/About';
 import { AdvertisingCampaign } from '@pages/Advertising-Campaign';
+import { Cgu } from '@pages/Cgu';
 import { Collectivity } from '@pages/Collectivity';
 import { Contact } from '@pages/Contact';
+import { ContactDemo } from '@pages/ContactDemo';
 import { Craftsman } from '@pages/Craftsman/Craftsman';
-import { PdfReader } from '@pages/GCU';
+import { Fonctionnalites } from '@pages/Fonctionnalites';
+import { FonctionnalitesImagerieMethode } from '@pages/FonctionnalitesImagerieMethode';
+import { FonctionnalitesMetresMesures } from '@pages/FonctionnalitesMetresMesures';
+import { FonctionnalitesPreDiagnostic } from '@pages/FonctionnalitesPreDiagnostic';
 import { Insurance } from '@pages/Insurance';
+import { LegalNotice } from '@pages/LegalNotice';
 import { NavigationPlan } from '@pages/Navigation-Plan';
+import { PartnerRoofers } from '@pages/PartnerRoofers';
+import { PourQui } from '@pages/PourQui';
+import { Presse } from '@pages/Presse';
+import { Pricing } from '@pages/Pricing';
+import { Privacy } from '@pages/Privacy';
+import { Rebranding } from '@pages/Rebranding';
 import { Home } from '@pages/home';
 import { Template, TemplateLayout, TemplateLogin, TemplateMenu } from '@pages/template';
 
 import { Navbar } from './common/components/navbar';
-import { Env } from './common/utils/env';
 import aDistance from './pages/template/json-data/a-distance';
 import achatBienImmobilier from './pages/template/json-data/achat-bien-immobilier';
 import achatImmobilierDemandeDiagnosticToiture from './pages/template/json-data/achat-immobilier-demande-diagnostic-toiture';
@@ -247,42 +258,30 @@ function App() {
         <Route path="/template/menu" element={<TemplateMenu />} />
         <Route path="/" element={<PublicLayout />}>
           <Route path="/plan-du-site-navigation" element={<NavigationPlan />} />
-          <Route path="/couvreurs" element={<Craftsman />} />
-          <Route path="/collectivites" element={<Collectivity />} />
-          <Route path="/assurances" element={<Insurance />} />
+          <Route path="/pour-qui" element={<PourQui />} />
+          <Route path="/pour-qui/couvreurs" element={<Craftsman />} />
+          <Route path="/pour-qui/assureurs" element={<Insurance />} />
+          <Route path="/pour-qui/collectivites" element={<Collectivity />} />
+          <Route path="/fonctionnalites" element={<Fonctionnalites />} />
+          <Route path="/fonctionnalites/metre-et-mesures" element={<FonctionnalitesMetresMesures />} />
+          <Route path="/fonctionnalites/pre-diagnostic-et-etat-de-la-toiture" element={<FonctionnalitesPreDiagnostic />} />
+          <Route path="/fonctionnalites/donnees-imagerie-et-methode" element={<FonctionnalitesImagerieMethode />} />
+          <Route path="/couvreurs" element={<Navigate to="/pour-qui/couvreurs" replace />} />
+          <Route path="/assurances" element={<Navigate to="/pour-qui/assureurs" replace />} />
+          <Route path="/collectivites" element={<Navigate to="/pour-qui/collectivites" replace />} />
           <Route path="/a-propos" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/contact-demo" element={<ContactDemo />} />
+          <Route path="/bpartners-devient-birdia" element={<Rebranding />} />
+          <Route path="/presse" element={<Presse />} />
+          <Route path="/partenaires-couvreurs" element={<PartnerRoofers />} />
+          <Route path="/tarifs" element={<Pricing />} />
+          <Route path="/mentions-legales" element={<LegalNotice />} />
+          <Route path="/cgu" element={<Cgu />} />
+          <Route path="/conditions-generales-d-utilisation" element={<Navigate to="/cgu" replace />} />
+          <Route path="/confidentialite" element={<Privacy />} />
+          <Route path="/politique-de-confidentialite" element={<Navigate to="/confidentialite" replace />} />
           <Route path="/" element={<Home />} />
-          <Route
-            path="/conditions-generales-d-utilisation"
-            element={
-              <PdfReader
-                pdfUrl={Env.REACT_APP_CGU_URL}
-                title="Conditions générales d’utilisation | BIRDIA"
-                description="Consultez les conditions générales d’utilisation de la solution BIRDIA d’analyse de toitures par IA."
-              />
-            }
-          />
-          <Route
-            path="/mentions-legales"
-            element={
-              <PdfReader
-                pdfUrl={Env.REACT_APP_LEGAL_MENTION_URL}
-                title="Mentions légales | BIRDIA"
-                description="Retrouvez les mentions légales du site BIRDIA."
-              />
-            }
-          />
-          <Route
-            path="/politique-de-confidentialite"
-            element={
-              <PdfReader
-                pdfUrl={Env.REACT_APP_PRIVACY_POLICY_URL}
-                title="Politique de confidentialité | BIRDIA"
-                description="Découvrez comment BIRDIA collecte, utilise et protège vos données personnelles."
-              />
-            }
-          />
           <Route path="*" element={<Navigate to="/" />} />
         </Route>
         <Route path="/" element={<TemplateLayout />}>
