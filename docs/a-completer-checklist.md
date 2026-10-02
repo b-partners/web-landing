@@ -2,6 +2,13 @@
 
 Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (see `docs/new-pages.md`).
 
+## Fonctionnalites (/fonctionnalites/*) — BPARTNERS-3724 batch (see `docs/new-pages.md`)
+- [ ] **⚠️ Get client consent before shipping**, or anonymize: all 3 feature pages publicly reuse a real client's address and report figures (17 Rue Pierre Bénech, 31100 Toulouse) as a worked example — currently not confirmed with the client.
+- [x] ~~`/fonctionnalites/metre-et-mesures` — confirm the precision/error margin claimed for automatic measurements (FAQ)~~ — content confirmed final (user's call), placeholder removed
+- [x] ~~`/fonctionnalites/metre-et-mesures` — confirm whether a data export (GeoJSON, Excel...) exists beyond the current PDF export (FAQ)~~ — content confirmed final (user's call), placeholder removed
+- [x] ~~`/fonctionnalites/donnees-imagerie-et-methode` — confirm exact data hosting location~~ — content confirmed final (user's call), placeholder removed
+- [ ] Link each `/pour-qui/*` persona page to the relevant `/fonctionnalites/*` page — not done in this batch, ticket flags it as a follow-up
+
 ## About (/a-propos) — team
 - [x] Team section removed from the page entirely (user's call) — `resources/team.ts` deleted, all items below are moot
 - [x] ~~Real roster (confirmed by user): Sofiane Madani (CEO, co-fondateur), Fonenantsoa "Lou" Maurica (co-fondateur, directeur technique), Ryan Andriamahery (fullstack), Amour Bien Aimée (frontend, homme), Dinasoa Ratsimba (DevOps), Adel Belhancee (IA), Ricka Princy (backend), Fadela Belarbi. "Emmanuel Faiche" was not on the real team, dropped.~~

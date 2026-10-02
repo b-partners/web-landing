@@ -96,3 +96,32 @@ Tracks pages added to the site outside the auto-generated `/template` SEO pages:
 - **Source**: `src/pages/DiagnosticToitureParticuliers` (from `pour-qui-particuliers.html`)
 - **Description**: Same template, for individual homeowners — pre-diagnostic before a purchase/sale/renovation, with an optional hand-off to a partner roofer via `/partenaires-couvreurs`.
 - **Open TODO**: positioning not validated (no prior content existed), and whether the pre-diagnostic is free is still a placeholder.
+
+## BPARTNERS-3724 — /fonctionnalites (hub + 3 feature pages)
+
+4 pages ported from the mockups in `/home/langio/Downloads/donc/` (see that folder's `fonctionnalites.md` for the original ticket). Unlike previous batches, content here is **not invented** — it's based on real BIRDIA dashboard screenshots and an actual analysis report (17 Rue Pierre Bénech, Toulouse). Each of the 3 feature pages embeds 2 real product screenshots and a worked example with real figures from that report.
+
+**Decisions made during this batch**:
+- The mockups embedded each screenshot as a self-contained base64 JPEG. These were extracted and converted to WebP (quality 85) for a meaningfully smaller payload, then imported as regular page assets — same pattern as the `/pour-qui/*` hero photos (ceda4e6). The 2D/3D screenshots are identical between `/fonctionnalites/metre-et-mesures` and `/fonctionnalites/donnees-imagerie-et-methode` (same underlying report, different explanatory framing) — duplicated into both pages' own `assets/img/`, consistent with this codebase's one-folder-per-page convention (no cross-page asset imports elsewhere in the repo).
+- `/fonctionnalites` was added to the header nav (`src/common/components/navbar/utils/constants.ts`), next to `/pour-qui`, per the ticket's suggested nav placement.
+- Per-persona linking from `/pour-qui/*` to the relevant feature pages was **not done** in this batch (ticket flags it as "not yet done" too).
+- Unlike previous batches, this content is final: the `<mark class="todo">[À compléter : …]</mark>` placeholders from the mockups (measurement precision/error margin, data-export formats beyond PDF, exact hosting location) were removed — the user confirmed there are no open questions left on these 4 pages.
+
+### /fonctionnalites
+- **Source**: `src/pages/Fonctionnalites` (from `fonctionnalites.html`)
+- **Description**: Hub page linking to the 3 feature pages below. Same template/markup pattern as the `/pour-qui` hub.
+
+### /fonctionnalites/metre-et-mesures
+- **Source**: `src/pages/FonctionnalitesMetresMesures` (from `fonctionnalites-metre-et-mesures.html`)
+- **Description**: Automatic per-pan roof measurement (surface, pente, bordures) from a street address, 2D/3D product screenshots, material-loss calculator (0–22.5%, 10% recommended by default), real worked example (208.85 m², 5 pans, 21°, 32.67 m of arêtiers).
+
+### /fonctionnalites/pre-diagnostic-et-etat-de-la-toiture
+- **Source**: `src/pages/FonctionnalitesPreDiagnostic` (from `fonctionnalites-pre-diagnostic-et-etat-de-la-toiture.html`)
+- **Description**: Material/anomaly detection (cheminée, moisissure, obstacle), each measured separately, percentage-based "intervention nécessaire" score (21.62% in the real example, alongside 71.03% taux de moisissure and a "Minime" usure level) — **not** the invented A–E letter grade from an earlier draft (corrected per the ticket). Includes an expert-comment field for human validation.
+
+### /fonctionnalites/donnees-imagerie-et-methode
+- **Source**: `src/pages/FonctionnalitesImagerieMethode` (from `fonctionnalites-donnees-imagerie-et-methode.html`)
+- **Description**: Real image-source metadata (e.g. `HAUTE-GARONNE_2022_5cm`, GPS coordinates — orthophotos + LiDAR only, **no infrarouge claim**, per the ticket's correction), hybrid AI method (deep learning + symbolic reasoning), answers the "black box" objection.
+
+### Open items (all 3 feature pages)
+- **Client consent**: the worked example (17 Rue Pierre Bénech, Toulouse) reuses a real client's address and report figures as a public example. No consent confirmation was part of this batch — get client sign-off before this ships, or anonymize the address/figures. Flagged prominently in `docs/a-completer-checklist.md`.

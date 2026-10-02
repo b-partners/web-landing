@@ -1,0 +1,365 @@
+/* ==================================================================== */
+/* Page Fonctionnalités > Métrés et mesures                             */
+/* styles scopés sous .fonctionnalites-metre-page                      */
+/* Repris du template fonctionnalites-metre-et-mesures.html             */
+/* ==================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+.fonctionnalites-metre-page {
+  --beige: #f0ebe1;
+  --green: #4b6650;
+  --deep: #13291c;
+  --orange: #ff5a1f;
+  --peach: #ffb27d;
+  --white: #ffffff;
+  --ink: #13291c;
+  --muted: #3e4a42;
+
+  background: var(--beige);
+  color: var(--ink);
+  font-family:
+    'Outfit',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+.fonctionnalites-metre-page *,
+.fonctionnalites-metre-page *::before,
+.fonctionnalites-metre-page *::after {
+  box-sizing: border-box;
+}
+.fonctionnalites-metre-page a {
+  color: inherit;
+}
+.fonctionnalites-metre-page .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Hero ---------- */
+.fonctionnalites-metre-page .hero {
+  padding: 70px 0 150px;
+}
+.fonctionnalites-metre-page .hero h1 {
+  color: var(--orange);
+  font-size: clamp(30px, 4vw, 40px);
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 12px;
+}
+.fonctionnalites-metre-page .hero .lead {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+.fonctionnalites-metre-page .hero p {
+  margin: 0 0 14px;
+  max-width: none;
+  text-align: justify;
+}
+
+/* ---------- Bandeau "Ce que permet ..." ---------- */
+.fonctionnalites-metre-page .pq-top {
+  background: var(--green);
+  color: var(--white);
+  padding: 60px 0;
+}
+.fonctionnalites-metre-page .pq-top .wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.fonctionnalites-metre-page .pq-benefits {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.fonctionnalites-metre-page .pq-benefits li {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+.fonctionnalites-metre-page .pq-benefits svg {
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  margin-top: 2px;
+}
+.fonctionnalites-metre-page .pq-benefits span {
+  font-size: 16px;
+  line-height: 1.45;
+}
+.fonctionnalites-metre-page .pq-right {
+  background: var(--white);
+  color: var(--ink);
+  border-radius: 20px;
+  padding: 40px;
+}
+.fonctionnalites-metre-page .pq-right h2 {
+  color: var(--orange);
+  font-size: clamp(22px, 2.6vw, 28px);
+  font-weight: 600;
+  margin: 0 0 14px;
+  line-height: 1.25;
+}
+.fonctionnalites-metre-page .pq-right p {
+  margin: 0 0 22px;
+  font-size: 15px;
+}
+
+/* ---------- Sections génériques ---------- */
+.fonctionnalites-metre-page .sec {
+  padding: 80px 0;
+}
+.fonctionnalites-metre-page .sec.white {
+  background: var(--white);
+}
+.fonctionnalites-metre-page .sec h2.t {
+  text-align: center;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+.fonctionnalites-metre-page .sec.white h2.t {
+  color: var(--orange);
+}
+.fonctionnalites-metre-page .sec .intro {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 40px;
+}
+
+/* ---------- Étapes ---------- */
+.fonctionnalites-metre-page .steps {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 760px;
+  counter-reset: s;
+}
+.fonctionnalites-metre-page .steps li {
+  counter-increment: s;
+  display: flex;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+.fonctionnalites-metre-page .steps li::before {
+  content: counter(s);
+  flex: 0 0 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--orange);
+  color: var(--white);
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+}
+.fonctionnalites-metre-page .steps h3 {
+  margin: 6px 0 4px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.fonctionnalites-metre-page .steps p {
+  margin: 0;
+  font-size: 15px;
+}
+
+/* ---------- Captures d'écran ---------- */
+.fonctionnalites-metre-page .grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+.fonctionnalites-metre-page .shotwrap {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #d8d2c6;
+  box-shadow: 0 10px 30px rgba(19, 41, 28, 0.12);
+}
+.fonctionnalites-metre-page .shotwrap img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.fonctionnalites-metre-page .shotcap {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* ---------- Exemple réel ---------- */
+.fonctionnalites-metre-page .exbox {
+  background: var(--beige);
+  border-radius: 16px;
+  padding: 28px 32px;
+}
+.fonctionnalites-metre-page .exbox h3 {
+  margin: 0 0 14px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--deep);
+}
+.fonctionnalites-metre-page .exgrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 10px;
+}
+.fonctionnalites-metre-page .exgrid div {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+.fonctionnalites-metre-page .exgrid strong {
+  display: block;
+  font-size: 20px;
+  color: var(--orange);
+  font-weight: 700;
+}
+.fonctionnalites-metre-page .exgrid span {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* ---------- Encadré disclaimer ---------- */
+.fonctionnalites-metre-page .card {
+  background: var(--white);
+  color: var(--ink);
+  border: 1px solid #b8b8b8;
+  border-radius: 18px;
+  padding: 28px;
+}
+.fonctionnalites-metre-page .card h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* ---------- FAQ ---------- */
+.fonctionnalites-metre-page .faq {
+  padding: 80px 0 60px;
+}
+.fonctionnalites-metre-page .faq h2 {
+  color: var(--orange);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 28px;
+}
+.fonctionnalites-metre-page .faq-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.fonctionnalites-metre-page .faq details {
+  background: var(--white);
+  border: 1px solid #b8b8b8;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+.fonctionnalites-metre-page .faq summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  font-size: 15px;
+}
+.fonctionnalites-metre-page .faq summary::-webkit-details-marker {
+  display: none;
+}
+.fonctionnalites-metre-page .faq summary::after {
+  content: '';
+  flex: 0 0 22px;
+  height: 22px;
+  border-radius: 50%;
+  background:
+    var(--green)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E")
+    center/14px no-repeat;
+  transition: transform 0.2s;
+}
+.fonctionnalites-metre-page .faq details[open] summary::after {
+  transform: rotate(180deg);
+}
+.fonctionnalites-metre-page .faq details p {
+  margin: 0;
+  padding: 0 16px 14px;
+  font-size: 15px;
+  color: var(--muted);
+}
+/* ---------- CTA ---------- */
+.fonctionnalites-metre-page .cta-wrap {
+  padding: 20px 0 90px;
+}
+.fonctionnalites-metre-page .cta {
+  background: var(--green);
+  color: var(--white);
+  border-radius: 24px;
+  text-align: center;
+  padding: 60px 32px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.fonctionnalites-metre-page .cta h2 {
+  font-size: clamp(28px, 4vw, 46px);
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 26px;
+}
+.fonctionnalites-metre-page .btns {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fonctionnalites-metre-page .btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+}
+.fonctionnalites-metre-page .btn-orange {
+  background: var(--orange);
+  color: var(--white);
+}
+.fonctionnalites-metre-page .btn-white {
+  background: var(--white);
+  color: var(--deep);
+  border: 1px solid var(--deep);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 860px) {
+  .fonctionnalites-metre-page .pq-top .wrap {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 760px) {
+  .fonctionnalites-metre-page .hero p {
+    text-align: left;
+  }
+  .fonctionnalites-metre-page .grid2 {
+    grid-template-columns: 1fr;
+  }
+  .fonctionnalites-metre-page .exgrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .fonctionnalites-metre-page * {
+    transition: none !important;
+  }
+}

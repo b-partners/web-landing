@@ -11,6 +11,10 @@ import { Collectivity } from '@pages/Collectivity';
 import { Contact } from '@pages/Contact';
 import { ContactDemo } from '@pages/ContactDemo';
 import { Craftsman } from '@pages/Craftsman/Craftsman';
+import { Fonctionnalites } from '@pages/Fonctionnalites';
+import { FonctionnalitesImagerieMethode } from '@pages/FonctionnalitesImagerieMethode';
+import { FonctionnalitesMetresMesures } from '@pages/FonctionnalitesMetresMesures';
+import { FonctionnalitesPreDiagnostic } from '@pages/FonctionnalitesPreDiagnostic';
 import { Insurance } from '@pages/Insurance';
 import { LegalNotice } from '@pages/LegalNotice';
 import { NavigationPlan } from '@pages/Navigation-Plan';
@@ -258,6 +262,10 @@ function App() {
           <Route path="/pour-qui/couvreurs" element={<Craftsman />} />
           <Route path="/pour-qui/assureurs" element={<Insurance />} />
           <Route path="/pour-qui/collectivites" element={<Collectivity />} />
+          <Route path="/fonctionnalites" element={<Fonctionnalites />} />
+          <Route path="/fonctionnalites/metre-et-mesures" element={<FonctionnalitesMetresMesures />} />
+          <Route path="/fonctionnalites/pre-diagnostic-et-etat-de-la-toiture" element={<FonctionnalitesPreDiagnostic />} />
+          <Route path="/fonctionnalites/donnees-imagerie-et-methode" element={<FonctionnalitesImagerieMethode />} />
           <Route path="/couvreurs" element={<Navigate to="/pour-qui/couvreurs" replace />} />
           <Route path="/assurances" element={<Navigate to="/pour-qui/assureurs" replace />} />
           <Route path="/collectivites" element={<Navigate to="/pour-qui/collectivites" replace />} />
