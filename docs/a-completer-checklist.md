@@ -38,7 +38,7 @@ Checked off as answers come in. Source: BPARTNERS-3708 pages entreprise batch (s
 - [ ] Scope confirm: France + EEA — for Sofiane (Belgium/Switzerland availability). Placeholder `<mark>` removed from the page (user's call); tracked here instead
 - [x] Verify reconstructed account addresses — Instagram link (section 4.1) removed (was dead); Facebook/LinkedIn/X kept
 - [ ] Add new-site form data + uploaded files to data-collected list. Placeholder `<mark>` removed from the page (user's call); tracked here instead
-- [ ] Retention: harmonize with CGU art. 16.3 (30 days post-termination)
+- [ ] Retention: harmonize with CGU art. 16.3 (30 days post-termination). Placeholder `<mark>` removed from the page (user's call); tracked here instead
 - [x] Hosting wording: fixed — AWS, France, eu-west-3
 - [x] Subprocessor: Fintecture — not used, replaced with Stripe (only payment processor currently)
 - [x] Subprocessor: Bridge — not used anymore (migrated to Stripe), row removed

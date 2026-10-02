@@ -540,9 +540,6 @@ const sections: Section[] = [
           BIRDIA se réserve par ailleurs le droit de conserver des Données statistiques strictement anonymisées pour une durée supérieure aux durées évoquées
           ci-avant à des fins de recherche et de publication scientifique exclusivement.
         </p>
-        <p>
-          <mark className="todo">[À compléter : harmoniser avec les CGU art. 16.3 : données du Client conservées 30 jours après résiliation]</mark>
-        </p>
       </>
     ),
   },
