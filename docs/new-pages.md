@@ -64,7 +64,7 @@ Tracks pages added to the site outside the auto-generated `/template` SEO pages:
 - **Source**: `src/pages/Presse` (from `/srv/download/presse.html`)
 - **Description**: Press page — key facts about BIRDIA, press quotes/mentions, a press-release list (currently just the BPartners→BIRDIA announcement), and press contact details. The media kit section (logos/visuals/press-kit downloads) was removed entirely — user's call, not planned for now.
 - **Links fixed during import**: same `/contact-demo` and dashboard URL fixes as above.
-- **Known TODO**: 4 of 6 press-quote links are now real (Les Pépites Tech, Institut Mines-Télécom, GIP RECIA, and a new Airbus/Pléiades Neo case study added to the list). Systematic Paris Region and French AssurTech still need their article URL.
+- **Known TODO**: 4 of 6 press-quote links are now real (Les Pépites Tech, Institut Mines-Télécom, GIP RECIA, and a new Airbus/Pléiades Neo case study added to the list). The Systematic Paris Region and French AssurTech quotes (which never had a source URL) were removed entirely — user's call — instead of staying as unsourced placeholders.
 
 ## BPARTNERS-3718 — /pour-qui (persona hub + 5 persona pages)
 

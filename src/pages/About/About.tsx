@@ -125,9 +125,6 @@ export const About = () => {
             <Link className="btn btn-orange" to="/presse">
               Voir l'espace presse
             </Link>
-            <Link className="btn btn-white" to="/cas-clients">
-              Voir nos cas clients
-            </Link>
           </div>
         </div>
       </section>

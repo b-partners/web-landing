@@ -200,53 +200,9 @@ const featureRows: { label: string; cells: [boolean, boolean, boolean, boolean] 
 ];
 
 /* ------------------------------------------------------------------ */
-/* Comparatif : coût d'une inspection aujourd'hui                      */
-/* ------------------------------------------------------------------ */
-type CostCell = ReactNode;
-type CostRow = { label: string; cells: [CostCell, CostCell, CostCell] };
-
-const costRows: CostRow[] = [
-  {
-    label: 'Déplacement pour chiffrer',
-    cells: ['Oui, à chaque demande', 'Oui, avec télépilote', 'Seulement pour les chantiers retenus'],
-  },
-  { label: 'Autorisation de vol', cells: ['Non', 'Souvent, en zone urbaine', 'Non'] },
-  {
-    label: 'Délai avant devis',
-    cells: [
-      <Todo key="j1">[À demander à Sofiane : délai visite terrain]</Todo>,
-      <Todo key="j2">[À demander à Sofiane : délai drone]</Todo>,
-      <Todo key="m">[À demander à Sofiane : délai BIRDIA]</Todo>,
-    ],
-  },
-  {
-    label: 'Coût par bâtiment',
-    cells: [
-      <Todo key="e1">[À demander à Sofiane : coût visite terrain]</Todo>,
-      <Todo key="e2">[À demander à Sofiane : coût drone]</Todo>,
-      <Todo key="e3">[À demander à Sofiane : coût BIRDIA]</Todo>,
-    ],
-  },
-  { label: 'Analyse à grande échelle', cells: ['Non', 'Limitée', 'Oui, un territoire entier'] },
-];
-
-/* ------------------------------------------------------------------ */
 /* FAQ                                                                 */
 /* ------------------------------------------------------------------ */
 const faqItems: { question: string; answer: ReactNode }[] = [
-  {
-    question: 'Y a-t-il des frais cachés ?',
-    answer: (
-      <>
-        Non. Le prix couvre l'accès à la plateforme et les analyses incluses dans votre offre.{' '}
-        <Todo>[À compléter : confirmer ce qui est inclus (images, exports, utilisateurs)]</Todo>
-      </>
-    ),
-  },
-  {
-    question: 'Les images aériennes sont-elles incluses ?',
-    answer: <Todo>[À compléter : oui / non, et d'où elles proviennent (IGN, PCRS, prestataire)]</Todo>,
-  },
   {
     question: "Puis-je tester avant de m'engager ?",
     answer: <>Oui, 7 jours sans engagement sur les offres Essentiel, Pro et Expert, avec 2 analyses incluses pour tester.</>,
@@ -460,39 +416,6 @@ export const Pricing = () => {
                     </th>
                     {row.cells.map((included, i) => (
                       <td key={i}>{included ? '✓' : '—'}</td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      <section className="sec">
-        <div className="wrap">
-          <h2 className="t" style={{ color: 'var(--orange)' }}>
-            Combien coûte une inspection aujourd'hui ?
-          </h2>
-          <p className="intro">Comparez avec les méthodes que vous utilisez déjà.</p>
-          <div className="tscroll">
-            <table className="cmp">
-              <thead>
-                <tr>
-                  <th scope="col" />
-                  <th scope="col">Visite terrain seule</th>
-                  <th scope="col">Drone</th>
-                  <th scope="col">BIRDIA, puis visite ciblée</th>
-                </tr>
-              </thead>
-              <tbody>
-                {costRows.map((row) => (
-                  <tr key={row.label}>
-                    <th scope="row" style={{ background: 'var(--white)', color: 'var(--ink)' }}>
-                      {row.label}
-                    </th>
-                    {row.cells.map((cell, i) => (
-                      <td key={i}>{cell}</td>
                     ))}
                   </tr>
                 ))}

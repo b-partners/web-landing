@@ -259,10 +259,7 @@ const sections: Section[] = [
           Pour une description plus détaillée des activités et des Services de BIRDIA, nous vous invitons à consulter les{' '}
           <Link to="/cgu">conditions générales d&apos;utilisation</Link>.
         </p>
-        <p>
-          L&apos;Application BIRDIA est disponible pour le territoire français uniquement, et en langue française.{' '}
-          <mark className="todo">[À compléter : confirmer (les CGU visent la France et l&apos;Espace économique européen)]</mark>
-        </p>
+        <p>L&apos;Application BIRDIA est disponible pour le territoire français uniquement, et en langue française.</p>
         <p>
           Afin de pouvoir vous proposer les Services les plus adaptés à vos attentes, il nous est nécessaire de collecter et traiter un certain nombre de
           Données à Caractère Personnel. Pour cela, nous collectons notamment des informations relatives à votre personne.
@@ -434,12 +431,6 @@ const sections: Section[] = [
             particuliers (abonnement à la newsletter de BIRDIA).
           </li>
         </ul>
-        <p>
-          <mark className="todo">
-            [À compléter : ajouter les données des formulaires du nouveau site (profil, organisation, adresse du bâtiment, paramètres UTM) et les
-            adresses/fichiers téléversés sur la plateforme (BIRDIA sous-traitant, CGU art. 12.2)]
-          </mark>
-        </p>
       </>
     ),
   },
@@ -739,12 +730,6 @@ const sections: Section[] = [
             ))}
           </tbody>
         </table>
-        <p>
-          <mark className="todo">
-            [À compléter : ajouter les sous-traitants actuels : fournisseurs d&apos;images aériennes, outil de formulaires / CRM, emailing, analytics, hébergeur
-            du site]
-          </mark>
-        </p>
         <p>
           Si vous souhaitez avoir accès à la liste détaillée de nos Sous-Traitants, vous pouvez contacter directement BIRDIA en utilisant le{' '}
           <Link to="/contact-demo">formulaire de contact</Link> ou aux coordonnées indiquées à l&apos;article 22 de la présente politique de protection des

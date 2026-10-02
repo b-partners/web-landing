@@ -9,14 +9,6 @@ import './assets/css/campagne-publicitaire.css';
 
 const FORM_SUBJECT = 'BIRDIA (birdia.fr/campagne-publicitaire)';
 
-const trustedLogos = [
-  { label: 'Dijon Métropole', anchor: 'dijon-metropole' },
-  { label: 'Toulouse Métropole', anchor: 'toulouse-metropole' },
-  { label: 'Le Cotentin', anchor: 'le-cotentin-communaute-d-agglomeration' },
-  { label: 'Cannes Pays de Lérins', anchor: 'cannes-pays-de-lerins' },
-  { label: 'Valence Romans Agglo', anchor: 'valence-romans-agglo' },
-];
-
 export const AdvertisingCampaign = () => {
   useUpdateMeta(
     "BIRDIA | Analysez vos toitures à distance grâce à l'IA",
@@ -88,24 +80,6 @@ export const AdvertisingCampaign = () => {
                 </p>
               )}
             </form>
-          </div>
-        </div>
-      </section>
-
-      <section className="sec green">
-        <div className="wrap">
-          <h2 className="t">Ils nous font confiance</h2>
-          <div className="logos">
-            {trustedLogos.map((logo) => (
-              <Link className="lg" to={`/cas-clients#${logo.anchor}`} key={logo.anchor}>
-                {logo.label}
-              </Link>
-            ))}
-          </div>
-          <div className="btns" style={{ marginTop: '28px' }}>
-            <Link className="btn btn-orange" to="/cas-clients">
-              Voir tous les cas clients
-            </Link>
           </div>
         </div>
       </section>

@@ -79,15 +79,12 @@ export const LegalNotice = () => {
                 </tr>
                 <tr>
                   <td>TVA intracommunautaire</td>
-                  <td>
-                    <mark className="todo">[À compléter : numéro de TVA]</mark>
-                  </td>
+                  <td>FR29918072737</td>
                 </tr>
                 <tr>
                   <td>Contact</td>
                   <td>
-                    <a href="mailto:contact@birdia.fr">contact@birdia.fr</a>, <a href="tel:+33182077228">+33 1 82 07 72 28</a>{' '}
-                    <mark className="todo">[À compléter : choisir entre ce numéro (CGU) et le 06 68 62 48 36 (site)]</mark>
+                    <a href="mailto:contact@birdia.fr">contact@birdia.fr</a>, <a href="tel:+33668624836">06 68 62 48 36</a>
                   </td>
                 </tr>
               </tbody>

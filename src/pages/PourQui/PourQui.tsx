@@ -9,22 +9,12 @@ const PERSONAS = [
   { to: '/pour-qui/couvreurs', title: 'Couvreurs', text: 'Inspectez vos toitures à distance, en toute simplicité.' },
   { to: '/pour-qui/assureurs', title: 'Assureurs', text: 'Connaissez vos risques pour mieux prévenir.' },
   { to: '/pour-qui/collectivites', title: 'Collectivités', text: 'Valorisez vos images PCRS comme jamais auparavant.' },
-  {
-    to: '/pour-qui/foncieres-bailleurs-gestionnaires-de-patrimoine',
-    title: 'Foncières et bailleurs',
-    text: "Pilotez l'état de votre patrimoine bâti depuis un seul tableau de bord.",
-  },
-  {
-    to: '/particuliers/diagnostic-toiture',
-    title: 'Particuliers',
-    text: "Faites diagnostiquer votre toiture avant d'acheter, de vendre ou de rénover.",
-  },
 ];
 
 export const PourQui = () => {
   useUpdateMeta(
-    'Pour qui est fait BIRDIA ? | Couvreurs, assureurs, collectivités, foncières, particuliers',
-    "BIRDIA s'adresse aux couvreurs, aux assureurs, aux collectivités, aux foncières et bailleurs, ainsi qu'aux particuliers. Trouvez la page qui correspond à votre métier."
+    'Pour qui est fait BIRDIA ? | Couvreurs, assureurs, collectivités',
+    "BIRDIA s'adresse aux couvreurs, aux assureurs et aux collectivités. Trouvez la page qui correspond à votre métier."
   );
 
   return (

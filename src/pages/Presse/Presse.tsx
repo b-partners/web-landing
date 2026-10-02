@@ -24,16 +24,11 @@ const facts: { term: string; description: ReactNode; link?: string }[] = [
   { term: 'Marchés', description: 'Couvreurs, assureurs IARD, collectivités territoriales' },
 ];
 
-// TODO(presse): retrouver l'URL réelle de l'article Systematic Paris Region et French AssurTech (voir docs/new-pages.md).
 const quotes: { source: string; text: string; link?: string }[] = [
   {
     source: 'Les Pépites Tech, janvier 2023',
     text: "« Issue de la recherche académique française, BIRDIA a développé une IA reproduisant les étapes d'analyses des toitures d'un couvreur sur des images aériennes haute définition à 5 cm de précision, permettant d'avoir les mesures, le chiffrage et l'urgence de l'intervention. »",
     link: 'https://www.jaimelesstartups.fr/bpartners-artisans-independants/',
-  },
-  {
-    source: 'Systematic Paris Region, mars 2023',
-    text: '« BIRDIA fait partie des 10 nouveaux membres ayant rejoint le Pôle en mars 2023, une technologie innovante au service des collectivités, assureurs et artisans couvreurs ! »',
   },
   {
     source: 'Institut Mines-Télécom, 2023',
@@ -44,10 +39,6 @@ const quotes: { source: string; text: string; link?: string }[] = [
     source: 'GIP RECIA',
     text: "« On parle beaucoup d'IA en ce moment… BIRDIA, une solution pour la valorisation des orthophotographies hautes résolutions ? »",
     link: 'https://www.linkedin.com/posts/gip-recia_on-parle-beaucoup-dia-en-ce-moment-activity-7208769385103015936-8INB?utm_source=share&utm_medium=member_desktop',
-  },
-  {
-    source: 'French AssurTech, 2024',
-    text: 'BIRDIA est lauréat du concours French AssurTech 2024, qui réunit sept assureurs et mutuelles : Groupama, MACIF, MAIF, Groupe P&V, Mutuelle de Poitiers Assurances, MAAF COVEA et CNP Assurances.',
   },
   {
     source: 'Airbus Space & Defence',

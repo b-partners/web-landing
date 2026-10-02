@@ -6,19 +6,16 @@ import { GlobalDialog, GlobalSnackbar } from '@/common/components';
 import { Footer } from '@/common/components/footer';
 import { About } from '@pages/About';
 import { AdvertisingCampaign } from '@pages/Advertising-Campaign';
-import { CaseStudies } from '@pages/CaseStudies';
 import { Cgu } from '@pages/Cgu';
 import { Collectivity } from '@pages/Collectivity';
 import { Contact } from '@pages/Contact';
 import { ContactDemo } from '@pages/ContactDemo';
 import { Craftsman } from '@pages/Craftsman/Craftsman';
-import { DiagnosticToitureParticuliers } from '@pages/DiagnosticToitureParticuliers';
 import { Insurance } from '@pages/Insurance';
 import { LegalNotice } from '@pages/LegalNotice';
 import { NavigationPlan } from '@pages/Navigation-Plan';
 import { PartnerRoofers } from '@pages/PartnerRoofers';
 import { PourQui } from '@pages/PourQui';
-import { PourQuiFoncieresBailleurs } from '@pages/PourQuiFoncieresBailleurs';
 import { Presse } from '@pages/Presse';
 import { Pricing } from '@pages/Pricing';
 import { Privacy } from '@pages/Privacy';
@@ -261,8 +258,6 @@ function App() {
           <Route path="/pour-qui/couvreurs" element={<Craftsman />} />
           <Route path="/pour-qui/assureurs" element={<Insurance />} />
           <Route path="/pour-qui/collectivites" element={<Collectivity />} />
-          <Route path="/pour-qui/foncieres-bailleurs-gestionnaires-de-patrimoine" element={<PourQuiFoncieresBailleurs />} />
-          <Route path="/particuliers/diagnostic-toiture" element={<DiagnosticToitureParticuliers />} />
           <Route path="/couvreurs" element={<Navigate to="/pour-qui/couvreurs" replace />} />
           <Route path="/assurances" element={<Navigate to="/pour-qui/assureurs" replace />} />
           <Route path="/collectivites" element={<Navigate to="/pour-qui/collectivites" replace />} />
@@ -271,7 +266,6 @@ function App() {
           <Route path="/contact-demo" element={<ContactDemo />} />
           <Route path="/bpartners-devient-birdia" element={<Rebranding />} />
           <Route path="/presse" element={<Presse />} />
-          <Route path="/cas-clients" element={<CaseStudies />} />
           <Route path="/partenaires-couvreurs" element={<PartnerRoofers />} />
           <Route path="/tarifs" element={<Pricing />} />
           <Route path="/mentions-legales" element={<LegalNotice />} />

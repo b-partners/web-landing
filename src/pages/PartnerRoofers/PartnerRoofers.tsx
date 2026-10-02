@@ -56,10 +56,6 @@ const steps = [
 
 const faqItems = [
   {
-    question: 'Combien coûte la mise en relation pour un particulier ?',
-    answer: '[À compléter : gratuit / conditions]',
-  },
-  {
     question: 'Comment rejoindre le réseau ?',
     answer: 'Remplissez le formulaire ci-dessous. Nous vous recontactons pour vérifier votre activité et activer votre compte.',
   },
