@@ -1,0 +1,126 @@
+/* ==================================================================== */
+/* Page Conditions générales d'utilisation — styles scopés sous .cgu-page */
+/* Repris du template cgu.html (palette birdia.fr)                       */
+/* ==================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+.cgu-page {
+  --beige: #f0ebe1;
+  --green: #4b6650;
+  --deep: #13291c;
+  --orange: #ff5a1f;
+  --peach: #ffb27d;
+  --white: #ffffff;
+  --ink: #13291c;
+  --muted: #3e4a42;
+
+  background: var(--beige);
+  color: var(--ink);
+  font-family:
+    'Outfit',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+.cgu-page *,
+.cgu-page *::before,
+.cgu-page *::after {
+  box-sizing: border-box;
+}
+.cgu-page img {
+  max-width: 100%;
+}
+.cgu-page a {
+  color: inherit;
+}
+.cgu-page .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Document légal ---------- */
+.cgu-page .legal {
+  padding: 60px 0 80px;
+}
+.cgu-page .legal .doc {
+  background: var(--white);
+  border-radius: 18px;
+  padding: 48px 56px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.cgu-page .legal h1 {
+  color: var(--orange);
+  font-size: clamp(28px, 3.5vw, 36px);
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+.cgu-page .legal .upd {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 0 0 28px;
+}
+.cgu-page .legal h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 32px 0 10px;
+  color: var(--deep);
+}
+.cgu-page .legal h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0 6px;
+}
+.cgu-page .legal p,
+.cgu-page .legal li {
+  font-size: 15px;
+}
+.cgu-page .legal nav.toc {
+  background: var(--beige);
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin-bottom: 10px;
+}
+.cgu-page .legal nav.toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  columns: 2;
+  font-size: 14px;
+}
+.cgu-page .legal table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  margin: 10px 0;
+}
+.cgu-page .legal td {
+  border: 1px solid #d8d2c6;
+  padding: 10px 12px;
+  vertical-align: top;
+}
+.cgu-page .legal td:first-child {
+  width: 34%;
+  font-weight: 600;
+  background: #faf8f3;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 760px) {
+  .cgu-page .legal .doc {
+    padding: 28px 20px;
+  }
+  .cgu-page .legal nav.toc ul {
+    columns: 1 !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cgu-page * {
+    transition: none !important;
+  }
+}
