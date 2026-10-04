@@ -3,13 +3,13 @@
   flex-direction: column;
   text-align: center;
   border: 1px solid rgb(217, 217, 217);
-  background-color: rgb(249,247,252);
+  background-color: rgb(249, 247, 252);
   width: auto;
   min-height: 33rem;
 }
 .card-offer-image {
   width: 25%;
-  border-radius: .625rem;
+  border-radius: 0.625rem;
   margin-top: 1rem;
 }
 .offer-card__info {
