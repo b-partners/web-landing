@@ -1,0 +1,130 @@
+/* ==================================================================== */
+/* Page Mentions légales — styles scopés sous .mentions-legales-page    */
+/* Repris du template mentions-legales.html (palette birdia.fr)         */
+/* ==================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+.mentions-legales-page {
+  --beige: #f0ebe1;
+  --green: #4b6650;
+  --deep: #13291c;
+  --orange: #ff5a1f;
+  --peach: #ffb27d;
+  --white: #ffffff;
+  --ink: #13291c;
+  --muted: #3e4a42;
+
+  background: var(--beige);
+  color: var(--ink);
+  font-family:
+    'Outfit',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+.mentions-legales-page *,
+.mentions-legales-page *::before,
+.mentions-legales-page *::after {
+  box-sizing: border-box;
+}
+.mentions-legales-page img {
+  max-width: 100%;
+}
+.mentions-legales-page a {
+  color: inherit;
+}
+.mentions-legales-page .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Mentions légales ---------- */
+.mentions-legales-page .legal {
+  padding: 60px 0 80px;
+}
+.mentions-legales-page .legal .doc {
+  background: var(--white);
+  border-radius: 18px;
+  padding: 48px 56px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.mentions-legales-page .legal h1 {
+  color: var(--orange);
+  font-size: clamp(28px, 3.5vw, 36px);
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+.mentions-legales-page .legal .upd {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 0 0 28px;
+}
+.mentions-legales-page .legal h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 32px 0 10px;
+  color: var(--deep);
+}
+.mentions-legales-page .legal p,
+.mentions-legales-page .legal li {
+  font-size: 15px;
+}
+.mentions-legales-page .legal nav.toc {
+  background: var(--beige);
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin-bottom: 10px;
+}
+.mentions-legales-page .legal nav.toc ol {
+  margin: 0;
+  padding-left: 20px;
+  columns: 2;
+  font-size: 14px;
+}
+.mentions-legales-page .legal table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  margin: 10px 0;
+}
+.mentions-legales-page .legal td {
+  border: 1px solid #d8d2c6;
+  padding: 10px 12px;
+  vertical-align: top;
+}
+.mentions-legales-page .legal td:first-child {
+  width: 34%;
+  font-weight: 600;
+  background: #faf8f3;
+}
+
+/* ---------- Composants additionnels ---------- */
+.mentions-legales-page .todo {
+  background: #fff3b0;
+  color: #5a4500;
+  border-radius: 4px;
+  padding: 0 4px;
+  font-style: normal;
+  font-size: 0.92em;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 760px) {
+  .mentions-legales-page .legal .doc {
+    padding: 28px 20px;
+  }
+  .mentions-legales-page .legal nav.toc ul {
+    columns: 1 !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mentions-legales-page * {
+    transition: none !important;
+  }
+}

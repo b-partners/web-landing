@@ -1,0 +1,168 @@
+/* ==================================================================== */
+/* Page Pour qui ? (hub) — styles scopés sous .pour-qui-page             */
+/* Repris du template pour-qui.html (palette birdia.fr)                 */
+/* ==================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+.pour-qui-page {
+  --beige: #f0ebe1;
+  --green: #4b6650;
+  --deep: #13291c;
+  --orange: #ff5a1f;
+  --peach: #ffb27d;
+  --white: #ffffff;
+  --ink: #13291c;
+  --muted: #3e4a42;
+
+  background: var(--beige);
+  color: var(--ink);
+  font-family:
+    'Outfit',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+.pour-qui-page *,
+.pour-qui-page *::before,
+.pour-qui-page *::after {
+  box-sizing: border-box;
+}
+.pour-qui-page a {
+  color: inherit;
+}
+.pour-qui-page .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Hero ---------- */
+.pour-qui-page .hero {
+  padding: 70px 0 150px;
+}
+.pour-qui-page .hero h1 {
+  color: var(--orange);
+  font-size: clamp(30px, 4vw, 40px);
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 12px;
+}
+.pour-qui-page .hero .lead {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+.pour-qui-page .hero p {
+  margin: 0 0 14px;
+  max-width: none;
+  text-align: justify;
+}
+
+/* ---------- Sections génériques ---------- */
+.pour-qui-page .sec {
+  padding: 80px 0;
+}
+.pour-qui-page .sec.white {
+  background: var(--white);
+}
+
+/* ---------- Grille des personas ---------- */
+.pour-qui-page .pqgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.pour-qui-page .pqcard {
+  display: block;
+  background: var(--white);
+  border: 1px solid #b8b8b8;
+  border-radius: 18px;
+  padding: 28px;
+  text-decoration: none;
+  color: var(--ink);
+  transition: border-color 0.15s;
+}
+.pour-qui-page .pqcard:hover {
+  border-color: var(--orange);
+}
+.pour-qui-page .pqcard h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--deep);
+}
+.pour-qui-page .pqcard p {
+  margin: 0 0 14px;
+  font-size: 15px;
+  color: var(--muted);
+}
+.pour-qui-page .pqgo {
+  color: var(--orange);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* ---------- CTA ---------- */
+.pour-qui-page .cta-wrap {
+  padding: 20px 0 90px;
+}
+.pour-qui-page .cta {
+  background: var(--green);
+  color: var(--white);
+  border-radius: 24px;
+  text-align: center;
+  padding: 60px 32px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.pour-qui-page .cta h2 {
+  font-size: clamp(28px, 4vw, 46px);
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 26px;
+}
+.pour-qui-page .btns {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pour-qui-page .btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+}
+.pour-qui-page .btn-orange {
+  background: var(--orange);
+  color: var(--white);
+}
+.pour-qui-page .btn-white {
+  background: var(--white);
+  color: var(--deep);
+  border: 1px solid var(--deep);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .pour-qui-page .pqgrid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 760px) {
+  .pour-qui-page .hero p {
+    text-align: left;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pour-qui-page * {
+    transition: none !important;
+  }
+}

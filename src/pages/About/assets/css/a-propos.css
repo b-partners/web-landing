@@ -1,0 +1,294 @@
+/* ==================================================================== */
+/* Page À propos — styles scopés sous .a-propos-page                    */
+/* Repris du template a-propos.html (palette birdia.fr)                 */
+/* ==================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+.a-propos-page {
+  --beige: #f0ebe1;
+  --green: #4b6650;
+  --deep: #13291c;
+  --orange: #ff5a1f;
+  --peach: #ffb27d;
+  --white: #ffffff;
+  --ink: #13291c;
+  --muted: #3e4a42;
+
+  background: var(--beige);
+  color: var(--ink);
+  font-family:
+    'Outfit',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+.a-propos-page *,
+.a-propos-page *::before,
+.a-propos-page *::after {
+  box-sizing: border-box;
+}
+.a-propos-page img {
+  max-width: 100%;
+}
+.a-propos-page a {
+  color: inherit;
+}
+.a-propos-page .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.a-propos-page .link-orange {
+  color: var(--orange);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* ---------- Hero ---------- */
+.a-propos-page .hero {
+  padding: 70px 0 150px;
+}
+.a-propos-page .hero h1 {
+  color: var(--orange);
+  font-size: clamp(30px, 4vw, 40px);
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 12px;
+}
+.a-propos-page .hero .lead {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+.a-propos-page .hero p {
+  margin: 0 0 14px;
+  max-width: none;
+  text-align: justify;
+}
+
+/* Encadré vert qui chevauche beige / vert */
+.a-propos-page .band {
+  background: linear-gradient(var(--beige) 0 50%, var(--green) 50% 100%);
+}
+.a-propos-page .panel {
+  background: var(--green);
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 28px;
+  padding: 40px 48px;
+  margin-top: -110px;
+}
+.a-propos-page .panel h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 28px;
+}
+.a-propos-page .cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px 48px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.a-propos-page .cols h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.a-propos-page .cols ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.a-propos-page .cols li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+/* ---------- Sections génériques (gabarit pages SEO) ---------- */
+.a-propos-page .sec {
+  padding: 80px 0;
+}
+.a-propos-page .sec.white {
+  background: var(--white);
+}
+.a-propos-page .sec.green {
+  background: var(--green);
+  color: var(--white);
+}
+.a-propos-page .sec h2.t {
+  text-align: center;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+.a-propos-page .sec.white h2.t {
+  color: var(--orange);
+}
+.a-propos-page .sec .intro {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 40px;
+}
+.a-propos-page .grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.a-propos-page .card {
+  background: var(--white);
+  color: var(--ink);
+  border: 1px solid #b8b8b8;
+  border-radius: 18px;
+  padding: 28px;
+}
+.a-propos-page .card h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.a-propos-page .card .who {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 0 0 14px;
+}
+.a-propos-page .card p {
+  margin: 0 0 12px;
+  font-size: 15px;
+}
+/* ---------- Boutons ---------- */
+.a-propos-page .btns {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.a-propos-page .btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+}
+.a-propos-page .btn-orange {
+  background: var(--orange);
+  color: var(--white);
+}
+.a-propos-page .btn-white {
+  background: var(--white);
+  color: var(--deep);
+  border: 1px solid var(--deep);
+}
+
+/* ---------- FAQ ---------- */
+.a-propos-page .faq {
+  padding: 80px 0 60px;
+}
+.a-propos-page .faq h2 {
+  color: var(--orange);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 28px;
+}
+.a-propos-page .faq-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.a-propos-page .faq details {
+  background: var(--white);
+  border: 1px solid #b8b8b8;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+.a-propos-page .faq summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  font-size: 15px;
+}
+.a-propos-page .faq summary::-webkit-details-marker {
+  display: none;
+}
+.a-propos-page .faq summary::after {
+  content: '';
+  flex: 0 0 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--green)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E")
+    center/14px no-repeat;
+  transition: transform 0.2s;
+}
+.a-propos-page .faq details[open] summary::after {
+  transform: rotate(180deg);
+}
+.a-propos-page .faq details p {
+  margin: 0;
+  padding: 0 16px 14px;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+/* ---------- CTA ---------- */
+.a-propos-page .cta-wrap {
+  padding: 20px 0 90px;
+}
+.a-propos-page .cta {
+  background: var(--green);
+  color: var(--white);
+  border-radius: 24px;
+  text-align: center;
+  padding: 60px 32px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.a-propos-page .cta h2 {
+  font-size: clamp(28px, 4vw, 46px);
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 26px;
+}
+
+/* ---------- Composants additionnels ---------- */
+.a-propos-page .todo {
+  background: #fff3b0;
+  color: #5a4500;
+  border-radius: 4px;
+  padding: 0 4px;
+  font-style: normal;
+  font-size: 0.92em;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 760px) {
+  .a-propos-page .panel {
+    padding: 32px 24px;
+  }
+  .a-propos-page .cols,
+  .a-propos-page .grid3 {
+    grid-template-columns: 1fr;
+  }
+  .a-propos-page .hero p {
+    text-align: left;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .a-propos-page * {
+    transition: none !important;
+  }
+}
