@@ -22,13 +22,7 @@ export const Navbar = () => {
         <Link className="site-logo" to="/" aria-label="BIRDIA, accueil">
           <img src="/assets/images/logo.webp" alt="BIRDIA" />
         </Link>
-        <button
-          className="site-burger"
-          type="button"
-          aria-expanded={open}
-          aria-controls="site-nav-menu"
-          onClick={() => setOpen((v) => !v)}
-        >
+        <button className="site-burger" type="button" aria-expanded={open} aria-controls="site-nav-menu" onClick={() => setOpen((v) => !v)}>
           ☰
         </button>
         <ul className="site-menu" id="site-nav-menu">
