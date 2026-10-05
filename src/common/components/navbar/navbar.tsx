@@ -1,55 +1,71 @@
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
-import { PALETTE_COLORS } from '@/config/theme';
-import { Button, useMediaQuery } from '@mui/material';
+import { Env } from '@/common/utils/env';
 
-import { AdCtaButton, CTAButton, LoginButton } from '../buttons';
-import { FlexBox } from '../flex-box';
-import { NavbarButtonDrawer } from './navbar-button-drawer';
-import { LINK_ITEM_SX, NAVBAR_CONTAINER_SX, NAVBAR_SX } from './style';
+import './assets/css/navbar.css';
 import { LINKS } from './utils/constants';
 
 export const Navbar = () => {
-  const navigate = useNavigate();
-  const shouldShowDrawer = useMediaQuery('(max-width: 1100px)');
-
-  return (
-    <FlexBox component="nav" sx={NAVBAR_SX(shouldShowDrawer)}>
-      <img src={shouldShowDrawer ? '/assets/images/logo-text-white.png' : '/assets/images/logo.webp'} alt="BIRDIA" onClick={() => navigate('/')} />
-      {shouldShowDrawer ? <NavbarButtonDrawer /> : <NavbarContent />}
-    </FlexBox>
-  );
-};
-
-const NavbarContent = () => {
   const location = useLocation();
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    setOpen(false);
+  }, [location.pathname]);
 
   const showLoginButton = location.pathname !== '/diagnostic-toiture-particulier';
 
   return (
-    <FlexBox sx={NAVBAR_CONTAINER_SX}>
-      <FlexBox className="menu-flex-container" component="ul">
-        {LINKS.map(({ to, label }) => (
-          <Button
-            to={to}
-            key={to}
-            component={Link}
-            sx={{
-              ...LINK_ITEM_SX,
-              color: location.pathname === to ? PALETTE_COLORS.neon_orange : PALETTE_COLORS.black,
-            }}
-          >
-            {label}
-          </Button>
-        ))}
-      </FlexBox>
-      {showLoginButton && (
-        <FlexBox sx={showLoginButton && { gap: 5 }}>
-          <CTAButton color="forest" />
-          <LoginButton variant="text" />
-        </FlexBox>
-      )}
-      {!showLoginButton && <AdCtaButton sx={{ px: 5, transform: 'translateX(12%)' }} />}
-    </FlexBox>
+    <header className="site-header">
+      <nav className={`site-nav${open ? ' open' : ''}`} aria-label="Navigation principale">
+        <Link className="site-logo" to="/" aria-label="BIRDIA, accueil">
+          <img src="/assets/images/logo.webp" alt="BIRDIA" />
+        </Link>
+        <button
+          className="site-burger"
+          type="button"
+          aria-expanded={open}
+          aria-controls="site-nav-menu"
+          onClick={() => setOpen((v) => !v)}
+        >
+          ☰
+        </button>
+        <ul className="site-menu" id="site-nav-menu">
+          {LINKS.map(({ to, label }) => {
+            const isExternal = to.startsWith('http');
+            return (
+              <li key={to}>
+                {isExternal ? (
+                  <a href={to} target="_blank" rel="noreferrer">
+                    {label}
+                  </a>
+                ) : (
+                  <Link to={to} className={location.pathname === to ? 'active' : ''}>
+                    {label}
+                  </Link>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+        <div className="site-nav-cta">
+          {showLoginButton ? (
+            <>
+              <Link className="site-btn site-btn-dark" to="/contact-demo">
+                Réserver votre démo
+              </Link>
+              <a className="site-link-orange" href={Env.DASHBOARD_LOGIN_URL}>
+                Se connecter
+              </a>
+            </>
+          ) : (
+            <a className="site-btn site-btn-dark" href={process.env.ROOF_ANALYSE_URL} target="_blank" rel="noreferrer">
+              Obtenez votre diagnostic gratuitement
+            </a>
+          )}
+        </div>
+      </nav>
+    </header>
   );
 };
