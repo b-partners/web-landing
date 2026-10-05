@@ -1,0 +1,303 @@
+/* ==================================================================== */
+/* Blog BIRDIA — styles scopés sous .blog-page                          */
+/* Repris des maquettes de redesign du blog (palette birdia.fr)         */
+/* ==================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+.blog-page {
+  --beige: #f0ebe1;
+  --green: #4b6650;
+  --deep: #13291c;
+  --orange: #ff5a1f;
+  --peach: #ffb27d;
+  --white: #ffffff;
+  --ink: #13291c;
+  --muted: #3e4a42;
+
+  background: var(--beige);
+  color: var(--ink);
+  font-family:
+    'Outfit',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+.blog-page *,
+.blog-page *::before,
+.blog-page *::after {
+  box-sizing: border-box;
+}
+.blog-page a {
+  color: inherit;
+}
+.blog-page .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.blog-page .sec {
+  padding: 80px 0;
+}
+.blog-page .sec.white {
+  background: var(--white);
+}
+
+/* ---------- Index : hero + grille de cartes ---------- */
+.blog-page .blog-hero {
+  background: var(--green);
+  color: var(--white);
+  padding: 90px 0 70px;
+  text-align: center;
+}
+.blog-page .blog-hero h1 {
+  font-size: clamp(30px, 4vw, 44px);
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.blog-page .blog-hero p {
+  font-size: 17px;
+  color: var(--peach);
+  margin: 0;
+}
+.blog-page .bgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+}
+.blog-page .bcard {
+  display: block;
+  background: var(--white);
+  border: 1px solid #e3ded3;
+  border-radius: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--ink);
+  transition: box-shadow 0.15s;
+}
+.blog-page a.bcard:hover {
+  box-shadow: 0 10px 24px rgba(19, 41, 28, 0.12);
+}
+.blog-page .bcard.soon {
+  opacity: 0.6;
+  cursor: default;
+}
+.blog-page .bcard .ph {
+  aspect-ratio: 16 / 10;
+  background: linear-gradient(135deg, var(--green), var(--deep));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog-page .bcard .ph svg {
+  width: 46px;
+  height: 46px;
+  opacity: 0.5;
+}
+.blog-page .bcard .bbody {
+  padding: 20px 22px 24px;
+}
+.blog-page .bcard .meta {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+.blog-page .bcard h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+@media (max-width: 900px) {
+  .blog-page .bgrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 620px) {
+  .blog-page .bgrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.blog-page .btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+.blog-page .btn-dark {
+  background: var(--deep);
+  color: var(--white);
+}
+
+/* ---------- Article ---------- */
+.blog-page .article-hero {
+  padding: 60px 0 30px;
+}
+.blog-page .article-hero .meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+.blog-page .article-hero h1 {
+  color: var(--orange);
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+}
+.blog-page .prose {
+  max-width: 760px;
+  margin: 0 auto 60px;
+}
+.blog-page .prose h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--deep);
+  margin: 36px 0 12px;
+}
+.blog-page .prose h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 18px 0 8px;
+}
+.blog-page .prose p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0 0 16px;
+}
+.blog-page .prose .updated {
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: -8px;
+}
+.blog-page .prose ul,
+.blog-page .prose ol {
+  margin: 0 0 16px;
+  padding-left: 22px;
+}
+.blog-page .prose li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 6px;
+}
+.blog-page .prose a {
+  color: var(--orange);
+  text-decoration: underline;
+}
+.blog-page .prose .takeaway {
+  background: var(--beige);
+  border-left: 4px solid var(--orange);
+  border-radius: 4px;
+  padding: 18px 22px;
+  margin: 24px 0;
+}
+.blog-page .prose .takeaway h2 {
+  margin-top: 0;
+}
+.blog-page .share {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid #e3ded3;
+  margin-top: 30px;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-page .share a {
+  display: flex;
+  color: var(--deep);
+}
+.blog-page .related {
+  padding: 20px 0 80px;
+}
+.blog-page .related h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--deep);
+  margin: 0 0 24px;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-page .related .bgrid {
+  max-width: 760px;
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .blog-page .related .bgrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ---------- Tutoriels hub ---------- */
+.blog-page .tut-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 26px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.blog-page .tut-card {
+  background: var(--white);
+  border-radius: 18px;
+  padding: 36px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--ink);
+  border: 1px solid #e3ded3;
+}
+.blog-page .tut-card h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.blog-page .tut-card p {
+  margin: 0 0 18px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.blog-page .sec.green {
+  background: var(--green);
+  color: var(--white);
+}
+.blog-page .sec h2.t {
+  text-align: center;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+.blog-page .sec .intro {
+  max-width: 680px;
+  margin: 0 auto 40px;
+}
+.blog-page .fine {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 760px) {
+  .blog-page .tut-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .blog-page * {
+    transition: none !important;
+  }
+}

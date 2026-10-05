@@ -6,6 +6,9 @@ import { GlobalDialog, GlobalSnackbar } from '@/common/components';
 import { Footer } from '@/common/components/footer';
 import { About } from '@pages/About';
 import { AdvertisingCampaign } from '@pages/Advertising-Campaign';
+import { BlogIndex } from '@pages/Blog/BlogIndex';
+import { BlogPostPage } from '@pages/Blog/BlogPostPage';
+import { BlogTutoriels } from '@pages/Blog/BlogTutoriels';
 import { Cgu } from '@pages/Cgu';
 import { Collectivity } from '@pages/Collectivity';
 import { Contact } from '@pages/Contact';
@@ -258,6 +261,9 @@ function App() {
         <Route path="/template/menu" element={<TemplateMenu />} />
         <Route path="/" element={<PublicLayout />}>
           <Route path="/plan-du-site-navigation" element={<NavigationPlan />} />
+          <Route path="/blog" element={<BlogIndex />} />
+          <Route path="/blog/tutoriels" element={<BlogTutoriels />} />
+          <Route path="/blog/post/:slug" element={<BlogPostPage />} />
           <Route path="/pour-qui" element={<PourQui />} />
           <Route path="/pour-qui/couvreurs" element={<Craftsman />} />
           <Route path="/pour-qui/assureurs" element={<Insurance />} />
