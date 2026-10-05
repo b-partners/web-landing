@@ -1,11 +1,10 @@
 import { ReactNode } from 'react';
 
+import '../assets/css/blog.css';
 import { BlogPostIndexEntry } from '../data/types';
 import { formatPostDate } from '../utils/format-date';
 import { RelatedPosts } from './RelatedPosts';
 import { ShareIcons } from './ShareIcons';
-
-import '../assets/css/blog.css';
 
 type ArticleLayoutProps = {
   title: string;

@@ -2,10 +2,9 @@ import { useEffect, useState } from 'react';
 
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
+import './assets/css/blog.css';
 import { BlogCard } from './components/BlogCard';
 import { BlogPostIndexEntry } from './data/types';
-
-import './assets/css/blog.css';
 
 const PAGE_SIZE = 12;
 

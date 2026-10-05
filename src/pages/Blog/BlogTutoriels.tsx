@@ -2,10 +2,7 @@ import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
 import './assets/css/blog.css';
 
-const TUTORIALS = [
-  { title: 'Découvrez l’application mobile' },
-  { title: 'Découvrez le dashboard' },
-];
+const TUTORIALS = [{ title: 'Découvrez l’application mobile' }, { title: 'Découvrez le dashboard' }];
 
 export const BlogTutoriels = () => {
   useUpdateMeta('Tutoriels | Blog BIRDIA', 'Les tutoriels BIRDIA : prise en main de l’application mobile et du dashboard.');
@@ -33,10 +30,10 @@ export const BlogTutoriels = () => {
         <div className="wrap">
           <h2 className="t">Qui sommes-nous ?</h2>
           <p className="intro" style={{ textAlign: 'left', maxWidth: 760 }}>
-            Nous sommes BPartners SAS, l'assistant intelligent qui accélère la croissance et les encaissements des artisans et indépendants français. Nous
-            avons développé une solution de gestion d'entreprise unifiée pensée avec les artisans pour les artisans. Notre ambition est de permettre à tous
-            les artisans : d'automatiser leur édition de devis/factures ; d'avoir un outil pour encaisser leurs clients sur mobile via QR code/Lien/sms de
-            paiement ; de les soulager de la relance client ou la recherche de nouveaux clients.
+            Nous sommes BPartners SAS, l'assistant intelligent qui accélère la croissance et les encaissements des artisans et indépendants français. Nous avons
+            développé une solution de gestion d'entreprise unifiée pensée avec les artisans pour les artisans. Notre ambition est de permettre à tous les
+            artisans : d'automatiser leur édition de devis/factures ; d'avoir un outil pour encaisser leurs clients sur mobile via QR code/Lien/sms de paiement
+            ; de les soulager de la relance client ou la recherche de nouveaux clients.
           </p>
         </div>
       </section>

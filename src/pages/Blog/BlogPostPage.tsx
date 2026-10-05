@@ -2,13 +2,12 @@ import { useEffect, useState } from 'react';
 import { Navigate, useParams } from 'react-router-dom';
 
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
-import { quickStartViewerPlugins, RicosViewer } from '@wix/ricos';
+import { RicosViewer, quickStartViewerPlugins } from '@wix/ricos';
+import '@wix/ricos/css/all-plugins-viewer.css';
 
+import './assets/css/blog.css';
 import { ArticleLayout } from './components/ArticleLayout';
 import { BlogPostFull, BlogPostIndexEntry } from './data/types';
-
-import '@wix/ricos/css/all-plugins-viewer.css';
-import './assets/css/blog.css';
 
 const plugins = quickStartViewerPlugins();
 
