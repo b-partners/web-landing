@@ -14,12 +14,23 @@ html {
   margin: 0 !important;
   padding: 0 !important;
   width: 100vw !important;
-  overflow-x: hidden;
   background-color: var(--cream);
 }
 
+/* overflow-x: hidden must not be set on html, body or #root: any ancestor of
+   the sticky navbar with a non-visible overflow (even without content that
+   actually overflows it) becomes its sticky containing block instead of the
+   viewport, which breaks position: sticky. Horizontal clipping is applied
+   per-layout instead, around the page content only (see .page-overflow-guard
+   in App.tsx / TemplateLayout.tsx), so the navbar stays outside of it. */
+
 * {
   font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* Wraps page content (not the sticky navbar) to clip any horizontal overflow. */
+.page-overflow-guard {
+  overflow-x: hidden;
 }
 
 code {
