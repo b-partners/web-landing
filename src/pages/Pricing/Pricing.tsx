@@ -6,15 +6,8 @@ import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
 import './assets/css/tarifs.css';
 
-/* ------------------------------------------------------------------ */
-/* Placeholder « à compléter » — conservé verbatim depuis la maquette   */
-/* ------------------------------------------------------------------ */
 const Todo = ({ children }: { children: ReactNode }) => <mark className="todo">{children}</mark>;
 
-/* ------------------------------------------------------------------ */
-/* Icônes des offres — reprises telles quelles de /couvreurs            */
-/* (src/pages/Craftsman/Craftsman.tsx) pour la cohérence visuelle.      */
-/* ------------------------------------------------------------------ */
 const ClockIcon = () => (
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
     <circle cx="12" cy="12" r="10" />
@@ -186,7 +179,6 @@ const quotePlans: { name: string; who: string; unit: string; features: string[] 
 /* ------------------------------------------------------------------ */
 /* Comparatif : ce qui est inclus dans chaque offre                    */
 /* ------------------------------------------------------------------ */
-// Cases par offre reprises du comparatif déjà en ligne sur /couvreurs (Craftsman.tsx compareRows).
 const featureRows: { label: string; cells: [boolean, boolean, boolean, boolean] }[] = [
   { label: "Analyse automatisée de l'état des toitures à partir d'images aériennes et satellitaires", cells: [true, true, true, true] },
   { label: 'Métrés, mesures et prises de cotes à distance', cells: [true, true, true, true] },
