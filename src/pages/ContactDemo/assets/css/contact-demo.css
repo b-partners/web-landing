@@ -1,7 +1,3 @@
-/* ==================================================================== */
-/* Page Réserver une démo / Contact — styles scopés sous .contact-demo-page */
-/* Repris du template contact-demo.html (palette birdia.fr)             */
-/* ==================================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 
 .contact-demo-page {
@@ -16,7 +12,13 @@
 
   background: var(--beige);
   color: var(--ink);
-  font-family: 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-family:
+    'Outfit',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
   font-size: 16px;
   line-height: 1.55;
 }
