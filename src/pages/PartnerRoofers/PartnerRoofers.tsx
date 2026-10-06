@@ -9,7 +9,6 @@ import './assets/css/partenaires-couvreurs.css';
 
 const FORM_SUBJECT = 'Réseau de couvreurs partenaires BIRDIA (birdia.fr/partenaires-couvreurs)';
 
-// Avis repris de la page d'accueil (src/pages/home/utils/constant.tsx TESTIMONIALS).
 const reviews = [
   {
     initials: 'IB',

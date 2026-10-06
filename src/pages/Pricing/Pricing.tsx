@@ -51,7 +51,6 @@ type Plan = {
   features: { node: ReactNode; muted?: boolean }[];
 };
 
-// Prix et contenu repris de l'offre déjà en ligne sur /couvreurs (src/pages/Craftsman/Craftsman.tsx).
 const plans: Plan[] = [
   {
     name: "À l'usage",
