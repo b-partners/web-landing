@@ -7,10 +7,16 @@
         <lastmod>2025-06-23</lastmod>
     </url>
     <url>
-        <loc>https://www.birdia.fr/couvreurs</loc>
+        <loc>https://www.birdia.fr/pour-qui</loc>
         <priority>0.9</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2025-06-23</lastmod>
+        <lastmod>2026-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.birdia.fr/pour-qui/couvreurs</loc>
+        <priority>0.9</priority>
+        <changefreq>yearly</changefreq>
+        <lastmod>2026-10-05</lastmod>
     </url>
     <url>
         <loc>https://www.birdia.fr/contact</loc>
@@ -21,16 +27,16 @@
 
 
     <url>
-        <loc>https://www.birdia.fr/assurances</loc>
+        <loc>https://www.birdia.fr/pour-qui/assureurs</loc>
         <priority>0.9</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2025-06-23</lastmod>
+        <lastmod>2026-10-05</lastmod>
     </url>
     <url>
-        <loc>https://www.birdia.fr/collectivites</loc>
+        <loc>https://www.birdia.fr/pour-qui/collectivites</loc>
         <priority>0.9</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2025-06-23</lastmod>
+        <lastmod>2026-10-05</lastmod>
     </url>
     <url>
         <loc>https://www.birdia.fr/a-propos</loc>

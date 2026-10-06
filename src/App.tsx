@@ -243,8 +243,10 @@ const PublicLayout = () => {
   return (
     <>
       <Navbar />
-      <Outlet />
-      <Footer />
+      <div className="page-overflow-guard">
+        <Outlet />
+        <Footer />
+      </div>
     </>
   );
 };
@@ -266,9 +268,6 @@ function App() {
           <Route path="/fonctionnalites/metre-et-mesures" element={<FonctionnalitesMetresMesures />} />
           <Route path="/fonctionnalites/pre-diagnostic-et-etat-de-la-toiture" element={<FonctionnalitesPreDiagnostic />} />
           <Route path="/fonctionnalites/donnees-imagerie-et-methode" element={<FonctionnalitesImagerieMethode />} />
-          <Route path="/couvreurs" element={<Navigate to="/pour-qui/couvreurs" replace />} />
-          <Route path="/assurances" element={<Navigate to="/pour-qui/assureurs" replace />} />
-          <Route path="/collectivites" element={<Navigate to="/pour-qui/collectivites" replace />} />
           <Route path="/a-propos" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/contact-demo" element={<ContactDemo />} />
