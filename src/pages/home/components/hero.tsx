@@ -28,6 +28,7 @@ export const Hero = () => {
         <FlexBox sx={{ flexDirection: 'column', mx: 'auto', gap: 4, maxWidth: { sm: '800px', xl: '1000px', xxl: '1200px' } }}>
           <Typography
             variant="h2"
+            component="h1"
             sx={{
               textAlign: 'center',
               color: 'white',
