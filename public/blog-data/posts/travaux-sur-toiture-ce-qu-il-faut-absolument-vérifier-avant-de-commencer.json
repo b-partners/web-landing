@@ -1,0 +1,472 @@
+{
+  "id": "travaux-sur-toiture-ce-qu-il-faut-absolument-vérifier-avant-de-commencer",
+  "slug": "travaux-sur-toiture-ce-qu-il-faut-absolument-vérifier-avant-de-commencer",
+  "title": "Travaux sur toiture : ce qu’il faut absolument vérifier avant de commencer",
+  "excerpt": "Avant d’engager des travaux sur toiture, vérifiez ces points essentiels pour éviter mauvaises surprises, surcoûts et sinistres.",
+  "firstPublishedDate": "2025-09-06T22:00:00.000Z",
+  "minutesToRead": 3,
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_47646e446e57354b427a73~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_47646e446e57354b427a73~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ze2i67469",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un chantier de toiture représente toujours un investissement important et une étape clé dans la vie d’un bâtiment. Pourtant, beaucoup de propriétaires ou de syndics se lancent dans des travaux sans vérifier au préalable certains éléments essentiels. Résultat : devis mal calibrés, découvertes imprévues en cours de chantier, voire sinistres mal pris en charge par l’assurance. Pour éviter ces écueils, il est indispensable de bien préparer ses ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "travaux sur toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " en contrôlant l’état du toit, la faisabilité des interventions et les aspects administratifs. Cet article fait le point sur ce qu’il faut absolument vérifier avant de débuter.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "egu5e7470",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "a881g7479",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "2aqrc7472",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "skh1b7471",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Avant tout chantier, il faut évaluer l’état réel de la couverture, de la charpente et de l’isolation.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "236hk7474",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ognz87473",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Vérifier la conformité administrative et les autorisations nécessaires est essentiel.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "so6ze7476",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ryysn7475",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un diagnostic préalable permet de cibler les travaux et d’éviter les mauvaises surprises.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "x7yg37478",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "m86c47477",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Anticiper le budget grâce à une expertise détaillée limite les risques de surcoûts.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "vdrt47480",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vérifier l’état de la toiture et de la charpente",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3izjb7481",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La première étape avant d’engager des travaux sur toiture est de connaître l’état exact de la couverture et de sa structure. Beaucoup de problèmes d’infiltration ne proviennent pas des tuiles ou ardoises visibles, mais d’éléments plus discrets : écran sous-toiture défectueux, liteaux abîmés, charpente fragilisée.Un simple contrôle visuel depuis le sol est souvent insuffisant. Il est recommandé de faire appel à un expert ou à un couvreur qualifié pour inspecter la toiture. Un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture complet",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " permet par exemple de détecter les points de faiblesse invisibles et d’orienter vers une réparation ciblée ou une réfection complète. Cette étape conditionne directement la qualité et la durabilité des futurs travaux.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "d9m4p7482",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vérifier les obligations administratives et réglementaires",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jod9w7483",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Avant de débuter des travaux sur toiture, il est indispensable de vérifier les démarches administratives nécessaires. Dans certains cas, une simple déclaration préalable en mairie est obligatoire, notamment en cas de modification de l’aspect extérieur du toit (changement de matériau, ajout de fenêtres de toit). Pour les bâtiments situés en zone protégée ou classée, l’avis de l’Architecte des Bâtiments de France peut être ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "requis.Il",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "http://requis.Il"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " faut également s’assurer que les travaux envisagés respectent les normes en vigueur, notamment en matière d’isolation thermique (RE2020) et de sécurité incendie. Enfin, il est recommandé de vérifier les clauses du contrat d’assurance habitation : certains assureurs exigent des justificatifs d’entretien régulier pour garantir la prise en charge des sinistres liés à la toiture.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "3762m7484",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Vérifier le budget et la faisabilité du chantier",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vftgz7485",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L’un des principaux pièges des travaux sur toiture est le décalage entre le devis initial et le coût réel. Pour l’éviter, il est crucial d’obtenir une expertise précise avant de lancer les appels d’offres. Cette expertise permet d’identifier les travaux incontournables (isolation, zinguerie, étanchéité) et d’éviter des postes de dépenses imprévus.Prenons l’exemple d’une maison dont la couverture semble abîmée. Sans expertise préalable, le devis peut se limiter au remplacement des tuiles. Or, si la charpente présente des signes de faiblesse, le budget réel grimpera de plusieurs milliers d’euros. Une estimation réaliste en amont est donc la clé pour éviter les mauvaises surprises.Aujourd’hui, des solutions modernes comme l’",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "inspection toiture par drone",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " permettent d’obtenir un diagnostic précis et documenté, sans démontage et sans risque pour les intervenants. Elles facilitent aussi la comparaison des devis et garantissent une meilleure maîtrise du budget global.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "d14887486",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3fvv77487",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Engager des travaux sur toiture sans préparation est risqué : défaut de diagnostic, oublis réglementaires ou devis incomplets peuvent rapidement transformer le chantier en casse-tête coûteux. Pour sécuriser son projet, il est essentiel de vérifier l’état réel de la toiture et de la charpente, de respecter les obligations administratives et de s’appuyer sur une estimation fiable des coûts.Chez Birdia, nous proposons une approche innovante qui combine drones et intelligence artificielle pour réaliser des diagnostics complets, rapides et précis. Cette solution permet aux propriétaires et gestionnaires de biens d’aborder leurs travaux sur toiture avec une vision claire et un budget maîtrisé, tout en réduisant les risques liés aux méthodes traditionnelles.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-09-06T22:00:00.000Z",
+      "updatedTimestamp": "2025-09-06T22:00:00.000Z",
+      "id": "travaux-sur-toiture-ce-qu-il-faut-absolument-vérifier-avant-de-commencer"
+    }
+  }
+}

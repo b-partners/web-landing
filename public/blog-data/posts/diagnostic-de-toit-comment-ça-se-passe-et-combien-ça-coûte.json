@@ -1,0 +1,592 @@
+{
+  "id": "diagnostic-de-toit-comment-ça-se-passe-et-combien-ça-coûte",
+  "slug": "diagnostic-de-toit-comment-ça-se-passe-et-combien-ça-coûte",
+  "title": "Diagnostic de toit : comment ça se passe et combien ça coûte ?",
+  "excerpt": "Découvrez comment se déroule un diagnostic de toit et quel est son coût moyen en 2025 pour anticiper vos travaux en toute sérénité.",
+  "firstPublishedDate": "2025-09-14T22:00:00.000Z",
+  "minutesToRead": 3,
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_7aff7cb9ad204dce8b99a237a75e297b~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_7aff7cb9ad204dce8b99a237a75e297b~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "yfpff4489",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un toit en bon état est essentiel pour protéger un bâtiment des intempéries, garantir son confort thermique et préserver sa valeur. Pourtant, de nombreux propriétaires ou syndics de copropriétés attendent l’apparition de fuites ou d’infiltrations pour agir. Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic de toit",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est une étape clé qui permet de détecter les problèmes en amont et d’éviter des réparations coûteuses. Comment se déroule cette expertise et quel budget prévoir en 2025 ? Cet article vous apporte des réponses claires et concrètes.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "dkc4f4490",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "ka7xp4499",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "qo53c4492",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "i82us4491",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le diagnostic de toit consiste à analyser l’état de la couverture, de la charpente, de l’isolation et de la zinguerie.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "1rzzb4494",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "uyg2w4493",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Il peut être visuel, technique ou assisté par drone selon le niveau de précision recherché.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "tcjui4496",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "hncxf4495",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le coût d’un diagnostic varie en moyenne de 150 à 800 € selon la méthode utilisée et la taille du bâtiment.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "5q9p14498",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "agh744497",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un diagnostic régulier permet d’anticiper les travaux et de prolonger la durée de vie du toit.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "25tww4500",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comment se déroule un diagnostic de toit ?",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "5sv1n4501",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un diagnostic de toit commence généralement par une inspection visuelle extérieure et intérieure. L’expert ou le couvreur observe l’état de la couverture (tuiles, ardoises, zinc), recherche des signes d’usure ou de déplacement et vérifie la présence d’éventuelles fissures ou infiltrations.À l’intérieur du bâtiment, l’analyse porte sur la charpente, les combles et les plafonds pour identifier les traces d’humidité, de condensation ou d’attaques parasitaires. Dans certains cas, des outils complémentaires sont utilisés : caméra thermique pour repérer les déperditions de chaleur, humidimètre pour mesurer le taux d’humidité, ou encore drone pour inspecter les zones difficilement accessibles.Le rapport final fournit une vision claire de l’état du toit, avec des recommandations adaptées : entretien simple, réparations ciblées ou réfection partielle/complète. Avant de lancer des travaux, il est fortement conseillé de réaliser un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture complet",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " afin de cibler les interventions réellement nécessaires.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "lf6er4502",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Combien coûte un diagnostic de toit en 2025 ?",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3n0xz4503",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le coût d’un diagnostic de toit varie en fonction de plusieurs critères : taille du bâtiment, complexité de la toiture, accessibilité et outils mobilisés. En moyenne, on distingue trois niveaux :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "wdir24510",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "2e5tq4505",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Diagnostic visuel simple",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "4jhbv4504",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : entre 150 et 300 €, réalisé par un couvreur ou un expert.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "aw20b4507",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Diagnostic approfondi avec outils de mesure",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "6q7fs4506",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : entre 300 et 600 €, incluant caméra thermique, humidimètre ou tests d’étanchéité.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "mbzsc4509",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Diagnostic par drone",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "jj4z44508",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : entre 400 et 800 €, offrant une analyse très précise avec prise de photos et vidéos haute définition.Bien que le prix puisse sembler élevé, un diagnostic précis évite souvent des dépenses bien plus importantes liées à des réparations imprévues. À titre d’exemple, une infiltration non détectée peut coûter plusieurs milliers d’euros en dégâts des eaux et en réparations structurelles.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "x2pb64511",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Exemple concret : l’intérêt d’un diagnostic complet",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2bcvf4512",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Prenons l’exemple d’un immeuble en copropriété à Lyon, dont la toiture en ardoise date de plus de 40 ans. Les copropriétaires envisagent une réfection globale, estimée à près de 250 000 €. Avant d’engager les travaux, un diagnostic de toit par drone est réalisé. Les images révèlent que 80 % de la couverture est encore en bon état, mais que certaines zones précises présentent des ardoises fissurées et une zinguerie défaillante.Résultat : au lieu d’une réfection totale, un plan de travaux partiels est établi, ramenant le budget à environ 90 000 €. L’investissement dans un diagnostic précis a permis d’économiser plus de 150 000 € tout en garantissant la sécurité du bâtiment.Ce type de démarche illustre l’intérêt croissant des nouvelles technologies comme l’",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "inspection toiture par drone",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", qui apporte une vision claire et documentée à moindre risque pour les intervenants.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "hmko94513",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wsom44514",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic de toit",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est une étape incontournable pour anticiper les travaux, maîtriser son budget et prolonger la durée de vie de son patrimoine immobilier. Selon la méthode choisie, son coût varie de 150 à 800 €, mais il représente un investissement rentable face aux économies générées.Chez Birdia, nous avons développé une approche innovante grâce à l’usage des drones et de l’intelligence artificielle. Cette solution permet d’obtenir un diagnostic rapide, précis et non intrusif, idéal pour les particuliers comme pour les gestionnaires de biens. Une nouvelle façon d’aborder l’entretien et la rénovation des toitures avec plus de sérénité.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-09-14T22:00:00.000Z",
+      "updatedTimestamp": "2025-09-14T22:00:00.000Z",
+      "id": "diagnostic-de-toit-comment-ça-se-passe-et-combien-ça-coûte"
+    }
+  }
+}

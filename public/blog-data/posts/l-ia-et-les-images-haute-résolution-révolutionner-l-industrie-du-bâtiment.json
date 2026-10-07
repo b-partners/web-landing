@@ -1,0 +1,253 @@
+{
+  "id": "l-ia-et-les-images-haute-résolution-révolutionner-l-industrie-du-bâtiment",
+  "slug": "l-ia-et-les-images-haute-résolution-révolutionner-l-industrie-du-bâtiment",
+  "title": "L’IA et les images haute résolution : révolutionner l’industrie du bâtiment",
+  "excerpt": "BIRDIA propose une technologie qui associe deep learning et raisonnement symbolique pour transformer chaque image en donnée exploitable.",
+  "firstPublishedDate": "2025-05-08T11:52:15.473Z",
+  "minutesToRead": 2,
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_8c2db0976f1d4d869cfcd12565195d00~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_8c2db0976f1d4d869cfcd12565195d00~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "98ef86164",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L’intelligence artificielle couplée à l’imagerie aérienne haute résolution transforme la manière d’analyser les toitures et les infrastructures. BIRDIA propose une technologie qui associe deep learning et raisonnement symbolique pour transformer chaque image en donnée exploitable.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "fdtx86165",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "1. Une précision inégalée grâce aux images HD",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0jbz56166",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les images aériennes à 5 cm de précision permettent une analyse fine des toitures : usure, dégradations, pente, matériaux. Contrairement aux méthodes traditionnelles, ces données sont capturées sans intervention physique, limitant ainsi les risques pour les professionnels et réduisant les coûts d’inspection.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "0fs8k6167",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "2. Des diagnostics rapides et fiables",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vctku6168",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les modèles de BIRDIA sont capables de détecter les signes avant-coureurs de dégradation grâce à une analyse automatisée des images. La précision des algorithmes permet de générer des rapports en temps réel, offrant une vision claire de l’état des toitures sans déplacement sur le terrain.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "s99le6169",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "3. Une technologie qui transforme les métiers",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3ylk66170",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les couvreurs, l’IA représente un gain de productivité significatif : moins de temps perdu en déplacements, plus d’efficacité dans la prise de décision. Les assureurs, quant à eux, peuvent anticiper les risques et gérer les sinistres de manière proactive. Les collectivités bénéficient d’une meilleure gestion de leurs infrastructures avec un suivi automatisé des zones sensibles.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "nvubp6171",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "4. Des bénéfices économiques et opérationnels",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "licsp6172",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Réduire les inspections physiques signifie économiser sur les coûts de main-d’œuvre et de transport. Les rapports générés automatiquement permettent aux professionnels de planifier les interventions en fonction des priorités, garantissant ainsi une meilleure gestion des ressources.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "5e9vt6173",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": []
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jmbq26174",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "BIRDIA combine l’IA et les images aériennes HD pour offrir une solution unique aux professionnels du bâtiment. Que vous soyez couvreur, assureur ou gestionnaire de patrimoine, cette technologie vous permet d’optimiser vos interventions tout en améliorant la sécurité et la précision des diagnostics.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-05-08T11:52:15.473Z",
+      "updatedTimestamp": "2025-05-08T11:52:15.473Z",
+      "id": "l-ia-et-les-images-haute-résolution-révolutionner-l-industrie-du-bâtiment"
+    }
+  }
+}

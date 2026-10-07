@@ -1,0 +1,550 @@
+{
+  "id": "est-ce-rentable-d-isoler-ses-combles",
+  "slug": "est-ce-rentable-d-isoler-ses-combles",
+  "title": "Est-ce rentable d’isoler ses combles ?",
+  "excerpt": "Isoler ses combles réduit la facture énergétique jusqu’à 30 %. Découvrez pourquoi cette rénovation est rentable et quelles méthodes privilégier.",
+  "firstPublishedDate": "2025-09-01T22:00:00.000Z",
+  "minutesToRead": 3,
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_365533756a674a646a4173~mv2_d_3144_2281_s_2.jpg/v1/fill/w_1000,h_726,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_365533756a674a646a4173~mv2_d_3144_2281_s_2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "8ok8c6993",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les combles sont responsables d’une grande partie des déperditions thermiques d’une maison. En hiver, la chaleur s’échappe par le toit, tandis qu’en été, la chaleur extérieure s’infiltre facilement par la toiture. Réaliser des travaux pour ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "isoler ses combles",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est donc une démarche incontournable pour améliorer le confort et réduire les factures énergétiques. Mais au-delà de l’aspect écologique et pratique, beaucoup se demandent : est-ce vraiment rentable ? Cet article analyse les gains possibles, le retour sur investissement et les différentes solutions pour rentabiliser cette rénovation.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "wp3zh6994",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "44j1v7003",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "oxza26996",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "zcjzo6995",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Isoler ses combles permet jusqu’à 30 % d’économies sur la facture de chauffage.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "uq5506998",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "qu6w06997",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le coût des travaux est amorti en quelques années grâce aux économies d’énergie.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "m1qvj7000",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "egl836999",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Plusieurs aides financières rendent l’opération encore plus accessible.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "5bmyu7002",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "7s97u7001",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "L’isolation améliore le confort thermique et la valeur immobilière du logement.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "ccrzi7004",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les économies d’énergie réalisées grâce à l’isolation des combles",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "v50my7005",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le toit est le principal point de fuite énergétique d’une maison : jusqu’à 30 % des pertes de chaleur se font par la toiture non isolée. En isolant ses combles, on réduit considérablement ces pertes, ce qui se traduit immédiatement par une baisse des consommations de chauffage en hiver et de climatisation en été.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vlk3v7006",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Par exemple, dans une maison de 100 m² chauffée au gaz, la facture annuelle peut atteindre 1 500 €. Une isolation performante des combles permettrait d’économiser entre 400 et 500 € par an. Le gain est encore plus important dans les logements anciens, mal isolés à l’origine.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "z88r07007",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En plus des économies, cette intervention améliore le confort thermique : une température plus homogène, moins de courants d’air et une protection contre la chaleur estivale.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "2ol867008",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le coût des travaux et le retour sur investissement",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mbdjf7009",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le prix pour isoler ses combles dépend de la technique choisie (isolation par soufflage, panneaux ou sarking) et du type de combles (perdus ou aménageables). En moyenne, il faut compter entre 20 et 70 € par m², pose comprise.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "48hr17010",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Avec les économies réalisées chaque année, le retour sur investissement se situe généralement entre 4 et 8 ans. Ce délai peut être encore réduit grâce aux aides financières comme MaPrimeRénov’, les certificats d’économies d’énergie (CEE) ou la TVA réduite.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ev3aq7011",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Investir dans l’isolation des combles est donc rentable non seulement à court terme, mais aussi sur le long terme, puisque la durée de vie des isolants dépasse souvent 30 ans.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "gsdnc7012",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un impact sur la valeur et la durabilité du logement",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "k9tc37013",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Au-delà des économies, isoler ses combles valorise le patrimoine immobilier. Un logement bien isolé obtient une meilleure note au diagnostic de performance énergétique (DPE), ce qui le rend plus attractif à la vente ou à la location.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "uhozz7014",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "De plus, une isolation efficace réduit les variations de température et limite les risques d’humidité ou de condensation dans les combles. Cela protège également la charpente et prolonge la durée de vie de la toiture.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nntb77015",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour garantir la performance des travaux, il est recommandé de réaliser au préalable un diagnostic toiture complet. Ce contrôle permet d’identifier les faiblesses de la couverture, de la ventilation et de l’isolation existante avant d’engager des travaux.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "ir4iz7016",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "i1nwc7017",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Isoler ses combles est sans conteste l’une des rénovations les plus rentables dans une maison. Avec jusqu’à 30 % d’économies d’énergie, un retour sur investissement rapide et un gain de confort immédiat, cette intervention coche toutes les cases de la performance énergétique. Elle constitue également un atout immobilier en cas de revente et contribue à préserver la toiture et la charpente.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "soez57018",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour optimiser vos travaux, l’inspection préalable est primordiale. Chez ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Birdia",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", nous proposons une approche innovante basée sur l’imagerie par drone afin d’analyser l’état du toit et anticiper les interventions nécessaires. Une solution moderne et sécurisée pour garantir que votre isolation repose sur une toiture saine et durable.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-09-01T22:00:00.000Z",
+      "updatedTimestamp": "2025-09-01T22:00:00.000Z",
+      "id": "est-ce-rentable-d-isoler-ses-combles"
+    }
+  }
+}

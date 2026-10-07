@@ -11,8 +11,10 @@
 # production
 /build
 
-# generated at build time by scripts/fetch-blog-posts.mjs
-/public/blog-data
+# NOTE: /public/blog-data is intentionally NOT ignored right now — it's committed, static
+# content scraped from blog.birdia.fr (see scripts/scrape-birdia-blog.mjs) while the Wix
+# Blog API fetch (scripts/fetch-blog-posts.mjs) is deactivated. Re-ignore it if/when the
+# Wix fetch is reactivated and this becomes build-time-generated again.
 
 # misc
 .DS_Store

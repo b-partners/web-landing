@@ -1,0 +1,466 @@
+{
+  "id": "composition-d-une-toiture-les-éléments-essentiels-à-connaître",
+  "slug": "composition-d-une-toiture-les-éléments-essentiels-à-connaître",
+  "title": "Composition d’une toiture : les éléments essentiels à connaître",
+  "excerpt": "Découvrez la composition toiture et ses éléments essentiels : couverture, charpente, isolation et zinguerie pour un toit durable et performant.",
+  "firstPublishedDate": "2025-09-06T22:00:00.000Z",
+  "minutesToRead": 2,
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_6d5f7645615a697a643273~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_6d5f7645615a697a643273~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "mtzgc5176",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une toiture ne se résume pas à une simple couverture de tuiles ou d’ardoises. C’est un système complexe où chaque élément joue un rôle clé dans l’étanchéité, l’isolation et la durabilité du bâtiment. Comprendre la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "composition toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est indispensable avant toute rénovation, réparation ou construction neuve. Cet article propose un tour d’horizon des principaux composants d’un toit et de leur importance dans le fonctionnement global de l’ouvrage.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "al3uz5177",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "xxlie5186",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "0qs1e5179",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "jm86c5178",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La composition toiture comprend plusieurs couches : charpente, isolation, écran, couverture et zinguerie.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "sfbgn5181",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "17o4w5180",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Chaque élément a un rôle précis : solidité, étanchéité, confort thermique, évacuation des eaux.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "blug55183",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "6gaor5182",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une toiture bien conçue augmente la valeur et la performance énergétique d’un bâtiment.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "dxuld5185",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "pvucl5184",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un diagnostic préalable permet d’anticiper les réparations et d’optimiser la longévité du toit.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "49ucl5187",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La structure porteuse : la charpente",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pc0005188",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La charpente est le squelette de la toiture. Généralement en bois (traditionnelle ou fermettes industrielles) ou parfois en métal, elle soutient l’ensemble de la couverture et assure la répartition des charges. Une charpente en bon état est essentielle pour garantir la sécurité et la stabilité du toit.Lorsqu’elle présente des signes de faiblesse (fissures, attaques d’insectes, déformations), des travaux de consolidation ou de remplacement deviennent indispensables. Un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture complet",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " permet de vérifier l’état de la charpente et d’identifier les zones à risque avant d’engager des travaux plus lourds.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "970cw5189",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les couches intermédiaires : isolation et écran sous-toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3oj205190",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L’isolation fait partie intégrante de la composition toiture moderne. Elle peut être réalisée par l’intérieur (sous rampants) ou par l’extérieur (sarking). Les matériaux les plus courants sont la laine minérale, la laine de bois, ou le polyuréthane. Son rôle est double : limiter les déperditions de chaleur en hiver et protéger contre la surchauffe estivale.L’écran sous-toiture, souvent méconnu, est une membrane posée sous la couverture. Il améliore l’étanchéité en cas d’infiltration, protège l’isolant et favorise la ventilation de la toiture. Dans les constructions récentes, il est devenu quasi indispensable pour prolonger la durée de vie du toit.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "nhsyv5191",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La couverture et la zinguerie : protection et évacuation",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "p96qm5192",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La couverture est l’élément visible de la composition toiture. Selon les régions et les styles architecturaux, elle peut être réalisée en tuiles (terre cuite, béton), ardoises naturelles, zinc, bac acier ou encore en matériaux composites. Son rôle principal est de protéger le bâtiment contre les intempéries et d’assurer l’étanchéité.La zinguerie complète la couverture en gérant l’écoulement des eaux de pluie. Elle inclut les gouttières, chéneaux, rives, abergements de cheminées et descentes d’eau pluviale. Mal conçue ou mal entretenue, elle peut être à l’origine d’infiltrations coûteuses. C’est pourquoi une inspection régulière, par exemple via l’",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "inspection toiture par drone",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", est une solution moderne pour repérer rapidement les défauts.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "6da7m5193",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "j4nu95194",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "composition toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " repose sur une combinaison d’éléments complémentaires : charpente, isolation, écran, couverture et zinguerie. Chacun joue un rôle essentiel dans la protection, la performance énergétique et la durabilité du bâtiment. Comprendre cette structure permet de mieux anticiper les besoins en rénovation et de prolonger la durée de vie de son patrimoine immobilier.Chez Birdia, nous proposons une approche innovante pour analyser l’état réel d’une toiture grâce à l’utilisation de drones et d’intelligence artificielle. Cette technologie offre un diagnostic précis, rapide et sans danger, afin d’optimiser les travaux et d’assurer la pérennité du toit.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-09-06T22:00:00.000Z",
+      "updatedTimestamp": "2025-09-06T22:00:00.000Z",
+      "id": "composition-d-une-toiture-les-éléments-essentiels-à-connaître"
+    }
+  }
+}

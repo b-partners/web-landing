@@ -1,0 +1,685 @@
+{
+  "id": "condensation-en-toiture-causes-risques-et-solutions",
+  "slug": "condensation-en-toiture-causes-risques-et-solutions",
+  "title": "Condensation en toiture : causes, risques et solutions",
+  "excerpt": "La condensation en toiture est un phénomène souvent sous-estimé, mais aux conséquences potentiellement graves.",
+  "firstPublishedDate": "2025-07-18T15:09:07.385Z",
+  "minutesToRead": 4,
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_68774d2d714d7247573049~mv2_d_4288_2848_s_4_2.jpg/v1/fill/w_1000,h_664,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_68774d2d714d7247573049~mv2_d_4288_2848_s_4_2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "z0j2i5609",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La condensation en toiture est un phénomène souvent sous-estimé, mais aux conséquences potentiellement graves pour l’intégrité d’un bâtiment. Elle concerne aussi bien les maisons individuelles que les copropriétés et bâtiments anciens ou rénovés. Lorsqu'elle n'est pas maîtrisée, cette humidité interne peut engendrer moisissures, dégradation des matériaux, voire des pertes d’isolation thermique. Le mot-clé ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "condensation toiture",
+              "decorations": [
+                {
+                  "type": "ITALIC"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " regroupe une problématique technique aux causes multiples et aux impacts réels, qu’il est crucial de comprendre pour mieux s’en prémunir. Que vous soyez propriétaire, gestionnaire immobilier ou membre de syndic, cet article vous éclaire sur les origines de la condensation, ses dangers pour votre toiture, et les solutions durables pour y remédier.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "imvc25610",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "pgglq5619",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "dvcgo5612",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "v4fev5611",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La condensation toiture résulte d’un déséquilibre entre humidité intérieure et ventilation.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ppsco5614",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "tzqcx5613",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Elle peut dégrader l’isolant, la charpente et favoriser les moisissures.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "i8vly5616",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "v4aiy5615",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une bonne ventilation et un diagnostic précis sont indispensables pour la traiter.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "cb80o5618",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "7eu1q5617",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Des technologies d’inspection innovantes permettent de détecter précocement les zones à risque.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "hu4w95620",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Qu’est-ce qui cause la condensation en toiture ?",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4n81d5621",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La condensation toiture se forme lorsqu’un air intérieur chargé d’humidité entre en contact avec une surface froide, comme la sous-face de la couverture. Ce phénomène physique est particulièrement fréquent dans les combles mal ventilés, les toitures mal isolées ou dans les habitations où l’humidité intérieure est importante (salle de bain, cuisine, buanderie). Plusieurs facteurs peuvent aggraver cette situation :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "eehtx5630",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "mo38f5623",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "k4qlj5622",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une isolation posée sans pare-vapeur ou avec un pare-vapeur mal positionné,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "q1uno5625",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "db35x5624",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une ventilation inexistante ou insuffisante dans les combles,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "77dwp5627",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "2n6l95626",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une absence d’écran sous-toiture,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "6a7tx5629",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "1vrzn5628",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Des fuites d’air chaud provenant de l’habitat vers la toiture.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "j63lm5631",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Lorsque l’air chaud et humide stagne dans les combles, il condense au contact des parois froides. Ce phénomène est accentué en hiver, période où l’écart de température entre l’intérieur et l’extérieur est le plus marqué. Pour en comprendre l’origine exacte, un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture complet",
+              "decorations": [
+                {
+                  "type": "ITALIC"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est essentiel. Ce dernier permet d’analyser la structure de la couverture, l’état de l’isolation et la circulation de l’air.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "qgjz25632",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quels sont les risques liés à la condensation toiture ?",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "na56c5633",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les effets de la condensation dans une toiture peuvent être insidieux au départ, mais évoluer rapidement en dommages structurels. L’un des premiers signes visibles est l’apparition de moisissures sur les pentes de toiture ou sur les plafonds des pièces supérieures. À terme, l’humidité peut dégrader les matériaux isolants (laine de verre, laine de roche, etc.), diminuant leur efficacité thermique et augmentant la consommation énergétique du logement.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ej8b45634",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pire encore, si la condensation est persistante, elle peut fragiliser la charpente en bois par un phénomène de pourrissement lent. Certaines pièces métalliques de fixation peuvent également rouiller prématurément, compromettant la stabilité globale de l’ensemble. Enfin, cette humidité ambiante contribue à un environnement propice aux bactéries, acariens et spores, avec des impacts sur la qualité de l’air intérieur et la santé des occupants.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gcob15635",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans le cadre d’une copropriété, la condensation toiture peut aussi être source de litiges entre occupants et gestionnaires, notamment si elle entraîne des infiltrations dans les logements ou des dégradations visibles. Il est donc crucial de prendre ce problème au sérieux et de mettre en place des actions correctives rapidement.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "frb3k5636",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comment prévenir et traiter efficacement la condensation dans une toiture ?",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qjijy5637",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La solution à la condensation toiture passe par une approche globale, combinant diagnostic technique, amélioration de la ventilation et reprise éventuelle de l’isolation. La première étape consiste à vérifier la ventilation des combles. Une toiture bien ventilée permet à l’air de circuler entre l’isolant et la couverture, évitant la stagnation de l’humidité. Cela passe par la pose d’entrées d’air en bas de pente et d’évacuations en faîtage. Dans les constructions récentes, ces dispositifs sont souvent prévus d’origine. Mais dans l’ancien, ils sont parfois absents ou obstrués.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "tmf2r5638",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L’isolation doit également être revue. Un pare-vapeur correctement positionné du côté chaud de la pièce permet de limiter les transferts d’humidité. En cas de rénovation, il est indispensable de choisir des matériaux adaptés et d’assurer une pose rigoureuse. Un écran sous-toiture HPV (hautement perméable à la vapeur) joue aussi un rôle de régulateur d’humidité.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ugdl15639",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L’inspection par drone ou par caméra thermique est une solution technologique précieuse pour localiser précisément les zones sujettes à la condensation. Ce type d’",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "inspection toiture par drone",
+              "decorations": [
+                {
+                  "type": "ITALIC"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " permet d’identifier rapidement les défauts de ventilation, les zones froides et les éventuelles infiltrations, sans démontage ni intervention lourde.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2ntdu5640",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Enfin, dans certains cas extrêmes, une réfection partielle ou complète de la toiture peut s’avérer nécessaire, notamment si la structure ou les matériaux sont trop endommagés. Dans tous les cas, l’intervention d’un professionnel qualifié est essentielle pour garantir un traitement durable du problème.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "oeqxk5641",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ilto25642",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La condensation en toiture ne doit pas être prise à la légère. Causée par un excès d’humidité et un manque de ventilation, elle peut gravement détériorer la structure, l’isolation et la salubrité de votre habitation. Pour protéger votre bien immobilier, il est essentiel de combiner prévention (ventilation, matériaux adaptés) et détection précoce. Une bonne compréhension des mécanismes de condensation permet d’éviter les mauvaises surprises et les travaux coûteux.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "k528p5643",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Chez Birdia, nous avons développé une méthode innovante d’inspection de toiture, alliant drones, capteurs et intelligence d’analyse. Cette approche non invasive permet de repérer rapidement les zones critiques, avant que les dégâts ne soient visibles. En choisissant cette technologie, vous anticipez les problèmes plutôt que de les subir. Pour en savoir plus, découvrez comment fonctionne notre inspection toiture par drone.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-07-18T15:09:07.385Z",
+      "updatedTimestamp": "2025-07-18T15:09:07.385Z",
+      "id": "condensation-en-toiture-causes-risques-et-solutions"
+    }
+  }
+}

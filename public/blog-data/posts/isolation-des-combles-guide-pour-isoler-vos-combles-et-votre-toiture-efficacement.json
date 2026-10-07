@@ -1,0 +1,680 @@
+{
+  "id": "isolation-des-combles-guide-pour-isoler-vos-combles-et-votre-toiture-efficacement",
+  "slug": "isolation-des-combles-guide-pour-isoler-vos-combles-et-votre-toiture-efficacement",
+  "title": "Isolation des combles : guide pour isoler vos combles et votre toiture efficacement",
+  "excerpt": "Optimisez votre confort avec une isolation des combles toiture performante. Nos conseils pour un toit bien isolé, durablement.",
+  "firstPublishedDate": "2025-08-22T08:00:17.895Z",
+  "minutesToRead": 3,
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_5241a25b7816457dbc201508d73625b4~mv2.jpg/v1/fill/w_1000,h_662,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_5241a25b7816457dbc201508d73625b4~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lkwg87800",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Saviez-vous qu’une toiture mal isolée peut représenter jusqu'à 30 % des pertes de chaleur d'une maison ? L'",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "isolation des combles toiture",
+              "decorations": [
+                {
+                  "type": "ITALIC"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est donc une priorité absolue pour réduire sa consommation énergétique et améliorer son confort. Que vos combles soient perdus ou aménagés, isoler efficacement cette zone stratégique a un impact direct sur vos factures et la durabilité de votre couverture. Ce guide vous accompagne pour comprendre les enjeux, les techniques disponibles et les bonnes pratiques à adopter pour une isolation réussie.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "z2wct7801",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "t31do7810",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "y5mbt7803",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "5km6v7802",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une bonne isolation de toiture réduit les pertes thermiques jusqu'à 30 %.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "zbzge7805",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "f5xei7804",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les techniques varient selon qu’il s’agit de combles perdus ou aménagés.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "e32tg7807",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "335sz7806",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le choix des matériaux influe sur la performance thermique et la durabilité.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "mvt4w7809",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "w06w87808",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une isolation mal posée ou dégradée annule ses bénéfices.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "h47387811",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pourquoi isoler sa toiture est essentiel",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6usu27812",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L’isolation thermique par la toiture est l’une des plus rentables en termes de gain énergétique. En hiver, elle empêche la chaleur de s’échapper vers le haut ; en été, elle limite l’entrée de chaleur dans les combles. Cela améliore le confort intérieur tout en réduisant la sollicitation des systèmes de chauffage ou de climatisation.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lv96p7813",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Outre l’aspect énergétique, une bonne isolation préserve aussi la structure de la toiture. En limitant les variations de température et les condensations, elle prolonge la durée de vie des chevrons, liteaux et de l’ensemble de la charpente. Dans le cadre d’une rénovation globale, c’est donc un axe prioritaire.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rod9i7814",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Des aides financières sont accessibles pour encourager ces travaux. Mais pour être éligible, l’intervention doit répondre à des critères précis en termes de performance (R ≥ 7 m2.K/W pour des combles perdus).",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0xlr17815",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans le cadre d’un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture complet",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/diagnostic-toiture/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", l’état de l’isolation fait partie des points clés examinés. Pour aller plus loin, vous pouvez ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "faire réaliser un diagnostic isolation toiture",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/faire-faire-diagnostic-isolation-toiture?utm_source=chatgpt.com"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", afin d’obtenir une analyse précise de l’efficacité énergétique de vos combles et identifier les travaux prioritaires.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "cm2727816",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les différentes techniques d’isolation selon le type de combles",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pdovu7817",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Deux grandes situations se présentent : les combles perdus, qui ne sont pas habitables, et les combles aménagés, où l’on souhaite un espace de vie confortable. Chaque cas implique une technique spécifique.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "oaaju7818",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les combles perdus, la solution la plus courante est le soufflage de laine minérale (laine de verre ou de roche). Cette technique rapide permet une couverture homogène et sans pont thermique. Elle est idéale pour les surfaces difficiles d’accès.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "rijna7819",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour des combles aménagés, on optera plutôt pour une isolation par l’intérieur, entre ou sous les chevrons. Des panneaux semi-rigides sont posés, parfois complétés par une lame d’air et un frein vapeur. Pour maximiser la performance sans perdre d’espace, on peut aussi envisager une isolation par l’extérieur (sarking), bien que plus coûteuse.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "d8slq7820",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le choix des matériaux dépendra également de vos objectifs : performance thermique, régulation hygrométrique, impact environnemental, etc. La ouate de cellulose, par exemple, offre un très bon déphasage thermique pour le confort d’été.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "2f8127821",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conseils pratiques pour une isolation durable et performante",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "fvxzv7822",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une bonne isolation ne se limite pas au choix du matériau. La pose doit être réalisée dans les règles de l'art pour éviter les ponts thermiques, les décollements ou les zones non couvertes. Une attention particulière doit être portée à la continuité de l’isolant, à l’étanchéité à l’air et à la ventilation des combles.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "9su847823",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Il est aussi important de vérifier régulièrement l’état de l’isolation. Des rongeurs, une humidité excessive ou des déplacements de matériaux peuvent en altérer l’efficacité. Dans certains cas, une inspection visuelle ou thermique permet d’anticiper les problèmes.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ualjc7824",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour un projet réussi, faites appel à un professionnel RGE qui saura diagnostiquer les besoins réels et mettre en place une solution personnalisée. Avant tout chantier, une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "inspection toiture par drone",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/inspection-toiture-par-drone/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " peut être envisagée pour identifier les points faibles de la couverture.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "40ws47825",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0w42a7826",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Isoler les combles de sa toiture est l'un des meilleurs investissements pour améliorer le confort de son logement tout en réduisant ses dépenses énergétiques. Encore faut-il choisir la bonne technique, les matériaux adaptés et veiller à une mise en œuvre de qualité. Une isolation des combles toiture bien réalisée préserve aussi la santé de la charpente et prolonge la durée de vie du bâti.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "t89zd7827",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Avec Birdia, il est possible d’évaluer rapidement et précisément l’état d’une toiture avant tout projet d’isolation. Notre technologie de diagnostic à distance par drone identifie les zones à risques sans intervention invasive. Une solution idéale pour planifier vos travaux avec sérénité. Plus d’infos sur ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "www.birdia.fr",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "http://www.birdia.fr"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-08-22T08:00:17.895Z",
+      "updatedTimestamp": "2025-08-22T08:00:17.895Z",
+      "id": "isolation-des-combles-guide-pour-isoler-vos-combles-et-votre-toiture-efficacement"
+    }
+  }
+}

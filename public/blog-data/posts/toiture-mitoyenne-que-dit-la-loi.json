@@ -1,0 +1,562 @@
+{
+  "id": "toiture-mitoyenne-que-dit-la-loi",
+  "slug": "toiture-mitoyenne-que-dit-la-loi",
+  "title": "Toiture mitoyenne : que dit la loi ?",
+  "excerpt": "Travaux, entretien, droits et devoirs : tout ce qu'il faut savoir sur la réglementation des toitures mitoyennes en 2025.",
+  "firstPublishedDate": "2025-06-25T22:00:00.000Z",
+  "minutesToRead": 3,
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_d8345a41bd584621a4a6831ca94ee642~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_d8345a41bd584621a4a6831ca94ee642~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "waugb8330",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La toiture mitoyenne est une réalité fréquente en milieu urbain, où deux bâtiments partagent un mur commun et parfois une couverture. Mais cette configuration particulière pose souvent des questions juridiques : qui est responsable des travaux ? Peut-on intervenir librement sur la toiture ? Quelles sont les obligations de chaque copropriétaire ? En 2025, la loi encadre précisément les droits et devoirs relatifs à une toiture mitoyenne. Cet article s’adresse aux propriétaires, copropriétaires, gestionnaires d’immeubles ou syndics désireux de comprendre le cadre légal applicable, les responsabilités en cas de réfection, et les bonnes pratiques à adopter.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "n2yzk8331",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "fh0n48340",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "y93m28333",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "vnn6v8332",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une toiture mitoyenne est une propriété commune entre deux voisins.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "zgbhm8335",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "vnj6n8334",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les travaux nécessitent l'accord des deux parties sauf en cas d'urgence.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ntah88337",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "8zbxl8336",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les frais d'entretien ou de réfection sont partagés à parts égales sauf accord contraire.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "7gxma8339",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "93g2t8338",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le code civil encadre strictement les droits et limites d’intervention.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "slgmw8341",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Définition et cadre légal de la mitoyenneté",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "739y58342",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Selon l'article 653 du Code civil, un mur est dit \"mitoyen\" lorsqu'il est partagé par deux propriétaires distincts. La mitoyenneté s'étend parfois à la toiture qui recouvre ce mur, surtout en maison de ville ou en bâtiments accolés. Cela signifie que la couverture, les tuiles ou les gouttières situées à la jonction peuvent être considérés comme une partie commune.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vuip88343",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Dans ce cadre, aucune des deux parties ne peut réaliser de travaux sur la toiture mitoyenne sans le consentement de l'autre, sauf situation d'urgence (ex : fuite majeure). Tout projet de rénovation, réhaussement, modification de pente ou de matériaux doit faire l'objet d'une concertation préalable et, idéalement, d'un accord écrit. Le non-respect de cette règle peut entraîner des conflits de voisinage, voire des recours judiciaires.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ybcvl8344",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une inspection régulière peut éviter les litiges en identifiant à l'avance les besoins de travaux. ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vha118345",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour cela, un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture complet",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/faire-diagnostic-toiture"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " peut servir de base de discussion objective entre voisins.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "ivh5x8346",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Répartition des frais et obligations d’entretien",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "aalks8347",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En principe, les frais d'entretien, de réparation ou de réfection d'une toiture mitoyenne sont partagés à parts égales entre les deux propriétaires. Cette règle peut être modifiée par un accord amiable ou par une convention de mitoyenneté établie devant notaire. Il est donc essentiel de vérifier les titres de propriété ou les actes notariés en cas de doute.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "z5v6f8348",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Chaque copropriétaire est tenu de veiller au bon entretien de la toiture partagée. Le refus d’intervenir en cas de besoin avéré peut être considéré comme une négligence engageant la responsabilité civile. En cas de désaccord persistant, le recours à un conciliateur ou au tribunal judiciaire peut être envisagé.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hqpva8349",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le devis des travaux doit être accepté par les deux parties avant d’engager une entreprise. Il est recommandé de faire intervenir un professionnel neutre pour éviter tout conflit d’intérêt. L’",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "inspection drone de toiture",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/inspection-drone"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est une solution pertinente pour visualiser de manière factuelle l’état de la toiture mitoyenne.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "9jpgu8350",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Cas particuliers, litiges et bonnes pratiques",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "g4zse8351",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Plusieurs cas particuliers peuvent compliquer la gestion d'une toiture mitoyenne. Par exemple, si une partie seulement du toit est mitoyenne, seule cette section est concernée par la règle de co-entretien. De même, si l’un des voisins modifie sa toiture (ex : pose de panneaux solaires), il doit s’assurer que cela ne nuit pas à l’étanchéité ou à la solidité de la toiture commune.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "2524v8352",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En cas de litige, le recours à un expert ou à un médiateur est préférable à l'action judiciaire. Une communication claire, la transparence sur les devis, et l'échange de rapports d’inspection sont les meilleurs moyens de préserver une relation de bon voisinage.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hu1ta8353",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les copropriétés horizontales ou résidences privées, la convention de copropriété peut prévoir des dispositions spécifiques sur la toiture mitoyenne. Il est important de les consulter avant tout projet.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "a0tw28354",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "aoyol8355",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La toiture mitoyenne obéit à des règles juridiques strictes en matière de propriété, d’entretien et de répartition des frais. En 2025, la loi favorise la concertation et la responsabilité partagée. Pour anticiper les problèmes et documenter l’état de la toiture sans conflit, Birdia propose une inspection par drone rapide et neutre, idéale pour les contextes de mitoyenneté. Une solution précise et sûre pour engager les bons travaux en toute confiance.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-06-25T22:00:00.000Z",
+      "updatedTimestamp": "2025-06-25T22:00:00.000Z",
+      "id": "toiture-mitoyenne-que-dit-la-loi"
+    }
+  }
+}

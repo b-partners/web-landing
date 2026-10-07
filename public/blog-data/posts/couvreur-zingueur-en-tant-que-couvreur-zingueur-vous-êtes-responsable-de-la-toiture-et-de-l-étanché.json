@@ -1,0 +1,272 @@
+{
+  "id": "couvreur-zingueur-en-tant-que-couvreur-zingueur-vous-êtes-responsable-de-la-toiture-et-de-l-étanché",
+  "slug": "couvreur-zingueur-en-tant-que-couvreur-zingueur-vous-êtes-responsable-de-la-toiture-et-de-l-étanché",
+  "title": "Couvreur/Zingueur : Une solution innovante pour votre activité",
+  "excerpt": "BPartners: application qui permet aux couvreurs/zingueurs de faciliter leurs tâches administratives (factures, devis, comptabilité)",
+  "firstPublishedDate": "2023-02-23T14:55:44.804Z",
+  "minutesToRead": 2,
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_504f7963644b5045384b51~mv2_d_4589_3064_s_4_2.jpg/v1/fill/w_1000,h_668,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_504f7963644b5045384b51~mv2_d_4589_3064_s_4_2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hpr3r9790",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En tant que couvreur/zingueur, vous êtes responsable de la toiture et de l’étanchéité d’un bâtiment. Votre travail inclut l’installation et la réparation des toitures, ainsi que l’installation de gouttières, de chéneaux et de tuyaux de descente. Pour exceller dans votre métier, vous avez besoin d’outils performants qui simplifient la gestion administrative et vous aident à développer votre activité.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pvppe9791",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Avec ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "BPartners",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", vous accédez à une suite d’applications conçues spécialement pour les artisans comme vous. Grâce à ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "BPartners Devis/Facturation",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", vous pouvez créer rapidement des devis, des factures et même encaisser des paiements à distance. De plus, avec ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "BPartners Prospection Intelligente",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", vous identifiez de nouveaux clients potentiels dans votre région, augmentant ainsi vos opportunités d’affaires.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "br8579792",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Mais ce n’est pas tout. L’analyse de toitures fait désormais partie des services innovants de BPartners. Grâce à des images aériennes de haute résolution analysées par intelligence artificielle, vous bénéficiez d’une précision comparable à celle d’un drone, mais à un coût bien inférieur. Contrairement aux inspections par drone, l’utilisation de notre technologie ne nécessite ni autorisation de vol ni déplacement sur site, ce qui vous permet de gagner du temps et de réduire vos coûts opérationnels.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "s1g1d9793",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Avec BPartners, vous pouvez facilement détecter les signes de risques comme les infiltrations d’eau ou les dommages structurels, ce qui renforce votre efficacité et la satisfaction de vos clients. Pour approfondir ce sujet, découvrez notre guide complet sur la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "méthode de diagnostic d’infiltration de terrasse",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/methode-diagnostic-infiltration-terrasse?utm_source=chatgpt.com"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", une ressource utile pour compléter vos expertises terrain. Rejoignez les nombreux artisans indépendants qui utilisent déjà ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "BPartners",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour transformer leur gestion et améliorer leur rentabilité.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "sy7oi9794",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Visitez ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "www.bpartners.app",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "http://www.bpartners.app"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " pour en savoir plus et découvrir comment BPartners peut révolutionner votre façon de travailler.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2023-02-23T14:55:44.804Z",
+      "updatedTimestamp": "2023-02-23T14:55:44.804Z",
+      "id": "couvreur-zingueur-en-tant-que-couvreur-zingueur-vous-êtes-responsable-de-la-toiture-et-de-l-étanché"
+    }
+  }
+}

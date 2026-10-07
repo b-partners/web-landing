@@ -44,6 +44,7 @@
     "prebuild": "node scripts/fetch-blog-posts.mjs",
     "build": "tsc -b && vite build",
     "fetch:blog": "node scripts/fetch-blog-posts.mjs",
+    "scrape:blog": "node scripts/scrape-birdia-blog.mjs",
     "preview": "vite preview",
     "test": "react-scripts test",
     "lint": "eslint . --ext js,jsx,tsx,ts --report-unused-disable-directives --max-warnings 0",

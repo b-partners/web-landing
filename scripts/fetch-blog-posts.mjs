@@ -3,10 +3,18 @@
 // Runs at build time (see "prebuild" in package.json) so the key never reaches
 // the browser bundle. Requires WIX_API_KEY + WIX_SITE_ID (Blog read scope) as
 // plain env vars — do NOT prefix them with REACT_APP_.
+//
+// DEACTIVATED (see DISABLED below): public/blog-data is now populated by
+// scripts/scrape-birdia-blog.mjs, which scrapes the live blog.birdia.fr site directly and
+// needs no Wix API credentials. This script no-ops so `prebuild` doesn't overwrite that
+// committed data with an empty index.json. Flip DISABLED back to false to re-enable the
+// Wix API as the source (and re-add /public/blog-data to .gitignore — see the note there).
 import 'dotenv/config';
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+
+const DISABLED = true;
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -53,6 +61,11 @@ async function queryAllPosts() {
 }
 
 async function main() {
+  if (DISABLED) {
+    console.log('[fetch-blog-posts] Disabled — blog-data is sourced from scripts/scrape-birdia-blog.mjs instead. Leaving public/blog-data untouched.');
+    return;
+  }
+
   await mkdir(OUT_DIR, { recursive: true });
 
   if (!API_KEY || !SITE_ID) {
