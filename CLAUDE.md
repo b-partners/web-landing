@@ -11,7 +11,7 @@ Marketing/landing site for **BIRDIA** (formerly BPartners — roof diagnostics v
 ```bash
 npm install --legacy-peer-deps   # CI installs with --legacy-peer-deps; plain install may fail on peer deps
 npm start                        # Vite dev server on http://localhost:3000
-npm run build                    # tsc -b && vite build → ./build
+npm run build                    # tsc -b && vite build → ./build, then prerenders sitemap routes (needs puppeteer's Chrome: npx puppeteer browsers install chrome)
 npm run lint                     # eslint, --max-warnings 0 (also runs as a husky pre-push hook)
 npm run format                   # prettier --write on src/
 npm run format:check             # what CI checks
@@ -41,7 +41,9 @@ When adding a public page, update all of the following:
 
 **Mockup placeholders.** `<mark className="todo">[À compléter : …]</mark>` (often a local `Todo` component) marks content that is still unknown. Keep these exactly as they are; never fill them in or guess the content.
 
-**SEO/meta.** The only head management is `useUpdateMeta(title, description)` (`src/common/utils/use-update-meta.ts`; the template system has its own copy in `pages/template/utils`). There's no canonical/OG/JSON-LD infrastructure.
+**SEO/meta.** Head management is `useUpdateMeta(title, description)` (`src/common/utils/use-update-meta.ts`, re-exported by `pages/template/utils`). It sets the title, description, canonical, `og:url`, `og:title` and `og:description`. Site-wide JSON-LD lives in `index.html`.
+
+**Build-time prerender.** `vite/prerender-plugin.ts` runs after `vite build`: it opens every `www.birdia.fr` URL in `public/sitemap.xml` (minus `/template*` and `/campagne-publicitaire`) in headless Chrome (puppeteer) and writes `build/<route>/index.html` with the rendered `#root`, head tags and emotion CSS. Third-party requests are blocked while rendering. A route only gets static HTML if it's in the sitemap, and redirecting routes are skipped. The app still mounts with `createRoot`, which replaces the markup; `RemovePrerenderStyles` in `src/index.tsx` drops the captured CSS afterwards. `PRERENDER=false npm run build` skips it; if Chrome can't launch the build logs a warning and ships the plain SPA. The host must serve `/route` from `route/index.html` (`vite preview` doesn't; it always serves the root shell).
 
 **Forms.** The newer pages (`/contact-demo`, `/partenaires-couvreurs`, `/campagne-publicitaire`) use `useMailtoFallbackForm` (`src/common/utils/use-mailto-fallback-form.ts`), which opens a pre-filled mailto to contact@birdia.fr. These forms are intentionally not wired to the API. The older `ContactForm` posts through axios (`src/config/axios.ts`).
 

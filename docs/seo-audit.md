@@ -104,7 +104,7 @@ In `index.html`:
 3. Add an `<h1>` to home, assureurs, collectivités, contact.
 4. Compress/convert the big PNGs to WebP/AVIF (30 MB → probably < 3 MB) and add `loading="lazy"` below the fold.
 
-**P1 — structural (days)**
+**P1 — structural (days)** — items 5 and 6 done 2026-10-07 (build-time prerender via `vite/prerender-plugin.ts`, canonical/OG in `useUpdateMeta`).
 5. **Prerender / SSG** every route at build time so each URL ships its own HTML, `<title>`, description, canonical, OG tags. Options, least to most invasive: `vite-plugin-prerender`/`react-snap`-style prerendering → `vite-react-ssg` → migrate to Astro/Next.js (static export). The route list already exists in `App.tsx` + `json-data/`.
 6. Replace `useUpdateMeta` with a head manager (`react-helmet-async`, or what the SSG tool provides) that handles title, description, canonical, OG/Twitter, robots, and per-page JSON-LD (`FAQPage` on templates, `BreadcrumbList`).
 7. Route-level code splitting (`React.lazy` per page; load the template JSON by slug dynamically) to break the 3.2 MB bundle.
