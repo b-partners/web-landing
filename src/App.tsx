@@ -4,6 +4,7 @@ import { Navigate, Outlet, Route, Routes, useLocation } from 'react-router-dom';
 
 import { GlobalDialog, GlobalSnackbar } from '@/common/components';
 import { Footer } from '@/common/components/footer';
+import { useMediaQuery } from '@mui/material';
 import { About } from '@pages/About';
 import { AdvertisingCampaign } from '@pages/Advertising-Campaign';
 import { BlogIndex } from '@pages/Blog/BlogIndex';
@@ -238,6 +239,10 @@ import verificationToitureTarif from './pages/template/json-data/verification-to
 
 const PublicLayout = () => {
   const { pathname } = useLocation();
+  // Navbar is `position: fixed` with no explicit height (see NAVBAR_SX) and switches at the
+  // same 1100px breakpoint between a shorter mobile bar and a taller desktop one — this
+  // padding keeps page content (titles especially) clear of it instead of overlapping.
+  const shouldShowDrawer = useMediaQuery('(max-width: 1100px)');
 
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
@@ -246,7 +251,9 @@ const PublicLayout = () => {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <div style={{ paddingTop: shouldShowDrawer ? 64 : 80 }}>
+        <Outlet />
+      </div>
       <Footer />
     </>
   );
