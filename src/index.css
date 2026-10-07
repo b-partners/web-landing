@@ -14,12 +14,16 @@ html {
   margin: 0 !important;
   padding: 0 !important;
   width: 100vw !important;
-  overflow-x: hidden;
   background-color: var(--cream);
 }
 
 * {
   font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* Not on html/body: a non-visible overflow there breaks the sticky navbar. */
+.page-overflow-guard {
+  overflow-x: hidden;
 }
 
 code {

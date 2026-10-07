@@ -4,7 +4,6 @@ import { Navigate, Outlet, Route, Routes, useLocation } from 'react-router-dom';
 
 import { GlobalDialog, GlobalSnackbar } from '@/common/components';
 import { Footer } from '@/common/components/footer';
-import { useMediaQuery } from '@mui/material';
 import { About } from '@pages/About';
 import { AdvertisingCampaign } from '@pages/Advertising-Campaign';
 import { BlogIndex } from '@pages/Blog/BlogIndex';
@@ -239,10 +238,6 @@ import verificationToitureTarif from './pages/template/json-data/verification-to
 
 const PublicLayout = () => {
   const { pathname } = useLocation();
-  // Navbar is `position: fixed` with no explicit height (see NAVBAR_SX) and switches at the
-  // same 1100px breakpoint between a shorter mobile bar and a taller desktop one — this
-  // padding keeps page content (titles especially) clear of it instead of overlapping.
-  const shouldShowDrawer = useMediaQuery('(max-width: 1100px)');
 
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
@@ -251,10 +246,10 @@ const PublicLayout = () => {
   return (
     <>
       <Navbar />
-      <div style={{ paddingTop: shouldShowDrawer ? 64 : 80 }}>
+      <div className="page-overflow-guard">
         <Outlet />
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };
@@ -279,9 +274,6 @@ function App() {
           <Route path="/fonctionnalites/metre-et-mesures" element={<FonctionnalitesMetresMesures />} />
           <Route path="/fonctionnalites/pre-diagnostic-et-etat-de-la-toiture" element={<FonctionnalitesPreDiagnostic />} />
           <Route path="/fonctionnalites/donnees-imagerie-et-methode" element={<FonctionnalitesImagerieMethode />} />
-          <Route path="/couvreurs" element={<Navigate to="/pour-qui/couvreurs" replace />} />
-          <Route path="/assurances" element={<Navigate to="/pour-qui/assureurs" replace />} />
-          <Route path="/collectivites" element={<Navigate to="/pour-qui/collectivites" replace />} />
           <Route path="/a-propos" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/contact-demo" element={<ContactDemo />} />

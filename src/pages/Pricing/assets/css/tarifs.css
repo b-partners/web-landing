@@ -224,7 +224,6 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 28px;
 }
-/* ---------- Pricing (repris de /couvreurs pour la cohérence visuelle) ---------- */
 .tarifs-page .pricing-head-toggle {
   display: flex;
   flex-direction: column;
