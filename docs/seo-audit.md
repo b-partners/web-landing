@@ -93,7 +93,12 @@ In `index.html`:
 
 ## Recommended actions (by ROI)
 
-**P0 — quick wins (hours)**
+**P0 — quick wins (hours)** — ✅ done 2026-10-07 (`b9a0b0c`, `b81d663`, `5d2656f`, `e814fcd`). Found while doing it, still open:
+- `https://birdia.fr/` answers 200 instead of 301 → `www` (host config).
+- `/diagnostic-toiture-terrasse-dtu-43` and `/diagnostic-toiture-terrasse-dtu-43.3` render the same data file (duplicate content).
+- Organization JSON-LD now has no phone; add the real support number if there is one.
+- Unused heavy files remain in `public/` (e.g. `about/airbus-site.webp` 2.6 MB, `advertising/features/analyse-report.png` 2.2 MB) and in `src/` (`solution/` component, `Collectivity` `UseCaseItem*` aren't rendered). They don't affect page weight, only repo size.
+
 1. Fix `index.html`: `lang="fr"`, remove/repair the fake phone & self-declared `aggregateRating`, fix `og:url`, clean the broken font preload/preconnect tags.
 2. Clean the sitemap: remove external-host URLs, add `/tarifs`, `/fonctionnalites/*`, `/presse`, `/partenaires-couvreurs`, etc.; add `Sitemap: https://www.birdia.fr/sitemap.xml` to `robots.txt`.
 3. Add an `<h1>` to home, assureurs, collectivités, contact.
