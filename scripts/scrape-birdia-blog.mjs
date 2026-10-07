@@ -171,7 +171,11 @@ function extractContentChunks(root) {
         if (inner.trim()) chunks.push({ kind: 'blockquote', html: `<p>${inner}</p>` });
       } else {
         const inner = cleanInline(node);
-        if (inner.trim()) chunks.push({ kind: 'html', html: `<${node.tagName}>${inner}</${node.tagName}>` });
+        // These sites write a recurring "👉 <tip>" paragraph after most sections — promote it
+        // to a BLOCKQUOTE node (a real <blockquote>, styled as a tip card in blog.css) instead
+        // of a plain paragraph, since fromRichTextHtml has no way to flag it otherwise.
+        const isTipParagraph = node.tagName === 'p' && /^\s*👉/.test(textContent(node));
+        if (inner.trim()) chunks.push({ kind: isTipParagraph ? 'blockquote' : 'html', html: `<${node.tagName}>${inner}</${node.tagName}>` });
       }
       return;
     }

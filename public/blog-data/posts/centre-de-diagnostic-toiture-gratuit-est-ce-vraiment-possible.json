@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "6ruq7125",
+        "id": "4y09i76",
         "nodes": [
           {
             "type": "TEXT",
@@ -43,7 +43,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "c0d4f126",
+        "id": "sh39677",
         "nodes": [
           {
             "type": "TEXT",
@@ -84,28 +84,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "3opnj127",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez un diagnostic toiture gratuit ou un devis auprès d’un couvreur de confiance.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "4g5ct78",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez un diagnostic toiture gratuit ou un devis auprès d’un couvreur de confiance.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "gwki9128",
+        "id": "5begq79",
         "nodes": [
           {
             "type": "TEXT",
@@ -130,7 +135,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tcgo5129",
+        "id": "4ux6c80",
         "nodes": [
           {
             "type": "TEXT",
@@ -172,7 +177,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "m0p85130",
+        "id": "mp7bg81",
         "nodes": [
           {
             "type": "TEXT",
@@ -192,15 +197,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "fsgn1140",
+        "id": "ban9x91",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "cen0s133",
+            "id": "083gw84",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "7wxyk131",
+                "id": "np5xi82",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -233,7 +238,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "xhyb0132",
+                "id": "uvkle83",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -255,11 +260,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "c5lex136",
+            "id": "81wkb87",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "mshir134",
+                "id": "s6xr185",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -292,7 +297,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "lf8i6135",
+                "id": "zvnt086",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -314,11 +319,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "bhqbd139",
+            "id": "l75js90",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "15h9p137",
+                "id": "fywke88",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -351,7 +356,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "e3rxk138",
+                "id": "ggxiu89",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -377,28 +382,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "w7hr7141",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Vérifiez si un diagnostic toiture gratuit est disponible dans votre région.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "vofp092",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Vérifiez si un diagnostic toiture gratuit est disponible dans votre région.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "0suf9142",
+        "id": "f9p8r93",
         "nodes": [
           {
             "type": "TEXT",
@@ -423,7 +433,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "pkz7a143",
+        "id": "odmug94",
         "nodes": [
           {
             "type": "TEXT",
@@ -443,11 +453,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "4chki150",
+        "id": "yv073101",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "6kfk1145",
+            "id": "7hj3696",
             "nodes": [
               {
                 "type": "TEXT",
@@ -464,7 +474,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "mqrqe144",
+                "id": "wppef95",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -486,7 +496,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "tx5hm147",
+            "id": "wy8sh98",
             "nodes": [
               {
                 "type": "TEXT",
@@ -503,7 +513,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "lb29g146",
+                "id": "11r7j97",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -525,7 +535,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "y85am149",
+            "id": "er4vd100",
             "nodes": [
               {
                 "type": "TEXT",
@@ -542,7 +552,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "0bkmy148",
+                "id": "a23od99",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -568,28 +578,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "99vin151",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez un devis comparatif pour un diagnostic toiture fiable et transparent.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "vjlh5102",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez un devis comparatif pour un diagnostic toiture fiable et transparent.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "3z2dq152",
+        "id": "tobrk103",
         "nodes": [
           {
             "type": "TEXT",
@@ -614,7 +629,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "bzhj8153",
+        "id": "5ao5q104",
         "nodes": [
           {
             "type": "TEXT",
@@ -634,11 +649,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "67nbk160",
+        "id": "5w6ac111",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "2n8t8155",
+            "id": "pj48z106",
             "nodes": [
               {
                 "type": "TEXT",
@@ -655,7 +670,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "j2roj154",
+                "id": "9lvfz105",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -677,7 +692,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "74vol157",
+            "id": "rx2p7108",
             "nodes": [
               {
                 "type": "TEXT",
@@ -694,7 +709,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "rf7iy156",
+                "id": "91d8j107",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -716,7 +731,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "mjws2159",
+            "id": "wz7b6110",
             "nodes": [
               {
                 "type": "TEXT",
@@ -733,7 +748,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ni3c7158",
+                "id": "py9ca109",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -759,28 +774,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "y836a161",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Renseignez-vous sur les aides financières disponibles pour le diagnostic toiture.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "h5v6f112",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Renseignez-vous sur les aides financières disponibles pour le diagnostic toiture.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "4jjqm162",
+        "id": "15lge113",
         "nodes": [
           {
             "type": "TEXT",
@@ -805,7 +825,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8iog7163",
+        "id": "yv4eh114",
         "nodes": [
           {
             "type": "TEXT",
@@ -847,11 +867,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "wb13p170",
+        "id": "1zjbr121",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "5xdbr165",
+            "id": "e3lxm116",
             "nodes": [
               {
                 "type": "TEXT",
@@ -868,7 +888,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "q723d164",
+                "id": "fgaun115",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -890,7 +910,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "7xc4t167",
+            "id": "9ihng118",
             "nodes": [
               {
                 "type": "TEXT",
@@ -907,7 +927,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "0ncky166",
+                "id": "g6lzi117",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -929,7 +949,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "q883p169",
+            "id": "l2r1e120",
             "nodes": [
               {
                 "type": "TEXT",
@@ -946,7 +966,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "cyqi7168",
+                "id": "d0ulf119",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -972,28 +992,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "isn5z171",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Confiez votre diagnostic toiture à un expert certifié pour un rapport complet.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "7qw8j122",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Confiez votre diagnostic toiture à un expert certifié pour un rapport complet.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "ps32q172",
+        "id": "amky6123",
         "nodes": [
           {
             "type": "TEXT",
@@ -1018,7 +1043,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7b99e173",
+        "id": "jdfh9124",
         "nodes": [
           {
             "type": "TEXT",
@@ -1038,11 +1063,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "02tep180",
+        "id": "o3cdb131",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "vzoix175",
+            "id": "cf7yr126",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1059,7 +1084,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "hyt62174",
+                "id": "lvy2i125",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1081,7 +1106,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "et65e177",
+            "id": "exh71128",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1098,7 +1123,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ghog0176",
+                "id": "r36c1127",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1120,7 +1145,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "06uub179",
+            "id": "c7lsi130",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1137,7 +1162,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "14d80178",
+                "id": "5k9f1129",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1164,7 +1189,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tksd2181",
+        "id": "3a13a132",
         "nodes": [
           {
             "type": "TEXT",
@@ -1183,28 +1208,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "rnxml182",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Obtenez un devis pour un diagnostic toiture professionnel et détaillé.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "1qtji133",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Obtenez un devis pour un diagnostic toiture professionnel et détaillé.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "do2tk183",
+        "id": "y23xn134",
         "nodes": [
           {
             "type": "TEXT",
@@ -1229,7 +1259,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "36yqc184",
+        "id": "r9nhv135",
         "nodes": [
           {
             "type": "TEXT",
@@ -1271,7 +1301,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "6keng185",
+        "id": "j0o5j136",
         "nodes": [
           {
             "type": "TEXT",
@@ -1356,28 +1386,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "qow0s186",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Contactez un couvreur ou un centre spécialisé pour un diagnostic toiture gratuit ou subventionné.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "2nvvy137",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Contactez un couvreur ou un centre spécialisé pour un diagnostic toiture gratuit ou subventionné.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "s7mk8187",
+        "id": "braec138",
         "nodes": [
           {
             "type": "TEXT",
@@ -1402,7 +1437,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8sv90188",
+        "id": "nuf5p139",
         "nodes": [
           {
             "type": "TEXT",
@@ -1435,7 +1470,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tqqpg189",
+        "id": "4l085140",
         "nodes": [
           {
             "type": "TEXT",
@@ -1468,7 +1503,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ubamm190",
+        "id": "x04ym141",
         "nodes": [
           {
             "type": "TEXT",
@@ -1501,7 +1536,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "2jr24191",
+        "id": "xfsbz142",
         "nodes": [
           {
             "type": "TEXT",

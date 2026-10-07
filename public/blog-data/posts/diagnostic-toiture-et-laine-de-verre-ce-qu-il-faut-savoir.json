@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "xa5103196",
+        "id": "40w7x3196",
         "nodes": [
           {
             "type": "TEXT",
@@ -65,7 +65,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "vdsvb3197",
+        "id": "vfnog3197",
         "nodes": [
           {
             "type": "TEXT",
@@ -89,15 +89,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "v3sv23206",
+        "id": "alen33206",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "ixqxj3199",
+            "id": "1hlyz3199",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "h6mvr3198",
+                "id": "sxstv3198",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -119,11 +119,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "xf44a3201",
+            "id": "jya013201",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "oapi93200",
+                "id": "476a13200",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -145,11 +145,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "s8kz63203",
+            "id": "osmrp3203",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "9731c3202",
+                "id": "nuptr3202",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -171,11 +171,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "rxelo3205",
+            "id": "cy4jo3205",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "9d8q33204",
+                "id": "xy73w3204",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -202,7 +202,7 @@
       },
       {
         "type": "HEADING",
-        "id": "y62an3207",
+        "id": "44rbz3207",
         "nodes": [
           {
             "type": "TEXT",
@@ -227,7 +227,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hqcn93208",
+        "id": "nby153208",
         "nodes": [
           {
             "type": "TEXT",
@@ -247,15 +247,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "3b2iy3221",
+        "id": "mg7yf3221",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "1yns43211",
+            "id": "ecpmv3211",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "nkxla3209",
+                "id": "g06ca3209",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -288,7 +288,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "gmrnk3210",
+                "id": "shhoy3210",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -310,11 +310,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "4pmpm3214",
+            "id": "6hrm13214",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "svqzt3212",
+                "id": "ogd0v3212",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -347,7 +347,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "tgja83213",
+                "id": "5rfbp3213",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -369,11 +369,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "5gqyy3217",
+            "id": "wuk8m3217",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "dhof43215",
+                "id": "wvg4i3215",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -406,7 +406,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "svkj23216",
+                "id": "2gtcs3216",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -428,11 +428,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ksfuj3220",
+            "id": "ronxn3220",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "vph2f3218",
+                "id": "o31rc3218",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -465,7 +465,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "2hvd13219",
+                "id": "fhjux3219",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -491,50 +491,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "za8403222",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce pratique :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "zfjk13222",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " un diagnostic complet permet d’éviter des travaux inutiles et de cibler uniquement les zones à rénover.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce pratique :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " un diagnostic complet permet d’éviter des travaux inutiles et de cibler uniquement les zones à rénover.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "0x9r73223",
+        "id": "wvvlv3223",
         "nodes": [
           {
             "type": "TEXT",
@@ -559,11 +564,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "jwcro3232",
+        "id": "t17zs3232",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "lb9qu3225",
+            "id": "iryb13225",
             "nodes": [
               {
                 "type": "TEXT",
@@ -580,7 +585,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "1xvbj3224",
+                "id": "e2l5s3224",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -602,7 +607,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "447il3227",
+            "id": "86txc3227",
             "nodes": [
               {
                 "type": "TEXT",
@@ -619,7 +624,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "xjlbc3226",
+                "id": "yl3973226",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -641,7 +646,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "rtkkp3229",
+            "id": "ajcmn3229",
             "nodes": [
               {
                 "type": "TEXT",
@@ -658,7 +663,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "z4o7v3228",
+                "id": "9tzvg3228",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -680,7 +685,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "tvty63231",
+            "id": "08jeh3231",
             "nodes": [
               {
                 "type": "TEXT",
@@ -697,7 +702,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "efkey3230",
+                "id": "cysp73230",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -723,50 +728,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "avfta3233",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Conseil d’expert :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "kppfb3233",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " une infiltration d’eau, même minime, peut rendre inefficace la laine de verre et provoquer des moisissures.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Conseil d’expert :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " une infiltration d’eau, même minime, peut rendre inefficace la laine de verre et provoquer des moisissures.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "c1jw93234",
+        "id": "m83ca3234",
         "nodes": [
           {
             "type": "TEXT",
@@ -791,7 +801,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "6beod3235",
+        "id": "2ai9x3235",
         "nodes": [
           {
             "type": "TEXT",
@@ -811,11 +821,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "8jq993244",
+        "id": "bh0lh3244",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "3u2u43237",
+            "id": "mti483237",
             "nodes": [
               {
                 "type": "TEXT",
@@ -832,7 +842,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "rnasm3236",
+                "id": "tu8m63236",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -854,7 +864,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "vkjfq3239",
+            "id": "u7tka3239",
             "nodes": [
               {
                 "type": "TEXT",
@@ -871,7 +881,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "wume03238",
+                "id": "g2obl3238",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -893,7 +903,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "zzqfz3241",
+            "id": "3y1693241",
             "nodes": [
               {
                 "type": "TEXT",
@@ -910,7 +920,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "rsm2e3240",
+                "id": "rq4j23240",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -932,7 +942,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "75mfc3243",
+            "id": "9c17z3243",
             "nodes": [
               {
                 "type": "TEXT",
@@ -949,7 +959,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "2v5w83242",
+                "id": "njrea3242",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -975,50 +985,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "5j1aj3245",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce confort :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "40p0e3245",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " si la laine de verre est ancienne (plus de 20 ans), il est souvent préférable de la remplacer.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce confort :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " si la laine de verre est ancienne (plus de 20 ans), il est souvent préférable de la remplacer.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "i7vyr3246",
+        "id": "09ux33246",
         "nodes": [
           {
             "type": "TEXT",
@@ -1043,11 +1058,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "2i8h23253",
+        "id": "30t1b3253",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "g4efx3248",
+            "id": "iqz5f3248",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1064,7 +1079,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "6qwi33247",
+                "id": "hail43247",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1086,7 +1101,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "q4u783250",
+            "id": "x61aw3250",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1103,7 +1118,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "5i57t3249",
+                "id": "lcsau3249",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1125,7 +1140,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "hjdyd3252",
+            "id": "lgsp83252",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1142,7 +1157,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ixmur3251",
+                "id": "vmx473251",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1168,50 +1183,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "4on403254",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Précaution :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "6ihdu3254",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " exigez un rapport écrit avec photos pour justifier les éventuels travaux.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Précaution :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " exigez un rapport écrit avec photos pour justifier les éventuels travaux.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "pg9g13255",
+        "id": "p6zne3255",
         "nodes": [
           {
             "type": "TEXT",
@@ -1236,15 +1256,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "19wu43265",
+        "id": "4bon03265",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "kl79r3258",
+            "id": "41vtz3258",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ut0di3256",
+                "id": "a0ull3256",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1277,7 +1297,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "mkuqf3257",
+                "id": "57j3e3257",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1299,11 +1319,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "43d1m3261",
+            "id": "v97d73261",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "uz2533259",
+                "id": "dtszt3259",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1336,7 +1356,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "vgif43260",
+                "id": "xndbs3260",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1358,11 +1378,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "wxa2o3264",
+            "id": "p74j33264",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "l5t0c3262",
+                "id": "mozkq3262",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1395,7 +1415,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "pq1dy3263",
+                "id": "11fp93263",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1421,50 +1441,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "xr6gf3266",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce budget :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "cqk993266",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " certains couvreurs proposent un diagnostic toiture gratuit, mais il s’agit souvent d’une offre commerciale liée à un devis de travaux.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce budget :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " certains couvreurs proposent un diagnostic toiture gratuit, mais il s’agit souvent d’une offre commerciale liée à un devis de travaux.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "kro8c3267",
+        "id": "2y0er3267",
         "nodes": [
           {
             "type": "TEXT",
@@ -1489,11 +1514,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "lpe6f3276",
+        "id": "5hbts3276",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "99hun3269",
+            "id": "7d6az3269",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1510,7 +1535,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "6r9i33268",
+                "id": "2mmyy3268",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1532,7 +1557,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "9z4iw3271",
+            "id": "vivlh3271",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1549,7 +1574,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "r6qsm3270",
+                "id": "1cw2n3270",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1571,7 +1596,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "bf5zo3273",
+            "id": "pk4zl3273",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1588,7 +1613,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "x0uma3272",
+                "id": "l8xg93272",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1610,7 +1635,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "tzddt3275",
+            "id": "tpn2e3275",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1627,7 +1652,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "gsctt3274",
+                "id": "vmyql3274",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1653,72 +1678,77 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "wrlb13277",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Condition obligatoire :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "o0rcf3277",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " les travaux doivent être réalisés par un professionnel ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "RGE",
-              "decorations": [
-                {
-                  "type": "BOLD"
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Condition obligatoire :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": ".",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " les travaux doivent être réalisés par un professionnel ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "RGE",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ".",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "g265y3278",
+        "id": "wun3b3278",
         "nodes": [
           {
             "type": "TEXT",
@@ -1743,7 +1773,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ny6vi3279",
+        "id": "mv2613279",
         "nodes": [
           {
             "type": "TEXT",
@@ -1784,50 +1814,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "npn6y3280",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Étape suivante :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "azzd63280",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " faites appel à un couvreur ou un artisan RGE pour contrôler votre toiture et vérifier l’efficacité de votre laine de verre.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Étape suivante :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " faites appel à un couvreur ou un artisan RGE pour contrôler votre toiture et vérifier l’efficacité de votre laine de verre.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "a2hy83281",
+        "id": "h2k9q3281",
         "nodes": [
           {
             "type": "TEXT",
@@ -1852,7 +1887,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "nard33282",
+        "id": "i0cl83282",
         "nodes": [
           {
             "type": "TEXT",
@@ -1885,7 +1920,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0hg033283",
+        "id": "a2x213283",
         "nodes": [
           {
             "type": "TEXT",
@@ -1918,7 +1953,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "76rxv3284",
+        "id": "srzn53284",
         "nodes": [
           {
             "type": "TEXT",
@@ -1951,7 +1986,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "puo693285",
+        "id": "qlggz3285",
         "nodes": [
           {
             "type": "TEXT",

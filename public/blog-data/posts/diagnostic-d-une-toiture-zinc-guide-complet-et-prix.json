@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "bknnz2945",
+        "id": "dyed12912",
         "nodes": [
           {
             "type": "TEXT",
@@ -43,7 +43,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "l9ia52946",
+        "id": "mnfn52913",
         "nodes": [
           {
             "type": "TEXT",
@@ -84,28 +84,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "knjy42947",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez un devis gratuit pour le diagnostic de votre toiture zinc.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "0w5222914",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez un devis gratuit pour le diagnostic de votre toiture zinc.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "tobmd2948",
+        "id": "yjmaq2915",
         "nodes": [
           {
             "type": "TEXT",
@@ -130,7 +135,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jmik02949",
+        "id": "0mh3d2916",
         "nodes": [
           {
             "type": "TEXT",
@@ -150,11 +155,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "z5ukm2960",
+        "id": "6am382927",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "5rbpt2951",
+            "id": "29lv92918",
             "nodes": [
               {
                 "type": "TEXT",
@@ -171,7 +176,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "vqky62950",
+                "id": "yxzc72917",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -193,7 +198,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "s2qpj2953",
+            "id": "zx9cw2920",
             "nodes": [
               {
                 "type": "TEXT",
@@ -210,7 +215,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "eb3fc2952",
+                "id": "l67jg2919",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -232,7 +237,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "r3pfk2955",
+            "id": "g3lk82922",
             "nodes": [
               {
                 "type": "TEXT",
@@ -249,7 +254,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "sa7ma2954",
+                "id": "a32qq2921",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -271,7 +276,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "g00yt2957",
+            "id": "jev3g2924",
             "nodes": [
               {
                 "type": "TEXT",
@@ -288,7 +293,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "kzs1f2956",
+                "id": "wc4292923",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -310,7 +315,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "5lnik2959",
+            "id": "lnns22926",
             "nodes": [
               {
                 "type": "TEXT",
@@ -327,7 +332,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "myby42958",
+                "id": "7fmwi2925",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -353,28 +358,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "qeqh52961",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Confiez votre diagnostic toiture zinc à un couvreur spécialisé.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "860tx2928",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Confiez votre diagnostic toiture zinc à un couvreur spécialisé.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "g73yh2962",
+        "id": "9q6402929",
         "nodes": [
           {
             "type": "TEXT",
@@ -399,7 +409,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "g5oi32963",
+        "id": "bo8392930",
         "nodes": [
           {
             "type": "TEXT",
@@ -419,7 +429,7 @@
       },
       {
         "type": "HEADING",
-        "id": "1sc1s2964",
+        "id": "88oav2931",
         "nodes": [
           {
             "type": "TEXT",
@@ -444,7 +454,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "fcj1s2965",
+        "id": "a62bw2932",
         "nodes": [
           {
             "type": "TEXT",
@@ -464,7 +474,7 @@
       },
       {
         "type": "HEADING",
-        "id": "61lfi2966",
+        "id": "wuoa22933",
         "nodes": [
           {
             "type": "TEXT",
@@ -489,7 +499,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0i5wf2967",
+        "id": "ze8c12934",
         "nodes": [
           {
             "type": "TEXT",
@@ -509,7 +519,7 @@
       },
       {
         "type": "HEADING",
-        "id": "dio292968",
+        "id": "6llg22935",
         "nodes": [
           {
             "type": "TEXT",
@@ -534,7 +544,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lm1b22969",
+        "id": "lbc0v2936",
         "nodes": [
           {
             "type": "TEXT",
@@ -554,7 +564,7 @@
       },
       {
         "type": "HEADING",
-        "id": "0bpq42970",
+        "id": "sereh2937",
         "nodes": [
           {
             "type": "TEXT",
@@ -579,7 +589,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "etnwo2971",
+        "id": "hetf82938",
         "nodes": [
           {
             "type": "TEXT",
@@ -599,7 +609,7 @@
       },
       {
         "type": "HEADING",
-        "id": "0k66s2972",
+        "id": "jzh732939",
         "nodes": [
           {
             "type": "TEXT",
@@ -624,7 +634,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "wwnxs2973",
+        "id": "m07i42940",
         "nodes": [
           {
             "type": "TEXT",
@@ -643,28 +653,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "ugvsy2974",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Obtenez un rapport détaillé sur l’état de votre toiture zinc.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "zzec72941",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Obtenez un rapport détaillé sur l’état de votre toiture zinc.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "aty092975",
+        "id": "4bp3z2942",
         "nodes": [
           {
             "type": "TEXT",
@@ -689,7 +704,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "nsgeu2976",
+        "id": "gfjjh2943",
         "nodes": [
           {
             "type": "TEXT",
@@ -709,11 +724,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "qjm582985",
+        "id": "o5dw32952",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "nryd62978",
+            "id": "tdswf2945",
             "nodes": [
               {
                 "type": "TEXT",
@@ -730,7 +745,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "d6mbd2977",
+                "id": "785eg2944",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -752,7 +767,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "rm2ts2980",
+            "id": "yt4t42947",
             "nodes": [
               {
                 "type": "TEXT",
@@ -769,7 +784,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "u6yhq2979",
+                "id": "q8k7d2946",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -791,7 +806,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "e1igk2982",
+            "id": "6cea92949",
             "nodes": [
               {
                 "type": "TEXT",
@@ -808,7 +823,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "mvn4v2981",
+                "id": "8gxix2948",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -830,7 +845,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "lzf9l2984",
+            "id": "oz9kt2951",
             "nodes": [
               {
                 "type": "TEXT",
@@ -847,7 +862,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ql8w12983",
+                "id": "gzar92950",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -873,28 +888,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "mkd3j2986",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Planifiez votre diagnostic toiture zinc avant travaux ou achat immobilier.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "xltqy2953",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Planifiez votre diagnostic toiture zinc avant travaux ou achat immobilier.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "rljm22987",
+        "id": "xfuyf2954",
         "nodes": [
           {
             "type": "TEXT",
@@ -919,7 +939,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "v3j9p2988",
+        "id": "s24k82955",
         "nodes": [
           {
             "type": "TEXT",
@@ -939,11 +959,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "w2fbj2995",
+        "id": "pi8ry2962",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "u7svp2990",
+            "id": "fktrd2957",
             "nodes": [
               {
                 "type": "TEXT",
@@ -960,7 +980,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "hy1jo2989",
+                "id": "zpk9b2956",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -982,7 +1002,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "jfpgg2992",
+            "id": "qdv032959",
             "nodes": [
               {
                 "type": "TEXT",
@@ -999,7 +1019,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "jq3rg2991",
+                "id": "kn9fv2958",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1021,7 +1041,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ap5as2994",
+            "id": "8m3ve2961",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1038,7 +1058,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "u7hsi2993",
+                "id": "d3lti2960",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1064,28 +1084,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "vfx3p2996",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez un devis personnalisé pour votre diagnostic toiture zinc.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "pec7p2963",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez un devis personnalisé pour votre diagnostic toiture zinc.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "njz8x2997",
+        "id": "piipb2964",
         "nodes": [
           {
             "type": "TEXT",
@@ -1110,7 +1135,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "cwqr12998",
+        "id": "v6px02965",
         "nodes": [
           {
             "type": "TEXT",
@@ -1130,11 +1155,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "4uubd3007",
+        "id": "4n4l02974",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "gx7i33000",
+            "id": "epexw2967",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1151,7 +1176,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "u4j102999",
+                "id": "hh46r2966",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1173,7 +1198,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "0rnqx3002",
+            "id": "mz0z82969",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1190,7 +1215,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "xl4wx3001",
+                "id": "et5372968",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1212,7 +1237,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "63f433004",
+            "id": "1t2xw2971",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1229,7 +1254,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "eonr33003",
+                "id": "lh3e02970",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1251,7 +1276,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "hzzxz3006",
+            "id": "zmfhp2973",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1268,7 +1293,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "csaiq3005",
+                "id": "bty182972",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1294,28 +1319,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "ueeu13008",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Contactez un artisan couvreur pour réparer ou rénover votre toiture zinc.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "3pune2975",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Contactez un artisan couvreur pour réparer ou rénover votre toiture zinc.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "18baz3009",
+        "id": "lgoap2976",
         "nodes": [
           {
             "type": "TEXT",
@@ -1340,7 +1370,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "5xl7f3010",
+        "id": "i66n22977",
         "nodes": [
           {
             "type": "TEXT",
@@ -1403,28 +1433,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "dq4z83011",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Faites appel dès aujourd’hui à un expert pour le diagnostic de votre toiture zinc.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "t2gc82978",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Faites appel dès aujourd’hui à un expert pour le diagnostic de votre toiture zinc.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "jy19g3012",
+        "id": "0l23z2979",
         "nodes": [
           {
             "type": "TEXT",
@@ -1449,7 +1484,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "juo1t3013",
+        "id": "dtdnv2980",
         "nodes": [
           {
             "type": "TEXT",
@@ -1482,7 +1517,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "5c0p83014",
+        "id": "10ro92981",
         "nodes": [
           {
             "type": "TEXT",
@@ -1515,7 +1550,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8mobe3015",
+        "id": "nb1n22982",
         "nodes": [
           {
             "type": "TEXT",
@@ -1548,7 +1583,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "6kd8o3016",
+        "id": "3iq2q2983",
         "nodes": [
           {
             "type": "TEXT",

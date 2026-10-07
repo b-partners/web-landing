@@ -207,6 +207,18 @@
 .blog-page .prose .takeaway h2 {
   margin-top: 0;
 }
+.blog-page .prose blockquote {
+  background: var(--beige);
+  border-left: 4px solid var(--orange);
+  border-radius: 4px;
+  padding: 16px 22px;
+  margin: 24px 0;
+  font-style: normal;
+}
+.blog-page .prose blockquote p {
+  margin: 0;
+  font-weight: 500;
+}
 .blog-page .share {
   display: flex;
   gap: 14px;

@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "x98rb8108",
+        "id": "nmk1h8108",
         "nodes": [
           {
             "type": "TEXT",
@@ -43,7 +43,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "cnqsa8109",
+        "id": "dwzf98109",
         "nodes": [
           {
             "type": "TEXT",
@@ -67,15 +67,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "adb438118",
+        "id": "09btz8118",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "l5t648111",
+            "id": "hgj348111",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "2wy3g8110",
+                "id": "7e4ah8110",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -97,11 +97,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "1pu8l8113",
+            "id": "qtihs8113",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "qrewa8112",
+                "id": "ewl1i8112",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -123,11 +123,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "u889w8115",
+            "id": "ee8d18115",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "55w9p8114",
+                "id": "p411k8114",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -149,11 +149,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "t22gy8117",
+            "id": "zulky8117",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "7wifd8116",
+                "id": "677vs8116",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -180,7 +180,7 @@
       },
       {
         "type": "HEADING",
-        "id": "t7hin8119",
+        "id": "xjl4e8119",
         "nodes": [
           {
             "type": "TEXT",
@@ -205,7 +205,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7wwiv8120",
+        "id": "36xe18120",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,50 +224,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "yiwfq8121",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce pratique :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "pt1ko8121",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " si vous devez monter sur le toit régulièrement, prévoyez un passage technique (échelle de toit ou crochets).",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce pratique :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " si vous devez monter sur le toit régulièrement, prévoyez un passage technique (échelle de toit ou crochets).",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "1w9ew8122",
+        "id": "mf7tv8122",
         "nodes": [
           {
             "type": "TEXT",
@@ -292,7 +297,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "90pf98123",
+        "id": "oxrn08123",
         "nodes": [
           {
             "type": "TEXT",
@@ -312,15 +317,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "s4bh98132",
+        "id": "jylht8132",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "ht2kw8125",
+            "id": "87sld8125",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "2a1vy8124",
+                "id": "w96c28124",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -342,11 +347,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "veeox8127",
+            "id": "rzloe8127",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ojxwm8126",
+                "id": "9b8a88126",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -368,11 +373,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ltj318129",
+            "id": "no5a18129",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "l5xdw8128",
+                "id": "7npck8128",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -394,11 +399,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "863v78131",
+            "id": "hqino8131",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "a6iy48130",
+                "id": "sh3o98130",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -424,50 +429,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "eegor8133",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Conseil sécurité :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "l6p0d8133",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " ne travaillez jamais seul sur un toit.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Conseil sécurité :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " ne travaillez jamais seul sur un toit.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "dfnei8134",
+        "id": "zv2sl8134",
         "nodes": [
           {
             "type": "TEXT",
@@ -492,7 +502,7 @@
       },
       {
         "type": "HEADING",
-        "id": "7vfdy8135",
+        "id": "z0d9t8135",
         "nodes": [
           {
             "type": "TEXT",
@@ -517,15 +527,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "r4ab08142",
+        "id": "8z63r8142",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "3nvum8138",
+            "id": "udd5m8138",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "tq4vg8136",
+                "id": "04fso8136",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -558,7 +568,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "e6osr8137",
+                "id": "6oo6d8137",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -580,11 +590,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "6f24h8141",
+            "id": "y5aoe8141",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "c7g5a8139",
+                "id": "kkqva8139",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -617,7 +627,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "9aotf8140",
+                "id": "v1n6g8140",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -644,7 +654,7 @@
       },
       {
         "type": "HEADING",
-        "id": "md7x78143",
+        "id": "iydyp8143",
         "nodes": [
           {
             "type": "TEXT",
@@ -669,15 +679,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "ykr8e8148",
+        "id": "czg2z8148",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "j3lfc8145",
+            "id": "36d9u8145",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "tqnbs8144",
+                "id": "aew0s8144",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -699,11 +709,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "w0c1l8147",
+            "id": "l7ll38147",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "fljlx8146",
+                "id": "rtrlp8146",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -730,7 +740,7 @@
       },
       {
         "type": "HEADING",
-        "id": "admhj8149",
+        "id": "25kmg8149",
         "nodes": [
           {
             "type": "TEXT",
@@ -755,15 +765,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "l3p358154",
+        "id": "ul0ip8154",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "fwwem8151",
+            "id": "lsecu8151",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "otij08150",
+                "id": "96kri8150",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -785,11 +795,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "3xsma8153",
+            "id": "jikrk8153",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "x08968152",
+                "id": "drw2a8152",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -815,50 +825,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "q9p408155",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce expert :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "8kr6h8155",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " si vous devez marcher directement sur les tuiles, privilégiez celles en béton, plus résistantes que la terre cuite.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce expert :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " si vous devez marcher directement sur les tuiles, privilégiez celles en béton, plus résistantes que la terre cuite.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "jpykv8156",
+        "id": "4qtme8156",
         "nodes": [
           {
             "type": "TEXT",
@@ -883,11 +898,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "iw3v48165",
+        "id": "cehs88165",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "4rv918158",
+            "id": "66d118158",
             "nodes": [
               {
                 "type": "TEXT",
@@ -904,7 +919,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "9iwfp8157",
+                "id": "71z8b8157",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -926,7 +941,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "b8mpt8160",
+            "id": "hu6788160",
             "nodes": [
               {
                 "type": "TEXT",
@@ -943,7 +958,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "btzyy8159",
+                "id": "ezlgm8159",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -965,7 +980,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "cur3m8162",
+            "id": "2162b8162",
             "nodes": [
               {
                 "type": "TEXT",
@@ -982,7 +997,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "qcvc58161",
+                "id": "gnj7h8161",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1004,7 +1019,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "so5oy8164",
+            "id": "s9aqn8164",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1021,7 +1036,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "7mibd8163",
+                "id": "zn4qu8163",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1047,50 +1062,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "ljsl18166",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Conseil pratique :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "du41x8166",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " évitez les chaussures dures ou à crampons qui peuvent fissurer les tuiles.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Conseil pratique :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " évitez les chaussures dures ou à crampons qui peuvent fissurer les tuiles.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "io17f8167",
+        "id": "wwj9g8167",
         "nodes": [
           {
             "type": "TEXT",
@@ -1115,15 +1135,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "rkmcg8176",
+        "id": "2e4oq8176",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "yeniv8169",
+            "id": "radek8169",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "x5sr78168",
+                "id": "p9rvh8168",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1145,11 +1165,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ebt7w8171",
+            "id": "a37hy8171",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "2db238170",
+                "id": "s2inn8170",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1171,11 +1191,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "s7e6s8173",
+            "id": "0i2mv8173",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "z21qh8172",
+                "id": "cm9y88172",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1197,11 +1217,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "bcr9b8175",
+            "id": "9pgaz8175",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "2tikm8174",
+                "id": "tkrkr8174",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1228,7 +1248,7 @@
       },
       {
         "type": "HEADING",
-        "id": "5042g8177",
+        "id": "dsguy8177",
         "nodes": [
           {
             "type": "TEXT",
@@ -1253,7 +1273,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7c82z8178",
+        "id": "ilq2d8178",
         "nodes": [
           {
             "type": "TEXT",
@@ -1272,50 +1292,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "dnkkx8179",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Étape suivante :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "yk0se8179",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " investissez dans une échelle de toit et un harnais de sécurité avant toute intervention sur votre toiture.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Étape suivante :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " investissez dans une échelle de toit et un harnais de sécurité avant toute intervention sur votre toiture.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "ze2cs8180",
+        "id": "u2j3f8180",
         "nodes": [
           {
             "type": "TEXT",
@@ -1340,7 +1365,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lojwc8181",
+        "id": "ac4we8181",
         "nodes": [
           {
             "type": "TEXT",
@@ -1373,7 +1398,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "bovfy8182",
+        "id": "2mlmc8182",
         "nodes": [
           {
             "type": "TEXT",
@@ -1406,7 +1431,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "fa9h08183",
+        "id": "z5k8t8183",
         "nodes": [
           {
             "type": "TEXT",
@@ -1439,7 +1464,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "615ym8184",
+        "id": "o82cj8184",
         "nodes": [
           {
             "type": "TEXT",

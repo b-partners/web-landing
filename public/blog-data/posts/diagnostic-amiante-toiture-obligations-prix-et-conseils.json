@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "nlqtx684",
+        "id": "63ovr657",
         "nodes": [
           {
             "type": "TEXT",
@@ -65,7 +65,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "yfna2685",
+        "id": "3205l658",
         "nodes": [
           {
             "type": "TEXT",
@@ -84,28 +84,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "qhpvt686",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez un devis diagnostic amiante toiture auprès d’un diagnostiqueur certifié.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "uo602659",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez un devis diagnostic amiante toiture auprès d’un diagnostiqueur certifié.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "hqvuu687",
+        "id": "siagw660",
         "nodes": [
           {
             "type": "TEXT",
@@ -130,7 +135,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ncrne688",
+        "id": "wcx0r661",
         "nodes": [
           {
             "type": "TEXT",
@@ -172,15 +177,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "j3luf695",
+        "id": "4cxsi668",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "cquwq690",
+            "id": "nmnod663",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "vqhqv689",
+                "id": "ci8g2662",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -202,11 +207,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "gc2fe692",
+            "id": "a8hjf665",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "uxcsv691",
+                "id": "459zr664",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -228,11 +233,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "zgtwq694",
+            "id": "hulbl667",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "qy9zv693",
+                "id": "u07pq666",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -259,7 +264,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "esstd696",
+        "id": "0bynr669",
         "nodes": [
           {
             "type": "TEXT",
@@ -279,7 +284,7 @@
       },
       {
         "type": "HEADING",
-        "id": "9jjpa697",
+        "id": "vyuhf670",
         "nodes": [
           {
             "type": "TEXT",
@@ -304,7 +309,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "efu1u698",
+        "id": "5lc61671",
         "nodes": [
           {
             "type": "TEXT",
@@ -346,11 +351,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "kpelz705",
+        "id": "snaeu678",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "ltf75700",
+            "id": "grehq673",
             "nodes": [
               {
                 "type": "TEXT",
@@ -367,7 +372,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "k63lv699",
+                "id": "6oreb672",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -389,7 +394,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "gegyy702",
+            "id": "med86675",
             "nodes": [
               {
                 "type": "TEXT",
@@ -406,7 +411,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "dma6q701",
+                "id": "hp8zv674",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -428,7 +433,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "n1rwo704",
+            "id": "uqs2a677",
             "nodes": [
               {
                 "type": "TEXT",
@@ -445,7 +450,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "02f4d703",
+                "id": "2i52d676",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -471,28 +476,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "h02bs706",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Faites réaliser un diagnostic amiante toiture obligatoire avant toute vente.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "ao5lr679",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Faites réaliser un diagnostic amiante toiture obligatoire avant toute vente.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "l36c6707",
+        "id": "ftwuy680",
         "nodes": [
           {
             "type": "TEXT",
@@ -517,7 +527,7 @@
       },
       {
         "type": "HEADING",
-        "id": "c7xcs708",
+        "id": "h3apz681",
         "nodes": [
           {
             "type": "TEXT",
@@ -542,7 +552,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0jv0v709",
+        "id": "dm77v682",
         "nodes": [
           {
             "type": "TEXT",
@@ -562,7 +572,7 @@
       },
       {
         "type": "HEADING",
-        "id": "4090y710",
+        "id": "whyyz683",
         "nodes": [
           {
             "type": "TEXT",
@@ -587,7 +597,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "znu80711",
+        "id": "w1bxj684",
         "nodes": [
           {
             "type": "TEXT",
@@ -607,7 +617,7 @@
       },
       {
         "type": "HEADING",
-        "id": "37qjx712",
+        "id": "gqlep685",
         "nodes": [
           {
             "type": "TEXT",
@@ -632,7 +642,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "p9ypy713",
+        "id": "37t97686",
         "nodes": [
           {
             "type": "TEXT",
@@ -651,28 +661,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "tsmtk714",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Sécurisez votre vente avec un diagnostic amiante toiture conforme à la loi.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "icecl687",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Sécurisez votre vente avec un diagnostic amiante toiture conforme à la loi.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "rhkje715",
+        "id": "v02ut688",
         "nodes": [
           {
             "type": "TEXT",
@@ -697,11 +712,11 @@
       },
       {
         "type": "ORDERED_LIST",
-        "id": "9ayd5724",
+        "id": "hizex697",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "d8p3l717",
+            "id": "pev3j690",
             "nodes": [
               {
                 "type": "TEXT",
@@ -718,7 +733,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "5zoj4716",
+                "id": "vh4pw689",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -740,7 +755,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "s6j2f719",
+            "id": "rrffi692",
             "nodes": [
               {
                 "type": "TEXT",
@@ -757,7 +772,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "vx836718",
+                "id": "iu1v4691",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -779,7 +794,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ti2h1721",
+            "id": "rov1c694",
             "nodes": [
               {
                 "type": "TEXT",
@@ -796,7 +811,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ngebf720",
+                "id": "ii9gc693",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -818,7 +833,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ng2jt723",
+            "id": "xlacb696",
             "nodes": [
               {
                 "type": "TEXT",
@@ -835,7 +850,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "fb88p722",
+                "id": "a8qgs695",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -862,7 +877,7 @@
       },
       {
         "type": "HEADING",
-        "id": "u4qiu725",
+        "id": "037wz698",
         "nodes": [
           {
             "type": "TEXT",
@@ -887,7 +902,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "spp4e726",
+        "id": "glfja699",
         "nodes": [
           {
             "type": "TEXT",
@@ -929,15 +944,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "dy0n3733",
+        "id": "s86lq706",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "mb6fz728",
+            "id": "qu80v701",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "qtbx2727",
+                "id": "nxtq4700",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -972,11 +987,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "lh6pw730",
+            "id": "shpwb703",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ovc8o729",
+                "id": "iujxr702",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1011,11 +1026,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "zag24732",
+            "id": "li88g705",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "0pckn731",
+                "id": "4931a704",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1054,28 +1069,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "cxtf6734",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Obtenez un devis gratuit pour le diagnostic amiante de votre toiture.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "kr83n707",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Obtenez un devis gratuit pour le diagnostic amiante de votre toiture.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "b37l4735",
+        "id": "1m4f6708",
         "nodes": [
           {
             "type": "TEXT",
@@ -1100,7 +1120,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "w3zro736",
+        "id": "joh6f709",
         "nodes": [
           {
             "type": "TEXT",
@@ -1120,11 +1140,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "hkjp8743",
+        "id": "nynka716",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "cv5pe738",
+            "id": "qxv8r711",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1141,7 +1161,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "8vxhs737",
+                "id": "9ulbv710",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1163,7 +1183,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ocd7o740",
+            "id": "3ok9b713",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1180,7 +1200,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "knuql739",
+                "id": "3mmjp712",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1202,7 +1222,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "r0b88742",
+            "id": "zt0dq715",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1219,7 +1239,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "mg5bl741",
+                "id": "osolt714",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1246,7 +1266,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "emduw744",
+        "id": "ccktk717",
         "nodes": [
           {
             "type": "TEXT",
@@ -1265,28 +1285,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "hpjq1745",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Confiez le désamiantage de votre toiture à une entreprise spécialisée.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "6vc7e718",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Confiez le désamiantage de votre toiture à une entreprise spécialisée.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "tsymm746",
+        "id": "lb7n5719",
         "nodes": [
           {
             "type": "TEXT",
@@ -1311,7 +1336,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "4ery5747",
+        "id": "5kzoa720",
         "nodes": [
           {
             "type": "TEXT",
@@ -1352,28 +1377,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "rkazl748",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Prenez rendez-vous avec un diagnostiqueur certifié pour votre diagnostic amiante toiture.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "uptfx721",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Prenez rendez-vous avec un diagnostiqueur certifié pour votre diagnostic amiante toiture.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "4t38b749",
+        "id": "fsmdd722",
         "nodes": [
           {
             "type": "TEXT",
@@ -1398,7 +1428,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "iepjt750",
+        "id": "v5sgv723",
         "nodes": [
           {
             "type": "TEXT",
@@ -1431,7 +1461,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "gf1kj751",
+        "id": "lwwbg724",
         "nodes": [
           {
             "type": "TEXT",
@@ -1464,7 +1494,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "zgjq6752",
+        "id": "lsmqa725",
         "nodes": [
           {
             "type": "TEXT",
@@ -1497,7 +1527,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "c6lcc753",
+        "id": "k6q0e726",
         "nodes": [
           {
             "type": "TEXT",

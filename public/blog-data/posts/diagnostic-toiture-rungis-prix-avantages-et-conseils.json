@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "6vlsd3589",
+        "id": "hg15h3589",
         "nodes": [
           {
             "type": "TEXT",
@@ -65,7 +65,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "elab33590",
+        "id": "wd5j13590",
         "nodes": [
           {
             "type": "TEXT",
@@ -84,28 +84,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "ssda63591",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez dès maintenant un devis diagnostic toiture à Rungis.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "c1u763591",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez dès maintenant un devis diagnostic toiture à Rungis.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "c6t9j3592",
+        "id": "oiuvn3592",
         "nodes": [
           {
             "type": "TEXT",
@@ -130,7 +135,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "75jaj3593",
+        "id": "47zz23593",
         "nodes": [
           {
             "type": "TEXT",
@@ -150,15 +155,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "lkk3z3604",
+        "id": "mebpi3604",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "6g9ui3595",
+            "id": "nxrcp3595",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "d4mzk3594",
+                "id": "38vso3594",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -180,11 +185,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "418lj3597",
+            "id": "d0krg3597",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ieb703596",
+                "id": "uevya3596",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -206,11 +211,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "saiqe3599",
+            "id": "6b0la3599",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "uczp73598",
+                "id": "9cfe03598",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -232,11 +237,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "lv4ly3601",
+            "id": "0gpg83601",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "fkgp53600",
+                "id": "6f79b3600",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -258,11 +263,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "7nj5f3603",
+            "id": "cd0zg3603",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "pfosz3602",
+                "id": "a7s6i3602",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -289,7 +294,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ohfe83605",
+        "id": "gi7os3605",
         "nodes": [
           {
             "type": "TEXT",
@@ -308,28 +313,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "e9fjr3606",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Prenez rendez-vous avec un couvreur expert à Rungis pour diagnostiquer votre toiture.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "art883606",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Prenez rendez-vous avec un couvreur expert à Rungis pour diagnostiquer votre toiture.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "cqowb3607",
+        "id": "n99ku3607",
         "nodes": [
           {
             "type": "TEXT",
@@ -354,7 +364,7 @@
       },
       {
         "type": "HEADING",
-        "id": "h5hf33608",
+        "id": "g7jkq3608",
         "nodes": [
           {
             "type": "TEXT",
@@ -379,7 +389,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0qvfw3609",
+        "id": "mcmba3609",
         "nodes": [
           {
             "type": "TEXT",
@@ -399,7 +409,7 @@
       },
       {
         "type": "HEADING",
-        "id": "05z8t3610",
+        "id": "pgyfu3610",
         "nodes": [
           {
             "type": "TEXT",
@@ -424,7 +434,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "91yhr3611",
+        "id": "mp1n03611",
         "nodes": [
           {
             "type": "TEXT",
@@ -444,7 +454,7 @@
       },
       {
         "type": "HEADING",
-        "id": "55cin3612",
+        "id": "9u0ej3612",
         "nodes": [
           {
             "type": "TEXT",
@@ -469,7 +479,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "i9uje3613",
+        "id": "ig95v3613",
         "nodes": [
           {
             "type": "TEXT",
@@ -489,7 +499,7 @@
       },
       {
         "type": "HEADING",
-        "id": "9eyc23614",
+        "id": "kb6hi3614",
         "nodes": [
           {
             "type": "TEXT",
@@ -514,7 +524,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tmo6r3615",
+        "id": "ih4533615",
         "nodes": [
           {
             "type": "TEXT",
@@ -533,28 +543,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "jvtqy3616",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Obtenez un devis gratuit diagnostic toiture Rungis.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "l4cqo3616",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Obtenez un devis gratuit diagnostic toiture Rungis.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "0e1sa3617",
+        "id": "tqbwz3617",
         "nodes": [
           {
             "type": "TEXT",
@@ -579,7 +594,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "sm7e73618",
+        "id": "m9fwx3618",
         "nodes": [
           {
             "type": "TEXT",
@@ -599,11 +614,11 @@
       },
       {
         "type": "ORDERED_LIST",
-        "id": "y8y8o3629",
+        "id": "6t8ll3629",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "fij7t3620",
+            "id": "hweki3620",
             "nodes": [
               {
                 "type": "TEXT",
@@ -620,7 +635,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "1lr9h3619",
+                "id": "az7s73619",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -642,7 +657,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "cxnde3622",
+            "id": "pvsov3622",
             "nodes": [
               {
                 "type": "TEXT",
@@ -659,7 +674,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "gilfy3621",
+                "id": "gk07c3621",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -681,7 +696,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "rltzt3624",
+            "id": "nmztx3624",
             "nodes": [
               {
                 "type": "TEXT",
@@ -698,7 +713,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "cgm273623",
+                "id": "jozdd3623",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -720,7 +735,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ne2vn3626",
+            "id": "9l58d3626",
             "nodes": [
               {
                 "type": "TEXT",
@@ -737,7 +752,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "nyxp83625",
+                "id": "4oidq3625",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -759,7 +774,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "74ofv3628",
+            "id": "huvl43628",
             "nodes": [
               {
                 "type": "TEXT",
@@ -776,7 +791,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "i9qeo3627",
+                "id": "mjwzp3627",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -803,7 +818,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "l602n3630",
+        "id": "w9spd3630",
         "nodes": [
           {
             "type": "TEXT",
@@ -866,28 +881,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "8cr9u3631",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Faites contrôler votre toiture par un couvreur certifié à Rungis.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "j18if3631",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Faites contrôler votre toiture par un couvreur certifié à Rungis.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "qfa633632",
+        "id": "flh353632",
         "nodes": [
           {
             "type": "TEXT",
@@ -912,7 +932,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7ojld3633",
+        "id": "3x9w13633",
         "nodes": [
           {
             "type": "TEXT",
@@ -932,11 +952,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "g7m3d3640",
+        "id": "z7j0x3640",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "k1bp33635",
+            "id": "yltjj3635",
             "nodes": [
               {
                 "type": "TEXT",
@@ -953,7 +973,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "agp2v3634",
+                "id": "nbnzr3634",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -975,7 +995,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "t29eg3637",
+            "id": "k4z5o3637",
             "nodes": [
               {
                 "type": "TEXT",
@@ -992,7 +1012,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "9qet83636",
+                "id": "lzt1x3636",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1014,7 +1034,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "s0gku3639",
+            "id": "c78g23639",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1031,7 +1051,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "eh45a3638",
+                "id": "3ptfj3638",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1058,7 +1078,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "e82zk3641",
+        "id": "tplr83641",
         "nodes": [
           {
             "type": "TEXT",
@@ -1077,28 +1097,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "2f9843642",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez votre devis personnalisé diagnostic toiture Rungis.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "sv0o83642",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez votre devis personnalisé diagnostic toiture Rungis.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "o78t43643",
+        "id": "x1rxc3643",
         "nodes": [
           {
             "type": "TEXT",
@@ -1123,7 +1148,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "32ksj3644",
+        "id": "568ze3644",
         "nodes": [
           {
             "type": "TEXT",
@@ -1143,15 +1168,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "mvisn3660",
+        "id": "tvv7p3660",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "ld6rh3647",
+            "id": "tr6nu3647",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "rwo6o3645",
+                "id": "2c0lh3645",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1184,7 +1209,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "37n8o3646",
+                "id": "3o3x13646",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1206,11 +1231,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ko4g13650",
+            "id": "d4afa3650",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "sq1bf3648",
+                "id": "xfgcb3648",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1243,7 +1268,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "mqw7i3649",
+                "id": "bnna13649",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1265,11 +1290,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "r854g3653",
+            "id": "as6o13653",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ptemh3651",
+                "id": "pwyzu3651",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1302,7 +1327,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "oh0q63652",
+                "id": "10ine3652",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1324,11 +1349,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "3qhbl3656",
+            "id": "85y8r3656",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "blr9a3654",
+                "id": "1vn5m3654",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1361,7 +1386,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "es9t23655",
+                "id": "qv6q53655",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1383,11 +1408,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "zy7ij3659",
+            "id": "gflch3659",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "5wi5b3657",
+                "id": "54ino3657",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1420,7 +1445,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "yhgb33658",
+                "id": "9eax63658",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1446,28 +1471,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "ve8wv3661",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Planifiez un diagnostic toiture avec un couvreur local à Rungis.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "14vhd3661",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Planifiez un diagnostic toiture avec un couvreur local à Rungis.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "jmafa3662",
+        "id": "3ue953662",
         "nodes": [
           {
             "type": "TEXT",
@@ -1492,7 +1522,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "b8iuf3663",
+        "id": "ulfwx3663",
         "nodes": [
           {
             "type": "TEXT",
@@ -1512,15 +1542,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "a2ull3670",
+        "id": "e2shx3670",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "tpmo03665",
+            "id": "j9w633665",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "l3jf73664",
+                "id": "jdc4g3664",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1542,11 +1572,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "otokb3667",
+            "id": "6zy9x3667",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "hzocz3666",
+                "id": "fiaos3666",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1568,11 +1598,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "zqvvo3669",
+            "id": "87axa3669",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "lua0m3668",
+                "id": "lvczk3668",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1598,28 +1628,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "40g0y3671",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Contactez un couvreur certifié RGE à Rungis pour diagnostiquer votre toiture.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "n027a3671",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Contactez un couvreur certifié RGE à Rungis pour diagnostiquer votre toiture.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "o59tz3672",
+        "id": "ul9el3672",
         "nodes": [
           {
             "type": "TEXT",
@@ -1644,7 +1679,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "mj7gs3673",
+        "id": "p4bxw3673",
         "nodes": [
           {
             "type": "TEXT",
@@ -1707,28 +1742,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "19gov3674",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez dès aujourd’hui un devis diagnostic toiture Rungis.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "4ew2q3674",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez dès aujourd’hui un devis diagnostic toiture Rungis.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "bzc8x3675",
+        "id": "276nt3675",
         "nodes": [
           {
             "type": "TEXT",
@@ -1753,7 +1793,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ri3pj3676",
+        "id": "dl76n3676",
         "nodes": [
           {
             "type": "TEXT",
@@ -1786,7 +1826,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "agk1c3677",
+        "id": "y01ry3677",
         "nodes": [
           {
             "type": "TEXT",
@@ -1819,7 +1859,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tm1rw3678",
+        "id": "a3i803678",
         "nodes": [
           {
             "type": "TEXT",
@@ -1852,7 +1892,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "u7dc93679",
+        "id": "ubwod3679",
         "nodes": [
           {
             "type": "TEXT",

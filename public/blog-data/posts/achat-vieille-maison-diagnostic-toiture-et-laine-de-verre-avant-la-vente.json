@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7dl9c3706",
+        "id": "pmuyk3680",
         "nodes": [
           {
             "type": "TEXT",
@@ -87,7 +87,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "1sanj3707",
+        "id": "th3gp3681",
         "nodes": [
           {
             "type": "TEXT",
@@ -128,28 +128,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "70h0w3708",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez un devis pour un diagnostic toiture et isolation avant achat immobilier.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "zy2qw3682",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez un devis pour un diagnostic toiture et isolation avant achat immobilier.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "2im3f3709",
+        "id": "axnbo3683",
         "nodes": [
           {
             "type": "TEXT",
@@ -174,7 +179,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "z0aej3710",
+        "id": "vxs8p3684",
         "nodes": [
           {
             "type": "TEXT",
@@ -194,11 +199,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "s0fxl3719",
+        "id": "05rz93693",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "jppf43712",
+            "id": "6llrf3686",
             "nodes": [
               {
                 "type": "TEXT",
@@ -215,7 +220,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "tvvc23711",
+                "id": "mzvql3685",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -237,7 +242,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "9mc1h3714",
+            "id": "iq1w73688",
             "nodes": [
               {
                 "type": "TEXT",
@@ -254,7 +259,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "zw1sk3713",
+                "id": "smxud3687",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -276,7 +281,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "joug23716",
+            "id": "1xdmi3690",
             "nodes": [
               {
                 "type": "TEXT",
@@ -293,7 +298,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "56dhu3715",
+                "id": "3g95y3689",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -315,7 +320,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "vpw7t3718",
+            "id": "5xiyb3692",
             "nodes": [
               {
                 "type": "TEXT",
@@ -332,7 +337,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "wckwl3717",
+                "id": "f9dmq3691",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -359,7 +364,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "zsey23720",
+        "id": "6e8nt3694",
         "nodes": [
           {
             "type": "TEXT",
@@ -400,28 +405,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "qkgxl3721",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Sécurisez votre achat immobilier avec un diagnostic toiture complet.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "v9mvr3695",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Sécurisez votre achat immobilier avec un diagnostic toiture complet.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "ai3ck3722",
+        "id": "fv68e3696",
         "nodes": [
           {
             "type": "TEXT",
@@ -446,7 +456,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "i2oux3723",
+        "id": "jvagr3697",
         "nodes": [
           {
             "type": "TEXT",
@@ -466,7 +476,7 @@
       },
       {
         "type": "HEADING",
-        "id": "40x7n3724",
+        "id": "68bwx3698",
         "nodes": [
           {
             "type": "TEXT",
@@ -491,11 +501,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "tf9b63733",
+        "id": "bq7un3707",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "aeafb3726",
+            "id": "awqne3700",
             "nodes": [
               {
                 "type": "TEXT",
@@ -512,7 +522,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "l5xmw3725",
+                "id": "u9t613699",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -534,7 +544,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "0bpqt3728",
+            "id": "trubj3702",
             "nodes": [
               {
                 "type": "TEXT",
@@ -551,7 +561,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "sh1lp3727",
+                "id": "3lx463701",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -573,7 +583,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "b6n113730",
+            "id": "7dd2k3704",
             "nodes": [
               {
                 "type": "TEXT",
@@ -590,7 +600,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "n57gf3729",
+                "id": "hc2kd3703",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -612,7 +622,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "l0p583732",
+            "id": "793gv3706",
             "nodes": [
               {
                 "type": "TEXT",
@@ -629,7 +639,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "n0pby3731",
+                "id": "bulk53705",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -656,7 +666,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "v0egj3734",
+        "id": "476hs3708",
         "nodes": [
           {
             "type": "TEXT",
@@ -697,28 +707,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "5u53c3735",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez un contrôle de l’isolation avant l’achat d’une maison ancienne.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "8o4wo3709",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez un contrôle de l’isolation avant l’achat d’une maison ancienne.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "7l0eb3736",
+        "id": "729ts3710",
         "nodes": [
           {
             "type": "TEXT",
@@ -743,7 +758,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "f3iog3737",
+        "id": "tvoga3711",
         "nodes": [
           {
             "type": "TEXT",
@@ -763,11 +778,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "tar6r3742",
+        "id": "wrv7e3716",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "hcnzz3739",
+            "id": "5emk93713",
             "nodes": [
               {
                 "type": "TEXT",
@@ -784,7 +799,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ea9z63738",
+                "id": "tikkr3712",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -806,7 +821,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "n2sjc3741",
+            "id": "h1n3y3715",
             "nodes": [
               {
                 "type": "TEXT",
@@ -823,7 +838,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "vavvx3740",
+                "id": "njh2w3714",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -850,7 +865,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "pniyw3743",
+        "id": "pr1mc3717",
         "nodes": [
           {
             "type": "TEXT",
@@ -891,28 +906,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "fy95b3744",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Faites appel à un expert pour diagnostiquer toiture et isolation avant achat.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "a5v2v3718",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Faites appel à un expert pour diagnostiquer toiture et isolation avant achat.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "obf6n3745",
+        "id": "wsc4p3719",
         "nodes": [
           {
             "type": "TEXT",
@@ -937,7 +957,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "gn63r3746",
+        "id": "kd3743720",
         "nodes": [
           {
             "type": "TEXT",
@@ -957,11 +977,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "bjux43755",
+        "id": "njvzn3729",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "99qf53748",
+            "id": "sd24s3722",
             "nodes": [
               {
                 "type": "TEXT",
@@ -978,7 +998,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "se9xa3747",
+                "id": "pu9tb3721",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1000,7 +1020,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "yacut3750",
+            "id": "xkp4k3724",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1017,7 +1037,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "sie7d3749",
+                "id": "kdqi03723",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1039,7 +1059,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "rkpyl3752",
+            "id": "6iadw3726",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1056,7 +1076,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ace953751",
+                "id": "h011f3725",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1078,7 +1098,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "rqpr73754",
+            "id": "adth63728",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1095,7 +1115,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "nzuld3753",
+                "id": "qm0uy3727",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1122,7 +1142,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "mh7w23756",
+        "id": "yaf9j3730",
         "nodes": [
           {
             "type": "TEXT",
@@ -1141,28 +1161,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "imthw3757",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Obtenez un devis pour un diagnostic toiture et isolation laine de verre.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "38x6n3731",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Obtenez un devis pour un diagnostic toiture et isolation laine de verre.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "arr743758",
+        "id": "ztyqr3732",
         "nodes": [
           {
             "type": "TEXT",
@@ -1187,7 +1212,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "qsonl3759",
+        "id": "orco33733",
         "nodes": [
           {
             "type": "TEXT",
@@ -1207,11 +1232,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "68b9b3766",
+        "id": "7qc7r3740",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "eowpy3761",
+            "id": "hcmjd3735",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1228,7 +1253,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "y9u2f3760",
+                "id": "45x6z3734",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1250,7 +1275,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ekhas3763",
+            "id": "be3n23737",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1267,7 +1292,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "3e3wt3762",
+                "id": "m5wzo3736",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1289,7 +1314,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ex1gg3765",
+            "id": "6bqx33739",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1306,7 +1331,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "0w8vw3764",
+                "id": "hdhw13738",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1332,28 +1357,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "nfctk3767",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Contrôlez l’état de la toiture et de l’isolation avant d’acheter une vieille maison.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "mtg9d3741",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Contrôlez l’état de la toiture et de l’isolation avant d’acheter une vieille maison.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "zlg623768",
+        "id": "31vqh3742",
         "nodes": [
           {
             "type": "TEXT",
@@ -1378,7 +1408,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "my0sk3769",
+        "id": "8k8g03743",
         "nodes": [
           {
             "type": "TEXT",
@@ -1398,11 +1428,11 @@
       },
       {
         "type": "ORDERED_LIST",
-        "id": "eoody3774",
+        "id": "cylzc3748",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "i0ltr3771",
+            "id": "ywixa3745",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1419,7 +1449,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "c0xu03770",
+                "id": "656m33744",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1441,7 +1471,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "gydlz3773",
+            "id": "utgl53747",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1458,7 +1488,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "x5iiu3772",
+                "id": "vkmj73746",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1485,7 +1515,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "88thx3775",
+        "id": "a046f3749",
         "nodes": [
           {
             "type": "TEXT",
@@ -1504,28 +1534,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "i1w1n3776",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Utilisez le diagnostic toiture et isolation pour négocier votre achat immobilier.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "z8aog3750",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Utilisez le diagnostic toiture et isolation pour négocier votre achat immobilier.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "rkx5h3777",
+        "id": "xzj7s3751",
         "nodes": [
           {
             "type": "TEXT",
@@ -1550,7 +1585,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "6wlul3778",
+        "id": "7b2ay3752",
         "nodes": [
           {
             "type": "TEXT",
@@ -1636,7 +1671,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "qsiox3779",
+        "id": "xto283753",
         "nodes": [
           {
             "type": "TEXT",
@@ -1677,28 +1712,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "qnee83780",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Faites réaliser un diagnostic toiture et isolation laine de verre avant de signer votre achat.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "hkh0g3754",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Faites réaliser un diagnostic toiture et isolation laine de verre avant de signer votre achat.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "3p6q23781",
+        "id": "zemhw3755",
         "nodes": [
           {
             "type": "TEXT",
@@ -1723,7 +1763,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "23qsq3782",
+        "id": "8s44t3756",
         "nodes": [
           {
             "type": "TEXT",
@@ -1756,7 +1796,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "rjsgc3783",
+        "id": "neaa43757",
         "nodes": [
           {
             "type": "TEXT",
@@ -1789,7 +1829,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "dpopa3784",
+        "id": "2pk163758",
         "nodes": [
           {
             "type": "TEXT",
@@ -1822,7 +1862,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ymy2z3785",
+        "id": "tbag13759",
         "nodes": [
           {
             "type": "TEXT",

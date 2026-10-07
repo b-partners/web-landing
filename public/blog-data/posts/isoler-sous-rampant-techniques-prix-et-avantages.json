@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "qejr0394",
+        "id": "umqf3303",
         "nodes": [
           {
             "type": "TEXT",
@@ -43,7 +43,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0vbgl395",
+        "id": "yq5kv304",
         "nodes": [
           {
             "type": "TEXT",
@@ -67,15 +67,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "eepwu404",
+        "id": "120ke313",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "mqcw0397",
+            "id": "94bzp306",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "mez83396",
+                "id": "didfp305",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -97,11 +97,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "5d73n399",
+            "id": "w2pn8308",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "yrjo0398",
+                "id": "1rhbc307",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -123,11 +123,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "9pge2401",
+            "id": "d7d5e310",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "u6zwq400",
+                "id": "yk3ky309",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -149,11 +149,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ra7zh403",
+            "id": "8h6r2312",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "bxwxj402",
+                "id": "igm8b311",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -180,7 +180,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ihv2s405",
+        "id": "fqakt314",
         "nodes": [
           {
             "type": "TEXT",
@@ -205,7 +205,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "y4e8m406",
+        "id": "6huak315",
         "nodes": [
           {
             "type": "TEXT",
@@ -246,50 +246,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "qecl7407",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce pratique :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "b3dl2316",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " c’est la solution idéale si vous souhaitez transformer vos combles en chambre, bureau ou salle de jeux.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce pratique :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " c’est la solution idéale si vous souhaitez transformer vos combles en chambre, bureau ou salle de jeux.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "sdwec408",
+        "id": "4wj1i317",
         "nodes": [
           {
             "type": "TEXT",
@@ -314,7 +319,7 @@
       },
       {
         "type": "HEADING",
-        "id": "axzcs409",
+        "id": "tpv8p318",
         "nodes": [
           {
             "type": "TEXT",
@@ -339,15 +344,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "6263t416",
+        "id": "rirkg325",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "t83iv411",
+            "id": "atgt6320",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "3cena410",
+                "id": "of89l319",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -369,11 +374,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "esklq413",
+            "id": "7fli2322",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "iy8pl412",
+                "id": "vmbud321",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -395,11 +400,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "pz194415",
+            "id": "fwbka324",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "56y4t414",
+                "id": "rn55f323",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -426,7 +431,7 @@
       },
       {
         "type": "HEADING",
-        "id": "8bmwj417",
+        "id": "ulzri326",
         "nodes": [
           {
             "type": "TEXT",
@@ -451,15 +456,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "r8r40425",
+        "id": "tf7r8334",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "9zebx419",
+            "id": "ift9z328",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ijr8m418",
+                "id": "896ce327",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -481,11 +486,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "jsfyr421",
+            "id": "yc48t330",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "7jw9b420",
+                "id": "plwtw329",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -507,11 +512,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "wbyoh424",
+            "id": "76qmc333",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "vkukh422",
+                "id": "lxg61331",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -544,7 +549,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "b64wf423",
+                "id": "2ktfj332",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -570,50 +575,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "r6zvq426",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Conseil d’expert :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "c65d0335",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " privilégiez la double couche pour un résultat optimal et conforme aux normes RT 2012 / RE 2020.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Conseil d’expert :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " privilégiez la double couche pour un résultat optimal et conforme aux normes RT 2012 / RE 2020.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "i2lch427",
+        "id": "21oek336",
         "nodes": [
           {
             "type": "TEXT",
@@ -638,11 +648,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "30ind436",
+        "id": "dwuhq345",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "igcob429",
+            "id": "fdy54338",
             "nodes": [
               {
                 "type": "TEXT",
@@ -659,7 +669,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "tzsmy428",
+                "id": "tr26k337",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -681,7 +691,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "s7lhj431",
+            "id": "kqh74340",
             "nodes": [
               {
                 "type": "TEXT",
@@ -698,7 +708,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "o6qks430",
+                "id": "awb3s339",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -720,7 +730,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "h4f4i433",
+            "id": "kanx0342",
             "nodes": [
               {
                 "type": "TEXT",
@@ -737,7 +747,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "tixer432",
+                "id": "zv6a7341",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -759,7 +769,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "2fpj8435",
+            "id": "karvc344",
             "nodes": [
               {
                 "type": "TEXT",
@@ -776,7 +786,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "83djs434",
+                "id": "b2gc3343",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -802,72 +812,77 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "xdtzz437",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce budget :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "3uyue346",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " optez pour des isolants certifiés ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "ACERMI",
-              "decorations": [
-                {
-                  "type": "BOLD"
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce budget :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " pour garantir leurs performances dans le temps.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " optez pour des isolants certifiés ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "ACERMI",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " pour garantir leurs performances dans le temps.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "9w1ji438",
+        "id": "6gxtq347",
         "nodes": [
           {
             "type": "TEXT",
@@ -892,7 +907,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "56k3g439",
+        "id": "wijbg348",
         "nodes": [
           {
             "type": "TEXT",
@@ -912,15 +927,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "h9f0q446",
+        "id": "sspjs355",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "nvdlw441",
+            "id": "l075v350",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "6te6k440",
+                "id": "bispc349",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -955,11 +970,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "5put7443",
+            "id": "z1gm9352",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "cna79442",
+                "id": "dab3d351",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -994,11 +1009,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "kr2d3445",
+            "id": "zvrt0354",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "2wum4444",
+                "id": "5n6xj353",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1037,72 +1052,77 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "4nxgm447",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Exemple concret :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "tb8vw356",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " pour 50 m² de toiture, comptez entre ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "2 500 et 4 000 €",
-              "decorations": [
-                {
-                  "type": "BOLD"
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Exemple concret :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " selon l’isolant.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " pour 50 m² de toiture, comptez entre ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "2 500 et 4 000 €",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " selon l’isolant.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "t6nxw448",
+        "id": "r6flf357",
         "nodes": [
           {
             "type": "TEXT",
@@ -1127,15 +1147,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "xrg9p457",
+        "id": "7xqf3366",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "rz8nd450",
+            "id": "rjetg359",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "yhpcn449",
+                "id": "mebwk358",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1157,11 +1177,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "x9ixg452",
+            "id": "irysv361",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "w4jv6451",
+                "id": "oxc5f360",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1183,11 +1203,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "qpdyh454",
+            "id": "16vzv363",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "vs5ww453",
+                "id": "fntv1362",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1209,11 +1229,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "zsar0456",
+            "id": "rs2wo365",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ur62k455",
+                "id": "n8yvc364",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1239,50 +1259,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "t8lh8458",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce confort :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "glslh367",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " combinez l’isolation avec une bonne ventilation (VMC) pour éviter la condensation.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce confort :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " combinez l’isolation avec une bonne ventilation (VMC) pour éviter la condensation.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "67lom459",
+        "id": "hrmq6368",
         "nodes": [
           {
             "type": "TEXT",
@@ -1307,11 +1332,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "o48i3468",
+        "id": "tvavm377",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "0j83f461",
+            "id": "zlzz9370",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1328,7 +1353,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "0wzud460",
+                "id": "xmvpb369",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1350,7 +1375,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "t9uqe463",
+            "id": "7936t372",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1367,7 +1392,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "60c9z462",
+                "id": "ug422371",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1389,7 +1414,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "v5jg8465",
+            "id": "v8x1j374",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1406,7 +1431,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "mll40464",
+                "id": "5agay373",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1428,7 +1453,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "nqu9c467",
+            "id": "jwvdd376",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1445,7 +1470,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ufacu466",
+                "id": "wvptj375",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1471,72 +1496,77 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "1y6c0469",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Condition essentielle :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "84fpe378",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " les travaux doivent être réalisés par un artisan ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "RGE (Reconnu Garant de l’Environnement)",
-              "decorations": [
-                {
-                  "type": "BOLD"
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Condition essentielle :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": ".",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " les travaux doivent être réalisés par un artisan ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "RGE (Reconnu Garant de l’Environnement)",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ".",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "rlrhq470",
+        "id": "f1ji3379",
         "nodes": [
           {
             "type": "TEXT",
@@ -1561,7 +1591,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8qhol471",
+        "id": "5mg8i380",
         "nodes": [
           {
             "type": "TEXT",
@@ -1580,50 +1610,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "5sb82472",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Étape suivante :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "t7gh1381",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " demandez plusieurs devis à des professionnels RGE pour comparer les solutions et obtenir les aides financières disponibles.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Étape suivante :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " demandez plusieurs devis à des professionnels RGE pour comparer les solutions et obtenir les aides financières disponibles.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "fuuqf473",
+        "id": "ui9ys382",
         "nodes": [
           {
             "type": "TEXT",
@@ -1648,7 +1683,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "949y1474",
+        "id": "6k2vl383",
         "nodes": [
           {
             "type": "TEXT",
@@ -1681,7 +1716,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "9edg4475",
+        "id": "dk39u384",
         "nodes": [
           {
             "type": "TEXT",
@@ -1714,7 +1749,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "6i1j5476",
+        "id": "y8tao385",
         "nodes": [
           {
             "type": "TEXT",
@@ -1747,7 +1782,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "qttyj477",
+        "id": "hsc9f386",
         "nodes": [
           {
             "type": "TEXT",

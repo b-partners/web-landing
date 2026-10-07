@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "dbdp72083",
+        "id": "11wge2083",
         "nodes": [
           {
             "type": "TEXT",
@@ -87,7 +87,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "j2oa42084",
+        "id": "6vxi72084",
         "nodes": [
           {
             "type": "TEXT",
@@ -111,15 +111,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "1lfg92094",
+        "id": "atyx62094",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "kadim2086",
+            "id": "6hfns2086",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "89q9d2085",
+                "id": "k0zni2085",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -141,11 +141,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "n9o3a2089",
+            "id": "rwbzc2089",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "5ai382087",
+                "id": "hx5jr2087",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -178,7 +178,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "0elno2088",
+                "id": "udvou2088",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -200,11 +200,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "bvsv22091",
+            "id": "2p8l32091",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "twitn2090",
+                "id": "87eyo2090",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -226,11 +226,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "md59k2093",
+            "id": "n0il12093",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "q9pbp2092",
+                "id": "vgvzy2092",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -257,7 +257,7 @@
       },
       {
         "type": "HEADING",
-        "id": "dvclb2095",
+        "id": "0xt6p2095",
         "nodes": [
           {
             "type": "TEXT",
@@ -282,11 +282,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "926942104",
+        "id": "fy92o2104",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "0cy842097",
+            "id": "v6shb2097",
             "nodes": [
               {
                 "type": "TEXT",
@@ -303,7 +303,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "cshti2096",
+                "id": "gonuc2096",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -325,7 +325,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "q2zok2099",
+            "id": "tl9xd2099",
             "nodes": [
               {
                 "type": "TEXT",
@@ -342,7 +342,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "2u0w12098",
+                "id": "lhe352098",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -364,7 +364,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "oj3js2101",
+            "id": "pxwal2101",
             "nodes": [
               {
                 "type": "TEXT",
@@ -381,7 +381,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "zxl6o2100",
+                "id": "yr3aa2100",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -403,7 +403,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "9nu132103",
+            "id": "wfhh82103",
             "nodes": [
               {
                 "type": "TEXT",
@@ -420,7 +420,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "r8b3h2102",
+                "id": "xc89h2102",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -446,50 +446,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "ovfy12105",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce pratique :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "0u2my2105",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " un diagnostic régulier tous les 10 ans prolonge la durée de vie d’une toiture ardoise (50 à 100 ans en moyenne).",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce pratique :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " un diagnostic régulier tous les 10 ans prolonge la durée de vie d’une toiture ardoise (50 à 100 ans en moyenne).",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "shq5e2106",
+        "id": "rdhxm2106",
         "nodes": [
           {
             "type": "TEXT",
@@ -514,7 +519,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "j6jy12107",
+        "id": "081bb2107",
         "nodes": [
           {
             "type": "TEXT",
@@ -534,15 +539,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "jfw1x2115",
+        "id": "btvcs2115",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "b00tx2110",
+            "id": "5e31t2110",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "b8n262108",
+                "id": "hmdq82108",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -575,7 +580,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "d9awz2109",
+                "id": "l43em2109",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -597,11 +602,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "w4vne2112",
+            "id": "ku3j82112",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "xoyxu2111",
+                "id": "u12ra2111",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -623,11 +628,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "4nnjv2114",
+            "id": "qd1u62114",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "xdapk2113",
+                "id": "w616d2113",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -653,50 +658,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "5z4bv2116",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Attention :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "tew242116",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " ne jamais poncer, percer ou nettoyer une toiture ardoise amiantée sans équipement spécialisé.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Attention :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " ne jamais poncer, percer ou nettoyer une toiture ardoise amiantée sans équipement spécialisé.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "h5ef12117",
+        "id": "56mew2117",
         "nodes": [
           {
             "type": "TEXT",
@@ -721,11 +731,11 @@
       },
       {
         "type": "ORDERED_LIST",
-        "id": "6fd392126",
+        "id": "4i3gl2126",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "zkaaa2119",
+            "id": "4e1uo2119",
             "nodes": [
               {
                 "type": "TEXT",
@@ -742,7 +752,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "56v6d2118",
+                "id": "hemur2118",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -764,7 +774,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "hp6t32121",
+            "id": "dk02u2121",
             "nodes": [
               {
                 "type": "TEXT",
@@ -781,7 +791,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "2egbq2120",
+                "id": "ezent2120",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -803,7 +813,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "xssni2123",
+            "id": "s4bxg2123",
             "nodes": [
               {
                 "type": "TEXT",
@@ -820,7 +830,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "wi6jd2122",
+                "id": "wodmy2122",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -842,7 +852,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "1g3gr2125",
+            "id": "xl4c82125",
             "nodes": [
               {
                 "type": "TEXT",
@@ -859,7 +869,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "7dneu2124",
+                "id": "kkq4e2124",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -885,50 +895,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "ksimm2127",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce technique :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "vyo772127",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " certaines entreprises utilisent un drone pour inspecter les zones difficilement accessibles.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce technique :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " certaines entreprises utilisent un drone pour inspecter les zones difficilement accessibles.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "4fs7t2128",
+        "id": "yog682128",
         "nodes": [
           {
             "type": "TEXT",
@@ -953,15 +968,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "d0aoq2138",
+        "id": "f7pwx2138",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "pcib42131",
+            "id": "lxcqs2131",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "08yie2129",
+                "id": "17aa62129",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -994,7 +1009,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "tmynt2130",
+                "id": "p382q2130",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1016,11 +1031,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "9hhnl2134",
+            "id": "iek152134",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "e8a4p2132",
+                "id": "csqal2132",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1053,7 +1068,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "9wp2b2133",
+                "id": "z4bez2133",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1075,11 +1090,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "0ptfa2137",
+            "id": "2ahb92137",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "w79ya2135",
+                "id": "ps0812135",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1112,7 +1127,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "nxdn42136",
+                "id": "778vj2136",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1138,50 +1153,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "y5pit2139",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Conseil budget :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "p6ouy2139",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " certains couvreurs proposent un diagnostic gratuit, souvent lié à un devis de rénovation.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Conseil budget :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " certains couvreurs proposent un diagnostic gratuit, souvent lié à un devis de rénovation.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "wv6st2140",
+        "id": "vyozc2140",
         "nodes": [
           {
             "type": "TEXT",
@@ -1206,11 +1226,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "8licg2147",
+        "id": "tygin2147",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "2hkau2142",
+            "id": "k7bhv2142",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1227,7 +1247,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "5khul2141",
+                "id": "neihh2141",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1249,7 +1269,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "1v3p92144",
+            "id": "ikncz2144",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1266,7 +1286,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "98eql2143",
+                "id": "256662143",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1288,7 +1308,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "7w7912146",
+            "id": "rtz9n2146",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1305,7 +1325,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "55g952145",
+                "id": "73r4p2145",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1331,50 +1351,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "c6o3n2148",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce confort :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "hsmqi2148",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " en cas de réfection, profitez-en pour renforcer l’isolation des combles et bénéficier d’aides financières.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce confort :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " en cas de réfection, profitez-en pour renforcer l’isolation des combles et bénéficier d’aides financières.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "cki732149",
+        "id": "8resa2149",
         "nodes": [
           {
             "type": "TEXT",
@@ -1399,11 +1424,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "7gtyo2158",
+        "id": "o27882158",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "pvbrr2151",
+            "id": "qrd0r2151",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1420,7 +1445,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "pb3q52150",
+                "id": "54yyj2150",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1442,7 +1467,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "35lck2153",
+            "id": "qr3ac2153",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1459,7 +1484,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "hjhbc2152",
+                "id": "laad32152",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1481,7 +1506,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "2a4d42155",
+            "id": "qirj52155",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1498,7 +1523,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "m7ug52154",
+                "id": "qdpz72154",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1520,7 +1545,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "q9pg12157",
+            "id": "le6u12157",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1537,7 +1562,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "enb2z2156",
+                "id": "gu0mq2156",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1563,72 +1588,77 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "palrw2159",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Condition obligatoire :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "chpxm2159",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " travaux réalisés par une entreprise ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "RGE",
-              "decorations": [
-                {
-                  "type": "BOLD"
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Condition obligatoire :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": ".",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " travaux réalisés par une entreprise ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "RGE",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": ".",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "nuizd2160",
+        "id": "fhuho2160",
         "nodes": [
           {
             "type": "TEXT",
@@ -1653,7 +1683,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "rqkty2161",
+        "id": "2pl662161",
         "nodes": [
           {
             "type": "TEXT",
@@ -1694,50 +1724,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "yq9yj2162",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Étape suivante :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "pjefe2162",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " contactez un couvreur ou un diagnostiqueur certifié pour évaluer l’état de votre toiture ardoise et obtenir un rapport précis.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Étape suivante :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " contactez un couvreur ou un diagnostiqueur certifié pour évaluer l’état de votre toiture ardoise et obtenir un rapport précis.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "h365q2163",
+        "id": "qdmv62163",
         "nodes": [
           {
             "type": "TEXT",
@@ -1762,7 +1797,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hg06y2164",
+        "id": "oqkr02164",
         "nodes": [
           {
             "type": "TEXT",
@@ -1795,7 +1830,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "scpgm2165",
+        "id": "mio0o2165",
         "nodes": [
           {
             "type": "TEXT",
@@ -1828,7 +1863,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hr3df2166",
+        "id": "gjr942166",
         "nodes": [
           {
             "type": "TEXT",
@@ -1861,7 +1896,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7mhei2167",
+        "id": "1kihc2167",
         "nodes": [
           {
             "type": "TEXT",
@@ -1885,7 +1920,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "70q2i2168",
+        "id": "2m5dw2168",
         "nodes": [
           {
             "type": "TEXT",

@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tdh633912",
+        "id": "avi3o3794",
         "nodes": [
           {
             "type": "TEXT",
@@ -131,7 +131,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0bbll3913",
+        "id": "y4eib3795",
         "nodes": [
           {
             "type": "TEXT",
@@ -155,15 +155,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "rop7n3923",
+        "id": "c2qi63805",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "ch1xc3915",
+            "id": "avuf83797",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "n671o3914",
+                "id": "x46vw3796",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -185,11 +185,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "veqoe3918",
+            "id": "yd9543800",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "uur5r3916",
+                "id": "0qna93798",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -222,7 +222,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "y26763917",
+                "id": "8skds3799",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -244,11 +244,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "xu5g63920",
+            "id": "hloda3802",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "vl3bh3919",
+                "id": "bazve3801",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -270,11 +270,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "omzzq3922",
+            "id": "isq9u3804",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ok8wr3921",
+                "id": "p9c0w3803",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -301,7 +301,7 @@
       },
       {
         "type": "HEADING",
-        "id": "vu4mn3924",
+        "id": "54o5e3806",
         "nodes": [
           {
             "type": "TEXT",
@@ -326,7 +326,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "t47zi3925",
+        "id": "i23eb3807",
         "nodes": [
           {
             "type": "TEXT",
@@ -368,7 +368,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "edwii3926",
+        "id": "39e8g3808",
         "nodes": [
           {
             "type": "TEXT",
@@ -388,11 +388,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "0ezgg3935",
+        "id": "yxgqs3817",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "oqv823928",
+            "id": "36y3v3810",
             "nodes": [
               {
                 "type": "TEXT",
@@ -409,7 +409,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "n2zd23927",
+                "id": "hnat03809",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -431,7 +431,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "gp82o3930",
+            "id": "entze3812",
             "nodes": [
               {
                 "type": "TEXT",
@@ -448,7 +448,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "emb803929",
+                "id": "e71wv3811",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -470,7 +470,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "jm4nx3932",
+            "id": "mdq4b3814",
             "nodes": [
               {
                 "type": "TEXT",
@@ -487,7 +487,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "99v0d3931",
+                "id": "knzjn3813",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -509,7 +509,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "jhsb93934",
+            "id": "m8s543816",
             "nodes": [
               {
                 "type": "TEXT",
@@ -526,7 +526,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "vfm5e3933",
+                "id": "b0rwq3815",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -552,50 +552,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "nmqmj3936",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce pratique :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "fl23y3818",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " même si le DTG n’est pas obligatoire pour tous, il est fortement recommandé pour les copropriétés anciennes.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce pratique :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " même si le DTG n’est pas obligatoire pour tous, il est fortement recommandé pour les copropriétés anciennes.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "tcwk03937",
+        "id": "u6q963819",
         "nodes": [
           {
             "type": "TEXT",
@@ -620,7 +625,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "cvqdo3938",
+        "id": "7p1wy3820",
         "nodes": [
           {
             "type": "TEXT",
@@ -662,11 +667,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "z1jbn3945",
+        "id": "jd7kt3827",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "7opyd3940",
+            "id": "2nhx83822",
             "nodes": [
               {
                 "type": "TEXT",
@@ -683,7 +688,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "y8e2s3939",
+                "id": "j2j9k3821",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -705,7 +710,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "67udi3942",
+            "id": "ss4r43824",
             "nodes": [
               {
                 "type": "TEXT",
@@ -722,7 +727,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "x55xg3941",
+                "id": "z41253823",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -744,7 +749,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "kddg33944",
+            "id": "c2rgp3826",
             "nodes": [
               {
                 "type": "TEXT",
@@ -761,7 +766,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "aa1ib3943",
+                "id": "5sfif3825",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -787,50 +792,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "hv21r3946",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Conseil d’expert :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "03nzc3828",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " pour les immeubles de plus de 15 ans, un diagnostic de l’état de la toiture et des peintures est presque toujours nécessaire.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Conseil d’expert :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " pour les immeubles de plus de 15 ans, un diagnostic de l’état de la toiture et des peintures est presque toujours nécessaire.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "diz413947",
+        "id": "6w0jx3829",
         "nodes": [
           {
             "type": "TEXT",
@@ -855,7 +865,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "u6naz3948",
+        "id": "ek43t3830",
         "nodes": [
           {
             "type": "TEXT",
@@ -897,7 +907,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "wde553949",
+        "id": "fkzng3831",
         "nodes": [
           {
             "type": "TEXT",
@@ -939,7 +949,7 @@
       },
       {
         "type": "HEADING",
-        "id": "bcxsb3950",
+        "id": "7doyt3832",
         "nodes": [
           {
             "type": "TEXT",
@@ -964,11 +974,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "s94nt3959",
+        "id": "khku13841",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "niu7g3952",
+            "id": "3mclw3834",
             "nodes": [
               {
                 "type": "TEXT",
@@ -985,7 +995,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "z0ycv3951",
+                "id": "6ynt03833",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1007,7 +1017,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "eqajn3954",
+            "id": "58e073836",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1024,7 +1034,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "dstcx3953",
+                "id": "47yfo3835",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1046,7 +1056,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "n7ol43956",
+            "id": "nw5ja3838",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1063,7 +1073,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ywn3g3955",
+                "id": "r1hge3837",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1085,7 +1095,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "qcuy93958",
+            "id": "m4oay3840",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1102,7 +1112,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "9r7ao3957",
+                "id": "ko0993839",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1128,50 +1138,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "tc9y53960",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce financière :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "cmzpc3842",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " certaines communes proposent des aides locales pour les ravalements et réfections de toiture intégrant l’isolation.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce financière :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " certaines communes proposent des aides locales pour les ravalements et réfections de toiture intégrant l’isolation.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "qtvtt3961",
+        "id": "h2ory3843",
         "nodes": [
           {
             "type": "TEXT",
@@ -1196,11 +1211,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "dcgk63968",
+        "id": "j7ts33850",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "m1tji3963",
+            "id": "bhjkq3845",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1217,7 +1232,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "936523962",
+                "id": "0pbju3844",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1239,7 +1254,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "4nlft3965",
+            "id": "c7igu3847",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1256,7 +1271,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "f55yn3964",
+                "id": "pvu5z3846",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1278,7 +1293,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "i4rwx3967",
+            "id": "2ftyk3849",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1295,7 +1310,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "6hutz3966",
+                "id": "dhujm3848",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1321,50 +1336,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "j0e7p3969",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Précaution importante :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "pf9vi3851",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " le syndic doit conserver ces diagnostics et les présenter en AG de copropriété.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Précaution importante :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " le syndic doit conserver ces diagnostics et les présenter en AG de copropriété.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "lou6v3970",
+        "id": "td6k63852",
         "nodes": [
           {
             "type": "TEXT",
@@ -1389,7 +1409,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "f1bkc3971",
+        "id": "ze5pe3853",
         "nodes": [
           {
             "type": "TEXT",
@@ -1452,50 +1472,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "fvlq53972",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Étape suivante :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "kntsr3854",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " si votre immeuble a plus de 10 ans, demandez un diagnostic complet de toiture et façade afin d’anticiper vos futurs travaux de copropriété.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Étape suivante :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " si votre immeuble a plus de 10 ans, demandez un diagnostic complet de toiture et façade afin d’anticiper vos futurs travaux de copropriété.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "o7yak3973",
+        "id": "egee03855",
         "nodes": [
           {
             "type": "TEXT",
@@ -1520,7 +1545,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "y5w4i3974",
+        "id": "gwzrl3856",
         "nodes": [
           {
             "type": "TEXT",
@@ -1553,7 +1578,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "nffej3975",
+        "id": "j0rc23857",
         "nodes": [
           {
             "type": "TEXT",
@@ -1586,7 +1611,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hrfb73976",
+        "id": "7sdcl3858",
         "nodes": [
           {
             "type": "TEXT",
@@ -1619,7 +1644,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ogm5u3977",
+        "id": "cp9yn3859",
         "nodes": [
           {
             "type": "TEXT",

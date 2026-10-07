@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ijbof1619",
+        "id": "9veaz1619",
         "nodes": [
           {
             "type": "TEXT",
@@ -43,7 +43,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "v787n1620",
+        "id": "4mfip1620",
         "nodes": [
           {
             "type": "TEXT",
@@ -84,28 +84,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "wsu9l1621",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez un devis gratuit diagnostic charpente et toiture Rhône.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "557vi1621",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez un devis gratuit diagnostic charpente et toiture Rhône.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "8skxy1622",
+        "id": "786zk1622",
         "nodes": [
           {
             "type": "TEXT",
@@ -130,7 +135,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "r8fsn1623",
+        "id": "70ix11623",
         "nodes": [
           {
             "type": "TEXT",
@@ -150,11 +155,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "335le1628",
+        "id": "wl50e1628",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "okxdn1625",
+            "id": "dn3se1625",
             "nodes": [
               {
                 "type": "TEXT",
@@ -171,7 +176,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "syd7l1624",
+                "id": "pyszl1624",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -193,7 +198,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "2ttw61627",
+            "id": "em0s81627",
             "nodes": [
               {
                 "type": "TEXT",
@@ -210,7 +215,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "f2k681626",
+                "id": "g07s21626",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -237,7 +242,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "bxh381629",
+        "id": "rcjpv1629",
         "nodes": [
           {
             "type": "TEXT",
@@ -256,28 +261,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "qu5p51630",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Faites contrôler l’état complet de votre charpente et toiture dans le Rhône.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "0yogy1630",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Faites contrôler l’état complet de votre charpente et toiture dans le Rhône.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "t725h1631",
+        "id": "pthmr1631",
         "nodes": [
           {
             "type": "TEXT",
@@ -302,7 +312,7 @@
       },
       {
         "type": "HEADING",
-        "id": "2z6ma1632",
+        "id": "8l60x1632",
         "nodes": [
           {
             "type": "TEXT",
@@ -327,7 +337,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "11qee1633",
+        "id": "141ub1633",
         "nodes": [
           {
             "type": "TEXT",
@@ -347,7 +357,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ftjim1634",
+        "id": "p7wd61634",
         "nodes": [
           {
             "type": "TEXT",
@@ -372,7 +382,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8616g1635",
+        "id": "l5lh01635",
         "nodes": [
           {
             "type": "TEXT",
@@ -392,7 +402,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ikm5h1636",
+        "id": "f08ks1636",
         "nodes": [
           {
             "type": "TEXT",
@@ -417,7 +427,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "4ic1b1637",
+        "id": "2row21637",
         "nodes": [
           {
             "type": "TEXT",
@@ -437,7 +447,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ve1ir1638",
+        "id": "wvyuo1638",
         "nodes": [
           {
             "type": "TEXT",
@@ -462,7 +472,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ikjx61639",
+        "id": "jj5qg1639",
         "nodes": [
           {
             "type": "TEXT",
@@ -481,28 +491,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "dfqe41640",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Contactez un couvreur diagnostiqueur à Lyon et dans tout le Rhône.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "8j7x71640",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Contactez un couvreur diagnostiqueur à Lyon et dans tout le Rhône.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "n61if1641",
+        "id": "zzzcm1641",
         "nodes": [
           {
             "type": "TEXT",
@@ -527,7 +542,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "xhmya1642",
+        "id": "90co01642",
         "nodes": [
           {
             "type": "TEXT",
@@ -547,11 +562,11 @@
       },
       {
         "type": "ORDERED_LIST",
-        "id": "nhbyd1653",
+        "id": "trgbc1653",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "q2jo21644",
+            "id": "xu08k1644",
             "nodes": [
               {
                 "type": "TEXT",
@@ -568,7 +583,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "feqie1643",
+                "id": "4nhur1643",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -590,7 +605,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "quthn1646",
+            "id": "r6oif1646",
             "nodes": [
               {
                 "type": "TEXT",
@@ -607,7 +622,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "d7hu41645",
+                "id": "305hc1645",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -629,7 +644,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ok1xn1648",
+            "id": "xjleq1648",
             "nodes": [
               {
                 "type": "TEXT",
@@ -646,7 +661,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ek4bq1647",
+                "id": "e6ydm1647",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -668,7 +683,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "2ord61650",
+            "id": "c9xhk1650",
             "nodes": [
               {
                 "type": "TEXT",
@@ -685,7 +700,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "uidwt1649",
+                "id": "qsb1p1649",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -707,7 +722,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "1tzfi1652",
+            "id": "2yv771652",
             "nodes": [
               {
                 "type": "TEXT",
@@ -724,7 +739,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "thx051651",
+                "id": "dukzg1651",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -750,28 +765,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "5f7jn1654",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Obtenez un diagnostic détaillé avec rapport complet pour votre maison dans le Rhône.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "obh221654",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Obtenez un diagnostic détaillé avec rapport complet pour votre maison dans le Rhône.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "mwaai1655",
+        "id": "azjx81655",
         "nodes": [
           {
             "type": "TEXT",
@@ -796,7 +816,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tyxd21656",
+        "id": "tb7ay1656",
         "nodes": [
           {
             "type": "TEXT",
@@ -816,11 +836,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "otdlr1665",
+        "id": "xw4ml1665",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "5g7xz1658",
+            "id": "6p5r61658",
             "nodes": [
               {
                 "type": "TEXT",
@@ -837,7 +857,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "widox1657",
+                "id": "7b0ex1657",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -859,7 +879,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "2piyh1660",
+            "id": "swz3o1660",
             "nodes": [
               {
                 "type": "TEXT",
@@ -876,7 +896,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "4uwh61659",
+                "id": "6cajc1659",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -898,7 +918,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "gifxu1662",
+            "id": "08xy51662",
             "nodes": [
               {
                 "type": "TEXT",
@@ -915,7 +935,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "rc53k1661",
+                "id": "cb0381661",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -937,7 +957,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "lbiz51664",
+            "id": "cmx0i1664",
             "nodes": [
               {
                 "type": "TEXT",
@@ -954,7 +974,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "bjj891663",
+                "id": "vmda51663",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -980,28 +1000,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "whreo1666",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez un devis personnalisé diagnostic toiture et charpente Rhône.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "0uigw1666",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez un devis personnalisé diagnostic toiture et charpente Rhône.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "0bjox1667",
+        "id": "mmdq81667",
         "nodes": [
           {
             "type": "TEXT",
@@ -1026,7 +1051,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "4hbge1668",
+        "id": "w95qe1668",
         "nodes": [
           {
             "type": "TEXT",
@@ -1046,15 +1071,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "17wsz1684",
+        "id": "ave1m1684",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "b5yzp1671",
+            "id": "3822a1671",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "lyscf1669",
+                "id": "my5ja1669",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1087,7 +1112,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ox72g1670",
+                "id": "fb5ly1670",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1109,11 +1134,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ljq0w1674",
+            "id": "hfu6d1674",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ujpqc1672",
+                "id": "r42ac1672",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1146,7 +1171,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ffip31673",
+                "id": "kl00x1673",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1168,11 +1193,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "a7c8w1677",
+            "id": "8eo3d1677",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "b54va1675",
+                "id": "uo9bj1675",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1205,7 +1230,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "sljqj1676",
+                "id": "znr601676",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1227,11 +1252,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "u1ht21680",
+            "id": "gh0nt1680",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "t7dv91678",
+                "id": "hk35d1678",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1264,7 +1289,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "q8igu1679",
+                "id": "y5sln1679",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1286,11 +1311,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "70rbg1683",
+            "id": "mzgra1683",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "fy1jg1681",
+                "id": "1jsvh1681",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1323,7 +1348,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "sj4k41682",
+                "id": "ig77o1682",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1349,28 +1374,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "k94xu1685",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Planifiez un diagnostic préventif avec un expert toiture Rhône.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "ztzk51685",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Planifiez un diagnostic préventif avec un expert toiture Rhône.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "pjwr11686",
+        "id": "cuycx1686",
         "nodes": [
           {
             "type": "TEXT",
@@ -1395,7 +1425,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "yl3lc1687",
+        "id": "mpj2d1687",
         "nodes": [
           {
             "type": "TEXT",
@@ -1415,11 +1445,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "vcxcg1694",
+        "id": "xd8il1694",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "1xxwm1689",
+            "id": "6tcwq1689",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1436,7 +1466,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "zb8ou1688",
+                "id": "915h11688",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1458,7 +1488,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "kf4aq1691",
+            "id": "l71mv1691",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1475,7 +1505,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "npuhe1690",
+                "id": "4m8y81690",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1497,7 +1527,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "c9rja1693",
+            "id": "dwqlh1693",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1514,7 +1544,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "kkbx81692",
+                "id": "t0q8k1692",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1540,28 +1570,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "s5hjz1695",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Confiez vos travaux de toiture et charpente à un artisan spécialisé dans le Rhône.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "ifh4r1695",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Confiez vos travaux de toiture et charpente à un artisan spécialisé dans le Rhône.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "vj4mn1696",
+        "id": "ee83t1696",
         "nodes": [
           {
             "type": "TEXT",
@@ -1586,7 +1621,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "bpxw41697",
+        "id": "70bvb1697",
         "nodes": [
           {
             "type": "TEXT",
@@ -1649,28 +1684,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "dooey1698",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez dès aujourd’hui votre diagnostic charpente et toiture Rhône.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "lysva1698",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez dès aujourd’hui votre diagnostic charpente et toiture Rhône.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "i7f0a1699",
+        "id": "t225d1699",
         "nodes": [
           {
             "type": "TEXT",
@@ -1695,7 +1735,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "u233d1700",
+        "id": "pusin1700",
         "nodes": [
           {
             "type": "TEXT",
@@ -1728,7 +1768,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "d6lwq1701",
+        "id": "27rvf1701",
         "nodes": [
           {
             "type": "TEXT",
@@ -1761,7 +1801,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "f7my41702",
+        "id": "mfoo51702",
         "nodes": [
           {
             "type": "TEXT",
@@ -1794,7 +1834,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "5xt4x1703",
+        "id": "akzpb1703",
         "nodes": [
           {
             "type": "TEXT",

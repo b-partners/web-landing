@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tnkwu9635",
+        "id": "wdatz9635",
         "nodes": [
           {
             "type": "TEXT",
@@ -43,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "w1fc09636",
+        "id": "ozzw99636",
         "nodes": [
           {
             "type": "TEXT",
@@ -68,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "knf0m9645",
+        "id": "npn249645",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "692v39638",
+            "id": "3gei59638",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ncinf9637",
+                "id": "gky0j9637",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -98,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "pzcvw9640",
+            "id": "yczp39640",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "qget79639",
+                "id": "b5eq59639",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -124,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "h9ohs9642",
+            "id": "8pta09642",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ho3rb9641",
+                "id": "qayfe9641",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -150,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ehalq9644",
+            "id": "78phl9644",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "3g44t9643",
+                "id": "051g29643",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -181,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "6moa29646",
+        "id": "9qnic9646",
         "nodes": [
           {
             "type": "TEXT",
@@ -206,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ezsan9647",
+        "id": "ymvqq9647",
         "nodes": [
           {
             "type": "TEXT",
@@ -226,7 +226,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "u5ngn9648",
+        "id": "dwrnv9648",
         "nodes": [
           {
             "type": "TEXT",
@@ -245,28 +245,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "zft379649",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Pour un contrôle fiable et détaillé, le diagnostic toiture complet est la solution la plus adaptée aux habitations individuelles comme aux copropriétés rouennaises.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "sw67g9649",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Pour un contrôle fiable et détaillé, le diagnostic toiture complet est la solution la plus adaptée aux habitations individuelles comme aux copropriétés rouennaises.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "6seyo9650",
+        "id": "g6lsr9650",
         "nodes": [
           {
             "type": "TEXT",
@@ -291,7 +296,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "20kd99651",
+        "id": "auako9651",
         "nodes": [
           {
             "type": "TEXT",
@@ -311,7 +316,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "pv7be9652",
+        "id": "jj1mt9652",
         "nodes": [
           {
             "type": "TEXT",
@@ -331,7 +336,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "uhl9n9653",
+        "id": "ff6yh9653",
         "nodes": [
           {
             "type": "TEXT",
@@ -351,7 +356,7 @@
       },
       {
         "type": "HEADING",
-        "id": "02x5y9654",
+        "id": "amzjx9654",
         "nodes": [
           {
             "type": "TEXT",
@@ -376,7 +381,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "1txy79655",
+        "id": "ge0ib9655",
         "nodes": [
           {
             "type": "TEXT",
@@ -396,7 +401,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ccq479656",
+        "id": "p5y1j9656",
         "nodes": [
           {
             "type": "TEXT",
@@ -416,7 +421,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "548ot9657",
+        "id": "b1wwk9657",
         "nodes": [
           {
             "type": "TEXT",
@@ -436,7 +441,7 @@
       },
       {
         "type": "HEADING",
-        "id": "tus1f9658",
+        "id": "7g9269658",
         "nodes": [
           {
             "type": "TEXT",
@@ -461,7 +466,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "j0vya9659",
+        "id": "ozbya9659",
         "nodes": [
           {
             "type": "TEXT",
@@ -481,7 +486,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jd07v9660",
+        "id": "bg2du9660",
         "nodes": [
           {
             "type": "TEXT",

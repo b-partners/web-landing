@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ltoxb4515",
+        "id": "ameqg4584",
         "nodes": [
           {
             "type": "TEXT",
@@ -65,7 +65,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "h1ihx4516",
+        "id": "cosp84585",
         "nodes": [
           {
             "type": "TEXT",
@@ -89,15 +89,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "24mmn4525",
+        "id": "gu73a4594",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "s6m184518",
+            "id": "4ju6n4587",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "155gx4517",
+                "id": "3ob184586",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -119,11 +119,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "0zsmj4520",
+            "id": "djlbt4589",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "7doiz4519",
+                "id": "2t4664588",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -145,11 +145,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ujd774522",
+            "id": "5tfnk4591",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "zq3lo4521",
+                "id": "w2iio4590",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -171,11 +171,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "cleho4524",
+            "id": "icu6m4593",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "iwmk94523",
+                "id": "14w1x4592",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -202,7 +202,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ed46x4526",
+        "id": "lap3k4595",
         "nodes": [
           {
             "type": "TEXT",
@@ -227,7 +227,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "zf3vd4527",
+        "id": "93zp54596",
         "nodes": [
           {
             "type": "TEXT",
@@ -246,50 +246,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "lzbn34528",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce pratique :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "34e614597",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " dans les maisons anciennes, les dauphins en fonte servaient aussi de protection contre les chocs (par exemple, des roues de charrettes).",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce pratique :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " dans les maisons anciennes, les dauphins en fonte servaient aussi de protection contre les chocs (par exemple, des roues de charrettes).",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "rlrbq4529",
+        "id": "nw8q64598",
         "nodes": [
           {
             "type": "TEXT",
@@ -314,7 +319,7 @@
       },
       {
         "type": "HEADING",
-        "id": "qc08t4530",
+        "id": "bzl0l4599",
         "nodes": [
           {
             "type": "TEXT",
@@ -339,15 +344,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "jk6om4537",
+        "id": "rljig4606",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "07poh4532",
+            "id": "nfblo4601",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "occdy4531",
+                "id": "6ki7e4600",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -369,11 +374,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "3th8f4534",
+            "id": "12r7i4603",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ia90c4533",
+                "id": "1w3qg4602",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -395,11 +400,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "qn27p4536",
+            "id": "dfi6y4605",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "otrc74535",
+                "id": "idcxl4604",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -426,7 +431,7 @@
       },
       {
         "type": "HEADING",
-        "id": "96vld4538",
+        "id": "457su4607",
         "nodes": [
           {
             "type": "TEXT",
@@ -451,15 +456,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "g5rb64545",
+        "id": "pa0z14614",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "ox0to4540",
+            "id": "68ypw4609",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "bduu64539",
+                "id": "tx3jb4608",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -481,11 +486,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "2nda84542",
+            "id": "dxlbe4611",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "aow5s4541",
+                "id": "xb3ta4610",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -507,11 +512,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "zw4gm4544",
+            "id": "ajf0r4613",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "j4ves4543",
+                "id": "ihf3n4612",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -538,7 +543,7 @@
       },
       {
         "type": "HEADING",
-        "id": "rcsmy4546",
+        "id": "pyr6m4615",
         "nodes": [
           {
             "type": "TEXT",
@@ -563,15 +568,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "ff71p4553",
+        "id": "8nsrm4622",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "0z0zl4548",
+            "id": "xb3304617",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "q6nj44547",
+                "id": "0s7gm4616",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -593,11 +598,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "5ll144550",
+            "id": "he42p4619",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "bgr3a4549",
+                "id": "zaq6n4618",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -619,11 +624,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "pmjkt4552",
+            "id": "kbi2f4621",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "bed5y4551",
+                "id": "34fuu4620",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -649,50 +654,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "950wf4554",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Conseil d’achat :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "pj0p94623",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " pour une maison ancienne ou de caractère, privilégiez la fonte. Pour une maison moderne, le PVC ou l’acier suffisent.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Conseil d’achat :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " pour une maison ancienne ou de caractère, privilégiez la fonte. Pour une maison moderne, le PVC ou l’acier suffisent.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "yak6v4555",
+        "id": "ae74y4624",
         "nodes": [
           {
             "type": "TEXT",
@@ -717,7 +727,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "inmyf4556",
+        "id": "l06hn4625",
         "nodes": [
           {
             "type": "TEXT",
@@ -737,15 +747,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "9y31v4563",
+        "id": "qezsp4632",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "cs70s4558",
+            "id": "wr0vf4627",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "w650q4557",
+                "id": "iacdv4626",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -767,11 +777,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "xos5y4560",
+            "id": "6m7ka4629",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "5f3me4559",
+                "id": "lq8zn4628",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -793,11 +803,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "nsfmn4562",
+            "id": "u1ifc4631",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "nxz5y4561",
+                "id": "4pln04630",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -823,50 +833,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "nfpf24564",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Exemple concret :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "bl39b4633",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " équiper une maison de 4 descentes avec des dauphins en fonte peut coûter entre 400 et 800 €.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Exemple concret :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " équiper une maison de 4 descentes avec des dauphins en fonte peut coûter entre 400 et 800 €.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "lu4yo4565",
+        "id": "i1tza4634",
         "nodes": [
           {
             "type": "TEXT",
@@ -891,7 +906,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "i62354566",
+        "id": "d6reg4635",
         "nodes": [
           {
             "type": "TEXT",
@@ -911,15 +926,15 @@
       },
       {
         "type": "ORDERED_LIST",
-        "id": "jmaoh4575",
+        "id": "igfsn4644",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "7pomm4568",
+            "id": "pdyja4637",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "4qnh04567",
+                "id": "b69zj4636",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -941,11 +956,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "afpjq4570",
+            "id": "pv8ar4639",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "qb6go4569",
+                "id": "9vlq84638",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -967,11 +982,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "bbnsg4572",
+            "id": "u46ys4641",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "w1gxa4571",
+                "id": "jq4l04640",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -993,11 +1008,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "862sm4574",
+            "id": "8ohfq4643",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "v1elf4573",
+                "id": "4pz564642",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1023,50 +1038,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "45zcz4576",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Conseil sécurité :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "flzem4645",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " prévoyez un dauphin adapté au diamètre de la descente pour éviter tout débordement.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Conseil sécurité :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " prévoyez un dauphin adapté au diamètre de la descente pour éviter tout débordement.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "uod5z4577",
+        "id": "zm0ih4646",
         "nodes": [
           {
             "type": "TEXT",
@@ -1091,15 +1111,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "ujoog4586",
+        "id": "har0z4655",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "qh95f4579",
+            "id": "p4mq64648",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "p7m6h4578",
+                "id": "08xqr4647",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1121,11 +1141,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "kazek4581",
+            "id": "sfzm04650",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "o7vh74580",
+                "id": "sknav4649",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1147,11 +1167,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "2e90c4583",
+            "id": "uqlbv4652",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ccut54582",
+                "id": "eicgs4651",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1173,11 +1193,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "0z86f4585",
+            "id": "0ufvi4654",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "7gmfc4584",
+                "id": "54cme4653",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1204,7 +1224,7 @@
       },
       {
         "type": "HEADING",
-        "id": "3gpoc4587",
+        "id": "mrc6s4656",
         "nodes": [
           {
             "type": "TEXT",
@@ -1229,7 +1249,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tywrs4588",
+        "id": "tkhuq4657",
         "nodes": [
           {
             "type": "TEXT",
@@ -1248,50 +1268,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "62n6q4589",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Étape suivante :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "vd38e4658",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " choisissez un dauphin adapté à vos descentes de gouttières et à l’esthétique de votre façade pour allier efficacité et style.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Étape suivante :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " choisissez un dauphin adapté à vos descentes de gouttières et à l’esthétique de votre façade pour allier efficacité et style.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "d39dn4590",
+        "id": "2fu9t4659",
         "nodes": [
           {
             "type": "TEXT",
@@ -1316,7 +1341,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "q0gdq4591",
+        "id": "klkal4660",
         "nodes": [
           {
             "type": "TEXT",
@@ -1349,7 +1374,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "yej8k4592",
+        "id": "zs0p14661",
         "nodes": [
           {
             "type": "TEXT",
@@ -1382,7 +1407,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "mmjxd4593",
+        "id": "1sdgr4662",
         "nodes": [
           {
             "type": "TEXT",
@@ -1415,7 +1440,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "s1mk84594",
+        "id": "kbtjt4663",
         "nodes": [
           {
             "type": "TEXT",

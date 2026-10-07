@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "47sx3322",
+        "id": "y9mpb231",
         "nodes": [
           {
             "type": "TEXT",
@@ -87,7 +87,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "c3339323",
+        "id": "h4cjy232",
         "nodes": [
           {
             "type": "TEXT",
@@ -111,15 +111,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "pinvi332",
+        "id": "cvv5z241",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "u0e6v325",
+            "id": "z4zy5234",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "rp53g324",
+                "id": "t4jam233",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -141,11 +141,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "j0r0f327",
+            "id": "imd8f236",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "sv71d326",
+                "id": "r2f01235",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -167,11 +167,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "9rc92329",
+            "id": "oj0dj238",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "bei8r328",
+                "id": "28gh9237",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -193,11 +193,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "z4116331",
+            "id": "sffom240",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "p9d3z330",
+                "id": "7g0vw239",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -224,7 +224,7 @@
       },
       {
         "type": "HEADING",
-        "id": "4ripf333",
+        "id": "tqbml242",
         "nodes": [
           {
             "type": "TEXT",
@@ -249,11 +249,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "fmiuv342",
+        "id": "jum63251",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "cvv9v335",
+            "id": "jcpqu244",
             "nodes": [
               {
                 "type": "TEXT",
@@ -270,7 +270,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ldj92334",
+                "id": "7uyi7243",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -292,7 +292,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "qc35u337",
+            "id": "vkh4y246",
             "nodes": [
               {
                 "type": "TEXT",
@@ -309,7 +309,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "vjvzf336",
+                "id": "s8kr9245",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -331,7 +331,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ymosr339",
+            "id": "emwxt248",
             "nodes": [
               {
                 "type": "TEXT",
@@ -348,7 +348,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "g6pyv338",
+                "id": "b482v247",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -370,7 +370,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "cpr8l341",
+            "id": "fmvqr250",
             "nodes": [
               {
                 "type": "TEXT",
@@ -387,7 +387,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "xati1340",
+                "id": "7fdog249",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -413,72 +413,77 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "ckmhz343",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce pratique :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "l2x4f252",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " demander au syndic le ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "carnet d’entretien de l’immeuble",
-              "decorations": [
-                {
-                  "type": "BOLD"
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce pratique :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " pour connaître l’historique de la toiture.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " demander au syndic le ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "carnet d’entretien de l’immeuble",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " pour connaître l’historique de la toiture.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "8c71l344",
+        "id": "yowz9253",
         "nodes": [
           {
             "type": "TEXT",
@@ -503,15 +508,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "xaru6353",
+        "id": "j2yuc262",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "64l5f347",
+            "id": "vzse4256",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "s4lur345",
+                "id": "fmbnr254",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -544,7 +549,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "1hdkx346",
+                "id": "ywv53255",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -566,11 +571,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "adquv352",
+            "id": "57xnb261",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "7aibh348",
+                "id": "2nl93257",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -603,7 +608,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "nb8t0349",
+                "id": "4ewga258",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -636,7 +641,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "27vts350",
+                "id": "g9fqg259",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -669,7 +674,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "x2co2351",
+                "id": "m0dhe260",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -695,72 +700,77 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "ove7f354",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Précision :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "9mqdz263",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " le vendeur d’un appartement n’a pas à fournir un diagnostic toiture complet, mais les ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "procès-verbaux d’assemblée générale",
-              "decorations": [
-                {
-                  "type": "BOLD"
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Précision :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " mentionnant l’état de la toiture sont à présenter à l’acquéreur.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " le vendeur d’un appartement n’a pas à fournir un diagnostic toiture complet, mais les ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "procès-verbaux d’assemblée générale",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " mentionnant l’état de la toiture sont à présenter à l’acquéreur.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "cdcui355",
+        "id": "kzyxc264",
         "nodes": [
           {
             "type": "TEXT",
@@ -785,11 +795,11 @@
       },
       {
         "type": "ORDERED_LIST",
-        "id": "neqch364",
+        "id": "8730j273",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "8eo8u357",
+            "id": "xl103266",
             "nodes": [
               {
                 "type": "TEXT",
@@ -806,7 +816,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "gm9f2356",
+                "id": "e5ya8265",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -828,7 +838,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "eq3gk359",
+            "id": "9yuax268",
             "nodes": [
               {
                 "type": "TEXT",
@@ -845,7 +855,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "90ieu358",
+                "id": "dv49l267",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -867,7 +877,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "th94w361",
+            "id": "y4peh270",
             "nodes": [
               {
                 "type": "TEXT",
@@ -884,7 +894,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "3tzcb360",
+                "id": "il10v269",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -906,7 +916,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "rufux363",
+            "id": "kokus272",
             "nodes": [
               {
                 "type": "TEXT",
@@ -923,7 +933,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "h8v9a362",
+                "id": "euizy271",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -949,50 +959,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "6fm4z365",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce technique :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "pdog3274",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " certains syndics font appel à des drones pour inspecter rapidement les toitures sans échafaudage.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce technique :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " certains syndics font appel à des drones pour inspecter rapidement les toitures sans échafaudage.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "2xex0366",
+        "id": "xqcvv275",
         "nodes": [
           {
             "type": "TEXT",
@@ -1017,15 +1032,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "ltp31372",
+        "id": "y32b1281",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "211tv369",
+            "id": "rmrz5278",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "uo79e367",
+                "id": "1kzwj276",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1058,7 +1073,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "mvadz368",
+                "id": "ixzzl277",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1080,11 +1095,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "c8k46371",
+            "id": "az0u6280",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "gnz0m370",
+                "id": "ez5w6279",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1110,50 +1125,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "l5ttq373",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Conseil d’expert :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "90yaz282",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " en cas de litige (infiltration, dégâts des eaux), il est recommandé de faire intervenir un expert indépendant pour établir un rapport technique.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Conseil d’expert :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " en cas de litige (infiltration, dégâts des eaux), il est recommandé de faire intervenir un expert indépendant pour établir un rapport technique.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "qy3xn374",
+        "id": "2on91283",
         "nodes": [
           {
             "type": "TEXT",
@@ -1178,15 +1198,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "if53x384",
+        "id": "2u3eh293",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "kq35h377",
+            "id": "z4nef286",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "oriq0375",
+                "id": "j4ncm284",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1219,7 +1239,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "q2e3i376",
+                "id": "96gge285",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1241,11 +1261,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "sxe6i380",
+            "id": "23txp289",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "4dbqa378",
+                "id": "oi1ti287",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1278,7 +1298,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "rfkwl379",
+                "id": "f3q4p288",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1300,11 +1320,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "xfzcn383",
+            "id": "3o4zd292",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "7h5ph381",
+                "id": "2869b290",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1337,7 +1357,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "blb8x382",
+                "id": "v3nfg291",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1363,50 +1383,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "ryxd3385",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Astuce budget :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "5i4qq294",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " dans le cadre d’un sinistre déclaré (infiltration, tempête), l’assurance habitation ou l’assurance de copropriété prend en charge l’expertise.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Astuce budget :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " dans le cadre d’un sinistre déclaré (infiltration, tempête), l’assurance habitation ou l’assurance de copropriété prend en charge l’expertise.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "doh3l386",
+        "id": "ergha295",
         "nodes": [
           {
             "type": "TEXT",
@@ -1431,7 +1456,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "t5695387",
+        "id": "0zoe0296",
         "nodes": [
           {
             "type": "TEXT",
@@ -1472,50 +1497,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "fbb09388",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Étape suivante :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "dxlfe297",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " avant d’acheter ou de vendre un appartement sous les toits, demandez le carnet d’entretien de l’immeuble et, si nécessaire, exigez un diagnostic toiture.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Étape suivante :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " avant d’acheter ou de vendre un appartement sous les toits, demandez le carnet d’entretien de l’immeuble et, si nécessaire, exigez un diagnostic toiture.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "8sfl9389",
+        "id": "0vp34298",
         "nodes": [
           {
             "type": "TEXT",
@@ -1540,7 +1570,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "bhpo1390",
+        "id": "af6v7299",
         "nodes": [
           {
             "type": "TEXT",
@@ -1573,7 +1603,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "dsy0c391",
+        "id": "b9ptn300",
         "nodes": [
           {
             "type": "TEXT",
@@ -1606,7 +1636,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "q9r7a392",
+        "id": "yy4va301",
         "nodes": [
           {
             "type": "TEXT",
@@ -1639,7 +1669,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "uhdiy393",
+        "id": "sfam0302",
         "nodes": [
           {
             "type": "TEXT",

@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "neofv3522",
+        "id": "24pc53522",
         "nodes": [
           {
             "type": "TEXT",
@@ -87,7 +87,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "9z4oc3523",
+        "id": "vr1qx3523",
         "nodes": [
           {
             "type": "TEXT",
@@ -111,15 +111,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "uijd93534",
+        "id": "ryem13534",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "t1p7e3526",
+            "id": "od4pb3526",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "n4x6b3524",
+                "id": "edkof3524",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -152,7 +152,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "qvhxh3525",
+                "id": "3wrff3525",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -174,11 +174,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "0r3dr3529",
+            "id": "om3533529",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "l8c2y3527",
+                "id": "xv6363527",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -211,7 +211,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "nygni3528",
+                "id": "xrm7z3528",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -233,11 +233,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "o2yxw3531",
+            "id": "u3w1r3531",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "f9ooa3530",
+                "id": "l2bwc3530",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -259,11 +259,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "mprcs3533",
+            "id": "fd5g23533",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "hapl63532",
+                "id": "t2zkj3532",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -290,7 +290,7 @@
       },
       {
         "type": "HEADING",
-        "id": "t2mf13535",
+        "id": "89igc3535",
         "nodes": [
           {
             "type": "TEXT",
@@ -315,15 +315,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "1gx143547",
+        "id": "me51z3547",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "h0n0e3538",
+            "id": "ur0w83538",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ph7pw3536",
+                "id": "9u6c53536",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -356,7 +356,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "kkomt3537",
+                "id": "e014a3537",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -378,11 +378,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "utlg33540",
+            "id": "x191w3540",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "8cuca3539",
+                "id": "hpqk03539",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -404,11 +404,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "m2yzm3543",
+            "id": "xwicj3543",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "njw003541",
+                "id": "36x6b3541",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -441,7 +441,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "603ch3542",
+                "id": "l00013542",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -463,11 +463,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "g89pu3546",
+            "id": "wzson3546",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "7zlbz3544",
+                "id": "7m9pb3544",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -500,7 +500,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "91vnt3545",
+                "id": "8kzln3545",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -526,28 +526,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "ffix23548",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Exemple : un logement avec combles non isolés aura une mauvaise étiquette DPE, même si la couverture est en bon état.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "ravay3548",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Exemple : un logement avec combles non isolés aura une mauvaise étiquette DPE, même si la couverture est en bon état.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "1yecn3549",
+        "id": "scza63549",
         "nodes": [
           {
             "type": "TEXT",
@@ -572,7 +577,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "exh3i3550",
+        "id": "dcd3p3550",
         "nodes": [
           {
             "type": "TEXT",
@@ -592,15 +597,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "95tb13557",
+        "id": "bj2mw3557",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "c39lw3552",
+            "id": "ye6733552",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "g3txk3551",
+                "id": "824bc3551",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -622,11 +627,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "6qnm03554",
+            "id": "bmn6f3554",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "yt0js3553",
+                "id": "jxatn3553",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -648,11 +653,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "x8keu3556",
+            "id": "uzt8y3556",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "3m2xx3555",
+                "id": "fe46u3555",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -678,50 +683,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "tik323558",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "À retenir :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "bq9hq3558",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " le DPE évalue uniquement la performance thermique, pas la sécurité ni la solidité du toit.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "À retenir :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " le DPE évalue uniquement la performance thermique, pas la sécurité ni la solidité du toit.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "mzcfb3559",
+        "id": "vsd1q3559",
         "nodes": [
           {
             "type": "TEXT",
@@ -746,7 +756,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7pg503560",
+        "id": "2h3h83560",
         "nodes": [
           {
             "type": "TEXT",
@@ -788,15 +798,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "3lt0o3569",
+        "id": "ag80h3569",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "kin8u3562",
+            "id": "4fohy3562",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "hw4ig3561",
+                "id": "n3gs63561",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -818,11 +828,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "bn13m3564",
+            "id": "tq2z83564",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "hr2c83563",
+                "id": "136j73563",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -844,11 +854,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "zekby3566",
+            "id": "tmxnw3566",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "um7pq3565",
+                "id": "h04mh3565",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -870,11 +880,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "q99ib3568",
+            "id": "686sy3568",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "dzg593567",
+                "id": "gfis93567",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -900,50 +910,55 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "joz0n3570",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Conseil pratique : présenter à un acquéreur un ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "DPE performant + un diagnostic toiture récent",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "27g6n3570",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Conseil pratique : présenter à un acquéreur un ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " valorise fortement un bien immobilier.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "DPE performant + un diagnostic toiture récent",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " valorise fortement un bien immobilier.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "qhyu73571",
+        "id": "d8mcm3571",
         "nodes": [
           {
             "type": "TEXT",
@@ -968,15 +983,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "x84te3580",
+        "id": "6zvc53580",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "4izpp3574",
+            "id": "ay9rt3574",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "3qplw3572",
+                "id": "qu8vf3572",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1009,7 +1024,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "yh48h3573",
+                "id": "mgb463573",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1031,11 +1046,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "cy6vi3577",
+            "id": "owjgm3577",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "a97ni3575",
+                "id": "2gzyr3575",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1068,7 +1083,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "cnrzn3576",
+                "id": "kznk03576",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1090,11 +1105,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "crrtz3579",
+            "id": "bb9qd3579",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "9a0843578",
+                "id": "qy06r3578",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1121,7 +1136,7 @@
       },
       {
         "type": "HEADING",
-        "id": "cw72a3581",
+        "id": "ugepu3581",
         "nodes": [
           {
             "type": "TEXT",
@@ -1146,7 +1161,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "98c5a3582",
+        "id": "5i5w53582",
         "nodes": [
           {
             "type": "TEXT",
@@ -1231,94 +1246,99 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "2iply3583",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "Étape suivante :",
-              "decorations": [
-                {
-                  "type": "BOLD"
+            "type": "PARAGRAPH",
+            "id": "j9fp13583",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " si vous vendez un bien, combinez un ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "DPE à jour",
-              "decorations": [
-                {
-                  "type": "BOLD"
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Étape suivante :",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " avec un ",
-              "decorations": []
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "diagnostic toiture volontaire",
-              "decorations": [
-                {
-                  "type": "BOLD"
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " si vous vendez un bien, combinez un ",
+                  "decorations": []
                 }
-              ]
-            }
-          },
-          {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": " pour rassurer l’acheteur et éviter toute contestation.",
-              "decorations": []
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "DPE à jour",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " avec un ",
+                  "decorations": []
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "diagnostic toiture volontaire",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": " pour rassurer l’acheteur et éviter toute contestation.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "lotu03584",
+        "id": "c2ugd3584",
         "nodes": [
           {
             "type": "TEXT",
@@ -1343,7 +1363,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "h7fs13585",
+        "id": "j7wuh3585",
         "nodes": [
           {
             "type": "TEXT",
@@ -1376,7 +1396,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "c52ky3586",
+        "id": "je0ng3586",
         "nodes": [
           {
             "type": "TEXT",
@@ -1409,7 +1429,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "wcuwa3587",
+        "id": "ot6083587",
         "nodes": [
           {
             "type": "TEXT",
@@ -1442,7 +1462,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "azubh3588",
+        "id": "apyek3588",
         "nodes": [
           {
             "type": "TEXT",

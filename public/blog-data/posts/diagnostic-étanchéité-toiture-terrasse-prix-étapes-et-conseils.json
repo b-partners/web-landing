@@ -23,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "j9252597",
+        "id": "7crtu511",
         "nodes": [
           {
             "type": "TEXT",
@@ -43,7 +43,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "xcdpg598",
+        "id": "mv944512",
         "nodes": [
           {
             "type": "TEXT",
@@ -84,28 +84,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "357j4599",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Demandez un devis gratuit pour un diagnostic étanchéité toiture terrasse.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "vt164513",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Demandez un devis gratuit pour un diagnostic étanchéité toiture terrasse.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "gx3xz600",
+        "id": "mvjqf514",
         "nodes": [
           {
             "type": "TEXT",
@@ -130,7 +135,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "k7mc5601",
+        "id": "ye3uy515",
         "nodes": [
           {
             "type": "TEXT",
@@ -150,15 +155,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "2qj54610",
+        "id": "mqd6f524",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "8uzg9603",
+            "id": "jzeh8517",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "txnla602",
+                "id": "4rwq5516",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -180,11 +185,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ptf8u605",
+            "id": "wkffy519",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "k8h9i604",
+                "id": "e4hju518",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -206,11 +211,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "t2u64607",
+            "id": "ww32r521",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "wjnze606",
+                "id": "ndy6x520",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -232,11 +237,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "kd42d609",
+            "id": "cfyoh523",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "24gkj608",
+                "id": "ox71e522",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -263,7 +268,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "xs0v6611",
+        "id": "l596v525",
         "nodes": [
           {
             "type": "TEXT",
@@ -283,7 +288,7 @@
       },
       {
         "type": "HEADING",
-        "id": "4risa612",
+        "id": "c7d6k526",
         "nodes": [
           {
             "type": "TEXT",
@@ -308,7 +313,7 @@
       },
       {
         "type": "HEADING",
-        "id": "i8njj613",
+        "id": "kl0mq527",
         "nodes": [
           {
             "type": "TEXT",
@@ -333,7 +338,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "iqddi614",
+        "id": "0eoab528",
         "nodes": [
           {
             "type": "TEXT",
@@ -353,7 +358,7 @@
       },
       {
         "type": "HEADING",
-        "id": "7ir8c615",
+        "id": "az77h529",
         "nodes": [
           {
             "type": "TEXT",
@@ -378,7 +383,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0h5ej616",
+        "id": "92paq530",
         "nodes": [
           {
             "type": "TEXT",
@@ -398,7 +403,7 @@
       },
       {
         "type": "HEADING",
-        "id": "7u7tf617",
+        "id": "wz99u531",
         "nodes": [
           {
             "type": "TEXT",
@@ -423,7 +428,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jay0n618",
+        "id": "3oado532",
         "nodes": [
           {
             "type": "TEXT",
@@ -443,7 +448,7 @@
       },
       {
         "type": "HEADING",
-        "id": "eyfr0619",
+        "id": "doptu533",
         "nodes": [
           {
             "type": "TEXT",
@@ -468,7 +473,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "12ghg620",
+        "id": "w4o86534",
         "nodes": [
           {
             "type": "TEXT",
@@ -487,28 +492,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "mpnwl621",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Assurez la pérennité de votre maison avec un diagnostic étanchéité toiture terrasse.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "5elt8535",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Assurez la pérennité de votre maison avec un diagnostic étanchéité toiture terrasse.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "2fng8622",
+        "id": "rdjbk536",
         "nodes": [
           {
             "type": "TEXT",
@@ -533,7 +543,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8nnlm623",
+        "id": "1rc62537",
         "nodes": [
           {
             "type": "TEXT",
@@ -553,7 +563,7 @@
       },
       {
         "type": "HEADING",
-        "id": "bplj8624",
+        "id": "k360n538",
         "nodes": [
           {
             "type": "TEXT",
@@ -578,7 +588,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "9padl625",
+        "id": "wzvdu539",
         "nodes": [
           {
             "type": "TEXT",
@@ -598,7 +608,7 @@
       },
       {
         "type": "HEADING",
-        "id": "583fl626",
+        "id": "g2m45540",
         "nodes": [
           {
             "type": "TEXT",
@@ -623,7 +633,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jg6cl627",
+        "id": "at6tw541",
         "nodes": [
           {
             "type": "TEXT",
@@ -643,7 +653,7 @@
       },
       {
         "type": "HEADING",
-        "id": "pc2yb628",
+        "id": "dysph542",
         "nodes": [
           {
             "type": "TEXT",
@@ -668,7 +678,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "b17av629",
+        "id": "rwk0m543",
         "nodes": [
           {
             "type": "TEXT",
@@ -688,7 +698,7 @@
       },
       {
         "type": "HEADING",
-        "id": "50zna630",
+        "id": "q3bmq544",
         "nodes": [
           {
             "type": "TEXT",
@@ -713,7 +723,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "icys3631",
+        "id": "opsqj545",
         "nodes": [
           {
             "type": "TEXT",
@@ -733,7 +743,7 @@
       },
       {
         "type": "HEADING",
-        "id": "sk8hp632",
+        "id": "68dn7546",
         "nodes": [
           {
             "type": "TEXT",
@@ -758,7 +768,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "r725m633",
+        "id": "gegrs547",
         "nodes": [
           {
             "type": "TEXT",
@@ -777,28 +787,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "nb2y9634",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Obtenez un diagnostic complet avec rapport détaillé pour votre toiture terrasse.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "7gzh9548",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Obtenez un diagnostic complet avec rapport détaillé pour votre toiture terrasse.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "hi5s8635",
+        "id": "27rhm549",
         "nodes": [
           {
             "type": "TEXT",
@@ -823,7 +838,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "argvh636",
+        "id": "fqex0550",
         "nodes": [
           {
             "type": "TEXT",
@@ -865,11 +880,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "z6y0a646",
+        "id": "an5w4560",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "euvka639",
+            "id": "nop9s553",
             "nodes": [
               {
                 "type": "TEXT",
@@ -886,7 +901,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "anm0w637",
+                "id": "vkpo9551",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -919,7 +934,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "0pr92638",
+                "id": "kn86m552",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -941,7 +956,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "f8ute642",
+            "id": "c2j5j556",
             "nodes": [
               {
                 "type": "TEXT",
@@ -958,7 +973,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "vi4pp640",
+                "id": "jbg98554",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -991,7 +1006,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ols2b641",
+                "id": "qnvwp555",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1013,7 +1028,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "uri1o645",
+            "id": "cqrzg559",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1030,7 +1045,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "vsk6r643",
+                "id": "8pgyj557",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1063,7 +1078,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "q2hac644",
+                "id": "sdrwz558",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1090,7 +1105,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "qa2er647",
+        "id": "y4aiw561",
         "nodes": [
           {
             "type": "TEXT",
@@ -1109,28 +1124,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "sy2q1648",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Comparez les prix et demandez plusieurs devis diagnostic toiture terrasse.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "moo03562",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Comparez les prix et demandez plusieurs devis diagnostic toiture terrasse.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "n6rfs649",
+        "id": "s0tam563",
         "nodes": [
           {
             "type": "TEXT",
@@ -1155,7 +1175,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "90cyl650",
+        "id": "agh3z564",
         "nodes": [
           {
             "type": "TEXT",
@@ -1175,15 +1195,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "n9ab8663",
+        "id": "7lxk5577",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "zygwh653",
+            "id": "3kdw5567",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "mw45t651",
+                "id": "c8ufx565",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1216,7 +1236,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "qlfi6652",
+                "id": "n9cnw566",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1238,11 +1258,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "49h8k656",
+            "id": "lbgvb570",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "slgc9654",
+                "id": "bnvmt568",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1275,7 +1295,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "rkep1655",
+                "id": "4ojtr569",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1297,7 +1317,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "7jwk5658",
+            "id": "5olns572",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1314,7 +1334,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "v5u7d657",
+                "id": "9bvum571",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1336,7 +1356,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ld5ei660",
+            "id": "pw23l574",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1353,7 +1373,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "znm6k659",
+                "id": "9d2c6573",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1375,7 +1395,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "quq7l662",
+            "id": "sxx58576",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1392,7 +1412,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "tcs92661",
+                "id": "bkpey575",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1418,28 +1438,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "18h6u664",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Planifiez un diagnostic préventif de votre toiture terrasse dès aujourd’hui.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "y68or578",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Planifiez un diagnostic préventif de votre toiture terrasse dès aujourd’hui.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "lluar665",
+        "id": "ss52v579",
         "nodes": [
           {
             "type": "TEXT",
@@ -1464,7 +1489,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tfhft666",
+        "id": "ki8f2580",
         "nodes": [
           {
             "type": "TEXT",
@@ -1484,11 +1509,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "jxlku673",
+        "id": "k1uog587",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "39r6f668",
+            "id": "e021n582",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1505,7 +1530,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "b5s7w667",
+                "id": "o83yz581",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1527,7 +1552,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "nxc3m670",
+            "id": "j587g584",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1544,7 +1569,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ro3uf669",
+                "id": "n1t66583",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1566,7 +1591,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ngmpa672",
+            "id": "ktht8586",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1583,7 +1608,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "lr1q3671",
+                "id": "h5bgn585",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1610,7 +1635,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "5dfup674",
+        "id": "7qhbm588",
         "nodes": [
           {
             "type": "TEXT",
@@ -1629,28 +1654,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "totnd675",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Faites appel à un couvreur spécialisé en étanchéité toiture terrasse.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "5v4ep589",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Faites appel à un couvreur spécialisé en étanchéité toiture terrasse.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "b0do0676",
+        "id": "jtkhl590",
         "nodes": [
           {
             "type": "TEXT",
@@ -1675,7 +1705,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "d92fx677",
+        "id": "4fwy7591",
         "nodes": [
           {
             "type": "TEXT",
@@ -1738,28 +1768,33 @@
         }
       },
       {
-        "type": "PARAGRAPH",
-        "id": "c3uof678",
+        "type": "BLOCKQUOTE",
         "nodes": [
           {
-            "type": "TEXT",
-            "id": "",
-            "nodes": [],
-            "textData": {
-              "text": "👉 Contactez dès maintenant un expert pour diagnostiquer l’étanchéité de votre toiture terrasse.",
-              "decorations": []
+            "type": "PARAGRAPH",
+            "id": "t7tod592",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "👉 Contactez dès maintenant un expert pour diagnostiquer l’étanchéité de votre toiture terrasse.",
+                  "decorations": []
+                }
+              }
+            ],
+            "paragraphData": {
+              "textStyle": {
+                "textAlignment": "AUTO"
+              }
             }
           }
-        ],
-        "paragraphData": {
-          "textStyle": {
-            "textAlignment": "AUTO"
-          }
-        }
+        ]
       },
       {
         "type": "HEADING",
-        "id": "cy3i6679",
+        "id": "wt4is593",
         "nodes": [
           {
             "type": "TEXT",
@@ -1784,7 +1819,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "zoduk680",
+        "id": "c908w594",
         "nodes": [
           {
             "type": "TEXT",
@@ -1817,7 +1852,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "doqzp681",
+        "id": "vxvoi595",
         "nodes": [
           {
             "type": "TEXT",
@@ -1850,7 +1885,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "2q9y4682",
+        "id": "hui0k596",
         "nodes": [
           {
             "type": "TEXT",
@@ -1883,7 +1918,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "i53zm683",
+        "id": "aa4pw597",
         "nodes": [
           {
             "type": "TEXT",
