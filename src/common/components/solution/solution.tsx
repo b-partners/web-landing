@@ -1,15 +1,15 @@
 import { FC } from 'react';
 
 import { ImageGallery } from '../ImageGallery';
-import image1 from './assets/images/Image_1.png';
-import image2 from './assets/images/Image_2.png';
-import image3 from './assets/images/Image_3.png';
-import image4 from './assets/images/Image_4.png';
-import image5 from './assets/images/Image_5.png';
-import image6 from './assets/images/Image_6.png';
-import image7 from './assets/images/Image_7.png';
-import image8 from './assets/images/Image_8.png';
-import image9 from './assets/images/Image_9.png';
+import image1 from './assets/images/Image_1.webp';
+import image2 from './assets/images/Image_2.webp';
+import image3 from './assets/images/Image_3.webp';
+import image4 from './assets/images/Image_4.webp';
+import image5 from './assets/images/Image_5.webp';
+import image6 from './assets/images/Image_6.webp';
+import image7 from './assets/images/Image_7.webp';
+import image8 from './assets/images/Image_8.webp';
+import image9 from './assets/images/Image_9.webp';
 
 const IMAGES = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
 

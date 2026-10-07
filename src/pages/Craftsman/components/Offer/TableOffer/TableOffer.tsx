@@ -52,7 +52,7 @@ export function TableOffer() {
       </div>
       <div className="offer__table-column">
         <div className="offer__table-header">
-          <img src={Essentiel} alt="essentiel" className="offer-image" />
+          <img loading="lazy" src={Essentiel} alt="essentiel" className="offer-image" />
           <h2>L'Essentiel</h2>
           <div className="offer__category">
             <h3>Professionnel de la toiture</h3>
@@ -74,7 +74,7 @@ export function TableOffer() {
       </div>
       <div className="offer__table-column">
         <div className="offer__table-header">
-          <img src={Developpement} alt="essentiel" className="offer-image" />
+          <img loading="lazy" src={Developpement} alt="essentiel" className="offer-image" />
           <h2>Le Sur-mesure</h2>
           <div className="offer__category">
             <h3>Professionnel du bâti (Foncière, Diagnostiqueur, OPH, etc)</h3>

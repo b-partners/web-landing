@@ -125,6 +125,7 @@ export const Analyse: FC<AnalyseProps> = (props) => {
             <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="analyse.image" type="file" />
           ) : (
             <img
+              loading="lazy"
               src={analyseImageUrl}
               alt="Illustration : Analyse automatisée de toitures par intelligence artificielle"
               style={{

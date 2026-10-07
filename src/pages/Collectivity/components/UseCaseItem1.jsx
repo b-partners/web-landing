@@ -23,13 +23,13 @@ export function UseCaseItem1() {
         <aside>
           <div className="box-img-row">
             <div className="usecase-box-img">
-              <img src={Zan1} alt={Zan1} />
+              <img loading="lazy" src={Zan1} alt={Zan1} />
             </div>
             <div className="usecase-box-img">
-              <img src={Zan2} alt={Zan2} />
+              <img loading="lazy" src={Zan2} alt={Zan2} />
             </div>
             <div className="usecase-box-img">
-              <img src={Zan3} alt={Zan3} />
+              <img loading="lazy" src={Zan3} alt={Zan3} />
             </div>
           </div>
         </aside>
@@ -41,13 +41,13 @@ export function UseCaseItem1() {
         <aside>
           <div className="box-img-row">
             <div className="usecase-box-img">
-              <img src={Zan4} alt={Zan4} />
+              <img loading="lazy" src={Zan4} alt={Zan4} />
             </div>
             <div className="usecase-box-img">
-              <img src={Zan5} alt={Zan5} />
+              <img loading="lazy" src={Zan5} alt={Zan5} />
             </div>
             <div className="usecase-box-img">
-              <img src={Zan6} alt={Zan6} />
+              <img loading="lazy" src={Zan6} alt={Zan6} />
             </div>
           </div>
         </aside>
@@ -71,13 +71,13 @@ export function UseCaseItem1() {
                     <b className="logo-color">Post vérification et validation humaine</b>
                   </div>
                   <div className="table-body-cell">
-                    <img src={TZan5} alt={TZan5} />
+                    <img loading="lazy" src={TZan5} alt={TZan5} />
                   </div>
                   <div className="table-body-cell">
-                    <img src={TZan6} alt={TZan6} />
+                    <img loading="lazy" src={TZan6} alt={TZan6} />
                   </div>
                   <div className="table-body-cell">
-                    <img src={TZan2} alt={TZan2} />
+                    <img loading="lazy" src={TZan2} alt={TZan2} />
                   </div>
                 </div>
                 <div className="offer__table-first__column usecase-table-column">
@@ -85,13 +85,13 @@ export function UseCaseItem1() {
                     <b className="logo-color">Geométrisation</b>
                   </div>
                   <div className="table-body-cell">
-                    <img src={TZan1} alt={TZan1} />
+                    <img loading="lazy" src={TZan1} alt={TZan1} />
                   </div>
                   <div className="table-body-cell">
-                    <img src={TZan3} alt={TZan3} />
+                    <img loading="lazy" src={TZan3} alt={TZan3} />
                   </div>
                   <div className="table-body-cell">
-                    <img src={TZan4} alt={TZan4} />
+                    <img loading="lazy" src={TZan4} alt={TZan4} />
                   </div>
                 </div>
                 <div className="offer__table-first__column usecase-table-column">
