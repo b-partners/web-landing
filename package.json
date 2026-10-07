@@ -42,7 +42,7 @@
   "scripts": {
     "start": "vite",
     "prebuild": "node scripts/fetch-blog-posts.mjs",
-    "build": "tsc -b && vite build",
+    "build": "NODE_OPTIONS=--max-old-space-size=4096 tsc -b && NODE_OPTIONS=--max-old-space-size=4096 vite build",
     "index:blog": "node scripts/prerender-blog-titles.mjs",
     "fetch:blog": "node scripts/fetch-blog-posts.mjs",
     "scrape:blog": "node scripts/scrape-birdia-blog.mjs",
