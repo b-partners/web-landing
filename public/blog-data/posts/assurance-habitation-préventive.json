@@ -5,6 +5,10 @@
   "excerpt": "L’imagerie aérienne haute définition (5 cm) couplée à l’intelligence artificielle permet aux assureurs d’évaluer à distance l’état des toitures.",
   "firstPublishedDate": "2025-05-08T11:37:35.091Z",
   "minutesToRead": 1,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "y1rf75990",
+        "id": "f6hlv6014",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "5dkvz5991",
+        "id": "feb6b6015",
         "nodes": [
           {
             "type": "TEXT",
@@ -87,7 +91,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "2h10i5992",
+        "id": "q9c7c6016",
         "nodes": [
           {
             "type": "TEXT",
@@ -107,7 +111,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "3y1895993",
+        "id": "xkxyh6017",
         "nodes": [
           {
             "type": "TEXT",
@@ -127,7 +131,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lra6o5994",
+        "id": "e15vt6018",
         "nodes": [
           {
             "type": "TEXT",
@@ -147,7 +151,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "l2ob75995",
+        "id": "v8c556019",
         "nodes": [
           {
             "type": "TEXT",
@@ -167,7 +171,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "06m4h5996",
+        "id": "f6z0c6020",
         "nodes": [
           {
             "type": "TEXT",
@@ -191,7 +195,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "f3do25997",
+        "id": "9jwky6021",
         "nodes": [
           {
             "type": "TEXT",
@@ -211,7 +215,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "5y0fk5998",
+        "id": "s8hgm6022",
         "nodes": [
           {
             "type": "TEXT",
@@ -235,7 +239,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jpncz5999",
+        "id": "f4tgr6023",
         "nodes": [
           {
             "type": "TEXT",
@@ -255,7 +259,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "32ev96000",
+        "id": "kd32y6024",
         "nodes": [
           {
             "type": "TEXT",

@@ -37,6 +37,23 @@ const POSTS_DIR = path.join(OUT_DIR, 'posts');
 const BLOCK_TAGS = new Set(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'ul', 'ol', 'blockquote']);
 const INLINE_TAG_MAP = { strong: 'strong', b: 'strong', em: 'em', i: 'em', a: 'a' };
 
+// blog.birdia.fr's JSON-LD only exposes the author's display name (no email, for privacy),
+// so known authors are mapped by hand here. Falls back to a firstname@birdia.fr guess
+// (the known convention) for anyone not yet listed — double-check that guess before trusting it.
+const AUTHOR_EMAILS = {
+  'Lou Maurica': 'lou@birdia.fr',
+};
+
+function resolveAuthorEmail(name) {
+  if (AUTHOR_EMAILS[name]) return AUTHOR_EMAILS[name];
+  const firstName = name
+    .split(' ')[0]
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+  return firstName ? `${firstName}@birdia.fr` : undefined;
+}
+
 async function fetchText(url) {
   const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
@@ -232,6 +249,8 @@ async function scrapePost(url) {
   const excerpt = jsonLd?.description ? decode(jsonLd.description).trim() : '';
   const firstPublishedDate = jsonLd?.datePublished;
   const heroImageUrl = jsonLd?.image?.url;
+  const authorName = jsonLd?.author?.name ? decode(jsonLd.author.name).trim() : undefined;
+  const author = authorName ? { name: authorName, email: resolveAuthorEmail(authorName) } : undefined;
 
   if (!title || !firstPublishedDate) {
     throw new Error(`Missing title/datePublished in JSON-LD for ${url}`);
@@ -254,6 +273,7 @@ async function scrapePost(url) {
     excerpt,
     firstPublishedDate,
     minutesToRead,
+    author,
     richContent: { nodes, metadata: { version: 1, createdTimestamp: firstPublishedDate, updatedTimestamp: firstPublishedDate, id: slug } },
   };
 }

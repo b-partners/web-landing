@@ -5,6 +5,10 @@
   "excerpt": "Les chevrons de toiture assurent la structure du toit. Découvrez leur rôle essentiel pour une toiture saine et durable.",
   "firstPublishedDate": "2025-01-02T23:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hchh19371",
+        "id": "krmta9395",
         "nodes": [
           {
             "type": "TEXT",
@@ -61,7 +65,7 @@
       },
       {
         "type": "HEADING",
-        "id": "x7fa69372",
+        "id": "pn7ix9396",
         "nodes": [
           {
             "type": "TEXT",
@@ -86,15 +90,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "2tjkr9381",
+        "id": "s8x4i9405",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "pudjg9374",
+            "id": "nygds9398",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "p554x9373",
+                "id": "z6l8b9397",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -116,11 +120,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "9er2r9376",
+            "id": "coo0f9400",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "zzm989375",
+                "id": "dd9u49399",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -142,11 +146,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "2qqah9378",
+            "id": "pa19v9402",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "szsam9377",
+                "id": "s2o2w9401",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -168,11 +172,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "0npc39380",
+            "id": "n99da9404",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "852id9379",
+                "id": "6e3s79403",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -199,7 +203,7 @@
       },
       {
         "type": "HEADING",
-        "id": "wxspw9382",
+        "id": "0dq739406",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,7 +228,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "j5y7r9383",
+        "id": "9nqeo9407",
         "nodes": [
           {
             "type": "TEXT",
@@ -244,7 +248,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "asnn59384",
+        "id": "5w1g19408",
         "nodes": [
           {
             "type": "TEXT",
@@ -264,7 +268,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "bcv9r9385",
+        "id": "ddirq9409",
         "nodes": [
           {
             "type": "TEXT",
@@ -312,7 +316,7 @@
       },
       {
         "type": "HEADING",
-        "id": "kipei9386",
+        "id": "gahxr9410",
         "nodes": [
           {
             "type": "TEXT",
@@ -337,7 +341,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0etjb9387",
+        "id": "e85d69411",
         "nodes": [
           {
             "type": "TEXT",
@@ -357,7 +361,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "is9ii9388",
+        "id": "zuo2l9412",
         "nodes": [
           {
             "type": "TEXT",
@@ -405,7 +409,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "z9r2r9389",
+        "id": "sriwe9413",
         "nodes": [
           {
             "type": "TEXT",
@@ -425,7 +429,7 @@
       },
       {
         "type": "HEADING",
-        "id": "pbv6g9390",
+        "id": "yhg4q9414",
         "nodes": [
           {
             "type": "TEXT",
@@ -450,7 +454,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0he7h9391",
+        "id": "rr4ry9415",
         "nodes": [
           {
             "type": "TEXT",
@@ -470,7 +474,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "32uvh9392",
+        "id": "3pm9y9416",
         "nodes": [
           {
             "type": "TEXT",
@@ -490,7 +494,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "o5vbs9393",
+        "id": "pc7639417",
         "nodes": [
           {
             "type": "TEXT",
@@ -566,7 +570,7 @@
       },
       {
         "type": "HEADING",
-        "id": "t9aud9394",
+        "id": "7jgvx9418",
         "nodes": [
           {
             "type": "TEXT",
@@ -591,7 +595,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "nu32d9395",
+        "id": "ui1jh9419",
         "nodes": [
           {
             "type": "TEXT",
@@ -611,7 +615,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8s8z49396",
+        "id": "g5o5l9420",
         "nodes": [
           {
             "type": "TEXT",

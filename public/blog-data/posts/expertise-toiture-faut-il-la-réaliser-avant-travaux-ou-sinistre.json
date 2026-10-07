@@ -5,6 +5,10 @@
   "excerpt": "Découvrez pourquoi une expertise toiture avant travaux ou sinistre est essentielle pour sécuriser votre bien et anticiper les coûts.",
   "firstPublishedDate": "2025-09-05T22:00:00.000Z",
   "minutesToRead": 4,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "4nl716814",
+        "id": "y3b2z6838",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "e5c9y6815",
+        "id": "c034t6839",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "lo7dz6824",
+        "id": "v7v306848",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "qzfvk6817",
+            "id": "agejg6841",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "a54ev6816",
+                "id": "zb0866840",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "mjhcl6819",
+            "id": "uj66t6843",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "jonpu6818",
+                "id": "qhwat6842",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "qqna96821",
+            "id": "n3bvd6845",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "2tffg6820",
+                "id": "hvayi6844",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "jdl5v6823",
+            "id": "l5uc26847",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "9uml16822",
+                "id": "xdmb96846",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "6rd7p6825",
+        "id": "v2bhl6849",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8zj8q6826",
+        "id": "smu4l6850",
         "nodes": [
           {
             "type": "TEXT",
@@ -250,7 +254,7 @@
       },
       {
         "type": "HEADING",
-        "id": "bomdo6827",
+        "id": "1dpch6851",
         "nodes": [
           {
             "type": "TEXT",
@@ -275,7 +279,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "xop0a6828",
+        "id": "n798m6852",
         "nodes": [
           {
             "type": "TEXT",
@@ -295,7 +299,7 @@
       },
       {
         "type": "HEADING",
-        "id": "19ti96829",
+        "id": "zyjmp6853",
         "nodes": [
           {
             "type": "TEXT",
@@ -320,7 +324,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ip17o6830",
+        "id": "ni4jj6854",
         "nodes": [
           {
             "type": "TEXT",
@@ -368,7 +372,7 @@
       },
       {
         "type": "HEADING",
-        "id": "noo3w6831",
+        "id": "44umo6855",
         "nodes": [
           {
             "type": "TEXT",
@@ -393,7 +397,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ppk4q6832",
+        "id": "7y04b6856",
         "nodes": [
           {
             "type": "TEXT",

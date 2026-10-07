@@ -5,6 +5,10 @@
   "excerpt": "Isoler ses combles réduit la facture énergétique jusqu’à 30 %. Découvrez pourquoi cette rénovation est rentable et quelles méthodes privilégier.",
   "firstPublishedDate": "2025-09-01T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8ok8c6993",
+        "id": "20kuc6903",
         "nodes": [
           {
             "type": "TEXT",
@@ -61,7 +65,7 @@
       },
       {
         "type": "HEADING",
-        "id": "wp3zh6994",
+        "id": "yspha6904",
         "nodes": [
           {
             "type": "TEXT",
@@ -86,15 +90,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "44j1v7003",
+        "id": "wqc4i6913",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "oxza26996",
+            "id": "sb5y66906",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "zcjzo6995",
+                "id": "1dj5r6905",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -116,11 +120,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "uq5506998",
+            "id": "x6xr66908",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "qu6w06997",
+                "id": "97iww6907",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -142,11 +146,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "m1qvj7000",
+            "id": "ikyse6910",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "egl836999",
+                "id": "ohjxm6909",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -168,11 +172,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "5bmyu7002",
+            "id": "uezq66912",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "7s97u7001",
+                "id": "fb7gc6911",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -199,7 +203,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ccrzi7004",
+        "id": "y181b6914",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,7 +228,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "v50my7005",
+        "id": "9n73u6915",
         "nodes": [
           {
             "type": "TEXT",
@@ -244,7 +248,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "vlk3v7006",
+        "id": "8li7f6916",
         "nodes": [
           {
             "type": "TEXT",
@@ -264,7 +268,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "z88r07007",
+        "id": "cugux6917",
         "nodes": [
           {
             "type": "TEXT",
@@ -284,7 +288,7 @@
       },
       {
         "type": "HEADING",
-        "id": "2ol867008",
+        "id": "iuios6918",
         "nodes": [
           {
             "type": "TEXT",
@@ -309,7 +313,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "mbdjf7009",
+        "id": "h02276919",
         "nodes": [
           {
             "type": "TEXT",
@@ -329,7 +333,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "48hr17010",
+        "id": "t1xe86920",
         "nodes": [
           {
             "type": "TEXT",
@@ -349,7 +353,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ev3aq7011",
+        "id": "yk0qp6921",
         "nodes": [
           {
             "type": "TEXT",
@@ -369,7 +373,7 @@
       },
       {
         "type": "HEADING",
-        "id": "gsdnc7012",
+        "id": "sc8dd6922",
         "nodes": [
           {
             "type": "TEXT",
@@ -394,7 +398,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "k9tc37013",
+        "id": "b7iqc6923",
         "nodes": [
           {
             "type": "TEXT",
@@ -414,7 +418,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "uhozz7014",
+        "id": "o7zbn6924",
         "nodes": [
           {
             "type": "TEXT",
@@ -434,7 +438,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "nntb77015",
+        "id": "15d0l6925",
         "nodes": [
           {
             "type": "TEXT",
@@ -454,7 +458,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ir4iz7016",
+        "id": "hf6k76926",
         "nodes": [
           {
             "type": "TEXT",
@@ -479,7 +483,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "i1nwc7017",
+        "id": "xu2kd6927",
         "nodes": [
           {
             "type": "TEXT",
@@ -499,7 +503,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "soez57018",
+        "id": "dj5lh6928",
         "nodes": [
           {
             "type": "TEXT",

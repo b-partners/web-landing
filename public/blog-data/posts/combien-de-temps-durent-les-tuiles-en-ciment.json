@@ -5,6 +5,10 @@
   "excerpt": "Durée de vie des tuiles en ciment : évaluation, facteurs d'usure et conseils pour les faire durer plus longtemps.",
   "firstPublishedDate": "2025-05-22T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "yy9j76001",
+        "id": "i4jse6044",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "o6u6w6002",
+        "id": "zmtbi6045",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "6cmel6011",
+        "id": "ndkp06054",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "4y4j46004",
+            "id": "ba8my6047",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ncfuu6003",
+                "id": "2ae0p6046",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "2ju4b6006",
+            "id": "wnx9u6049",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "igofz6005",
+                "id": "y959b6048",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "5t3hn6008",
+            "id": "xmc1e6051",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "9kjov6007",
+                "id": "yy8o76050",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "x988c6010",
+            "id": "lk63u6053",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "nb8yw6009",
+                "id": "pswgg6052",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ykxr36012",
+        "id": "vuier6055",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "uuy5v6013",
+        "id": "hett36056",
         "nodes": [
           {
             "type": "TEXT",
@@ -222,7 +226,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hliv66014",
+        "id": "14ow66057",
         "nodes": [
           {
             "type": "TEXT",
@@ -242,7 +246,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "3z2yu6015",
+        "id": "1pjzh6058",
         "nodes": [
           {
             "type": "TEXT",
@@ -290,7 +294,7 @@
       },
       {
         "type": "HEADING",
-        "id": "hwa6x6016",
+        "id": "39rzr6059",
         "nodes": [
           {
             "type": "TEXT",
@@ -315,7 +319,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ppg8h6017",
+        "id": "eaciy6060",
         "nodes": [
           {
             "type": "TEXT",
@@ -335,7 +339,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "gii3n6018",
+        "id": "uxx6c6061",
         "nodes": [
           {
             "type": "TEXT",
@@ -355,7 +359,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ax14e6019",
+        "id": "orsk66062",
         "nodes": [
           {
             "type": "TEXT",
@@ -375,7 +379,7 @@
       },
       {
         "type": "HEADING",
-        "id": "bqo1i6020",
+        "id": "27y406063",
         "nodes": [
           {
             "type": "TEXT",
@@ -400,7 +404,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "g4tqm6021",
+        "id": "sgrso6064",
         "nodes": [
           {
             "type": "TEXT",
@@ -420,7 +424,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7wl1s6022",
+        "id": "w6t3g6065",
         "nodes": [
           {
             "type": "TEXT",
@@ -440,7 +444,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "nfv3r6023",
+        "id": "b01v46066",
         "nodes": [
           {
             "type": "TEXT",
@@ -488,7 +492,7 @@
       },
       {
         "type": "HEADING",
-        "id": "3fj1h6024",
+        "id": "sz22h6067",
         "nodes": [
           {
             "type": "TEXT",
@@ -513,7 +517,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "p52036025",
+        "id": "45toa6068",
         "nodes": [
           {
             "type": "TEXT",
@@ -533,7 +537,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hwt3g6026",
+        "id": "pxjxo6069",
         "nodes": [
           {
             "type": "TEXT",

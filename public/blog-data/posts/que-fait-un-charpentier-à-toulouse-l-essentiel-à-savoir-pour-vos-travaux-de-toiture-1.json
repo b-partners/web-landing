@@ -5,6 +5,10 @@
   "excerpt": "À Toulouse, ville mêlant bâti ancien et constructions neuves, le charpentier joue un rôle fondamental dans tout projet touchant à la structure d’un bâtiment. Il intervient principalement sur la charpente, cet élément essentiel qui soutient la toiture, mais son expertise s’étend aussi à la rénovation, l’aménagement ou l’extension des bâtiments. Dans une région soumise à des contraintes climatiques spécifiques, et où les toitures en tuiles canal sont légion, les missions du charpentier doivent êtr",
   "firstPublishedDate": "2025-09-19T22:00:00.000Z",
   "minutesToRead": 4,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "n4qh64465",
+        "id": "lrbld4465",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "rpodf4466",
+        "id": "91w2j4466",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "b7fxx4475",
+        "id": "v5kew4475",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "gdgjf4468",
+            "id": "g6w7m4468",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "nvgfl4467",
+                "id": "c7ddl4467",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "xu5y14470",
+            "id": "0vsbk4470",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "hhd884469",
+                "id": "04o924469",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "muw0m4472",
+            "id": "cu2534472",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "6acit4471",
+                "id": "au9p84471",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "phdi84474",
+            "id": "215b34474",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "p354p4473",
+                "id": "qjrik4473",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "4gbvn4476",
+        "id": "xedyl4476",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "fai704477",
+        "id": "2174s4477",
         "nodes": [
           {
             "type": "TEXT",
@@ -222,7 +226,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "3674p4478",
+        "id": "0yi674478",
         "nodes": [
           {
             "type": "TEXT",
@@ -264,7 +268,7 @@
       },
       {
         "type": "HEADING",
-        "id": "79q224479",
+        "id": "kbe2r4479",
         "nodes": [
           {
             "type": "TEXT",
@@ -289,7 +293,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "s56nn4480",
+        "id": "lm8ci4480",
         "nodes": [
           {
             "type": "TEXT",
@@ -309,7 +313,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "x5wle4481",
+        "id": "z4uft4481",
         "nodes": [
           {
             "type": "TEXT",
@@ -351,7 +355,7 @@
       },
       {
         "type": "HEADING",
-        "id": "aejea4482",
+        "id": "ims0v4482",
         "nodes": [
           {
             "type": "TEXT",
@@ -376,7 +380,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "iz0jc4483",
+        "id": "hxerf4483",
         "nodes": [
           {
             "type": "TEXT",
@@ -418,7 +422,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lngzi4484",
+        "id": "fwj5s4484",
         "nodes": [
           {
             "type": "TEXT",
@@ -438,7 +442,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lfidn4485",
+        "id": "0ahfb4485",
         "nodes": [
           {
             "type": "TEXT",
@@ -480,7 +484,7 @@
       },
       {
         "type": "HEADING",
-        "id": "w5fwy4486",
+        "id": "dkvev4486",
         "nodes": [
           {
             "type": "TEXT",
@@ -505,7 +509,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "1060f4487",
+        "id": "703zp4487",
         "nodes": [
           {
             "type": "TEXT",
@@ -525,7 +529,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "qpimy4488",
+        "id": "68bqa4488",
         "nodes": [
           {
             "type": "TEXT",

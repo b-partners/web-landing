@@ -5,6 +5,10 @@
   "excerpt": "Découvrez comment le DTU 43.3 encadre le diagnostic toiture terrasse pour assurer étanchéité, durabilité et conformité de vos toitures.",
   "firstPublishedDate": "2024-08-23T22:00:00.000Z",
   "minutesToRead": 4,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8m66r9352",
+        "id": "guano9376",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "9kl8x9353",
+        "id": "di9769377",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "r92p89362",
+        "id": "p1rc99386",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "hhu8u9355",
+            "id": "6kmo19379",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "vvdn39354",
+                "id": "vwism9378",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "il3ls9357",
+            "id": "mksno9381",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "sgzuf9356",
+                "id": "wfwyv9380",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "imoav9359",
+            "id": "08jyw9383",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "phj8s9358",
+                "id": "fyohz9382",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "eauno9361",
+            "id": "9zq3h9385",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "i6ud29360",
+                "id": "dd0tr9384",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "zoq979363",
+        "id": "79q7m9387",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "gmj009364",
+        "id": "crru49388",
         "nodes": [
           {
             "type": "TEXT",
@@ -272,7 +276,7 @@
       },
       {
         "type": "HEADING",
-        "id": "gsllk9365",
+        "id": "4f05e9389",
         "nodes": [
           {
             "type": "TEXT",
@@ -297,7 +301,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0fy9i9366",
+        "id": "fhhx89390",
         "nodes": [
           {
             "type": "TEXT",
@@ -317,7 +321,7 @@
       },
       {
         "type": "HEADING",
-        "id": "vac4b9367",
+        "id": "bpo6z9391",
         "nodes": [
           {
             "type": "TEXT",
@@ -342,7 +346,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ui3di9368",
+        "id": "0263z9392",
         "nodes": [
           {
             "type": "TEXT",
@@ -412,7 +416,7 @@
       },
       {
         "type": "HEADING",
-        "id": "bhzgl9369",
+        "id": "nlxsz9393",
         "nodes": [
           {
             "type": "TEXT",
@@ -437,7 +441,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "5vzui9370",
+        "id": "zz23h9394",
         "nodes": [
           {
             "type": "TEXT",

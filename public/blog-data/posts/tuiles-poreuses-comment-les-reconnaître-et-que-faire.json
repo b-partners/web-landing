@@ -5,6 +5,10 @@
   "excerpt": "Apprenez à reconnaître les tuiles poreuses et découvrez les solutions pour restaurer l'étanchéité de votre toiture durablement.",
   "firstPublishedDate": "2025-05-22T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "d00137678",
+        "id": "xrj817702",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "um73g7679",
+        "id": "7u27f7703",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "a19t37688",
+        "id": "0gmfi7712",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "jfi6u7681",
+            "id": "jyweo7705",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "qtolb7680",
+                "id": "0kqy27704",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "g7ya57683",
+            "id": "8bor07707",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "6ong37682",
+                "id": "hswkm7706",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "rpj7a7685",
+            "id": "dh7r47709",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "0f3xq7684",
+                "id": "bqubz7708",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "l6fcu7687",
+            "id": "14bcu7711",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "gidg67686",
+                "id": "vuqbl7710",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "cddcf7689",
+        "id": "qlwtu7713",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "rnljj7690",
+        "id": "lma9n7714",
         "nodes": [
           {
             "type": "TEXT",
@@ -222,7 +226,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "wyw2l7691",
+        "id": "3fkw37715",
         "nodes": [
           {
             "type": "TEXT",
@@ -270,7 +274,7 @@
       },
       {
         "type": "HEADING",
-        "id": "qhrmg7692",
+        "id": "e7ykx7716",
         "nodes": [
           {
             "type": "TEXT",
@@ -295,7 +299,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "a2de67693",
+        "id": "c7os87717",
         "nodes": [
           {
             "type": "TEXT",
@@ -315,7 +319,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "2869w7694",
+        "id": "st7ba7718",
         "nodes": [
           {
             "type": "TEXT",
@@ -335,7 +339,7 @@
       },
       {
         "type": "HEADING",
-        "id": "subry7695",
+        "id": "htf977719",
         "nodes": [
           {
             "type": "TEXT",
@@ -360,7 +364,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "gxh9u7696",
+        "id": "yjy7u7720",
         "nodes": [
           {
             "type": "TEXT",
@@ -380,7 +384,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "y9b207697",
+        "id": "qz8ff7721",
         "nodes": [
           {
             "type": "TEXT",
@@ -400,7 +404,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "dqs477698",
+        "id": "erxnt7722",
         "nodes": [
           {
             "type": "TEXT",
@@ -448,7 +452,7 @@
       },
       {
         "type": "HEADING",
-        "id": "n9css7699",
+        "id": "c2c9g7723",
         "nodes": [
           {
             "type": "TEXT",
@@ -473,7 +477,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "rc2zy7700",
+        "id": "ew3yq7724",
         "nodes": [
           {
             "type": "TEXT",

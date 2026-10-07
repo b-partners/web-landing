@@ -5,6 +5,10 @@
   "excerpt": "Choisir une couverture de toiture est une décision importante qui engage la durabilité de tout un bâtiment. Parmi les options disponibles, les tuiles en béton s’imposent souvent comme une alternative à la fois économique et performante. Mais qu’en est-il de leur longévité ? Quelle est réellement la durée de vie des tuiles en béton, et comment s'assurer qu'elles protègent efficacement votre toit sur le long terme ? Cet article s’adresse aux particuliers, gestionnaires de biens ou syndics qui veul",
   "firstPublishedDate": "2025-06-03T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "pdi7q5726",
+        "id": "5hxl95698",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "yi1cm5727",
+        "id": "4bgir5699",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "rkgc15736",
+        "id": "z4df05708",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "ombps5729",
+            "id": "vqx355701",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "kf7775728",
+                "id": "gi6pf5700",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "gruby5731",
+            "id": "4r4a85703",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "mldn15730",
+                "id": "h7nil5702",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "xagop5733",
+            "id": "7ovsz5705",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "q4itk5732",
+                "id": "svtf85704",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "gph705735",
+            "id": "t97gn5707",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ep7qy5734",
+                "id": "andjp5706",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "f0tib5737",
+        "id": "veq9k5709",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jtzc25738",
+        "id": "hw3l75710",
         "nodes": [
           {
             "type": "TEXT",
@@ -222,7 +226,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8np8y5739",
+        "id": "f7qoi5711",
         "nodes": [
           {
             "type": "TEXT",
@@ -270,7 +274,7 @@
       },
       {
         "type": "HEADING",
-        "id": "00qzq5740",
+        "id": "wt3z35712",
         "nodes": [
           {
             "type": "TEXT",
@@ -295,7 +299,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "dxk805741",
+        "id": "1u3q55713",
         "nodes": [
           {
             "type": "TEXT",
@@ -315,7 +319,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "svhqi5742",
+        "id": "g79s55714",
         "nodes": [
           {
             "type": "TEXT",
@@ -335,7 +339,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "u8v7n5743",
+        "id": "z54hk5715",
         "nodes": [
           {
             "type": "TEXT",
@@ -355,7 +359,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "htjqv5744",
+        "id": "ogy3v5716",
         "nodes": [
           {
             "type": "TEXT",
@@ -403,7 +407,7 @@
       },
       {
         "type": "HEADING",
-        "id": "3dswj5745",
+        "id": "tiwdx5717",
         "nodes": [
           {
             "type": "TEXT",
@@ -428,7 +432,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "fi8cb5746",
+        "id": "qakok5718",
         "nodes": [
           {
             "type": "TEXT",
@@ -448,7 +452,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0m4ol5747",
+        "id": "b2l655719",
         "nodes": [
           {
             "type": "TEXT",
@@ -496,7 +500,7 @@
       },
       {
         "type": "HEADING",
-        "id": "o86a95748",
+        "id": "beeu25720",
         "nodes": [
           {
             "type": "TEXT",
@@ -521,7 +525,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "kg1885749",
+        "id": "elg3i5721",
         "nodes": [
           {
             "type": "TEXT",

@@ -5,6 +5,10 @@
   "excerpt": "Découvrez la composition toiture et ses éléments essentiels : couverture, charpente, isolation et zinguerie pour un toit durable et performant.",
   "firstPublishedDate": "2025-09-06T22:00:00.000Z",
   "minutesToRead": 2,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "mtzgc5176",
+        "id": "0rntg5176",
         "nodes": [
           {
             "type": "TEXT",
@@ -61,7 +65,7 @@
       },
       {
         "type": "HEADING",
-        "id": "al3uz5177",
+        "id": "p7cwt5177",
         "nodes": [
           {
             "type": "TEXT",
@@ -86,15 +90,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "xxlie5186",
+        "id": "cw1895186",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "0qs1e5179",
+            "id": "bgvpf5179",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "jm86c5178",
+                "id": "mxrcf5178",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -116,11 +120,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "sfbgn5181",
+            "id": "onky45181",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "17o4w5180",
+                "id": "8lc735180",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -142,11 +146,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "blug55183",
+            "id": "1gs7d5183",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "6gaor5182",
+                "id": "34h135182",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -168,11 +172,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "dxuld5185",
+            "id": "7uurw5185",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "pvucl5184",
+                "id": "izstl5184",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -199,7 +203,7 @@
       },
       {
         "type": "HEADING",
-        "id": "49ucl5187",
+        "id": "6ggar5187",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,7 +228,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "pc0005188",
+        "id": "t4we75188",
         "nodes": [
           {
             "type": "TEXT",
@@ -272,7 +276,7 @@
       },
       {
         "type": "HEADING",
-        "id": "970cw5189",
+        "id": "98zsb5189",
         "nodes": [
           {
             "type": "TEXT",
@@ -297,7 +301,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "3oj205190",
+        "id": "iqpkf5190",
         "nodes": [
           {
             "type": "TEXT",
@@ -317,7 +321,7 @@
       },
       {
         "type": "HEADING",
-        "id": "nhsyv5191",
+        "id": "0ka135191",
         "nodes": [
           {
             "type": "TEXT",
@@ -342,7 +346,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "p96qm5192",
+        "id": "7tm0a5192",
         "nodes": [
           {
             "type": "TEXT",
@@ -390,7 +394,7 @@
       },
       {
         "type": "HEADING",
-        "id": "6da7m5193",
+        "id": "o17qq5193",
         "nodes": [
           {
             "type": "TEXT",
@@ -415,7 +419,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "j4nu95194",
+        "id": "a9hl35194",
         "nodes": [
           {
             "type": "TEXT",

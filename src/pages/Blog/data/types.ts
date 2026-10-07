@@ -9,6 +9,12 @@ export type BlogPostIndexEntry = {
   minutesToRead: number;
 };
 
+export type BlogAuthor = {
+  name: string;
+  email?: string;
+};
+
 export type BlogPostFull = BlogPostIndexEntry & {
   richContent: RicosDocument;
+  author?: BlogAuthor;
 };

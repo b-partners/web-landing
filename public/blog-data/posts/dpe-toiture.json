@@ -5,6 +5,10 @@
   "excerpt": "L’usage de l’imagerie aérienne haute définition transforme le diagnostic de toiture en permettant d’analyser à distance l’état des toits.",
   "firstPublishedDate": "2025-05-08T11:32:56.381Z",
   "minutesToRead": 1,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "wv9j17597",
+        "id": "i2pdx7621",
         "nodes": [
           {
             "type": "TEXT",
@@ -67,7 +71,7 @@
       },
       {
         "type": "HEADING",
-        "id": "fiaco7598",
+        "id": "edkxj7622",
         "nodes": [
           {
             "type": "TEXT",
@@ -88,7 +92,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "745k27599",
+        "id": "79syu7623",
         "nodes": [
           {
             "type": "TEXT",
@@ -108,7 +112,7 @@
       },
       {
         "type": "HEADING",
-        "id": "oumd27600",
+        "id": "bc58g7624",
         "nodes": [
           {
             "type": "TEXT",
@@ -129,7 +133,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "pautg7601",
+        "id": "sfwwm7625",
         "nodes": [
           {
             "type": "TEXT",
@@ -149,7 +153,7 @@
       },
       {
         "type": "HEADING",
-        "id": "sr6c37602",
+        "id": "19jsv7626",
         "nodes": [
           {
             "type": "TEXT",
@@ -170,7 +174,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "rycdk7603",
+        "id": "a7c2c7627",
         "nodes": [
           {
             "type": "TEXT",
@@ -190,7 +194,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "bxthm7604",
+        "id": "1tu867628",
         "nodes": [
           {
             "type": "TEXT",
@@ -210,7 +214,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "a35pl7605",
+        "id": "zxo5j7629",
         "nodes": [
           {
             "type": "TEXT",
@@ -258,7 +262,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "38voq7606",
+        "id": "cjt1q7630",
         "nodes": [
           {
             "type": "TEXT",

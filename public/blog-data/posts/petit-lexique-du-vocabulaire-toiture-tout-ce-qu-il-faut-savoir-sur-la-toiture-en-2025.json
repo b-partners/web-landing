@@ -5,6 +5,10 @@
   "excerpt": "Découvrez le vocabulaire toiture essentiel en 2025 pour comprendre, entretenir ou rénover votre toit efficacement.",
   "firstPublishedDate": "2025-05-27T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "x9p036645",
+        "id": "ove086669",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "mcn436646",
+        "id": "98qkd6670",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "qyis06655",
+        "id": "4hcqc6679",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "4ndh56648",
+            "id": "721of6672",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "b0vh96647",
+                "id": "womqy6671",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "pwpvi6650",
+            "id": "a9dss6674",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "fsrz06649",
+                "id": "olleo6673",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "21gfr6652",
+            "id": "m24ur6676",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "t1kju6651",
+                "id": "6c4jd6675",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "712ud6654",
+            "id": "cn73m6678",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "b43n96653",
+                "id": "p6epy6677",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "efa426656",
+        "id": "ya67u6680",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jbkek6657",
+        "id": "7dy4m6681",
         "nodes": [
           {
             "type": "TEXT",
@@ -222,7 +226,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "cbdlj6658",
+        "id": "30t7w6682",
         "nodes": [
           {
             "type": "TEXT",
@@ -270,7 +274,7 @@
       },
       {
         "type": "HEADING",
-        "id": "wulwk6659",
+        "id": "ottil6683",
         "nodes": [
           {
             "type": "TEXT",
@@ -295,7 +299,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "mb9p36660",
+        "id": "qm6c76684",
         "nodes": [
           {
             "type": "TEXT",
@@ -315,7 +319,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "gp7gr6661",
+        "id": "cncn86685",
         "nodes": [
           {
             "type": "TEXT",
@@ -335,7 +339,7 @@
       },
       {
         "type": "HEADING",
-        "id": "xdbdl6662",
+        "id": "b1r5q6686",
         "nodes": [
           {
             "type": "TEXT",
@@ -360,7 +364,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "fsjj96663",
+        "id": "vbajl6687",
         "nodes": [
           {
             "type": "TEXT",
@@ -380,7 +384,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tw3zu6664",
+        "id": "sck1j6688",
         "nodes": [
           {
             "type": "TEXT",
@@ -400,7 +404,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "cl8lf6665",
+        "id": "t81fk6689",
         "nodes": [
           {
             "type": "TEXT",
@@ -448,7 +452,7 @@
       },
       {
         "type": "HEADING",
-        "id": "m2jkk6666",
+        "id": "bteco6690",
         "nodes": [
           {
             "type": "TEXT",
@@ -473,7 +477,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "xn6x96667",
+        "id": "b7u6n6691",
         "nodes": [
           {
             "type": "TEXT",

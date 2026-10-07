@@ -5,6 +5,10 @@
   "excerpt": "Vendre sans diagnostic de toiture peut entraîner litiges et baisses de prix. Découvrez vos obligations, les risques et l’intérêt d’un diagnostic avant vente.",
   "firstPublishedDate": "2025-10-07T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "oo10v1704",
+        "id": "8idc31704",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "oecv01705",
+        "id": "gngcr1705",
         "nodes": [
           {
             "type": "TEXT",
@@ -81,7 +85,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "fwsgr1706",
+        "id": "wxuq81706",
         "nodes": [
           {
             "type": "TEXT",
@@ -101,7 +105,7 @@
       },
       {
         "type": "HEADING",
-        "id": "sje251707",
+        "id": "rfqwk1707",
         "nodes": [
           {
             "type": "TEXT",
@@ -126,7 +130,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "smv6c1708",
+        "id": "o7def1708",
         "nodes": [
           {
             "type": "TEXT",
@@ -168,15 +172,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "m04061714",
+        "id": "5l37u1714",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "wryms1711",
+            "id": "iri5h1711",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "gm98t1709",
+                "id": "5sffe1709",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -209,7 +213,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "r78ue1710",
+                "id": "yqh9d1710",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -231,11 +235,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "cdjwj1713",
+            "id": "eoewv1713",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "vwhtn1712",
+                "id": "tgqdn1712",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -262,7 +266,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8n8fj1715",
+        "id": "mje601715",
         "nodes": [
           {
             "type": "TEXT",
@@ -304,7 +308,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "o8a9x1716",
+        "id": "otr351716",
         "nodes": [
           {
             "type": "TEXT",
@@ -324,7 +328,7 @@
       },
       {
         "type": "HEADING",
-        "id": "dw1x51717",
+        "id": "p92vn1717",
         "nodes": [
           {
             "type": "TEXT",
@@ -349,7 +353,7 @@
       },
       {
         "type": "HEADING",
-        "id": "mq2l01718",
+        "id": "zn9351718",
         "nodes": [
           {
             "type": "TEXT",
@@ -374,7 +378,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "z7t0c1719",
+        "id": "4du4a1719",
         "nodes": [
           {
             "type": "TEXT",
@@ -416,7 +420,7 @@
       },
       {
         "type": "HEADING",
-        "id": "74gbp1720",
+        "id": "gep2o1720",
         "nodes": [
           {
             "type": "TEXT",
@@ -441,7 +445,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "z3jwt1721",
+        "id": "919xi1721",
         "nodes": [
           {
             "type": "TEXT",
@@ -461,7 +465,7 @@
       },
       {
         "type": "HEADING",
-        "id": "i8ob81722",
+        "id": "vpexb1722",
         "nodes": [
           {
             "type": "TEXT",
@@ -486,7 +490,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hxitl1723",
+        "id": "w1kny1723",
         "nodes": [
           {
             "type": "TEXT",
@@ -506,7 +510,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "g9kh81724",
+        "id": "j6p6w1724",
         "nodes": [
           {
             "type": "TEXT",
@@ -526,7 +530,7 @@
       },
       {
         "type": "HEADING",
-        "id": "n2syj1725",
+        "id": "azvcp1725",
         "nodes": [
           {
             "type": "TEXT",
@@ -551,7 +555,7 @@
       },
       {
         "type": "HEADING",
-        "id": "61a671726",
+        "id": "7a9zw1726",
         "nodes": [
           {
             "type": "TEXT",
@@ -576,7 +580,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "xdn3w1727",
+        "id": "dtl8f1727",
         "nodes": [
           {
             "type": "TEXT",
@@ -596,7 +600,7 @@
       },
       {
         "type": "HEADING",
-        "id": "40k281728",
+        "id": "xxx4k1728",
         "nodes": [
           {
             "type": "TEXT",
@@ -621,7 +625,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8rov61729",
+        "id": "uo64c1729",
         "nodes": [
           {
             "type": "TEXT",
@@ -641,7 +645,7 @@
       },
       {
         "type": "HEADING",
-        "id": "tuvjj1730",
+        "id": "onit91730",
         "nodes": [
           {
             "type": "TEXT",
@@ -666,7 +670,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "il1e11731",
+        "id": "o8d791731",
         "nodes": [
           {
             "type": "TEXT",
@@ -686,7 +690,7 @@
       },
       {
         "type": "HEADING",
-        "id": "iz9r61732",
+        "id": "c2mdw1732",
         "nodes": [
           {
             "type": "TEXT",
@@ -711,7 +715,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lj1361733",
+        "id": "1d8181733",
         "nodes": [
           {
             "type": "TEXT",
@@ -731,7 +735,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "6rtbm1734",
+        "id": "krg3e1734",
         "nodes": [
           {
             "type": "TEXT",
@@ -751,7 +755,7 @@
       },
       {
         "type": "HEADING",
-        "id": "2bas11735",
+        "id": "hgm691735",
         "nodes": [
           {
             "type": "TEXT",
@@ -776,7 +780,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jh1f51736",
+        "id": "tz0611736",
         "nodes": [
           {
             "type": "TEXT",
@@ -796,11 +800,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "ie3331743",
+        "id": "c41pj1743",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "5kxtv1738",
+            "id": "c9tzm1738",
             "nodes": [
               {
                 "type": "TEXT",
@@ -817,7 +821,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "i46i31737",
+                "id": "8qxnf1737",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -839,7 +843,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "d2v6g1740",
+            "id": "sihsq1740",
             "nodes": [
               {
                 "type": "TEXT",
@@ -856,7 +860,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "fzrtd1739",
+                "id": "ivb3u1739",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -878,7 +882,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "tf6g71742",
+            "id": "scds71742",
             "nodes": [
               {
                 "type": "TEXT",
@@ -895,7 +899,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "4oe3l1741",
+                "id": "63gux1741",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -922,7 +926,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "zuqpu1744",
+        "id": "u14pv1744",
         "nodes": [
           {
             "type": "TEXT",
@@ -942,7 +946,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "vemi61745",
+        "id": "6tg371745",
         "nodes": [
           {
             "type": "TEXT",
@@ -962,7 +966,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ydkqu1746",
+        "id": "xn4i31746",
         "nodes": [
           {
             "type": "TEXT",
@@ -987,7 +991,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hnj0o1747",
+        "id": "ojpf41747",
         "nodes": [
           {
             "type": "TEXT",
@@ -1007,11 +1011,11 @@
       },
       {
         "type": "ORDERED_LIST",
-        "id": "h99f61752",
+        "id": "i231z1752",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "i30nz1749",
+            "id": "tmri61749",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1028,7 +1032,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "2eh191748",
+                "id": "x1mi51748",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1050,7 +1054,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "vv2rk1751",
+            "id": "5o86z1751",
             "nodes": [
               {
                 "type": "TEXT",
@@ -1067,7 +1071,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ckjqp1750",
+                "id": "ru2gt1750",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -1094,7 +1098,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "r75381753",
+        "id": "tpq651753",
         "nodes": [
           {
             "type": "TEXT",
@@ -1114,7 +1118,7 @@
       },
       {
         "type": "HEADING",
-        "id": "z4pj81754",
+        "id": "1fju71754",
         "nodes": [
           {
             "type": "TEXT",
@@ -1139,7 +1143,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8qpe81755",
+        "id": "21z841755",
         "nodes": [
           {
             "type": "TEXT",
@@ -1203,7 +1207,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "q483o1756",
+        "id": "kxdbb1756",
         "nodes": [
           {
             "type": "TEXT",
@@ -1223,7 +1227,7 @@
       },
       {
         "type": "HEADING",
-        "id": "kggnb1757",
+        "id": "q8x9g1757",
         "nodes": [
           {
             "type": "TEXT",
@@ -1248,7 +1252,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "zuiix1758",
+        "id": "r5vkk1758",
         "nodes": [
           {
             "type": "TEXT",
@@ -1281,7 +1285,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "twg8z1759",
+        "id": "2x6py1759",
         "nodes": [
           {
             "type": "TEXT",
@@ -1314,7 +1318,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "5zblj1760",
+        "id": "sm6e41760",
         "nodes": [
           {
             "type": "TEXT",
@@ -1347,7 +1351,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "9pujt1761",
+        "id": "4syo41761",
         "nodes": [
           {
             "type": "TEXT",

@@ -5,6 +5,10 @@
   "excerpt": "Découvrez nos conseils pour choisir un couvreur zingueur à Toulouse pas cher, sans compromettre la qualité et la sécurité de vos travaux de toiture.",
   "firstPublishedDate": "2025-06-19T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "vzazb6027",
+        "id": "ner7g6025",
         "nodes": [
           {
             "type": "TEXT",
@@ -61,7 +65,7 @@
       },
       {
         "type": "HEADING",
-        "id": "zgjua6028",
+        "id": "r4gbv6026",
         "nodes": [
           {
             "type": "TEXT",
@@ -86,15 +90,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "2tvbq6037",
+        "id": "vcb016035",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "6nebs6030",
+            "id": "bwges6028",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "xbhbs6029",
+                "id": "mrj3t6027",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -116,11 +120,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "eodm66032",
+            "id": "colfb6030",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "c5c2o6031",
+                "id": "6xm7k6029",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -142,11 +146,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "qic2j6034",
+            "id": "fnipe6032",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ztmr46033",
+                "id": "pvqeh6031",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -168,11 +172,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "pn6kd6036",
+            "id": "yg6076034",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "t87hb6035",
+                "id": "b61d56033",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -199,7 +203,7 @@
       },
       {
         "type": "HEADING",
-        "id": "g5nsc6038",
+        "id": "ubztf6036",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,7 +228,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "2g2w66039",
+        "id": "hujkj6037",
         "nodes": [
           {
             "type": "TEXT",
@@ -244,7 +248,7 @@
       },
       {
         "type": "HEADING",
-        "id": "occrt6040",
+        "id": "zh6it6038",
         "nodes": [
           {
             "type": "TEXT",
@@ -269,7 +273,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8a9x66041",
+        "id": "azc5i6039",
         "nodes": [
           {
             "type": "TEXT",
@@ -311,7 +315,7 @@
       },
       {
         "type": "HEADING",
-        "id": "bvb6y6042",
+        "id": "0rfbm6040",
         "nodes": [
           {
             "type": "TEXT",
@@ -336,7 +340,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "actol6043",
+        "id": "mz4gu6041",
         "nodes": [
           {
             "type": "TEXT",
@@ -378,7 +382,7 @@
       },
       {
         "type": "HEADING",
-        "id": "6x5c16044",
+        "id": "eeyuz6042",
         "nodes": [
           {
             "type": "TEXT",
@@ -403,7 +407,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "41rr26045",
+        "id": "8wisg6043",
         "nodes": [
           {
             "type": "TEXT",

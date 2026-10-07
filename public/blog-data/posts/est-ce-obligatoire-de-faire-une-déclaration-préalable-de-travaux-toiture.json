@@ -5,6 +5,10 @@
   "excerpt": "Découvrez quand une déclaration préalable de travaux toiture est obligatoire et consultez un exemple concret pour préparer votre dossier.",
   "firstPublishedDate": "2025-01-13T23:00:00.000Z",
   "minutesToRead": 4,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "rc48b9741",
+        "id": "nq51w9765",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "kcicw9742",
+        "id": "aklww9766",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "jeqgk9751",
+        "id": "3n5tt9775",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "zioqy9744",
+            "id": "fgtx69768",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "y9n1r9743",
+                "id": "zinhg9767",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "5tb3w9746",
+            "id": "wk15m9770",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ezjvs9745",
+                "id": "fdoc49769",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "vv2qp9748",
+            "id": "8fcy49772",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "1y2jz9747",
+                "id": "oiwmm9771",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "as38r9750",
+            "id": "237ie9774",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "s0abn9749",
+                "id": "dfls19773",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "word69752",
+        "id": "zbs759776",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "6k6z89753",
+        "id": "ss4jc9777",
         "nodes": [
           {
             "type": "TEXT",
@@ -222,7 +226,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "696go9754",
+        "id": "hzwpe9778",
         "nodes": [
           {
             "type": "TEXT",
@@ -270,7 +274,7 @@
       },
       {
         "type": "HEADING",
-        "id": "hjc9q9755",
+        "id": "8lcrh9779",
         "nodes": [
           {
             "type": "TEXT",
@@ -295,7 +299,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "gyy9e9756",
+        "id": "96ajw9780",
         "nodes": [
           {
             "type": "TEXT",
@@ -315,7 +319,7 @@
       },
       {
         "type": "HEADING",
-        "id": "5hvlz9757",
+        "id": "dtg4g9781",
         "nodes": [
           {
             "type": "TEXT",
@@ -340,7 +344,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "5v4639758",
+        "id": "n4yd19782",
         "nodes": [
           {
             "type": "TEXT",
@@ -360,7 +364,7 @@
       },
       {
         "type": "HEADING",
-        "id": "fjcu49759",
+        "id": "kmfpv9783",
         "nodes": [
           {
             "type": "TEXT",
@@ -385,7 +389,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "qfmlb9760",
+        "id": "nf34l9784",
         "nodes": [
           {
             "type": "TEXT",
@@ -405,7 +409,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "m197k9761",
+        "id": "qp92h9785",
         "nodes": [
           {
             "type": "TEXT",

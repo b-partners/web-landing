@@ -5,6 +5,10 @@
   "excerpt": "Trouver un bon couvreur à Pamiers peut sembler complexe face à la diversité d’offres et de prestataires.",
   "firstPublishedDate": "2025-07-18T15:22:47.942Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "2plmq7087",
+        "id": "r9w667111",
         "nodes": [
           {
             "type": "TEXT",
@@ -61,7 +65,7 @@
       },
       {
         "type": "HEADING",
-        "id": "huyhh7088",
+        "id": "ripk87112",
         "nodes": [
           {
             "type": "TEXT",
@@ -86,15 +90,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "edov77097",
+        "id": "l97bv7121",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "jxzrn7090",
+            "id": "99ive7114",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "fw1y67089",
+                "id": "l67jq7113",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -116,11 +120,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "5hw3l7092",
+            "id": "7m2547116",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "6orgx7091",
+                "id": "1fu037115",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -142,11 +146,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "kxqbd7094",
+            "id": "707qv7118",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "a88077093",
+                "id": "e1rz57117",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -168,11 +172,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "kmpvk7096",
+            "id": "e6rfo7120",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "3tvxm7095",
+                "id": "1sr647119",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -199,7 +203,7 @@
       },
       {
         "type": "HEADING",
-        "id": "tshbv7098",
+        "id": "z8nvs7122",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,7 +228,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8h9zh7099",
+        "id": "6k9367123",
         "nodes": [
           {
             "type": "TEXT",
@@ -288,7 +292,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "bzv5g7100",
+        "id": "f2l1y7124",
         "nodes": [
           {
             "type": "TEXT",
@@ -396,7 +400,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "baw7s7101",
+        "id": "t77b17125",
         "nodes": [
           {
             "type": "TEXT",
@@ -416,7 +420,7 @@
       },
       {
         "type": "HEADING",
-        "id": "m29tj7102",
+        "id": "svgha7126",
         "nodes": [
           {
             "type": "TEXT",
@@ -441,7 +445,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "9fer57103",
+        "id": "k9j3v7127",
         "nodes": [
           {
             "type": "TEXT",
@@ -461,7 +465,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "mb1y97104",
+        "id": "auhka7128",
         "nodes": [
           {
             "type": "TEXT",
@@ -481,7 +485,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "l8nzs7105",
+        "id": "82gcd7129",
         "nodes": [
           {
             "type": "TEXT",
@@ -523,7 +527,7 @@
       },
       {
         "type": "HEADING",
-        "id": "roe6s7106",
+        "id": "vlyzg7130",
         "nodes": [
           {
             "type": "TEXT",
@@ -548,7 +552,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "s0cci7107",
+        "id": "ou8rz7131",
         "nodes": [
           {
             "type": "TEXT",
@@ -568,7 +572,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "w4ka77108",
+        "id": "cy7fd7132",
         "nodes": [
           {
             "type": "TEXT",
@@ -632,7 +636,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lj6lo7109",
+        "id": "6e02h7133",
         "nodes": [
           {
             "type": "TEXT",
@@ -674,7 +678,7 @@
       },
       {
         "type": "HEADING",
-        "id": "mr4z57110",
+        "id": "d472b7134",
         "nodes": [
           {
             "type": "TEXT",
@@ -699,7 +703,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "wv7y47111",
+        "id": "o67pi7135",
         "nodes": [
           {
             "type": "TEXT",
@@ -719,7 +723,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "uc9yx7112",
+        "id": "lh6hm7136",
         "nodes": [
           {
             "type": "TEXT",

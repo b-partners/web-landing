@@ -5,6 +5,10 @@
   "excerpt": "Comprenez l’origine de la condensation toiture et découvrez les solutions efficaces pour protéger votre maison durablement.",
   "firstPublishedDate": "2025-01-10T23:00:00.000Z",
   "minutesToRead": 4,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7bkzn9663",
+        "id": "piguu9687",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "eeymv9664",
+        "id": "kfxvc9688",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "6rl2l9673",
+        "id": "odm7a9697",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "xkya69666",
+            "id": "lp6ps9690",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "57um79665",
+                "id": "a44bl9689",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "b25tt9668",
+            "id": "usztl9692",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "9arc79667",
+                "id": "530uy9691",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "oxo309670",
+            "id": "fditv9694",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "eye1d9669",
+                "id": "1g4zf9693",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ky7o39672",
+            "id": "dsan69696",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "hcugm9671",
+                "id": "6kq059695",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "g6nt89674",
+        "id": "otaox9698",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "v5ij89675",
+        "id": "picf49699",
         "nodes": [
           {
             "type": "TEXT",
@@ -222,7 +226,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "umyl59676",
+        "id": "qbsg69700",
         "nodes": [
           {
             "type": "TEXT",
@@ -270,7 +274,7 @@
       },
       {
         "type": "HEADING",
-        "id": "mknpl9677",
+        "id": "pslix9701",
         "nodes": [
           {
             "type": "TEXT",
@@ -295,7 +299,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "xdave9678",
+        "id": "mi9k99702",
         "nodes": [
           {
             "type": "TEXT",
@@ -315,7 +319,7 @@
       },
       {
         "type": "HEADING",
-        "id": "akshf9679",
+        "id": "wd17y9703",
         "nodes": [
           {
             "type": "TEXT",
@@ -340,7 +344,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "phfxw9680",
+        "id": "7pzwj9704",
         "nodes": [
           {
             "type": "TEXT",
@@ -360,7 +364,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ht8cx9681",
+        "id": "et2wz9705",
         "nodes": [
           {
             "type": "TEXT",
@@ -385,7 +389,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "112v59682",
+        "id": "9dlop9706",
         "nodes": [
           {
             "type": "TEXT",
@@ -405,7 +409,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "eiln99683",
+        "id": "powpd9707",
         "nodes": [
           {
             "type": "TEXT",

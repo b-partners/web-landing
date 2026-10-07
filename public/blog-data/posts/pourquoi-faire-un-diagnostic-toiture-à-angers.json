@@ -5,6 +5,10 @@
   "excerpt": "Le diagnostic toiture à Angers permet de prévenir les infiltrations, protéger son logement du climat angevin et valoriser son patrimoine immobilier.",
   "firstPublishedDate": "2024-12-11T23:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "kq73f10008",
+        "id": "6ywy810032",
         "nodes": [
           {
             "type": "TEXT",
@@ -83,7 +87,7 @@
       },
       {
         "type": "HEADING",
-        "id": "w4rct10009",
+        "id": "k4oek10033",
         "nodes": [
           {
             "type": "TEXT",
@@ -108,15 +112,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "3h8i510018",
+        "id": "7iv3y10042",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "wpaz210011",
+            "id": "7dfen10035",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "vdrfm10010",
+                "id": "e0dig10034",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -138,11 +142,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "st78510013",
+            "id": "of04q10037",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "xadk210012",
+                "id": "gq2b610036",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -164,11 +168,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "bsus210015",
+            "id": "tinjx10039",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "u4qy110014",
+                "id": "ex7up10038",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -190,11 +194,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "otqmf10017",
+            "id": "e3eqr10041",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "1q8oh10016",
+                "id": "hz00410040",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -221,7 +225,7 @@
       },
       {
         "type": "HEADING",
-        "id": "505wl10019",
+        "id": "rcgv010043",
         "nodes": [
           {
             "type": "TEXT",
@@ -246,7 +250,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "29l0n10020",
+        "id": "vjz7b10044",
         "nodes": [
           {
             "type": "TEXT",
@@ -266,7 +270,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "bc14e10021",
+        "id": "7e6tx10045",
         "nodes": [
           {
             "type": "TEXT",
@@ -308,7 +312,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "h4vox10022",
+        "id": "2dwkq10046",
         "nodes": [
           {
             "type": "TEXT",
@@ -328,7 +332,7 @@
       },
       {
         "type": "HEADING",
-        "id": "1lsoi10023",
+        "id": "vzmfc10047",
         "nodes": [
           {
             "type": "TEXT",
@@ -353,7 +357,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "4j8zi10024",
+        "id": "ety3l10048",
         "nodes": [
           {
             "type": "TEXT",
@@ -373,15 +377,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "b67dv10031",
+        "id": "jj8ye10055",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "jjggp10026",
+            "id": "28cff10050",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "bwm1210025",
+                "id": "59bro10049",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -403,11 +407,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "0e85u10028",
+            "id": "u2xx110052",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "2qayl10027",
+                "id": "19oi710051",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -429,11 +433,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "jf8qz10030",
+            "id": "se0dy10054",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "y9e0110029",
+                "id": "y4yu210053",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -460,7 +464,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "xpsez10032",
+        "id": "gsilz10056",
         "nodes": [
           {
             "type": "TEXT",
@@ -524,7 +528,7 @@
       },
       {
         "type": "HEADING",
-        "id": "b7vpl10033",
+        "id": "t2g1u10057",
         "nodes": [
           {
             "type": "TEXT",
@@ -549,7 +553,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ul7sl10034",
+        "id": "bgmrk10058",
         "nodes": [
           {
             "type": "TEXT",
@@ -569,7 +573,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "88xme10035",
+        "id": "7cs5410059",
         "nodes": [
           {
             "type": "TEXT",
@@ -611,7 +615,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "x0c3310036",
+        "id": "zeawu10060",
         "nodes": [
           {
             "type": "TEXT",
@@ -653,7 +657,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tpqsg10037",
+        "id": "jaj0210061",
         "nodes": [
           {
             "type": "TEXT",
@@ -695,7 +699,7 @@
       },
       {
         "type": "HEADING",
-        "id": "6mofc10038",
+        "id": "y58pa10062",
         "nodes": [
           {
             "type": "TEXT",
@@ -720,7 +724,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "sqam510039",
+        "id": "93lrh10063",
         "nodes": [
           {
             "type": "TEXT",
@@ -762,7 +766,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "6xd7d10040",
+        "id": "yiyf110064",
         "nodes": [
           {
             "type": "TEXT",

@@ -5,6 +5,10 @@
   "excerpt": "Avant d’engager des travaux sur toiture, vérifiez ces points essentiels pour éviter mauvaises surprises, surcoûts et sinistres.",
   "firstPublishedDate": "2025-09-06T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ze2i67469",
+        "id": "3foh17493",
         "nodes": [
           {
             "type": "TEXT",
@@ -61,7 +65,7 @@
       },
       {
         "type": "HEADING",
-        "id": "egu5e7470",
+        "id": "7milc7494",
         "nodes": [
           {
             "type": "TEXT",
@@ -86,15 +90,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "a881g7479",
+        "id": "nzvbg7503",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "2aqrc7472",
+            "id": "val6l7496",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "skh1b7471",
+                "id": "zkipu7495",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -116,11 +120,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "236hk7474",
+            "id": "52sgy7498",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ognz87473",
+                "id": "st6f07497",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -142,11 +146,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "so6ze7476",
+            "id": "lv4qb7500",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ryysn7475",
+                "id": "yn7e57499",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -168,11 +172,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "x7yg37478",
+            "id": "1cb2x7502",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "m86c47477",
+                "id": "ww5q27501",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -199,7 +203,7 @@
       },
       {
         "type": "HEADING",
-        "id": "vdrt47480",
+        "id": "fslqx7504",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,7 +228,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "3izjb7481",
+        "id": "q5cjt7505",
         "nodes": [
           {
             "type": "TEXT",
@@ -272,7 +276,7 @@
       },
       {
         "type": "HEADING",
-        "id": "d9m4p7482",
+        "id": "gnl007506",
         "nodes": [
           {
             "type": "TEXT",
@@ -297,7 +301,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jod9w7483",
+        "id": "h55k27507",
         "nodes": [
           {
             "type": "TEXT",
@@ -345,7 +349,7 @@
       },
       {
         "type": "HEADING",
-        "id": "3762m7484",
+        "id": "b4lu87508",
         "nodes": [
           {
             "type": "TEXT",
@@ -370,7 +374,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "vftgz7485",
+        "id": "m6u207509",
         "nodes": [
           {
             "type": "TEXT",
@@ -418,7 +422,7 @@
       },
       {
         "type": "HEADING",
-        "id": "d14887486",
+        "id": "hf8987510",
         "nodes": [
           {
             "type": "TEXT",
@@ -443,7 +447,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "3fvv77487",
+        "id": "z3m217511",
         "nodes": [
           {
             "type": "TEXT",

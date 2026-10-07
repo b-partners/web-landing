@@ -43,7 +43,13 @@ export const BlogPostPage = () => {
   return (
     <>
       <PostMeta post={post} />
-      <ArticleLayout title={post.title} firstPublishedDate={post.firstPublishedDate} minutesToRead={post.minutesToRead} relatedPosts={relatedPosts}>
+      <ArticleLayout
+        title={post.title}
+        firstPublishedDate={post.firstPublishedDate}
+        minutesToRead={post.minutesToRead}
+        author={post.author}
+        relatedPosts={relatedPosts}
+      >
         <RicosViewer content={post.richContent} plugins={plugins} />
       </ArticleLayout>
     </>

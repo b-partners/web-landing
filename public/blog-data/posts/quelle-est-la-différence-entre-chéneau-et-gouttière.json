@@ -5,6 +5,10 @@
   "excerpt": "Différence chéneau gouttière : deux systèmes d’évacuation aux usages distincts. Apprenez à les distinguer pour entretenir votre toiture efficacement.",
   "firstPublishedDate": "2025-02-12T23:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "49a8k9762",
+        "id": "07tg19786",
         "nodes": [
           {
             "type": "TEXT",
@@ -105,7 +109,7 @@
       },
       {
         "type": "HEADING",
-        "id": "0f18q9763",
+        "id": "uafez9787",
         "nodes": [
           {
             "type": "TEXT",
@@ -130,15 +134,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "q3hxg9772",
+        "id": "6dyei9796",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "5eanm9765",
+            "id": "bf7d89789",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "6wez29764",
+                "id": "0f6r89788",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -160,11 +164,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "erwyf9767",
+            "id": "9ilbq9791",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "e66bf9766",
+                "id": "v9xjp9790",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -186,11 +190,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "zgi0e9769",
+            "id": "c4bul9793",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "v87o29768",
+                "id": "k2a8d9792",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -212,11 +216,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "zyael9771",
+            "id": "iuv2o9795",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "gb54r9770",
+                "id": "e35ww9794",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -243,7 +247,7 @@
       },
       {
         "type": "HEADING",
-        "id": "00x0l9773",
+        "id": "u98oi9797",
         "nodes": [
           {
             "type": "TEXT",
@@ -268,7 +272,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "unha29774",
+        "id": "jqvvp9798",
         "nodes": [
           {
             "type": "TEXT",
@@ -288,7 +292,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "oo8wm9775",
+        "id": "cvkc59799",
         "nodes": [
           {
             "type": "TEXT",
@@ -336,7 +340,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "yrrws9776",
+        "id": "vt8l29800",
         "nodes": [
           {
             "type": "TEXT",
@@ -384,7 +388,7 @@
       },
       {
         "type": "HEADING",
-        "id": "1zldp9777",
+        "id": "zseum9801",
         "nodes": [
           {
             "type": "TEXT",
@@ -409,7 +413,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jgxs49778",
+        "id": "enu6h9802",
         "nodes": [
           {
             "type": "TEXT",
@@ -429,7 +433,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "picxr9779",
+        "id": "sdqva9803",
         "nodes": [
           {
             "type": "TEXT",
@@ -449,7 +453,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ds3c79780",
+        "id": "rmfsx9804",
         "nodes": [
           {
             "type": "TEXT",
@@ -469,7 +473,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "f4et19781",
+        "id": "egqba9805",
         "nodes": [
           {
             "type": "TEXT",
@@ -517,7 +521,7 @@
       },
       {
         "type": "HEADING",
-        "id": "rntji9782",
+        "id": "vfud79806",
         "nodes": [
           {
             "type": "TEXT",
@@ -542,7 +546,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "vdf4a9783",
+        "id": "r9d8u9807",
         "nodes": [
           {
             "type": "TEXT",
@@ -562,7 +566,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "emrms9784",
+        "id": "wkjly9808",
         "nodes": [
           {
             "type": "TEXT",
@@ -582,7 +586,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "no11e9785",
+        "id": "nb7o79809",
         "nodes": [
           {
             "type": "TEXT",
@@ -602,7 +606,7 @@
       },
       {
         "type": "HEADING",
-        "id": "iyest9786",
+        "id": "r2vme9810",
         "nodes": [
           {
             "type": "TEXT",
@@ -627,7 +631,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "fq9jm9787",
+        "id": "m1b2a9811",
         "nodes": [
           {
             "type": "TEXT",
@@ -647,7 +651,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "dobt59788",
+        "id": "23bop9812",
         "nodes": [
           {
             "type": "TEXT",
@@ -695,7 +699,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "63mxa9789",
+        "id": "j3d9i9813",
         "nodes": [
           {
             "type": "TEXT",

@@ -5,6 +5,10 @@
   "excerpt": "Avec le temps, il n’est pas rare de voir une toiture se noircir. Ce phénomène, souvent perçu comme un simple problème esthétique, peut en réalité révéler des désordres plus profonds. Que ce noircissement soit lié à l’humidité, à la pollution ou à la présence de micro-organismes, il doit être pris au sérieux. Une toiture noircie peut annoncer des problèmes d’infiltration, de porosité ou de vieillissement prématuré des matériaux. Cet article vous aide à comprendre les causes du noircissement de vo",
   "firstPublishedDate": "2025-09-18T22:00:00.000Z",
   "minutesToRead": 4,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ouhqg4595",
+        "id": "cavzq4595",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "vswe04596",
+        "id": "3sidm4596",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "ihkxk4605",
+        "id": "3o95h4605",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "esdp84598",
+            "id": "71zei4598",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "jmbqj4597",
+                "id": "jdswg4597",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "jrr2a4600",
+            "id": "z0ven4600",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "h15yz4599",
+                "id": "ugdqw4599",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ty8kc4602",
+            "id": "imh6b4602",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "x1cpy4601",
+                "id": "3d0yp4601",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "o91zz4604",
+            "id": "52s0f4604",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "il9cx4603",
+                "id": "tscx64603",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "orpjn4606",
+        "id": "ez52d4606",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "khgnl4607",
+        "id": "q9f714607",
         "nodes": [
           {
             "type": "TEXT",
@@ -244,7 +248,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7duhg4608",
+        "id": "8ohev4608",
         "nodes": [
           {
             "type": "TEXT",
@@ -352,7 +356,7 @@
       },
       {
         "type": "HEADING",
-        "id": "3eel74609",
+        "id": "8ebuv4609",
         "nodes": [
           {
             "type": "TEXT",
@@ -377,7 +381,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "yw9sx4610",
+        "id": "865bl4610",
         "nodes": [
           {
             "type": "TEXT",
@@ -463,7 +467,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "65vkh4611",
+        "id": "5xcpt4611",
         "nodes": [
           {
             "type": "TEXT",
@@ -527,7 +531,7 @@
       },
       {
         "type": "HEADING",
-        "id": "gs5u24612",
+        "id": "kkgxs4612",
         "nodes": [
           {
             "type": "TEXT",
@@ -552,7 +556,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "4fan74613",
+        "id": "bnyr44613",
         "nodes": [
           {
             "type": "TEXT",
@@ -638,7 +642,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "klx354614",
+        "id": "mxv944614",
         "nodes": [
           {
             "type": "TEXT",
@@ -702,7 +706,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "my0914615",
+        "id": "bcr024615",
         "nodes": [
           {
             "type": "TEXT",
@@ -744,7 +748,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "pfszz4616",
+        "id": "qvo0o4616",
         "nodes": [
           {
             "type": "TEXT",
@@ -764,7 +768,7 @@
       },
       {
         "type": "HEADING",
-        "id": "19cm94617",
+        "id": "c9bg04617",
         "nodes": [
           {
             "type": "TEXT",
@@ -789,7 +793,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "a0uza4618",
+        "id": "pmbkk4618",
         "nodes": [
           {
             "type": "TEXT",
@@ -853,7 +857,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "mfauv4619",
+        "id": "hl2ni4619",
         "nodes": [
           {
             "type": "TEXT",
@@ -895,7 +899,7 @@
       },
       {
         "type": "HEADING",
-        "id": "zxsk64620",
+        "id": "ljmvl4620",
         "nodes": [
           {
             "type": "TEXT",
@@ -920,7 +924,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "a8vw84621",
+        "id": "l0dp44621",
         "nodes": [
           {
             "type": "TEXT",
@@ -1006,7 +1010,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "qifkt4622",
+        "id": "2h2lt4622",
         "nodes": [
           {
             "type": "TEXT",
@@ -1048,7 +1052,7 @@
       },
       {
         "type": "HEADING",
-        "id": "03tcv4623",
+        "id": "9ycjc4623",
         "nodes": [
           {
             "type": "TEXT",
@@ -1073,7 +1077,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "gmwol4624",
+        "id": "9idsb4624",
         "nodes": [
           {
             "type": "TEXT",
@@ -1159,7 +1163,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "t3gnm4625",
+        "id": "l0lmb4625",
         "nodes": [
           {
             "type": "TEXT",

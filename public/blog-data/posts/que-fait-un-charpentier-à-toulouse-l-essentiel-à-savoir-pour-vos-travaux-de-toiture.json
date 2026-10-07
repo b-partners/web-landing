@@ -5,6 +5,10 @@
   "excerpt": "Charpentier à Toulouse : son rôle est clé pour toute rénovation ou renforcement de toiture. Découvrez ses compétences et comment Birdia facilite vos projets.",
   "firstPublishedDate": "2025-08-31T12:00:10.819Z",
   "minutesToRead": 4,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "5rf5l5585",
+        "id": "qkl2b5581",
         "nodes": [
           {
             "type": "TEXT",
@@ -67,7 +71,7 @@
       },
       {
         "type": "HEADING",
-        "id": "m1v1f5586",
+        "id": "074tm5582",
         "nodes": [
           {
             "type": "TEXT",
@@ -92,15 +96,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "3go8d5595",
+        "id": "bo2h85591",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "zs0sf5588",
+            "id": "g1rkw5584",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "x4luz5587",
+                "id": "98km45583",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -122,11 +126,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "7qkv75590",
+            "id": "0gig05586",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "8bc4x5589",
+                "id": "rffwh5585",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -148,11 +152,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "zehhu5592",
+            "id": "yejpz5588",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "q3xs95591",
+                "id": "9ei605587",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -174,11 +178,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "easo15594",
+            "id": "2psxz5590",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "lpiiv5593",
+                "id": "u0n0d5589",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -205,7 +209,7 @@
       },
       {
         "type": "HEADING",
-        "id": "s58fm5596",
+        "id": "j82bn5592",
         "nodes": [
           {
             "type": "TEXT",
@@ -230,7 +234,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ul1tb5597",
+        "id": "fwsds5593",
         "nodes": [
           {
             "type": "TEXT",
@@ -250,7 +254,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "plrmb5598",
+        "id": "viq1u5594",
         "nodes": [
           {
             "type": "TEXT",
@@ -292,7 +296,7 @@
       },
       {
         "type": "HEADING",
-        "id": "n1xop5599",
+        "id": "hqqmu5595",
         "nodes": [
           {
             "type": "TEXT",
@@ -317,7 +321,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "t0bui5600",
+        "id": "wwzw35596",
         "nodes": [
           {
             "type": "TEXT",
@@ -337,7 +341,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "yyk865601",
+        "id": "riymr5597",
         "nodes": [
           {
             "type": "TEXT",
@@ -379,7 +383,7 @@
       },
       {
         "type": "HEADING",
-        "id": "j964y5602",
+        "id": "amy595598",
         "nodes": [
           {
             "type": "TEXT",
@@ -404,7 +408,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "zwug25603",
+        "id": "1p8165599",
         "nodes": [
           {
             "type": "TEXT",
@@ -446,7 +450,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "uadj55604",
+        "id": "fuvll5600",
         "nodes": [
           {
             "type": "TEXT",
@@ -466,7 +470,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "qpogu5605",
+        "id": "7soyq5601",
         "nodes": [
           {
             "type": "TEXT",
@@ -508,7 +512,7 @@
       },
       {
         "type": "HEADING",
-        "id": "p7y915606",
+        "id": "goz785602",
         "nodes": [
           {
             "type": "TEXT",
@@ -533,7 +537,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "2sax75607",
+        "id": "yniu65603",
         "nodes": [
           {
             "type": "TEXT",
@@ -553,7 +557,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "q5px35608",
+        "id": "b8uut5604",
         "nodes": [
           {
             "type": "TEXT",

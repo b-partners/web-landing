@@ -5,6 +5,10 @@
   "excerpt": "Découvrez comment une meilleure surveillance des toitures peut réduire les sinistres habitation et transformer la prévention dans l’assurance.",
   "firstPublishedDate": "2025-10-13T05:41:25.865Z",
   "minutesToRead": 2,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ezow52154",
+        "id": "9stj52029",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "93aao2155",
+        "id": "6cvk42030",
         "nodes": [
           {
             "type": "TEXT",
@@ -59,7 +63,7 @@
       },
       {
         "type": "HEADING",
-        "id": "rj6du2156",
+        "id": "fcs342031",
         "nodes": [
           {
             "type": "TEXT",
@@ -80,7 +84,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "bsbgh2157",
+        "id": "quzus2032",
         "nodes": [
           {
             "type": "TEXT",
@@ -100,7 +104,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "kurs82158",
+        "id": "zdimw2033",
         "nodes": [
           {
             "type": "TEXT",
@@ -120,7 +124,7 @@
       },
       {
         "type": "HEADING",
-        "id": "i79wv2159",
+        "id": "a3zo92034",
         "nodes": [
           {
             "type": "TEXT",
@@ -141,7 +145,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hnzi42160",
+        "id": "fxly32035",
         "nodes": [
           {
             "type": "TEXT",
@@ -161,7 +165,7 @@
       },
       {
         "type": "HEADING",
-        "id": "iqeea2161",
+        "id": "uobpu2036",
         "nodes": [
           {
             "type": "TEXT",
@@ -182,7 +186,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "soquc2162",
+        "id": "z86mu2037",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "pejqa2163",
+        "id": "mfn5n2038",
         "nodes": [
           {
             "type": "TEXT",
@@ -222,7 +226,7 @@
       },
       {
         "type": "HEADING",
-        "id": "luqfb2164",
+        "id": "eo1p02039",
         "nodes": [
           {
             "type": "TEXT",
@@ -243,7 +247,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "p1ob62165",
+        "id": "8sw2w2040",
         "nodes": [
           {
             "type": "TEXT",
@@ -263,7 +267,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lqj8k2166",
+        "id": "hn14m2041",
         "nodes": [
           {
             "type": "TEXT",
@@ -283,7 +287,7 @@
       },
       {
         "type": "HEADING",
-        "id": "7wbku2167",
+        "id": "suuo72042",
         "nodes": [
           {
             "type": "TEXT",
@@ -304,7 +308,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lu7lt2168",
+        "id": "eocfu2043",
         "nodes": [
           {
             "type": "TEXT",

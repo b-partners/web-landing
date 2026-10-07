@@ -5,6 +5,10 @@
   "excerpt": "Une présence amiante toiture non signalée dans un diagnostic peut engager des responsabilités. Découvrez vos recours et les obligations légales.",
   "firstPublishedDate": "2025-10-10T22:00:00.000Z",
   "minutesToRead": 2,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "h2nmb4697",
+        "id": "pl65n4732",
         "nodes": [
           {
             "type": "TEXT",
@@ -83,7 +87,7 @@
       },
       {
         "type": "HEADING",
-        "id": "xk9z04698",
+        "id": "ja9op4733",
         "nodes": [
           {
             "type": "TEXT",
@@ -108,15 +112,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "m4zb84708",
+        "id": "zz2ir4743",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "gcedr4700",
+            "id": "fr1be4735",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "rjsfe4699",
+                "id": "70mxm4734",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -138,11 +142,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "v2qja4703",
+            "id": "d9fkn4738",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "w86b94701",
+                "id": "aahqy4736",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -175,7 +179,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ppp654702",
+                "id": "ud3lm4737",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -197,11 +201,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "rn7354705",
+            "id": "1vcou4740",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "d9vmj4704",
+                "id": "3jo8c4739",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -223,11 +227,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "yonlg4707",
+            "id": "zpuda4742",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "z3xkt4706",
+                "id": "bzhpp4741",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -254,7 +258,7 @@
       },
       {
         "type": "HEADING",
-        "id": "no3vj4709",
+        "id": "ylyjv4744",
         "nodes": [
           {
             "type": "TEXT",
@@ -279,7 +283,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "2n5224710",
+        "id": "yubua4745",
         "nodes": [
           {
             "type": "TEXT",
@@ -371,7 +375,7 @@
       },
       {
         "type": "HEADING",
-        "id": "cui4t4711",
+        "id": "sxuiq4746",
         "nodes": [
           {
             "type": "TEXT",
@@ -396,7 +400,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "vxbo84712",
+        "id": "37hxh4747",
         "nodes": [
           {
             "type": "TEXT",
@@ -438,11 +442,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "b2uyx4719",
+        "id": "by5xu4754",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "y2xxb4714",
+            "id": "u841o4749",
             "nodes": [
               {
                 "type": "TEXT",
@@ -459,7 +463,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "jlq5b4713",
+                "id": "ppqji4748",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -481,7 +485,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "e09nq4716",
+            "id": "1np3p4751",
             "nodes": [
               {
                 "type": "TEXT",
@@ -498,7 +502,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "ibxpt4715",
+                "id": "n844h4750",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -520,7 +524,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "006644718",
+            "id": "uuvv94753",
             "nodes": [
               {
                 "type": "TEXT",
@@ -537,7 +541,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "77b4s4717",
+                "id": "q8kbj4752",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -564,7 +568,7 @@
       },
       {
         "type": "HEADING",
-        "id": "pbilv4720",
+        "id": "0j3yf4755",
         "nodes": [
           {
             "type": "TEXT",
@@ -589,7 +593,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "xfj144721",
+        "id": "iam244756",
         "nodes": [
           {
             "type": "TEXT",
@@ -637,7 +641,7 @@
       },
       {
         "type": "HEADING",
-        "id": "gz0fa4722",
+        "id": "azh1j4757",
         "nodes": [
           {
             "type": "TEXT",
@@ -662,7 +666,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lx0k34723",
+        "id": "r2fey4758",
         "nodes": [
           {
             "type": "TEXT",

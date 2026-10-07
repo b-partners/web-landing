@@ -5,6 +5,10 @@
   "excerpt": "BIRDIA propose une technologie qui associe deep learning et raisonnement symbolique pour transformer chaque image en donnée exploitable.",
   "firstPublishedDate": "2025-05-08T11:52:15.473Z",
   "minutesToRead": 2,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "98ef86164",
+        "id": "1dy8h6188",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "fdtx86165",
+        "id": "hyur06189",
         "nodes": [
           {
             "type": "TEXT",
@@ -60,7 +64,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0jbz56166",
+        "id": "1whel6190",
         "nodes": [
           {
             "type": "TEXT",
@@ -80,7 +84,7 @@
       },
       {
         "type": "HEADING",
-        "id": "0fs8k6167",
+        "id": "jw5gf6191",
         "nodes": [
           {
             "type": "TEXT",
@@ -101,7 +105,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "vctku6168",
+        "id": "x84fa6192",
         "nodes": [
           {
             "type": "TEXT",
@@ -121,7 +125,7 @@
       },
       {
         "type": "HEADING",
-        "id": "s99le6169",
+        "id": "5o1y96193",
         "nodes": [
           {
             "type": "TEXT",
@@ -142,7 +146,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "3ylk66170",
+        "id": "8pkjy6194",
         "nodes": [
           {
             "type": "TEXT",
@@ -162,7 +166,7 @@
       },
       {
         "type": "HEADING",
-        "id": "nvubp6171",
+        "id": "c8k286195",
         "nodes": [
           {
             "type": "TEXT",
@@ -183,7 +187,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "licsp6172",
+        "id": "4dw1c6196",
         "nodes": [
           {
             "type": "TEXT",
@@ -203,7 +207,7 @@
       },
       {
         "type": "HEADING",
-        "id": "5e9vt6173",
+        "id": "dtnyq6197",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,7 +228,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jmbq26174",
+        "id": "0z02b6198",
         "nodes": [
           {
             "type": "TEXT",

@@ -5,6 +5,10 @@
   "excerpt": "Besoin d’un diagnostic toiture à Marseille ? Découvrez comment choisir la bonne entreprise pour inspecter, entretenir et sécuriser votre toit.",
   "firstPublishedDate": "2024-06-12T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "rh3ye9281",
+        "id": "32oum9305",
         "nodes": [
           {
             "type": "TEXT",
@@ -61,7 +65,7 @@
       },
       {
         "type": "HEADING",
-        "id": "avna19282",
+        "id": "popd79306",
         "nodes": [
           {
             "type": "TEXT",
@@ -86,15 +90,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "i2lv99291",
+        "id": "yedjh9315",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "u6jei9284",
+            "id": "n56cl9308",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "p4v919283",
+                "id": "21br09307",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -116,11 +120,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "2n7h09286",
+            "id": "xudm09310",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "tnpn19285",
+                "id": "lw0n99309",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -142,11 +146,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "8vafz9288",
+            "id": "ubov69312",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "mdvir9287",
+                "id": "c3idl9311",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -168,11 +172,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "y0mt99290",
+            "id": "p8cy59314",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "2yi1s9289",
+                "id": "m7fwc9313",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -199,7 +203,7 @@
       },
       {
         "type": "HEADING",
-        "id": "75zdz9292",
+        "id": "oa9iu9316",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,7 +228,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ou4p79293",
+        "id": "hf3ut9317",
         "nodes": [
           {
             "type": "TEXT",
@@ -294,7 +298,7 @@
       },
       {
         "type": "HEADING",
-        "id": "sexpb9294",
+        "id": "vrq7e9318",
         "nodes": [
           {
             "type": "TEXT",
@@ -319,7 +323,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "muwhx9295",
+        "id": "9oqex9319",
         "nodes": [
           {
             "type": "TEXT",
@@ -339,7 +343,7 @@
       },
       {
         "type": "HEADING",
-        "id": "8ka1o9296",
+        "id": "p87mf9320",
         "nodes": [
           {
             "type": "TEXT",
@@ -364,7 +368,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "nxzol9297",
+        "id": "8ay0q9321",
         "nodes": [
           {
             "type": "TEXT",
@@ -434,7 +438,7 @@
       },
       {
         "type": "HEADING",
-        "id": "327ay9298",
+        "id": "r6oi09322",
         "nodes": [
           {
             "type": "TEXT",
@@ -459,7 +463,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "5izmk9299",
+        "id": "hjpq79323",
         "nodes": [
           {
             "type": "TEXT",

@@ -5,6 +5,10 @@
   "excerpt": "À Marseille, le diagnostic toiture est indispensable face au mistral et à l’humidité. Découvrez pourquoi et comment le réaliser efficacement.",
   "firstPublishedDate": "2024-05-15T22:00:00.000Z",
   "minutesToRead": 2,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hpsz19795",
+        "id": "6i0hz9819",
         "nodes": [
           {
             "type": "TEXT",
@@ -61,7 +65,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ahivj9796",
+        "id": "yrh179820",
         "nodes": [
           {
             "type": "TEXT",
@@ -86,15 +90,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "nsiea9806",
+        "id": "wxvw59830",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "1xous9799",
+            "id": "x7f5x9823",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "tztjd9797",
+                "id": "in31e9821",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -127,7 +131,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "klqrq9798",
+                "id": "ojqqy9822",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -149,11 +153,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "59yyt9801",
+            "id": "ew2rs9825",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "lz2hr9800",
+                "id": "9d29i9824",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -175,11 +179,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "apbdk9803",
+            "id": "n2wdy9827",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "1bj7d9802",
+                "id": "1r9lu9826",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -201,11 +205,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "z9wjs9805",
+            "id": "px1kq9829",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ub9zg9804",
+                "id": "7kvje9828",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -232,7 +236,7 @@
       },
       {
         "type": "HEADING",
-        "id": "lcz009807",
+        "id": "4as859831",
         "nodes": [
           {
             "type": "TEXT",
@@ -257,7 +261,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hu6xf9808",
+        "id": "q78nu9832",
         "nodes": [
           {
             "type": "TEXT",
@@ -349,7 +353,7 @@
       },
       {
         "type": "HEADING",
-        "id": "z0cya9809",
+        "id": "bm80h9833",
         "nodes": [
           {
             "type": "TEXT",
@@ -374,7 +378,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "h8gvr9810",
+        "id": "t003s9834",
         "nodes": [
           {
             "type": "TEXT",
@@ -394,15 +398,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "dvdqy9821",
+        "id": "i4am19845",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "2ufe49812",
+            "id": "ay5ov9836",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "lgsts9811",
+                "id": "xyqaz9835",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -424,11 +428,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "0lqfs9814",
+            "id": "knynx9838",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ppk7o9813",
+                "id": "1gpak9837",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -450,11 +454,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "gk1dk9816",
+            "id": "bb4ii9840",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "vvced9815",
+                "id": "wcd5y9839",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -476,11 +480,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ayg2c9818",
+            "id": "v4gww9842",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "dmpgj9817",
+                "id": "iy4u89841",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -502,11 +506,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "uydvl9820",
+            "id": "lka1n9844",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "inols9819",
+                "id": "6kw089843",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -533,7 +537,7 @@
       },
       {
         "type": "HEADING",
-        "id": "3p9sn9822",
+        "id": "ysf3a9846",
         "nodes": [
           {
             "type": "TEXT",
@@ -558,7 +562,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "c00n09823",
+        "id": "nokkl9847",
         "nodes": [
           {
             "type": "TEXT",
@@ -606,7 +610,7 @@
       },
       {
         "type": "HEADING",
-        "id": "jseal9824",
+        "id": "dp0bd9848",
         "nodes": [
           {
             "type": "TEXT",
@@ -631,7 +635,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "6r28o9825",
+        "id": "acoe69849",
         "nodes": [
           {
             "type": "TEXT",

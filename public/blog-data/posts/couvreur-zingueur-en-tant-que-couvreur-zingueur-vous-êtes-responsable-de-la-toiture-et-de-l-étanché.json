@@ -5,6 +5,10 @@
   "excerpt": "BPartners: application qui permet aux couvreurs/zingueurs de faciliter leurs tâches administratives (factures, devis, comptabilité)",
   "firstPublishedDate": "2023-02-23T14:55:44.804Z",
   "minutesToRead": 2,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hpr3r9790",
+        "id": "cuekv9814",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "pvppe9791",
+        "id": "11lu59815",
         "nodes": [
           {
             "type": "TEXT",
@@ -125,7 +129,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "br8579792",
+        "id": "e40gu9816",
         "nodes": [
           {
             "type": "TEXT",
@@ -145,7 +149,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "s1g1d9793",
+        "id": "6jo549817",
         "nodes": [
           {
             "type": "TEXT",
@@ -215,7 +219,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "sy7oi9794",
+        "id": "alsls9818",
         "nodes": [
           {
             "type": "TEXT",

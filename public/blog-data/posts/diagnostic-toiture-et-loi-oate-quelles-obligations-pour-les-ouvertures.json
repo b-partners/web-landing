@@ -5,6 +5,10 @@
   "excerpt": "La loi OATE impose un diagnostic spécifique pour les fenêtres, portes et toiture. Découvrez vos obligations et les impacts pour les propriétaires.",
   "firstPublishedDate": "2024-09-08T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lt79g8953",
+        "id": "74vbb9021",
         "nodes": [
           {
             "type": "TEXT",
@@ -83,7 +87,7 @@
       },
       {
         "type": "HEADING",
-        "id": "tat988954",
+        "id": "r4suj9022",
         "nodes": [
           {
             "type": "TEXT",
@@ -108,15 +112,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "i0d1e8963",
+        "id": "3tedi9031",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "u9ap78956",
+            "id": "4st6m9024",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "tdeyj8955",
+                "id": "30a469023",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -138,11 +142,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ikchh8958",
+            "id": "vpn3l9026",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "2zoke8957",
+                "id": "x02uq9025",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -164,11 +168,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "6fstk8960",
+            "id": "9ewmg9028",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "gbls48959",
+                "id": "iqtdh9027",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -190,11 +194,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ij3hj8962",
+            "id": "8yyu89030",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "modb48961",
+                "id": "rcfrz9029",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -221,7 +225,7 @@
       },
       {
         "type": "HEADING",
-        "id": "w1ajm8964",
+        "id": "2d8ep9032",
         "nodes": [
           {
             "type": "TEXT",
@@ -246,7 +250,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8es098965",
+        "id": "7ii759033",
         "nodes": [
           {
             "type": "TEXT",
@@ -294,7 +298,7 @@
       },
       {
         "type": "HEADING",
-        "id": "2s1te8966",
+        "id": "zh3ix9034",
         "nodes": [
           {
             "type": "TEXT",
@@ -319,7 +323,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "aama88967",
+        "id": "lpkmi9035",
         "nodes": [
           {
             "type": "TEXT",
@@ -339,15 +343,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "jo92t8976",
+        "id": "6iey09044",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "jgmp38969",
+            "id": "p7d8o9037",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "if5p78968",
+                "id": "6jxkz9036",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -369,11 +373,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "4f8f48971",
+            "id": "4el269039",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "qc4zk8970",
+                "id": "760b29038",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -395,11 +399,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "u02bk8973",
+            "id": "r78et9041",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "w2w118972",
+                "id": "m67uj9040",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -421,11 +425,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ycco98975",
+            "id": "j2lt69043",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "2busz8974",
+                "id": "g1x709042",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -452,7 +456,7 @@
       },
       {
         "type": "HEADING",
-        "id": "4z4a48977",
+        "id": "27z4q9045",
         "nodes": [
           {
             "type": "TEXT",
@@ -477,7 +481,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0xu5q8978",
+        "id": "1tih39046",
         "nodes": [
           {
             "type": "TEXT",
@@ -569,7 +573,7 @@
       },
       {
         "type": "HEADING",
-        "id": "j22v48979",
+        "id": "50n779047",
         "nodes": [
           {
             "type": "TEXT",
@@ -594,7 +598,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "kfzjl8980",
+        "id": "69nit9048",
         "nodes": [
           {
             "type": "TEXT",

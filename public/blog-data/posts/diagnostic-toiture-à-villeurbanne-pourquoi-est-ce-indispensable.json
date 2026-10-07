@@ -5,6 +5,10 @@
   "excerpt": "À Villeurbanne, le diagnostic toiture prévient infiltrations et usures et prolonge la durée de vie de votre couverture.",
   "firstPublishedDate": "2025-10-09T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "5c60a1971",
+        "id": "9fmhm1945",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "y26wj1972",
+        "id": "beh351946",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "vw7rz1981",
+        "id": "7v26l1955",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "daqwz1974",
+            "id": "vyh6h1948",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "dt4f41973",
+                "id": "8ed7e1947",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "9cfgh1976",
+            "id": "jm1lh1950",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "9a44x1975",
+                "id": "cpsan1949",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "abz0j1978",
+            "id": "4ho0j1952",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "hc4km1977",
+                "id": "9fj421951",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "6hfcr1980",
+            "id": "2ze161954",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "b7rxw1979",
+                "id": "s9o9b1953",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "5546n1982",
+        "id": "aq8431956",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "mbi6v1983",
+        "id": "4431n1957",
         "nodes": [
           {
             "type": "TEXT",
@@ -222,7 +226,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "id7fa1984",
+        "id": "gmif61958",
         "nodes": [
           {
             "type": "TEXT",
@@ -242,7 +246,7 @@
       },
       {
         "type": "HEADING",
-        "id": "744nq1985",
+        "id": "7v6bc1959",
         "nodes": [
           {
             "type": "TEXT",
@@ -267,7 +271,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "b6p4c1986",
+        "id": "5zcpb1960",
         "nodes": [
           {
             "type": "TEXT",
@@ -287,7 +291,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "fm1rt1987",
+        "id": "hynzz1961",
         "nodes": [
           {
             "type": "TEXT",
@@ -307,7 +311,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "n7x9e1988",
+        "id": "vifbi1962",
         "nodes": [
           {
             "type": "TEXT",
@@ -327,7 +331,7 @@
       },
       {
         "type": "HEADING",
-        "id": "zyutz1989",
+        "id": "j9dty1963",
         "nodes": [
           {
             "type": "TEXT",
@@ -352,7 +356,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "fzvrk1990",
+        "id": "p0mcn1964",
         "nodes": [
           {
             "type": "TEXT",
@@ -372,7 +376,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "3avrn1991",
+        "id": "vtkwe1965",
         "nodes": [
           {
             "type": "TEXT",
@@ -392,7 +396,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "4bnz91992",
+        "id": "m9jlb1966",
         "nodes": [
           {
             "type": "TEXT",
@@ -412,7 +416,7 @@
       },
       {
         "type": "HEADING",
-        "id": "lyipn1993",
+        "id": "1argn1967",
         "nodes": [
           {
             "type": "TEXT",
@@ -437,7 +441,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "zpzag1994",
+        "id": "xb24l1968",
         "nodes": [
           {
             "type": "TEXT",
@@ -457,7 +461,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hesm61995",
+        "id": "ukynj1969",
         "nodes": [
           {
             "type": "TEXT",

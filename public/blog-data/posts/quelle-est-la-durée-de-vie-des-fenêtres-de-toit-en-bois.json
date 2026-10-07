@@ -5,6 +5,10 @@
   "excerpt": "Fenêtres de toit en bois : quelle durée de vie espérer en 2025 ? Matériaux, entretien et conseils pour prolonger leur efficacité.",
   "firstPublishedDate": "2025-09-02T12:39:36.068Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "r07j15921",
+        "id": "gm7f95945",
         "nodes": [
           {
             "type": "TEXT",
@@ -67,7 +71,7 @@
       },
       {
         "type": "HEADING",
-        "id": "tu4lv5922",
+        "id": "1gdau5946",
         "nodes": [
           {
             "type": "TEXT",
@@ -92,15 +96,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "c48q65931",
+        "id": "omsu65955",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "jkbvl5924",
+            "id": "9f59b5948",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "jzm4d5923",
+                "id": "n58bd5947",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -122,11 +126,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "itftc5926",
+            "id": "vrnnw5950",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "iixne5925",
+                "id": "y2dor5949",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -148,11 +152,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "wuj6m5928",
+            "id": "kc0dd5952",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "1atm15927",
+                "id": "tnpbd5951",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -174,11 +178,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "dohhf5930",
+            "id": "150oi5954",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "k0wrm5929",
+                "id": "oouu35953",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -205,7 +209,7 @@
       },
       {
         "type": "HEADING",
-        "id": "gxaub5932",
+        "id": "zyuad5956",
         "nodes": [
           {
             "type": "TEXT",
@@ -230,7 +234,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "zhhzb5933",
+        "id": "1dggc5957",
         "nodes": [
           {
             "type": "TEXT",
@@ -250,7 +254,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "dz5535934",
+        "id": "g1p6q5958",
         "nodes": [
           {
             "type": "TEXT",
@@ -270,7 +274,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "1ncf95935",
+        "id": "nujop5959",
         "nodes": [
           {
             "type": "TEXT",
@@ -318,7 +322,7 @@
       },
       {
         "type": "HEADING",
-        "id": "dzlvl5936",
+        "id": "fm2u95960",
         "nodes": [
           {
             "type": "TEXT",
@@ -343,7 +347,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7jh0k5937",
+        "id": "jx15x5961",
         "nodes": [
           {
             "type": "TEXT",
@@ -363,7 +367,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ph1vf5938",
+        "id": "iuq5t5962",
         "nodes": [
           {
             "type": "TEXT",
@@ -383,7 +387,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "m4xlh5939",
+        "id": "xcj915963",
         "nodes": [
           {
             "type": "TEXT",
@@ -403,7 +407,7 @@
       },
       {
         "type": "HEADING",
-        "id": "kks0v5940",
+        "id": "bwslr5964",
         "nodes": [
           {
             "type": "TEXT",
@@ -428,7 +432,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "gi04d5941",
+        "id": "ikhsk5965",
         "nodes": [
           {
             "type": "TEXT",
@@ -448,7 +452,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "2o4185942",
+        "id": "6nt1b5966",
         "nodes": [
           {
             "type": "TEXT",
@@ -468,7 +472,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "cle7v5943",
+        "id": "176r75967",
         "nodes": [
           {
             "type": "TEXT",
@@ -516,7 +520,7 @@
       },
       {
         "type": "HEADING",
-        "id": "6r1cm5944",
+        "id": "yoppn5968",
         "nodes": [
           {
             "type": "TEXT",
@@ -541,7 +545,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "dkjl15945",
+        "id": "inosh5969",
         "nodes": [
           {
             "type": "TEXT",
@@ -561,7 +565,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ar8hk5946",
+        "id": "icdpb5970",
         "nodes": [
           {
             "type": "TEXT",

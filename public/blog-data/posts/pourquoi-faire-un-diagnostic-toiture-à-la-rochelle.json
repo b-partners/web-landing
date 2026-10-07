@@ -5,6 +5,10 @@
   "excerpt": "Le diagnostic toiture à La Rochelle protège votre maison contre l’air marin et l’humidité. Découvrez pourquoi cette inspection est essentielle.",
   "firstPublishedDate": "2025-09-08T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "a47rc5109",
+        "id": "14m9u5109",
         "nodes": [
           {
             "type": "TEXT",
@@ -61,7 +65,7 @@
       },
       {
         "type": "HEADING",
-        "id": "xjxzl5110",
+        "id": "yfkrx5110",
         "nodes": [
           {
             "type": "TEXT",
@@ -86,15 +90,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "0gv6u5119",
+        "id": "e8jnk5119",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "ix3115112",
+            "id": "4hlki5112",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "wcdwk5111",
+                "id": "jnjjc5111",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -116,11 +120,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "015e65114",
+            "id": "dr3955114",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "17kf75113",
+                "id": "n825h5113",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -142,11 +146,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "h1ggq5116",
+            "id": "pbm0u5116",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "futra5115",
+                "id": "xwnmu5115",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -168,11 +172,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "18s0c5118",
+            "id": "uecxf5118",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "2itd55117",
+                "id": "hkux85117",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -199,7 +203,7 @@
       },
       {
         "type": "HEADING",
-        "id": "cjpl05120",
+        "id": "0kmtn5120",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,7 +228,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "l6b7x5121",
+        "id": "cyagf5121",
         "nodes": [
           {
             "type": "TEXT",
@@ -244,7 +248,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "j0ahz5122",
+        "id": "wvzw65122",
         "nodes": [
           {
             "type": "TEXT",
@@ -286,7 +290,7 @@
       },
       {
         "type": "HEADING",
-        "id": "2c6zf5123",
+        "id": "y44wu5123",
         "nodes": [
           {
             "type": "TEXT",
@@ -311,7 +315,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "2n31n5124",
+        "id": "r0fnn5124",
         "nodes": [
           {
             "type": "TEXT",
@@ -331,7 +335,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "9ajox5125",
+        "id": "lyh805125",
         "nodes": [
           {
             "type": "TEXT",
@@ -351,7 +355,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lecy25126",
+        "id": "jnamo5126",
         "nodes": [
           {
             "type": "TEXT",
@@ -371,7 +375,7 @@
       },
       {
         "type": "HEADING",
-        "id": "hxfx65127",
+        "id": "yhj6d5127",
         "nodes": [
           {
             "type": "TEXT",
@@ -396,7 +400,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "9iz825128",
+        "id": "wm8gi5128",
         "nodes": [
           {
             "type": "TEXT",
@@ -416,7 +420,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tv8095129",
+        "id": "0cv4l5129",
         "nodes": [
           {
             "type": "TEXT",
@@ -436,7 +440,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jrrh05130",
+        "id": "34nag5130",
         "nodes": [
           {
             "type": "TEXT",
@@ -456,11 +460,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "085a45137",
+        "id": "vz1ua5137",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "ry1zy5132",
+            "id": "od5ge5132",
             "nodes": [
               {
                 "type": "TEXT",
@@ -477,7 +481,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "e95fk5131",
+                "id": "07leh5131",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -499,7 +503,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "gk1nr5134",
+            "id": "676gg5134",
             "nodes": [
               {
                 "type": "TEXT",
@@ -516,7 +520,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "oqc5h5133",
+                "id": "kfhah5133",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -538,7 +542,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "2fn3d5136",
+            "id": "chj1i5136",
             "nodes": [
               {
                 "type": "TEXT",
@@ -555,7 +559,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "4d7915135",
+                "id": "oogsk5135",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -582,7 +586,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "b7o565138",
+        "id": "lz6me5138",
         "nodes": [
           {
             "type": "TEXT",
@@ -602,7 +606,7 @@
       },
       {
         "type": "HEADING",
-        "id": "3kf595139",
+        "id": "zxqmx5139",
         "nodes": [
           {
             "type": "TEXT",
@@ -627,7 +631,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "9j3165140",
+        "id": "kvoop5140",
         "nodes": [
           {
             "type": "TEXT",
@@ -669,7 +673,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "fzt7b5141",
+        "id": "62n715141",
         "nodes": [
           {
             "type": "TEXT",

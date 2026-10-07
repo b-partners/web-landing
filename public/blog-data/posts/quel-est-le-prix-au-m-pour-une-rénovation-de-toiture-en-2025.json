@@ -5,6 +5,10 @@
   "excerpt": "Découvrez le prix au m² pour une rénovation toiture en 2025 et les facteurs qui influencent le coût selon le type de couverture et l’état du toit.",
   "firstPublishedDate": "2025-08-31T22:00:00.000Z",
   "minutesToRead": 4,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hkx3y6833",
+        "id": "nop646857",
         "nodes": [
           {
             "type": "TEXT",
@@ -67,7 +71,7 @@
       },
       {
         "type": "HEADING",
-        "id": "b55g86834",
+        "id": "bkkzy6858",
         "nodes": [
           {
             "type": "TEXT",
@@ -88,15 +92,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "gqjpp6843",
+        "id": "ff12k6867",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "r949l6836",
+            "id": "jzkky6860",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ihd0w6835",
+                "id": "gu22y6859",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -118,11 +122,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "d02st6838",
+            "id": "mazge6862",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "wo2sd6837",
+                "id": "e1cc76861",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -144,11 +148,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "525i76840",
+            "id": "ntuxw6864",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "qwiib6839",
+                "id": "3lmae6863",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -170,11 +174,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "6pal86842",
+            "id": "p4oii6866",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ygtg16841",
+                "id": "ty8qg6865",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -201,7 +205,7 @@
       },
       {
         "type": "HEADING",
-        "id": "hu9jv6844",
+        "id": "juf5w6868",
         "nodes": [
           {
             "type": "TEXT",
@@ -222,7 +226,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "44s6g6845",
+        "id": "fk9w86869",
         "nodes": [
           {
             "type": "TEXT",
@@ -242,7 +246,7 @@
       },
       {
         "type": "HEADING",
-        "id": "z3fv26846",
+        "id": "bnw896870",
         "nodes": [
           {
             "type": "TEXT",
@@ -263,7 +267,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "qfpey6847",
+        "id": "mgspw6871",
         "nodes": [
           {
             "type": "TEXT",
@@ -283,7 +287,7 @@
       },
       {
         "type": "HEADING",
-        "id": "kzqx16848",
+        "id": "gm7026872",
         "nodes": [
           {
             "type": "TEXT",
@@ -304,7 +308,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "umll36849",
+        "id": "vox5q6873",
         "nodes": [
           {
             "type": "TEXT",
@@ -324,7 +328,7 @@
       },
       {
         "type": "HEADING",
-        "id": "z494s6850",
+        "id": "9jkus6874",
         "nodes": [
           {
             "type": "TEXT",
@@ -345,7 +349,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lhx826851",
+        "id": "q8auj6875",
         "nodes": [
           {
             "type": "TEXT",
@@ -365,7 +369,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "xyp0l6852",
+        "id": "x8pf26876",
         "nodes": [
           {
             "type": "TEXT",

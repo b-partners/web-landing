@@ -5,6 +5,10 @@
   "excerpt": "Le diagnostic toiture pour particuliers révèle l’état réel de votre couverture. Découvrez ce qu’il inclut, ses avantages et comment l’utiliser pour vos travaux.",
   "firstPublishedDate": "2023-05-02T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "nyj4p8540",
+        "id": "e9wtl8564",
         "nodes": [
           {
             "type": "TEXT",
@@ -61,7 +65,7 @@
       },
       {
         "type": "HEADING",
-        "id": "lgu0p8541",
+        "id": "y3jol8565",
         "nodes": [
           {
             "type": "TEXT",
@@ -86,15 +90,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "d3yn58550",
+        "id": "545ll8574",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "za24a8543",
+            "id": "sd0878567",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "9uoul8542",
+                "id": "jn1128566",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -116,11 +120,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "kpgyx8545",
+            "id": "3kdy28569",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "aa8jp8544",
+                "id": "tyfb58568",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -142,11 +146,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "7r6qt8547",
+            "id": "u8fmg8571",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "7psxp8546",
+                "id": "kupee8570",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -168,11 +172,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "7jg3t8549",
+            "id": "cep6e8573",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "7iqhs8548",
+                "id": "w882j8572",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -199,7 +203,7 @@
       },
       {
         "type": "HEADING",
-        "id": "wfh1z8551",
+        "id": "tcmub8575",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,7 +228,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ebi6r8552",
+        "id": "lan398576",
         "nodes": [
           {
             "type": "TEXT",
@@ -266,11 +270,11 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "xixku8562",
+        "id": "w9drc8586",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "ixlq68554",
+            "id": "kwjr28578",
             "nodes": [
               {
                 "type": "TEXT",
@@ -287,7 +291,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "qlybe8553",
+                "id": "x5grc8577",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -309,7 +313,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "bqtjt8556",
+            "id": "3ktem8580",
             "nodes": [
               {
                 "type": "TEXT",
@@ -326,7 +330,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "f4on18555",
+                "id": "tr22s8579",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -348,7 +352,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ugzcr8558",
+            "id": "n58458582",
             "nodes": [
               {
                 "type": "TEXT",
@@ -365,7 +369,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "jws4p8557",
+                "id": "rj7z58581",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -387,7 +391,7 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "jos408561",
+            "id": "0l0qh8585",
             "nodes": [
               {
                 "type": "TEXT",
@@ -404,7 +408,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "h87dd8559",
+                "id": "8scup8583",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -443,7 +447,7 @@
               },
               {
                 "type": "PARAGRAPH",
-                "id": "cybzh8560",
+                "id": "gl2fa8584",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -470,7 +474,7 @@
       },
       {
         "type": "HEADING",
-        "id": "sfv4p8563",
+        "id": "i572b8587",
         "nodes": [
           {
             "type": "TEXT",
@@ -495,7 +499,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "kc3ar8564",
+        "id": "53tz78588",
         "nodes": [
           {
             "type": "TEXT",
@@ -537,7 +541,7 @@
       },
       {
         "type": "HEADING",
-        "id": "9k6fe8565",
+        "id": "bpwd38589",
         "nodes": [
           {
             "type": "TEXT",
@@ -562,7 +566,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "uvmgj8566",
+        "id": "gjfg48590",
         "nodes": [
           {
             "type": "TEXT",
@@ -632,7 +636,7 @@
       },
       {
         "type": "HEADING",
-        "id": "2e3iy8567",
+        "id": "6udcw8591",
         "nodes": [
           {
             "type": "TEXT",
@@ -657,7 +661,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "edzxe8568",
+        "id": "ohtjs8592",
         "nodes": [
           {
             "type": "TEXT",

@@ -5,6 +5,10 @@
   "excerpt": "Découvrez la méthode et les précautions à suivre pour un nettoyage efficace et durable de vos tuiles en béton.",
   "firstPublishedDate": "2025-09-07T22:00:00.000Z",
   "minutesToRead": 4,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ax93n5142",
+        "id": "fsqld5142",
         "nodes": [
           {
             "type": "TEXT",
@@ -61,7 +65,7 @@
       },
       {
         "type": "HEADING",
-        "id": "hpvin5143",
+        "id": "tmyxp5143",
         "nodes": [
           {
             "type": "TEXT",
@@ -86,15 +90,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "jrw5l5152",
+        "id": "58tpj5152",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "xw3e95145",
+            "id": "vslwj5145",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "bcyz65144",
+                "id": "ljg1i5144",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -116,11 +120,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "w3hm65147",
+            "id": "gan425147",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "yvubt5146",
+                "id": "sfl9b5146",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -142,11 +146,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "k9qkw5149",
+            "id": "tfxtr5149",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "vj3hm5148",
+                "id": "8836v5148",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -168,11 +172,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "fg6v55151",
+            "id": "otpr05151",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "u7y3p5150",
+                "id": "7x6om5150",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -199,7 +203,7 @@
       },
       {
         "type": "HEADING",
-        "id": "emrju5153",
+        "id": "ig8vk5153",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,7 +228,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "kaqtl5154",
+        "id": "dfh3p5154",
         "nodes": [
           {
             "type": "TEXT",
@@ -266,7 +270,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "hkitm5155",
+        "id": "530g55155",
         "nodes": [
           {
             "type": "TEXT",
@@ -286,7 +290,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lc3ek5156",
+        "id": "2fjs35156",
         "nodes": [
           {
             "type": "TEXT",
@@ -306,7 +310,7 @@
       },
       {
         "type": "HEADING",
-        "id": "x73hv5157",
+        "id": "wm7k55157",
         "nodes": [
           {
             "type": "TEXT",
@@ -331,7 +335,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "r4dxj5158",
+        "id": "9mn7n5158",
         "nodes": [
           {
             "type": "TEXT",
@@ -351,7 +355,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "bu8ab5159",
+        "id": "06dxh5159",
         "nodes": [
           {
             "type": "TEXT",
@@ -371,7 +375,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "iqa605160",
+        "id": "6nglj5160",
         "nodes": [
           {
             "type": "TEXT",
@@ -391,7 +395,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "xuwlc5161",
+        "id": "4ucvz5161",
         "nodes": [
           {
             "type": "TEXT",
@@ -411,7 +415,7 @@
       },
       {
         "type": "HEADING",
-        "id": "gkqzi5162",
+        "id": "8odvi5162",
         "nodes": [
           {
             "type": "TEXT",
@@ -436,7 +440,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7660n5163",
+        "id": "hkbcw5163",
         "nodes": [
           {
             "type": "TEXT",
@@ -478,15 +482,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "tqwa65170",
+        "id": "pwcp45170",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "tadz15165",
+            "id": "k5m7u5165",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "w8p2k5164",
+                "id": "2pox85164",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -508,11 +512,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "f9g875167",
+            "id": "trevk5167",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "gps745166",
+                "id": "jyjnb5166",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -534,11 +538,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "7uwa25169",
+            "id": "y19nk5169",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ds17d5168",
+                "id": "vbj4m5168",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -565,7 +569,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "9kd745171",
+        "id": "l70fn5171",
         "nodes": [
           {
             "type": "TEXT",
@@ -585,7 +589,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "d53415172",
+        "id": "53lsi5172",
         "nodes": [
           {
             "type": "TEXT",
@@ -605,7 +609,7 @@
       },
       {
         "type": "HEADING",
-        "id": "3poj05173",
+        "id": "4lgx65173",
         "nodes": [
           {
             "type": "TEXT",
@@ -630,7 +634,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "07u505174",
+        "id": "1ppx75174",
         "nodes": [
           {
             "type": "TEXT",
@@ -650,7 +654,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "s3y075175",
+        "id": "168mi5175",
         "nodes": [
           {
             "type": "TEXT",

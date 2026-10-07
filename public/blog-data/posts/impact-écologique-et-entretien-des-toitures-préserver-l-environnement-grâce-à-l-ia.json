@@ -5,6 +5,10 @@
   "excerpt": "Grâce à l’IA et aux images aériennes haute définition, BIRDIA propose des solutions innovantes pour optimiser la maintenance des toitures.",
   "firstPublishedDate": "2025-05-08T11:50:07.281Z",
   "minutesToRead": 2,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ps1sp6153",
+        "id": "hgytc6177",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "q8e4s6154",
+        "id": "tqf2y6178",
         "nodes": [
           {
             "type": "TEXT",
@@ -60,7 +64,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "bfh6i6155",
+        "id": "uglv76179",
         "nodes": [
           {
             "type": "TEXT",
@@ -80,7 +84,7 @@
       },
       {
         "type": "HEADING",
-        "id": "k5u8l6156",
+        "id": "llbv56180",
         "nodes": [
           {
             "type": "TEXT",
@@ -101,7 +105,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "k6mui6157",
+        "id": "xhncj6181",
         "nodes": [
           {
             "type": "TEXT",
@@ -121,7 +125,7 @@
       },
       {
         "type": "HEADING",
-        "id": "zquqm6158",
+        "id": "dpkpa6182",
         "nodes": [
           {
             "type": "TEXT",
@@ -142,7 +146,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "aliio6159",
+        "id": "gzghs6183",
         "nodes": [
           {
             "type": "TEXT",
@@ -162,7 +166,7 @@
       },
       {
         "type": "HEADING",
-        "id": "24mlc6160",
+        "id": "jqwvp6184",
         "nodes": [
           {
             "type": "TEXT",
@@ -183,7 +187,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "i8pvl6161",
+        "id": "mwqyf6185",
         "nodes": [
           {
             "type": "TEXT",
@@ -203,7 +207,7 @@
       },
       {
         "type": "HEADING",
-        "id": "dkitp6162",
+        "id": "1cohk6186",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,7 +228,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "q38166163",
+        "id": "7tfwu6187",
         "nodes": [
           {
             "type": "TEXT",

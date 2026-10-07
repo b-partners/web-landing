@@ -5,6 +5,10 @@
   "excerpt": "Trouvez un couvreur à Blagnac fiable et compétent pour vos travaux de toiture. Découvrez nos conseils pour choisir le bon artisan.",
   "firstPublishedDate": "2025-06-30T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "8iloc8023",
+        "id": "r1xvq8047",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "lew7k8024",
+        "id": "tte828048",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "tl9c28033",
+        "id": "mrtc38057",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "mo7fx8026",
+            "id": "diiyj8050",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "jr3r68025",
+                "id": "e8kkg8049",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "p0roz8028",
+            "id": "a8u8l8052",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "vhzg08027",
+                "id": "fed688051",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "mgu658030",
+            "id": "mjc898054",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "pesqw8029",
+                "id": "hyko68053",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "04wrc8032",
+            "id": "u7at48056",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "h46pi8031",
+                "id": "jly0y8055",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "3rdnx8034",
+        "id": "g7ev38058",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jcno28035",
+        "id": "w405o8059",
         "nodes": [
           {
             "type": "TEXT",
@@ -222,7 +226,7 @@
       },
       {
         "type": "HEADING",
-        "id": "qp53v8036",
+        "id": "4zv0b8060",
         "nodes": [
           {
             "type": "TEXT",
@@ -247,7 +251,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "btwtx8037",
+        "id": "cflfp8061",
         "nodes": [
           {
             "type": "TEXT",
@@ -267,7 +271,7 @@
       },
       {
         "type": "HEADING",
-        "id": "twbrj8038",
+        "id": "rnxi08062",
         "nodes": [
           {
             "type": "TEXT",
@@ -292,7 +296,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "snhv78039",
+        "id": "vsbtl8063",
         "nodes": [
           {
             "type": "TEXT",
@@ -312,7 +316,7 @@
       },
       {
         "type": "HEADING",
-        "id": "xtomi8040",
+        "id": "4jpgu8064",
         "nodes": [
           {
             "type": "TEXT",
@@ -337,7 +341,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "w0ga78041",
+        "id": "rkoiz8065",
         "nodes": [
           {
             "type": "TEXT",

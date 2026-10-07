@@ -5,6 +5,10 @@
   "excerpt": "Votre toiture devient noire ? Comprenez pourquoi, évaluez les risques et découvrez les solutions durables avec Birdia pour préserver votre toit.",
   "firstPublishedDate": "2025-08-29T08:05:08.635Z",
   "minutesToRead": 4,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "vrbjj4967",
+        "id": "fg3xh4967",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "wmuqx4968",
+        "id": "1taez4968",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "b6b8s4977",
+        "id": "psykm4977",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "fi83e4970",
+            "id": "z7dta4970",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "j383m4969",
+                "id": "t17mg4969",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "iknk54972",
+            "id": "pgicn4972",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "5o1nt4971",
+                "id": "t8ohd4971",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "qczzs4974",
+            "id": "b43g04974",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "7pil24973",
+                "id": "55g0i4973",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "kzusc4976",
+            "id": "46b2k4976",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "vwj1v4975",
+                "id": "8wg334975",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "0pqe94978",
+        "id": "ik2db4978",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lxqe64979",
+        "id": "k18fw4979",
         "nodes": [
           {
             "type": "TEXT",
@@ -244,7 +248,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "cp4oc4980",
+        "id": "2fjyz4980",
         "nodes": [
           {
             "type": "TEXT",
@@ -352,7 +356,7 @@
       },
       {
         "type": "HEADING",
-        "id": "pokn14981",
+        "id": "xnj6f4981",
         "nodes": [
           {
             "type": "TEXT",
@@ -377,7 +381,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "s24m44982",
+        "id": "207oe4982",
         "nodes": [
           {
             "type": "TEXT",
@@ -463,7 +467,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "6pdbp4983",
+        "id": "q8j4t4983",
         "nodes": [
           {
             "type": "TEXT",
@@ -527,7 +531,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "va8c54984",
+        "id": "xvck54984",
         "nodes": [
           {
             "type": "TEXT",
@@ -575,7 +579,7 @@
       },
       {
         "type": "HEADING",
-        "id": "7mrs64985",
+        "id": "jtd7u4985",
         "nodes": [
           {
             "type": "TEXT",
@@ -600,7 +604,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "n24x94986",
+        "id": "l09vn4986",
         "nodes": [
           {
             "type": "TEXT",
@@ -686,7 +690,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lpwai4987",
+        "id": "k1tj04987",
         "nodes": [
           {
             "type": "TEXT",
@@ -750,7 +754,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "e8z4q4988",
+        "id": "5cvj24988",
         "nodes": [
           {
             "type": "TEXT",
@@ -792,7 +796,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7oww24989",
+        "id": "viapa4989",
         "nodes": [
           {
             "type": "TEXT",
@@ -812,7 +816,7 @@
       },
       {
         "type": "HEADING",
-        "id": "xuqa74990",
+        "id": "jv7tj4990",
         "nodes": [
           {
             "type": "TEXT",
@@ -837,7 +841,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "v1sgh4991",
+        "id": "4oi0s4991",
         "nodes": [
           {
             "type": "TEXT",
@@ -901,7 +905,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "v6ic84992",
+        "id": "59xsb4992",
         "nodes": [
           {
             "type": "TEXT",
@@ -943,7 +947,7 @@
       },
       {
         "type": "HEADING",
-        "id": "0i1n64993",
+        "id": "qeopw4993",
         "nodes": [
           {
             "type": "TEXT",
@@ -968,7 +972,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "1bxup4994",
+        "id": "qpks44994",
         "nodes": [
           {
             "type": "TEXT",
@@ -1054,7 +1058,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "3nho74995",
+        "id": "g4a784995",
         "nodes": [
           {
             "type": "TEXT",
@@ -1096,7 +1100,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "sdgdc4996",
+        "id": "ytlwv4996",
         "nodes": [
           {
             "type": "TEXT",
@@ -1144,7 +1148,7 @@
       },
       {
         "type": "HEADING",
-        "id": "otbx74997",
+        "id": "aqqeg4997",
         "nodes": [
           {
             "type": "TEXT",
@@ -1169,7 +1173,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "fyooi4998",
+        "id": "npzer4998",
         "nodes": [
           {
             "type": "TEXT",
@@ -1255,7 +1259,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "qwdp34999",
+        "id": "5w1e34999",
         "nodes": [
           {
             "type": "TEXT",

@@ -5,6 +5,10 @@
   "excerpt": "Le diagnostic étanchéité toiture par drone est-il fiable et reconnu ? Découvrez ses avantages, sa précision et son rôle face aux méthodes classiques.",
   "firstPublishedDate": "2025-10-02T22:00:00.000Z",
   "minutesToRead": 4,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "1gv6e3286",
+        "id": "vwdfd3340",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "t0y533287",
+        "id": "e9bzy3341",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "r828c3296",
+        "id": "h4kv33350",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "6bsrj3289",
+            "id": "uow0z3343",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "8km4m3288",
+                "id": "wxgbx3342",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "6lq6w3291",
+            "id": "lxq8p3345",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "hpj0e3290",
+                "id": "rllac3344",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "ce8tp3293",
+            "id": "5n7bj3347",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "eb6t33292",
+                "id": "51g523346",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "gvcus3295",
+            "id": "bbk6z3349",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "u66923294",
+                "id": "vmmi43348",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "hgbqa3297",
+        "id": "v3tec3351",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "xs21i3298",
+        "id": "ljooa3352",
         "nodes": [
           {
             "type": "TEXT",
@@ -250,7 +254,7 @@
       },
       {
         "type": "HEADING",
-        "id": "jjbq93299",
+        "id": "zz8673353",
         "nodes": [
           {
             "type": "TEXT",
@@ -275,7 +279,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "gkk9s3300",
+        "id": "tbatv3354",
         "nodes": [
           {
             "type": "TEXT",
@@ -295,7 +299,7 @@
       },
       {
         "type": "HEADING",
-        "id": "d8hi03301",
+        "id": "d84sw3355",
         "nodes": [
           {
             "type": "TEXT",
@@ -320,7 +324,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "km3n73302",
+        "id": "jhjcg3356",
         "nodes": [
           {
             "type": "TEXT",
@@ -390,7 +394,7 @@
       },
       {
         "type": "HEADING",
-        "id": "au8yg3303",
+        "id": "f00f33357",
         "nodes": [
           {
             "type": "TEXT",
@@ -415,7 +419,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "aaplw3304",
+        "id": "fgefs3358",
         "nodes": [
           {
             "type": "TEXT",

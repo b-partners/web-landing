@@ -5,6 +5,10 @@
   "excerpt": "Découvrez quelle lance Karcher pour toiture choisir afin de nettoyer efficacement sans abîmer vos tuiles ni votre couverture.",
   "firstPublishedDate": "2025-01-22T23:00:00.000Z",
   "minutesToRead": 4,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "h0nnb9203",
+        "id": "hh0v79227",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "3ziwd9204",
+        "id": "yub7o9228",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "tx6hh9213",
+        "id": "zzzjs9237",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "od3c79206",
+            "id": "yq4lh9230",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "hiobn9205",
+                "id": "4rizl9229",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "qocr19208",
+            "id": "1zqpa9232",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "9pvo89207",
+                "id": "41k3i9231",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "5eom09210",
+            "id": "t5nl19234",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "lkrvw9209",
+                "id": "fj1cx9233",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "1ycgo9212",
+            "id": "xm3ji9236",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "h3phe9211",
+                "id": "xe2p09235",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "2vg1a9214",
+        "id": "iozk19238",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "cgq349215",
+        "id": "zhmo19239",
         "nodes": [
           {
             "type": "TEXT",
@@ -222,7 +226,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "j5cxw9216",
+        "id": "nvuhf9240",
         "nodes": [
           {
             "type": "TEXT",
@@ -242,7 +246,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "0a1pi9217",
+        "id": "o9q9c9241",
         "nodes": [
           {
             "type": "TEXT",
@@ -290,7 +294,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ykp6i9218",
+        "id": "k4t6c9242",
         "nodes": [
           {
             "type": "TEXT",
@@ -315,7 +319,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "4clc29219",
+        "id": "mg2u79243",
         "nodes": [
           {
             "type": "TEXT",
@@ -335,7 +339,7 @@
       },
       {
         "type": "HEADING",
-        "id": "9d3zl9220",
+        "id": "h26pf9244",
         "nodes": [
           {
             "type": "TEXT",
@@ -360,7 +364,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "aw8q79221",
+        "id": "prabv9245",
         "nodes": [
           {
             "type": "TEXT",
@@ -380,7 +384,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "3rd0v9222",
+        "id": "k14mb9246",
         "nodes": [
           {
             "type": "TEXT",
@@ -428,7 +432,7 @@
       },
       {
         "type": "HEADING",
-        "id": "w1oqt9223",
+        "id": "kb3zb9247",
         "nodes": [
           {
             "type": "TEXT",
@@ -453,7 +457,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "gbkuu9224",
+        "id": "x8ak49248",
         "nodes": [
           {
             "type": "TEXT",

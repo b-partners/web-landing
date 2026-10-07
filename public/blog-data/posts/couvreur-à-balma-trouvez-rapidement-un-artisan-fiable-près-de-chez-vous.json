@@ -5,6 +5,10 @@
   "excerpt": "Besoin d’un couvreur à Balma ? Découvrez comment trouver un artisan fiable pour vos travaux de toiture et garantir la longévité de votre couverture.",
   "firstPublishedDate": "2025-06-29T22:00:00.000Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "88myg5538",
+        "id": "35xkw5562",
         "nodes": [
           {
             "type": "TEXT",
@@ -39,7 +43,7 @@
       },
       {
         "type": "HEADING",
-        "id": "4wmct5539",
+        "id": "2skzq5563",
         "nodes": [
           {
             "type": "TEXT",
@@ -64,15 +68,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "sfzzf5548",
+        "id": "7bp7h5572",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "7wu7u5541",
+            "id": "zfxjn5565",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "xagjm5540",
+                "id": "nbaec5564",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -94,11 +98,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "1wksg5543",
+            "id": "og5g05567",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "3ofci5542",
+                "id": "okwiy5566",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -120,11 +124,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "go0f25545",
+            "id": "7x7if5569",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "eqjwf5544",
+                "id": "n3zd95568",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -146,11 +150,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "k38pf5547",
+            "id": "bjlac5571",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "qpen65546",
+                "id": "5g9tk5570",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -177,7 +181,7 @@
       },
       {
         "type": "HEADING",
-        "id": "b1ry25549",
+        "id": "9dqw65573",
         "nodes": [
           {
             "type": "TEXT",
@@ -202,7 +206,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "lfib75550",
+        "id": "iy6cr5574",
         "nodes": [
           {
             "type": "TEXT",
@@ -222,7 +226,7 @@
       },
       {
         "type": "HEADING",
-        "id": "zkbj65551",
+        "id": "qgkz45575",
         "nodes": [
           {
             "type": "TEXT",
@@ -247,7 +251,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "1u3a25552",
+        "id": "dmcnm5576",
         "nodes": [
           {
             "type": "TEXT",
@@ -267,7 +271,7 @@
       },
       {
         "type": "HEADING",
-        "id": "7w1nq5553",
+        "id": "9iwfr5577",
         "nodes": [
           {
             "type": "TEXT",
@@ -292,7 +296,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "nc6qx5554",
+        "id": "uyb6f5578",
         "nodes": [
           {
             "type": "TEXT",
@@ -312,7 +316,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ntmhr5555",
+        "id": "63tc75579",
         "nodes": [
           {
             "type": "TEXT",
@@ -337,7 +341,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "s2jes5556",
+        "id": "7p00v5580",
         "nodes": [
           {
             "type": "TEXT",

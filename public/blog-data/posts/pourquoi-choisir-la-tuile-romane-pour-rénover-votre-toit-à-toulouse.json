@@ -5,6 +5,10 @@
   "excerpt": "La tuile romane Toulouse combine esthétique et efficacité. Idéale pour rénover un toit dans la région toulousaine avec charme et durabilité.",
   "firstPublishedDate": "2025-08-20T07:53:05.884Z",
   "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
   "richContent": {
     "nodes": [
       {
@@ -19,7 +23,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "rgfb95644",
+        "id": "gg1pt5668",
         "nodes": [
           {
             "type": "TEXT",
@@ -61,7 +65,7 @@
       },
       {
         "type": "HEADING",
-        "id": "c91c45645",
+        "id": "ejgvt5669",
         "nodes": [
           {
             "type": "TEXT",
@@ -86,15 +90,15 @@
       },
       {
         "type": "BULLETED_LIST",
-        "id": "wmkqg5654",
+        "id": "77pnl5678",
         "nodes": [
           {
             "type": "LIST_ITEM",
-            "id": "jjhzq5647",
+            "id": "er6ck5671",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "uwkbl5646",
+                "id": "hok2l5670",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -116,11 +120,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "oj32r5649",
+            "id": "iywsv5673",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "m0u0a5648",
+                "id": "phe1f5672",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -142,11 +146,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "g1sw75651",
+            "id": "38n195675",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "ab4445650",
+                "id": "bvaeo5674",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -168,11 +172,11 @@
           },
           {
             "type": "LIST_ITEM",
-            "id": "yy0ca5653",
+            "id": "3ceix5677",
             "nodes": [
               {
                 "type": "PARAGRAPH",
-                "id": "9s6f55652",
+                "id": "iv6np5676",
                 "nodes": [
                   {
                     "type": "TEXT",
@@ -199,7 +203,7 @@
       },
       {
         "type": "HEADING",
-        "id": "77l8p5655",
+        "id": "q1t175679",
         "nodes": [
           {
             "type": "TEXT",
@@ -224,7 +228,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "jn31i5656",
+        "id": "ascwf5680",
         "nodes": [
           {
             "type": "TEXT",
@@ -244,7 +248,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "an61p5657",
+        "id": "gr6ow5681",
         "nodes": [
           {
             "type": "TEXT",
@@ -264,7 +268,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "7pq1k5658",
+        "id": "0q4r05682",
         "nodes": [
           {
             "type": "TEXT",
@@ -284,7 +288,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "i5spv5659",
+        "id": "nn6kt5683",
         "nodes": [
           {
             "type": "TEXT",
@@ -332,7 +336,7 @@
       },
       {
         "type": "HEADING",
-        "id": "ba3ol5660",
+        "id": "z61vx5684",
         "nodes": [
           {
             "type": "TEXT",
@@ -357,7 +361,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "rn1gr5661",
+        "id": "n0dms5685",
         "nodes": [
           {
             "type": "TEXT",
@@ -377,7 +381,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "h8gqx5662",
+        "id": "9j8mu5686",
         "nodes": [
           {
             "type": "TEXT",
@@ -397,7 +401,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "teaaj5663",
+        "id": "vdrkg5687",
         "nodes": [
           {
             "type": "TEXT",
@@ -417,7 +421,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "qxuan5664",
+        "id": "gqdlo5688",
         "nodes": [
           {
             "type": "TEXT",
@@ -465,7 +469,7 @@
       },
       {
         "type": "HEADING",
-        "id": "jj4085665",
+        "id": "tnyqm5689",
         "nodes": [
           {
             "type": "TEXT",
@@ -490,7 +494,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "iiy5r5666",
+        "id": "gx2pi5690",
         "nodes": [
           {
             "type": "TEXT",
@@ -510,7 +514,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "tg34m5667",
+        "id": "3ucbq5691",
         "nodes": [
           {
             "type": "TEXT",
@@ -530,7 +534,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "ysarn5668",
+        "id": "s4q7v5692",
         "nodes": [
           {
             "type": "TEXT",
@@ -550,7 +554,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "6my6f5669",
+        "id": "hnyab5693",
         "nodes": [
           {
             "type": "TEXT",
@@ -598,7 +602,7 @@
       },
       {
         "type": "HEADING",
-        "id": "76dp25670",
+        "id": "jrhnh5694",
         "nodes": [
           {
             "type": "TEXT",
@@ -623,7 +627,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "92hvw5671",
+        "id": "y1p525695",
         "nodes": [
           {
             "type": "TEXT",
@@ -643,7 +647,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "yvv7r5672",
+        "id": "79ce25696",
         "nodes": [
           {
             "type": "TEXT",
@@ -663,7 +667,7 @@
       },
       {
         "type": "PARAGRAPH",
-        "id": "nsqhx5673",
+        "id": "4s6kl5697",
         "nodes": [
           {
             "type": "TEXT",
