@@ -1,0 +1,74 @@
+name: Update blog content
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-blog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout with token
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.4.x
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Refreshes public/blog-data: fetch:blog (Wix API — currently a no-op, see
+      # scripts/fetch-blog-posts.mjs) then scrape:blog (live blog.birdia.fr scrape,
+      # the active source — see scripts/scrape-birdia-blog.mjs).
+      - name: Update blog content
+        run: npm run update:blog
+
+      # index:blog (scripts/prerender-blog-titles.mjs) needs a built build/index.html as its
+      # template to stamp per-post titles/OG tags into. Its output lives under build/, which
+      # is gitignored and regenerated on every deploy — this build+index:blog pass is only a
+      # smoke test that the freshly scraped content doesn't break the build or the prerender
+      # script, nothing here gets committed.
+      - name: Build
+        run: npm run build
+
+      - name: Prerender blog titles (smoke test only)
+        run: npm run index:blog
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add public/blog-data
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit, push and open PR
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+        run: |
+          BRANCH_NAME="chore/update-blog-content"
+          git checkout -b "$BRANCH_NAME"
+          git commit -m "chore(blog): update scraped blog content"
+          git push -f origin "$BRANCH_NAME"
+
+          if gh pr view "$BRANCH_NAME" --json state --jq .state 2>/dev/null | grep -q OPEN; then
+            echo "PR already open for $BRANCH_NAME — updated it with the new commit."
+          else
+            gh pr create \
+              --base preprod \
+              --head "$BRANCH_NAME" \
+              --title "chore(blog): update scraped blog content" \
+              --body "Automated refresh of \`public/blog-data\` via \`npm run update:blog\` (Wix API fetch + blog.birdia.fr scrape), triggered manually from the \"Update blog content\" workflow."
+          fi
