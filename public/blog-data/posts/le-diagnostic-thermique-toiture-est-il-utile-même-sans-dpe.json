@@ -1,0 +1,741 @@
+{
+  "id": "le-diagnostic-thermique-toiture-est-il-utile-même-sans-dpe",
+  "slug": "le-diagnostic-thermique-toiture-est-il-utile-même-sans-dpe",
+  "title": "Le diagnostic thermique toiture est-il utile même sans DPE ?",
+  "excerpt": "Le diagnostic thermique toiture est-il pertinent sans DPE ? Découvrez son utilité pour détecter les déperditions de chaleur et optimiser vos travaux.",
+  "firstPublishedDate": "2025-10-04T22:00:00.000Z",
+  "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_60899b8d44f3482b8c2d3c9b0e71bb10~mv2.jpg/v1/fill/w_1000,h_562,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_60899b8d44f3482b8c2d3c9b0e71bb10~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qumzm4816",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Lorsqu’on parle de performance énergétique d’un logement, on pense immédiatement au DPE, le diagnostic de performance énergétique. Mais qu’en est-il des contrôles ciblés, comme le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic thermique toiture seulement",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ? Même sans DPE complet, ce type d’analyse permet de repérer les principales pertes de chaleur au niveau de la couverture. Or, on estime que 25 à 30 % des déperditions énergétiques d’une maison proviennent de la toiture. Faut-il donc attendre un DPE pour agir, ou ce diagnostic isolé a-t-il une réelle utilité ? Cet article apporte des réponses concrètes aux particuliers et gestionnaires de biens.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "8qtim4817",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "nlxjn4826",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "2scur4819",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "qe6t54818",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La toiture est le premier poste de déperdition énergétique dans une maison.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "6vfz74821",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "olkq64820",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le diagnostic thermique toiture seulement identifie les zones de pertes de chaleur.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "6ydil4823",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "89inm4822",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Même sans DPE, il permet de cibler les travaux prioritaires.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "lhbu64825",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "k08ao4824",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "C’est un outil pratique pour préparer une isolation performante ou une rénovation énergétique.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "iy2924827",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le rôle du diagnostic thermique toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pjfg74828",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic thermique toiture seulement",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " consiste à analyser les déperditions au niveau du toit, à l’aide d’outils spécifiques comme la caméra thermique. Cette inspection est réalisée de l’extérieur, parfois complétée par une vérification depuis les combles. Elle met en évidence :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "nrbpl4836",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "0ry1t4830",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "y15kp4829",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "les défauts d’isolation (ponts thermiques, isolant affaibli, zones non couvertes),",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "kcry34832",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "gb1tu4831",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "les infiltrations d’air liées à une mauvaise étanchéité,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "5qefp4835",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "yb2bv4833",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "les différences de température entre les parties de la toiture. Même sans un DPE global, cette analyse ciblée fournit des données exploitables immédiatement. Elle est particulièrement utile pour les propriétaires qui envisagent une isolation ou une rénovation de toiture, mais qui veulent d’abord savoir où se situent les problèmes. Pour approfondir, découvrez notre article sur le ",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "diagnostic toiture complet",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "target": "BLANK",
+                          "url": "https://www.birdia.fr/"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "5gpjd4834",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ".",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "g88gr4837",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pourquoi réaliser ce diagnostic sans DPE ?",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "vddby4838",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le DPE est obligatoire lors de la vente ou la location d’un bien, mais il reste une évaluation générale qui ne détaille pas toujours précisément les faiblesses de la toiture. En revanche, le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic thermique toiture seulement",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " permet d’obtenir des informations claires et visuelles sur cette zone précise, souvent négligée. Il est particulièrement recommandé dans trois situations :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "80pqw4845",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "nzzdc4840",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "oqtgw4839",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "lorsque des factures de chauffage anormalement élevées laissent suspecter des pertes par le toit,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "dr2sd4842",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mpu984841",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "avant d’engager des travaux d’isolation ou de réfection de couverture,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "w6cxf4844",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "1pogu4843",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "en cas de suspicion d’humidité liée à des ponts thermiques. Ainsi, même sans DPE, un diagnostic thermique ciblé permet de planifier des travaux adaptés, d’éviter des dépenses inutiles et de maximiser l’efficacité énergétique du logement.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "kz9hn4846",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Exemple concret : une maison avant isolation",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "omvn44847",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Prenons l’exemple d’un propriétaire en région parisienne qui constate des zones froides dans ses combles. Il décide de réaliser un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic thermique toiture seulement",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". La caméra thermique révèle que près de 40 % de la surface du toit laisse passer la chaleur, en raison d’un isolant ancien compressé par l’humidité. Grâce à ce constat, il choisit de refaire l’isolation avant d’envisager une rénovation esthétique du toit. Résultat : une baisse de 25 % de sa facture de chauffage dès l’hiver suivant. Sans ce diagnostic ciblé, il aurait peut-être entrepris d’autres travaux coûteux et moins efficaces. Aujourd’hui, certaines entreprises réalisent même ces contrôles par drone équipé de caméra thermique. Ce procédé, utilisé par Birdia, permet une inspection rapide, sécurisée et extrêmement précise. Pour en savoir plus, découvrez notre page dédiée à l’",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "inspection toiture par drone",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "pcvew4848",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zckxs4849",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic thermique toiture seulement",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est un outil puissant pour détecter les pertes de chaleur, même sans réaliser un DPE complet. Ciblé sur la couverture, il permet aux particuliers de comprendre rapidement où se situent les problèmes et de hiérarchiser leurs travaux. Réalisé par un professionnel équipé de caméra thermique, il apporte une vision claire et chiffrée des déperditions, tout en préparant efficacement une rénovation énergétique.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qfbep4850",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " Chez Birdia, nous proposons des diagnostics innovants grâce à l’imagerie thermique par drone. Nos rapports PDF détaillés aident les propriétaires à agir vite, à réduire leurs factures d’énergie et à sécuriser la performance de leur toiture.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-10-04T22:00:00.000Z",
+      "updatedTimestamp": "2025-10-04T22:00:00.000Z",
+      "id": "le-diagnostic-thermique-toiture-est-il-utile-même-sans-dpe"
+    }
+  }
+}

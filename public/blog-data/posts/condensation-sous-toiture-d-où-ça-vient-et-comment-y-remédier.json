@@ -1,0 +1,466 @@
+{
+  "id": "condensation-sous-toiture-d-où-ça-vient-et-comment-y-remédier",
+  "slug": "condensation-sous-toiture-d-où-ça-vient-et-comment-y-remédier",
+  "title": "Condensation sous toiture : d’où ça vient et comment y remédier ?",
+  "excerpt": "Comprenez l’origine de la condensation toiture et découvrez les solutions efficaces pour protéger votre maison durablement.",
+  "firstPublishedDate": "2025-01-10T23:00:00.000Z",
+  "minutesToRead": 4,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_aba3098309c44b4391394909cc2dc80c~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_aba3098309c44b4391394909cc2dc80c~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gu5ip9687",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La condensation toiture est un problème fréquent mais souvent mal compris. Elle concerne aussi bien les maisons individuelles que les immeubles collectifs et peut provoquer d’importants dégâts si elle n’est pas traitée rapidement. L’humidité accumulée sous la toiture entraîne des moisissures, dégrade les isolants et fragilise la charpente. Pour les propriétaires comme pour les gestionnaires de biens, savoir identifier les causes de cette condensation et mettre en place des solutions adaptées est essentiel. Cet article détaille les origines du phénomène, ses conséquences, ainsi que les méthodes pour y remédier efficacement. En comprenant mieux la condensation toiture, vous pourrez protéger durablement votre bâtiment et éviter des réparations coûteuses.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "qbi0x9688",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "16oq49697",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "6383n9690",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wgbnn9689",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La condensation toiture résulte d’un déséquilibre entre humidité intérieure et ventilation du toit.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "x17pv9692",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "q83er9691",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Elle peut endommager la charpente, l’isolation et la couverture.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "9m9o19694",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "hd4tu9693",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une bonne ventilation et une isolation adaptée sont essentielles pour l’éviter.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "rrrwr9696",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "csfei9695",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le diagnostic rapide permet de limiter les dégâts et les coûts de réparation.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "dfmir9698",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les causes principales de la condensation sous toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kgogv9699",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La condensation toiture apparaît lorsque l’air chaud et humide de l’intérieur rencontre une surface froide, généralement la face interne de la couverture. Ce choc thermique provoque la formation de gouttelettes d’eau, qui s’infiltrent ensuite dans les matériaux environnants. Plusieurs facteurs aggravent ce phénomène. Une isolation insuffisante ou mal posée laisse passer trop de chaleur, créant un fort différentiel de température. L’absence de pare-vapeur ou son installation défectueuse favorise aussi la migration de l’humidité vers les combles. La ventilation joue un rôle majeur : des combles non ventilés retiennent l’humidité, surtout en hiver, ce qui accentue la condensation. Enfin, certaines activités domestiques comme la cuisson, les douches ou le séchage du linge génèrent une grande quantité de vapeur d’eau, qui finit par s’accumuler sous la toiture si elle n’est pas correctement évacuée. Pour détecter la présence de condensation, il est recommandé de faire réaliser un diagnostic toiture complet afin d’identifier l’origine exacte du problème et les solutions possibles.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "siu8f9700",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Par exemple, un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture à Rungis",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/diagnostic-toiture-rungis"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " permet d’évaluer rapidement les zones sensibles à la condensation et d’anticiper des réparations ciblées.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "vqc0n9701",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les conséquences de la condensation sur le bâtiment",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zbm3i9702",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ignorer la condensation toiture peut entraîner des dégradations rapides et coûteuses. Les premières victimes sont les isolants, qui perdent jusqu’à 80 % de leur efficacité lorsqu’ils sont gorgés d’eau. Une isolation humide n’assure plus sa fonction thermique, augmentant les déperditions énergétiques et la facture de chauffage. La charpente en bois subit elle aussi les effets de l’humidité, avec un risque de pourrissement, de déformation et d’attaques parasitaires (champignons lignivores, insectes xylophages). Les plafonds et les murs intérieurs peuvent également être touchés par des infiltrations d’eau, laissant apparaître des taches, cloques ou moisissures. Sur le long terme, la condensation fragilise l’ensemble de la structure et peut nécessiter une réfection toiture complète si rien n’est entrepris. Outre les dégâts matériels, ce problème impacte aussi la qualité de l’air intérieur et la santé des occupants, favorisant les allergies et les affections respiratoires. Il est donc indispensable de traiter rapidement la condensation pour préserver à la fois le bâtiment et le confort de vie de ses habitants.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "936t19703",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Solutions efficaces pour traiter et prévenir la condensation",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ynb3e9704",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La lutte contre la condensation toiture repose sur trois axes principaux : isolation, ventilation et étanchéité à la vapeur. L’installation d’un pare-vapeur bien positionné est la première étape pour limiter la migration de l’humidité vers la toiture. Ce dispositif doit être posé avec soin, car la moindre perforation peut réduire son efficacité. Ensuite, la ventilation est cruciale. Les combles doivent bénéficier d’une circulation d’air régulière, grâce à des chatières, des grilles de ventilation ou encore des écrans de sous-toiture HPV (haute perméabilité à la vapeur). Ces éléments permettent d’évacuer l’humidité sans compromettre l’étanchéité. Côté isolation, il est recommandé d’utiliser des matériaux adaptés et résistants à l’humidité, tels que la laine de roche ou certains isolants rigides, afin d’assurer une bonne performance dans la durée. Enfin, dans le cas de rénovations, une inspection toiture par drone peut être très utile pour repérer rapidement les zones à risque et cibler les interventions nécessaires. Cette technologie moderne offre une vision précise de l’état du toit sans nécessiter de démontage, ce qui limite les coûts et les délais. Grâce à une approche combinée et préventive, il est possible de supprimer durablement la condensation toiture et d’assurer une meilleure protection du bâtiment.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "lcc6x9705",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0d1xy9706",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La condensation toiture est un problème courant mais évitable si l’on en comprend bien les causes. Elle résulte généralement d’un manque de ventilation, d’une isolation mal adaptée ou de l’absence de pare-vapeur. Ses conséquences peuvent être graves : perte d’efficacité énergétique, dégradation de la charpente et apparition de moisissures. Pour y remédier, il est essentiel de mettre en place une ventilation efficace, d’adapter l’isolation et d’assurer l’étanchéité à la vapeur. Un diagnostic précoce et une intervention ciblée permettent de limiter les coûts et de préserver durablement le bâtiment. Birdia propose une alternative innovante grâce à l’inspection par drone, une solution moderne et précise pour identifier les zones touchées par la condensation et planifier les travaux de manière optimisée. Une technologie qui change la donne pour protéger efficacement sa toiture.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gt85g9707",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Que vous soyez propriétaire à Paris, en province, réaliser un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture tours",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/diagnostic-toiture-tours"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est une étape clé pour identifier les risques liés à la condensation et protéger durablement votre bâtiment.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-01-10T23:00:00.000Z",
+      "updatedTimestamp": "2025-01-10T23:00:00.000Z",
+      "id": "condensation-sous-toiture-d-où-ça-vient-et-comment-y-remédier"
+    }
+  }
+}

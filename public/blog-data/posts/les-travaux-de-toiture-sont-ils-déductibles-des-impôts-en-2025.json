@@ -1,0 +1,666 @@
+{
+  "id": "les-travaux-de-toiture-sont-ils-déductibles-des-impôts-en-2025",
+  "slug": "les-travaux-de-toiture-sont-ils-déductibles-des-impôts-en-2025",
+  "title": "Les travaux de toiture sont-ils déductibles des impôts en 2025 ?",
+  "excerpt": "Travaux de toiture et fiscalité en 2025 : peut-on les déduire de ses impôts ? Voici les cas où c'est possible et les conditions à remplir.",
+  "firstPublishedDate": "2025-06-10T22:00:00.000Z",
+  "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_347a776f7a517844624434~mv2_d_4981_3320_s_4_2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_347a776f7a517844624434~mv2_d_4981_3320_s_4_2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3m2wu7399",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Faire des travaux de toiture représente un investissement souvent important, qu’il s’agisse d’un entretien, d’une réfection ou d’une amélioration énergétique. En 2025, de nombreux propriétaires se demandent si ces dépenses peuvent être déduites de leurs impôts. La réponse dépend de plusieurs facteurs : nature des travaux, type de propriétaire (occupant ou bailleur), usage du logement et éventuelle éligibilité aux dispositifs d'aides fiscales en vigueur. Cet article vous explique dans quels cas les ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "travaux de toiture ",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/faire-diagnostic-toiture"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "sont déductibles des impôts, quelles sont les conditions à respecter et comment en profiter en toute légalité.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "4zjaa7400",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "w711i7409",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "6gwg47402",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ye0c37401",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les propriétaires bailleurs peuvent déduire certains travaux de toiture de leurs revenus fonciers.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "2mbii7404",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "i1lph7403",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les propriétaires occupants peuvent bénéficier d'aides comme MaPrimeRénov’ mais pas déduire les travaux de leur impôt sur le revenu.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ekot77406",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "x1css7405",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les travaux doivent être d'entretien ou d'amélioration, réalisés par une entreprise.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "cu9cq7408",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "kfm987407",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un diagnostic préalable aide à justifier la nature des travaux en cas de contrôle.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "92u207410",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Déduction fiscale pour les propriétaires bailleurs",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hnkdp7411",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En 2025, les propriétaires qui louent un logement peuvent déduire de leurs revenus fonciers les dépenses liées à des travaux de réparation, d’entretien ou d’amélioration, à condition que le bien soit loué nu (location non meublée) et relève du régime réel. Cela inclut les travaux de toiture : remplacement de tuiles, réfection partielle ou totale, mise en conformité, etc.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "85t8v7412",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les travaux doivent être réalisés par des professionnels et justifiés par des factures nominatives. En cas de rénovation lourde ou de changement de destination du bien (ex : transformation en local professionnel), les dépenses peuvent être considérées comme des travaux de construction non déductibles. Il est donc crucial de bien distinguer les travaux d'amélioration des travaux d'agrandissement.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "x468v7413",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture complet",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/diagnostic-toiture"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " peut servir de pièce justificative pour démontrer le caractère nécessaire et non luxueux des travaux engagés.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "ql8f07414",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Aides fiscales pour les propriétaires occupants",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ixgcv7415",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour les propriétaires occupants leur logement, les travaux de toiture ne sont pas déductibles de l’impôt sur le revenu. En revanche, ils peuvent bénéficier d'aides publiques à la rénovation énergétique. En 2025, ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "MaPrimeRénov’",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " reste le principal dispositif de soutien financier.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qllvk7416",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ce dispositif concerne notamment les travaux d'isolation de toiture par l’intérieur ou l’extérieur. Le montant de l’aide dépend des ressources du ménage et des performances atteintes. Pour être éligibles, les travaux doivent être réalisés par une entreprise RGE et figurer dans un bouquet de travaux à visée énergétique.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jtudp7417",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les aides locales (communes, intercommunalités, régions) peuvent également s’ajouter à ces dispositifs nationaux. Enfin, l'éco-prêt à taux zéro (Eco-PTZ) permet de financer ces travaux sans intérêt. Mais aucune de ces aides ne permet une déduction directe sur l’impôt sur le revenu. ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3wmlb7418",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour plus de détails, consultez notre article complet sur les ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "crédits d’impôts toiture en 2025",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/actualites/refection-toiture-quels-credits-impots-2025"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "t94pc7419",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Justificatifs, précautions et contrôles fiscaux",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qhj8s7420",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour être déductibles, les travaux doivent être justifiés par des ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "factures",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " comportant la dénomination précise des prestations, la date, le nom du professionnel et le lieu des travaux. Il est impératif de conserver ces documents pendant plusieurs années pour répondre à une éventuelle demande de l'administration fiscale.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "379q67421",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les travaux doivent également être cohérents avec l'état initial du bien. C'est pourquoi il est judicieux de réaliser un diagnostic visuel ou technique avant travaux. L’",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "inspection toiture par drone",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/inspection-drone"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est une solution moderne, fiable et non intrusive permettant d’obtenir un rapport visuel daté et documenté, utile en cas de vérification.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zkneh7422",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Enfin, attention aux abus : les travaux doivent avoir pour but la remise en état ou l'amélioration du bien, et non sa transformation ou son embellissement de confort, sous peine de redressement fiscal.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "k4rg87423",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "hb4xf7424",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En 2025, les travaux de toiture sont déductibles des impôts uniquement pour les propriétaires bailleurs dans le cadre du régime réel, et sous certaines conditions. Pour les occupants, ils ne donnent pas droit à déduction fiscale directe, mais peuvent être soutenus par des aides comme MaPrimeRénov’ ou l’Eco-PTZ. Quel que soit le profil, il est essentiel de bien documenter les travaux et de réaliser un diagnostic préalable. Birdia propose justement une solution fiable et innovante avec l’inspection toiture par drone, qui facilite la préparation des dossiers fiscaux et l’entretien durable de votre toiture.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-06-10T22:00:00.000Z",
+      "updatedTimestamp": "2025-06-10T22:00:00.000Z",
+      "id": "les-travaux-de-toiture-sont-ils-déductibles-des-impôts-en-2025"
+    }
+  }
+}

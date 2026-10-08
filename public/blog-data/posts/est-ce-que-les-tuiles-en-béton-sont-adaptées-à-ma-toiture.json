@@ -1,0 +1,676 @@
+{
+  "id": "est-ce-que-les-tuiles-en-béton-sont-adaptées-à-ma-toiture",
+  "slug": "est-ce-que-les-tuiles-en-béton-sont-adaptées-à-ma-toiture",
+  "title": "Est-ce que les tuiles en béton sont adaptées à ma toiture ?",
+  "excerpt": "Les tuiles en béton toiture offrent solidité et bon rapport qualité-prix. Sont-elles compatibles avec votre maison ? Nos conseils techniques.",
+  "firstPublishedDate": "2025-05-14T22:00:00.000Z",
+  "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_b9f01f526bef4f31ae2eb2f537551c99~mv2.jpg/v1/fill/w_667,h_1000,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_b9f01f526bef4f31ae2eb2f537551c99~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "m0yvb6348",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Longtemps réservées aux constructions modernes, les ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "tuiles en béton toiture",
+              "decorations": [
+                {
+                  "type": "ITALIC"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " gagnent du terrain grâce à leur prix compétitif, leur durabilité et leur esthétique améliorée. Mais sont-elles réellement adaptées à toutes les toitures ? Avant de vous lancer dans une rénovation ou une construction neuve, il est essentiel d’évaluer les caractéristiques techniques, les avantages et les limites de ce type de couverture. Ce guide vous aide à savoir si la tuile ciment est un bon choix pour votre toit.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "b5eli6349",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "axrrr6358",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "zvgyl6351",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "7w4y86350",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Les tuiles en béton sont résistantes, économiques et durables.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "tj97x6353",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "edk206352",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Elles conviennent aux toitures avec une pente suffisante (supérieure à 30 %).",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "5fueh6355",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "zh82a6354",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Leur poids impose une charpente dimensionnée en conséquence.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "oaqfr6357",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "hhjvw6356",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Leur pose doit être rigoureuse pour garantir étanchéité et esthétique.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "onjok6359",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pourquoi choisir la tuile en béton ?",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kp7ci6360",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Fabriquées à partir d’un mélange de sable, ciment, pigments et eau, les tuiles en béton sont moulées, pressées puis séchées. Cette technique leur confère une résistance mécanique élevée et une bonne tenue dans le temps. Elles résistent bien au gel, aux UV, aux intempéries et aux chocs.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "iur9a6361",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Côté budget, elles sont en général 20 à 30 % moins chères que les tuiles en terre cuite, ce qui en fait un choix judicieux pour les projets à grande surface ou les rénovations avec contraintes financières. Leur esthétique s’est aussi améliorée : disponibles en plusieurs formats (plate, galbée) et coloris, elles imitent parfois très bien la tuile traditionnelle.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "g0yf96362",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En revanche, leur poids (environ 45-50 kg/m²) est plus élevé que celui des tuiles terre cuite. Il est donc primordial de vérifier la capacité portante de la charpente avant toute pose. Dans un projet de ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "réfection de toiture",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/refection-toiture/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", ce point est à valider lors du diagnostic.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "g46br6363",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quels sont les cas où elles ne sont pas recommandées ?",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "jf0lg6364",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Malgré leurs qualités, les tuiles en béton ne sont pas adaptées à toutes les configurations. Tout d’abord, elles exigent une pente de toiture suffisante (en général à partir de 30 %) pour garantir un bon écoulement des eaux pluviales. Sur une toiture à faible pente, le risque d’infiltration ou de stagnation d’eau est accru.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xau8l6365",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Ensuite, elles sont moins adaptées aux bâtiments anciens ou classés, notamment en zone patrimoniale, où le PLU (Plan Local d’Urbanisme) peut imposer des matériaux traditionnels. Leur aspect lisse ou uniforme peut trahir un style contemporain peu compatible avec des architectures anciennes.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nofd66366",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Enfin, même si elles sont robustes, leur durabilité peut être affectée par la qualité du ciment et du traitement de surface. Une tuile de faible qualité aura tendance à se ternir, à retenir plus facilement les mousses, ou à se fragiliser aux points de fixation.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "114s66367",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture par drone",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/inspection-toiture-par-drone/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " peut être utile pour évaluer l’état général de la couverture et vérifier si une reprise avec tuiles béton est envisageable.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "tnqvg6368",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pose, entretien et durée de vie des tuiles en béton",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kbu406369",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La pose des tuiles en béton doit respecter scrupuleusement les DTU (Documents Techniques Unifiés), notamment en termes de recouvrement, de fixation et de ventilation. Une mauvaise pose peut entraîner des infiltrations, des décrochements ou des défauts d’étanchéité, surtout en cas de vent fort.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ck2fo6370",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Côté entretien, les tuiles en béton nécessitent un nettoyage régulier pour éviter l’accumulation de mousses ou de lichens, surtout sur les toitures peu exposées au soleil. Des traitements préventifs hydrofuges peuvent être appliqués pour prolonger leur aspect esthétique et renforcer leur résistance.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "gpluk6371",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Bien entretenues, elles offrent une durée de vie moyenne de 30 à 50 ans. Leur remplacement ponctuel est facile, grâce à une fabrication standardisée. Toutefois, il peut être difficile de retrouver exactement la même teinte après quelques années.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "zjisd6372",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Avant de poser des tuiles en béton, il est fortement recommandé de faire valider leur compatibilité avec la pente, la structure et le climat local par un professionnel qualifié.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "8wvmv6373",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "k0tu46374",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les tuiles en béton présentent de nombreux atouts pour une toiture moderne, durable et économique. Elles conviennent parfaitement aux constructions neuves ou aux rénovations techniques, à condition que la charpente soit dimensionnée pour supporter leur poids et que la pente du toit soit suffisante.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kg7rp6375",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pour sécuriser votre projet, Birdia propose un diagnostic technique préalable de votre toiture, réalisé par drone, permettant de vérifier la faisabilité d’une pose en tuiles en béton et de prévoir les adaptations nécessaires. Une méthode rapide, fiable et sans risques pour vos matériaux. ",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6ep6x6376",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Plus d’informations sur ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "www.birdia.fr",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "http://www.birdia.fr"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-05-14T22:00:00.000Z",
+      "updatedTimestamp": "2025-05-14T22:00:00.000Z",
+      "id": "est-ce-que-les-tuiles-en-béton-sont-adaptées-à-ma-toiture"
+    }
+  }
+}
