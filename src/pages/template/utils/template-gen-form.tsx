@@ -17,7 +17,7 @@ export const useCheckApiKey = () => {
   useEffect(() => {
     const apikey = urlParams.get('apikey');
     const isTemplatePath = pathname.includes('templateGenerator') || pathname.includes('template/menu');
-    if (isTemplatePath && !apikey) navigate('/template/connexion');
+    if (isTemplatePath && !apikey) navigate('/template/login');
   }, [pathname, urlParams, navigate]);
 };
 

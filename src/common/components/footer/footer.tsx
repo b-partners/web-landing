@@ -87,20 +87,14 @@ export const Footer = () => {
             <SocialLinkWithLabel />
           </FlexBox>
           <FlexBox sx={{ alignItems: 'start', flexDirection: 'column', gap: 4, flex: 1 }}>
-            <LinkItem to="https://blog.birdia.fr/post/dpe-toiture" label="DPE Toiture" />
-            <LinkItem to="https://blog.birdia.fr/post/assurance-habitation-pr%C3%A9ventive" label="Assurance habitation préventive" />
+            <LinkItem to="/blog/post/dpe-toiture" label="DPE Toiture" />
+            <LinkItem to="/blog/post/assurance-habitation-préventive" label="Assurance habitation préventive" />
             <LinkItem
-              to="https://blog.birdia.fr/post/valorisation-des-images-pcrs-des-cas-d-usage-concrets-pour-les-collectivit%C3%A9ssous-titre-exploitez"
+              to="/blog/post/valorisation-des-images-pcrs-des-cas-d-usage-concrets-pour-les-collectivitéssous-titre-exploitez"
               label="Valorisation images HD"
             />
-            <LinkItem
-              to="https://blog.birdia.fr/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
-              label="Durabilité du bâti"
-            />
-            <LinkItem
-              to="https://blog.birdia.fr/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
-              label="Couvreur 2.0"
-            />
+            <LinkItem to="/blog/post/impact-écologique-et-entretien-des-toitures-préserver-l-environnement-grâce-à-l-ia" label="Durabilité du bâti" />
+            <LinkItem to="/blog/post/impact-écologique-et-entretien-des-toitures-préserver-l-environnement-grâce-à-l-ia" label="Couvreur 2.0" />
           </FlexBox>
         </FlexBox>
         <Divider sx={{ zIndex: 99, height: '1px', my: 3, bgcolor: PALETTE_COLORS.cream, width: '100%' }} />
@@ -130,20 +124,14 @@ const MdFooter = () => {
         <SocialLinkWithLabel />
       </FlexBox>
       <FlexBox sx={{ alignItems: 'center', flexDirection: 'column', gap: 4, flex: 1 }}>
-        <LinkItem to="https://blog.birdia.fr/post/dpe-toiture" label="DPE Toiture" />
-        <LinkItem to="https://blog.birdia.fr/post/assurance-habitation-pr%C3%A9ventive" label="Assurance habitation préventive" />
+        <LinkItem to="/blog/post/dpe-toiture" label="DPE Toiture" />
+        <LinkItem to="/blog/post/assurance-habitation-préventive" label="Assurance habitation préventive" />
         <LinkItem
-          to="https://www.bpartners.blog/post/valorisation-des-images-pcrs-des-cas-d-usage-concrets-pour-les-collectivit%C3%A9ssous-titre-exploitez"
+          to="/blog/post/valorisation-des-images-pcrs-des-cas-d-usage-concrets-pour-les-collectivitéssous-titre-exploitez"
           label="Valorisation images HD"
         />
-        <LinkItem
-          to="https://blog.birdia.fr/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
-          label="Durabilité du bâti"
-        />
-        <LinkItem
-          to="https://blog.birdia.fr/post/impact-%C3%A9cologique-et-entretien-des-toitures-pr%C3%A9server-l-environnement-gr%C3%A2ce-%C3%A0-l-ia"
-          label="Couvreur 2.0"
-        />
+        <LinkItem to="/blog/post/impact-écologique-et-entretien-des-toitures-préserver-l-environnement-grâce-à-l-ia" label="Durabilité du bâti" />
+        <LinkItem to="/blog/post/impact-écologique-et-entretien-des-toitures-préserver-l-environnement-grâce-à-l-ia" label="Couvreur 2.0" />
       </FlexBox>
       <Divider sx={{ zIndex: 99, height: '1px', my: 3, bgcolor: PALETTE_COLORS.cream, width: '100%' }} />
       <FlexBox sx={{ alignItems: 'center', flexDirection: 'column', justifyContent: 'space-between', gap: 4, flex: 1 }}>

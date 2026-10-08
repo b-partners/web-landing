@@ -112,7 +112,7 @@ export default {
       { name: 'Lannion', route: '/paris' },
       { name: 'Rhone', route: '/diagnostic-rhone' },
       { name: 'Alsace', route: '/diagnostic-toiture-alsace' },
-      { name: 'Bourges', route: '/BourgesBourges' },
+      { name: 'Bourges', route: '/toiture-bourges' },
     ],
   },
 };

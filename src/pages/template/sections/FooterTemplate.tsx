@@ -10,15 +10,15 @@ import { GenInput } from '../components/GenInput';
 import { FooterTemplateStyle } from './styles';
 
 const cities = [
-  { name: 'Birdia Paris', url: '/location/paris' },
-  { name: 'Birdia Rennes', url: '/location/rennes' },
-  { name: 'Birdia Lyon', url: '/location/lyon' },
-  { name: 'Birdia Bordeaux', url: '/location/bordeaux' },
-  { name: 'Birdia Marseille', url: '/location/marseille' },
-  { name: 'Birdia Nice', url: '/location/nice' },
-  { name: 'Birdia Toulouse', url: '/location/toulouse' },
-  { name: 'Birdia Montpellier', url: '/location/montpellier' },
-  { name: 'Birdia Strasbourg', url: '/location/strasbourg' },
+  { name: 'Birdia Paris', route: '/diagnostic-toiture-paris' },
+  { name: 'Birdia Lyon', route: '/diagnostic-toiture-lyon' },
+  { name: 'Birdia Bordeaux', route: '/toiture-bordeaux' },
+  { name: 'Birdia Marseille', route: '/diagnostic-toiture-marseille' },
+  { name: 'Birdia Toulouse', route: '/diagnostic-toiture-toulouse' },
+  { name: 'Birdia Bourges', route: '/toiture-bourges' },
+  { name: 'Birdia Tours', route: '/diagnostic-toiture-tours' },
+  { name: 'Birdia Nancy', route: '/diagnostic-toiture-nancy' },
+  { name: 'Birdia Évry', route: '/evry' },
 ];
 
 export const FooterTemplate = () => {
