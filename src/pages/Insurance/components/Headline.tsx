@@ -4,10 +4,10 @@ import { PALETTE_COLORS } from '@/config/theme';
 import { Extension, Handshake, Search, Shield, SmartToy, Thunderstorm } from '@mui/icons-material';
 import { Box, Card, CardContent, Typography } from '@mui/material';
 
-import Headline1 from '../assets/img/Headlines/1.jpg';
-import Headline2 from '../assets/img/Headlines/2.jpg';
-import Headline3 from '../assets/img/Headlines/3.jpg';
-import Headline4 from '../assets/img/Headlines/4.jpg';
+import Headline1 from '../assets/img/Headlines/1.webp';
+import Headline2 from '../assets/img/Headlines/2.webp';
+import Headline3 from '../assets/img/Headlines/3.webp';
+import Headline4 from '../assets/img/Headlines/4.webp';
 import Headline5 from '../assets/img/Headlines/5.jpg';
 import Headline6 from '../assets/img/Headlines/6.jpg';
 
@@ -81,7 +81,7 @@ export function Headline() {
   return (
     <section className="headline" id="description">
       <Box className="bd-container" sx={{ position: 'relative' }}>
-        <Typography sx={{ fontSize: { xs: '2rem', lg: '2.4rem' }, color: PALETTE_COLORS.neon_orange, fontWeight: 'bold' }}>
+        <Typography component="h1" sx={{ fontSize: { xs: '2rem', lg: '2.4rem' }, color: PALETTE_COLORS.neon_orange, fontWeight: 'bold' }}>
           Prévenir les sinistres, maîtriser les risques : l’IA au service de l’assurance habitation
         </Typography>
 

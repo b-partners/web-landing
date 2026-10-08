@@ -4,9 +4,9 @@ import CRes1 from '../assets/img/CLIMAT_RESILIENCE/CLIMAT_RESILIENCE_1.png';
 import CRes2 from '../assets/img/CLIMAT_RESILIENCE/CLIMAT_RESILIENCE_2.png';
 import CRes3 from '../assets/img/CLIMAT_RESILIENCE/CLIMAT_RESILIENCE_3.png';
 import CRes4 from '../assets/img/CLIMAT_RESILIENCE/CLIMAT_RESILIENCE_4.png';
-import CRes5 from '../assets/img/CLIMAT_RESILIENCE/CLIMAT_RESILIENCE_5.png';
+import CRes5 from '../assets/img/CLIMAT_RESILIENCE/CLIMAT_RESILIENCE_5.webp';
 import CRes6 from '../assets/img/CLIMAT_RESILIENCE/CLIMAT_RESILIENCE_6.jpg';
-import CRes7 from '../assets/img/CLIMAT_RESILIENCE/CLIMAT_RESILIENCE_7.jpg';
+import CRes7 from '../assets/img/CLIMAT_RESILIENCE/CLIMAT_RESILIENCE_7.webp';
 
 export function UseCaseItem3() {
   return (
@@ -18,13 +18,13 @@ export function UseCaseItem3() {
         <aside>
           <div className="box-img-row">
             <div className="usecase-box-img">
-              <img src={CRes1} alt={CRes1} />
+              <img loading="lazy" src={CRes1} alt={CRes1} />
             </div>
             <div className="usecase-box-img">
-              <img src={CRes2} alt={CRes2} />
+              <img loading="lazy" src={CRes2} alt={CRes2} />
             </div>
             <div className="usecase-box-img">
-              <img src={CRes3} alt={CRes3} />
+              <img loading="lazy" src={CRes3} alt={CRes3} />
             </div>
           </div>
         </aside>
@@ -36,13 +36,13 @@ export function UseCaseItem3() {
         <aside>
           <div className="box-img-row">
             <div className="usecase-box-img">
-              <img src={CRes4} alt={CRes4} />
+              <img loading="lazy" src={CRes4} alt={CRes4} />
             </div>
             <div className="usecase-box-img" style={{ display: 'flex', justifyContent: 'center' }}>
-              <img src={CRes5} alt={CRes5} style={{ maxHeight: '250px' }} />
+              <img loading="lazy" src={CRes5} alt={CRes5} style={{ maxHeight: '250px' }} />
             </div>
             <div className="usecase-box-img">
-              <img src={CRes6} alt={CRes6} />
+              <img loading="lazy" src={CRes6} alt={CRes6} />
             </div>
           </div>
         </aside>
@@ -54,7 +54,7 @@ export function UseCaseItem3() {
         <aside>
           <div className="box-img-row">
             <div className="usecase-box-img species_mapping">
-              <img src={CRes7} alt={CRes7} />
+              <img loading="lazy" src={CRes7} alt={CRes7} />
             </div>
             <div className="box-img-col">
               <ol className="zan_order-list">

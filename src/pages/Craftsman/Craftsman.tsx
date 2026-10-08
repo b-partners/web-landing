@@ -7,7 +7,7 @@ import { bookYourDemoUrl } from '@pages/Advertising-Campaign/components';
 import './assets/css/couvreurs.css';
 
 const MAQUETTE_IMG = '/assets/images/slot-image-maquette-3d.jpg';
-const ANALYSE_IMG = '/assets/images/slot-image-2-maquette-3d.jpg';
+const ANALYSE_IMG = '/assets/images/slot-image-2-maquette-3d.webp';
 
 /* ------------------------------------------------------------------ */
 /* Icônes SVG réutilisables                                            */
@@ -525,7 +525,7 @@ export const Craftsman = () => {
               <div className="marquee-track">
                 {[...partnerLogos, ...partnerLogos].map((logo, i) => (
                   <div className="logo-chip" key={`t1-${i}`} aria-hidden={i >= partnerLogos.length}>
-                    <img src={logo.src} alt={logo.alt} />
+                    <img loading="lazy" src={logo.src} alt={logo.alt} />
                   </div>
                 ))}
               </div>
@@ -614,7 +614,11 @@ export const Craftsman = () => {
           </div>
 
           <div className="maquette-wrap">
-            <img src={MAQUETTE_IMG} alt="Maquette 3D BIRDIA — pans détaillés avec surfaces, pentes, faîtage, rives, égouts et noues mesurés au centimètre" />
+            <img
+              loading="lazy"
+              src={MAQUETTE_IMG}
+              alt="Maquette 3D BIRDIA — pans détaillés avec surfaces, pentes, faîtage, rives, égouts et noues mesurés au centimètre"
+            />
           </div>
         </section>
 
@@ -631,7 +635,7 @@ export const Craftsman = () => {
               <div className="marquee-track" style={{ animationDirection: 'reverse' }}>
                 {[...partnerLogos, ...partnerLogos].map((logo, i) => (
                   <div className="logo-chip" key={`t2-${i}`} aria-hidden={i >= partnerLogos.length}>
-                    <img src={logo.src} alt={logo.alt} />
+                    <img loading="lazy" src={logo.src} alt={logo.alt} />
                   </div>
                 ))}
               </div>
@@ -666,7 +670,7 @@ export const Craftsman = () => {
             </div>
 
             <div className="tech-visual">
-              <img src={ANALYSE_IMG} alt="Rapport d'analyse de toiture BIRDIA — vue HD, maquette Lidar 3D et détection des dégradations" />
+              <img loading="lazy" src={ANALYSE_IMG} alt="Rapport d'analyse de toiture BIRDIA — vue HD, maquette Lidar 3D et détection des dégradations" />
             </div>
           </div>
         </section>

@@ -2,3 +2,5 @@
 User-agent: *
 Disallow: /template
 Disallow: /templateGenerator
+
+Sitemap: https://www.birdia.fr/sitemap.xml
