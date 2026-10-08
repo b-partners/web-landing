@@ -37,21 +37,15 @@ const POSTS_DIR = path.join(OUT_DIR, 'posts');
 const BLOCK_TAGS = new Set(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'ul', 'ol', 'blockquote']);
 const INLINE_TAG_MAP = { strong: 'strong', b: 'strong', em: 'em', i: 'em', a: 'a' };
 
-// blog.birdia.fr's JSON-LD only exposes the author's display name (no email, for privacy),
-// so known authors are mapped by hand here. Falls back to a firstname@birdia.fr guess
-// (the known convention) for anyone not yet listed — double-check that guess before trusting it.
+// blog.birdia.fr's JSON-LD only exposes the author's display name — no email anywhere in the
+// page, by design (privacy). There's no source to scrape it from, so known authors are mapped
+// by hand here; anyone not listed gets no email (name-only byline) rather than a guessed one.
 const AUTHOR_EMAILS = {
   'Lou Maurica': 'lou@birdia.fr',
 };
 
 function resolveAuthorEmail(name) {
-  if (AUTHOR_EMAILS[name]) return AUTHOR_EMAILS[name];
-  const firstName = name
-    .split(' ')[0]
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase();
-  return firstName ? `${firstName}@birdia.fr` : undefined;
+  return AUTHOR_EMAILS[name];
 }
 
 async function fetchText(url) {
