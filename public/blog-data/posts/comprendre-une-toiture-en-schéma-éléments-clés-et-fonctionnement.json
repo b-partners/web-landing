@@ -1,0 +1,816 @@
+{
+  "id": "comprendre-une-toiture-en-schéma-éléments-clés-et-fonctionnement",
+  "slug": "comprendre-une-toiture-en-schéma-éléments-clés-et-fonctionnement",
+  "title": "Comprendre une toiture en schéma : éléments clés et fonctionnement",
+  "excerpt": "Découvrez le schéma toiture et ses éléments clés pour comprendre le fonctionnement, la structure et l’étanchéité d’un toit.",
+  "firstPublishedDate": "2025-09-06T22:00:00.000Z",
+  "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_9bb0c1bc9265488cb00327c130cbae2b~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_9bb0c1bc9265488cb00327c130cbae2b~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1zjp45462",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La toiture est l’un des éléments les plus essentiels d’un bâtiment, mais aussi l’un des plus complexes à comprendre. Elle ne se limite pas à une simple couverture de tuiles ou d’ardoises : chaque composant a un rôle précis dans la protection, l’isolation et la durabilité du bâti. Pour mieux visualiser son fonctionnement, rien de tel qu’un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "schéma toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " détaillant ses différentes couches et ses éléments structurels. Que vous soyez particulier, syndic ou gestionnaire de biens, comprendre ces bases est indispensable avant tout projet de rénovation, d’entretien ou de réparation. Cet article vous propose une explication claire et pédagogique des éléments clés d’une toiture et de leur rôle dans le fonctionnement global du toit.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "bxkt45463",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "x07hs5472",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "0lwht5465",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ammka5464",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un schéma toiture aide à visualiser la superposition des couches et des éléments structurels.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "2w4tm5467",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "3w7xg5466",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Chaque composant a un rôle spécifique : étanchéité, isolation, ventilation, évacuation des eaux.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "4io3v5469",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "q06sp5468",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Comprendre la toiture permet d’anticiper les travaux et d’éviter les erreurs coûteuses.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "tqjkh5471",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "q5p3x5470",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Une inspection régulière garantit la longévité et la performance énergétique du toit.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "7j0255473",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les éléments principaux d’un schéma toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "kbdz25474",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "schéma toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " met en évidence la hiérarchie et la complémentarité des différents composants. En partant de l’extérieur vers l’intérieur, on retrouve :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "kwyr75489",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "21t6o5476",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "La couverture",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "dlk0z5475",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : tuiles, ardoises, zinc ou autres matériaux, qui assurent l’étanchéité face aux intempéries.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "bs1i45478",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Les liteaux et voliges",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "z1mja5477",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : éléments en bois qui soutiennent la couverture.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "j8d9l5480",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "L’écran sous-toiture",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "4d5ta5479",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : film protecteur qui limite les infiltrations et améliore l’isolation.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "k6wh25482",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "L’isolant thermique",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "qbxoh5481",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : laine minérale, laine de bois, polyuréthane… indispensable pour réduire les déperditions de chaleur.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "2wfr95484",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "La charpente",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "nrpu95483",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : structure porteuse en bois ou métal, garante de la solidité du toit.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "d82yq5486",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "La ventilation",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "tmm9d5485",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : essentielle pour éviter la condensation et prolonger la durée de vie des matériaux.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "3vr005488",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "La zinguerie",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "bzhkh5487",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : gouttières, chéneaux, abergements de cheminées, qui assurent l’évacuation des eaux de pluie.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "pjtld5490",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Chacun de ces éléments interagit avec les autres : un défaut d’isolation ou de ventilation peut, par exemple, réduire l’efficacité globale du système. C’est pourquoi un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture complet",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est recommandé avant tout projet de rénovation.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "8zb725491",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le rôle de chaque composant dans le fonctionnement global",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "0fat95492",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "schéma toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " illustre non seulement la superposition des couches, mais aussi leur rôle précis. La couverture protège contre la pluie, la neige et le vent, tandis que la zinguerie assure une évacuation efficace de l’eau. L’isolant, quant à lui, joue un double rôle : confort thermique et réduction des factures énergétiques. La charpente, enfin, est la colonne vertébrale du toit : sans elle, aucun des autres éléments ne peut remplir sa fonction.Un point souvent négligé est la ventilation. Sans circulation d’air, la toiture risque de développer des moisissures, de dégrader l’isolant et de fragiliser la charpente. Sur un schéma toiture, les entrées d’air en bas de pente et les sorties en faîtage sont représentées pour montrer ce circuit invisible mais indispensable.Comprendre cette articulation permet de mieux identifier l’origine d’un problème (infiltration, perte de chaleur, condensation) et d’orienter les réparations de façon précise, sans surcoût inutile.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "j7aox5493",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Étude de cas : lecture d’un schéma toiture dans la pratique",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "1h7bo5494",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Prenons l’exemple d’une maison de 100 m² dont le propriétaire constate des infiltrations. Sur le schéma toiture fourni par l’expert, on remarque que l’écran sous-toiture est déchiré et que les liteaux présentent des signes d’humidité. Cette analyse met en lumière que le problème ne vient pas des tuiles en surface, mais bien d’un défaut d’étanchéité dans les couches intermédiaires.Grâce à ce schéma détaillé, le propriétaire comprend que remplacer uniquement les tuiles serait inutile. La réparation doit cibler la sous-couche, avec une reprise partielle des liteaux et la pose d’un nouvel écran. Le devis, bien qu’un peu plus élevé, permet de régler définitivement le problème et de prolonger la durée de vie du toit de plusieurs décennies.Aujourd’hui, les technologies comme l’",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "inspection toiture par drone",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " permettent de compléter ces schémas par des images précises, sans démontage et sans risque pour les intervenants. Cela offre une vision claire de l’état réel du toit et facilite la compréhension pour le propriétaire.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "zy10t5495",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "3v7415496",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "schéma toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est bien plus qu’un simple dessin technique : c’est un outil pédagogique qui permet de comprendre la composition et le fonctionnement global d’un toit. En visualisant les différents éléments et leurs interactions, il devient plus simple d’identifier les faiblesses, de planifier les travaux et d’éviter des dépenses inutiles.Pour les particuliers comme pour les gestionnaires de copropriétés, cette approche visuelle est une aide précieuse à la décision. Chez Birdia, nous proposons une alternative innovante aux expertises traditionnelles grâce à l’usage de drones et d’intelligence artificielle, qui permettent de créer une cartographie précise et fiable de l’état d’une toiture. Un moyen moderne et efficace de transformer la complexité d’un toit en une vision claire et accessible.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-09-06T22:00:00.000Z",
+      "updatedTimestamp": "2025-09-06T22:00:00.000Z",
+      "id": "comprendre-une-toiture-en-schéma-éléments-clés-et-fonctionnement"
+    }
+  }
+}

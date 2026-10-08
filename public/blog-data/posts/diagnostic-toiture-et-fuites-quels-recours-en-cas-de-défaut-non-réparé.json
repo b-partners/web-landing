@@ -1,0 +1,739 @@
+{
+  "id": "diagnostic-toiture-et-fuites-quels-recours-en-cas-de-défaut-non-réparé",
+  "slug": "diagnostic-toiture-et-fuites-quels-recours-en-cas-de-défaut-non-réparé",
+  "title": "Diagnostic toiture et fuites : quels recours en cas de défaut non réparé ?",
+  "excerpt": "Diagnostic toiture mal fait ou fuite non réparée ? Découvrez contre qui vous retourner et quels recours utiliser pour défendre vos droits efficacement.",
+  "firstPublishedDate": "2024-12-11T23:00:00.000Z",
+  "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_406be2026bf345b19511a85d0a59143d~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_406be2026bf345b19511a85d0a59143d~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "xownb10119",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est censé apporter des réponses claires et fiables sur l’état de votre couverture. Pourtant, il arrive que des problèmes persistent après l’intervention d’un professionnel : fuites récurrentes, défauts d’étanchéité, réparations incomplètes ou même aggravation du désordre. Dans ces cas, la question se pose immédiatement : ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "contre qui se retourner",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ? Faut-il engager la responsabilité de l’artisan, du syndic, de l’assureur ou de l’expert mandaté ? Comprendre vos droits et les recours disponibles est essentiel pour éviter de payer deux fois pour les mêmes travaux. Cet article vous explique les démarches à entreprendre, les responsabilités en jeu et les solutions pour obtenir réparation.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "7fr9r10120",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "omnrn10129",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "gpygz10122",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "acej510121",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un diagnostic toiture engage la responsabilité du professionnel qui le réalise.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "n4m4h10124",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "qijjy10123",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "En cas de fuite non réparée, la garantie décennale ou biennale peut s’appliquer.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "lj3if10126",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "gm5id10125",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le syndic ou l’assureur peut aussi être impliqué selon les cas.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "dxj4510128",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "p42hm10127",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Documenter le défaut avec un rapport écrit ou un constat d’huissier est primordial.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "01ivv10130",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les responsabilités engagées en cas de défaut de diagnostic",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4gfuy10131",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Lorsqu’un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est réalisé par un couvreur ou un expert, ce dernier engage sa responsabilité professionnelle. Si le rapport est incomplet, erroné ou que les travaux préconisés ne permettent pas de résoudre les fuites, plusieurs recours sont possibles. L’artisan ou l’entreprise de couverture est tenu par une obligation de résultat lorsqu’il effectue des travaux, mais par une obligation de moyens lors d’un simple diagnostic. Cela signifie que si des réparations ont été mal exécutées, vous pouvez mettre en jeu la ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "garantie décennale",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " (valable 10 ans pour tout ouvrage touchant à la solidité de la toiture). Si seul le diagnostic est en cause, il faudra démontrer une faute professionnelle (ex. absence de vérification des points singuliers, rapport incomplet). Dans le cadre d’une copropriété, le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "syndic",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " peut aussi voir sa responsabilité engagée s’il n’a pas diligenté les inspections nécessaires ou tardé à faire intervenir un couvreur malgré des signaux d’alerte. Pour comprendre la valeur juridique d’un rapport, consultez aussi notre guide sur le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture complet",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ".",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "j6ozh10132",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Quels recours en cas de fuite persistante ?",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "h4jlz10133",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Si malgré un diagnostic et des travaux, la fuite continue, plusieurs démarches peuvent être envisagées. D’abord, il est recommandé d’adresser une ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "mise en demeure",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " au professionnel ayant effectué l’intervention, en rappelant ses obligations et en exigeant une reprise des travaux. Cette étape écrite est indispensable avant toute action juridique. Ensuite, selon la nature des désordres, différentes garanties peuvent être activées :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "iszm710141",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "ukuze10135",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Garantie de parfait achèvement",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "3z28h10134",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (1 an après les travaux) : couvre tous les défauts signalés.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "vm9kv10137",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Garantie biennale",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "nj7q010136",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (2 ans) : concerne les équipements liés à la toiture (gouttières, fenêtres de toit).",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "gf9yi10140",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Garantie décennale",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "ii6fm10138",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " (10 ans) : s’applique si les infiltrations compromettent la solidité de l’ouvrage ou l’habitabilité du logement. Si le professionnel refuse d’intervenir, vous pouvez solliciter votre ",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "assurance habitation",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "w65sg10139",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " ou celle de la copropriété. L’assureur mandate alors un expert pour déterminer les responsabilités. Enfin, en cas de litige persistant, le recours à un huissier ou à un expert judiciaire permet d’apporter des preuves solides devant un tribunal.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "ium3v10142",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Exemple concret : fuite non réparée après diagnostic",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "md8xi10143",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Imaginons un particulier à Bordeaux ayant constaté des infiltrations dans ses combles. Un couvreur réalise un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " et recommande une réfection partielle. Les travaux sont effectués, mais les fuites réapparaissent quelques mois plus tard. Après vérification, il s’avère que le professionnel n’avait pas inspecté correctement les points singuliers de la toiture (cheminée et solin). Dans ce cas, le propriétaire peut exiger une reprise des travaux au titre de la garantie décennale, car le défaut affecte l’étanchéité du bâtiment. Si l’entreprise refuse, le propriétaire peut saisir son assurance, qui se retournera ensuite contre le couvreur. Dans une copropriété parisienne, une situation similaire a conduit le syndic à être mis en cause, car il n’avait pas suivi les recommandations du diagnostic initial et retardé les travaux. Résultat : infiltration généralisée et frais de remise en état beaucoup plus élevés. Ces cas illustrent l’importance d’un diagnostic complet et transparent, avec preuves visuelles. Les nouvelles méthodes, comme l’",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "inspection toiture par drone",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", permettent de réduire considérablement les oublis en documentant chaque recoin du toit.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "3a0h310144",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lclca10145",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un diagnostic toiture mal fait ou une fuite non réparée n’est jamais une fatalité. En tant que propriétaire ou copropriétaire, vous disposez de recours juridiques et assurantiels solides pour vous protéger. Identifier contre qui se retourner — artisan, expert, syndic ou assureur — dépend de la nature du défaut et des garanties en vigueur. La clé reste de documenter chaque étape avec des rapports précis et des preuves visuelles. Chez Birdia, nous fournissons des diagnostics clairs, illustrés et exploitables grâce à nos inspections par drone. Cette approche moderne permet d’éviter les oublis fréquents des diagnostics traditionnels et d’apporter aux propriétaires une transparence totale pour se prémunir contre les litiges.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2024-12-11T23:00:00.000Z",
+      "updatedTimestamp": "2024-12-11T23:00:00.000Z",
+      "id": "diagnostic-toiture-et-fuites-quels-recours-en-cas-de-défaut-non-réparé"
+    }
+  }
+}

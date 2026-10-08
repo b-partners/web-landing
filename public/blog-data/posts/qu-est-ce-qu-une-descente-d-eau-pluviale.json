@@ -1,0 +1,788 @@
+{
+  "id": "qu-est-ce-qu-une-descente-d-eau-pluviale",
+  "slug": "qu-est-ce-qu-une-descente-d-eau-pluviale",
+  "title": "Qu’est-ce qu’une descente d’eau pluviale ?",
+  "excerpt": "La descente d’eau pluviale évacue l’eau de pluie du toit vers le sol. Découvrez son rôle, ses matériaux et son importance pour l’étanchéité de la maison.",
+  "firstPublishedDate": "2025-09-01T22:00:00.000Z",
+  "minutesToRead": 2,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_b13633a91f284bc1931dc91ad016537f~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_b13633a91f284bc1931dc91ad016537f~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ctrrc7453",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Lorsqu’il pleut, des centaines de litres d’eau s’écoulent sur la toiture d’une maison. Si cette eau n’est pas correctement dirigée, elle peut provoquer des infiltrations, dégrader les façades et fragiliser les fondations. La ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "descente d’eau pluviale",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "est l’élément essentiel du système d’évacuation, reliant la gouttière au réseau d’assainissement ou au sol. Souvent négligée, elle joue pourtant un rôle crucial dans la protection et la durabilité de l’habitation. Cet article détaille sa fonction, ses différents types et les points de vigilance à connaître pour assurer son bon fonctionnement.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "849ou7454",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "hqcoy7463",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "ij3tt7456",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "5y2uy7455",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La descente d’eau pluviale canalise l’eau du toit vers le sol ou les canalisations.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "d6vil7458",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "c7wn87457",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Elle évite les infiltrations, les éclaboussures sur la façade et l’humidité au pied des murs.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "vt18z7460",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "htzs27459",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Elle existe en plusieurs matériaux : zinc, PVC, aluminium, cuivre.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "t8c657462",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "26or27461",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Son entretien régulier est indispensable pour prévenir les obstructions et débordements.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "lcqti7464",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le rôle d’une descente d’eau pluviale",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "whtwz7465",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La descente d’eau pluviale est le tuyau vertical fixé en façade ou en angle de bâtiment, qui prolonge la gouttière. Sa mission est simple : guider l’eau recueillie par les chéneaux vers le sol ou le réseau d’assainissement.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ol0wf7466",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Sans elle, l’eau tomberait directement le long des murs, provoquant des éclaboussures, des traces noires, une infiltration dans les façades et une accumulation d’humidité au niveau des fondations. À long terme, cela peut fragiliser la structure de la maison et générer des coûts de réparation élevés.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "e3ckp7467",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les différents types de descentes d’eau pluviale",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "qlhpz7468",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Il existe plusieurs matériaux pour fabriquer une descente d’eau pluviale, chacun ayant ses avantages :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "m3i6z7477",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "pj79z7470",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Le zinc",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "bmmqx7469",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : très répandu en France, résistant et esthétique, il s’intègre bien sur les toitures traditionnelles.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "whfp57472",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Le PVC",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "gc1ej7471",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : économique, léger et facile à poser, il convient aux constructions neuves comme aux rénovations.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "nbz5z7474",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "L’aluminium",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "m5he87473",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : moderne et résistant à la corrosion, souvent utilisé sur les bâtiments contemporains.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "66l4v7476",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Le cuivre",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "dl9ng7475",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : haut de gamme et durable, il apporte une finition esthétique mais reste coûteux.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "lydfa7478",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le choix du matériau dépend du style architectural, du budget et des contraintes climatiques locales.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "e557w7479",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Entretien et points de vigilance",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "at2dj7480",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Une descente d’eau pluviale doit être inspectée régulièrement pour éviter les obstructions dues aux feuilles mortes, branches ou nids d’oiseaux. Un conduit bouché entraîne des débordements de gouttières et des ruissellements le long des façades.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "nklwa7481",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Il est aussi important de vérifier :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "9m0gq7488",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "pf0wl7483",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "8umbr7482",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "la fixation des colliers qui maintiennent la descente,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "q56nu7485",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "yk5k47484",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "l’étanchéité des raccords avec la gouttière et le réseau d’évacuation,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "zg5gu7487",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "wgmu37486",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "l’absence de fissures ou de corrosion selon le matériau.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "dyfs47489",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "En cas de doute ou de difficulté d’accès, une inspection toiture par drone permet d’analyser l’état des gouttières et descentes sans risque et avec une grande précision.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "k9ve17490",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "t8d9y7491",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "descente d’eau pluviale",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est bien plus qu’un simple tuyau : c’est un élément essentiel pour protéger les façades, les murs et les fondations contre l’humidité. Bien choisie et correctement entretenue, elle assure une évacuation efficace des eaux de pluie et contribue à la durabilité du bâtiment.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "wooos7492",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Chez ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Birdia",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", nous proposons des solutions modernes comme l’imagerie par drone pour contrôler régulièrement l’état des toitures, gouttières et descentes pluviales. Une approche sécurisée et fiable pour prévenir les désordres avant qu’ils ne deviennent coûteux.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-09-01T22:00:00.000Z",
+      "updatedTimestamp": "2025-09-01T22:00:00.000Z",
+      "id": "qu-est-ce-qu-une-descente-d-eau-pluviale"
+    }
+  }
+}

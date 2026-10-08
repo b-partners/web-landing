@@ -1,0 +1,646 @@
+{
+  "id": "diagnostic-charpente-prix-déroulé-et-erreurs-à-éviter-1",
+  "slug": "diagnostic-charpente-prix-déroulé-et-erreurs-à-éviter-1",
+  "title": "Diagnostic charpente : prix, déroulé et erreurs à éviter",
+  "excerpt": "Le diagnostic charpente permet d’évaluer l’état structurel du toit. Découvrez son prix, son déroulé et les erreurs à éviter en 2025.",
+  "firstPublishedDate": "2025-09-17T22:00:00.000Z",
+  "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_010ef240326441d7a96dd0040bc708c3~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_010ef240326441d7a96dd0040bc708c3~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "y1lil3860",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Invisible au premier regard, la charpente est pourtant l’ossature qui soutient toute la toiture. Avec le temps, elle peut être fragilisée par l’humidité, les insectes xylophages ou de simples mouvements de structure. Ignorer son état peut mettre en péril la sécurité du bâtiment et générer des réparations coûteuses. Réaliser un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic charpente",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est donc indispensable pour anticiper les problèmes et assurer la durabilité du toit. Cet article explique le déroulement d’un diagnostic, son prix en 2025 et les erreurs courantes à éviter.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "1xu113861",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "q2u823870",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "di6k33863",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mloi93862",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le diagnostic charpente détecte l’humidité, les parasites et les faiblesses structurelles.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "7q7aq3865",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "1jgob3864",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Son prix varie entre 200 et 800 € selon la méthode utilisée.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "zalzb3867",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ev9wa3866",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Il se déroule en plusieurs étapes : inspection visuelle, tests techniques et rapport détaillé.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "5jnl73869",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "2vrs63868",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Négliger ce diagnostic ou le confier à un intervenant non qualifié peut coûter cher.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "mvq093871",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Comment se déroule un diagnostic charpente ?",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "4zamn3872",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic charpente",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " suit un protocole précis. La première étape est une inspection visuelle des bois porteurs (entraits, pannes, chevrons). Le professionnel recherche des indices de dégradation : fissures, fléchissements, traces d’humidité, sciure indiquant la présence d’insectes.Ensuite, des outils de mesure peuvent être employés : humidimètre pour détecter l’humidité, poinçon pour tester la résistance mécanique, caméra endoscopique pour examiner l’intérieur des pièces de bois. Dans certains cas, une expertise parasitaire complète est réalisée pour confirmer la présence de termites, vrillettes ou capricornes.Enfin, un rapport écrit récapitule l’état de la charpente et propose des solutions adaptées : traitement préventif ou curatif, consolidation ou remplacement partiel. Pour une vision globale, il est recommandé d’associer ce diagnostic à un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture complet",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " afin d’évaluer aussi la couverture, l’isolation et la zinguerie.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "bu6xo3873",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Combien coûte un diagnostic charpente en 2025 ?",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "6z8u13874",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le prix dépend de la surface du bâtiment, de l’accessibilité de la charpente et du niveau d’expertise requis. En 2025, on distingue trois grandes catégories :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "pirr33881",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "2gyf13876",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Diagnostic visuel",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "60imq3875",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : entre 200 et 350 €, adapté aux petites maisons ou en première vérification.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "xte173878",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Diagnostic approfondi avec outils techniques",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "futsh3877",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : entre 400 et 600 €, incluant tests d’humidité et endoscopie.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "uh51q3880",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Expertise structurelle et parasitaire complète",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "m5u0u3879",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : entre 600 et 800 €, souvent demandée avant une vente immobilière ou un chantier de rénovation majeur.Cet investissement peut sembler important, mais il reste faible comparé au coût d’une charpente effondrée ou d’une attaque de termites non traitée, qui peut dépasser plusieurs dizaines de milliers d’euros.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "5j17s3882",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les erreurs à éviter",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "89wil3883",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "La première erreur est de repousser le diagnostic jusqu’à ce que des signes visibles apparaissent : affaissement du toit, infiltrations ou poutres vermoulues. À ce stade, les travaux sont souvent urgents et beaucoup plus ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "onéreux.La",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "http://onéreux.La"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " deuxième erreur est de confier le diagnostic à un intervenant non qualifié. Seul un professionnel expérimenté est en mesure de repérer les pathologies invisibles à l’œil nu.Enfin, limiter l’analyse à la charpente seule sans examiner le reste du toit est une vision trop partielle. Grâce aux nouvelles technologies comme l’",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "inspection toiture par drone",
+              "decorations": [
+                {
+                  "type": "LINK",
+                  "linkData": {
+                    "link": {
+                      "target": "BLANK",
+                      "url": "https://www.birdia.fr/"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ", il est désormais possible de compléter le diagnostic par une évaluation globale et précise de la toiture.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "7fjfp3884",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "iff6n3885",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic charpente",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est un outil indispensable pour préserver la sécurité et la valeur d’un bâtiment. Son coût, compris entre 200 et 800 €, est largement compensé par les économies qu’il permet de réaliser en anticipant les réparations. Réalisé régulièrement et confié à un expert, il garantit la durabilité de l’ossature et de l’ensemble de la toiture.Birdia propose une approche innovante du diagnostic, en combinant expertise traditionnelle et inspection par drone. Cette solution moderne permet d’obtenir une analyse complète, rapide et fiable de l’état de la charpente et de la toiture, pour planifier vos travaux en toute sérénité.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2025-09-17T22:00:00.000Z",
+      "updatedTimestamp": "2025-09-17T22:00:00.000Z",
+      "id": "diagnostic-charpente-prix-déroulé-et-erreurs-à-éviter-1"
+    }
+  }
+}

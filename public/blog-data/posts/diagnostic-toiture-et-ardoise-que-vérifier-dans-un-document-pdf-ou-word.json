@@ -1,0 +1,997 @@
+{
+  "id": "diagnostic-toiture-et-ardoise-que-vérifier-dans-un-document-pdf-ou-word",
+  "slug": "diagnostic-toiture-et-ardoise-que-vérifier-dans-un-document-pdf-ou-word",
+  "title": "Diagnostic toiture et ardoise : que vérifier dans un document PDF ou Word?",
+  "excerpt": "Un diagnostic toiture ardoise doit être consigné dans un rapport PDF ou Word. Découvrez les points essentiels à vérifier pour un document fiable et complet.",
+  "firstPublishedDate": "2023-12-20T23:00:00.000Z",
+  "minutesToRead": 3,
+  "author": {
+    "name": "Lou Maurica",
+    "email": "lou@birdia.fr"
+  },
+  "richContent": {
+    "nodes": [
+      {
+        "type": "IMAGE",
+        "imageData": {
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/nsplsh_bd103450be4e412a91ae55717d7a40f5~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_bd103450be4e412a91ae55717d7a40f5~mv2.jpg"
+            }
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "ho4g48564",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "L’ardoise est l’un des matériaux de couverture les plus durables et esthétiques, mais elle nécessite un suivi régulier pour préserver son efficacité et son cachet. Qu’il s’agisse d’une maison individuelle, d’un immeuble ancien ou d’un bâtiment classé, un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture ardoise",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est indispensable pour détecter fissures, dégradations ou infiltrations. Toutefois, ce diagnostic n’a de valeur que s’il est formalisé dans un rapport écrit, souvent au format ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "PDF ou Word",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". Ces documents constituent une preuve, mais aussi un outil d’aide à la décision pour les propriétaires et gestionnaires. Encore faut-il savoir quels éléments doivent y figurer et comment s’assurer de leur fiabilité.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "2oblw8565",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "À retenir",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "ywut08574",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "yv3878567",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "puioh8566",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Un diagnostic toiture ardoise doit toujours donner lieu à un rapport PDF ou Word.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "3ma0o8569",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "tojnl8568",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Le document doit contenir un état précis des ardoises, de la charpente et de la zinguerie.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "di19u8571",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "in4kr8570",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "Des photos datées et légendées renforcent la crédibilité du rapport.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "9cw2w8573",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "5cj478572",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "La clarté et la structure du fichier facilitent la prise de décision et le suivi.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "uwqmc8575",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Pourquoi un diagnostic toiture ardoise doit être consigné dans un PDF ou Word ?",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "h10ik8576",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un diagnostic oral n’a aucune valeur juridique ni technique. Seul un document écrit, clair et détaillé, permet de justifier des travaux ou de comparer des devis. Dans le cas d’une toiture en ardoise, le ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture PDF ardoise",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ou ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Word ardoise",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " est particulièrement important, car ce matériau peut présenter des défauts discrets mais lourds de conséquences : éclats, ardoises descellées, oxydation des crochets. Le rapport doit contenir :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "aid6v8588",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "fx5i48578",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "iu2o18577",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "une description précise du matériau et de son état général,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "9s0g68580",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mhzj98579",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "l’inventaire des désordres relevés (ardoises cassées, infiltration, faîtages fragilisés),",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "ok0n28582",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "la2wt8581",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "l’analyse de l’état des fixations et de la charpente,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "1hnga8584",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "4wx5k8583",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "une estimation de la durée de vie résiduelle,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "5nxzo8587",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "mppu48585",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "des recommandations adaptées (réparation localisée, remplacement partiel ou réfection totale). Sans ce document, il est difficile d’obtenir un accord en assemblée générale de copropriété ou de justifier une prise en charge par l’assurance. Pour aller plus loin sur la méthodologie, consultez aussi notre guide complet sur le ",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "diagnostic toiture",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "target": "BLANK",
+                          "url": "https://www.birdia.fr/"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "yeh8w8586",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": ".",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "xs1kv8589",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Les éléments clés à vérifier dans un rapport PDF ou Word",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "7qaip8590",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture ardoise",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": " ne se limite pas à quelques lignes descriptives. Pour être exploitable, le rapport doit être lisible, structuré et documenté par des preuves visuelles. Les éléments essentiels à vérifier sont :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "evrsh8599",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "821h48592",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "La présence de photos",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "l2qlp8591",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : elles doivent être datées, localisées et accompagnées de légendes claires.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "9thl18594",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "La localisation des défauts",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "vknaq8593",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : chaque désordre doit être situé avec précision (pan nord, rive gauche, versant sud…).",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "sgmbt8596",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "L’analyse technique",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "lc1rq8595",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : le rapport doit détailler l’origine probable des dégradations (vieillissement naturel, problème de ventilation, malfaçon).",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "h82jk8598",
+            "nodes": [
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "Les recommandations",
+                  "decorations": [
+                    {
+                      "type": "BOLD"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "co1ou8597",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " : elles doivent être proportionnées, justifiées et accompagnées d’un chiffrage indicatif ou d’options de travaux. Un fichier PDF ou Word trop succinct, sans visuels ni explications, doit alerter. Un bon rapport est un outil de transparence qui permet d’éviter les abus ou les devis gonflés.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "0wurf8600",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Exemple concret : diagnostic toiture ardoise et rapport détaillé",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "l9cox8601",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Imaginons une maison ancienne en Bretagne, équipée d’une toiture en ardoise naturelle datant de 50 ans. Après plusieurs infiltrations, le propriétaire commande un ",
+              "decorations": []
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "diagnostic toiture ardoise",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          },
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": ". L’entreprise remet un rapport PDF de 30 pages comprenant :",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "BULLETED_LIST",
+        "id": "4mcak8611",
+        "nodes": [
+          {
+            "type": "LIST_ITEM",
+            "id": "rt2qn8603",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "23x4v8602",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "un inventaire précis des ardoises fissurées et manquantes,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "2azyf8605",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "ax0de8604",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "une analyse de la corrosion des crochets,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "wwulz8607",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "71sqp8606",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "des photos aériennes prises par drone illustrant les zones fragilisées,",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "LIST_ITEM",
+            "id": "yz4328610",
+            "nodes": [
+              {
+                "type": "PARAGRAPH",
+                "id": "7aogg8608",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": "deux scénarios de travaux : remplacement de 20 % des ardoises pour 12 000 € ou réfection complète pour 45 000 €. Ce document structuré permet au propriétaire de prendre une décision éclairée et de négocier plus facilement avec les artisans. De plus, il servira de support si une prise en charge partielle est demandée à l’assurance. Les nouvelles technologies comme l’",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              },
+              {
+                "type": "TEXT",
+                "id": "",
+                "nodes": [],
+                "textData": {
+                  "text": "inspection toiture par drone",
+                  "decorations": [
+                    {
+                      "type": "LINK",
+                      "linkData": {
+                        "link": {
+                          "target": "BLANK",
+                          "url": "https://www.birdia.fr/"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "PARAGRAPH",
+                "id": "us8u28609",
+                "nodes": [
+                  {
+                    "type": "TEXT",
+                    "id": "",
+                    "nodes": [],
+                    "textData": {
+                      "text": " renforcent encore la qualité de ces rapports en multipliant les visuels précis et objectifs.",
+                      "decorations": []
+                    }
+                  }
+                ],
+                "paragraphData": {
+                  "textStyle": {
+                    "textAlignment": "AUTO"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "bulletedListData": {
+          "indentation": 0
+        }
+      },
+      {
+        "type": "HEADING",
+        "id": "1pfgd8612",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Conclusion",
+              "decorations": [
+                {
+                  "type": "BOLD"
+                }
+              ]
+            }
+          }
+        ],
+        "headingData": {
+          "level": 2,
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      },
+      {
+        "type": "PARAGRAPH",
+        "id": "f1p7p8613",
+        "nodes": [
+          {
+            "type": "TEXT",
+            "id": "",
+            "nodes": [],
+            "textData": {
+              "text": "Le diagnostic toiture ardoise n’est utile que s’il est suivi d’un rapport PDF ou Word clair, structuré et illustré. Ce document constitue à la fois une preuve de l’état de la couverture, un outil d’aide à la décision et une garantie de transparence face aux devis proposés. Vérifier la qualité et la lisibilité du rapport est donc essentiel pour éviter erreurs, litiges et surcoûts. Chez Birdia, nous proposons des diagnostics toiture ardoise innovants, réalisés par drone et systématiquement restitués dans un rapport PDF clair et détaillé. Une solution moderne et fiable, pensée pour apporter aux particuliers comme aux gestionnaires une transparence totale et une réelle alternative aux inspections traditionnelles.",
+              "decorations": []
+            }
+          }
+        ],
+        "paragraphData": {
+          "textStyle": {
+            "textAlignment": "AUTO"
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2023-12-20T23:00:00.000Z",
+      "updatedTimestamp": "2023-12-20T23:00:00.000Z",
+      "id": "diagnostic-toiture-et-ardoise-que-vérifier-dans-un-document-pdf-ou-word"
+    }
+  }
+}

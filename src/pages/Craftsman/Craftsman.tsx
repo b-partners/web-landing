@@ -454,7 +454,7 @@ export const Craftsman = () => {
   }, [billing]);
 
   return (
-    <div className="couvreurs-page" style={{ paddingTop: '50px' }}>
+    <div className="couvreurs-page">
       <div className="container">
         {/* ============ HERO ============ */}
         <section className="hero">

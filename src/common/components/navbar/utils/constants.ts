@@ -5,5 +5,5 @@ export const LINKS = [
   { to: '/pour-qui/collectivites', label: 'Collectivités' },
   { to: '/a-propos', label: 'À propos' },
   { to: '/contact', label: 'Contact' },
-  { to: 'https://blog.birdia.fr', label: 'Ressources' },
+  { to: '/blog', label: 'Ressources' },
 ];
