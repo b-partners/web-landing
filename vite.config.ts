@@ -18,7 +18,8 @@ export default defineConfig(({ mode }) => {
       prerender({
         sitemapPath: 'public/sitemap.xml',
         siteUrl: 'https://www.birdia.fr',
-        exclude: (route) => route.startsWith('/template') || route === '/campagne-publicitaire',
+        exclude: (route) => route.startsWith('/template'),
+        extraRoutes: ['/campagne-publicitaire/'],
       }),
     ],
     server: {

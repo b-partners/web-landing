@@ -34,7 +34,7 @@ Prettier config: single quotes, `printWidth: 160`, and `@trivago/prettier-plugin
 
 When adding a public page, update all of the following:
 - the route in `App.tsx` under `PublicLayout`
-- `public/sitemap.xml`
+- `public/sitemap.xml` (URLs end with `/`, see below; this also makes the build prerender the page)
 - `src/pages/Navigation-Plan/site-plan-urls.ts`
 - `src/common/components/navbar/utils/constants.ts` if it belongs in the nav
 - `docs/new-pages.md`, which logs each page added outside the template system, with its source, decisions, and open TODOs
@@ -43,7 +43,9 @@ When adding a public page, update all of the following:
 
 **SEO/meta.** Head management is `useUpdateMeta(title, description)` (`src/common/utils/use-update-meta.ts`, re-exported by `pages/template/utils`). It sets the title, description, canonical, `og:url`, `og:title` and `og:description`. Site-wide JSON-LD lives in `index.html`.
 
-**Build-time prerender.** `vite/prerender-plugin.ts` runs after `vite build`: it opens every `www.birdia.fr` URL in `public/sitemap.xml` (minus `/template*` and `/campagne-publicitaire`) in headless Chrome (puppeteer) and writes `build/<route>/index.html` with the rendered `#root`, head tags and emotion CSS. Third-party requests are blocked while rendering. A route only gets static HTML if it's in the sitemap, and redirecting routes are skipped. The app still mounts with `createRoot`, which replaces the markup; `RemovePrerenderStyles` in `src/index.tsx` drops the captured CSS afterwards. `PRERENDER=false npm run build` skips it; if Chrome can't launch the build logs a warning and ships the plain SPA. The host must serve `/route` from `route/index.html` (`vite preview` doesn't; it always serves the root shell).
+**Build-time prerender.** `vite/prerender-plugin.ts` runs after `vite build`: it opens every `www.birdia.fr` URL in `public/sitemap.xml` (minus `/template*`), plus the `extraRoutes` in `vite.config.ts` (`/campagne-publicitaire/`, an ad landing page kept out of the sitemap), in headless Chrome (puppeteer) and writes `build/<route>/index.html` with the rendered `#root`, head tags and emotion CSS. Third-party requests are blocked while rendering. A route only gets static HTML if it's in the sitemap, and redirecting routes are skipped. The app still mounts with `createRoot`, which replaces the markup; `RemovePrerenderStyles` in `src/index.tsx` drops the captured CSS afterwards. `PRERENDER=false npm run build` skips it; if Chrome can't launch the build logs a warning and ships the plain SPA. The host must serve `/route` from `route/index.html` (`vite preview` doesn't; it always serves the root shell; use `python3 -m http.server --directory build` instead).
+
+**Hosting (AWS Amplify).** The build image is Amazon Linux 2023, and the Amplify build settings install Chrome's system libraries with `sudo dnf install` before `npm ci`. The Amplify rewrite rules end with `/<*>` → `/index.html` as **404-200**. Don't reintroduce the usual SPA regex rule with status 200: it serves the root `index.html` for every route and hides the prerendered pages. Amplify 301-redirects `/route` to `/route/`, so canonical URLs (`useUpdateMeta`) and sitemap URLs end with `/`. Routes without a prerendered file (e.g. `/template/*`) are served the app shell with HTTP 404; they still work in the browser. Each deploy invalidates the CloudFront cache, which otherwise keeps responses for a long time (`s-maxage=31536000`).
 
 **Forms.** The newer pages (`/contact-demo`, `/partenaires-couvreurs`, `/campagne-publicitaire`) use `useMailtoFallbackForm` (`src/common/utils/use-mailto-fallback-form.ts`), which opens a pre-filled mailto to contact@birdia.fr. These forms are intentionally not wired to the API. The older `ContactForm` posts through axios (`src/config/axios.ts`).
 

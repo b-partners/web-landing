@@ -17,6 +17,8 @@ type PrerenderOptions = {
   sitemapPath: string;
   siteUrl: string;
   exclude?: (route: string) => boolean;
+  /** Routes to prerender that aren't in the sitemap (e.g. ad landing pages that must not 404). */
+  extraRoutes?: string[];
   concurrency?: number;
 };
 
@@ -91,7 +93,7 @@ const injectSnapshot = (shell: string, snapshot: Snapshot) => {
   return html.replace('<div id="root"></div>', () => `<div id="root">${snapshot.body}</div>`);
 };
 
-export const prerender = ({ sitemapPath, siteUrl, exclude = () => false, concurrency = 4 }: PrerenderOptions): Plugin => {
+export const prerender = ({ sitemapPath, siteUrl, exclude = () => false, extraRoutes = [], concurrency = 4 }: PrerenderOptions): Plugin => {
   let config: ResolvedConfig;
 
   return {
@@ -106,7 +108,8 @@ export const prerender = ({ sitemapPath, siteUrl, exclude = () => false, concurr
       const logger = config.logger;
       const outDir = path.resolve(config.root, config.build.outDir);
       const shell = readFileSync(path.join(outDir, 'index.html'), 'utf-8');
-      const routes = readRoutes(path.resolve(config.root, sitemapPath), siteUrl).filter((route) => !exclude(route));
+      const sitemapRoutes = readRoutes(path.resolve(config.root, sitemapPath), siteUrl).filter((route) => !exclude(route));
+      const routes = [...new Set([...sitemapRoutes, ...extraRoutes])];
 
       let puppeteer: typeof import('puppeteer').default;
       let browser: import('puppeteer').Browser;

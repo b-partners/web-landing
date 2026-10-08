@@ -17,7 +17,8 @@ const metaByProperty = (property: string) => () => {
 };
 
 export const useUpdateMeta = (title: string, description: string) => {
-  const url = SITE_URL + (window.location.pathname === '/' ? '/' : window.location.pathname.replace(/\/$/, ''));
+  // Amplify serves prerendered pages from <route>/index.html and 301s /route to /route/, so canonical URLs end with a slash.
+  const url = SITE_URL + window.location.pathname.replace(/\/?$/, '/');
 
   document.title = title;
   setHeadTag('meta[name="description"]', metaByName('description'), 'content', description);
