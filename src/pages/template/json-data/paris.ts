@@ -80,8 +80,8 @@ export default {
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
       { name: 'paris', route: '/paris' },
-      { name: 'Lille', route: '/lille' },
-      { name: 'Lyon', route: '/Lyon' },
+      { name: 'Toulouse', route: '/diagnostic-toiture-toulouse' },
+      { name: 'Lyon', route: '/diagnostic-toiture-lyon' },
       { name: 'paris', route: '/paris' },
       { name: 'paris', route: '/paris' },
       { name: 'paris', route: '/paris' },

@@ -104,7 +104,7 @@ export default {
     title: 'Votre analyse Birdia près de chez vous',
     description: 'Découvrez nos offres disponibles dans les villes suivantes :',
     link: [
-      { name: 'Bourges ', route: '/BourgesBourges' },
+      { name: 'Bourges ', route: '/toiture-bourges' },
       { name: 'Ile de France', route: 'ile-de-france' },
       { name: 'Lyon', route: '/charpente-lyon' },
       { name: 'essonne', route: ' /diagnistic-toiture-essonne' },
