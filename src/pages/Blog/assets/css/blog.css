@@ -161,6 +161,7 @@
 .blog-page .prose {
   max-width: 760px;
   margin: 0 auto 60px;
+  padding: 0 24px;
 }
 .blog-page .prose h2 {
   font-size: 22px;
@@ -223,7 +224,7 @@
   display: flex;
   gap: 14px;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 24px;
   border-top: 1px solid #e3ded3;
   margin-top: 30px;
   max-width: 760px;
