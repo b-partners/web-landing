@@ -9,7 +9,7 @@ export default {
       '🤖 <strong>Diagnostic automatique par IA :</strong> identifiez les risques (tuiles cassées, mousse, affaissements…) sans aucun déplacement.',
       '🛠️ <strong>Un professionnel près de chez vous :</strong> un couvreur local de confiance vous accompagne pour prévenir les dégâts et engager les bons travaux.',
     ],
-    image: '/assets/images/hero/analyse-report.png',
+    image: '/assets/images/hero/analyse-report.webp',
   },
   testimonials: [
     {
