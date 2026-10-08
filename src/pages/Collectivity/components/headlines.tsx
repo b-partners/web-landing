@@ -81,7 +81,7 @@ export const Headline = () => {
   return (
     <section style={{ marginTop: 140 }} className="headline" id="description">
       <Box className="bd-container" sx={{ minHeight: { xs: '0x', lg: '80vh', xl: '70vh', xxl: '55vh' }, position: 'relative' }}>
-        <Typography sx={{ fontSize: { xs: '2rem', lg: '2.4rem' }, color: PALETTE_COLORS.neon_orange, fontWeight: 'bold' }}>
+        <Typography component="h1" sx={{ fontSize: { xs: '2rem', lg: '2.4rem' }, color: PALETTE_COLORS.neon_orange, fontWeight: 'bold' }}>
           Valorisez vos images aériennes pour éclairer la décision publique
         </Typography>
 

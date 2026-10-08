@@ -16,7 +16,7 @@ export function OfferCard({ setModalOpen, children, ...props }) {
     <>
       <div className="offer-card">
         <div>
-          <img src={imageSrc} alt={imageSrc} className="card-offer-image" />
+          <img loading="lazy" src={imageSrc} alt={imageSrc} className="card-offer-image" />
         </div>
         <div className="offer-card__info">
           <h2>{offer}</h2>

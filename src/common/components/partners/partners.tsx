@@ -63,7 +63,7 @@ export function Partners() {
                 p: { sm: '5px', lg: '10px' },
               }}
             >
-              <img {...carousel} style={{ width: '100%' }} />
+              <img loading="lazy" {...carousel} style={{ width: '100%' }} />
             </Box>
           </Box>
         ))}

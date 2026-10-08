@@ -7,7 +7,7 @@ import { Box, Typography } from '@mui/material';
 
 import { GenInput } from '../components/GenInput';
 import { RoofDiagnosticsStyle } from './styles';
-import heroImage from '/assets/images/hero/compiegne.jpg';
+import heroImage from '/assets/images/hero/compiegne.webp';
 
 export const RoofDiagnostics = () => {
   const location = useLocation();
@@ -66,7 +66,7 @@ export const RoofDiagnostics = () => {
           {!isDiagnosticAvantVente && (
             <Box className="image-container">
               {location.pathname !== '/templateGenerator' ? (
-                <img src={imageUrl} alt="" />
+                <img loading="lazy" src={imageUrl} alt="" />
               ) : (
                 <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="roofDiagnostics.image" type="file" />
               )}
