@@ -7,6 +7,7 @@ export type BlogPostIndexEntry = {
   excerpt: string;
   firstPublishedDate: string;
   minutesToRead: number;
+  coverImage?: string;
 };
 
 export type BlogAuthor = {

@@ -13,9 +13,7 @@ const PlaceholderIcon = () => (
 
 export const BlogCard = ({ post }: { post: BlogPostIndexEntry }) => (
   <Link className="bcard" to={`/blog/post/${post.slug}`}>
-    <div className="ph">
-      <PlaceholderIcon />
-    </div>
+    <div className="ph">{post.coverImage ? <img src={post.coverImage} alt="" /> : <PlaceholderIcon />}</div>
     <div className="bbody">
       <p className="meta">
         {formatPostDate(post.firstPublishedDate)} · {post.minutesToRead} min de lecture

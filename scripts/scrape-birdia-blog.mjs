@@ -269,6 +269,9 @@ async function scrapePost(url) {
   const minutesToRead = parseMinutesToRead(doc, wordCount);
 
   const nodes = heroImageUrl ? [buildImageNode(heroImageUrl), ...bodyNodes] : bodyNodes;
+  // Whatever ends up first in richContent (hero image, or a body image if a post has no hero
+  // but does have inline images) is "the first found image" — used as the card thumbnail.
+  const coverImage = nodes[0]?.type === 'IMAGE' ? nodes[0].imageData?.image?.src?.url : undefined;
 
   return {
     id: slug,
@@ -277,6 +280,7 @@ async function scrapePost(url) {
     excerpt,
     firstPublishedDate,
     minutesToRead,
+    coverImage,
     author,
     richContent: { nodes, metadata: { version: 1, createdTimestamp: firstPublishedDate, updatedTimestamp: firstPublishedDate, id: slug } },
   };
@@ -306,13 +310,14 @@ async function main() {
 
   posts.sort((a, b) => new Date(b.firstPublishedDate) - new Date(a.firstPublishedDate));
 
-  const index = posts.map(({ id, slug, title, excerpt, firstPublishedDate, minutesToRead }) => ({
+  const index = posts.map(({ id, slug, title, excerpt, firstPublishedDate, minutesToRead, coverImage }) => ({
     id,
     slug,
     title,
     excerpt,
     firstPublishedDate,
     minutesToRead,
+    coverImage,
   }));
   await writeFile(INDEX_FILE, JSON.stringify(index, null, 2));
   await Promise.all(posts.map((post) => writeFile(path.join(POSTS_DIR, `${post.slug}.json`), JSON.stringify(post, null, 2))));
