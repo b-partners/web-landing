@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 type TemplateData = any;
 export type TemplateDataLoader = () => Promise<{ default: TemplateData }>;
 
