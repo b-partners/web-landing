@@ -158,7 +158,7 @@ video {
 }
 
 .banner__section {
-    background: url('../images/welcome-background.webp');
+    background: url('/assets/images/welcome-background.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

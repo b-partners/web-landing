@@ -2,8 +2,6 @@
 /* Page Tarifs — styles scopés sous .tarifs-page                        */
 /* Repris du template tarifs.html (palette birdia.fr)                   */
 /* ==================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
-
 .tarifs-page {
   --beige: #f0ebe1;
   --green: #4b6650;
