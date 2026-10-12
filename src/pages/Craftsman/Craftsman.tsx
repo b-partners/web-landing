@@ -199,7 +199,7 @@ const plans: Plan[] = [
         <path d="M12 6v6l4 2" />
       </svg>
     ),
-    price: { monthly: '10 €', yearly: '10 €' },
+    price: { monthly: '29 €', yearly: '29 €' },
     suffix: '/ analyse',
     ht: 'Prix HT · aucun abonnement',
     cta: { label: 'Acheter une analyse', outline: true },
@@ -342,7 +342,7 @@ type CompareRow = { label: string; group: true } | { label: string; cells: [Cell
 const compareRows: CompareRow[] = [
   { label: 'Prix HT / mois', cells: ['—', '49 €', '99 €', '199 €'] },
   { label: 'Analyses toiture incluses / mois', cells: ['0', '10', '25', '60'] },
-  { label: 'Prix / analyse supp. HT', cells: ['10 €', '5 €', '4 €', '3 €'] },
+  { label: 'Prix / analyse supp. HT', cells: ['29 €', '5 €', '4 €', '3 €'] },
   { label: 'Métrés — cœur BIRDIA', group: true },
   { label: 'Surface rampant, pente, périmètre', cells: [true, true, true, true] },
   { label: 'Faîtage, rives, égouts, noues (linéaires)', cells: [true, true, true, true] },
