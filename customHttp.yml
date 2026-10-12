@@ -1,0 +1,18 @@
+# Response headers for AWS Amplify Hosting (read from the repository root on each deploy).
+# Kept conservative on purpose: a strict Content-Security-Policy (script-src) would need an allowlist of every
+# third-party tag loaded through GTM, so the CSP below only covers framing, <base> and plugins.
+customHeaders:
+  - pattern: '**'
+    headers:
+      - key: Strict-Transport-Security
+        value: max-age=31536000
+      - key: X-Frame-Options
+        value: SAMEORIGIN
+      - key: Content-Security-Policy
+        value: "frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
+      - key: Cross-Origin-Opener-Policy
+        value: same-origin-allow-popups
+      - key: X-Content-Type-Options
+        value: nosniff
+      - key: Referrer-Policy
+        value: strict-origin-when-cross-origin
