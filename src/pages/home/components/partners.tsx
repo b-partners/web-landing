@@ -141,7 +141,7 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
                   sx={{ mb: 2 }}
                 />
               ) : (
-                <img loading="lazy" src={imageUrl} alt={partner.alt} style={{ maxWidth: '300px', maxHeight: '150px' }} />
+                <img loading="lazy" src={imageUrl} alt={partner.alt} width={512} height={262} style={{ width: '100%', maxWidth: '293px', height: 'auto' }} />
               )}
             </Box>
           );

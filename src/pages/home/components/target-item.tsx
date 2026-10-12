@@ -46,7 +46,15 @@ export const TargetItem: FC<{ target: TargetType }> = ({ target }) => {
         {target.description}
       </Box>
       <Box sx={{ width: '100%', mt: 5 }}>
-        <img loading="lazy" style={{ width: '100%', borderRadius: '30px' }} src={target.img} alt={target.title} title={target.title} />
+        <img
+          loading="lazy"
+          width={512}
+          height={318}
+          style={{ width: '100%', height: 'auto', borderRadius: '30px' }}
+          src={target.img}
+          alt={target.title}
+          title={target.title}
+        />
         <LinkButton sx={{ mt: 2, px: 8, width: 'fit-content', fontSize: '1.3rem', display: 'block', mx: 'auto' }} to={target.link}>
           Découvrir
         </LinkButton>
