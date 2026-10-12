@@ -1,70 +1,11 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <!-- Clarity to check interaction -->
-    <script type="text/javascript">
-      (function (c, l, a, r, i, t, y) {
-        c[a] =
-          c[a] ||
-          function () {
-            (c[a].q = c[a].q || []).push(arguments);
-          };
-        t = l.createElement(r);
-        t.async = 1;
-        t.src = 'https://www.clarity.ms/tag/' + i;
-        y = l.getElementsByTagName(r)[0];
-        y.parentNode.insertBefore(t, y);
-      })(window, document, 'clarity', 'script', 'pwt5uzgy7a');
-    </script>
-
-    <!-- axeptio cookies script -->
-    <script>
-      window.axeptioSettings = {
-        clientId: '64a565d192d2cf55319fea00',
-      };
-
-      (function (d, s) {
-        var t = d.getElementsByTagName(s)[0],
-          e = d.createElement(s);
-        e.async = true;
-        e.src = '//static.axept.io/sdk.js';
-        t.parentNode.insertBefore(e, t);
-      })(document, 'script');
-    </script>
-    <!-- End axeptio cookies script -->
-    <!-- Meta Pixel Code -->
-    <script>
-      !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = '2.0';
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-      })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '3003387909817057');
-      fbq('track', 'PageView');
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Birdia",
-        "url": "https://www.birdia.fr",
-        "logo": "https://www.birdia.fr/assets/images/logo.webp"
-      }
-    </script>
-    <!-- End Meta Pixel Code -->
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BIRDIA, l’IA qui analyse vos toitures sur images HD</title>
     <meta name="google-site-verification" content="uRgT3gngvNaB_4XtOSSm5vSSvajgC52IppmheFTpDbE" />
+    <meta name="google-site-verification" content="SPNBxeSpjWrvfLA0NUv_t_ZiuawliGvVZV5rwaHU_F0" />
     <link rel="icon" href="/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
@@ -85,63 +26,95 @@
     <meta property="og:site_name" content="Birdia" />
     <meta name="twitter:card" content="summary_large_image" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="google-site-verification" content="SPNBxeSpjWrvfLA0NUv_t_ZiuawliGvVZV5rwaHU_F0" />
     <meta
       name="description"
       content="Mesures précises, détection d'anomalies (usures, moisissures...), et gestion de dossiers. Gagnez du temps, optimisez vos interventions !"
     />
     <meta name="keywords" content="outil IA, solution, couvreurs, analyse, inspection, toitures, audit, gain de temps, images ultra HD, aériennes" />
     <meta name="author" content="BIRDIA" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="/manifest.json" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <!--
-      Notice the use of  in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
     <link rel="stylesheet" href="/assets/css/styles.css" />
-    <title>BIRDIA, l’IA qui analyse vos toitures sur images HD</title>
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-          'gtm.start': new Date().getTime(),
-          event: 'gtm.js',
-        });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-N2GNXRQ');
-    </script>
-    <!-- End Google Tag Manager -->
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11005955331"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
 
-      gtag('config', 'AW-11005955331');
-    </script>
-    <!-- Event snippet for Prise de rdv conversion page -->
+    <!--
+      Third-party tags: Clarity, Axeptio (cookies), Meta Pixel, Google Tag Manager.
+      Their queues are set up right away so calls made before loading are kept, but the scripts themselves
+      are only downloaded once the page has rendered (first interaction, or shortly after `load`),
+      so they don't compete with the page's own resources.
+      GTM loads the Google Ads (AW-11005955331) and GA4 (G-7711D9LT1P) tags itself; don't add gtag.js here again.
+    -->
     <script>
-      gtag('event', 'conversion', { send_to: 'AW-11005955331/BstVCJvvge8YEIOahoAp' });
+      (function (w, d) {
+        // Clarity
+        w.clarity =
+          w.clarity ||
+          function () {
+            (w.clarity.q = w.clarity.q || []).push(arguments);
+          };
+
+        // Axeptio
+        w.axeptioSettings = { clientId: '64a565d192d2cf55319fea00' };
+
+        // Meta Pixel
+        if (!w.fbq) {
+          var n = (w.fbq = function () {
+            n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+          });
+          if (!w._fbq) w._fbq = n;
+          n.push = n;
+          n.loaded = true;
+          n.version = '2.0';
+          n.queue = [];
+        }
+        w.fbq('init', '3003387909817057');
+        w.fbq('track', 'PageView');
+
+        // Google Tag Manager + gtag queue
+        w.dataLayer = w.dataLayer || [];
+        w.gtag = function () {
+          w.dataLayer.push(arguments);
+        };
+        w.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        // Event snippet for Prise de rdv conversion page
+        w.gtag('event', 'conversion', { send_to: 'AW-11005955331/BstVCJvvge8YEIOahoAp' });
+
+        var loaded = false;
+        var events = ['scroll', 'pointerdown', 'keydown', 'touchstart', 'mousemove'];
+        function addScript(src) {
+          var s = d.createElement('script');
+          s.async = true;
+          s.src = src;
+          d.head.appendChild(s);
+        }
+        function load() {
+          if (loaded) return;
+          loaded = true;
+          events.forEach(function (e) {
+            w.removeEventListener(e, load);
+          });
+          addScript('https://www.googletagmanager.com/gtm.js?id=GTM-N2GNXRQ');
+          addScript('https://static.axept.io/sdk.js');
+          addScript('https://www.clarity.ms/tag/pwt5uzgy7a');
+          addScript('https://connect.facebook.net/en_US/fbevents.js');
+        }
+        events.forEach(function (e) {
+          w.addEventListener(e, load, { once: true, passive: true });
+        });
+        w.addEventListener('load', function () {
+          setTimeout(load, 2500);
+        });
+      })(window, document);
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Birdia",
+        "url": "https://www.birdia.fr",
+        "logo": "https://www.birdia.fr/assets/images/logo.webp"
+      }
     </script>
     <script type="application/ld+json">
       {
@@ -177,29 +150,6 @@
     <!-- End Google Tag Manager (noscript) -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-  This HTML file is a template.
-  If you open it directly in the browser, you will see an empty page.
-
-  You can add webfonts, meta tags, or analytics to this file.
-  The build step will place the bundled scripts into the <body> tag.
-
-  To begin the development, run `npm start` or `yarn start`.
-  To create a production bundle, use `npm run build` or `yarn build`.
--->
+    <script type="module" src="src/index.tsx"></script>
   </body>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7711D9LT1P"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-7711D9LT1P');
-  </script>
-  <script type="module" src="src/index.tsx"></script>
 </html>
