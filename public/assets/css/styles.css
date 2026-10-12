@@ -128,7 +128,7 @@ video {
     font-size: 1.8rem;
 }
 
-.fa-check {
+.icon-check {
     color: var(--first-color-logo);
     border: 2px solid var(--first-color-logo);
     border-radius: 21.4px;
@@ -136,7 +136,7 @@ video {
     margin-bottom: 1rem;
 }
 
-.fa-chevron-down {
+.icon-chevron-down {
     color: var(--first-color-logo);
 }
 

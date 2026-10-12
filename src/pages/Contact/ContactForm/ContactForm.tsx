@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 
 import { api } from '@/config';
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
 import TextField, { TextFieldProps } from '@mui/material/TextField';
 import { useSnackbar } from '@store/snackbar';
 
@@ -54,11 +56,11 @@ export function ContactForm() {
             CONTACT ACCUEIL
             <ul style={{ marginBlock: '1rem' }}>
               <li>
-                <i className="fa fa-phone" />
+                <PhoneIcon fontSize="inherit" sx={{ mr: 1, verticalAlign: 'middle' }} />
                 <u>06 68 62 48 36</u>
               </li>
               <li>
-                <i className="fa fa-envelope logo-color" />
+                <EmailIcon className="logo-color" fontSize="inherit" sx={{ mr: 1, verticalAlign: 'middle' }} />
                 <a href="mailto:contact@birdia.fr">
                   <u className="logo-color">contact@birdia.fr</u>
                 </a>
