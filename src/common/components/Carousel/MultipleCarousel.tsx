@@ -34,6 +34,8 @@ const MULTIPLE_CAROUSEL_WRAPPER_SX: SxProps = {
     alignItems: 'center',
   },
   '& .react-multi-carousel-dot button': {
+    // 12px dots spaced 24px apart: the minimum touch-target spacing (WCAG 2.5.8).
+    margin: '0 6px',
     borderColor: 'gray',
   },
   '& .react-multi-carousel-dot--active button': {
