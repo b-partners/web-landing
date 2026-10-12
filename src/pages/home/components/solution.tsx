@@ -46,7 +46,7 @@ export const Solution = () => {
               textAlign: { xs: 'center', md: 'start' },
               mx: { xs: 'auto', md: '0' },
               fontWeight: 'bold',
-              color: PALETTE_COLORS.neon_orange,
+              color: PALETTE_COLORS.orange_text,
             }}
           >
             Rapide
@@ -75,7 +75,7 @@ export const Solution = () => {
               textAlign: { xs: 'center', md: 'start' },
               mx: { xs: 'auto', md: '0' },
               fontWeight: 'bold',
-              color: PALETTE_COLORS.neon_orange,
+              color: PALETTE_COLORS.orange_text,
             }}
           >
             Précis

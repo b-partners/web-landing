@@ -46,7 +46,7 @@ export const Movies = () => {
           >
             <span style={{ color: PALETTE_COLORS.cream }}>Prise de décision</span>
             {'  '}
-            <span style={{ color: PALETTE_COLORS.neon_orange }}>optimisée</span>
+            <span style={{ color: PALETTE_COLORS.peach }}>optimisée</span>
           </Typography>
           <Typography sx={{ maxWidth: '700px', textAlign: { xs: 'center', md: 'start' }, fontSize: { xs: '1rem', xl: '1.3rem' }, color: PALETTE_COLORS.cream }}>
             Des données précises à portée de main pour agir rapidement.
@@ -63,7 +63,7 @@ export const Movies = () => {
           >
             <span style={{ color: PALETTE_COLORS.black }}>Processus d’analyse</span>
             {'  '}
-            <span style={{ color: PALETTE_COLORS.neon_orange }}>simplifié</span>
+            <span style={{ color: PALETTE_COLORS.orange_text_on_peach }}>simplifié</span>
           </Typography>
           <Typography sx={{ maxWidth: '700px', textAlign: { xs: 'center', md: 'start' }, fontSize: { xs: '1rem', xl: '1.3rem' }, color: PALETTE_COLORS.black }}>
             Notre technologie automatise l’analyse des images aériennes pour détecter les objets et les anomalies en un clic.

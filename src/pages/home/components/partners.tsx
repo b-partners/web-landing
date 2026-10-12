@@ -117,7 +117,7 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
             mb: 10,
             textAlign: 'center',
             fontWeight: 'bold',
-            color: PALETTE_COLORS.neon_orange,
+            color: PALETTE_COLORS.orange_text,
           }}
         >
           {getValues('theyTrustUs.title') || 'Ils nous font confiance'}

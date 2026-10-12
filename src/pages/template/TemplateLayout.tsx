@@ -14,7 +14,9 @@ export const TemplateLayout = () => {
     <>
       <Navbar />
       <div className="page-overflow-guard">
-        <Outlet />
+        <main>
+          <Outlet />
+        </main>
       </div>
     </>
   );

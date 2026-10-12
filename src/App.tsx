@@ -258,7 +258,9 @@ const PublicLayout = () => {
     <>
       <Navbar />
       <div className="page-overflow-guard">
-        <Outlet />
+        <main>
+          <Outlet />
+        </main>
         <Footer />
       </div>
     </>
