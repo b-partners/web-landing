@@ -1,5 +1,6 @@
 import React from 'react';
 
+import CheckIcon from '@mui/icons-material/Check';
 import PropTypes from 'prop-types';
 
 import './IconList.css';
@@ -9,7 +10,7 @@ export function IconList({ icon = null, imageSrc = 'fa fa-bullseye fa-2x', listT
     <li className="home-list-item">
       {imageSrc === '' ? (
         <div>
-          <i className="fa fa-check" aria-hidden="true" />
+          <CheckIcon className="icon-check" fontSize="inherit" aria-hidden="true" />
         </div>
       ) : icon ? (
         <>{icon}</>

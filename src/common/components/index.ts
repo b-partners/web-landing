@@ -4,3 +4,4 @@ export * from './ImageGallery';
 export * from './Carousel';
 export * from './flex-box';
 export * from './get-in-touch';
+export * from './youtube-embed';

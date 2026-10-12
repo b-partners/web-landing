@@ -1,5 +1,7 @@
 import React, { useRef, useState } from 'react';
 
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Accordion, AccordionActions, AccordionDetails, AccordionSummary, Button } from '@mui/material';
 import PropTypes from 'prop-types';
 
@@ -18,13 +20,13 @@ export function AccordionItem({ accordionTitle, accordionDetails }) {
 
   return (
     <Accordion ref={accordionRef} sx={{ marginTop: '2rem' }} expanded={expanded} onChange={handleExpansion}>
-      <AccordionSummary id="panel-header" aria-controls="panel-content" expandIcon={<i className="fa fa-chevron-down" />}>
+      <AccordionSummary id="panel-header" aria-controls="panel-content" expandIcon={<ExpandMoreIcon className="icon-chevron-down" />}>
         <h2 className="logo-color usecase__item-title">{accordionTitle}</h2>
       </AccordionSummary>
       <AccordionDetails>{accordionDetails}</AccordionDetails>
       <AccordionActions>
         <Button onClick={scrollToAccordion}>
-          <i className="fa fa-chevron-up" style={{ marginRight: '1.2rem' }} />
+          <ExpandLessIcon style={{ marginRight: '1.2rem' }} />
           <span>Fermer la section</span>
         </Button>
       </AccordionActions>

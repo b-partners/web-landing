@@ -117,7 +117,7 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
             mb: 10,
             textAlign: 'center',
             fontWeight: 'bold',
-            color: PALETTE_COLORS.neon_orange,
+            color: PALETTE_COLORS.orange_text,
           }}
         >
           {getValues('theyTrustUs.title') || 'Ils nous font confiance'}
@@ -141,7 +141,7 @@ export const Partners: FC<PartnersProps> = ({ partnersFromJson }) => {
                   sx={{ mb: 2 }}
                 />
               ) : (
-                <img loading="lazy" src={imageUrl} alt={partner.alt} style={{ maxWidth: '300px', maxHeight: '150px' }} />
+                <img loading="lazy" src={imageUrl} alt={partner.alt} width={512} height={262} style={{ width: '100%', maxWidth: '293px', height: 'auto' }} />
               )}
             </Box>
           );

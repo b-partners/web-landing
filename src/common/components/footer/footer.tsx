@@ -30,16 +30,16 @@ const SocialLinkWithLabel = () => (
 
 const SocialLinks = () => (
   <>
-    <IconButton href="https://www.facebook.com/profile.php?id=100086704691881">
+    <IconButton href="https://www.facebook.com/profile.php?id=100086704691881" aria-label="BIRDIA sur Facebook">
       <Facebook />
     </IconButton>
-    <IconButton href="https://www.instagram.com/bpartners_ia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+    <IconButton href="https://www.instagram.com/bpartners_ia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" aria-label="BIRDIA sur Instagram">
       <Instagram />
     </IconButton>
-    <IconButton href="https://www.linkedin.com/company/birdia/posts/?feedView=all&viewAsMember=true">
+    <IconButton href="https://www.linkedin.com/company/birdia/posts/?feedView=all&viewAsMember=true" aria-label="BIRDIA sur LinkedIn">
       <LinkedIn />
     </IconButton>
-    <IconButton href="https://www.youtube.com/@birdia6145">
+    <IconButton href="https://www.youtube.com/@birdia6145" aria-label="BIRDIA sur YouTube">
       <YouTube />
     </IconButton>
   </>

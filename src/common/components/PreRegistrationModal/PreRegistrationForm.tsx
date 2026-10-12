@@ -2,6 +2,7 @@ import { FormProvider } from 'react-hook-form';
 
 import { usePreRegistrationForm } from '@/common/form';
 import { usePreRegistrationMutation } from '@/common/query';
+import CheckIcon from '@mui/icons-material/Check';
 import { Box, DialogActions, DialogContent, DialogTitle, Stack, Typography } from '@mui/material';
 import { useDialog } from '@store/dialog';
 import MuiPhoneNumber from 'material-ui-phone-number';
@@ -33,7 +34,7 @@ export function PreRegistrationForm({ email = '' }) {
       <FormProvider {...preRegistrationForm}>
         <DialogTitle>
           <Typography variant="body1" sx={{ textAlign: 'center' }}>
-            <i className="fa fa-check" aria-hidden="true" /> Merci, votre pré-inscription est bien prise en compte.
+            <CheckIcon className="icon-check" fontSize="inherit" aria-hidden="true" /> Merci, votre pré-inscription est bien prise en compte.
           </Typography>
         </DialogTitle>
         <form style={{ width: '100%' }} onSubmit={handleSubmit}>

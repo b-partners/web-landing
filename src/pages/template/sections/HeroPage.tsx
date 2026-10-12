@@ -65,7 +65,8 @@ export const HeroPage = () => {
         </Box>
         <Box className="content-image">
           {location.pathname !== '/templateGenerator' ? (
-            <img src={imageUrl} alt="Illustration Hero" />
+            // Size of the default image, so the browser reserves its space before it loads (no layout shift).
+            <img src={imageUrl} alt="Illustration Hero" {...(imageUrl === heroImage ? { width: 1161, height: 707 } : {})} />
           ) : (
             <Box className="box-image-template">
               <GenInput inputComponent="input" inputProps={{ accept: 'image/*' } as any} name="hero.image" type="file" />

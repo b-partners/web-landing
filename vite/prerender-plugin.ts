@@ -26,6 +26,8 @@ type Snapshot = {
   title: string;
   head: Record<string, string>;
   styles: string;
+  /** Lazy-loaded chunks (page JS and CSS) the route needed, as `/assets/...` paths. */
+  assets: string[];
   body: string;
 };
 
@@ -89,7 +91,14 @@ const injectSnapshot = (shell: string, snapshot: Snapshot) => {
     const existing = new RegExp(`<${element}\\s[^>]*${key}="${name}"[^>]*>`);
     html = existing.test(html) ? html.replace(existing, () => tag) : html.replace('</head>', () => `  ${tag}\n  </head>`);
   }
-  html = html.replace('</head>', () => `  <style data-prerender>${snapshot.styles}</style>\n  </head>`);
+  // Link the route's lazy chunks so the page is styled before the JS runs (no layout shift) and its JS downloads early.
+  // Vite's preload helper skips chunks that are already linked when the app later imports them.
+  const assetTags = snapshot.assets
+    .filter((asset) => !shell.includes(asset))
+    .map((asset) =>
+      asset.endsWith('.css') ? `<link rel="stylesheet" crossorigin href="${asset}">` : `<link rel="modulepreload" crossorigin href="${asset}">`
+    );
+  html = html.replace('</head>', () => [...assetTags, `<style data-prerender>${snapshot.styles}</style>`].map((tag) => `  ${tag}\n`).join('') + '  </head>');
   return html.replace('<div id="root"></div>', () => `<div id="root">${snapshot.body}</div>`);
 };
 
@@ -150,7 +159,12 @@ export const prerender = ({ sitemapPath, siteUrl, exclude = () => false, extraRo
             const styles = [...document.querySelectorAll<HTMLStyleElement>('style[data-emotion]')]
               .map((style) => [...(style.sheet?.cssRules ?? [])].map((rule) => rule.cssText).join(''))
               .join('');
-            return { title: document.title, head, styles, body: document.getElementById('root')?.innerHTML ?? '' };
+            const assets = performance
+              .getEntriesByType('resource')
+              .map((entry) => new URL(entry.name))
+              .filter((url) => url.origin === location.origin && url.pathname.startsWith('/assets/') && /\.(js|css)$/.test(url.pathname))
+              .map((url) => url.pathname);
+            return { title: document.title, head, styles, assets: [...new Set(assets)], body: document.getElementById('root')?.innerHTML ?? '' };
           }, HEAD_TAGS);
           snapshots.set(route, snapshot);
         } catch (error) {

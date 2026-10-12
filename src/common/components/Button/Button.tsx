@@ -1,5 +1,7 @@
 import { ButtonHTMLAttributes, DetailedHTMLProps, FC } from 'react';
 
+import { CircularProgress } from '@mui/material';
+
 import './Button.css';
 
 export type ButtonProps = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> & {
@@ -13,7 +15,7 @@ export const Button: FC<ButtonProps> = ({ loading = false, type = 'button', id =
     <button type={type} className={`btn ${preset}`} onClick={onClick} id={id}>
       {loading ? (
         <>
-          <i className="fa fa-spinner fa-spin" />
+          <CircularProgress size="1em" color="inherit" sx={{ mr: 1, verticalAlign: 'middle' }} />
           {label}
         </>
       ) : (

@@ -8,4 +8,7 @@ export const PALETTE_COLORS = {
   forest: '#112717',
   neon_orange: '#FF521B',
   neon_orange_light: '#FF6030FF',
+  // Darker oranges for text, readable (WCAG AA, large text) where neon_orange is too light: on white/cream, and on peach.
+  orange_text: '#C93A0C',
+  orange_text_on_peach: '#A82E06',
 };

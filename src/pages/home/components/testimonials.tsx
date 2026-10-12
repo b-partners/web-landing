@@ -36,6 +36,8 @@ const TESTIMONIAL_SX: SxProps = {
     justifyContent: { xs: 'center', md: 'start' },
   },
   '& .react-multi-carousel-dot button': {
+    // 12px dots spaced 24px apart: the minimum touch-target spacing (WCAG 2.5.8).
+    margin: '0 6px',
     border: 'none !important',
     bgcolor: 'var(--peach)',
   },

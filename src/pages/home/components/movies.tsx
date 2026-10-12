@@ -1,4 +1,4 @@
-import { FlexBox } from '@/common/components';
+import { FlexBox, YouTubeEmbed } from '@/common/components';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Box, SxProps, Typography } from '@mui/material';
 
@@ -20,15 +20,7 @@ export const Movies = () => {
           minWidth: '400px',
         }}
       >
-        <iframe
-          id="birdia-movie"
-          width="700px"
-          height="500px"
-          style={{ borderRadius: '30px' }}
-          allowFullScreen
-          title="BIRDIA"
-          src="https://youtube.com/embed/B2qkOKyKkp0?autoplay=0"
-        />
+        <YouTubeEmbed id="birdia-movie" style={{ borderRadius: '30px' }} title="BIRDIA" src="https://www.youtube.com/embed/B2qkOKyKkp0" />
       </FlexBox>
       <Box sx={{ flex: 1, minWidth: '450px' }}>
         <FlexBox sx={{ flexDirection: 'column', gap: 3, alignItems: { xs: 'center', md: 'start' }, py: 5, px: 4, minHeight: '250px', bgcolor: 'white' }}>
@@ -54,7 +46,7 @@ export const Movies = () => {
           >
             <span style={{ color: PALETTE_COLORS.cream }}>Prise de décision</span>
             {'  '}
-            <span style={{ color: PALETTE_COLORS.neon_orange }}>optimisée</span>
+            <span style={{ color: PALETTE_COLORS.peach }}>optimisée</span>
           </Typography>
           <Typography sx={{ maxWidth: '700px', textAlign: { xs: 'center', md: 'start' }, fontSize: { xs: '1rem', xl: '1.3rem' }, color: PALETTE_COLORS.cream }}>
             Des données précises à portée de main pour agir rapidement.
@@ -71,7 +63,7 @@ export const Movies = () => {
           >
             <span style={{ color: PALETTE_COLORS.black }}>Processus d’analyse</span>
             {'  '}
-            <span style={{ color: PALETTE_COLORS.neon_orange }}>simplifié</span>
+            <span style={{ color: PALETTE_COLORS.orange_text_on_peach }}>simplifié</span>
           </Typography>
           <Typography sx={{ maxWidth: '700px', textAlign: { xs: 'center', md: 'start' }, fontSize: { xs: '1rem', xl: '1.3rem' }, color: PALETTE_COLORS.black }}>
             Notre technologie automatise l’analyse des images aériennes pour détecter les objets et les anomalies en un clic.

@@ -1,17 +1,22 @@
+import { CSSProperties } from 'react';
+
 import { FlexBox } from '@/common/components';
 import { CTAButton, LoginButton } from '@/common/components/buttons';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Box, Divider, SxProps, Typography } from '@mui/material';
 
 const HOME_SX: SxProps = {
+  position: 'relative',
   width: '100%',
   minHeight: '100vh',
-  backgroundSize: 'cover',
-  backgroundPosition: 'center',
-  backgroundImage: 'url(/assets/images/background.webp)',
 };
 
+// The hero photo is the page's LCP element: a real <img> (rather than a CSS background) is in the prerendered HTML,
+// so the browser starts downloading it right away, and phones get the smaller version.
+const HERO_IMAGE_STYLE: CSSProperties = { position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' };
+
 const HOME_CONTAINER_SX: SxProps = {
+  position: 'relative',
   p: { xs: 4, md: 10, xxl: 15 },
   width: '100%',
   bgcolor: 'red',
@@ -24,6 +29,17 @@ const HOME_CONTAINER_SX: SxProps = {
 export const Hero = () => {
   return (
     <Box id="home" component="header" sx={HOME_SX}>
+      <img
+        src="/assets/images/background.webp"
+        srcSet="/assets/images/background-768.webp 768w, /assets/images/background.webp 1200w"
+        sizes="100vw"
+        width={1200}
+        height={900}
+        alt=""
+        // React 18 doesn't know the camelCase prop yet; pass the HTML attribute as is.
+        {...{ fetchpriority: 'high' }}
+        style={HERO_IMAGE_STYLE}
+      />
       <FlexBox sx={{ ...HOME_CONTAINER_SX, justifyContent: 'center' }}>
         <FlexBox sx={{ flexDirection: 'column', mx: 'auto', gap: 4, maxWidth: { sm: '800px', xl: '1000px', xxl: '1200px' } }}>
           <Typography

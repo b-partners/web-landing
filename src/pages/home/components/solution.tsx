@@ -46,7 +46,7 @@ export const Solution = () => {
               textAlign: { xs: 'center', md: 'start' },
               mx: { xs: 'auto', md: '0' },
               fontWeight: 'bold',
-              color: PALETTE_COLORS.neon_orange,
+              color: PALETTE_COLORS.orange_text,
             }}
           >
             Rapide
@@ -75,7 +75,7 @@ export const Solution = () => {
               textAlign: { xs: 'center', md: 'start' },
               mx: { xs: 'auto', md: '0' },
               fontWeight: 'bold',
-              color: PALETTE_COLORS.neon_orange,
+              color: PALETTE_COLORS.orange_text,
             }}
           >
             Précis
@@ -111,7 +111,14 @@ export const Solution = () => {
           </FlexBox>
         </Box>
         <FlexBox sx={{ minWidth: '400px', flex: 1, mt: { xs: 5, md: 0 }, justifyContent: { xs: 'center', lg: 'end' } }}>
-          <img loading="lazy" src={'/assets/images/b-image.webp'} alt="BIRDIA" style={{ width: '80%', maxWidth: md ? '400px' : '300px' }} />
+          <img
+            loading="lazy"
+            src={'/assets/images/b-image.webp'}
+            alt="BIRDIA"
+            width={830}
+            height={830}
+            style={{ width: '80%', height: 'auto', maxWidth: md ? '400px' : '300px' }}
+          />
         </FlexBox>
       </FlexBox>
     </Box>
