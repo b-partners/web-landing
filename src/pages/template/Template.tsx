@@ -9,14 +9,15 @@ import { HeroPage, TheyTrustUs } from './sections';
 import { FAQ } from './sections/FAQ';
 import { FooterTemplate } from './sections/FooterTemplate';
 import { RoofDiagnostics } from './sections/RoofDiagnostics';
-import { useTemplateGenStore, useUpdateMeta } from './utils';
+import { TemplateDataLoader, useTemplateData, useTemplateGenStore, useUpdateMeta } from './utils';
 import { TemplateGeneratorFormProvider } from './utils/template-gen-form';
 
 interface TemplateProps {
-  jsonData: any;
+  jsonData: any | TemplateDataLoader;
 }
 
-export const Template: FC<TemplateProps> = ({ jsonData }) => {
+export const Template: FC<TemplateProps> = (props) => {
+  const jsonData = useTemplateData(props.jsonData);
   const { jsonToEdit } = useTemplateGenStore();
 
   useUpdateMeta(jsonData.metaTitle, jsonData.metaDescription);

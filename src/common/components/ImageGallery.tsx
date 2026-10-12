@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import ReactImageGallery, { ReactImageGalleryProps } from 'react-image-gallery';
+import 'react-image-gallery/styles/css/image-gallery.css';
 
 import { BP_COLOR } from '@/config';
 import { Box, SxProps } from '@mui/material';

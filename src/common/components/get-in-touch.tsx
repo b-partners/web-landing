@@ -1,7 +1,6 @@
 import { useForm } from 'react-hook-form';
 
 import { Button } from '@/common/components/Button';
-import { PreRegistrationForm } from '@/common/components/PreRegistrationModal';
 import { PALETTE_COLORS } from '@/config/theme';
 import { SxProps, TextField, useMediaQuery } from '@mui/material';
 import { useDialog } from '@store/dialog';
@@ -32,7 +31,9 @@ export const GetInTouchForm = () => {
     },
   });
 
-  const onEmailRegistration = ({ email }: Pick<User, 'email'>) => {
+  const onEmailRegistration = async ({ email }: Pick<User, 'email'>) => {
+    // Loaded on demand: the form pulls in the phone-number field and its country data.
+    const { PreRegistrationForm } = await import('@/common/components/PreRegistrationModal');
     openDialog(<PreRegistrationForm email={email} />);
   };
 

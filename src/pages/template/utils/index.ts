@@ -4,3 +4,4 @@ export * from './template-gen-json-download';
 export * from '@/common/utils/use-update-meta';
 export * from './use-template-form-context';
 export * from './template-gen-store';
+export * from './use-template-data';

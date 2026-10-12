@@ -5,14 +5,15 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { Button, Dialog, DialogActions, DialogContent, DialogTitle, TextField } from '@mui/material';
 import { z } from 'zod';
 
-import { jsonDataUrlList } from '../json-data';
 import { useTemplateGenStore } from '../utils';
 import { templateGenDownloadBase64Txt } from '../utils/template-gen-json-download';
 
 const schema = z.object({
   route: z
     .custom((v) => `${v}`.length > 0, { message: 'Ce champs est requis.' })
-    .refine((v) => !jsonDataUrlList.includes(`${v}`), { message: 'L’URL que vous avez saisie existe déjà. Veuillez en choisir une autre.' }),
+    .refine(async (v) => !(await import('../json-data')).jsonDataUrlList.includes(`${v}`), {
+      message: 'L’URL que vous avez saisie existe déjà. Veuillez en choisir une autre.',
+    }),
   title: z.custom((v) => `${v}`.length > 0, { message: 'Ce champs est requis.' }),
   description: z.custom((v) => `${v}`.length > 0, { message: 'Ce champs est requis.' }),
   filename: z.custom((v) => `${v}`.length > 0, { message: 'Ce champs est requis.' }),

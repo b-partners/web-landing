@@ -1,7 +1,7 @@
 import { ThemeProvider } from '@emotion/react';
 import * as Sentry from '@sentry/react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import React, { useLayoutEffect } from 'react';
+import React, { startTransition, useLayoutEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -30,15 +30,19 @@ const RemovePrerenderStyles = (): null => {
 
 const appContainer = document.getElementById('root');
 const root = createRoot(appContainer);
-root.render(
-  <React.StrictMode>
-    <Router>
-      <QueryClientProvider client={queryClient}>
-        <ThemeProvider theme={theme}>
-          <App />
-          <RemovePrerenderStyles />
-        </ThemeProvider>
-      </QueryClientProvider>
-    </Router>
-  </React.StrictMode>
-);
+// Rendered in a transition, like route changes (`v7_startTransition`): pages are lazy-loaded without a <Suspense> boundary,
+// and in a transition React keeps what's on screen (the prerendered HTML here) until the page's chunk has loaded.
+startTransition(() => {
+  root.render(
+    <React.StrictMode>
+      <Router future={{ v7_startTransition: true }}>
+        <QueryClientProvider client={queryClient}>
+          <ThemeProvider theme={theme}>
+            <App />
+            <RemovePrerenderStyles />
+          </ThemeProvider>
+        </QueryClientProvider>
+      </Router>
+    </React.StrictMode>
+  );
+});
