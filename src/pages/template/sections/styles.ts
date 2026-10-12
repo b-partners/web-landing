@@ -35,6 +35,7 @@ export const HeroPageStyle: SxProps = {
   },
   '& img': {
     width: { xs: '90%', sm: '80%', md: '90%', lg: '100%' },
+    height: 'auto',
     maxWidth: { sm: '500px', lg: '100%' },
     objectFit: { xs: 'contain', md: 'cover', lg: 'contain' },
   },
