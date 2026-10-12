@@ -1,4 +1,4 @@
-import { FlexBox } from '@/common/components';
+import { FlexBox, YouTubeEmbed } from '@/common/components';
 import { PALETTE_COLORS } from '@/config/theme';
 import { Box, SxProps, Typography } from '@mui/material';
 
@@ -20,15 +20,7 @@ export const Movies = () => {
           minWidth: '400px',
         }}
       >
-        <iframe
-          id="birdia-movie"
-          width="700px"
-          height="500px"
-          style={{ borderRadius: '30px' }}
-          allowFullScreen
-          title="BIRDIA"
-          src="https://youtube.com/embed/B2qkOKyKkp0?autoplay=0"
-        />
+        <YouTubeEmbed id="birdia-movie" style={{ borderRadius: '30px' }} title="BIRDIA" src="https://www.youtube.com/embed/B2qkOKyKkp0" />
       </FlexBox>
       <Box sx={{ flex: 1, minWidth: '450px' }}>
         <FlexBox sx={{ flexDirection: 'column', gap: 3, alignItems: { xs: 'center', md: 'start' }, py: 5, px: 4, minHeight: '250px', bgcolor: 'white' }}>

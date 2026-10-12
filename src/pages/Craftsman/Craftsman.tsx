@@ -1,6 +1,7 @@
 import { ReactNode, useLayoutEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
+import { YouTubeEmbed } from '@/common/components';
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
 import { bookYourDemoUrl } from '@pages/Advertising-Campaign/components';
 
@@ -497,7 +498,11 @@ export const Craftsman = () => {
             <div>
               {HERO_VIDEO_URL ? (
                 <div className="video-slot">
-                  <iframe title="BIRDIA — démo couvreurs" src={HERO_VIDEO_URL} allowFullScreen />
+                  <YouTubeEmbed
+                    title="BIRDIA — démo couvreurs"
+                    src={HERO_VIDEO_URL}
+                    style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}
+                  />
                 </div>
               ) : (
                 <a href={bookYourDemoUrl} target="_blank" rel="noreferrer" className="video-slot" style={{ textDecoration: 'none' }}>
@@ -587,7 +592,11 @@ export const Craftsman = () => {
             <div>
               {PRISE_DE_COTE_VIDEO_URL ? (
                 <div className="video-slot" style={{ aspectRatio: '16 / 9' }}>
-                  <iframe title="BIRDIA — prise de côte" src={PRISE_DE_COTE_VIDEO_URL} allowFullScreen />
+                  <YouTubeEmbed
+                    title="BIRDIA — prise de côte"
+                    src={PRISE_DE_COTE_VIDEO_URL}
+                    style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}
+                  />
                 </div>
               ) : (
                 <a href={bookYourDemoUrl} target="_blank" rel="noreferrer" className="video-slot" style={{ textDecoration: 'none', aspectRatio: '16 / 9' }}>
