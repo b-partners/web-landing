@@ -6,6 +6,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import App from '@/App';
+import { reportWebVitals } from '@/common/utils/report-web-vitals';
 import { environment, theme } from '@/config';
 import { BrowserTracing } from '@sentry/tracing';
 
@@ -46,3 +47,5 @@ startTransition(() => {
     </React.StrictMode>
   );
 });
+
+reportWebVitals();
