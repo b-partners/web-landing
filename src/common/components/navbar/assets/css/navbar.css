@@ -58,6 +58,29 @@
 .site-menu a.active {
   color: var(--orange);
 }
+.site-menu .has-sub {
+  position: relative;
+}
+.site-sub {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -16px;
+  min-width: 240px;
+  margin: 0;
+  padding: 10px 16px;
+  list-style: none;
+  background: var(--white);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(19, 41, 28, 0.12);
+}
+.site-sub li + li {
+  margin-top: 10px;
+}
+.site-menu .has-sub:hover > .site-sub,
+.site-menu .has-sub:focus-within > .site-sub {
+  display: block;
+}
 .site-nav-cta {
   display: flex;
   align-items: center;
@@ -117,6 +140,13 @@
     gap: 14px;
     width: 100%;
     margin: 10px 0;
+  }
+  .site-nav.open .site-sub {
+    display: block;
+    position: static;
+    min-width: 0;
+    padding: 8px 0 0 16px;
+    box-shadow: none;
   }
   .site-nav.open .site-nav-cta {
     display: flex;
