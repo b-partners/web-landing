@@ -6,7 +6,6 @@ import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
 import './assets/css/fonctionnalites-imagerie-methode.css';
 import vue2d from './assets/img/vue-2d-contour-toiture.webp';
-import vue3d from './assets/img/vue-3d-pans-mesures.webp';
 
 const CheckIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="var(--peach)" strokeWidth={2.5} aria-hidden="true">
@@ -131,25 +130,17 @@ export const FonctionnalitesImagerieMethode = () => {
             De l'orthophoto départementale au rapport exploitable
           </h2>
           <p className="intro">Chaque analyse part d'une image aérienne datée et géolocalisée, avec son niveau de zoom et sa source clairement identifiés.</p>
-          <div className="grid2">
-            <div>
-              <div className="shotwrap">
-                <img
-                  src={vue2d}
-                  alt="Image source identifiée (ici HAUTE-GARONNE_2022_5cm, GPS 43.5844889, 1.4173278), avec choix du niveau de zoom et de la source d'image"
-                  loading="lazy"
-                />
-              </div>
-              <p className="shotcap">
-                Image source identifiée (ici HAUTE-GARONNE_2022_5cm, GPS 43.5844889, 1.4173278), avec choix du niveau de zoom et de la source d'image
-              </p>
+          <div className="shot1">
+            <div className="shotwrap">
+              <img
+                src={vue2d}
+                alt="Image source identifiée (ici HAUTE-GARONNE_2022_5cm, GPS 43.5844889, 1.4173278), avec choix du niveau de zoom et de la source d'image"
+                loading="lazy"
+              />
             </div>
-            <div>
-              <div className="shotwrap">
-                <img src={vue3d} alt="Le même bâtiment restitué en 3D, pan par pan, à partir de cette seule image source" loading="lazy" />
-              </div>
-              <p className="shotcap">Le même bâtiment restitué en 3D, pan par pan, à partir de cette seule image source</p>
-            </div>
+            <p className="shotcap">
+              Image source identifiée (ici HAUTE-GARONNE_2022_5cm, GPS 43.5844889, 1.4173278), avec choix du niveau de zoom et de la source d'image
+            </p>
           </div>
         </div>
       </section>
