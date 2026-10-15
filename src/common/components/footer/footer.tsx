@@ -7,6 +7,7 @@ import { Facebook, Instagram, LinkedIn, YouTube } from '@mui/icons-material';
 import { Box, Button, Divider, IconButton, Typography, useMediaQuery, useTheme } from '@mui/material';
 
 import { FlexBox } from '../flex-box';
+import { COMPANY_LINKS, FEATURES_LINK, PERSONAS_LINK } from '../navbar/utils/constants';
 
 const LinkItem: FC<{ to: string; label: string } & LinkProps> = ({ label, to }) => {
   return (
@@ -25,6 +26,28 @@ const SocialLinkWithLabel = () => (
     <Button variant="text" sx={{ p: 0, fontSize: '1.1rem', textDecoration: 'underline' }}>
       Nous recrutons !
     </Button>
+  </>
+);
+
+// Every public page is linked from here (see navbar/utils/constants.ts), so no page is orphaned.
+const FOOTER_COLUMNS = [
+  { title: PERSONAS_LINK.label, links: [{ to: PERSONAS_LINK.to, label: 'Tous les profils' }, ...PERSONAS_LINK.children] },
+  { title: FEATURES_LINK.label, links: [{ to: FEATURES_LINK.to, label: 'Toutes les fonctionnalités' }, ...FEATURES_LINK.children] },
+  { title: 'Société', links: COMPANY_LINKS },
+];
+
+const SiteLinks: FC<{ align?: 'start' | 'center' }> = ({ align = 'start' }) => (
+  <>
+    {FOOTER_COLUMNS.map(({ title, links }) => (
+      <FlexBox key={title} sx={{ alignItems: align === 'center' ? 'center' : 'start', flexDirection: 'column', gap: 1, flex: 1 }}>
+        <Typography sx={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{title}</Typography>
+        {links.map(({ to, label }) => (
+          <Link key={to} to={to} style={{ textDecoration: 'underline' }}>
+            {label}
+          </Link>
+        ))}
+      </FlexBox>
+    ))}
   </>
 );
 
@@ -86,6 +109,7 @@ export const Footer = () => {
           <FlexBox sx={{ alignItems: 'start', flexDirection: 'column', gap: 4, flex: 1 }}>
             <SocialLinkWithLabel />
           </FlexBox>
+          <SiteLinks />
           <FlexBox sx={{ alignItems: 'start', flexDirection: 'column', gap: 4, flex: 1 }}>
             <LinkItem to="/blog/post/dpe-toiture" label="DPE Toiture" />
             <LinkItem to="/blog/post/assurance-habitation-préventive" label="Assurance habitation préventive" />
@@ -122,6 +146,7 @@ const MdFooter = () => {
     <Box component="footer" sx={{ '& *': { color: 'var(--cream) !important' }, width: '100%', py: 5, px: 4, bgcolor: PALETTE_COLORS.pine, minHeight: '350px' }}>
       <FlexBox sx={{ alignItems: 'center', flexDirection: 'column', gap: 4, flex: 1 }}>
         <SocialLinkWithLabel />
+        <SiteLinks align="center" />
       </FlexBox>
       <FlexBox sx={{ alignItems: 'center', flexDirection: 'column', gap: 4, flex: 1 }}>
         <LinkItem to="/blog/post/dpe-toiture" label="DPE Toiture" />

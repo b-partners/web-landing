@@ -165,10 +165,9 @@
 }
 
 /* ---------- Captures d'écran ---------- */
-.fonctionnalites-metre-page .grid2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 28px;
+.fonctionnalites-metre-page .shot1 {
+  max-width: 760px;
+  margin: 0 auto;
 }
 .fonctionnalites-metre-page .shotwrap {
   border-radius: 16px;
@@ -342,9 +341,6 @@
 @media (max-width: 760px) {
   .fonctionnalites-metre-page .hero p {
     text-align: left;
-  }
-  .fonctionnalites-metre-page .grid2 {
-    grid-template-columns: 1fr;
   }
   .fonctionnalites-metre-page .exgrid {
     grid-template-columns: 1fr 1fr;

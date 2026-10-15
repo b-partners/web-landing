@@ -26,10 +26,10 @@ export const Navbar = () => {
           ☰
         </button>
         <ul className="site-menu" id="site-nav-menu">
-          {LINKS.map(({ to, label }) => {
+          {LINKS.map(({ to, label, children }) => {
             const isExternal = to.startsWith('http');
             return (
-              <li key={to}>
+              <li key={to} className={children ? 'has-sub' : undefined}>
                 {isExternal ? (
                   <a href={to} target="_blank" rel="noreferrer">
                     {label}
@@ -38,6 +38,17 @@ export const Navbar = () => {
                   <Link to={to} className={location.pathname === to ? 'active' : ''}>
                     {label}
                   </Link>
+                )}
+                {children && (
+                  <ul className="site-sub">
+                    {children.map((child) => (
+                      <li key={child.to}>
+                        <Link to={child.to} className={location.pathname === child.to ? 'active' : ''}>
+                          {child.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
                 )}
               </li>
             );
