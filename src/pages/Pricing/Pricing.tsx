@@ -6,8 +6,6 @@ import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
 import './assets/css/tarifs.css';
 
-const Todo = ({ children }: { children: ReactNode }) => <mark className="todo">{children}</mark>;
-
 const ClockIcon = () => (
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
     <circle cx="12" cy="12" r="10" />
@@ -211,14 +209,6 @@ const faqItems: { question: string; answer: ReactNode }[] = [
     question: 'Qui peut souscrire ?',
     answer:
       'BIRDIA est réservé aux professionnels disposant d’un SIRET actif : couvreurs, étancheurs, charpentiers, diagnostiqueurs, bureaux d’études, assureurs, collectivités et activités assimilées.',
-  },
-  {
-    question: 'Comment est calculé le prix pour une collectivité ou un assureur ?',
-    answer: (
-      <>
-        Sur devis, selon <Todo>[À compléter : la surface du territoire ou le nombre de biens, les cas d'usage et le volume d'images]</Todo>.
-      </>
-    ),
   },
 ];
 

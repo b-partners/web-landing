@@ -35,6 +35,7 @@ Tracks pages added to the site outside the auto-generated `/template` SEO pages:
 - **Source**: `src/pages/Pricing` (from `tarifs.html`)
 - **Description**: The four CGU-named offers (À l'usage, Essentiel, Pro, Expert), quote-based offers for assureurs/collectivités, a feature-comparison table, a cost-vs-site-visit-vs-drone comparison, FAQ.
 - **Open TODOs**: every price and feature-table cell is still a placeholder (46 total) — pricing hasn't been decided yet.
+- **Hidden FAQ**: "Comment est calculé le prix pour une collectivité ou un assureur ?" was removed from the FAQ until its answer is known (surface/number of assets, use cases, image volume); restore it once decided.
 
 ### /contact-demo
 - **Source**: `src/pages/ContactDemo` (from `contact-demo.html`)
