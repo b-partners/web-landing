@@ -5,7 +5,6 @@ import { Env } from '@/common/utils/env';
 import { useUpdateMeta } from '@/common/utils/use-update-meta';
 
 import './assets/css/fonctionnalites-metre-et-mesures.css';
-import vue2d from './assets/img/vue-2d-contour-toiture.webp';
 import vue3d from './assets/img/vue-3d-pans-mesures.webp';
 
 const CheckIcon = () => (
@@ -128,28 +127,20 @@ export const FonctionnalitesMetresMesures = () => {
       <section className="sec">
         <div className="wrap">
           <h2 className="t" style={{ color: 'var(--orange)' }}>
-            Vue 2D, vue 3D : le même bâtiment, deux niveaux de détail
+            Vue 3D : le détail pan par pan
           </h2>
-          <p className="intro">Partez d'une simple adresse, affinez le contour du toit, puis basculez en 3D pour le détail pan par pan.</p>
-          <div className="grid2">
-            <div>
-              <div className="shotwrap">
-                <img src={vue2d} alt="Vue 2D : repérage du bâtiment et tracé du contour de toiture à partir d'une adresse" loading="lazy" />
-              </div>
-              <p className="shotcap">Vue 2D : repérage du bâtiment et tracé du contour de toiture à partir d'une adresse</p>
+          <p className="intro">Partez d'une simple adresse, affinez le contour du toit, puis découvrez le détail pan par pan en 3D.</p>
+          <div className="shot1">
+            <div className="shotwrap">
+              <img
+                src={vue3d}
+                alt="Vue 3D : 4 pans détectés, surface totale et pente par pan, bordures (rive, égout, arêtier, faîtage) mesurées individuellement"
+                loading="lazy"
+              />
             </div>
-            <div>
-              <div className="shotwrap">
-                <img
-                  src={vue3d}
-                  alt="Vue 3D : 4 pans détectés, surface totale et pente par pan, bordures (rive, égout, arêtier, faîtage) mesurées individuellement"
-                  loading="lazy"
-                />
-              </div>
-              <p className="shotcap">
-                Vue 3D : 4 pans détectés, surface totale et pente par pan, bordures (rive, égout, arêtier, faîtage) mesurées individuellement
-              </p>
-            </div>
+            <p className="shotcap">
+              Vue 3D : 4 pans détectés, surface totale et pente par pan, bordures (rive, égout, arêtier, faîtage) mesurées individuellement
+            </p>
           </div>
         </div>
       </section>
