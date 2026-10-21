@@ -8,7 +8,7 @@ const routeWithoutContext = [
   '/pour-qui/couvreurs',
   '/pour-qui/assureurs',
   '/pour-qui/collectivites',
-  '/pour-qui/foncieres-bailleurs-gestionnaires-de-patrimoine',
+  '/pour-qui/foncieres-bailleurs-gestionnaires',
   '/particuliers/diagnostic-toiture',
   '/a-propos',
   '/conditions-generales-d-utilisation',
